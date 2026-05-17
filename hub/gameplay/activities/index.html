@@ -586,6 +586,65 @@
       entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); ro.unobserve(e.target); } });
     }, { threshold: .1 });
     document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
+  
+  // Activity search filter
+    function filterCards(query) {
+      const q = query.toLowerCase().trim();
+      const cards = document.querySelectorAll('.intel-card');
+      const sections = document.querySelectorAll('.index-section');
+      cards.forEach(card => {
+        const name = card.querySelector('.intel-card__name')?.textContent?.toLowerCase() || '';
+        const desc = card.querySelector('.intel-card__desc')?.textContent?.toLowerCase() || '';
+        const badge = card.querySelector('.intel-card__badge')?.textContent?.toLowerCase() || '';
+        card.style.display = (!q || name.includes(q) || desc.includes(q) || badge.includes(q)) ? '' : 'none';
+      });
+      sections.forEach(section => {
+        const visible = [...section.querySelectorAll('.intel-card')].some(c => c.style.display !== 'none');
+        section.style.display = visible ? '' : 'none';
+      });
+    }
+    function handleSearch(e) {
+      e.preventDefault();
+      const q = document.getElementById('activity-search').value.trim();
+      if (q) window.open('https://www.google.com/search?q=site:gtavitips.com+' + encodeURIComponent(q), '_blank');
+    }
+  
+  // DROPDOWN NAV
+  (function() {
+    var wrap = document.querySelector('.nav__dropdown-wrap');
+    var btn = wrap && wrap.querySelector('.nav__dropdown-btn');
+    if (!btn) return;
+    var closeTimer = null;
+    function openMenu() {
+      clearTimeout(closeTimer);
+      wrap.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+    }
+    function closeMenu() {
+      closeTimer = setTimeout(function() {
+        wrap.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      }, 120);
+    }
+    wrap.addEventListener('mouseenter', openMenu);
+    wrap.addEventListener('mouseleave', closeMenu);
+    btn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      if (wrap.classList.contains('open')) { closeMenu(); } else { openMenu(); }
+    });
+    document.addEventListener('click', function(e) {
+      if (wrap && !wrap.contains(e.target)) {
+        wrap.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && wrap) {
+        wrap.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  })();
   </script>
 </body>
 </html>
