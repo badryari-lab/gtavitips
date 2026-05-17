@@ -146,7 +146,7 @@
         /faq/is-gtavitips-getting-a-gta-6-interactive-map
         /faq/is-gta-6-set-in-the-same-universe-as-gta-5
 
-      INTEL DROPS — Feb 1, 2026 snapshot (most recent)
+      UPDATES — May 17, 2026 snapshot (most recent)
         NEW:     /gameplay/gangs-and-factions/leonida-cartel
         NEW:     /gameplay/characters/boobie-ike
         NEW:     /gameplay/locations/red-hill-forest
@@ -335,8 +335,12 @@
     .db-rail-outer::before, .db-rail-outer::after { content: ''; position: absolute; top: 0; bottom: 0; width: 60px; z-index: 2; pointer-events: none; }
     .db-rail-outer::before { left: 0; background: linear-gradient(to right, var(--bg), transparent); }
     .db-rail-outer::after { right: 0; background: linear-gradient(to left, var(--bg), transparent); }
-    .db-rail { display: flex; gap: 10px; overflow-x: auto; padding: 4px 2px 16px; scrollbar-width: none; }
+    .db-rail { display: flex; gap: 10px; overflow-x: auto; padding: 4px 2px 16px; scrollbar-width: none; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
     .db-rail::-webkit-scrollbar { display: none; }
+    .db-card { scroll-snap-align: start; }
+    .db-rail-dots { display: flex; align-items: center; justify-content: center; gap: 6px; padding: 4px 0 0; }
+    .db-rail-dot { width: 6px; height: 6px; border-radius: 99px; background: var(--bg-4); border: none; cursor: pointer; padding: 0; transition: background .2s, width .2s; flex-shrink: 0; }
+    .db-rail-dot.active { width: 20px; background: var(--blue); }
     .db-card { flex-shrink: 0; width: 200px; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 24px 20px 20px; display: flex; flex-direction: column; gap: 16px; text-decoration: none; transition: border-color .2s, transform .2s, box-shadow .2s, background .2s; position: relative; overflow: hidden; }
     .db-card::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: var(--blue); opacity: 0; transition: opacity .2s; }
     .db-card:hover { border-color: var(--border-b); transform: translateY(-4px); box-shadow: 0 16px 40px rgba(0,0,0,.4); background: var(--bg-3); }
@@ -421,7 +425,7 @@
     .log__item-cat { font-size: 10px; color: var(--t3); text-align: right; white-space: nowrap; }
 
     /* ── CTA BLOCK ── */
-    .cta-block { border: 1px solid var(--border-b); border-radius: 18px; overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; }
+    .cta-block { border: 1px solid var(--border-b); border-radius: 18px; overflow: hidden; display: grid; grid-template-columns: 1fr; }
     .cta-block__left { padding: 56px 52px; position: relative; z-index: 1; }
     .cta-block__left-bg { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,95,144,.15) 0%, transparent 70%); pointer-events: none; }
     .cta-block__eyebrow { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; color: var(--pink); margin-bottom: 14px; display: block; }
@@ -433,13 +437,6 @@
     .btn-p:hover { opacity: .85; transform: translateY(-1px); }
     .btn-g { padding: 11px 26px; color: var(--t2); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; border-radius: 8px; border: 1px solid var(--border); transition: color .18s, border-color .18s, transform .15s; }
     .btn-g:hover { color: var(--t1); border-color: rgba(255,255,255,.18); transform: translateY(-1px); }
-    .cta-block__right { border-left: 1px solid var(--border-b); padding: 56px 40px; display: flex; flex-direction: column; justify-content: center; gap: 20px; position: relative; }
-    .cta-block__right-bg { position: absolute; inset: 0; background: linear-gradient(135deg, transparent, rgba(255,0,85,.04)); pointer-events: none; }
-    .cta-block__feature-label { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; color: var(--t3); margin-bottom: 4px; }
-    .cta-block__feature-items { list-style: none; display: flex; flex-direction: column; gap: 10px; }
-    .cta-block__feature-item { display: flex; align-items: center; gap: 12px; font-size: 13px; color: var(--t2); }
-    .cta-block__feature-item::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: var(--blue); flex-shrink: 0; }
-    .cta-block__feature-item strong { color: var(--t1); font-weight: 600; }
 
     /* ── FOOTER ── */
     .footer { border-top: 1px solid var(--border); padding: 52px 0 28px; }
@@ -475,7 +472,6 @@
       .briefing__visual-overlay { background: linear-gradient(to top, var(--bg-2), transparent 60%); }
       .briefing__content { border-left: none; border-top: 1px solid var(--border); }
       .cta-block { grid-template-columns: 1fr; }
-      .cta-block__right { border-left: none; border-top: 1px solid var(--border-b); }
       .footer__inner { grid-template-columns: 1fr 1fr; }
       .log__item { grid-template-columns: auto 1fr auto; }
       .log__item-date { display: none; }
@@ -487,7 +483,6 @@
       .intel-card--hero { grid-row: span 1; }
       .briefing__grid { grid-template-columns: 1fr 1fr; }
       .cta-block__left { padding: 36px 28px; }
-      .cta-block__right { padding: 28px; }
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
       .sec { padding: 64px 0; }
     }
@@ -629,7 +624,7 @@
 
             <div class="hero__micro" role="list" aria-label="Database statistics">
               <div class="hero__micro-item" role="listitem">
-                <div class="hero__micro-num"><b>312</b></div>
+                <div class="hero__micro-num"><b>322</b></div>
                 <div class="hero__micro-label">Database entries</div>
               </div>
               <div class="hero__micro-div" aria-hidden="true"></div>
@@ -664,31 +659,31 @@
               </div>
             </div>
 
-            <!-- Intel Drops panel: Feb 1 2026 confirmed drops only -->
-            <div class="hero__latest" role="complementary" aria-label="Latest Intel Drops">
+            <!-- Intel Drops panel: May 17 2026 -->
+            <div class="hero__latest" role="complementary" aria-label="Latest Updates">
               <div class="hero__latest-head">
-                <span>Intel Drops — Feb 1, 2026</span>
+                <span>Updates — May 17, 2026</span>
                 <a href="/intel-drops">Full log</a>
               </div>
               <ul class="hero__latest-list">
-                <a href="/gameplay/gangs-and-factions/leonida-cartel" class="hero__latest-item">
+                <a href="/gameplay/characters/lucia-caminos" class="hero__latest-item">
                   <span class="hero__latest-dot" aria-hidden="true"></span>
-                  <span class="hero__latest-text"><strong>Leonida Cartel</strong> faction profile added to the database.</span>
+                  <span class="hero__latest-text"><strong>Lucia Caminos</strong> protagonist dossier live. Intel log and known connections filed.</span>
                   <span class="hero__latest-badge">New</span>
                 </a>
-                <a href="/gameplay/characters/boobie-ike" class="hero__latest-item">
+                <a href="/gameplay/locations/vice-city" class="hero__latest-item">
                   <span class="hero__latest-dot" aria-hidden="true"></span>
-                  <span class="hero__latest-text"><strong>Boobie Ike</strong> character profile live with verified intel log.</span>
+                  <span class="hero__latest-text"><strong>Vice City</strong> location profile upgraded. Field intel expanded, operator notes added.</span>
+                  <span class="hero__latest-badge">Upgrade</span>
+                </a>
+                <a href="/gameplay/vehicles/karin-sultan-rs" class="hero__latest-item">
+                  <span class="hero__latest-dot" aria-hidden="true"></span>
+                  <span class="hero__latest-text"><strong>Karin Sultan RS</strong> vehicle profile live. High Rollerz connection confirmed.</span>
                   <span class="hero__latest-badge">New</span>
                 </a>
-                <a href="/gameplay/locations/red-hill-forest" class="hero__latest-item">
+                <a href="/gameplay/animals/flamingo" class="hero__latest-item">
                   <span class="hero__latest-dot" aria-hidden="true"></span>
-                  <span class="hero__latest-text"><strong>Red Hill Forest</strong> location entry added to the Leonida stack.</span>
-                  <span class="hero__latest-badge">New</span>
-                </a>
-                <a href="/gameplay/vehicles/grotti-furia" class="hero__latest-item">
-                  <span class="hero__latest-dot" aria-hidden="true"></span>
-                  <span class="hero__latest-text"><strong>Grotti Furia</strong> vehicle profile live with sightings and automotive intel.</span>
+                  <span class="hero__latest-text"><strong>Flamingo</strong> filed under animals. Confirmed in coastal sequences.</span>
                   <span class="hero__latest-badge">New</span>
                 </a>
               </ul>
@@ -702,20 +697,20 @@
         <div class="hero__strip-label" aria-hidden="true">Confirmed Intel</div>
         <div class="hero__strip-track-wrap">
           <div class="hero__strip-track" aria-hidden="true">
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Lucia Caminos — Protagonist — Trailer 1</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Jason Duval — Protagonist — Trailer 1</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Vice City — Primary map — Trailer 1</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Lucia Caminos — Protagonist</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Jason Duval — Protagonist</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Vice City — Primary map</span>
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Leonida — State setting — Rockstar Newswire</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Port Gellhorn — Industrial hub — Trailer 2</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Brute Security — Armored transport faction — Trailer 2</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Port Gellhorn — Industrial hub</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Brute Security — Armored transport faction</span>
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Release date: November 19, 2026 — Rockstar Newswire</span>
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--amber)"></span>Interactive map in development. Target: launch day.</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Lucia Caminos — Protagonist — Trailer 1</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Jason Duval — Protagonist — Trailer 1</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Vice City — Primary map — Trailer 1</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Lucia Caminos — Protagonist</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Jason Duval — Protagonist</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Vice City — Primary map</span>
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Leonida — State setting — Rockstar Newswire</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Port Gellhorn — Industrial hub — Trailer 2</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Brute Security — Armored transport faction — Trailer 2</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Port Gellhorn — Industrial hub</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Brute Security — Armored transport faction</span>
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Release date: November 19, 2026 — Rockstar Newswire</span>
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--amber)"></span>Interactive map in development. Target: launch day.</span>
           </div>
@@ -729,7 +724,7 @@
         <div class="sec__top">
           <div>
             <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">The Database</span></div>
-            <h2 class="sec__hd reveal" id="db-hd">What's Filed <span>In Leonida</span></h2>
+            <h2 class="sec__hd reveal" id="db-hd"><span>Browse</span></h2>
           </div>
           <a href="/gameplay" class="sec__viewall reveal d1">Full Database</a>
         </div>
@@ -748,7 +743,7 @@
             <a href="/gameplay/brands" class="db-card reveal d2" role="listitem">
               <div class="db-card__cat">Food, fashion, media, auto</div>
               <div class="db-card__name">Brands</div>
-              <div class="db-card__foot"><div class="db-card__count"><b>50</b> entries</div><div class="db-card__arr" aria-hidden="true">→</div></div>
+              <div class="db-card__foot"><div class="db-card__count"><b>60</b> entries</div><div class="db-card__arr" aria-hidden="true">→</div></div>
             </a>
             <a href="/gameplay/characters" class="db-card reveal d3" role="listitem">
               <div class="db-card__cat">Protagonists, associates</div>
@@ -776,46 +771,7 @@
               <div class="db-card__foot"><div class="db-card__count"><b>25</b> entries</div><div class="db-card__arr" aria-hidden="true">→</div></div>
             </a>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ENTITY BRIEFING — Boobie Ike. Sourced from /gameplay/characters/boobie-ike. Added Feb 1 2026. -->
-    <section class="sec" style="padding-top:0" aria-labelledby="briefing-hd">
-      <div class="wrap">
-        <div class="sec__top">
-          <div>
-            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Filed Feb 1, 2026</span></div>
-            <h2 class="sec__hd reveal" id="briefing-hd">New Profile: <span>Boobie Ike</span></h2>
-          </div>
-          <a href="/gameplay/characters" class="sec__viewall reveal d1">All Characters</a>
-        </div>
-        <div class="briefing reveal">
-          <div class="briefing__visual">
-            <div class="briefing__visual-bg" aria-hidden="true"></div>
-            <div class="briefing__visual-letter" aria-hidden="true">B</div>
-            <!-- IMAGE PLACEHOLDER: boobie-ike-gta-6-character.jpg — drop in without restructuring -->
-            <div class="briefing__visual-overlay" aria-hidden="true"></div>
-            <div class="briefing__visual-bottom">
-              <span class="briefing__status" role="img" aria-label="Confirmed Active">Confirmed Active</span>
-              <div class="briefing__visual-name">Boobie<br>Ike</div>
-            </div>
-          </div>
-          <div class="briefing__content">
-            <span class="briefing__label">Mogul — GTA 6</span>
-            <h3 class="briefing__h">Boobie Ike</h3>
-            <p class="briefing__role">Club Owner — Vice City, Leonida</p>
-            <p class="briefing__desc">
-              Street-to-boardroom. Boobie Ike runs a diversified Vice City empire: a flagship nightclub, a private recording studio, and a reputation that holds weight on both sides of the law. Spotted overseeing operations at his venue at Trailer 2. Back in the studio with Dre'Quan Priest fifteen seconds later.
-            </p>
-            <div class="briefing__grid" role="list">
-              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Status</div><div class="briefing__cell-val">Confirmed Active</div></div>
-              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Role</div><div class="briefing__cell-val">Empire Builder</div></div>
-              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Assets</div><div class="briefing__cell-val">Vice City Properties</div></div>
-              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Associate</div><div class="briefing__cell-val">Dre'Quan Priest</div></div>
-            </div>
-            <a href="/gameplay/characters/boobie-ike" class="briefing__cta">Open Full Dossier</a>
-          </div>
+          <div class="db-rail-dots" id="db-dots" role="tablist" aria-label="Database categories navigation"></div>
         </div>
       </div>
     </section>
@@ -876,57 +832,97 @@
       </div>
     </section>
 
-    <!-- INTEL LOG — Feb 1 2026 drops only, sourced from intel-drops page -->
+    <!-- ENTITY BRIEFING — Dre'Quan Priest -->
+    <section class="sec" style="padding-top:0" aria-labelledby="briefing-hd">
+      <div class="wrap">
+        <div class="sec__top">
+          <div>
+            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Filed May 17, 2026</span></div>
+            <h2 class="sec__hd reveal" id="briefing-hd">New Profile: <span>Dre'Quan Priest</span></h2>
+          </div>
+          <a href="/gameplay/characters" class="sec__viewall reveal d1">All Characters</a>
+        </div>
+        <div class="briefing reveal">
+          <div class="briefing__visual">
+            <div class="briefing__visual-bg" aria-hidden="true"></div>
+            <div class="briefing__visual-letter" aria-hidden="true">D</div>
+            <!-- IMAGE PLACEHOLDER: dre-quan-priest-gta-6-character.jpg — drop in without restructuring -->
+            <div class="briefing__visual-overlay" aria-hidden="true"></div>
+            <div class="briefing__visual-bottom">
+              <span class="briefing__status" role="img" aria-label="Confirmed Active">Confirmed Active</span>
+              <div class="briefing__visual-name">Dre'Quan<br>Priest</div>
+            </div>
+          </div>
+          <div class="briefing__content">
+            <span class="briefing__label">Music Entrepreneur — GTA 6</span>
+            <h3 class="briefing__h">Dre'Quan Priest</h3>
+            <p class="briefing__role">Founder, Only Raw Records</p>
+            <p class="briefing__desc">
+              Started running bookings for Boobie Ike's venues before he had a label of his own. That access gave him what money alone could not buy. Only Raw Records is the result. Independent operation. Real Dimez on the roster. Building the music industry from the inside out.
+            </p>
+            <div class="briefing__grid" role="list">
+              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Status</div><div class="briefing__cell-val">Confirmed Active</div></div>
+              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Role</div><div class="briefing__cell-val">Music Entrepreneur</div></div>
+              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Venture</div><div class="briefing__cell-val">Only Raw Records</div></div>
+              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Partner</div><div class="briefing__cell-val">Boobie Ike</div></div>
+            </div>
+            <a href="/gameplay/characters/dre-quan-priest" class="briefing__cta">Open Full Dossier</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTEL LOG — May 17, 2026 -->
     <section class="sec" style="padding-top:0" aria-labelledby="log-hd">
       <div class="wrap">
         <div class="sec__top">
           <div>
-            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Database Activity</span></div>
-            <h2 class="sec__hd reveal" id="log-hd">Intel <span>Drops</span></h2>
+            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Recent Updates</span></div>
+            <h2 class="sec__hd reveal" id="log-hd">Latest <span>Updates</span></h2>
           </div>
           <a href="/intel-drops" class="sec__viewall reveal d1">Full Changelog</a>
         </div>
         <div class="log reveal">
           <div class="log__head">
-            <div class="log__head-left"><div class="log__head-dot" aria-hidden="true"></div><span class="log__head-title">Snapshot: Feb 1, 2026</span></div>
+            <div class="log__head-left"><div class="log__head-dot" aria-hidden="true"></div><span class="log__head-title">May 17, 2026</span></div>
             <a href="/intel-drops" class="log__head-link">View All Drops</a>
           </div>
           <ul class="log__list" role="list">
-            <a href="/gameplay/gangs-and-factions/leonida-cartel" class="log__item" role="listitem">
-              <span class="log__item-date">Feb 1</span>
+            <a href="/gameplay/gangs-and-factions/7x" class="log__item" role="listitem">
+              <span class="log__item-date">May 17</span>
               <span class="log__item-badge log__item-badge--blue">New</span>
-              <span class="log__item-text"><strong>Leonida Cartel</strong> faction profile added and indexed.</span>
+              <span class="log__item-text"><strong>7X</strong> faction profile live. Vice City's dominant street gang. Territory, enterprise, and sighting log filed.</span>
               <span class="log__item-cat">Factions</span>
             </a>
-            <a href="/gameplay/characters/boobie-ike" class="log__item" role="listitem">
-              <span class="log__item-date">Feb 1</span>
-              <span class="log__item-badge log__item-badge--blue">New</span>
-              <span class="log__item-text"><strong>Boobie Ike</strong> profile live. Club and label owner. Intel log and connections filed.</span>
-              <span class="log__item-cat">Characters</span>
-            </a>
-            <a href="/gameplay/locations/red-hill-forest" class="log__item" role="listitem">
-              <span class="log__item-date">Feb 1</span>
-              <span class="log__item-badge log__item-badge--blue">New</span>
-              <span class="log__item-text"><strong>Red Hill Forest</strong> added to the location stack. Woodland area, Leonida interior.</span>
-              <span class="log__item-cat">Locations</span>
-            </a>
-            <a href="/gameplay/locations/vice-county" class="log__item" role="listitem">
-              <span class="log__item-date">Feb 1</span>
-              <span class="log__item-badge log__item-badge--blue">New</span>
-              <span class="log__item-text"><strong>Vice County</strong> regional overview live. Anchors all location, faction, and activity intel for the county.</span>
-              <span class="log__item-cat">Locations</span>
-            </a>
-            <a href="/gameplay/vehicles/grotti-furia" class="log__item" role="listitem">
-              <span class="log__item-date">Feb 1</span>
-              <span class="log__item-badge log__item-badge--blue">New</span>
-              <span class="log__item-text"><strong>Grotti Furia</strong> hypercar profile live. Sightings logged, automotive intel filed.</span>
-              <span class="log__item-cat">Vehicles</span>
-            </a>
-            <a href="/gameplay/locations/vice-city" class="log__item" role="listitem">
-              <span class="log__item-date">Feb 1</span>
+            <a href="/gameplay/locations/port-gellhorn" class="log__item" role="listitem">
+              <span class="log__item-date">May 17</span>
               <span class="log__item-badge log__item-badge--green">Upgrade</span>
-              <span class="log__item-text"><strong>Vice City</strong> sightings log standardised. Evidence first. Faster read for returning operators.</span>
+              <span class="log__item-text"><strong>Port Gellhorn</strong> expanded. Industrial corridor intel added. Faction presence and vehicle sightings updated.</span>
               <span class="log__item-cat">Locations</span>
+            </a>
+            <a href="/gameplay/animals/florida-panther" class="log__item" role="listitem">
+              <span class="log__item-date">May 17</span>
+              <span class="log__item-badge log__item-badge--blue">New</span>
+              <span class="log__item-text"><strong>Florida Panther</strong> filed. LETHAL threat level. Confirmed in Leonida interior footage.</span>
+              <span class="log__item-cat">Animals</span>
+            </a>
+            <a href="/gameplay/weapons/heavy-revolver" class="log__item" role="listitem">
+              <span class="log__item-date">May 17</span>
+              <span class="log__item-badge log__item-badge--green">Upgrade</span>
+              <span class="log__item-text"><strong>Heavy Revolver</strong> confirmed carrier section expanded. Jason Duval sighting cross-referenced.</span>
+              <span class="log__item-cat">Weapons</span>
+            </a>
+            <a href="/gameplay/activities/street-takeovers" class="log__item" role="listitem">
+              <span class="log__item-date">May 17</span>
+              <span class="log__item-badge log__item-badge--blue">New</span>
+              <span class="log__item-text"><strong>Street Takeovers</strong> activity profile live. High Rollerz connection filed. Confirmed in official footage.</span>
+              <span class="log__item-cat">Activities</span>
+            </a>
+            <a href="/gameplay/characters/raul-bautista" class="log__item" role="listitem">
+              <span class="log__item-date">May 17</span>
+              <span class="log__item-badge log__item-badge--green">Upgrade</span>
+              <span class="log__item-text"><strong>Raul Bautista</strong> intel log updated. Port Gellhorn corridor connection confirmed.</span>
+              <span class="log__item-cat">Characters</span>
             </a>
           </ul>
         </div>
@@ -947,18 +943,6 @@
               <a href="/intel-drops" class="btn-g">Intel Drops Log</a>
             </div>
           </div>
-          <div class="cta-block__right">
-            <div class="cta-block__right-bg" aria-hidden="true"></div>
-            <div class="cta-block__feature-label">Day one targets</div>
-            <ul class="cta-block__feature-items">
-              <li class="cta-block__feature-item"><strong>Interactive Leonida map</strong> — mobile-first, in development now</li>
-              <li class="cta-block__feature-item"><strong>Mission walkthroughs</strong> built as players clear the story</li>
-              <li class="cta-block__feature-item"><strong>Money-making guides</strong> — fastest routes, best early plays</li>
-              <li class="cta-block__feature-item"><strong>Vehicle location database</strong> filed from community sightings</li>
-              <li class="cta-block__feature-item"><strong>GTA Online section</strong> — economy, tutorials, matchmaking, easter eggs</li>
-              <li class="cta-block__feature-item"><strong>Easter eggs database</strong> and community discovery log</li>
-              <li class="cta-block__feature-item"><strong>Faction territory map</strong> updated in real time post-launch</li>
-            </ul>
           </div>
         </div>
       </div>
@@ -1062,7 +1046,37 @@
       });
     }, { threshold: .1 });
     document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
-  
+
+    // DB RAIL DOTS
+    (function() {
+      var rail = document.querySelector('.db-rail');
+      var dotsWrap = document.getElementById('db-dots');
+      if (!rail || !dotsWrap) return;
+      var cards = rail.querySelectorAll('.db-card');
+      var dots = [];
+      cards.forEach(function(card, i) {
+        var dot = document.createElement('button');
+        dot.className = 'db-rail-dot' + (i === 0 ? ' active' : '');
+        dot.setAttribute('aria-label', card.querySelector('.db-card__name').textContent.trim());
+        dot.setAttribute('role', 'tab');
+        dot.addEventListener('click', function() {
+          rail.scrollTo({ left: card.offsetLeft - 2, behavior: 'smooth' });
+        });
+        dotsWrap.appendChild(dot);
+        dots.push(dot);
+      });
+      rail.addEventListener('scroll', function() {
+        var center = rail.scrollLeft + rail.offsetWidth / 2;
+        var closest = 0;
+        var minDist = Infinity;
+        cards.forEach(function(card, i) {
+          var dist = Math.abs(card.offsetLeft + card.offsetWidth / 2 - center);
+          if (dist < minDist) { minDist = dist; closest = i; }
+        });
+        dots.forEach(function(d, i) { d.classList.toggle('active', i === closest); });
+      }, { passive: true });
+    })();
+
   // DROPDOWN NAV
   (function() {
     var wrap = document.querySelector('.nav__dropdown-wrap');
