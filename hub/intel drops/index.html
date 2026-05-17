@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intel Drops | GTA 6 Database Changelog | GTAVITIPS</title>
+  <meta name="description" content="Every update to the GTAVITIPS GTA 6 database. New profiles, upgrades, and verified intel drops logged by date and source.">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Intel Drops | GTA 6 Database Changelog | GTAVITIPS">
+  <meta property="og:description" content="Every update to the GTAVITIPS GTA 6 database. New profiles, upgrades, and verified intel drops logged by date and source.">
+  <meta property="og:url" content="https://gtavitips.com/intel-drops">
+  <!-- OG IMAGE PLACEHOLDER: replace with gtavitips-intel-drops-og.jpg when available -->
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://gtavitips.com/intel-drops">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Intel Drops — GTAVITIPS Database Changelog",
+    "description": "Every update to the GTAVITIPS GTA 6 database. New profiles, upgrades, and verified intel logged by date and source.",
+    "url": "https://gtavitips.com/intel-drops",
+    "dateModified": "2026-05-17",
+    "publisher": { "@type": "Organization", "name": "GTAVITIPS", "url": "https://gtavitips.com" }
+  }
+  </script>
+
+  <style>
+    :root {
+      --blue:        #005f90;
+      --blue-dim:    rgba(0,95,144,0.12);
+      --blue-border: rgba(0,95,144,0.28);
+      --pink:        #ff0055;
+      --pink-dim:    rgba(255,0,85,0.10);
+      --green:       #28a745;
+      --green-dim:   rgba(40,167,69,0.12);
+      --amber:       #ffc107;
+      --amber-dim:   rgba(255,193,7,0.12);
+      --red:         #dc3545;
+      --red-dim:     rgba(220,53,69,0.12);
+      --bg:          #080c12;
+      --bg-2:        #0d1320;
+      --bg-3:        #131c2e;
+      --bg-4:        #192236;
+      --border:      rgba(255,255,255,0.06);
+      --border-b:    rgba(0,95,144,0.22);
+      --t1:          #eef2f7;
+      --t2:          #7e8fa3;
+      --t3:          #445060;
+      --r:           12px;
+      --nav-h:       62px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+    body { font-family: 'Poppins', sans-serif; background: var(--bg); color: var(--t1); overflow-x: hidden; font-size: 16px; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+    ::selection { background: var(--blue); color: #fff; }
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--bg-4); border-radius: 99px; }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
+
+    /* NAV */
+    .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; height: var(--nav-h); display: flex; align-items: center; background: rgba(8,12,18,.95); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border-b); }
+    .nav__inner { width: 100%; max-width: 1120px; margin: 0 auto; padding: 0 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .nav__logo { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--t1); flex-shrink: 0; }
+    .nav__logo-badge { width: 30px; height: 30px; background: var(--blue); border-radius: 7px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 900; color: #fff; letter-spacing: -.5px; }
+    .nav__links { display: flex; align-items: center; gap: 2px; list-style: none; }
+    .nav__links a { padding: 5px 13px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t2); border-radius: 99px; transition: color .18s, background .18s; }
+    .nav__links a:hover { color: var(--t1); background: rgba(255,255,255,.05); }
+    .nav__links a.active { color: var(--blue); }
+    .nav__right { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+    .nav__search-btn { width: 34px; height: 34px; border-radius: 8px; background: rgba(255,255,255,.05); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--t2); transition: color .18s, background .18s; }
+    .nav__search-btn:hover { color: var(--t1); background: rgba(255,255,255,.09); }
+    .nav__search-btn svg { width: 15px; height: 15px; }
+    .nav__db-btn { padding: 7px 18px; background: var(--blue); color: #fff; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border-radius: 8px; transition: opacity .18s, transform .15s; }
+    .nav__db-btn:hover { opacity: .85; transform: translateY(-1px); }
+    .nav__burger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px; }
+    .nav__burger span { display: block; width: 20px; height: 1.5px; background: var(--t2); border-radius: 99px; }
+    .nav__mobile { display: none; position: fixed; top: var(--nav-h); left: 0; right: 0; background: rgba(8,12,18,.98); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border-b); padding: 16px 28px 24px; flex-direction: column; gap: 2px; z-index: 199; }
+    .nav__mobile.open { display: flex; }
+    .nav__mobile a { padding: 11px 14px; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t2); border-radius: 9px; transition: .18s; }
+    .nav__mobile a:hover { color: var(--t1); background: rgba(255,255,255,.05); }
+
+    /* NAV DROPDOWN */
+    .nav__dropdown-wrap { position: relative; }
+    .nav__dropdown-btn { background: none; border: none; cursor: pointer; font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 600; color: var(--blue); text-transform: uppercase; letter-spacing: .06em; padding: 0; display: flex; align-items: center; gap: 4px; transition: opacity .15s; }
+    .nav__dropdown-btn:hover { opacity: .75; }
+    .nav__dropdown-chevron { width: 12px; height: 12px; transition: transform .2s; flex-shrink: 0; }
+    .nav__dropdown-wrap.open .nav__dropdown-chevron { transform: rotate(180deg); }
+    .nav__dropdown { position: absolute; top: 100%; left: 50%; background: var(--bg-2); border: 1px solid var(--border-b); border-radius: 12px; padding: 14px 6px 6px; min-width: 200px; box-shadow: 0 12px 32px rgba(0,0,0,.18); opacity: 0; pointer-events: none; transition: opacity .18s, transform .18s; transform: translateX(-50%) translateY(-6px); list-style: none; margin: 0; z-index: 200; }
+    .nav__dropdown li { list-style: none; padding: 0; margin: 0; }
+    .nav__dropdown-wrap.open .nav__dropdown { opacity: 1; pointer-events: all; transform: translateX(-50%) translateY(0); }
+    .nav__dropdown li a { display: block; padding: 9px 14px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t2); text-decoration: none; border-radius: 8px; transition: background .15s, color .15s; white-space: nowrap; }
+    .nav__dropdown li a:hover { background: var(--bg-3); color: var(--blue); }
+    @media(max-width: 860px) {
+      .nav__dropdown-wrap { width: 100%; }
+      .nav__dropdown-btn { width: 100%; justify-content: space-between; padding: 11px 14px; font-size: 13px; background: none; border-radius: 9px; }
+      .nav__dropdown-btn:hover { background: rgba(255,255,255,.05); color: var(--t1); }
+      .nav__dropdown { position: static; transform: none; opacity: 1; pointer-events: all; box-shadow: none; border: none; border-radius: 0; background: none; padding: 0 0 0 14px; display: none; }
+      .nav__dropdown-wrap.open .nav__dropdown { display: block; transform: none; }
+      .nav__dropdown li a { color: var(--t3); font-size: 12px; }
+    }
+
+    /* SEARCH OVERLAY */
+    .search-overlay { position: fixed; inset: 0; z-index: 300; background: rgba(8,12,18,.92); backdrop-filter: blur(24px); display: flex; align-items: flex-start; justify-content: center; padding-top: 120px; opacity: 0; pointer-events: none; transition: opacity .22s; }
+    .search-overlay.open { opacity: 1; pointer-events: all; }
+    .search-overlay__inner { width: 100%; max-width: 640px; padding: 0 28px; }
+    .search-overlay__label { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; color: var(--pink); margin-bottom: 14px; }
+    .search-overlay__field { display: flex; align-items: center; background: var(--bg-3); border: 1px solid var(--blue-border); border-radius: 12px; overflow: hidden; }
+    .search-overlay__field svg { width: 18px; height: 18px; color: var(--t3); margin-left: 18px; flex-shrink: 0; }
+    .search-overlay__input { flex: 1; padding: 16px 18px; background: none; border: none; outline: none; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 500; color: var(--t1); }
+    .search-overlay__input::placeholder { color: var(--t3); }
+    .search-overlay__close { padding: 10px 16px; background: none; border: none; font-size: 12px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--t3); cursor: pointer; transition: color .18s; }
+    .search-overlay__close:hover { color: var(--t1); }
+    .search-overlay__hint { margin-top: 12px; font-size: 12px; color: var(--t3); }
+    .search-overlay__hint kbd { background: var(--bg-4); border: 1px solid var(--border); border-radius: 5px; padding: 2px 7px; font-family: inherit; font-size: 11px; color: var(--t2); }
+
+    /* PAGE HEADER */
+    .page-header { padding: calc(var(--nav-h) + 56px) 0 52px; border-bottom: 1px solid var(--border); position: relative; overflow: hidden; }
+    .page-header__bg { position: absolute; inset: 0; pointer-events: none; }
+    .page-header__bg-orb { position: absolute; width: 700px; height: 400px; background: radial-gradient(ellipse, rgba(0,95,144,.14) 0%, transparent 65%); top: -120px; right: -180px; }
+    .page-header__eyebrow { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+    .page-header__eyebrow-line { width: 20px; height: 2px; background: var(--pink); }
+    .page-header__eyebrow-text { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; color: var(--pink); }
+    .page-header__h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 900; text-transform: uppercase; letter-spacing: -.02em; color: var(--t1); line-height: .95; margin-bottom: 16px; }
+    .page-header__h1 span { color: var(--blue); }
+    .page-header__sub { font-size: 15px; color: var(--t2); max-width: 560px; line-height: 1.7; }
+
+    /* MAIN */
+    main { padding: 64px 0 96px; }
+    .drops-layout { display: grid; grid-template-columns: 1fr 280px; gap: 48px; align-items: start; }
+
+    /* DROP ENTRY */
+    .drop { margin-bottom: 48px; }
+    .drop:last-child { margin-bottom: 0; }
+    .drop__head { display: flex; align-items: center; gap: 16px; margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+    .drop__date { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .10em; color: var(--t3); white-space: nowrap; }
+    .drop__divider { width: 1px; height: 16px; background: var(--border); flex-shrink: 0; }
+    .drop__source-badge { display: inline-flex; align-items: center; gap: 6px; font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .10em; padding: 4px 11px; border-radius: 99px; }
+    .drop__source-badge--official { background: var(--green-dim); color: var(--green); border: 1px solid rgba(40,167,69,.22); }
+    .drop__source-badge--internal { background: var(--blue-dim); color: var(--blue); border: 1px solid var(--blue-border); }
+    .drop__source-badge--leaker { background: var(--amber-dim); color: var(--amber); border: 1px solid rgba(255,193,7,.22); }
+    .drop__title { font-size: clamp(18px, 2.5vw, 24px); font-weight: 700; text-transform: uppercase; letter-spacing: .02em; color: var(--t1); margin-bottom: 12px; line-height: 1.2; }
+    .drop__context { font-size: 14px; color: var(--t2); line-height: 1.85; margin-bottom: 24px; }
+    .drop__context strong { color: var(--t1); font-weight: 600; }
+
+    /* ENTRY LIST */
+    .drop__entries { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
+    .drop__entries-head { padding: 12px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+    .drop__entries-label { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--t3); }
+    .drop__entries-count { font-size: 11px; font-weight: 700; color: var(--blue); }
+    .drop__entry { display: flex; align-items: flex-start; gap: 14px; padding: 16px 20px; border-bottom: 1px solid var(--border); text-decoration: none; transition: background .18s; }
+    .drop__entry:last-child { border-bottom: none; }
+    .drop__entry:hover { background: rgba(255,255,255,.025); }
+    .drop__entry-badge { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .09em; padding: 3px 9px; border-radius: 99px; white-space: nowrap; flex-shrink: 0; margin-top: 2px; }
+    .drop__entry-badge--new { background: var(--blue-dim); color: var(--blue); border: 1px solid var(--blue-border); }
+    .drop__entry-badge--upgrade { background: var(--green-dim); color: var(--green); border: 1px solid rgba(40,167,69,.22); }
+    .drop__entry-badge--fix { background: var(--amber-dim); color: var(--amber); border: 1px solid rgba(255,193,7,.22); }
+    .drop__entry-body { flex: 1; min-width: 0; }
+    .drop__entry-name { font-size: 13px; font-weight: 700; color: var(--t1); line-height: 1.3; margin-bottom: 3px; }
+    .drop__entry-desc { font-size: 12px; color: var(--t2); line-height: 1.5; }
+    .drop__entry-cat { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--t3); white-space: nowrap; flex-shrink: 0; padding-top: 3px; }
+
+    /* SIDEBAR */
+    .drops-side { position: sticky; top: calc(var(--nav-h) + 24px); display: flex; flex-direction: column; gap: 14px; }
+    .side-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
+    .side-card__head { padding: 14px 18px; border-bottom: 1px solid var(--border); font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--t3); }
+    .side-card__list { list-style: none; }
+    .side-card__item { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 11px 18px; border-bottom: 1px solid var(--border); font-size: 12px; color: var(--t2); }
+    .side-card__item:last-child { border-bottom: none; }
+    .side-card__item-label { font-weight: 600; color: var(--t1); }
+    .side-card__item-val { font-size: 11px; color: var(--blue); font-weight: 700; }
+    .side-card__item-link { color: var(--t2); font-weight: 600; transition: color .18s; }
+    .side-card__item-link:hover { color: var(--blue); }
+    .side-nav__item { display: block; padding: 10px 18px; font-size: 12px; font-weight: 600; color: var(--t2); border-bottom: 1px solid var(--border); transition: color .18s, background .18s; }
+    .side-nav__item:last-child { border-bottom: none; }
+    .side-nav__item:hover { color: var(--t1); background: rgba(255,255,255,.03); }
+    .side-nav__item-date { display: block; font-size: 10px; color: var(--t3); margin-top: 2px; font-weight: 400; }
+
+    /* FOOTER */
+    .footer { border-top: 1px solid var(--border); padding: 52px 0 28px; }
+    .footer__inner { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
+    .footer__brand { display: flex; flex-direction: column; gap: 12px; }
+    .footer__brand-logo { display: flex; align-items: center; gap: 9px; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--t1); }
+    .footer__brand-badge { width: 28px; height: 28px; background: var(--blue); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 900; color: #fff; }
+    .footer__brand-desc { font-size: 13px; color: var(--t3); line-height: 1.7; }
+    .footer__col-head { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--t2); margin-bottom: 14px; }
+    .footer__links { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .footer__links a { font-size: 13px; color: var(--t3); transition: color .18s; }
+    .footer__links a:hover { color: var(--t2); }
+    .footer__bottom { border-top: 1px solid var(--border); padding-top: 22px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    .footer__legal { font-size: 12px; color: var(--t3); line-height: 1.6; }
+
+    /* REVEAL */
+    .reveal { opacity: 0; transform: translateY(20px); transition: opacity .5s ease, transform .5s ease; }
+    .reveal.on { opacity: 1; transform: none; }
+    .reveal.d1 { transition-delay: .07s; }
+    .reveal.d2 { transition-delay: .14s; }
+
+    /* RESPONSIVE */
+    @media (max-width: 1024px) {
+      .drops-layout { grid-template-columns: 1fr; }
+      .drops-side { position: static; flex-direction: row; flex-wrap: wrap; }
+      .drops-side > * { flex: 1 1 240px; }
+      .footer__inner { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 768px) {
+      .nav__links, .nav__db-btn { display: none; }
+      .nav__burger { display: flex; }
+      .drop__entry { gap: 10px; }
+      .drop__entry-cat { display: none; }
+      .footer__inner { grid-template-columns: 1fr; gap: 28px; }
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg: #f3f6fa; --bg-2: #ffffff; --bg-3: #f0f3f8; --bg-4: #e8ecf2; --border: rgba(0,0,0,.07); --border-b: rgba(0,95,144,.20); --t1: #111827; --t2: #4b5563; --t3: #9ca3af; }
+      .nav { background: rgba(243,246,250,.95); }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo" aria-label="GTAVITIPS home">
+        <div class="nav__logo-badge" aria-hidden="true">VI</div>
+        GTAVITIPS
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="/news">News</a></li>
+        <li class="nav__dropdown-wrap">
+          <button class="nav__dropdown-btn" aria-expanded="false" aria-haspopup="true">
+            Database
+            <svg class="nav__dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <ul class="nav__dropdown" role="menu">
+            <li role="none"><a href="/gameplay/activities" role="menuitem">Activities</a></li>
+            <li role="none"><a href="/gameplay/animals" role="menuitem">Animals</a></li>
+            <li role="none"><a href="/gameplay/brands" role="menuitem">Brands</a></li>
+            <li role="none"><a href="/gameplay/characters" role="menuitem">Characters</a></li>
+            <li role="none"><a href="/gameplay/gangs-and-factions" role="menuitem">Gangs &amp; Factions</a></li>
+            <li role="none"><a href="/gameplay/locations" role="menuitem">Locations</a></li>
+            <li role="none"><a href="/gameplay/vehicles" role="menuitem">Vehicles</a></li>
+            <li role="none"><a href="/gameplay/weapons" role="menuitem">Weapons</a></li>
+          </ul>
+        </li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/intel-drops" class="active">Intel Drops</a></li>
+      </ul>
+      <div class="nav__right">
+        <button class="nav__search-btn" id="search-open" aria-label="Search the database">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <a href="/gameplay" class="nav__db-btn">Browse Database</a>
+      </div>
+      <button class="nav__burger" id="burger" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <nav class="nav__mobile" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="/news">News</a>
+    <a href="/gameplay">Database</a>
+    <a href="/gameplay/characters">Characters</a>
+    <a href="/gameplay/vehicles">Vehicles</a>
+    <a href="/gameplay/locations">Locations</a>
+    <a href="/faq">FAQ</a>
+    <a href="/intel-drops">Intel Drops</a>
+  </nav>
+
+  <div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search the database">
+    <div class="search-overlay__inner">
+      <div class="search-overlay__label">Search the Database</div>
+      <div class="search-overlay__field">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" id="search-input" class="search-overlay__input" placeholder="Lucia, Pegassi, Vice City, 7X..." autocomplete="off" aria-label="Search query">
+        <button class="search-overlay__close" id="search-close">Close</button>
+      </div>
+      <p class="search-overlay__hint">Press <kbd>Enter</kbd> to search &nbsp;&middot;&nbsp; <kbd>Esc</kbd> to close</p>
+    </div>
+  </div>
+
+  <header class="page-header" role="banner">
+    <div class="page-header__bg" aria-hidden="true">
+      <div class="page-header__bg-orb"></div>
+    </div>
+    <div class="wrap">
+      <div class="page-header__eyebrow" aria-hidden="true">
+        <div class="page-header__eyebrow-line"></div>
+        <span class="page-header__eyebrow-text">Database Changelog</span>
+      </div>
+      <h1 class="page-header__h1">Intel <span>Drops</span></h1>
+      <p class="page-header__sub">Every update to the database logged by date and source. New profiles, upgraded entries, and verified intel from official Rockstar material and approved sources.</p>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <div class="drops-layout">
+
+        <div class="drops-main">
+
+          <!-- DROP: MAY 17, 2026 — DATABASE LAUNCH -->
+          <article class="drop reveal" id="drop-may-2026" aria-labelledby="drop-may-2026-title">
+            <div class="drop__head">
+              <span class="drop__date">May 17, 2026</span>
+              <div class="drop__divider" aria-hidden="true"></div>
+              <span class="drop__source-badge drop__source-badge--internal">GTAVITIPS</span>
+            </div>
+            <h2 class="drop__title" id="drop-may-2026-title">The Database Is Open</h2>
+            <p class="drop__context">
+              Six months out. <strong>312 profiles across eight categories.</strong> Jason and Lucia. The Leonida Cartel. The full Grotti lineup. The VCPD fleet. Every animal that will end your run in the swamp. All of it sourced, labeled, and linked. This log updates every time something new gets filed.
+            </p>
+            <div class="drop__entries">
+              <div class="drop__entries-head">
+                <span class="drop__entries-label">Filed</span>
+                <span class="drop__entries-count">312 entries</span>
+              </div>
+              <a href="/gameplay/characters" class="drop__entry">
+                <span class="drop__entry-badge drop__entry-badge--new">New</span>
+                <div class="drop__entry-body">
+                  <span class="drop__entry-name">Characters</span>
+                  <span class="drop__entry-desc">Jason. Lucia. Boobie Ike. Raul Bautista. Cal Hampton. Wyman. Twelve profiles, each with a trailer-sourced intel log and filed connections.</span>
+                </div>
+                <span class="drop__entry-cat">Characters</span>
+              </a>
+              <a href="/gameplay/vehicles" class="drop__entry">
+                <span class="drop__entry-badge drop__entry-badge--new">New</span>
+                <div class="drop__entry-body">
+                  <span class="drop__entry-name">Vehicles</span>
+                  <span class="drop__entry-desc">Grotti Furia. Sultan RS. The full Bravado police fleet. Pegassi Zentorno. Airboats. The Buckingham Maverick. 81 vehicles, all sourced from official footage, each with real-world counterpart and handling class.</span>
+                </div>
+                <span class="drop__entry-cat">Vehicles</span>
+              </a>
+              <a href="/gameplay/weapons" class="drop__entry">
+                <span class="drop__entry-badge drop__entry-badge--new">New</span>
+                <div class="drop__entry-body">
+                  <span class="drop__entry-name">Weapons</span>
+                  <span class="drop__entry-desc">Heavy Revolver. Carbine Rifle. Spear Gun. Rocket Launcher. 25 weapons filed with deployment logs and confirmed carriers from trailer footage.</span>
+                </div>
+                <span class="drop__entry-cat">Weapons</span>
+              </a>
+              <a href="/gameplay/locations" class="drop__entry">
+                <span class="drop__entry-badge drop__entry-badge--new">New</span>
+                <div class="drop__entry-body">
+                  <span class="drop__entry-name">Locations</span>
+                  <span class="drop__entry-desc">Vice City. Port Gellhorn. The Leonida Keys. Grassrivers. Mount Kalaga. 23 locations. Every one confirmed in official footage with field intel and operator notes.</span>
+                </div>
+                <span class="drop__entry-cat">Locations</span>
+              </a>
+              <a href="/gameplay/gangs-and-factions" class="drop__entry">
+                <span class="drop__entry-badge drop__entry-badge--new">New</span>
+                <div class="drop__entry-body">
+                  <span class="drop__entry-name">Factions</span>
+                  <span class="drop__entry-desc">The 7X. Leonida Cartel. High Rollerz. VCPD. NOOSE. Brute Security. 20 factions. Criminal and law enforcement. All confirmed. Territory, enterprise, and sighting log filed for each.</span>
+                </div>
+                <span class="drop__entry-cat">Factions</span>
+              </a>
+              <a href="/gameplay/brands" class="drop__entry">
+                <span class="drop__entry-badge drop__entry-badge--new">New</span>
+                <div class="drop__entry-body">
+                  <span class="drop__entry-name">Brands</span>
+                  <span class="drop__entry-desc">Ammu-Nation. Burgershot. Weazel News. Pisswasser. Cluckin' Bell. 50 brands. The full commercial layer of Leonida. Every one confirmed in official footage.</span>
+                </div>
+                <span class="drop__entry-cat">Brands</span>
+              </a>
+              <a href="/gameplay/animals" class="drop__entry">
+                <span class="drop__entry-badge drop__entry-badge--new">New</span>
+                <div class="drop__entry-body">
+                  <span class="drop__entry-name">Animals</span>
+                  <span class="drop__entry-desc">Florida Panther. American Alligator. Burmese Python. Bull Shark. Skunk Ape. 32 species. Threat levels, habitats, and spawn data filed. Some of these will find you before you find them.</span>
+                </div>
+                <span class="drop__entry-cat">Animals</span>
+              </a>
+              <a href="/gameplay/activities" class="drop__entry">
+                <span class="drop__entry-badge drop__entry-badge--new">New</span>
+                <div class="drop__entry-body">
+                  <span class="drop__entry-name">Activities</span>
+                  <span class="drop__entry-desc">Street takeovers. Fishing. Cage fighting. Golf. Mudding. Strip clubs. 28 activities confirmed in Leonida. The serious work is not the only thing on the schedule.</span>
+                </div>
+                <span class="drop__entry-cat">Activities</span>
+              </a>
+              <a href="/faq" class="drop__entry">
+                <span class="drop__entry-badge drop__entry-badge--new">New</span>
+                <div class="drop__entry-body">
+                  <span class="drop__entry-name">FAQ</span>
+                  <span class="drop__entry-desc">72 questions across 8 categories. Release date, platforms, online model, age rating, PC version. Every answer labeled: Confirmed, Likely, No, or Unknown. No hedging without a badge.</span>
+                </div>
+                <span class="drop__entry-cat">Hub</span>
+              </a>
+            </div>
+          </article>
+
+
+        </div>
+
+        <!-- SIDEBAR -->
+        <aside class="drops-side" aria-label="Intel Drops navigation">
+
+          <div class="side-card reveal">
+            <div class="side-card__head">Database Totals</div>
+            <ul class="side-card__list">
+              <li class="side-card__item"><a href="/gameplay/characters" class="side-card__item-link">Characters</a><span class="side-card__item-val">12</span></li>
+              <li class="side-card__item"><a href="/gameplay/vehicles" class="side-card__item-link">Vehicles</a><span class="side-card__item-val">81</span></li>
+              <li class="side-card__item"><a href="/gameplay/weapons" class="side-card__item-link">Weapons</a><span class="side-card__item-val">25</span></li>
+              <li class="side-card__item"><a href="/gameplay/locations" class="side-card__item-link">Locations</a><span class="side-card__item-val">23</span></li>
+              <li class="side-card__item"><a href="/gameplay/animals" class="side-card__item-link">Animals</a><span class="side-card__item-val">32</span></li>
+              <li class="side-card__item"><a href="/gameplay/brands" class="side-card__item-link">Brands</a><span class="side-card__item-val">50</span></li>
+              <li class="side-card__item"><a href="/gameplay/gangs-and-factions" class="side-card__item-link">Factions</a><span class="side-card__item-val">20</span></li>
+              <li class="side-card__item"><a href="/gameplay/activities" class="side-card__item-link">Activities</a><span class="side-card__item-val">28</span></li>
+              <li class="side-card__item"><a href="/gameplay" class="side-card__item-link side-card__item-label">Full Database</a><span class="side-card__item-val">312</span></li>
+            </ul>
+          </div>
+
+          <div class="side-card reveal d1">
+            <div class="side-card__head">Jump to Drop</div>
+            <a href="#drop-may-2026" class="side-nav__item">
+              May 17, 2026
+              <span class="side-nav__item-date">Database live. 312 entries.</span>
+            </a>
+          </div>
+
+          <div class="side-card reveal d2">
+            <div class="side-card__head">Browse Database</div>
+            <a href="/gameplay/characters" class="side-nav__item">Characters</a>
+            <a href="/gameplay/vehicles" class="side-nav__item">Vehicles</a>
+            <a href="/gameplay/locations" class="side-nav__item">Locations</a>
+            <a href="/gameplay/gangs-and-factions" class="side-nav__item">Factions</a>
+            <a href="/gameplay" class="side-nav__item">Full Database</a>
+          </div>
+
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="wrap">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__brand-logo"><div class="footer__brand-badge" aria-hidden="true">VI</div>GTAVITIPS</div>
+          <p class="footer__brand-desc">The GTA 6 intel database for Leonida. Characters, vehicles, factions, locations, weapons, brands, animals, and activities. Sourced from official material.</p>
+        </div>
+        <div>
+          <div class="footer__col-head">Database</div>
+          <ul class="footer__links">
+            <li><a href="/gameplay/activities">Activities</a></li>
+            <li><a href="/gameplay/animals">Animals</a></li>
+            <li><a href="/gameplay/brands">Brands</a></li>
+            <li><a href="/gameplay/characters">Characters</a></li>
+            <li><a href="/gameplay/gangs-and-factions">Factions</a></li>
+            <li><a href="/gameplay/locations">Locations</a></li>
+            <li><a href="/gameplay/vehicles">Vehicles</a></li>
+            <li><a href="/gameplay/weapons">Weapons</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__col-head">Site</div>
+          <ul class="footer__links">
+            <li><a href="/news">News</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/intel-drops">Intel Drops</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__col-head">Contact</div>
+          <ul class="footer__links">
+            <li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const burger = document.getElementById('burger');
+    const mobileNav = document.getElementById('mobile-nav');
+    burger.addEventListener('click', () => {
+      const o = mobileNav.classList.toggle('open');
+      burger.setAttribute('aria-expanded', o);
+    });
+
+    const overlay = document.getElementById('search-overlay');
+    const searchInp = document.getElementById('search-input');
+    function openSearch() { overlay.classList.add('open'); setTimeout(() => searchInp.focus(), 60); }
+    function closeSearch() { overlay.classList.remove('open'); }
+    document.getElementById('search-open').addEventListener('click', openSearch);
+    document.getElementById('search-close').addEventListener('click', closeSearch);
+    overlay.addEventListener('click', e => { if (e.target === overlay) closeSearch(); });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeSearch();
+      if ((e.ctrlKey || e.metaKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+    });
+    searchInp.addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        const q = searchInp.value.trim();
+        if (q) window.open('https://www.google.com/search?q=site:gtavitips.com+' + encodeURIComponent(q), '_blank');
+      }
+    });
+
+    const ro = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); ro.unobserve(e.target); } });
+    }, { threshold: .1 });
+    document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
+
+    (function() {
+      var wrap = document.querySelector('.nav__dropdown-wrap');
+      var btn = wrap && wrap.querySelector('.nav__dropdown-btn');
+      if (!btn) return;
+      var closeTimer = null;
+      function openMenu() { clearTimeout(closeTimer); wrap.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); }
+      function closeMenu() { closeTimer = setTimeout(function() { wrap.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); }, 120); }
+      wrap.addEventListener('mouseenter', openMenu);
+      wrap.addEventListener('mouseleave', closeMenu);
+      btn.addEventListener('click', function(e) { e.stopPropagation(); if (wrap.classList.contains('open')) { closeMenu(); } else { openMenu(); } });
+      document.addEventListener('click', function(e) { if (wrap && !wrap.contains(e.target)) { wrap.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); } });
+      document.addEventListener('keydown', function(e) { if (e.key === 'Escape' && wrap) { wrap.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); } });
+    })();
+  </script>
+</body>
+</html>
