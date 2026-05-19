@@ -10,7 +10,21 @@
   <!-- OG IMAGE PLACEHOLDER: replace with leonida-state-police-gta-6-faction.jpg when available -->
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://gtavitips.com/gameplay/gangs-and-factions/leonida-state-police">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script>
+    (function(){
+      var saved = localStorage.getItem('gtavitips-theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = saved || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script><link rel="preconnect" href="https://fonts.googleapis.com">  <script>
+    (function(){
+      var saved = localStorage.getItem('gtavitips-theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = saved || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Article","headline":"Leonida State Police - GTA 6 Faction","description":"The Leonida State Police are the statewide law enforcement authority in GTA 6. Highway patrol and rural coverage across Leonida.","url":"https://gtavitips.com/gameplay/gangs-and-factions/leonida-state-police","dateModified":"2026-02-01","publisher":{"@type":"Organization","name":"GTAVITIPS","url":"https://gtavitips.com"}}
@@ -188,6 +202,18 @@
     .reveal.d3 { transition-delay: .14s; }
 
     /* RESPONSIVE */
+ 
+    [data-theme="light"] { --bg:#f3f6fa;--bg-2:#ffffff;--bg-3:#f0f3f8;--bg-4:#e8ecf2;--border:rgba(0,0,0,.07);--border-b:rgba(0,95,144,.20);--t1:#111827;--t2:#4b5563;--t3:#9ca3af; }
+    [data-theme="light"] .nav { background: rgba(243,246,250,.95); }
+    [data-theme="dark"] { --bg:#080c12;--bg-2:#0d1320;--bg-3:#131c2e;--bg-4:#192236;--border:rgba(255,255,255,0.06);--border-b:rgba(0,95,144,0.22);--t1:#eef2f7;--t2:#7e8fa3;--t3:#445060; }
+    [data-theme="dark"] .nav { background: rgba(8,12,18,.95); }
+    .nav__theme-btn { width: 34px; height: 34px; border-radius: 8px; background: rgba(255,255,255,.05); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--t2); transition: color .18s, background .18s; position: relative; flex-shrink: 0; }
+    .nav__theme-btn:hover { color: var(--t1); background: rgba(255,255,255,.09); }
+    .nav__theme-btn svg { width: 15px; height: 15px; position: absolute; transition: opacity .2s; }
+    .nav__theme-btn .icon-moon { opacity: 1; }
+    .nav__theme-btn .icon-sun { opacity: 0; }
+    [data-theme="light"] .nav__theme-btn .icon-moon { opacity: 0; }
+    [data-theme="light"] .nav__theme-btn .icon-sun { opacity: 1; }
     @media (max-width: 1024px) {
       .dossier { grid-template-columns: 1fr; }
       .content-grid { grid-template-columns: 1fr; }
@@ -195,6 +221,18 @@
       .content-side > * { flex: 1 1 260px; }
       .footer__inner { grid-template-columns: 1fr 1fr; }
     }
+ 
+    [data-theme="light"] { --bg:#f3f6fa;--bg-2:#ffffff;--bg-3:#f0f3f8;--bg-4:#e8ecf2;--border:rgba(0,0,0,.07);--border-b:rgba(0,95,144,.20);--t1:#111827;--t2:#4b5563;--t3:#9ca3af; }
+    [data-theme="light"] .nav { background: rgba(243,246,250,.95); }
+    [data-theme="dark"] { --bg:#080c12;--bg-2:#0d1320;--bg-3:#131c2e;--bg-4:#192236;--border:rgba(255,255,255,0.06);--border-b:rgba(0,95,144,0.22);--t1:#eef2f7;--t2:#7e8fa3;--t3:#445060; }
+    [data-theme="dark"] .nav { background: rgba(8,12,18,.95); }
+    .nav__theme-btn { width: 34px; height: 34px; border-radius: 8px; background: rgba(255,255,255,.05); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--t2); transition: color .18s, background .18s; position: relative; flex-shrink: 0; }
+    .nav__theme-btn:hover { color: var(--t1); background: rgba(255,255,255,.09); }
+    .nav__theme-btn svg { width: 15px; height: 15px; position: absolute; transition: opacity .2s; }
+    .nav__theme-btn .icon-moon { opacity: 1; }
+    .nav__theme-btn .icon-sun { opacity: 0; }
+    [data-theme="light"] .nav__theme-btn .icon-moon { opacity: 0; }
+    [data-theme="light"] .nav__theme-btn .icon-sun { opacity: 1; }
     @media (max-width: 768px) {
       .nav__links, .nav__db-btn { display: none; }
       .nav__burger { display: flex; }
@@ -203,6 +241,18 @@
       .connected-grid { grid-template-columns: 1fr; }
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
     }
+ 
+    [data-theme="light"] { --bg:#f3f6fa;--bg-2:#ffffff;--bg-3:#f0f3f8;--bg-4:#e8ecf2;--border:rgba(0,0,0,.07);--border-b:rgba(0,95,144,.20);--t1:#111827;--t2:#4b5563;--t3:#9ca3af; }
+    [data-theme="light"] .nav { background: rgba(243,246,250,.95); }
+    [data-theme="dark"] { --bg:#080c12;--bg-2:#0d1320;--bg-3:#131c2e;--bg-4:#192236;--border:rgba(255,255,255,0.06);--border-b:rgba(0,95,144,0.22);--t1:#eef2f7;--t2:#7e8fa3;--t3:#445060; }
+    [data-theme="dark"] .nav { background: rgba(8,12,18,.95); }
+    .nav__theme-btn { width: 34px; height: 34px; border-radius: 8px; background: rgba(255,255,255,.05); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--t2); transition: color .18s, background .18s; position: relative; flex-shrink: 0; }
+    .nav__theme-btn:hover { color: var(--t1); background: rgba(255,255,255,.09); }
+    .nav__theme-btn svg { width: 15px; height: 15px; position: absolute; transition: opacity .2s; }
+    .nav__theme-btn .icon-moon { opacity: 1; }
+    .nav__theme-btn .icon-sun { opacity: 0; }
+    [data-theme="light"] .nav__theme-btn .icon-moon { opacity: 0; }
+    [data-theme="light"] .nav__theme-btn .icon-sun { opacity: 1; }
     @media (prefers-color-scheme: light) {
       :root { --bg: #f3f6fa; --bg-2: #ffffff; --bg-3: #f0f3f8; --bg-4: #e8ecf2; --border: rgba(0,0,0,.07); --border-b: rgba(0,95,144,.20); --t1: #111827; --t2: #4b5563; --t3: #9ca3af; }
       .nav { background: rgba(243,246,250,.95); }
@@ -220,6 +270,18 @@
     .nav__dropdown-wrap.open .nav__dropdown-chevron { transform: rotate(180deg); }
     .nav__dropdown li a { display: block; padding: 9px 14px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t2); text-decoration: none; border-radius: 8px; transition: background .15s, color .15s; white-space: nowrap; }
     .nav__dropdown li a:hover { background: var(--bg-3); color: var(--blue); }
+ 
+    [data-theme="light"] { --bg:#f3f6fa;--bg-2:#ffffff;--bg-3:#f0f3f8;--bg-4:#e8ecf2;--border:rgba(0,0,0,.07);--border-b:rgba(0,95,144,.20);--t1:#111827;--t2:#4b5563;--t3:#9ca3af; }
+    [data-theme="light"] .nav { background: rgba(243,246,250,.95); }
+    [data-theme="dark"] { --bg:#080c12;--bg-2:#0d1320;--bg-3:#131c2e;--bg-4:#192236;--border:rgba(255,255,255,0.06);--border-b:rgba(0,95,144,0.22);--t1:#eef2f7;--t2:#7e8fa3;--t3:#445060; }
+    [data-theme="dark"] .nav { background: rgba(8,12,18,.95); }
+    .nav__theme-btn { width: 34px; height: 34px; border-radius: 8px; background: rgba(255,255,255,.05); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--t2); transition: color .18s, background .18s; position: relative; flex-shrink: 0; }
+    .nav__theme-btn:hover { color: var(--t1); background: rgba(255,255,255,.09); }
+    .nav__theme-btn svg { width: 15px; height: 15px; position: absolute; transition: opacity .2s; }
+    .nav__theme-btn .icon-moon { opacity: 1; }
+    .nav__theme-btn .icon-sun { opacity: 0; }
+    [data-theme="light"] .nav__theme-btn .icon-moon { opacity: 0; }
+    [data-theme="light"] .nav__theme-btn .icon-sun { opacity: 1; }
     @media(max-width: 860px) {
       .nav__dropdown-wrap { width: 100%; }
       .nav__dropdown-btn { width: 100%; justify-content: space-between; padding: 11px 14px; font-size: 13px; background: none; border-radius: 9px; }
@@ -269,6 +331,10 @@
       <div class="nav__right">
         <button class="nav__search-btn" id="search-open" aria-label="Search the database">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <button class="nav__theme-btn" id="theme-toggle" aria-label="Toggle dark/light mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
         </button>
         <a href="/gameplay" class="nav__db-btn">Browse Database</a>
       </div>
@@ -424,7 +490,18 @@
       entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); ro.unobserve(e.target); } });
     }, { threshold: .1 });
     document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
-  </script>
+   
+    // THEME TOGGLE
+    (function(){
+      var btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+      btn.addEventListener('click', function(){
+        var current = document.documentElement.getAttribute('data-theme') || 'dark';
+        var next = current === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('gtavitips-theme', next);
+      });
+    })();</script>
 </body>
 
   <script>    const burger = document.getElementById('burger');
@@ -492,5 +569,16 @@
       }
     });
   })();
-</script>
+ 
+    // THEME TOGGLE
+    (function(){
+      var btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+      btn.addEventListener('click', function(){
+        var current = document.documentElement.getAttribute('data-theme') || 'dark';
+        var next = current === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('gtavitips-theme', next);
+      });
+    })();</script>
 </body></html>
