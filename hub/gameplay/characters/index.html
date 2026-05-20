@@ -180,7 +180,7 @@
         <div class="index-search">
           <div class="index-search__field">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            <input type="search" id="charactersSearch" class="index-search__input" placeholder="Search characters..." autocomplete="off" aria-label="Search characters..." oninput="filterCards(this.value)">
+            <input type="search" id="index-search-input" class="index-search__input" placeholder="Search characters..." autocomplete="off" aria-label="Search characters..." >
           </div>
         </div>
         <div class="index-hero__visual">
@@ -256,26 +256,38 @@
     const ro=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');ro.unobserve(e.target)}})},{threshold:.1});
     document.querySelectorAll('.reveal').forEach(el=>ro.observe(el));
 
-    function filterCards(query) {
-      const q = query.toLowerCase().trim();
-      const cards = document.querySelectorAll('.entry-card, .intel-card');
-      const sections = document.querySelectorAll('.index-section');
-      const noResults = document.getElementById('no-results');
-      let anyVisible = false;
-      cards.forEach(card => {
-        const name = (card.getAttribute('data-name') || card.querySelector('.entry-card__name, .intel-card__name')?.textContent || '').toLowerCase();
-        const desc = (card.querySelector('.entry-card__desc, .intel-card__desc')?.textContent || '').toLowerCase();
-        const label = (card.querySelector('.entry-card__label, .intel-card__badge')?.textContent || '').toLowerCase();
-        const match = !q || name.includes(q) || desc.includes(q) || label.includes(q);
-        card.style.display = match ? '' : 'none';
-        if (match) anyVisible = true;
+    // INDEX SEARCH
+    (function(){
+      var searchInput = document.getElementById('index-search-input');
+      if (!searchInput) return;
+      
+      searchInput.addEventListener('input', function(){
+        var q = this.value.toLowerCase().trim();
+        var cards = document.querySelectorAll('.entry-card, .intel-card');
+        var sections = document.querySelectorAll('.index-section');
+        var noResults = document.getElementById('no-results');
+        var anyVisible = false;
+
+        cards.forEach(function(card){
+          var text = card.textContent.toLowerCase();
+          var match = !q || text.includes(q);
+          card.style.display = match ? '' : 'none';
+          if (match) anyVisible = true;
+        });
+
+        sections.forEach(function(sec){
+          var visible = false;
+          sec.querySelectorAll('.entry-card, .intel-card').forEach(function(c){
+            if (c.style.display !== 'none') visible = true;
+          });
+          sec.style.display = visible ? '' : 'none';
+        });
+
+        if (noResults) {
+          noResults.style.display = (!anyVisible && q.length > 0) ? 'block' : 'none';
+        }
       });
-      sections.forEach(sec => {
-        const visible = [...sec.querySelectorAll('.entry-card, .intel-card')].some(c => c.style.display !== 'none');
-        sec.style.display = visible ? '' : 'none';
-      });
-      if (noResults) noResults.classList.toggle('visible', !anyVisible && q.length > 0);
-    }
+    })();
 
     (function(){
       var wrap=document.querySelector('.nav__dropdown-wrap');
