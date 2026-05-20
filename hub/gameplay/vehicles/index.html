@@ -1,391 +1,407 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vehicles & Transport | GTA 6 Fleet | GTAVITIPS</title>
-  <meta name="description" content="All confirmed vehicles in GTA 6 Leonida. Sports cars, trucks, bikes, aircraft, and watercraft sourced from official footage.">
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="Vehicles & Transport | GTA 6 Fleet | GTAVITIPS">
-  <meta property="og:description" content="All confirmed vehicles in GTA 6 Leonida. Sports cars, trucks, bikes, aircraft, and watercraft sourced from official footage.">
-  <meta property="og:url" content="https://gtavitips.com/gameplay/vehicles">
-  <!-- OG IMAGE PLACEHOLDER: replace with vehicles-index-gta-6.jpg when available -->
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="https://gtavitips.com/gameplay/vehicles">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"CollectionPage","name":"GTA 6 Vehicles Database","description":"All confirmed vehicles in GTA 6 Leonida.","url":"https://gtavitips.com/gameplay/vehicles","publisher":{"@type":"Organization","name":"GTAVITIPS","url":"https://gtavitips.com"}}
-  </script>
-  <style>
-    :root{--blue:#005f90;--blue-dim:rgba(0,95,144,0.12);--blue-border:rgba(0,95,144,0.28);--pink:#ff0055;--green:#28a745;--green-dim:rgba(40,167,69,0.12);--amber:#ffc107;--amber-dim:rgba(255,193,7,0.12);--bg:#080c12;--bg-2:#0d1320;--bg-3:#131c2e;--bg-4:#192236;--border:rgba(255,255,255,0.06);--border-b:rgba(0,95,144,0.22);--t1:#eef2f7;--t2:#7e8fa3;--t3:#445060;--r:12px;--nav-h:62px}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
-    body{font-family:'Poppins',sans-serif;background:var(--bg);color:var(--t1);overflow-x:hidden;font-size:16px;line-height:1.6}
-    a{color:inherit;text-decoration:none}
-    img{display:block;max-width:100%}
-    ::selection{background:var(--blue);color:#fff}
-    ::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--bg-4);border-radius:99px}
-    .wrap{max-width:1120px;margin:0 auto;padding:0 28px}
-    .nav{position:fixed;top:0;left:0;right:0;z-index:200;height:var(--nav-h);display:flex;align-items:center;background:rgba(8,12,18,.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border-b)}
-    .nav__inner{width:100%;max-width:1120px;margin:0 auto;padding:0 28px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-    .nav__logo{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--t1);flex-shrink:0}
-    .nav__logo-badge{width:30px;height:30px;background:var(--blue);border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:900;color:#fff;letter-spacing:-.5px}
-    .nav__links{display:flex;align-items:center;gap:2px;list-style:none}
-    .nav__links a{padding:5px 13px;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--t2);border-radius:99px;transition:color .18s,background .18s}
-    .nav__links a:hover{color:var(--t1);background:rgba(255,255,255,.05)}
-    .nav__links a.active{color:var(--blue)}
-    .nav__right{display:flex;align-items:center;gap:10px;flex-shrink:0}
-    .nav__search-btn{width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,.05);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--t2);transition:color .18s,background .18s}
-    .nav__search-btn:hover{color:var(--t1);background:rgba(255,255,255,.09)}
-    .nav__search-btn svg{width:15px;height:15px}
-    .nav__db-btn{padding:7px 18px;background:var(--blue);color:#fff;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;border-radius:8px;transition:opacity .18s,transform .15s}
-    .nav__db-btn:hover{opacity:.85;transform:translateY(-1px)}
-    .nav__burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:6px}
-    .nav__burger span{display:block;width:20px;height:1.5px;background:var(--t2);border-radius:99px}
-    .nav__mobile{display:none;position:fixed;top:var(--nav-h);left:0;right:0;background:rgba(8,12,18,.98);backdrop-filter:blur(20px);border-bottom:1px solid var(--border-b);padding:16px 28px 24px;flex-direction:column;gap:2px;z-index:199}
-    .nav__mobile.open{display:flex}
-    .nav__mobile a{padding:11px 14px;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--t2);border-radius:9px;transition:.18s}
-    .nav__mobile a:hover{color:var(--t1);background:rgba(255,255,255,.05)}
-    .nav__dropdown-wrap{position:relative}
-    .nav__dropdown-btn{background:none;border:none;cursor:pointer;font-family:'Poppins',sans-serif;font-size:13px;font-weight:600;color:var(--blue);text-transform:uppercase;letter-spacing:.06em;padding:0;display:flex;align-items:center;gap:4px;transition:opacity .15s}
-    .nav__dropdown-btn:hover{opacity:.75}
-    .nav__dropdown-chevron{width:12px;height:12px;transition:transform .2s;flex-shrink:0}
-    .nav__dropdown-wrap.open .nav__dropdown-chevron{transform:rotate(180deg)}
-    .nav__dropdown{position:absolute;top:100%;left:50%;background:var(--bg-2);border:1px solid var(--border-b);border-radius:12px;padding:14px 6px 6px;min-width:200px;box-shadow:0 12px 32px rgba(0,0,0,.18);opacity:0;pointer-events:none;transition:opacity .18s,transform .18s;transform:translateX(-50%) translateY(-6px);list-style:none;margin:0;z-index:200}
-    .nav__dropdown li{list-style:none;padding:0;margin:0}
-    .nav__dropdown-wrap.open .nav__dropdown{opacity:1;pointer-events:all;transform:translateX(-50%) translateY(0)}
-    .nav__dropdown li a{display:block;padding:9px 14px;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--t2);text-decoration:none;border-radius:8px;transition:background .15s,color .15s;white-space:nowrap}
-    .nav__dropdown li a:hover{background:var(--bg-3);color:var(--blue)}
-    .search-overlay{position:fixed;inset:0;z-index:300;background:rgba(8,12,18,.92);backdrop-filter:blur(24px);display:flex;align-items:flex-start;justify-content:center;padding-top:120px;opacity:0;pointer-events:none;transition:opacity .22s}
-    .search-overlay.open{opacity:1;pointer-events:all}
-    .search-overlay__inner{width:100%;max-width:640px;padding:0 28px}
-    .search-overlay__label{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--pink);margin-bottom:14px}
-    .search-overlay__field{display:flex;align-items:center;background:var(--bg-3);border:1px solid var(--blue-border);border-radius:12px;overflow:hidden}
-    .search-overlay__field svg{width:18px;height:18px;color:var(--t3);margin-left:18px;flex-shrink:0}
-    .search-overlay__input{flex:1;padding:16px 18px;background:none;border:none;outline:none;font-family:'Poppins',sans-serif;font-size:16px;font-weight:500;color:var(--t1)}
-    .search-overlay__input::placeholder{color:var(--t3)}
-    .search-overlay__close{padding:10px 16px;background:none;border:none;font-size:12px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--t3);cursor:pointer;transition:color .18s}
-    .search-overlay__close:hover{color:var(--t1)}
-    .search-overlay__hint{margin-top:12px;font-size:12px;color:var(--t3)}
-    .search-overlay__hint kbd{background:var(--bg-4);border:1px solid var(--border);border-radius:5px;padding:2px 7px;font-family:inherit;font-size:11px;color:var(--t2)}
-    .index-hero{padding:72px 0 48px;text-align:center}
-    .index-hero__eyebrow{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.16em;color:var(--pink);margin-bottom:16px}
-    .index-hero__h1{font-size:clamp(32px,6vw,64px);font-weight:900;text-transform:uppercase;letter-spacing:-.025em;line-height:.92;color:var(--t1);margin-bottom:20px}
-    .index-hero__h1 span{color:var(--blue)}
-    .index-hero__sub{font-size:15px;color:var(--t2);max-width:560px;margin:0 auto 36px;line-height:1.65}
-    .index-search{max-width:560px;margin:0 auto 48px}
-    .index-search__field{display:flex;align-items:center;background:var(--bg-2);border:1px solid var(--border-b);border-radius:12px;overflow:hidden}
-    .index-search__field svg{width:18px;height:18px;color:var(--t3);margin-left:18px;flex-shrink:0}
-    .index-search__input{flex:1;padding:14px 18px;background:none;border:none;outline:none;font-family:'Poppins',sans-serif;font-size:15px;color:var(--t1)}
-    .index-search__input::placeholder{color:var(--t3)}
-    .index-hero__visual{max-width:900px;margin:0 auto;aspect-ratio:21/9;background:var(--bg-2);border:1px solid var(--border);border-radius:16px;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center}
-    .index-hero__visual-bg{position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,95,144,.18),rgba(255,0,85,.08))}
-    .index-hero__visual-label{position:relative;z-index:1;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--t3)}
-    .index-hero__visual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-    .index-section{margin-bottom:64px}
-    .index-section__eyebrow{display:flex;align-items:center;gap:8px;margin-bottom:10px}
-    .index-section__eyebrow-line{width:24px;height:2px;background:var(--pink);flex-shrink:0}
-    .index-section__eyebrow-text{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--pink)}
-    .index-section__h2{font-size:clamp(18px,2.5vw,26px);font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:var(--blue);margin-bottom:24px}
-    .card-grid,.intel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-    .entry-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r);padding:18px 20px;text-decoration:none;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,transform .2s,background .2s}
-    .entry-card:hover{border-color:var(--border-b);transform:translateY(-2px);background:var(--bg-3)}
-    .entry-card__label{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.10em}
-    .entry-card__label--blue{color:var(--blue)}
-    .entry-card__label--red{color:#dc3545}
-    .entry-card__label--amber{color:var(--amber)}
-    .entry-card__label--green{color:var(--green)}
-    .entry-card__label--pink{color:var(--pink)}
-    .entry-card__name{font-size:15px;font-weight:700;color:var(--t1);line-height:1.2}
-    .entry-card__desc{font-size:12px;color:var(--t3);line-height:1.5;margin-top:2px}
-    .intel-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r);padding:18px 20px;text-decoration:none;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,transform .2s,background .2s}
-    .intel-card:hover{border-color:var(--border-b);transform:translateY(-2px);background:var(--bg-3)}
-    .intel-card__badge{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.10em;color:var(--blue)}
-    .intel-card__name{font-size:15px;font-weight:700;color:var(--t1);line-height:1.2}
-    .intel-card__desc{font-size:12px;color:var(--t3);line-height:1.5;margin-top:2px}
-    .no-results{text-align:center;padding:48px 0;color:var(--t3);font-size:14px;display:none}
-    .no-results.visible{display:block}
-    .footer{border-top:1px solid var(--border);padding:52px 0 28px}
-    .footer__inner{display:grid;grid-template-columns:1.8fr 1fr 1fr 1fr 1fr;gap:48px;margin-bottom:44px}
-    .footer__brand{display:flex;flex-direction:column;gap:12px}
-    .footer__brand-logo{display:flex;align-items:center;gap:9px;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--t1)}
-    .footer__brand-badge{width:28px;height:28px;background:var(--blue);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:900;color:#fff}
-    .footer__brand-desc{font-size:13px;color:var(--t3);line-height:1.7}
-    .footer__col-head{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--t2);margin-bottom:14px}
-    .footer__links{list-style:none;display:flex;flex-direction:column;gap:8px}
-    .footer__links a{font-size:13px;color:var(--t3);transition:color .18s}
-    .footer__links a:hover{color:var(--t2)}
-    .footer__bottom{border-top:1px solid var(--border);padding-top:22px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
-    .footer__legal{font-size:12px;color:var(--t3);line-height:1.6}
-    main{padding-bottom:96px}
-    .reveal{opacity:0;transform:translateY(20px);transition:opacity .5s ease,transform .5s ease}
-    .reveal.on{opacity:1;transform:none}
-    @media(max-width:900px){.card-grid,.intel-grid{grid-template-columns:1fr 1fr}.footer__inner{grid-template-columns:1fr 1fr}}
-    @media(max-width:860px){.nav__dropdown-wrap{width:100%}.nav__dropdown-btn{width:100%;justify-content:space-between;padding:11px 14px;font-size:13px;background:none;border-radius:9px}.nav__dropdown{position:static;transform:none;opacity:1;pointer-events:all;box-shadow:none;border:none;border-radius:0;background:none;padding:0 0 0 14px;display:none}.nav__dropdown-wrap.open .nav__dropdown{display:block;transform:none}.nav__dropdown li a{color:var(--t3);font-size:12px}}
-    @media(max-width:580px){.card-grid,.intel-grid{grid-template-columns:1fr}}
-    @media(max-width:768px){.nav__links,.nav__db-btn{display:none}.nav__burger{display:flex}.footer__inner{grid-template-columns:1fr;gap:28px}}
-    @media(prefers-color-scheme:light){:root{--bg:#f3f6fa;--bg-2:#ffffff;--bg-3:#f0f3f8;--bg-4:#e8ecf2;--border:rgba(0,0,0,.07);--border-b:rgba(0,95,144,.20);--t1:#111827;--t2:#4b5563;--t3:#9ca3af}.nav{background:rgba(243,246,250,.95)}}
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
   </style>
 </head>
 <body>
-  <nav class="nav" role="navigation" aria-label="Main navigation">
-    <div class="nav__inner">
-      <a href="/" class="nav__logo" aria-label="GTAVITIPS home"><div class="nav__logo-badge" aria-hidden="true">VI</div>GTAVITIPS</a>
-      <ul class="nav__links" role="list">
-        <li><a href="/news">News</a></li>
-        <li class="nav__dropdown-wrap">
-          <button class="nav__dropdown-btn" aria-expanded="false" aria-haspopup="true">Database<svg class="nav__dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-          <ul class="nav__dropdown" role="menu">
-            <li role="none"><a href="/gameplay/activities" role="menuitem">Activities</a></li>
-            <li role="none"><a href="/gameplay/animals" role="menuitem">Animals</a></li>
-            <li role="none"><a href="/gameplay/brands" role="menuitem">Brands</a></li>
-            <li role="none"><a href="/gameplay/characters" role="menuitem">Characters</a></li>
-            <li role="none"><a href="/gameplay/gangs-and-factions" role="menuitem">Gangs &amp; Factions</a></li>
-            <li role="none"><a href="/gameplay/locations" role="menuitem">Locations</a></li>
-            <li role="none"><a href="/gameplay/vehicles" role="menuitem">Vehicles</a></li>
-            <li role="none"><a href="/gameplay/weapons" role="menuitem">Weapons</a></li>
-          </ul>
-        </li>
-        <li><a href="/faq">FAQ</a></li>
-        <li><a href="/intel-drops">Intel Drops</a></li>
-      </ul>
-      <div class="nav__right">
-        <button class="nav__search-btn" id="search-open" aria-label="Search the database"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
-        <a href="/gameplay" class="nav__db-btn">Browse Database</a>
-      </div>
-      <button class="nav__burger" id="burger" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span></span></button>
-    </div>
-  </nav>
-  <nav class="nav__mobile" id="mobile-nav" aria-label="Mobile navigation">
-    <a href="/news">News</a><a href="/gameplay">Database</a><a href="/faq">FAQ</a><a href="/intel-drops">Intel Drops</a>
-  </nav>
-  <div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search the database">
-    <div class="search-overlay__inner">
-      <div class="search-overlay__label">Search the Database</div>
-      <div class="search-overlay__field">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input type="search" id="search-input" class="search-overlay__input" placeholder="Lucia, Pegassi, Vice City, 7X..." autocomplete="off" aria-label="Search query">
-        <button class="search-overlay__close" id="search-close">Close</button>
-      </div>
-      <p class="search-overlay__hint">Press <kbd>Enter</kbd> to search &nbsp;&middot;&nbsp; <kbd>Esc</kbd> to close</p>
-    </div>
-  </div>
-
-  <div class="page" style="padding-top:var(--nav-h)">
-    <div class="wrap">
-      <div class="index-hero">
-        <div class="index-hero__eyebrow">Leonida Fleet</div>
-        <h1 class="index-hero__h1">Vehicles <span>&amp; Transport</span></h1>
-        <p class="index-hero__sub">Every class in Leonida. Hypercars for Vice City. Pickup trucks for the backcountry. Airboats for the swamp. Know your asset before you need it.</p>
-        <div class="index-search">
-          <div class="index-search__field">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            <input type="search" id="index-search-input" class="index-search__input" placeholder="Search vehicles..." autocomplete="off" aria-label="Search vehicles..." >
-          </div>
-        </div>
-        <div class="index-hero__visual">
-          <div class="index-hero__visual-bg" aria-hidden="true"></div>
-          <img src="/assets/images/vehicles-index-gta-6.png" alt="Vehicles in GTA 6 Leonida – Jason Duval on a motorcycle with a plane" width="1920" height="1080" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 40%;">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <main id="main">
-    <div class="wrap">
-      <div class="no-results" id="no-results" aria-live="polite">No results found.</div>
-<section class="index-section reveal" aria-labelledby="sports-hd">
-        <div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">Sports & Super</span></div>
-        <h2 class="index-section__h2" id="sports-hd">Sports &amp; Super</h2>
-        <div class="card-grid" role="list">
-          <a href="/gameplay/vehicles/albany-alpha" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sports</div><div class="entry-card__name">Albany Alpha</div><div class="entry-card__desc">Albany's sports entry.</div></a>
-<a href="/gameplay/vehicles/annis-elegy-retro" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sports</div><div class="entry-card__name">Annis Elegy Retro</div><div class="entry-card__desc">Japanese performance with retro styling.</div></a>
-<a href="/gameplay/vehicles/benefactor-schafter-v12" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sports</div><div class="entry-card__name">Benefactor Schafter V12</div><div class="entry-card__desc">High-performance executive sports.</div></a>
-<a href="/gameplay/vehicles/bravado-banshee" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Sports</div><div class="entry-card__name">Bravado Banshee</div><div class="entry-card__desc">American muscle-sports. The Banshee endures.</div></a>
-<a href="/gameplay/vehicles/grotti-carbonizzare" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sports</div><div class="entry-card__name">Grotti Carbonizzare</div><div class="entry-card__desc">Italian open-top sports.</div></a>
-<a href="/gameplay/vehicles/grotti-cheetah-classic" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Classic</div><div class="entry-card__name">Grotti Cheetah Classic</div><div class="entry-card__desc">Heritage Italian performance.</div></a>
-<a href="/gameplay/vehicles/grotti-furia" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--red">Super</div><div class="entry-card__name">Grotti Furia</div><div class="entry-card__desc">Grotti's flagship hypercar for Leonida.</div></a>
-<a href="/gameplay/vehicles/invetero-coquette-d10" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sports</div><div class="entry-card__name">Invetero Coquette D10</div><div class="entry-card__desc">American sports with European influence.</div></a>
-<a href="/gameplay/vehicles/karin-futo" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Compact</div><div class="entry-card__name">Karin Futo</div><div class="entry-card__desc">Drift-capable compact. The underground circuit standard.</div></a>
-<a href="/gameplay/vehicles/karin-sultan" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sports</div><div class="entry-card__name">Karin Sultan</div><div class="entry-card__desc">The standard Sultan. Tuner platform for the street circuit.</div></a>
-<a href="/gameplay/vehicles/karin-sultan-rs" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--red">Super</div><div class="entry-card__name">Karin Sultan RS</div><div class="entry-card__desc">AWD rally-spec. Wide-body, roll cage, anti-lag exhaust.</div></a>
-<a href="/gameplay/vehicles/maibatsu-penumbra" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sports</div><div class="entry-card__name">Maibatsu Penumbra</div><div class="entry-card__desc">Japanese sports coupe. Tuner-friendly.</div></a>
-<a href="/gameplay/vehicles/obey-omnis-egt" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--green">Sports</div><div class="entry-card__name">Obey Omnis e-GT</div><div class="entry-card__desc">Electric sports car.</div></a>
-<a href="/gameplay/vehicles/ocelot-jugular" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sports</div><div class="entry-card__name">Ocelot Jugular</div><div class="entry-card__desc">Ocelot's sports saloon.</div></a>
-<a href="/gameplay/vehicles/ocelot-locust" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sports</div><div class="entry-card__name">Ocelot Locust</div><div class="entry-card__desc">Lightweight track-focused Ocelot.</div></a>
-<a href="/gameplay/vehicles/pegassi-zentorno" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--red">Super</div><div class="entry-card__name">Pegassi Zentorno</div><div class="entry-card__desc">Geometric bodywork. Aggressive AWD. Vice City apex predator on tarmac.</div></a>
-<a href="/gameplay/vehicles/pegassi-zurrusso" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--red">Super</div><div class="entry-card__name">Pegassi Zurrusso</div><div class="entry-card__desc">Pegassi's second super entry in Leonida.</div></a>
-<a href="/gameplay/vehicles/pfister-comet-retro" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sports</div><div class="entry-card__name">Pfister Comet Retro</div><div class="entry-card__desc">Classic Comet silhouette.</div></a>
-<a href="/gameplay/vehicles/pfister-comet-s2" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sports</div><div class="entry-card__name">Pfister Comet S2</div><div class="entry-card__desc">Porsche 911 equivalent. Cabrio option available.</div></a>
-<a href="/gameplay/vehicles/pfister-comet-s2-cabrio" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sports</div><div class="entry-card__name">Pfister Comet S2 Cabrio</div><div class="entry-card__desc">Cabriolet variant.</div></a>
-<a href="/gameplay/vehicles/ubermacht-cypher" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sports</div><div class="entry-card__name">Ubermacht Cypher</div><div class="entry-card__desc">Compact German performance.</div></a>
-        </div>
-      </section>
-      <section class="index-section reveal" aria-labelledby="muscle-hd">
-        <div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">Muscle, Sedans & Classics</span></div>
-        <h2 class="index-section__h2" id="muscle-hd">Muscle, Sedans &amp; Classics</h2>
-        <div class="card-grid" role="list">
-          <a href="/gameplay/vehicles/albany-buccaneer" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Muscle</div><div class="entry-card__name">Albany Buccaneer</div><div class="entry-card__desc">American classic. Low and wide.</div></a>
-<a href="/gameplay/vehicles/benefactor-schafter-lwb" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sedan</div><div class="entry-card__name">Benefactor Schafter LWB</div><div class="entry-card__desc">Long wheelbase executive transport.</div></a>
-<a href="/gameplay/vehicles/bravado-gauntlet-hellfire" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Muscle</div><div class="entry-card__name">Bravado Gauntlet Hellfire</div><div class="entry-card__desc">High-output muscle. Noise mandatory.</div></a>
-<a href="/gameplay/vehicles/declasse-tornado" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Classic</div><div class="entry-card__name">Declasse Tornado</div><div class="entry-card__desc">Classic American convertible.</div></a>
-<a href="/gameplay/vehicles/declasse-tulip" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Muscle</div><div class="entry-card__name">Declasse Tulip</div><div class="entry-card__desc">Mid-weight muscle.</div></a>
-<a href="/gameplay/vehicles/declasse-yosemite-rancher" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Off-Road</div><div class="entry-card__name">Declasse Yosemite</div><div class="entry-card__desc">Rural truck. Leonida backcountry.</div></a>
-<a href="/gameplay/vehicles/imponte-ruiner" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Muscle</div><div class="entry-card__name">Imponte Ruiner</div><div class="entry-card__desc">Classic muscle silhouette.</div></a>
-<a href="/gameplay/vehicles/obey-tailgater" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sedan</div><div class="entry-card__name">Obey Tailgater</div><div class="entry-card__desc">Corporate Leonida fleet sedan.</div></a>
-<a href="/gameplay/vehicles/schyster-pmp-700" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sedan</div><div class="entry-card__name">Schyster PMP 700</div><div class="entry-card__desc">Mid-range sedan.</div></a>
-<a href="/gameplay/vehicles/vapid-chino" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Muscle</div><div class="entry-card__name">Vapid Chino</div><div class="entry-card__desc">Lowrider platform.</div></a>
-        </div>
-      </section>
-      <section class="index-section reveal" aria-labelledby="suv-hd">
-        <div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">SUVs, Off-Road & Utility</span></div>
-        <h2 class="index-section__h2" id="suv-hd">SUVs, Off-Road &amp; Utility</h2>
-        <div class="card-grid" role="list">
-          <a href="/gameplay/vehicles/annis-hellion" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Off-Road</div><div class="entry-card__name">Annis Hellion</div><div class="entry-card__desc">Off-road buggy.</div></a>
-<a href="/gameplay/vehicles/bravado-bison" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Utility</div><div class="entry-card__name">Bravado Bison</div><div class="entry-card__desc">Full-size pickup.</div></a>
-<a href="/gameplay/vehicles/enus-jubilee" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">SUV</div><div class="entry-card__name">Enus Jubilee</div><div class="entry-card__desc">Luxury SUV. Vice City and cartel logistics alike.</div></a>
-<a href="/gameplay/vehicles/gallivanter-baller" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">SUV</div><div class="entry-card__name">Gallivanter Baller</div><div class="entry-card__desc">Mid-range luxury SUV.</div></a>
-<a href="/gameplay/vehicles/gallivanter-baller-st" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">SUV</div><div class="entry-card__name">Gallivanter Baller ST</div><div class="entry-card__desc">Sport-tuned Baller.</div></a>
-<a href="/gameplay/vehicles/karin-rebel" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Off-Road</div><div class="entry-card__name">Karin Rebel</div><div class="entry-card__desc">Off-road platform. Backcountry Leonida.</div></a>
-<a href="/gameplay/vehicles/nagasaki-blazer" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">ATV</div><div class="entry-card__name">Nagasaki Blazer</div><div class="entry-card__desc">Quad ATV. Compact off-road.</div></a>
-<a href="/gameplay/vehicles/nagasaki-outlaw" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Off-Road</div><div class="entry-card__name">Nagasaki Outlaw</div><div class="entry-card__desc">Off-road truck. Rural and swamp terrain.</div></a>
-<a href="/gameplay/vehicles/pfister-astron" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">SUV</div><div class="entry-card__name">Pfister Astron</div><div class="entry-card__desc">Pfister's premium SUV.</div></a>
-<a href="/gameplay/vehicles/vapid-bobcat-xl" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Utility</div><div class="entry-card__name">Vapid Bobcat XL</div><div class="entry-card__desc">Extended cab pickup.</div></a>
-<a href="/gameplay/vehicles/vapid-liberator" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Off-Road</div><div class="entry-card__name">Vapid Liberator</div><div class="entry-card__desc">Monster truck.</div></a>
-<a href="/gameplay/vehicles/vapid-sandking-xl" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Off-Road</div><div class="entry-card__name">Vapid Sandking XL</div><div class="entry-card__desc">Large off-road truck.</div></a>
-<a href="/gameplay/vehicles/vapid-towtruck" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Utility</div><div class="entry-card__name">Vapid Towtruck</div><div class="entry-card__desc">Recovery vehicle. Also useful for other purposes.</div></a>
-        </div>
-      </section>
-      <section class="index-section reveal" aria-labelledby="bikes-hd">
-        <div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">Bikes & Compact</span></div>
-        <h2 class="index-section__h2" id="bikes-hd">Bikes &amp; Compact</h2>
-        <div class="card-grid" role="list">
-          <a href="/gameplay/vehicles/dinka-blista-compact" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Compact</div><div class="entry-card__name">Dinka Blista Compact</div><div class="entry-card__desc">City hatchback.</div></a>
-<a href="/gameplay/vehicles/dinka-double-t" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--red">Sport Bike</div><div class="entry-card__name">Dinka Double-T</div><div class="entry-card__desc">Sport bike. Fast and exposed to everything.</div></a>
-<a href="/gameplay/vehicles/maibatsu-sanchez" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Off-Road</div><div class="entry-card__name">Maibatsu Sanchez</div><div class="entry-card__desc">Dirt bike. The Grassrivers specialist.</div></a>
-<a href="/gameplay/vehicles/nagasaki-carbon-rs" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--red">Sport Bike</div><div class="entry-card__name">Nagasaki Carbon RS</div><div class="entry-card__desc">High-performance sport bike.</div></a>
-<a href="/gameplay/vehicles/western-nightblade" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Chopper</div><div class="entry-card__name">Western Nightblade</div><div class="entry-card__desc">Chopper. Outlaw Motorcycle Gang territory.</div></a>
-        </div>
-      </section>
-      <section class="index-section reveal" aria-labelledby="vans-hd">
-        <div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">Vans, Trucks & Commercial</span></div>
-        <h2 class="index-section__h2" id="vans-hd">Vans, Trucks &amp; Commercial</h2>
-        <div class="card-grid" role="list">
-          <a href="/gameplay/vehicles/bravado-rumpo-custom" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Van</div><div class="entry-card__name">Bravado Rumpo Custom</div><div class="entry-card__desc">Cargo van. Move people, product, or problems.</div></a>
-<a href="/gameplay/vehicles/brute-camper" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">RV</div><div class="entry-card__name">Brute Camper</div><div class="entry-card__desc">Recreational vehicle. Or mobile operation base.</div></a>
-<a href="/gameplay/vehicles/brute-shuttle-bus" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Bus</div><div class="entry-card__name">Brute Shuttle Bus</div><div class="entry-card__desc">Transit bus. Vice City public routes.</div></a>
-<a href="/gameplay/vehicles/jobuilt-phantom" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Truck</div><div class="entry-card__name">JoBuilt Phantom</div><div class="entry-card__desc">Semi-truck. Long-haul Leonida freight.</div></a>
-<a href="/gameplay/vehicles/maibatsu-mule" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Truck</div><div class="entry-card__name">Maibatsu Mule</div><div class="entry-card__desc">Box truck. Delivery and logistics.</div></a>
-<a href="/gameplay/vehicles/vapid-benson" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Commercial</div><div class="entry-card__name">Vapid Benson</div><div class="entry-card__desc">Commercial delivery vehicle.</div></a>
-        </div>
-      </section>
-      <section class="index-section reveal" aria-labelledby="emergency-hd">
-        <div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">Emergency & Law Enforcement</span></div>
-        <h2 class="index-section__h2" id="emergency-hd">Emergency &amp; Law Enforcement</h2>
-        <div class="card-grid" role="list">
-          <a href="/gameplay/vehicles/nagasaki-blazer-lifeguard" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--green">Rescue</div><div class="entry-card__name">Blazer Lifeguard</div><div class="entry-card__desc">Beach and coastal rescue.</div></a>
-<a href="/gameplay/vehicles/vapid-caracara-lifeguard" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--green">Rescue</div><div class="entry-card__name">Caracara 4x4</div><div class="entry-card__desc">Heavy rescue vehicle.</div></a>
-<a href="/gameplay/vehicles/declasse-sheriff-suv" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Sheriff</div><div class="entry-card__name">Declasse Granger</div><div class="entry-card__desc">VCSO sheriff vehicle.</div></a>
-<a href="/gameplay/vehicles/bravado-police-gauntlet-interceptor" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--red">Pursuit</div><div class="entry-card__name">Gauntlet Interceptor</div><div class="entry-card__desc">High-performance police pursuit.</div></a>
-<a href="/gameplay/vehicles/bravado-police-buffalo" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Police</div><div class="entry-card__name">Police Buffalo</div><div class="entry-card__desc">VCPD standard pursuit vehicle.</div></a>
-<a href="/gameplay/vehicles/buckingham-police-maverick" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Air Unit</div><div class="entry-card__name">Police Maverick</div><div class="entry-card__desc">VCPD air support helicopter.</div></a>
-<a href="/gameplay/vehicles/vapid-police-stanier" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Emergency</div><div class="entry-card__name">Police Stanier LE</div><div class="entry-card__desc">Standard patrol sedan.</div></a>
-<a href="/gameplay/vehicles/vapid-scout-police" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Emergency</div><div class="entry-card__name">Vapid Scout</div><div class="entry-card__desc">Police SUV. Off-road capable.</div></a>
-        </div>
-      </section>
-      <section class="index-section reveal" aria-labelledby="boats-hd">
-        <div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">Boats, Air & Special</span></div>
-        <h2 class="index-section__h2" id="boats-hd">Boats, Air &amp; Special</h2>
-        <div class="card-grid" role="list">
-          <a href="/gameplay/vehicles/airboat-fanboat" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--green">Boat</div><div class="entry-card__name">Airboat</div><div class="entry-card__desc">Grassrivers standard. Fan-propelled and flat-bottomed.</div></a>
-<a href="/gameplay/vehicles/blimp" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--amber">Special</div><div class="entry-card__name">Atomic Blimp</div><div class="entry-card__desc">Promotional blimp. Impossible to miss. Possible to fly.</div></a>
-<a href="/gameplay/vehicles/buckingham-maverick" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Helicopter</div><div class="entry-card__name">Buckingham Maverick</div><div class="entry-card__desc">Standard utility helicopter.</div></a>
-<a href="/gameplay/vehicles/mammoth-dodo" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Plane</div><div class="entry-card__name">Mammoth Dodo</div><div class="entry-card__desc">Light seaplane. Keys and coastal operations.</div></a>
-<a href="/gameplay/vehicles/nagasaki-buzzard" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--red">Helicopter</div><div class="entry-card__name">Nagasaki Buzzard</div><div class="entry-card__desc">Light attack helicopter.</div></a>
-<a href="/gameplay/vehicles/nagasaki-dinghy" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Boat</div><div class="entry-card__name">Nagasaki Dinghy</div><div class="entry-card__desc">Small inflatable. Keys and coastal operations.</div></a>
-<a href="/gameplay/vehicles/pegassi-speeder" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--red">Boat</div><div class="entry-card__name">Pegassi Speeder</div><div class="entry-card__desc">High-performance speedboat.</div></a>
-<a href="/gameplay/vehicles/sea-sparrow" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Helicopter</div><div class="entry-card__name">Sea Sparrow</div><div class="entry-card__desc">Amphibious helicopter.</div></a>
-<a href="/gameplay/vehicles/speedophile-seashark" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Boat</div><div class="entry-card__name">Seashark</div><div class="entry-card__desc">Jet ski. Keys and coastline.</div></a>
-<a href="/gameplay/vehicles/shitzu-longfin" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Boat</div><div class="entry-card__name">Shitzu Longfin</div><div class="entry-card__desc">Sport fishing boat.</div></a>
-<a href="/gameplay/vehicles/shitzu-tropic" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Boat</div><div class="entry-card__name">Shitzu Tropic</div><div class="entry-card__desc">Leisure craft. Vice City marina.</div></a>
-<a href="/gameplay/vehicles/buckingham-supervolito" class="entry-card" role="listitem"><div class="entry-card__label entry-card__label--blue">Helicopter</div><div class="entry-card__name">SuperVolito</div><div class="entry-card__desc">Premium helicopter.</div></a>
-        </div>
-      </section>
-    </div>
-  </main>
-  <footer class="footer" role="contentinfo">
-    <div class="wrap">
-      <div class="footer__inner">
-        <div class="footer__brand">
-          <div class="footer__brand-logo"><div class="footer__brand-badge" aria-hidden="true">VI</div>GTAVITIPS</div>
-          <p class="footer__brand-desc">The intel database for GTA 6. You picked the wrong house, fool!</p>
-        </div>
-        <div><div class="footer__col-head">Database</div><ul class="footer__links"><li><a href="/gameplay/activities">Activities</a></li><li><a href="/gameplay/animals">Animals</a></li><li><a href="/gameplay/brands">Brands</a></li><li><a href="/gameplay/characters">Characters</a></li><li><a href="/gameplay/gangs-and-factions">Factions</a></li><li><a href="/gameplay/locations">Locations</a></li><li><a href="/gameplay/vehicles">Vehicles</a></li><li><a href="/gameplay/weapons">Weapons</a></li></ul></div>
-        <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li></ul></div>
-        <div><div class="footer__col-head">Legal</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li></ul></div>
-        <div><div class="footer__col-head">Contact</div><ul class="footer__links"><li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li><li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li><li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
-      </div>
-      <div class="footer__bottom"><p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p></div>
-    </div>
-  </footer>
-  <script>
-    const burger=document.getElementById('burger'),mobileNav=document.getElementById('mobile-nav');
-    burger.addEventListener('click',()=>{const o=mobileNav.classList.toggle('open');burger.setAttribute('aria-expanded',o)});
-    const overlay=document.getElementById('search-overlay'),searchInp=document.getElementById('search-input');
-    function openSearch(){overlay.classList.add('open');setTimeout(()=>searchInp.focus(),60)}
-    function closeSearch(){overlay.classList.remove('open')}
-    document.getElementById('search-open').addEventListener('click',openSearch);
-    document.getElementById('search-close').addEventListener('click',closeSearch);
-    overlay.addEventListener('click',e=>{if(e.target===overlay)closeSearch()});
-    document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSearch();if((e.ctrlKey||e.metaKey)&&e.key==='k'){e.preventDefault();openSearch()}});
-    searchInp.addEventListener('keydown',e=>{if(e.key==='Enter'){const q=searchInp.value.trim();if(q)window.open('https://www.google.com/search?q=site:gtavitips.com+'+encodeURIComponent(q),'_blank')}});
-    const ro=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');ro.unobserve(e.target)}})},{threshold:.1});
-    document.querySelectorAll('.reveal').forEach(el=>ro.observe(el));
-
-    // INDEX SEARCH
-    (function(){
-      var searchInput = document.getElementById('index-search-input');
-      if (!searchInput) return;
-      
-      searchInput.addEventListener('input', function(){
-        var q = this.value.toLowerCase().trim();
-        var cards = document.querySelectorAll('.entry-card, .intel-card');
-        var sections = document.querySelectorAll('.index-section');
-        var noResults = document.getElementById('no-results');
-        var anyVisible = false;
-
-        cards.forEach(function(card){
-          var text = card.textContent.toLowerCase();
-          var match = !q || text.includes(q);
-          card.style.display = match ? '' : 'none';
-          if (match) anyVisible = true;
-        });
-
-        sections.forEach(function(sec){
-          var visible = false;
-          sec.querySelectorAll('.entry-card, .intel-card').forEach(function(c){
-            if (c.style.display !== 'none') visible = true;
-          });
-          sec.style.display = visible ? '' : 'none';
-        });
-
-        if (noResults) {
-          noResults.style.display = (!anyVisible && q.length > 0) ? 'block' : 'none';
-        }
-      });
-    })();
-
-    (function(){
-      var wrap=document.querySelector('.nav__dropdown-wrap');
-      var btn=wrap&&wrap.querySelector('.nav__dropdown-btn');
-      if(!btn)return;var t=null;
-      function openMenu(){clearTimeout(t);wrap.classList.add('open');btn.setAttribute('aria-expanded','true')}
-      function closeMenu(){t=setTimeout(function(){wrap.classList.remove('open');btn.setAttribute('aria-expanded','false')},120)}
-      wrap.addEventListener('mouseenter',openMenu);wrap.addEventListener('mouseleave',closeMenu);
-      btn.addEventListener('click',function(e){e.stopPropagation();if(wrap.classList.contains('open')){closeMenu()}else{openMenu()}});
-      document.addEventListener('click',function(e){if(wrap&&!wrap.contains(e.target)){wrap.classList.remove('open');btn.setAttribute('aria-expanded','false')}});
-      document.addEventListener('keydown',function(e){if(e.key==='Escape'&&wrap){wrap.classList.remove('open');btn.setAttribute('aria-enabled','false')}});
-    })();
-  </script>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Vehicles &amp; Transport | GTA 6 Fleet | GTAVITIPS&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="description" content="All confirmed vehicles in GTA 6 Leonida. Sports cars, trucks, bikes, aircraft, and watercraft sourced from official footage."&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta property="og:type" content="article"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta property="og:title" content="Vehicles &amp; Transport | GTA 6 Fleet | GTAVITIPS"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta property="og:description" content="All confirmed vehicles in GTA 6 Leonida. Sports cars, trucks, bikes, aircraft, and watercraft sourced from official footage."&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta property="og:url" content="https://gtavitips.com/gameplay/vehicles"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- OG IMAGE PLACEHOLDER: replace with vehicles-index-gta-6.jpg when available --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="twitter:card" content="summary_large_image"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="canonical" href="https://gtavitips.com/gameplay/vehicles"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script type="application/ld+json"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>{"@context":"https://schema.org","@type":"CollectionPage","name":"GTA 6 Vehicles Database","description":"All confirmed vehicles in GTA 6 Leonida.","url":"https://gtavitips.com/gameplay/vehicles","publisher":{"@type":"Organization","name":"GTAVITIPS","url":"https://gtavitips.com"}}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>:root{--blue:#005f90;--blue-dim:rgba(0,95,144,0.12);--blue-border:rgba(0,95,144,0.28);--pink:#ff0055;--green:#28a745;--green-dim:rgba(40,167,69,0.12);--amber:#ffc107;--amber-dim:rgba(255,193,7,0.12);--bg:#080c12;--bg-2:#0d1320;--bg-3:#131c2e;--bg-4:#192236;--border:rgba(255,255,255,0.06);--border-b:rgba(0,95,144,0.22);--t1:#eef2f7;--t2:#7e8fa3;--t3:#445060;--r:12px;--nav-h:62px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>body{font-family:'Poppins',sans-serif;background:var(--bg);color:var(--t1);overflow-x:hidden;font-size:16px;line-height:1.6}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>a{color:inherit;text-decoration:none}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>img{display:block;max-width:100%}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>::selection{background:var(--blue);color:#fff}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--bg-4);border-radius:99px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.wrap{max-width:1120px;margin:0 auto;padding:0 28px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav{position:fixed;top:0;left:0;right:0;z-index:200;height:var(--nav-h);display:flex;align-items:center;background:rgba(8,12,18,.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border-b)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__inner{width:100%;max-width:1120px;margin:0 auto;padding:0 28px;display:flex;align-items:center;justify-content:space-between;gap:20px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__logo{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--t1);flex-shrink:0}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__logo-badge{width:30px;height:30px;background:var(--blue);border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:900;color:#fff;letter-spacing:-.5px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__links{display:flex;align-items:center;gap:2px;list-style:none}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__links a{padding:5px 13px;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--t2);border-radius:99px;transition:color .18s,background .18s}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__links a:hover{color:var(--t1);background:rgba(255,255,255,.05)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__links a.active{color:var(--blue)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__right{display:flex;align-items:center;gap:10px;flex-shrink:0}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__search-btn{width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,.05);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--t2);transition:color .18s,background .18s}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__search-btn:hover{color:var(--t1);background:rgba(255,255,255,.09)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__search-btn svg{width:15px;height:15px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__db-btn{padding:7px 18px;background:var(--blue);color:#fff;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;border-radius:8px;transition:opacity .18s,transform .15s}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__db-btn:hover{opacity:.85;transform:translateY(-1px)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:6px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__burger span{display:block;width:20px;height:1.5px;background:var(--t2);border-radius:99px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__mobile{display:none;position:fixed;top:var(--nav-h);left:0;right:0;background:rgba(8,12,18,.98);backdrop-filter:blur(20px);border-bottom:1px solid var(--border-b);padding:16px 28px 24px;flex-direction:column;gap:2px;z-index:199}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__mobile.open{display:flex}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__mobile a{padding:11px 14px;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--t2);border-radius:9px;transition:.18s}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__mobile a:hover{color:var(--t1);background:rgba(255,255,255,.05)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__dropdown-wrap{position:relative}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__dropdown-btn{background:none;border:none;cursor:pointer;font-family:'Poppins',sans-serif;font-size:13px;font-weight:600;color:var(--blue);text-transform:uppercase;letter-spacing:.06em;padding:0;display:flex;align-items:center;gap:4px;transition:opacity .15s}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__dropdown-btn:hover{opacity:.75}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__dropdown-chevron{width:12px;height:12px;transition:transform .2s;flex-shrink:0}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__dropdown-wrap.open .nav__dropdown-chevron{transform:rotate(180deg)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__dropdown{position:absolute;top:100%;left:50%;background:var(--bg-2);border:1px solid var(--border-b);border-radius:12px;padding:14px 6px 6px;min-width:200px;box-shadow:0 12px 32px rgba(0,0,0,.18);opacity:0;pointer-events:none;transition:opacity .18s,transform .18s;transform:translateX(-50%) translateY(-6px);list-style:none;margin:0;z-index:200}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__dropdown li{list-style:none;padding:0;margin:0}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__dropdown-wrap.open .nav__dropdown{opacity:1;pointer-events:all;transform:translateX(-50%) translateY(0)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__dropdown li a{display:block;padding:9px 14px;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--t2);text-decoration:none;border-radius:8px;transition:background .15s,color .15s;white-space:nowrap}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav__dropdown li a:hover{background:var(--bg-3);color:var(--blue)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-overlay{position:fixed;inset:0;z-index:300;background:rgba(8,12,18,.92);backdrop-filter:blur(24px);display:flex;align-items:flex-start;justify-content:center;padding-top:120px;opacity:0;pointer-events:none;transition:opacity .22s}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-overlay.open{opacity:1;pointer-events:all}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-overlay__inner{width:100%;max-width:640px;padding:0 28px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-overlay__label{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--pink);margin-bottom:14px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-overlay__field{display:flex;align-items:center;background:var(--bg-3);border:1px solid var(--blue-border);border-radius:12px;overflow:hidden}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-overlay__field svg{width:18px;height:18px;color:var(--t3);margin-left:18px;flex-shrink:0}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-overlay__input{flex:1;padding:16px 18px;background:none;border:none;outline:none;font-family:'Poppins',sans-serif;font-size:16px;font-weight:500;color:var(--t1)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-overlay__input::placeholder{color:var(--t3)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-overlay__close{padding:10px 16px;background:none;border:none;font-size:12px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--t3);cursor:pointer;transition:color .18s}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-overlay__close:hover{color:var(--t1)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-overlay__hint{margin-top:12px;font-size:12px;color:var(--t3)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-overlay__hint kbd{background:var(--bg-4);border:1px solid var(--border);border-radius:5px;padding:2px 7px;font-family:inherit;font-size:11px;color:var(--t2)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-hero{padding:72px 0 48px;text-align:center}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-hero__eyebrow{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.16em;color:var(--pink);margin-bottom:16px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-hero__h1{font-size:clamp(32px,6vw,64px);font-weight:900;text-transform:uppercase;letter-spacing:-.025em;line-height:.92;color:var(--t1);margin-bottom:20px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-hero__h1 span{color:var(--blue)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-hero__sub{font-size:15px;color:var(--t2);max-width:560px;margin:0 auto 36px;line-height:1.65}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-search{max-width:560px;margin:0 auto 48px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-search__field{display:flex;align-items:center;background:var(--bg-2);border:1px solid var(--border-b);border-radius:12px;overflow:hidden}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-search__field svg{width:18px;height:18px;color:var(--t3);margin-left:18px;flex-shrink:0}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-search__input{flex:1;padding:14px 18px;background:none;border:none;outline:none;font-family:'Poppins',sans-serif;font-size:15px;color:var(--t1)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-search__input::placeholder{color:var(--t3)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-hero__visual{max-width:900px;margin:0 auto;aspect-ratio:21/9;background:var(--bg-2);border:1px solid var(--border);border-radius:16px;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-hero__visual-bg{position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,95,144,.18),rgba(255,0,85,.08))}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-hero__visual-label{position:relative;z-index:1;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--t3)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-hero__visual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-section{margin-bottom:64px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-section__eyebrow{display:flex;align-items:center;gap:8px;margin-bottom:10px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-section__eyebrow-line{width:24px;height:2px;background:var(--pink);flex-shrink:0}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-section__eyebrow-text{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--pink)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.index-section__h2{font-size:clamp(18px,2.5vw,26px);font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:var(--blue);margin-bottom:24px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card-grid,.intel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.entry-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r);padding:18px 20px;text-decoration:none;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,transform .2s,background .2s}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.entry-card:hover{border-color:var(--border-b);transform:translateY(-2px);background:var(--bg-3)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.entry-card__label{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.10em}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.entry-card__label--blue{color:var(--blue)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.entry-card__label--red{color:#dc3545}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.entry-card__label--amber{color:var(--amber)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.entry-card__label--green{color:var(--green)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.entry-card__label--pink{color:var(--pink)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.entry-card__name{font-size:15px;font-weight:700;color:var(--t1);line-height:1.2}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.entry-card__desc{font-size:12px;color:var(--t3);line-height:1.5;margin-top:2px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.intel-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r);padding:18px 20px;text-decoration:none;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,transform .2s,background .2s}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.intel-card:hover{border-color:var(--border-b);transform:translateY(-2px);background:var(--bg-3)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.intel-card__badge{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.10em;color:var(--blue)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.intel-card__name{font-size:15px;font-weight:700;color:var(--t1);line-height:1.2}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.intel-card__desc{font-size:12px;color:var(--t3);line-height:1.5;margin-top:2px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.no-results{text-align:center;padding:48px 0;color:var(--t3);font-size:14px;display:none}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.no-results.visible{display:block}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer{border-top:1px solid var(--border);padding:52px 0 28px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer__inner{display:grid;grid-template-columns:1.8fr 1fr 1fr 1fr 1fr;gap:48px;margin-bottom:44px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer__brand{display:flex;flex-direction:column;gap:12px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer__brand-logo{display:flex;align-items:center;gap:9px;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--t1)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer__brand-badge{width:28px;height:28px;background:var(--blue);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:900;color:#fff}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer__brand-desc{font-size:13px;color:var(--t3);line-height:1.7}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer__col-head{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--t2);margin-bottom:14px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer__links{list-style:none;display:flex;flex-direction:column;gap:8px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer__links a{font-size:13px;color:var(--t3);transition:color .18s}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer__links a:hover{color:var(--t2)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer__bottom{border-top:1px solid var(--border);padding-top:22px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer__legal{font-size:12px;color:var(--t3);line-height:1.6}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>main{padding-bottom:96px}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.reveal{opacity:0;transform:translateY(20px);transition:opacity .5s ease,transform .5s ease}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.reveal.on{opacity:1;transform:none}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>@media(max-width:900px){.card-grid,.intel-grid{grid-template-columns:1fr 1fr}.footer__inner{grid-template-columns:1fr 1fr}}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>@media(max-width:860px){.nav__dropdown-wrap{width:100%}.nav__dropdown-btn{width:100%;justify-content:space-between;padding:11px 14px;font-size:13px;background:none;border-radius:9px}.nav__dropdown{position:static;transform:none;opacity:1;pointer-events:all;box-shadow:none;border:none;border-radius:0;background:none;padding:0 0 0 14px;display:none}.nav__dropdown-wrap.open .nav__dropdown{display:block;transform:none}.nav__dropdown li a{color:var(--t3);font-size:12px}}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>@media(max-width:580px){.card-grid,.intel-grid{grid-template-columns:1fr}}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>@media(max-width:768px){.nav__links,.nav__db-btn{display:none}.nav__burger{display:flex}.footer__inner{grid-template-columns:1fr;gap:28px}}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>@media(prefers-color-scheme:light){:root{--bg:#f3f6fa;--bg-2:#ffffff;--bg-3:#f0f3f8;--bg-4:#e8ecf2;--border:rgba(0,0,0,.07);--border-b:rgba(0,95,144,.20);--t1:#111827;--t2:#4b5563;--t3:#9ca3af}.nav{background:rgba(243,246,250,.95)}}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;nav class="nav" role="navigation" aria-label="Main navigation"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="nav__inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="/" class="nav__logo" aria-label="GTAVITIPS home"&gt;&lt;div class="nav__logo-badge" aria-hidden="true"&gt;VI&lt;/div&gt;GTAVITIPS&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;ul class="nav__links" role="list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="/news"&gt;News&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li class="nav__dropdown-wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;button class="nav__dropdown-btn" aria-expanded="false" aria-haspopup="true"&gt;Database&lt;svg class="nav__dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"&gt;&lt;polyline points="6 9 12 15 18 9"&gt;&lt;/polyline&gt;&lt;/svg&gt;&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;ul class="nav__dropdown" role="menu"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;li role="none"&gt;&lt;a href="/gameplay/activities" role="menuitem"&gt;Activities&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;li role="none"&gt;&lt;a href="/gameplay/animals" role="menuitem"&gt;Animals&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;li role="none"&gt;&lt;a href="/gameplay/brands" role="menuitem"&gt;Brands&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;li role="none"&gt;&lt;a href="/gameplay/characters" role="menuitem"&gt;Characters&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;li role="none"&gt;&lt;a href="/gameplay/gangs-and-factions" role="menuitem"&gt;Gangs &amp;amp; Factions&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;li role="none"&gt;&lt;a href="/gameplay/locations" role="menuitem"&gt;Locations&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;li role="none"&gt;&lt;a href="/gameplay/vehicles" role="menuitem"&gt;Vehicles&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;li role="none"&gt;&lt;a href="/gameplay/weapons" role="menuitem"&gt;Weapons&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="/faq"&gt;FAQ&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="/intel-drops"&gt;Intel Drops&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="nav__right"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="nav__search-btn" id="search-open" aria-label="Search the database"&gt;&lt;svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"&gt;&lt;circle cx="11" cy="11" r="8"/&gt;&lt;line x1="21" y1="21" x2="16.65" y2="16.65"/&gt;&lt;/svg&gt;&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="/gameplay" class="nav__db-btn"&gt;Browse Database&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;button class="nav__burger" id="burger" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav"&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;nav class="nav__mobile" id="mobile-nav" aria-label="Mobile navigation"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="/news"&gt;News&lt;/a&gt;&lt;a href="/gameplay"&gt;Database&lt;/a&gt;&lt;a href="/faq"&gt;FAQ&lt;/a&gt;&lt;a href="/intel-drops"&gt;Intel Drops&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search the database"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="search-overlay__inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="search-overlay__label"&gt;Search the Database&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="search-overlay__field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"&gt;&lt;circle cx="11" cy="11" r="8"/&gt;&lt;line x1="21" y1="21" x2="16.65" y2="16.65"/&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="search" id="search-input" class="search-overlay__input" placeholder="Lucia, Pegassi, Vice City, 7X..." autocomplete="off" aria-label="Search query"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="search-overlay__close" id="search-close"&gt;Close&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="search-overlay__hint"&gt;Press &lt;kbd&gt;Enter&lt;/kbd&gt; to search &amp;nbsp;&amp;middot;&amp;nbsp; &lt;kbd&gt;Esc&lt;/kbd&gt; to close&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="page" style="padding-top:var(--nav-h)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="index-hero"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="index-hero__eyebrow"&gt;Leonida Fleet&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1 class="index-hero__h1"&gt;Vehicles &lt;span&gt;&amp;amp; Transport&lt;/span&gt;&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="index-hero__sub"&gt;Every class in Leonida. Hypercars for Vice City. Pickup trucks for the backcountry. Airboats for the swamp. Know your asset before you need it.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="index-search"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="index-search__field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"&gt;&lt;circle cx="11" cy="11" r="8"/&gt;&lt;line x1="21" y1="21" x2="16.65" y2="16.65"/&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="search" id="index-search-input" class="index-search__input" placeholder="Search vehicles..." autocomplete="off" aria-label="Search vehicles..." &gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="index-hero__visual"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="index-hero__visual-bg" aria-hidden="true"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="/assets/images/vehicles-index-gta-6.jpg" alt="Vehicles in GTA 6 Leonida – Buckingham Maverick news helicopter over Leonida" width="3840" height="2160" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main id="main"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="no-results" id="no-results" aria-live="polite"&gt;No results found.&lt;/div&gt;</p>
+<p class="p1">&lt;section class="index-section reveal" aria-labelledby="sports-hd"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="index-section__eyebrow" aria-hidden="true"&gt;&lt;div class="index-section__eyebrow-line"&gt;&lt;/div&gt;&lt;span class="index-section__eyebrow-text"&gt;Sports &amp; Super&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="index-section__h2" id="sports-hd"&gt;Sports &amp;amp; Super&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card-grid" role="list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="/gameplay/vehicles/albany-alpha" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Albany Alpha&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Albany's sports entry.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/annis-elegy-retro" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Annis Elegy Retro&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Japanese performance with retro styling.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/benefactor-schafter-v12" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Benefactor Schafter V12&lt;/div&gt;&lt;div class="entry-card__desc"&gt;High-performance executive sports.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/bravado-banshee" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Bravado Banshee&lt;/div&gt;&lt;div class="entry-card__desc"&gt;American muscle-sports. The Banshee endures.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/grotti-carbonizzare" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Grotti Carbonizzare&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Italian open-top sports.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/grotti-cheetah-classic" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Classic&lt;/div&gt;&lt;div class="entry-card__name"&gt;Grotti Cheetah Classic&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Heritage Italian performance.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/grotti-furia" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--red"&gt;Super&lt;/div&gt;&lt;div class="entry-card__name"&gt;Grotti Furia&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Grotti's flagship hypercar for Leonida.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/invetero-coquette-d10" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Invetero Coquette D10&lt;/div&gt;&lt;div class="entry-card__desc"&gt;American sports with European influence.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/karin-futo" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Compact&lt;/div&gt;&lt;div class="entry-card__name"&gt;Karin Futo&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Drift-capable compact. The underground circuit standard.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/karin-sultan" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Karin Sultan&lt;/div&gt;&lt;div class="entry-card__desc"&gt;The standard Sultan. Tuner platform for the street circuit.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/karin-sultan-rs" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--red"&gt;Super&lt;/div&gt;&lt;div class="entry-card__name"&gt;Karin Sultan RS&lt;/div&gt;&lt;div class="entry-card__desc"&gt;AWD rally-spec. Wide-body, roll cage, anti-lag exhaust.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/maibatsu-penumbra" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Maibatsu Penumbra&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Japanese sports coupe. Tuner-friendly.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/obey-omnis-egt" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--green"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Obey Omnis e-GT&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Electric sports car.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/ocelot-jugular" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Ocelot Jugular&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Ocelot's sports saloon.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/ocelot-locust" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Ocelot Locust&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Lightweight track-focused Ocelot.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/pegassi-zentorno" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--red"&gt;Super&lt;/div&gt;&lt;div class="entry-card__name"&gt;Pegassi Zentorno&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Geometric bodywork. Aggressive AWD. Vice City apex predator on tarmac.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/pegassi-zurrusso" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--red"&gt;Super&lt;/div&gt;&lt;div class="entry-card__name"&gt;Pegassi Zurrusso&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Pegassi's second super entry in Leonida.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/pfister-comet-retro" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Pfister Comet Retro&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Classic Comet silhouette.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/pfister-comet-s2" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Pfister Comet S2&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Porsche 911 equivalent. Cabrio option available.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/pfister-comet-s2-cabrio" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Pfister Comet S2 Cabrio&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Cabriolet variant.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/ubermacht-cypher" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sports&lt;/div&gt;&lt;div class="entry-card__name"&gt;Ubermacht Cypher&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Compact German performance.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;section class="index-section reveal" aria-labelledby="muscle-hd"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="index-section__eyebrow" aria-hidden="true"&gt;&lt;div class="index-section__eyebrow-line"&gt;&lt;/div&gt;&lt;span class="index-section__eyebrow-text"&gt;Muscle, Sedans &amp; Classics&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="index-section__h2" id="muscle-hd"&gt;Muscle, Sedans &amp;amp; Classics&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card-grid" role="list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="/gameplay/vehicles/albany-buccaneer" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Muscle&lt;/div&gt;&lt;div class="entry-card__name"&gt;Albany Buccaneer&lt;/div&gt;&lt;div class="entry-card__desc"&gt;American classic. Low and wide.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/benefactor-schafter-lwb" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sedan&lt;/div&gt;&lt;div class="entry-card__name"&gt;Benefactor Schafter LWB&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Long wheelbase executive transport.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/bravado-gauntlet-hellfire" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Muscle&lt;/div&gt;&lt;div class="entry-card__name"&gt;Bravado Gauntlet Hellfire&lt;/div&gt;&lt;div class="entry-card__desc"&gt;High-output muscle. Noise mandatory.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/declasse-tornado" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Classic&lt;/div&gt;&lt;div class="entry-card__name"&gt;Declasse Tornado&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Classic American convertible.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/declasse-tulip" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Muscle&lt;/div&gt;&lt;div class="entry-card__name"&gt;Declasse Tulip&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Mid-weight muscle.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/declasse-yosemite-rancher" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Off-Road&lt;/div&gt;&lt;div class="entry-card__name"&gt;Declasse Yosemite&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Rural truck. Leonida backcountry.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/imponte-ruiner" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Muscle&lt;/div&gt;&lt;div class="entry-card__name"&gt;Imponte Ruiner&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Classic muscle silhouette.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/obey-tailgater" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sedan&lt;/div&gt;&lt;div class="entry-card__name"&gt;Obey Tailgater&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Corporate Leonida fleet sedan.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/schyster-pmp-700" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sedan&lt;/div&gt;&lt;div class="entry-card__name"&gt;Schyster PMP 700&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Mid-range sedan.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/vapid-chino" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Muscle&lt;/div&gt;&lt;div class="entry-card__name"&gt;Vapid Chino&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Lowrider platform.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;section class="index-section reveal" aria-labelledby="suv-hd"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="index-section__eyebrow" aria-hidden="true"&gt;&lt;div class="index-section__eyebrow-line"&gt;&lt;/div&gt;&lt;span class="index-section__eyebrow-text"&gt;SUVs, Off-Road &amp; Utility&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="index-section__h2" id="suv-hd"&gt;SUVs, Off-Road &amp;amp; Utility&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card-grid" role="list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="/gameplay/vehicles/annis-hellion" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Off-Road&lt;/div&gt;&lt;div class="entry-card__name"&gt;Annis Hellion&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Off-road buggy.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/bravado-bison" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Utility&lt;/div&gt;&lt;div class="entry-card__name"&gt;Bravado Bison&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Full-size pickup.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/enus-jubilee" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;SUV&lt;/div&gt;&lt;div class="entry-card__name"&gt;Enus Jubilee&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Luxury SUV. Vice City and cartel logistics alike.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/gallivanter-baller" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;SUV&lt;/div&gt;&lt;div class="entry-card__name"&gt;Gallivanter Baller&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Mid-range luxury SUV.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/gallivanter-baller-st" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;SUV&lt;/div&gt;&lt;div class="entry-card__name"&gt;Gallivanter Baller ST&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Sport-tuned Baller.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/karin-rebel" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Off-Road&lt;/div&gt;&lt;div class="entry-card__name"&gt;Karin Rebel&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Off-road platform. Backcountry Leonida.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/nagasaki-blazer" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;ATV&lt;/div&gt;&lt;div class="entry-card__name"&gt;Nagasaki Blazer&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Quad ATV. Compact off-road.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/nagasaki-outlaw" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Off-Road&lt;/div&gt;&lt;div class="entry-card__name"&gt;Nagasaki Outlaw&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Off-road truck. Rural and swamp terrain.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/pfister-astron" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;SUV&lt;/div&gt;&lt;div class="entry-card__name"&gt;Pfister Astron&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Pfister's premium SUV.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/vapid-bobcat-xl" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Utility&lt;/div&gt;&lt;div class="entry-card__name"&gt;Vapid Bobcat XL&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Extended cab pickup.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/vapid-liberator" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Off-Road&lt;/div&gt;&lt;div class="entry-card__name"&gt;Vapid Liberator&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Monster truck.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/vapid-sandking-xl" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Off-Road&lt;/div&gt;&lt;div class="entry-card__name"&gt;Vapid Sandking XL&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Large off-road truck.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/vapid-towtruck" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Utility&lt;/div&gt;&lt;div class="entry-card__name"&gt;Vapid Towtruck&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Recovery vehicle. Also useful for other purposes.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;section class="index-section reveal" aria-labelledby="bikes-hd"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="index-section__eyebrow" aria-hidden="true"&gt;&lt;div class="index-section__eyebrow-line"&gt;&lt;/div&gt;&lt;span class="index-section__eyebrow-text"&gt;Bikes &amp; Compact&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="index-section__h2" id="bikes-hd"&gt;Bikes &amp;amp; Compact&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card-grid" role="list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="/gameplay/vehicles/dinka-blista-compact" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Compact&lt;/div&gt;&lt;div class="entry-card__name"&gt;Dinka Blista Compact&lt;/div&gt;&lt;div class="entry-card__desc"&gt;City hatchback.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/dinka-double-t" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--red"&gt;Sport Bike&lt;/div&gt;&lt;div class="entry-card__name"&gt;Dinka Double-T&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Sport bike. Fast and exposed to everything.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/maibatsu-sanchez" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Off-Road&lt;/div&gt;&lt;div class="entry-card__name"&gt;Maibatsu Sanchez&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Dirt bike. The Grassrivers specialist.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/nagasaki-carbon-rs" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--red"&gt;Sport Bike&lt;/div&gt;&lt;div class="entry-card__name"&gt;Nagasaki Carbon RS&lt;/div&gt;&lt;div class="entry-card__desc"&gt;High-performance sport bike.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/western-nightblade" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Chopper&lt;/div&gt;&lt;div class="entry-card__name"&gt;Western Nightblade&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Chopper. Outlaw Motorcycle Gang territory.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;section class="index-section reveal" aria-labelledby="vans-hd"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="index-section__eyebrow" aria-hidden="true"&gt;&lt;div class="index-section__eyebrow-line"&gt;&lt;/div&gt;&lt;span class="index-section__eyebrow-text"&gt;Vans, Trucks &amp; Commercial&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="index-section__h2" id="vans-hd"&gt;Vans, Trucks &amp;amp; Commercial&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card-grid" role="list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="/gameplay/vehicles/bravado-rumpo-custom" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Van&lt;/div&gt;&lt;div class="entry-card__name"&gt;Bravado Rumpo Custom&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Cargo van. Move people, product, or problems.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/brute-camper" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;RV&lt;/div&gt;&lt;div class="entry-card__name"&gt;Brute Camper&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Recreational vehicle. Or mobile operation base.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/brute-shuttle-bus" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Bus&lt;/div&gt;&lt;div class="entry-card__name"&gt;Brute Shuttle Bus&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Transit bus. Vice City public routes.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/jobuilt-phantom" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Truck&lt;/div&gt;&lt;div class="entry-card__name"&gt;JoBuilt Phantom&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Semi-truck. Long-haul Leonida freight.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/maibatsu-mule" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Truck&lt;/div&gt;&lt;div class="entry-card__name"&gt;Maibatsu Mule&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Box truck. Delivery and logistics.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/vapid-benson" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Commercial&lt;/div&gt;&lt;div class="entry-card__name"&gt;Vapid Benson&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Commercial delivery vehicle.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;section class="index-section reveal" aria-labelledby="emergency-hd"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="index-section__eyebrow" aria-hidden="true"&gt;&lt;div class="index-section__eyebrow-line"&gt;&lt;/div&gt;&lt;span class="index-section__eyebrow-text"&gt;Emergency &amp; Law Enforcement&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="index-section__h2" id="emergency-hd"&gt;Emergency &amp;amp; Law Enforcement&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card-grid" role="list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="/gameplay/vehicles/nagasaki-blazer-lifeguard" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--green"&gt;Rescue&lt;/div&gt;&lt;div class="entry-card__name"&gt;Blazer Lifeguard&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Beach and coastal rescue.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/vapid-caracara-lifeguard" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--green"&gt;Rescue&lt;/div&gt;&lt;div class="entry-card__name"&gt;Caracara 4x4&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Heavy rescue vehicle.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/declasse-sheriff-suv" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Sheriff&lt;/div&gt;&lt;div class="entry-card__name"&gt;Declasse Granger&lt;/div&gt;&lt;div class="entry-card__desc"&gt;VCSO sheriff vehicle.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/bravado-police-gauntlet-interceptor" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--red"&gt;Pursuit&lt;/div&gt;&lt;div class="entry-card__name"&gt;Gauntlet Interceptor&lt;/div&gt;&lt;div class="entry-card__desc"&gt;High-performance police pursuit.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/bravado-police-buffalo" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Police&lt;/div&gt;&lt;div class="entry-card__name"&gt;Police Buffalo&lt;/div&gt;&lt;div class="entry-card__desc"&gt;VCPD standard pursuit vehicle.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/buckingham-police-maverick" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Air Unit&lt;/div&gt;&lt;div class="entry-card__name"&gt;Police Maverick&lt;/div&gt;&lt;div class="entry-card__desc"&gt;VCPD air support helicopter.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/vapid-police-stanier" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Emergency&lt;/div&gt;&lt;div class="entry-card__name"&gt;Police Stanier LE&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Standard patrol sedan.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/vapid-scout-police" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Emergency&lt;/div&gt;&lt;div class="entry-card__name"&gt;Vapid Scout&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Police SUV. Off-road capable.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;section class="index-section reveal" aria-labelledby="boats-hd"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="index-section__eyebrow" aria-hidden="true"&gt;&lt;div class="index-section__eyebrow-line"&gt;&lt;/div&gt;&lt;span class="index-section__eyebrow-text"&gt;Boats, Air &amp; Special&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="index-section__h2" id="boats-hd"&gt;Boats, Air &amp;amp; Special&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card-grid" role="list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="/gameplay/vehicles/airboat-fanboat" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--green"&gt;Boat&lt;/div&gt;&lt;div class="entry-card__name"&gt;Airboat&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Grassrivers standard. Fan-propelled and flat-bottomed.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/blimp" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--amber"&gt;Special&lt;/div&gt;&lt;div class="entry-card__name"&gt;Atomic Blimp&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Promotional blimp. Impossible to miss. Possible to fly.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/buckingham-maverick" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Helicopter&lt;/div&gt;&lt;div class="entry-card__name"&gt;Buckingham Maverick&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Standard utility helicopter.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/mammoth-dodo" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Plane&lt;/div&gt;&lt;div class="entry-card__name"&gt;Mammoth Dodo&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Light seaplane. Keys and coastal operations.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/nagasaki-buzzard" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--red"&gt;Helicopter&lt;/div&gt;&lt;div class="entry-card__name"&gt;Nagasaki Buzzard&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Light attack helicopter.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/nagasaki-dinghy" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Boat&lt;/div&gt;&lt;div class="entry-card__name"&gt;Nagasaki Dinghy&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Small inflatable. Keys and coastal operations.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/pegassi-speeder" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--red"&gt;Boat&lt;/div&gt;&lt;div class="entry-card__name"&gt;Pegassi Speeder&lt;/div&gt;&lt;div class="entry-card__desc"&gt;High-performance speedboat.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/sea-sparrow" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Helicopter&lt;/div&gt;&lt;div class="entry-card__name"&gt;Sea Sparrow&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Amphibious helicopter.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/speedophile-seashark" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Boat&lt;/div&gt;&lt;div class="entry-card__name"&gt;Seashark&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Jet ski. Keys and coastline.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/shitzu-longfin" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Boat&lt;/div&gt;&lt;div class="entry-card__name"&gt;Shitzu Longfin&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Sport fishing boat.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/shitzu-tropic" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Boat&lt;/div&gt;&lt;div class="entry-card__name"&gt;Shitzu Tropic&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Leisure craft. Vice City marina.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1">&lt;a href="/gameplay/vehicles/buckingham-supervolito" class="entry-card" role="listitem"&gt;&lt;div class="entry-card__label entry-card__label--blue"&gt;Helicopter&lt;/div&gt;&lt;div class="entry-card__name"&gt;SuperVolito&lt;/div&gt;&lt;div class="entry-card__desc"&gt;Premium helicopter.&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;footer class="footer" role="contentinfo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="footer__inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="footer__brand"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="footer__brand-logo"&gt;&lt;div class="footer__brand-badge" aria-hidden="true"&gt;VI&lt;/div&gt;GTAVITIPS&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="footer__brand-desc"&gt;The intel database for GTA 6. You picked the wrong house, fool!&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;&lt;div class="footer__col-head"&gt;Database&lt;/div&gt;&lt;ul class="footer__links"&gt;&lt;li&gt;&lt;a href="/gameplay/activities"&gt;Activities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/gameplay/animals"&gt;Animals&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/gameplay/brands"&gt;Brands&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/gameplay/characters"&gt;Characters&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/gameplay/gangs-and-factions"&gt;Factions&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/gameplay/locations"&gt;Locations&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/gameplay/vehicles"&gt;Vehicles&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/gameplay/weapons"&gt;Weapons&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;&lt;div class="footer__col-head"&gt;Site&lt;/div&gt;&lt;ul class="footer__links"&gt;&lt;li&gt;&lt;a href="/about"&gt;About&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/news"&gt;News&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/faq"&gt;FAQ&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/intel-drops"&gt;Intel Drops&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;&lt;div class="footer__col-head"&gt;Legal&lt;/div&gt;&lt;ul class="footer__links"&gt;&lt;li&gt;&lt;a href="/about"&gt;About&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/privacy"&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/cookie-policy"&gt;Cookie Policy&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;&lt;div class="footer__col-head"&gt;Contact&lt;/div&gt;&lt;ul class="footer__links"&gt;&lt;li&gt;&lt;span style="font-size:13px;color:var(--t3)"&gt;info&amp;#64;gtavitips.com&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer"&gt;X / Twitter&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer"&gt;TikTok&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer"&gt;Instagram&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="footer__bottom"&gt;&lt;p class="footer__legal"&gt;&amp;copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const burger=document.getElementById('burger'),mobileNav=document.getElementById('mobile-nav');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>burger.addEventListener('click',()=&gt;{const o=mobileNav.classList.toggle('open');burger.setAttribute('aria-expanded',o)});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const overlay=document.getElementById('search-overlay'),searchInp=document.getElementById('search-input');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>function openSearch(){overlay.classList.add('open');setTimeout(()=&gt;searchInp.focus(),60)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>function closeSearch(){overlay.classList.remove('open')}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('search-open').addEventListener('click',openSearch);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('search-close').addEventListener('click',closeSearch);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>overlay.addEventListener('click',e=&gt;{if(e.target===overlay)closeSearch()});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.addEventListener('keydown',e=&gt;{if(e.key==='Escape')closeSearch();if((e.ctrlKey||e.metaKey)&amp;&amp;e.key==='k'){e.preventDefault();openSearch()}});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>searchInp.addEventListener('keydown',e=&gt;{if(e.key==='Enter'){const q=searchInp.value.trim();if(q)window.open('https://www.google.com/search?q=site:gtavitips.com+'+encodeURIComponent(q),'_blank')}});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const ro=new IntersectionObserver(entries=&gt;{entries.forEach(e=&gt;{if(e.isIntersecting){e.target.classList.add('on');ro.unobserve(e.target)}})},{threshold:.1});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.querySelectorAll('.reveal').forEach(el=&gt;ro.observe(el));</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// INDEX SEARCH</p>
+<p class="p1"><span class="Apple-converted-space">    </span>(function(){</p>
+<p class="p1"><span class="Apple-converted-space">      </span>var searchInput = document.getElementById('index-search-input');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (!searchInput) return;</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>searchInput.addEventListener('input', function(){</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var q = this.value.toLowerCase().trim();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var cards = document.querySelectorAll('.entry-card, .intel-card');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var sections = document.querySelectorAll('.index-section');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var noResults = document.getElementById('no-results');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var anyVisible = false;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>cards.forEach(function(card){</p>
+<p class="p1"><span class="Apple-converted-space">          </span>var text = card.textContent.toLowerCase();</p>
+<p class="p1"><span class="Apple-converted-space">          </span>var match = !q || text.includes(q);</p>
+<p class="p1"><span class="Apple-converted-space">          </span>card.style.display = match ? '' : 'none';</p>
+<p class="p1"><span class="Apple-converted-space">          </span>if (match) anyVisible = true;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>sections.forEach(function(sec){</p>
+<p class="p1"><span class="Apple-converted-space">          </span>var visible = false;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>sec.querySelectorAll('.entry-card, .intel-card').forEach(function(c){</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (c.style.display !== 'none') visible = true;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>});</p>
+<p class="p1"><span class="Apple-converted-space">          </span>sec.style.display = visible ? '' : 'none';</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (noResults) {</p>
+<p class="p1"><span class="Apple-converted-space">          </span>noResults.style.display = (!anyVisible &amp;&amp; q.length &gt; 0) ? 'block' : 'none';</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>})();</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>(function(){</p>
+<p class="p1"><span class="Apple-converted-space">      </span>var wrap=document.querySelector('.nav__dropdown-wrap');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>var btn=wrap&amp;&amp;wrap.querySelector('.nav__dropdown-btn');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if(!btn)return;var t=null;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>function openMenu(){clearTimeout(t);wrap.classList.add('open');btn.setAttribute('aria-expanded','true')}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>function closeMenu(){t=setTimeout(function(){wrap.classList.remove('open');btn.setAttribute('aria-expanded','false')},120)}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>wrap.addEventListener('mouseenter',openMenu);wrap.addEventListener('mouseleave',closeMenu);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>btn.addEventListener('click',function(e){e.stopPropagation();if(wrap.classList.contains('open')){closeMenu()}else{openMenu()}});</p>
+<p class="p1"><span class="Apple-converted-space">      </span>document.addEventListener('click',function(e){if(wrap&amp;&amp;!wrap.contains(e.target)){wrap.classList.remove('open');btn.setAttribute('aria-expanded','false')}});</p>
+<p class="p1"><span class="Apple-converted-space">      </span>document.addEventListener('keydown',function(e){if(e.key==='Escape'&amp;&amp;wrap){wrap.classList.remove('open');btn.setAttribute('aria-enabled','false')}});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>})();</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
 </body>
 </html>
