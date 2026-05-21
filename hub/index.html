@@ -254,7 +254,7 @@
     .search-overlay__hint kbd { background: var(--bg-4); border: 1px solid var(--border); border-radius: 5px; padding: 2px 7px; font-family: inherit; font-size: 11px; color: var(--t2); }
 
     /* ── HERO ── */
-    .hero { min-height: 100svh; display: grid; grid-template-rows: 1fr auto; padding-top: calc(var(--nav-h) + 36px); position: relative; overflow: hidden; }
+    .hero { min-height: 100svh; display: grid; grid-template-rows: 1fr auto; padding-top: calc(var(--nav-h) + 38px); position: relative; overflow: hidden; }
     .hero__atmos { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
     .hero__atmos-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(0,95,144,.04) 1px, transparent 1px), linear-gradient(90deg, rgba(0,95,144,.04) 1px, transparent 1px); background-size: 56px 56px; mask-image: radial-gradient(ellipse 80% 70% at 50% 30%, black 20%, transparent 75%); }
     .hero__atmos-orb-1 { position: absolute; width: 900px; height: 600px; background: radial-gradient(ellipse, rgba(0,95,144,.20) 0%, transparent 65%); top: -180px; left: -280px; }
@@ -600,32 +600,27 @@
   </nav>
 
   <!-- /search does not exist. Routes to Google site search. -->
+  <div style="background:var(--bg-2);border-bottom:1px solid var(--border-b);height:38px;display:flex;flex-direction:row;align-items:center;justify-content:center;gap:18px;padding:0 28px;font-family:'Poppins',sans-serif;flex-wrap:nowrap;overflow:hidden;" role="timer" aria-label="GTA 6 launch countdown">
+    <span style="font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.13em;color:var(--pink);white-space:nowrap;">GTA 6 Launches In</span>
+    <span style="display:flex;align-items:baseline;gap:6px;white-space:nowrap;">
+      <span style="font-size:15px;font-weight:900;color:var(--t1);font-variant-numeric:tabular-nums;" id="lb-d">--</span><span style="font-size:9px;font-weight:700;text-transform:uppercase;color:var(--t3);">d</span>
+      <span style="font-size:13px;font-weight:900;color:var(--t3);">:</span>
+      <span style="font-size:15px;font-weight:900;color:var(--t1);font-variant-numeric:tabular-nums;" id="lb-h">--</span><span style="font-size:9px;font-weight:700;text-transform:uppercase;color:var(--t3);">h</span>
+      <span style="font-size:13px;font-weight:900;color:var(--t3);">:</span>
+      <span style="font-size:15px;font-weight:900;color:var(--t1);font-variant-numeric:tabular-nums;" id="lb-m">--</span><span style="font-size:9px;font-weight:700;text-transform:uppercase;color:var(--t3);">m</span>
+      <span style="font-size:13px;font-weight:900;color:var(--t3);">:</span>
+      <span style="font-size:15px;font-weight:900;color:var(--t1);font-variant-numeric:tabular-nums;" id="lb-s">--</span><span style="font-size:9px;font-weight:700;text-transform:uppercase;color:var(--t3);">s</span>
+    </span>
+    <span style="font-size:11px;color:var(--t3);font-weight:600;white-space:nowrap;">Nov 19, 2026</span>
+    <span style="display:flex;gap:4px;">
+      <span style="font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:3px 7px;border-radius:4px;background:var(--bg-4);border:1px solid var(--border);color:var(--t3);">PS5</span>
+      <span style="font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:3px 7px;border-radius:4px;background:var(--bg-4);border:1px solid var(--border);color:var(--t3);">XSX</span>
+    </span>
+  </div>
   <div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search the database">
     <div class="search-overlay__inner">
       <div class="search-overlay__label">Search the Database</div>
-      <div class="search-overlay__field">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input type="search" id="search-input" class="search-overlay__input" placeholder="Lucia, Pegassi, Vice City, 7X..." autocomplete="off" aria-label="Search query">
-        <button class="search-overlay__close" id="search-close">Close</button>
-      </div>
-      <p class="search-overlay__hint">Press <kbd>Enter</kbd> to search &nbsp;&middot;&nbsp; <kbd>Esc</kbd> to close</p>
-    </div>
-  </div>
-
-  <div class="launch-bar" role="timer" aria-label="GTA 6 launch countdown">
-    <span class="launch-bar__label">GTA 6 Launches In</span>
-    <div class="launch-bar__units">
-      <div class="launch-bar__unit"><span class="launch-bar__num" id="lb-d">--</span><span class="launch-bar__unit-label">d</span></div>
-      <span class="launch-bar__sep">:</span>
-      <div class="launch-bar__unit"><span class="launch-bar__num" id="lb-h">--</span><span class="launch-bar__unit-label">h</span></div>
-      <span class="launch-bar__sep">:</span>
-      <div class="launch-bar__unit"><span class="launch-bar__num" id="lb-m">--</span><span class="launch-bar__unit-label">m</span></div>
-      <span class="launch-bar__sep">:</span>
-      <div class="launch-bar__unit"><span class="launch-bar__num" id="lb-s">--</span><span class="launch-bar__unit-label">s</span></div>
-    </div>
-    <span class="launch-bar__date">Nov 19, 2026</span>
-    <div class="launch-bar__platforms"><span class="launch-bar__platform">PS5</span><span class="launch-bar__platform">XSX</span></div>
-  </div>
+      
   <main id="main">
 
     <!-- HERO -->
