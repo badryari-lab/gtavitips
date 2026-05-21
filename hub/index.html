@@ -9,6 +9,7 @@
   <meta property="og:title" content="GTAVITIPS | GTA 6 Intel Hub – Leonida">
   <meta property="og:description" content="GTA 6 intel on characters, vehicles, locations, factions, and brands across Leonida. Sourced from official Rockstar footage. 295 entries and counting.">
   <meta property="og:url" content="https://gtavitips.com/">
+  <!-- OG IMAGE PLACEHOLDER: replace with gtavitips-gta-6-homepage-og.jpg when available -->
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://gtavitips.com/">
     <script>
@@ -457,7 +458,7 @@
 
     /* ── FOOTER ── */
     .footer { border-top: 1px solid var(--border); padding: 52px 0 28px; }
-    .footer__inner { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
+    .footer__inner { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
     .footer__brand { display: flex; flex-direction: column; gap: 12px; }
     .footer__brand-logo { display: flex; align-items: center; gap: 9px; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--t1); }
     .footer__brand-badge { width: 28px; height: 28px; background: var(--blue); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 900; color: #fff; }
@@ -573,12 +574,12 @@
         <li><a href="/intel-drops">Intel Drops</a></li>
       </ul>
       <div class="nav__right">
+        <button class="nav__search-btn" id="search-open" aria-label="Search the database">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
         <button class="nav__theme-btn" id="theme-toggle" aria-label="Toggle dark/light mode">
           <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
           <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-        </button>
-        <button class="nav__search-btn" id="search-open" aria-label="Search the database">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </button>
         <a href="/gameplay" class="nav__db-btn">Browse Database</a>
       </div>
@@ -598,6 +599,7 @@
     <a href="/intel-drops">Intel Drops</a>
   </nav>
 
+  <!-- /search does not exist. Routes to Google site search. -->
   <div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search the database">
     <div class="search-overlay__inner">
       <div class="search-overlay__label">Search the Database</div>
@@ -610,8 +612,23 @@
     </div>
   </div>
 
+  <div class="launch-bar" role="timer" aria-label="GTA 6 launch countdown">
+    <span class="launch-bar__label">GTA 6 Launches In</span>
+    <div class="launch-bar__units">
+      <div class="launch-bar__unit"><span class="launch-bar__num" id="lb-d">--</span><span class="launch-bar__unit-label">d</span></div>
+      <span class="launch-bar__sep">:</span>
+      <div class="launch-bar__unit"><span class="launch-bar__num" id="lb-h">--</span><span class="launch-bar__unit-label">h</span></div>
+      <span class="launch-bar__sep">:</span>
+      <div class="launch-bar__unit"><span class="launch-bar__num" id="lb-m">--</span><span class="launch-bar__unit-label">m</span></div>
+      <span class="launch-bar__sep">:</span>
+      <div class="launch-bar__unit"><span class="launch-bar__num" id="lb-s">--</span><span class="launch-bar__unit-label">s</span></div>
+    </div>
+    <span class="launch-bar__date">Nov 19, 2026</span>
+    <div class="launch-bar__platforms"><span class="launch-bar__platform">PS5</span><span class="launch-bar__platform">XSX</span></div>
+  </div>
   <main id="main">
 
+    <!-- HERO -->
     <section class="hero" aria-label="GTAVITIPS verified GTA 6 intel hub">
       <div class="hero__atmos" aria-hidden="true">
         <div class="hero__atmos-grid"></div>
@@ -637,7 +654,7 @@
 
             <p class="hero__sub">
               Characters running the streets. Vehicles tearing through Vice County. Factions holding their turf.
-              <strong>You picked the wrong house, fool!</strong>
+              <strong>If it appeared in official footage, it is in here.</strong>
             </p>
 
             <div class="hero__actions">
@@ -664,11 +681,10 @@
           </div>
 
           <div class="hero__right">
-            
-            <div style="position: relative; overflow: hidden; border-radius: 14px; aspect-ratio: 4/3; width: 100%;">
-              <img src="/assets/images/social-media-gta-6-activity-01.png" alt="GTA 6 in-game screenshot – Leonida open world" width="1920" height="1080" loading="eager" style="width: 100%; height: 100%; object-fit: cover; object-position: center; transform: scale(1.35);">
-            </div>
+            <!-- IMAGE PLACEHOLDER: hero-right-visual.jpg — drop in without restructuring -->
+            <div class="hero__img-placeholder" aria-hidden="true" style="width:100%;aspect-ratio:4/3;background:var(--bg-2);border:1px solid var(--border);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--t3);">Image</div>
 
+            <!-- Intel Drops panel: May 17 2026 -->
             <div class="hero__latest" role="complementary" aria-label="Latest Updates">
               <div class="hero__latest-head">
                 <span>Updates: May 17, 2026</span>
@@ -701,6 +717,7 @@
         </div>
       </div>
 
+      <!-- Ticker: only official Rockstar sources cited publicly -->
       <div class="hero__strip" role="marquee" aria-label="Confirmed intel feed">
         <div class="hero__strip-label" aria-hidden="true">Confirmed Intel</div>
         <div class="hero__strip-track-wrap">
@@ -726,36 +743,8 @@
       </div>
     </section>
 
-    <section class="sec" aria-labelledby="cd-section-hd">
-      <div class="wrap">
-        <div class="sec__top">
-          <div>
-            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Launch Window</span></div>
-            <h2 class="sec__hd reveal" id="cd-section-hd">Time <span>Remaining</span></h2>
-          </div>
-          <a href="/faq/when-does-gta-6-release" class="sec__viewall reveal d1">Release Date FAQ</a>
-        </div>
-        <div class="reveal" style="max-width:520px">
-          <div class="countdown" role="timer" aria-label="GTA 6 launch countdown">
-              <div class="countdown__head">
-                <span class="countdown__title">GTA 6 Launches In</span>
-                <span class="countdown__live"><span class="countdown__live-dot" aria-hidden="true"></span>Live</span>
-              </div>
-              <div class="countdown__digits" aria-live="polite">
-                <div class="countdown__unit"><span class="countdown__num" id="cd-d">--</span><span class="countdown__unit-label">Days</span></div>
-                <div class="countdown__unit"><span class="countdown__num" id="cd-h">--</span><span class="countdown__unit-label">Hours</span></div>
-                <div class="countdown__unit"><span class="countdown__num" id="cd-m">--</span><span class="countdown__unit-label">Mins</span></div>
-                <div class="countdown__unit"><span class="countdown__num" id="cd-s">--</span><span class="countdown__unit-label">Secs</span></div>
-              </div>
-              <div class="countdown__foot">
-                <span class="countdown__date">Nov 19, 2026 <span>. Console first</span></span>
-                <div class="countdown__platforms"><span class="countdown__platform">PS5</span><span class="countdown__platform">XSX</span></div>
-              </div>
-            </div>
-        </div>
-        </div>
-    </section>
 
+    <!-- INTEL FEED — only verified existing article slugs, root level -->
     <section class="sec" style="padding-top:0" aria-labelledby="intel-hd">
       <div class="wrap">
         <div class="sec__top">
@@ -793,7 +782,8 @@
             </a>
             <a href="/news/gta-6-release-date-november-2026/" class="intel-card intel-card--side reveal d2">
               <div class="intel-card__thumb">
-                <img src="/assets/images/gta-6-release-date-gta-6-news-01.png" alt="GTA 6 release date November 19 2026" width="1920" height="1080" loading="lazy" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">
+                <!-- IMAGE PLACEHOLDER: gta-6-release-date-november-2026.jpg — drop in without restructuring -->
+                <div class="intel-card__thumb-inner" aria-hidden="true"><span class="intel-card__thumb-letter">GTA</span></div>
                 <div class="intel-card__thumb-overlay" aria-hidden="true"></div>
               </div>
               <div class="intel-card__body">
@@ -808,6 +798,7 @@
       </div>
     </section>
 
+    <!-- ENTITY BRIEFING — Dre'Quan Priest -->
     <section class="sec" style="padding-top:0" aria-labelledby="briefing-hd">
       <div class="wrap">
         <div class="sec__top">
@@ -847,6 +838,7 @@
       </div>
     </section>
 
+    <!-- INTEL LOG — May 17, 2026 -->
     <section class="sec" style="padding-top:0" aria-labelledby="log-hd">
       <div class="wrap">
         <div class="sec__top">
@@ -903,6 +895,7 @@
       </div>
     </section>
 
+    <!-- LAUNCH CTA -->
     <section class="sec sec--tight" aria-labelledby="cta-hd">
       <div class="wrap">
         <div class="cta-block reveal">
@@ -918,7 +911,8 @@
           </div>
           <div class="cta-block__img">
             <div class="cta-block__img-bg" aria-hidden="true"></div>
-            <img src="/assets/images/ambrosia-gta-6-location-04.jpg" alt="GTAVITIPS interactive Leonida map preview" width="1920" height="1080" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center 25%;position:absolute;inset:0;">
+            <!-- IMAGE PLACEHOLDER: gtavitips-interactive-map-preview.jpg — drop in without restructuring -->
+            <div class="cta-block__img-label" aria-hidden="true">Map Preview</div>
           </div>
           </div>
         </div>
@@ -927,19 +921,47 @@
 
   </main>
 
-    <footer class="footer" role="contentinfo">
+  <footer class="footer" role="contentinfo">
     <div class="wrap">
       <div class="footer__inner">
         <div class="footer__brand">
           <div class="footer__brand-logo"><div class="footer__brand-badge" aria-hidden="true">VI</div>GTAVITIPS</div>
-          <p class="footer__brand-desc">The intel database for GTA 6. You picked the wrong house, fool!</p>
+          <p class="footer__brand-desc">The GTA 6 intel database for Leonida. Characters, vehicles, factions, locations, weapons, brands, animals, and activities. Sourced from official material.</p>
         </div>
-        <div><div class="footer__col-head">Database</div><ul class="footer__links"><li><a href="/gameplay/activities">Activities</a></li><li><a href="/gameplay/animals">Animals</a></li><li><a href="/gameplay/brands">Brands</a></li><li><a href="/gameplay/characters">Characters</a></li><li><a href="/gameplay/gangs-and-factions">Factions</a></li><li><a href="/gameplay/locations">Locations</a></li><li><a href="/gameplay/vehicles">Vehicles</a></li><li><a href="/gameplay/weapons">Weapons</a></li></ul></div>
-        <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li></ul></div>
-        <div><div class="footer__col-head">Legal</div><ul class="footer__links"><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li></ul></div>
-        <div><div class="footer__col-head">Contact</div><ul class="footer__links"><li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li><li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li><li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
+        <div>
+          <div class="footer__col-head">Database</div>
+          <ul class="footer__links">
+            <li><a href="/gameplay/activities">Activities</a></li>
+            <li><a href="/gameplay/animals">Animals</a></li>
+            <li><a href="/gameplay/brands">Brands</a></li>
+            <li><a href="/gameplay/characters">Characters</a></li>
+            <li><a href="/gameplay/gangs-and-factions">Factions</a></li>
+            <li><a href="/gameplay/locations">Locations</a></li>
+            <li><a href="/gameplay/vehicles">Vehicles</a></li>
+            <li><a href="/gameplay/weapons">Weapons</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__col-head">Site</div>
+          <ul class="footer__links">
+            <li><a href="/news">News</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/intel-drops">Intel Drops</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__col-head">Contact</div>
+          <ul class="footer__links">
+            <li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li>
+            <li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li>
+            <li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+            <li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="footer__bottom"><p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p></div>
+      <div class="footer__bottom">
+        <p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p>
+      </div>
     </div>
   </footer>
 
@@ -1065,77 +1087,6 @@
       }
     });
   })();
-
-    // THEME TOGGLE
-    (function(){
-      var btn = document.getElementById('theme-toggle');
-      if (!btn) return;
-      btn.addEventListener('click', function(){
-        var current = document.documentElement.getAttribute('data-theme') || 'dark';
-        var next = current === 'light' ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', next);
-        localStorage.setItem('gtavitips-theme', next);
-      });
-    })();
-  </script>
-
-  <!-- COOKIE CONSENT BANNER -->
-  <style>
-    .cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999; background: #0d1320; border-top: 1px solid rgba(0,95,144,0.28); padding: 16px 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; transform: translateY(100%); transition: transform .35s ease; }
-    .cookie-banner.visible { transform: translateY(0); }
-    .cookie-banner__text { font-family: 'Poppins', sans-serif; font-size: 13px; color: #7e8fa3; line-height: 1.5; max-width: 680px; }
-    .cookie-banner__text a { color: #005f90; text-decoration: underline; }
-    .cookie-banner__btns { display: flex; gap: 10px; flex-shrink: 0; }
-    .cookie-banner__accept { padding: 9px 22px; background: #005f90; color: #fff; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border: none; border-radius: 8px; cursor: pointer; transition: opacity .18s; }
-    .cookie-banner__accept:hover { opacity: .85; }
-    .cookie-banner__decline { padding: 9px 22px; background: none; color: #445060; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border: 1px solid rgba(255,255,255,.06); border-radius: 8px; cursor: pointer; transition: color .18s, border-color .18s; }
-    .cookie-banner__decline:hover { color: #7e8fa3; border-color: rgba(255,255,255,.12); }
-  </style>
-  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
-    <p class="cookie-banner__text">We use Google Analytics to understand how visitors use this site. No advertising. No data sales. <a href="/cookie-policy">Cookie Policy</a> &middot; <a href="/privacy">Privacy Policy</a></p>
-    <div class="cookie-banner__btns">
-      <button class="cookie-banner__decline" id="cookie-decline">Decline</button>
-      <button class="cookie-banner__accept" id="cookie-accept">Accept</button>
-    </div>
-  </div>
-  <script>
-    (function(){
-      var CONSENT_KEY = 'gtavitips-cookie-consent';
-      var GA4_ID = 'G-J8Q9S7G7K6';
-      var banner = document.getElementById('cookie-banner');
-      var consent = localStorage.getItem(CONSENT_KEY);
-
-      function loadGA4() {
-        if (document.getElementById('ga4-script')) return;
-        var s = document.createElement('script');
-        s.id = 'ga4-script';
-        s.async = true;
-        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA4_ID;
-        document.head.appendChild(s);
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        window.gtag = gtag;
-        gtag('js', new Date());
-        gtag('config', GA4_ID);
-      }
-
-      if (consent === 'accepted') {
-        loadGA4();
-      } else if (consent === null) {
-        setTimeout(function(){ banner && banner.classList.add('visible'); }, 800);
-      }
-
-      document.getElementById('cookie-accept') && document.getElementById('cookie-accept').addEventListener('click', function(){
-        localStorage.setItem(CONSENT_KEY, 'accepted');
-        banner.classList.remove('visible');
-        loadGA4();
-      });
-
-      document.getElementById('cookie-decline') && document.getElementById('cookie-decline').addEventListener('click', function(){
-        localStorage.setItem(CONSENT_KEY, 'declined');
-        banner.classList.remove('visible');
-      });
-    })();
-  </script>
+</script>
 </body>
 </html>
