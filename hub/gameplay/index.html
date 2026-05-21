@@ -12,22 +12,8 @@
   <!-- OG IMAGE PLACEHOLDER: replace with gtavitips-gta-6-gameplay-hub.jpg when available -->
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://gtavitips.com/gameplay">
-    <script>
-    (function(){
-      var saved = localStorage.getItem('gtavitips-theme');
-      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      var theme = saved || (prefersDark ? 'dark' : 'light');
-      document.documentElement.setAttribute('data-theme', theme);
-    })();
-  </script><link rel="preconnect" href="https://fonts.googleapis.com">
-    <script>
-    (function(){
-      var saved = localStorage.getItem('gtavitips-theme');
-      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      var theme = saved || (prefersDark ? 'dark' : 'light');
-      document.documentElement.setAttribute('data-theme', theme);
-    })();
-  </script><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
 
   <script type="application/ld+json">
@@ -313,18 +299,6 @@
     .reveal.d4 { transition-delay: .24s; }
 
     /* RESPONSIVE */
- 
-    [data-theme="light"] { --bg:#f3f6fa;--bg-2:#ffffff;--bg-3:#f0f3f8;--bg-4:#e8ecf2;--border:rgba(0,0,0,.07);--border-b:rgba(0,95,144,.20);--t1:#111827;--t2:#4b5563;--t3:#9ca3af; }
-    [data-theme="light"] .nav { background: rgba(243,246,250,.95); }
-    [data-theme="dark"] { --bg:#080c12;--bg-2:#0d1320;--bg-3:#131c2e;--bg-4:#192236;--border:rgba(255,255,255,0.06);--border-b:rgba(0,95,144,0.22);--t1:#eef2f7;--t2:#7e8fa3;--t3:#445060; }
-    [data-theme="dark"] .nav { background: rgba(8,12,18,.95); }
-    .nav__theme-btn { width: 34px; height: 34px; border-radius: 8px; background: rgba(255,255,255,.05); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--t2); transition: color .18s, background .18s; position: relative; flex-shrink: 0; }
-    .nav__theme-btn:hover { color: var(--t1); background: rgba(255,255,255,.09); }
-    .nav__theme-btn svg { width: 15px; height: 15px; position: absolute; transition: opacity .2s; }
-    .nav__theme-btn .icon-moon { opacity: 1; }
-    .nav__theme-btn .icon-sun { opacity: 0; }
-    [data-theme="light"] .nav__theme-btn .icon-moon { opacity: 0; }
-    [data-theme="light"] .nav__theme-btn .icon-sun { opacity: 1; }
     @media (max-width: 1024px) {
       .cat-grid { grid-template-columns: repeat(3, 1fr); }
       .page-header__inner { grid-template-columns: 1fr; }
@@ -334,51 +308,15 @@
       .drops-log__item { grid-template-columns: auto 1fr auto; }
       .drops-log__date { display: none; }
     }
- 
-    [data-theme="light"] { --bg:#f3f6fa;--bg-2:#ffffff;--bg-3:#f0f3f8;--bg-4:#e8ecf2;--border:rgba(0,0,0,.07);--border-b:rgba(0,95,144,.20);--t1:#111827;--t2:#4b5563;--t3:#9ca3af; }
-    [data-theme="light"] .nav { background: rgba(243,246,250,.95); }
-    [data-theme="dark"] { --bg:#080c12;--bg-2:#0d1320;--bg-3:#131c2e;--bg-4:#192236;--border:rgba(255,255,255,0.06);--border-b:rgba(0,95,144,0.22);--t1:#eef2f7;--t2:#7e8fa3;--t3:#445060; }
-    [data-theme="dark"] .nav { background: rgba(8,12,18,.95); }
-    .nav__theme-btn { width: 34px; height: 34px; border-radius: 8px; background: rgba(255,255,255,.05); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--t2); transition: color .18s, background .18s; position: relative; flex-shrink: 0; }
-    .nav__theme-btn:hover { color: var(--t1); background: rgba(255,255,255,.09); }
-    .nav__theme-btn svg { width: 15px; height: 15px; position: absolute; transition: opacity .2s; }
-    .nav__theme-btn .icon-moon { opacity: 1; }
-    .nav__theme-btn .icon-sun { opacity: 0; }
-    [data-theme="light"] .nav__theme-btn .icon-moon { opacity: 0; }
-    [data-theme="light"] .nav__theme-btn .icon-sun { opacity: 1; }
     @media (max-width: 768px) {
       .nav__links, .nav__db-btn { display: none; }
       .nav__burger { display: flex; }
       .cat-grid { grid-template-columns: repeat(2, 1fr); }
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
     }
- 
-    [data-theme="light"] { --bg:#f3f6fa;--bg-2:#ffffff;--bg-3:#f0f3f8;--bg-4:#e8ecf2;--border:rgba(0,0,0,.07);--border-b:rgba(0,95,144,.20);--t1:#111827;--t2:#4b5563;--t3:#9ca3af; }
-    [data-theme="light"] .nav { background: rgba(243,246,250,.95); }
-    [data-theme="dark"] { --bg:#080c12;--bg-2:#0d1320;--bg-3:#131c2e;--bg-4:#192236;--border:rgba(255,255,255,0.06);--border-b:rgba(0,95,144,0.22);--t1:#eef2f7;--t2:#7e8fa3;--t3:#445060; }
-    [data-theme="dark"] .nav { background: rgba(8,12,18,.95); }
-    .nav__theme-btn { width: 34px; height: 34px; border-radius: 8px; background: rgba(255,255,255,.05); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--t2); transition: color .18s, background .18s; position: relative; flex-shrink: 0; }
-    .nav__theme-btn:hover { color: var(--t1); background: rgba(255,255,255,.09); }
-    .nav__theme-btn svg { width: 15px; height: 15px; position: absolute; transition: opacity .2s; }
-    .nav__theme-btn .icon-moon { opacity: 1; }
-    .nav__theme-btn .icon-sun { opacity: 0; }
-    [data-theme="light"] .nav__theme-btn .icon-moon { opacity: 0; }
-    [data-theme="light"] .nav__theme-btn .icon-sun { opacity: 1; }
     @media (max-width: 480px) {
       .cat-grid { grid-template-columns: 1fr; }
     }
- 
-    [data-theme="light"] { --bg:#f3f6fa;--bg-2:#ffffff;--bg-3:#f0f3f8;--bg-4:#e8ecf2;--border:rgba(0,0,0,.07);--border-b:rgba(0,95,144,.20);--t1:#111827;--t2:#4b5563;--t3:#9ca3af; }
-    [data-theme="light"] .nav { background: rgba(243,246,250,.95); }
-    [data-theme="dark"] { --bg:#080c12;--bg-2:#0d1320;--bg-3:#131c2e;--bg-4:#192236;--border:rgba(255,255,255,0.06);--border-b:rgba(0,95,144,0.22);--t1:#eef2f7;--t2:#7e8fa3;--t3:#445060; }
-    [data-theme="dark"] .nav { background: rgba(8,12,18,.95); }
-    .nav__theme-btn { width: 34px; height: 34px; border-radius: 8px; background: rgba(255,255,255,.05); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--t2); transition: color .18s, background .18s; position: relative; flex-shrink: 0; }
-    .nav__theme-btn:hover { color: var(--t1); background: rgba(255,255,255,.09); }
-    .nav__theme-btn svg { width: 15px; height: 15px; position: absolute; transition: opacity .2s; }
-    .nav__theme-btn .icon-moon { opacity: 1; }
-    .nav__theme-btn .icon-sun { opacity: 0; }
-    [data-theme="light"] .nav__theme-btn .icon-moon { opacity: 0; }
-    [data-theme="light"] .nav__theme-btn .icon-sun { opacity: 1; }
     @media (prefers-color-scheme: light) {
       :root { --bg: #f3f6fa; --bg-2: #ffffff; --bg-3: #f0f3f8; --bg-4: #e8ecf2; --border: rgba(0,0,0,.07); --border-b: rgba(0,95,144,.20); --t1: #111827; --t2: #4b5563; --t3: #9ca3af; }
       .nav { background: rgba(243,246,250,.95); }
@@ -398,18 +336,6 @@
     .nav__dropdown li a { display: block; padding: 9px 14px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t2); text-decoration: none; border-radius: 8px; transition: background .15s, color .15s; white-space: nowrap; }
     .nav__dropdown li a:hover { background: var(--bg-3); color: var(--blue); }
     /* Mobile dropdown */
- 
-    [data-theme="light"] { --bg:#f3f6fa;--bg-2:#ffffff;--bg-3:#f0f3f8;--bg-4:#e8ecf2;--border:rgba(0,0,0,.07);--border-b:rgba(0,95,144,.20);--t1:#111827;--t2:#4b5563;--t3:#9ca3af; }
-    [data-theme="light"] .nav { background: rgba(243,246,250,.95); }
-    [data-theme="dark"] { --bg:#080c12;--bg-2:#0d1320;--bg-3:#131c2e;--bg-4:#192236;--border:rgba(255,255,255,0.06);--border-b:rgba(0,95,144,0.22);--t1:#eef2f7;--t2:#7e8fa3;--t3:#445060; }
-    [data-theme="dark"] .nav { background: rgba(8,12,18,.95); }
-    .nav__theme-btn { width: 34px; height: 34px; border-radius: 8px; background: rgba(255,255,255,.05); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--t2); transition: color .18s, background .18s; position: relative; flex-shrink: 0; }
-    .nav__theme-btn:hover { color: var(--t1); background: rgba(255,255,255,.09); }
-    .nav__theme-btn svg { width: 15px; height: 15px; position: absolute; transition: opacity .2s; }
-    .nav__theme-btn .icon-moon { opacity: 1; }
-    .nav__theme-btn .icon-sun { opacity: 0; }
-    [data-theme="light"] .nav__theme-btn .icon-moon { opacity: 0; }
-    [data-theme="light"] .nav__theme-btn .icon-sun { opacity: 1; }
     @media(max-width: 860px) {
       .nav__dropdown-wrap { width: 100%; }
       .nav__dropdown-btn { width: 100%; justify-content: space-between; padding: 11px 14px; font-size: 13px; background: none; border-radius: 9px; }
@@ -419,14 +345,7 @@
       .nav__dropdown li a { color: var(--t3); font-size: 12px; }
     }
   </style>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8Q9S7G7K6"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-J8Q9S7G7K6');
-  </script></head>
+</head>
 <body>
 
   <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
@@ -459,10 +378,6 @@
       <div class="nav__right">
         <button class="nav__search-btn" id="search-open" aria-label="Search the database">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        </button>
-        <button class="nav__theme-btn" id="theme-toggle" aria-label="Toggle dark/light mode">
-          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
         </button>
         <a href="/gameplay" class="nav__db-btn">Browse Database</a>
       </div>
@@ -565,7 +480,7 @@
           </a>
 
           <a href="/gameplay/characters" class="cat-card cat-card--featured reveal d3" role="listitem">
-            <div class="cat-card__count">12 profiles</div>
+            <div class="cat-card__count">16 profiles</div>
             <div class="cat-card__name">Characters</div>
             <p class="cat-card__desc">Lucia and Jason run the jobs. Behind them: a club owner building an empire, an arms dealer who never asks questions, and a parole officer who asks too many. Every person in Leonida has an angle.</p>
             <div class="cat-card__foot">
@@ -595,9 +510,9 @@
           </a>
 
           <a href="/gameplay/vehicles" class="cat-card reveal d2" role="listitem">
-            <div class="cat-card__count">78 entries</div>
+            <div class="cat-card__count">81 entries</div>
             <div class="cat-card__name">Vehicles</div>
-            <p class="cat-card__desc">78 platforms across every class. Hypercars for Vice City. Pickup trucks for the backcountry. Airboats for the swamp. Helicopters for when the roads stop working. Know your asset before you need it.</p>
+            <p class="cat-card__desc">Hypercars for Vice City. Pickup trucks for the backcountry. Airboats for the swamp. Helicopters for when the roads stop working. Know your asset before you need it.</p>
             <div class="cat-card__foot">
               <span class="cat-card__entries">Cars, bikes, boats, air</span>
               <span class="cat-card__arrow" aria-hidden="true">→</span>
@@ -605,9 +520,9 @@
           </a>
 
           <a href="/gameplay/weapons" class="cat-card reveal d3" role="listitem">
-            <div class="cat-card__count">24 entries</div>
+            <div class="cat-card__count">25 entries</div>
             <div class="cat-card__name">Weapons</div>
-            <p class="cat-card__desc">A crowbar gets the job done quietly. A rocket launcher does not. Twenty-four weapons across every class, from pocket pistols to crew-served hardware, catalogued by what they are built for.</p>
+            <p class="cat-card__desc">A crowbar gets the job done quietly. A rocket launcher does not. Every class from pocket pistols to crew-served hardware, catalogued by what they are built for.</p>
             <div class="cat-card__foot">
               <span class="cat-card__entries">Firearms, melee, explosives</span>
               <span class="cat-card__arrow" aria-hidden="true">→</span>
@@ -617,7 +532,14 @@
         </div>
       </section>
 
-      <!-- INTEL DROPS — Feb 1 2026 confirmed drops -->
+      <!-- HERO VISUAL PLACEHOLDER -->
+      <div style="max-width:100%;aspect-ratio:21/9;background:var(--bg-2);border:1px solid var(--border);border-radius:16px;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center;margin-bottom:64px;">
+        <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,95,144,.18),rgba(255,0,85,.08));" aria-hidden="true"></div>
+        <!-- IMAGE PLACEHOLDER: gameplay-hub-gta-6.jpg — drop in without restructuring -->
+        <div style="position:relative;z-index:1;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--t3);" aria-hidden="true">Leonida</div>
+      </div>
+
+      <!-- INTEL DROPS — Updated May 2026 -->
       <section class="drops-section reveal" aria-labelledby="drops-hd">
         <div class="sec__top">
           <div>
@@ -633,46 +555,46 @@
           <div class="drops-log__head">
             <div class="drops-log__head-left">
               <div class="drops-log__dot" aria-hidden="true"></div>
-              <span class="drops-log__title">Across 6 categories</span>
+              <span class="drops-log__title">Updated May 21, 2026</span>
             </div>
             <a href="/intel-drops" class="drops-log__link">Intel Drops Log</a>
           </div>
           <ul class="drops-log__list" role="list">
-            <a href="/gameplay/vehicles/pegassi-zentorno" class="drops-log__item" role="listitem">
-              <span class="drops-log__date">Feb 2026</span>
-              <span class="drops-log__badge drops-log__badge--blue">Hypercar</span>
-              <span class="drops-log__text"><strong>Pegassi Zentorno</strong> is back in Leonida. Geometric bodywork, mid-engine aggression, and a price tag that tells Vice City exactly who you are before you open the door.</span>
-              <span class="drops-log__cat">Vehicles</span>
-            </a>
-            <a href="/gameplay/gangs-and-factions/vcpd" class="drops-log__item" role="listitem">
-              <span class="drops-log__date">Feb 2026</span>
-              <span class="drops-log__badge drops-log__badge--blue">Agency</span>
-              <span class="drops-log__text"><strong>VCPD</strong> owns the streets of Vice City. Foot patrols in the tourist corridors, cruisers in the financial district, and aerial units watching the coastline. They escalate fast and they do not forget faces.</span>
-              <span class="drops-log__cat">Factions</span>
-            </a>
-            <a href="/gameplay/animals/american-alligator" class="drops-log__item" role="listitem">
-              <span class="drops-log__date">Feb 2026</span>
-              <span class="drops-log__badge drops-log__badge--blue">Wildlife</span>
-              <span class="drops-log__text"><strong>American Alligator</strong> is the apex predator of the Leonida wetlands. Prehistoric, patient, and completely unbothered by the concept of personal space. They live in the Grassrivers. They also live in your swimming pool.</span>
-              <span class="drops-log__cat">Animals</span>
-            </a>
-            <a href="/gameplay/activities/racing" class="drops-log__item" role="listitem">
-              <span class="drops-log__date">Feb 2026</span>
-              <span class="drops-log__badge drops-log__badge--blue">Activity</span>
-              <span class="drops-log__text"><strong>Racing</strong> in Leonida runs from sanctioned circuits to illegal street takeovers. The state's topography handles both. Wager on it, win big on it, or lose the car entirely. Your call.</span>
-              <span class="drops-log__cat">Activities</span>
-            </a>
-            <a href="/gameplay/brands/weazel-news" class="drops-log__item" role="listitem">
-              <span class="drops-log__date">Feb 2026</span>
-              <span class="drops-log__badge drops-log__badge--blue">Media</span>
-              <span class="drops-log__text"><strong>Weazel News</strong> turns Leonida's daily chaos into prime time content. If something burns, they are already overhead. Slogan: "Confirming your prejudices." They mean it.</span>
-              <span class="drops-log__cat">Brands</span>
+            <a href="/gameplay/characters/boobie-ike" class="drops-log__item" role="listitem">
+              <span class="drops-log__date">May 2026</span>
+              <span class="drops-log__badge drops-log__badge--blue">Character</span>
+              <span class="drops-log__text"><strong>Boobie Ike</strong> runs the Jack of Hearts and whatever else needs running in Vice City. A club owner, a power broker, and a man who has never once been caught short.</span>
+              <span class="drops-log__cat">Characters</span>
             </a>
             <a href="/gameplay/locations/grassrivers" class="drops-log__item" role="listitem">
-              <span class="drops-log__date">Feb 2026</span>
+              <span class="drops-log__date">May 2026</span>
               <span class="drops-log__badge drops-log__badge--blue">Region</span>
               <span class="drops-log__text"><strong>Grassrivers</strong> is the swamp interior of Leonida. Alligators, pythons, and the kind of quiet that makes you nervous. The airboat is standard transport out here. Roads are optional.</span>
               <span class="drops-log__cat">Locations</span>
+            </a>
+            <a href="/gameplay/vehicles/vapid-caracara-4x4-lifeguard" class="drops-log__item" role="listitem">
+              <span class="drops-log__date">May 2026</span>
+              <span class="drops-log__badge drops-log__badge--blue">Vehicle</span>
+              <span class="drops-log__text"><strong>Vapid Caracara 4x4</strong> is the lifeguard SUV on the Vice City beachfront. Ford Bronco platform, orange and yellow livery, and the most visible vehicle on South Beach.</span>
+              <span class="drops-log__cat">Vehicles</span>
+            </a>
+            <a href="/gameplay/gangs-and-factions/real-dimez" class="drops-log__item" role="listitem">
+              <span class="drops-log__date">May 2026</span>
+              <span class="drops-log__badge drops-log__badge--blue">Faction</span>
+              <span class="drops-log__text"><strong>Real Dimez</strong> are Bae-Luxe and Roxy: two Vice City hustlers chasing a second hit single on Only Raw Records. The music is the front. What runs behind it is filed here.</span>
+              <span class="drops-log__cat">Factions</span>
+            </a>
+            <a href="/gameplay/animals/florida-panther" class="drops-log__item" role="listitem">
+              <span class="drops-log__date">May 2026</span>
+              <span class="drops-log__badge drops-log__badge--blue">Wildlife</span>
+              <span class="drops-log__text"><strong>Florida Panther</strong> operates in Mount Kalaga National Park. Critically endangered in the real world. In Leonida, it is the apex predator of the interior highlands and it does not care about your schedule.</span>
+              <span class="drops-log__cat">Animals</span>
+            </a>
+            <a href="/gameplay/activities/street-takeovers" class="drops-log__item" role="listitem">
+              <span class="drops-log__date">May 2026</span>
+              <span class="drops-log__badge drops-log__badge--blue">Activity</span>
+              <span class="drops-log__text"><strong>Street Takeovers</strong> block the intersection, burn rubber, and film everything. The 7X signature operation. Vice City shuts down a block and the crowd turns up. So does law enforcement, eventually.</span>
+              <span class="drops-log__cat">Activities</span>
             </a>
           </ul>
         </div>
@@ -799,17 +721,6 @@
       }
     });
   })();
- 
-    // THEME TOGGLE
-    (function(){
-      var btn = document.getElementById('theme-toggle');
-      if (!btn) return;
-      btn.addEventListener('click', function(){
-        var current = document.documentElement.getAttribute('data-theme') || 'dark';
-        var next = current === 'light' ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', next);
-        localStorage.setItem('gtavitips-theme', next);
-      });
-    })();</script>
+</script>
 </body>
 </html>
