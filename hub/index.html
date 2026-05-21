@@ -195,7 +195,7 @@
       --t2:          #7e8fa3;
       --t3:          #445060;
       --r:           12px;
-      --nav-h:       62px;
+      --nav-h:       62px; --bar-h: 36px;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -254,7 +254,7 @@
     .search-overlay__hint kbd { background: var(--bg-4); border: 1px solid var(--border); border-radius: 5px; padding: 2px 7px; font-family: inherit; font-size: 11px; color: var(--t2); }
 
     /* ── HERO ── */
-    .hero { min-height: 100svh; display: grid; grid-template-rows: 1fr auto; padding-top: var(--nav-h); position: relative; overflow: hidden; }
+    .hero { min-height: 100svh; display: grid; grid-template-rows: 1fr auto; padding-top: calc(var(--nav-h) + 36px); position: relative; overflow: hidden; }
     .hero__atmos { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
     .hero__atmos-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(0,95,144,.04) 1px, transparent 1px), linear-gradient(90deg, rgba(0,95,144,.04) 1px, transparent 1px); background-size: 56px 56px; mask-image: radial-gradient(ellipse 80% 70% at 50% 30%, black 20%, transparent 75%); }
     .hero__atmos-orb-1 { position: absolute; width: 900px; height: 600px; background: radial-gradient(ellipse, rgba(0,95,144,.20) 0%, transparent 65%); top: -180px; left: -280px; }
