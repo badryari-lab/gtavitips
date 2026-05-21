@@ -207,7 +207,14 @@
       .nav__dropdown-wrap.open .nav__dropdown { display: block; transform: none; }
       .nav__dropdown li a { color: var(--t3); font-size: 12px; }
     }
-  </style>
+
+    .connected-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 16px 18px; text-decoration: none; display: flex; flex-direction: column; gap: 5px; transition: border-color .2s, transform .2s, background .2s; }
+    .conn-card:hover { border-color: var(--border-b); transform: translateY(-2px); background: var(--bg-3); }
+    .conn-card__type { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .11em; color: var(--blue); }
+    .conn-card__name { font-size: 14px; font-weight: 700; color: var(--t1); line-height: 1.2; }
+    .conn-card__desc { font-size: 12px; color: var(--t3); line-height: 1.5; margin-top: 2px; }
+    @media(max-width:580px){.connected-grid{grid-template-columns:1fr}}  </style>
 </head>
 <body>
 
