@@ -378,13 +378,7 @@
 
   </style>
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8Q9S7G7K6"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-J8Q9S7G7K6');
-  </script></head>
+  </head>
 <body>
 
   <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
@@ -612,6 +606,65 @@
         localStorage.setItem('gtavitips-theme', next);
       });
     })();</script>
+
+  <!-- COOKIE CONSENT BANNER -->
+  <style>
+    .cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999; background: #0d1320; border-top: 1px solid rgba(0,95,144,0.28); padding: 16px 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; transform: translateY(100%); transition: transform .35s ease; }
+    .cookie-banner.visible { transform: translateY(0); }
+    .cookie-banner__text { font-family: 'Poppins', sans-serif; font-size: 13px; color: #7e8fa3; line-height: 1.5; max-width: 680px; }
+    .cookie-banner__text a { color: #005f90; text-decoration: underline; }
+    .cookie-banner__btns { display: flex; gap: 10px; flex-shrink: 0; }
+    .cookie-banner__accept { padding: 9px 22px; background: #005f90; color: #fff; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border: none; border-radius: 8px; cursor: pointer; transition: opacity .18s; }
+    .cookie-banner__accept:hover { opacity: .85; }
+    .cookie-banner__decline { padding: 9px 22px; background: none; color: #445060; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border: 1px solid rgba(255,255,255,.06); border-radius: 8px; cursor: pointer; transition: color .18s, border-color .18s; }
+    .cookie-banner__decline:hover { color: #7e8fa3; border-color: rgba(255,255,255,.12); }
+  </style>
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+    <p class="cookie-banner__text">We use Google Analytics to understand how visitors use this site. No advertising. No data sales. <a href="/cookie-policy">Cookie Policy</a> &middot; <a href="/privacy">Privacy Policy</a></p>
+    <div class="cookie-banner__btns">
+      <button class="cookie-banner__decline" id="cookie-decline">Decline</button>
+      <button class="cookie-banner__accept" id="cookie-accept">Accept</button>
+    </div>
+  </div>
+  <script>
+    (function(){
+      var CONSENT_KEY = 'gtavitips-cookie-consent';
+      var GA4_ID = 'G-J8Q9S7G7K6';
+      var banner = document.getElementById('cookie-banner');
+      var consent = localStorage.getItem(CONSENT_KEY);
+
+      function loadGA4() {
+        if (document.getElementById('ga4-script')) return;
+        var s = document.createElement('script');
+        s.id = 'ga4-script';
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA4_ID;
+        document.head.appendChild(s);
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', GA4_ID);
+      }
+
+      if (consent === 'accepted') {
+        loadGA4();
+      } else if (consent === null) {
+        setTimeout(function(){ banner && banner.classList.add('visible'); }, 800);
+      }
+
+      document.getElementById('cookie-accept') && document.getElementById('cookie-accept').addEventListener('click', function(){
+        localStorage.setItem(CONSENT_KEY, 'accepted');
+        banner.classList.remove('visible');
+        loadGA4();
+      });
+
+      document.getElementById('cookie-decline') && document.getElementById('cookie-decline').addEventListener('click', function(){
+        localStorage.setItem(CONSENT_KEY, 'declined');
+        banner.classList.remove('visible');
+      });
+    })();
+  </script>
 </body>
 
   <script>    const burger = document.getElementById('burger');
@@ -692,6 +745,65 @@
         localStorage.setItem('gtavitips-theme', next);
       });
     })();</script>
+
+  <!-- COOKIE CONSENT BANNER -->
+  <style>
+    .cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999; background: #0d1320; border-top: 1px solid rgba(0,95,144,0.28); padding: 16px 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; transform: translateY(100%); transition: transform .35s ease; }
+    .cookie-banner.visible { transform: translateY(0); }
+    .cookie-banner__text { font-family: 'Poppins', sans-serif; font-size: 13px; color: #7e8fa3; line-height: 1.5; max-width: 680px; }
+    .cookie-banner__text a { color: #005f90; text-decoration: underline; }
+    .cookie-banner__btns { display: flex; gap: 10px; flex-shrink: 0; }
+    .cookie-banner__accept { padding: 9px 22px; background: #005f90; color: #fff; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border: none; border-radius: 8px; cursor: pointer; transition: opacity .18s; }
+    .cookie-banner__accept:hover { opacity: .85; }
+    .cookie-banner__decline { padding: 9px 22px; background: none; color: #445060; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border: 1px solid rgba(255,255,255,.06); border-radius: 8px; cursor: pointer; transition: color .18s, border-color .18s; }
+    .cookie-banner__decline:hover { color: #7e8fa3; border-color: rgba(255,255,255,.12); }
+  </style>
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+    <p class="cookie-banner__text">We use Google Analytics to understand how visitors use this site. No advertising. No data sales. <a href="/cookie-policy">Cookie Policy</a> &middot; <a href="/privacy">Privacy Policy</a></p>
+    <div class="cookie-banner__btns">
+      <button class="cookie-banner__decline" id="cookie-decline">Decline</button>
+      <button class="cookie-banner__accept" id="cookie-accept">Accept</button>
+    </div>
+  </div>
+  <script>
+    (function(){
+      var CONSENT_KEY = 'gtavitips-cookie-consent';
+      var GA4_ID = 'G-J8Q9S7G7K6';
+      var banner = document.getElementById('cookie-banner');
+      var consent = localStorage.getItem(CONSENT_KEY);
+
+      function loadGA4() {
+        if (document.getElementById('ga4-script')) return;
+        var s = document.createElement('script');
+        s.id = 'ga4-script';
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA4_ID;
+        document.head.appendChild(s);
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', GA4_ID);
+      }
+
+      if (consent === 'accepted') {
+        loadGA4();
+      } else if (consent === null) {
+        setTimeout(function(){ banner && banner.classList.add('visible'); }, 800);
+      }
+
+      document.getElementById('cookie-accept') && document.getElementById('cookie-accept').addEventListener('click', function(){
+        localStorage.setItem(CONSENT_KEY, 'accepted');
+        banner.classList.remove('visible');
+        loadGA4();
+      });
+
+      document.getElementById('cookie-decline') && document.getElementById('cookie-decline').addEventListener('click', function(){
+        localStorage.setItem(CONSENT_KEY, 'declined');
+        banner.classList.remove('visible');
+      });
+    })();
+  </script>
 </body>
 </html>
  
@@ -706,5 +818,64 @@
         localStorage.setItem('gtavitips-theme', next);
       });
     })();</script>
+
+  <!-- COOKIE CONSENT BANNER -->
+  <style>
+    .cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999; background: #0d1320; border-top: 1px solid rgba(0,95,144,0.28); padding: 16px 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; transform: translateY(100%); transition: transform .35s ease; }
+    .cookie-banner.visible { transform: translateY(0); }
+    .cookie-banner__text { font-family: 'Poppins', sans-serif; font-size: 13px; color: #7e8fa3; line-height: 1.5; max-width: 680px; }
+    .cookie-banner__text a { color: #005f90; text-decoration: underline; }
+    .cookie-banner__btns { display: flex; gap: 10px; flex-shrink: 0; }
+    .cookie-banner__accept { padding: 9px 22px; background: #005f90; color: #fff; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border: none; border-radius: 8px; cursor: pointer; transition: opacity .18s; }
+    .cookie-banner__accept:hover { opacity: .85; }
+    .cookie-banner__decline { padding: 9px 22px; background: none; color: #445060; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border: 1px solid rgba(255,255,255,.06); border-radius: 8px; cursor: pointer; transition: color .18s, border-color .18s; }
+    .cookie-banner__decline:hover { color: #7e8fa3; border-color: rgba(255,255,255,.12); }
+  </style>
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+    <p class="cookie-banner__text">We use Google Analytics to understand how visitors use this site. No advertising. No data sales. <a href="/cookie-policy">Cookie Policy</a> &middot; <a href="/privacy">Privacy Policy</a></p>
+    <div class="cookie-banner__btns">
+      <button class="cookie-banner__decline" id="cookie-decline">Decline</button>
+      <button class="cookie-banner__accept" id="cookie-accept">Accept</button>
+    </div>
+  </div>
+  <script>
+    (function(){
+      var CONSENT_KEY = 'gtavitips-cookie-consent';
+      var GA4_ID = 'G-J8Q9S7G7K6';
+      var banner = document.getElementById('cookie-banner');
+      var consent = localStorage.getItem(CONSENT_KEY);
+
+      function loadGA4() {
+        if (document.getElementById('ga4-script')) return;
+        var s = document.createElement('script');
+        s.id = 'ga4-script';
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA4_ID;
+        document.head.appendChild(s);
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', GA4_ID);
+      }
+
+      if (consent === 'accepted') {
+        loadGA4();
+      } else if (consent === null) {
+        setTimeout(function(){ banner && banner.classList.add('visible'); }, 800);
+      }
+
+      document.getElementById('cookie-accept') && document.getElementById('cookie-accept').addEventListener('click', function(){
+        localStorage.setItem(CONSENT_KEY, 'accepted');
+        banner.classList.remove('visible');
+        loadGA4();
+      });
+
+      document.getElementById('cookie-decline') && document.getElementById('cookie-decline').addEventListener('click', function(){
+        localStorage.setItem(CONSENT_KEY, 'declined');
+        banner.classList.remove('visible');
+      });
+    })();
+  </script>
 </body>
 </html>
