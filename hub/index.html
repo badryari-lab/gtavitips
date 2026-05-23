@@ -284,24 +284,9 @@
     .hero__micro-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t3); }
     .hero__micro-div { width: 1px; height: 32px; background: var(--border); }
 
-    /* ── COUNTDOWN ── */
+    /* ── COUNTDOWN REPLACED CSS ── */
     .hero__right { position: relative; }
-    .countdown { background: var(--bg-2); border: 1px solid var(--border-b); border-radius: 16px; overflow: hidden; position: relative; }
-    .countdown::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--blue), var(--pink)); }
-    .countdown__head { padding: 20px 24px 0; display: flex; align-items: center; justify-content: space-between; }
-    .countdown__title { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .13em; color: var(--pink); }
-    .countdown__live { display: flex; align-items: center; gap: 6px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--green); }
-    .countdown__live-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); animation: pulse 1.8s ease-in-out infinite; }
-    .countdown__digits { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 20px 24px; }
-    .countdown__unit { text-align: center; }
-    .countdown__num { display: block; font-size: clamp(26px, 3.5vw, 36px); font-weight: 900; line-height: 1; color: var(--t1); background: var(--bg-3); border: 1px solid var(--border); border-radius: 10px; padding: 14px 6px; font-variant-numeric: tabular-nums; margin-bottom: 6px; }
-    .countdown__unit-label { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t3); }
-    .countdown__foot { padding: 0 24px 20px; display: flex; align-items: center; justify-content: space-between; }
-    .countdown__date { font-size: 12px; font-weight: 600; color: var(--t3); }
-    .countdown__date span { color: var(--t2); }
-    .countdown__platforms { display: flex; gap: 6px; }
-    .countdown__platform { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; padding: 4px 9px; border-radius: 5px; background: var(--bg-4); border: 1px solid var(--border); color: var(--t3); }
-
+    
     /* ── INTEL DROPS PANEL ── */
     .hero__latest { margin-top: 12px; background: var(--bg-2); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
     .hero__latest-head { padding: 12px 16px; border-bottom: 1px solid var(--border); font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--t3); display: flex; align-items: center; justify-content: space-between; }
@@ -339,34 +324,9 @@
     .sec__viewall { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--blue); border-bottom: 1px solid rgba(0,95,144,.3); padding-bottom: 1px; white-space: nowrap; transition: border-color .18s; }
     .sec__viewall:hover { border-color: var(--blue); }
 
-    /* ── DB RAIL ── */
-    .db-rail-outer { position: relative; }
-    .db-rail-outer::before, .db-rail-outer::after { content: ''; position: absolute; top: 0; bottom: 0; width: 60px; z-index: 2; pointer-events: none; }
-    .db-rail-outer::before { left: 0; background: linear-gradient(to right, var(--bg), transparent); }
-    .db-rail-outer::after { right: 0; background: linear-gradient(to left, var(--bg), transparent); }
-    .db-rail { display: flex; gap: 10px; overflow-x: auto; padding: 4px 2px 16px; scrollbar-width: none; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
-    .db-rail::-webkit-scrollbar { display: none; }
-    .db-card { scroll-snap-align: start; }
-    .db-rail-dots { display: flex; align-items: center; justify-content: center; gap: 6px; padding: 4px 0 0; }
-    .db-rail-dot { width: 6px; height: 6px; border-radius: 99px; background: var(--bg-4); border: none; cursor: pointer; padding: 0; transition: background .2s, width .2s; flex-shrink: 0; }
-    .db-rail-dot.active { width: 20px; background: var(--blue); }
-    .db-card { flex-shrink: 0; width: 200px; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 24px 20px 20px; display: flex; flex-direction: column; gap: 16px; text-decoration: none; transition: border-color .2s, transform .2s, box-shadow .2s, background .2s; position: relative; overflow: hidden; }
-    .db-card::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: var(--blue); opacity: 0; transition: opacity .2s; }
-    .db-card:hover { border-color: var(--border-b); transform: translateY(-4px); box-shadow: 0 16px 40px rgba(0,0,0,.4); background: var(--bg-3); }
-    .db-card:hover::after { opacity: 1; }
-    .db-card--active { border-color: var(--border-b); background: linear-gradient(160deg, rgba(0,95,144,.14), rgba(0,95,144,.05)); }
-    .db-card--active::after { opacity: 1; }
-    .db-card__cat { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--blue); }
-    .db-card__name { font-size: 17px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--t1); line-height: 1.2; }
-    .db-card__foot { margin-top: auto; display: flex; align-items: center; justify-content: space-between; }
-    .db-card__count { font-size: 11px; font-weight: 600; color: var(--t3); }
-    .db-card__count b { color: var(--blue); }
-    .db-card__arr { font-size: 14px; color: var(--t3); transition: color .2s, transform .2s; }
-    .db-card:hover .db-card__arr { color: var(--blue); transform: translateX(3px); }
-
     /* ── INTEL GRID ── */
     .intel-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 14px; }
-    .intel-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; display: flex; flex-direction: column; text-decoration: none; transition: border-color .2s, transform .2s, box-shadow .2s; position: relative; }
+    .intel-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; display: flex; flex-direction: column; text-decoration: none; transition: border-color .2s, transform .2s, box-shadow .2s; }
     .intel-card:hover { border-color: var(--border-b); transform: translateY(-3px); box-shadow: 0 12px 36px rgba(0,0,0,.4); }
     .intel-card--hero { grid-row: span 2; }
     .intel-card__thumb { background: var(--bg-3); overflow: hidden; display: flex; align-items: center; justify-content: center; position: relative; }
@@ -375,7 +335,7 @@
     .intel-card__thumb-inner { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,95,144,.15), rgba(255,0,85,.06)); display: flex; align-items: center; justify-content: center; }
     .intel-card__thumb-letter { font-size: 80px; font-weight: 900; text-transform: uppercase; color: rgba(255,255,255,.04); letter-spacing: -.03em; user-select: none; }
     .intel-card--side .intel-card__thumb-letter { font-size: 48px; }
-    .intel-card__thumb-overlay { position: absolute; bottom: 0; left: 0; right: 0; height: 60%; background: linear-gradient(to top, var(--bg-2), transparent); z-index: 1; pointer-events: none; }
+    .intel-card__thumb-overlay { position: absolute; bottom: 0; left: 0; right: 0; height: 60%; background: linear-gradient(to top, var(--bg-2), transparent); }
     .intel-card__body { padding: 20px; flex: 1; display: flex; flex-direction: column; gap: 10px; position: relative; z-index: 2; }
     .intel-card--side .intel-card__body { padding: 16px; gap: 8px; }
     .intel-card__meta { display: flex; align-items: center; gap: 8px; }
@@ -395,8 +355,8 @@
     .briefing__visual { position: relative; min-height: 500px; background: var(--bg-3); overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; }
     .briefing__visual-bg { position: absolute; inset: 0; background: linear-gradient(160deg, rgba(0,95,144,.22) 0%, rgba(255,0,85,.07) 100%); }
     .briefing__visual-letter { position: absolute; font-size: 280px; font-weight: 900; letter-spacing: -.04em; text-transform: uppercase; color: rgba(255,255,255,.025); bottom: -40px; left: -10px; line-height: 1; user-select: none; }
-    .briefing__visual-overlay { position: absolute; inset: 0; background: linear-gradient(to right, transparent 60%, var(--bg-2) 100%); z-index: 1; pointer-events: none; }
-    .briefing__visual-bottom { position: relative; z-index: 2; padding: 28px; }
+    .briefing__visual-overlay { position: absolute; inset: 0; background: linear-gradient(to right, transparent 60%, var(--bg-2) 100%); }
+    .briefing__visual-bottom { position: relative; z-index: 1; padding: 28px; }
     .briefing__status { display: inline-flex; align-items: center; gap: 6px; font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; padding: 5px 12px; border-radius: 99px; background: var(--green-dim); color: var(--green); margin-bottom: 10px; }
     .briefing__status::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: var(--green); }
     .briefing__visual-name { font-size: 52px; font-weight: 900; text-transform: uppercase; letter-spacing: -.02em; color: var(--t1); line-height: .95; }
@@ -651,8 +611,14 @@
           </div>
 
           <div class="hero__right">
-            <div class="hero__photo" style="border-radius: 16px; overflow: hidden; border: 1px solid var(--border-b);">
-              <img src="C:\Users\HP Omen\Documents\GitHub\gtavitips\hub\assets\images\social-media-gta-6-activity-01.png" alt="GTA 6 Activity" style="width: 100%; height: auto; display: block;">
+            
+            <div style="background: var(--bg-2); border: 1px solid var(--border-b); border-radius: 16px; overflow: hidden; position: relative;">
+              <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--blue), var(--pink)); z-index: 2;"></div>
+              <img src="C:\Users\HP Omen\Documents\GitHub\gtavitips\hub\assets\images\social-media-gta-6-activity-01.jpg" alt="Social Media Activity" style="width: 100%; height: 220px; object-fit: cover; display: block; border-bottom: 1px solid var(--border);">
+              <div style="padding: 16px 24px;">
+                <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .13em; color: var(--pink); margin-bottom: 6px;">Activity Log</div>
+                <div style="font-size: 14px; font-weight: 700; color: var(--t1);">Vice City Nightlife Sighting</div>
+              </div>
             </div>
 
             <div class="hero__latest" role="complementary" aria-label="Latest Updates">
@@ -722,11 +688,12 @@
           <a href="/news" class="sec__viewall reveal d1">All News</a>
         </div>
         <div class="intel-grid">
+          
           <a href="https://gtavitips.com/news/gta-6-best-buy-pre-order-leak" class="intel-card intel-card--hero reveal">
             <div class="intel-card__thumb">
-              <img src="C:\Users\HP Omen\Documents\GitHub\gtavitips\hub\assets\images\gta-6-pre-order-leak.webp" alt="GTA 6 Pre-order Leak" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
-              <div class="intel-card__thumb-inner" aria-hidden="true"><span class="intel-card__thumb-letter">GTA</span></div>
-              <div class="intel-card__thumb-overlay" aria-hidden="true"></div>
+              <img src="C:\Users\HP Omen\Documents\GitHub\gtavitips\hub\assets\images\gta-6-pre-order-leak.webp" alt="GTA 6 Pre-order Leak" style="position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+              <div class="intel-card__thumb-inner" aria-hidden="true" style="z-index: 0;"><span class="intel-card__thumb-letter">GTA</span></div>
+              <div class="intel-card__thumb-overlay" aria-hidden="true" style="z-index: 2;"></div>
             </div>
             <div class="intel-card__body">
               <div class="intel-card__meta"><span class="intel-card__cat">Official</span><span class="intel-card__date">November 6, 2025</span></div>
@@ -735,12 +702,13 @@
               <span class="intel-card__read">Full breakdown</span>
             </div>
           </a>
+          
           <div style="display:flex;flex-direction:column;gap:14px">
             <a href="https://gtavitips.com/news/strauss-zelnick-gta-6-expectations-terrifying" class="intel-card intel-card--side reveal d1">
               <div class="intel-card__thumb">
-                <img src="C:\Users\HP Omen\Documents\GitHub\gtavitips\hub\assets\images\strauss-zelnick-gta-6-interview.jpg" alt="Strauss Zelnick Interview" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
-                <div class="intel-card__thumb-inner" aria-hidden="true"><span class="intel-card__thumb-letter">MC</span></div>
-                <div class="intel-card__thumb-overlay" aria-hidden="true"></div>
+                <img src="C:\Users\HP Omen\Documents\GitHub\gtavitips\hub\assets\images\strauss-zelnick-gta-6-interview.jpg" alt="Strauss Zelnick Interview" style="position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+                <div class="intel-card__thumb-inner" aria-hidden="true" style="z-index: 0;"><span class="intel-card__thumb-letter">MC</span></div>
+                <div class="intel-card__thumb-overlay" aria-hidden="true" style="z-index: 2;"></div>
               </div>
               <div class="intel-card__body">
                 <div class="intel-card__meta"><span class="intel-card__cat intel-card__cat--blue">Gameplay</span><span class="intel-card__date">January 13, 2025</span></div>
@@ -749,11 +717,12 @@
                 <span class="intel-card__read">Read more</span>
               </div>
             </a>
+            
             <a href="https://gtavitips.com/news/gta-6-official-announcements-log/" class="intel-card intel-card--side reveal d2">
               <div class="intel-card__thumb">
-                <img src="C:\Users\HP Omen\Documents\GitHub\gtavitips\hub\assets\images\dre-quan-priest-gta-6-character-04.jpg" alt="Official Announcements" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
-                <div class="intel-card__thumb-inner" aria-hidden="true"><span class="intel-card__thumb-letter">RS</span></div>
-                <div class="intel-card__thumb-overlay" aria-hidden="true"></div>
+                <img src="C:\Users\HP Omen\Documents\GitHub\gtavitips\hub\assets\images\dre-quan-priest-gta-6-character-04.jpg" alt="Official Announcements" style="position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+                <div class="intel-card__thumb-inner" aria-hidden="true" style="z-index: 0;"><span class="intel-card__thumb-letter">RS</span></div>
+                <div class="intel-card__thumb-overlay" aria-hidden="true" style="z-index: 2;"></div>
               </div>
               <div class="intel-card__body">
                 <div class="intel-card__meta"><span class="intel-card__cat">Official</span><span class="intel-card__date">May 2, 2025</span></div>
@@ -780,9 +749,9 @@
           <div class="briefing__visual">
             <div class="briefing__visual-bg" aria-hidden="true"></div>
             <div class="briefing__visual-letter" aria-hidden="true">D</div>
-            <img src="C:\Users\HP Omen\Documents\GitHub\gtavitips\hub\assets\images\dre-quan-priest-gta-6-character.png" alt="Dre'Quan Priest" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
-            <div class="briefing__visual-overlay" aria-hidden="true"></div>
-            <div class="briefing__visual-bottom" style="z-index: 2;">
+            <img src="C:\Users\HP Omen\Documents\GitHub\gtavitips\hub\assets\images\dre-quan-priest-gta-6-character.jpg" alt="Dre'Quan Priest" style="position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: 1; opacity: 0.8; mix-blend-mode: overlay;">
+            <div class="briefing__visual-overlay" aria-hidden="true" style="z-index: 2;"></div>
+            <div class="briefing__visual-bottom" style="z-index: 3;">
               <span class="briefing__status" role="img" aria-label="Confirmed Active">Confirmed Active</span>
               <div class="briefing__visual-name">Dre'Quan<br>Priest</div>
             </div>
@@ -864,7 +833,7 @@
 
     <section class="sec sec--tight" aria-labelledby="cta-hd">
       <div class="wrap">
-        <div class="cta-block reveal" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));">
+        <div class="cta-block reveal" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));">
           <div class="cta-block__left">
             <div class="cta-block__left-bg" aria-hidden="true"></div>
             <span class="cta-block__eyebrow">November 19, 2026</span>
@@ -876,7 +845,7 @@
             </div>
           </div>
           <div class="cta-block__right" style="position: relative; min-height: 300px;">
-            <img src="C:\Users\HP Omen\Documents\GitHub\gtavitips\hub\assets\images\leonida-keys-gta-6-location-01.jpg" alt="Leonida Keys map view" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;">
+            <img src="C:\Users\HP Omen\Documents\GitHub\gtavitips\hub\assets\images\leonida-keys-gta-6-location-01.jpg" alt="Leonida Keys map view" style="position: absolute; width: 100%; height: 100%; object-fit: cover; inset: 0;">
           </div>
         </div>
       </div>
@@ -912,7 +881,7 @@
       burger.setAttribute('aria-expanded', o);
     });
 
-    /* SEARCH — /search does not exist. Routes to Google site search. */
+    /* SEARCH */
     const overlay   = document.getElementById('search-overlay');
     const searchInp = document.getElementById('search-input');
     function openSearch() { overlay.classList.add('open'); setTimeout(() => searchInp.focus(), 60); }
@@ -931,24 +900,7 @@
       }
     });
 
-    /* COUNTDOWN */
-    const LAUNCH = new Date('2026-11-19T00:00:00');
-    function pad(n, w) { return String(Math.max(0, n)).padStart(w, '0'); }
-    function tick() {
-      const diff = LAUNCH - Date.now();
-      if (diff <= 0) {
-        ['cd-d','cd-h','cd-m','cd-s'].forEach(id => document.getElementById(id).textContent = '00');
-        return;
-      }
-      document.getElementById('cd-d').textContent = pad(Math.floor(diff / 864e5), 3);
-      document.getElementById('cd-h').textContent = pad(Math.floor(diff / 36e5) % 24, 2);
-      document.getElementById('cd-m').textContent = pad(Math.floor(diff / 6e4) % 60, 2);
-      document.getElementById('cd-s').textContent = pad(Math.floor(diff / 1e3) % 60, 2);
-    }
-    tick();
-    setInterval(tick, 1000);
-
-    /* SCROLL REVEAL */
+    /* SCROLL REVEAL (Nu de countdown js weg is, zal dit perfect laden!) */
     const ro = new IntersectionObserver(entries => {
       entries.forEach(e => {
         if (e.isIntersecting) { e.target.classList.add('on'); ro.unobserve(e.target); }
