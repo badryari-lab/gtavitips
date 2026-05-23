@@ -9,6 +9,7 @@
   <meta property="og:title" content="GTAVITIPS | GTA 6 Intel Hub – Leonida">
   <meta property="og:description" content="GTA 6 intel on characters, vehicles, locations, factions, and brands across Leonida. Sourced from official Rockstar footage. 295 entries and counting.">
   <meta property="og:url" content="https://gtavitips.com/">
+  <!-- OG IMAGE PLACEHOLDER: replace with gtavitips-gta-6-homepage-og.jpg when available -->
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://gtavitips.com/">
   <script>
@@ -366,7 +367,7 @@
 
     /* ── INTEL GRID ── */
     .intel-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 14px; }
-    .intel-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; display: flex; flex-direction: column; text-decoration: none; transition: border-color .2s, transform .2s, box-shadow .2s; position: relative; }
+    .intel-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; display: flex; flex-direction: column; text-decoration: none; transition: border-color .2s, transform .2s, box-shadow .2s; }
     .intel-card:hover { border-color: var(--border-b); transform: translateY(-3px); box-shadow: 0 12px 36px rgba(0,0,0,.4); }
     .intel-card--hero { grid-row: span 2; }
     .intel-card__thumb { background: var(--bg-3); overflow: hidden; display: flex; align-items: center; justify-content: center; position: relative; }
@@ -375,8 +376,8 @@
     .intel-card__thumb-inner { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,95,144,.15), rgba(255,0,85,.06)); display: flex; align-items: center; justify-content: center; }
     .intel-card__thumb-letter { font-size: 80px; font-weight: 900; text-transform: uppercase; color: rgba(255,255,255,.04); letter-spacing: -.03em; user-select: none; }
     .intel-card--side .intel-card__thumb-letter { font-size: 48px; }
-    .intel-card__thumb-overlay { position: absolute; bottom: 0; left: 0; right: 0; height: 60%; background: linear-gradient(to top, var(--bg-2), transparent); z-index: 1; pointer-events: none; }
-    .intel-card__body { padding: 20px; flex: 1; display: flex; flex-direction: column; gap: 10px; position: relative; z-index: 2; }
+    .intel-card__thumb-overlay { position: absolute; bottom: 0; left: 0; right: 0; height: 60%; background: linear-gradient(to top, var(--bg-2), transparent); }
+    .intel-card__body { padding: 20px; flex: 1; display: flex; flex-direction: column; gap: 10px; }
     .intel-card--side .intel-card__body { padding: 16px; gap: 8px; }
     .intel-card__meta { display: flex; align-items: center; gap: 8px; }
     .intel-card__cat { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .11em; padding: 3px 9px; border-radius: 99px; background: var(--pink-dim); color: var(--pink); }
@@ -395,8 +396,8 @@
     .briefing__visual { position: relative; min-height: 500px; background: var(--bg-3); overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; }
     .briefing__visual-bg { position: absolute; inset: 0; background: linear-gradient(160deg, rgba(0,95,144,.22) 0%, rgba(255,0,85,.07) 100%); }
     .briefing__visual-letter { position: absolute; font-size: 280px; font-weight: 900; letter-spacing: -.04em; text-transform: uppercase; color: rgba(255,255,255,.025); bottom: -40px; left: -10px; line-height: 1; user-select: none; }
-    .briefing__visual-overlay { position: absolute; inset: 0; background: linear-gradient(to right, transparent 60%, var(--bg-2) 100%); z-index: 1; pointer-events: none; }
-    .briefing__visual-bottom { position: relative; z-index: 2; padding: 28px; }
+    .briefing__visual-overlay { position: absolute; inset: 0; background: linear-gradient(to right, transparent 60%, var(--bg-2) 100%); }
+    .briefing__visual-bottom { position: relative; z-index: 1; padding: 28px; }
     .briefing__status { display: inline-flex; align-items: center; gap: 6px; font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; padding: 5px 12px; border-radius: 99px; background: var(--green-dim); color: var(--green); margin-bottom: 10px; }
     .briefing__status::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: var(--green); }
     .briefing__visual-name { font-size: 52px; font-weight: 900; text-transform: uppercase; letter-spacing: -.02em; color: var(--t1); line-height: .95; }
@@ -582,3 +583,581 @@
     <a href="/faq">FAQ</a>
     <a href="/intel-drops">Intel Drops</a>
   </nav>
+
+  <!-- /search does not exist. Routes to Google site search. -->
+  <div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search the database">
+    <div class="search-overlay__inner">
+      <div class="search-overlay__label">Search the Database</div>
+      <div class="search-overlay__field">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" id="search-input" class="search-overlay__input" placeholder="Lucia, Pegassi, Vice City, 7X..." autocomplete="off" aria-label="Search query">
+        <button class="search-overlay__close" id="search-close">Close</button>
+      </div>
+      <p class="search-overlay__hint">Press <kbd>Enter</kbd> to search &nbsp;&middot;&nbsp; <kbd>Esc</kbd> to close</p>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" aria-label="GTAVITIPS verified GTA 6 intel hub">
+      <div class="hero__atmos" aria-hidden="true">
+        <div class="hero__atmos-grid"></div>
+        <div class="hero__atmos-orb-1"></div>
+        <div class="hero__atmos-orb-2"></div>
+        <div class="hero__atmos-scan"></div>
+      </div>
+
+      <div class="wrap">
+        <div class="hero__body">
+          <div class="hero__left">
+
+            <div class="hero__tag">
+              <span class="hero__tag-dot" aria-hidden="true"></span>
+              Verified GTA 6 Intel Hub
+            </div>
+
+            <h1 class="hero__h1">
+              <span class="hero__h1-line-1">GTA 6</span>
+              <span class="hero__h1-line-2">Intel</span>
+              <span class="hero__h1-line-3">Database</span>
+            </h1>
+
+            <p class="hero__sub">
+              Characters running the streets. Vehicles tearing through Vice County. Factions holding their turf.
+              <strong>If it appeared in official footage, it is in here.</strong>
+            </p>
+
+            <div class="hero__actions">
+              <a href="/gameplay" class="hero__btn-primary">Browse Database</a>
+              <a href="/gameplay/characters/lucia-caminos" class="hero__btn-ghost">Lucia Caminos</a>
+              <a href="/gameplay/characters/jason-duval" class="hero__btn-ghost">Jason Duval</a>
+            </div>
+
+            <div class="hero__micro" role="list" aria-label="Database statistics">
+              <div class="hero__micro-item" role="listitem">
+                <div class="hero__micro-num"><b>322</b></div>
+                <div class="hero__micro-label">Database entries</div>
+              </div>
+              <div class="hero__micro-div" aria-hidden="true"></div>
+              <div class="hero__micro-item" role="listitem">
+                <div class="hero__micro-num"><b>8</b></div>
+                <div class="hero__micro-label">Categories</div>
+              </div>
+              <div class="hero__micro-div" aria-hidden="true"></div>
+              <div class="hero__micro-item" role="listitem">
+                <div class="hero__micro-num"><b>Nov 19</b></div>
+                <div class="hero__micro-label">Launch — 2026</div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="hero__right">
+            <div class="countdown" role="timer" aria-label="GTA 6 launch countdown">
+              <div class="countdown__head">
+                <span class="countdown__title">GTA 6 Launches In</span>
+                <span class="countdown__live"><span class="countdown__live-dot" aria-hidden="true"></span>Live</span>
+              </div>
+              <div class="countdown__digits" aria-live="polite">
+                <div class="countdown__unit"><span class="countdown__num" id="cd-d">--</span><span class="countdown__unit-label">Days</span></div>
+                <div class="countdown__unit"><span class="countdown__num" id="cd-h">--</span><span class="countdown__unit-label">Hours</span></div>
+                <div class="countdown__unit"><span class="countdown__num" id="cd-m">--</span><span class="countdown__unit-label">Mins</span></div>
+                <div class="countdown__unit"><span class="countdown__num" id="cd-s">--</span><span class="countdown__unit-label">Secs</span></div>
+              </div>
+              <div class="countdown__foot">
+                <span class="countdown__date">Nov 19, 2026 <span>— Console first</span></span>
+                <div class="countdown__platforms"><span class="countdown__platform">PS5</span><span class="countdown__platform">XSX</span></div>
+              </div>
+            </div>
+
+            <!-- Intel Drops panel: May 17 2026 -->
+            <div class="hero__latest" role="complementary" aria-label="Latest Updates">
+              <div class="hero__latest-head">
+                <span>Updates — May 17, 2026</span>
+                <a href="/intel-drops">Full log</a>
+              </div>
+              <ul class="hero__latest-list">
+                <a href="/gameplay/characters/lucia-caminos" class="hero__latest-item">
+                  <span class="hero__latest-dot" aria-hidden="true"></span>
+                  <span class="hero__latest-text"><strong>Lucia Caminos</strong> protagonist dossier live. Intel log and known connections filed.</span>
+                  <span class="hero__latest-badge">New</span>
+                </a>
+                <a href="/gameplay/locations/vice-city" class="hero__latest-item">
+                  <span class="hero__latest-dot" aria-hidden="true"></span>
+                  <span class="hero__latest-text"><strong>Vice City</strong> location profile upgraded. Field intel expanded, operator notes added.</span>
+                  <span class="hero__latest-badge">Upgrade</span>
+                </a>
+                <a href="/gameplay/vehicles/karin-sultan-rs" class="hero__latest-item">
+                  <span class="hero__latest-dot" aria-hidden="true"></span>
+                  <span class="hero__latest-text"><strong>Karin Sultan RS</strong> vehicle profile live. High Rollerz connection confirmed.</span>
+                  <span class="hero__latest-badge">New</span>
+                </a>
+                <a href="/gameplay/animals/flamingo" class="hero__latest-item">
+                  <span class="hero__latest-dot" aria-hidden="true"></span>
+                  <span class="hero__latest-text"><strong>Flamingo</strong> filed under animals. Confirmed in coastal sequences.</span>
+                  <span class="hero__latest-badge">New</span>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ticker: only official Rockstar sources cited publicly -->
+      <div class="hero__strip" role="marquee" aria-label="Confirmed intel feed">
+        <div class="hero__strip-label" aria-hidden="true">Confirmed Intel</div>
+        <div class="hero__strip-track-wrap">
+          <div class="hero__strip-track" aria-hidden="true">
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Lucia Caminos — Protagonist</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Jason Duval — Protagonist</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Vice City — Primary map</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Leonida — State setting — Rockstar Newswire</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Port Gellhorn — Industrial hub</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Brute Security — Armored transport faction</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Release date: November 19, 2026 — Rockstar Newswire</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--amber)"></span>Interactive map in development. Target: launch day.</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Lucia Caminos — Protagonist</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Jason Duval — Protagonist</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Vice City — Primary map</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Leonida — State setting — Rockstar Newswire</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Port Gellhorn — Industrial hub</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Brute Security — Armored transport faction</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Release date: November 19, 2026 — Rockstar Newswire</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--amber)"></span>Interactive map in development. Target: launch day.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DATABASE RAIL — counts verified from live index pages -->
+    <section class="sec" aria-labelledby="db-hd">
+      <div class="wrap">
+        <div class="sec__top">
+          <div>
+            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">The Database</span></div>
+            <h2 class="sec__hd reveal" id="db-hd"><span>Browse</span></h2>
+          </div>
+          <a href="/gameplay" class="sec__viewall reveal d1">Full Database</a>
+        </div>
+        <div class="db-rail-outer">
+          <div class="db-rail" role="list" aria-label="Database categories">
+            <a href="/gameplay/activities" class="db-card reveal" role="listitem">
+              <div class="db-card__cat">Crime, sport, nightlife</div>
+              <div class="db-card__name">Activities</div>
+              <div class="db-card__foot"><div class="db-card__count"><b>28</b> entries</div><div class="db-card__arr" aria-hidden="true">→</div></div>
+            </a>
+            <a href="/gameplay/animals" class="db-card reveal d1" role="listitem">
+              <div class="db-card__cat">Predators, wildlife, marine</div>
+              <div class="db-card__name">Animals</div>
+              <div class="db-card__foot"><div class="db-card__count"><b>32</b> species</div><div class="db-card__arr" aria-hidden="true">→</div></div>
+            </a>
+            <a href="/gameplay/brands" class="db-card reveal d2" role="listitem">
+              <div class="db-card__cat">Food, fashion, media, auto</div>
+              <div class="db-card__name">Brands</div>
+              <div class="db-card__foot"><div class="db-card__count"><b>60</b> entries</div><div class="db-card__arr" aria-hidden="true">→</div></div>
+            </a>
+            <a href="/gameplay/characters" class="db-card reveal d3" role="listitem">
+              <div class="db-card__cat">Protagonists, associates</div>
+              <div class="db-card__name">Characters</div>
+              <div class="db-card__foot"><div class="db-card__count"><b>12</b> profiles</div><div class="db-card__arr" aria-hidden="true">→</div></div>
+            </a>
+            <a href="/gameplay/gangs-and-factions" class="db-card reveal d4" role="listitem">
+              <div class="db-card__cat">Gangs, law, services</div>
+              <div class="db-card__name">Factions</div>
+              <div class="db-card__foot"><div class="db-card__count"><b>20</b> entries</div><div class="db-card__arr" aria-hidden="true">→</div></div>
+            </a>
+            <a href="/gameplay/locations" class="db-card reveal" role="listitem">
+              <div class="db-card__cat">Cities, regions, landmarks</div>
+              <div class="db-card__name">Locations</div>
+              <div class="db-card__foot"><div class="db-card__count"><b>23</b> entries</div><div class="db-card__arr" aria-hidden="true">→</div></div>
+            </a>
+            <a href="/gameplay/vehicles" class="db-card reveal d1" role="listitem">
+              <div class="db-card__cat">Cars, bikes, boats, air</div>
+              <div class="db-card__name">Vehicles</div>
+              <div class="db-card__foot"><div class="db-card__count"><b>81</b> entries</div><div class="db-card__arr" aria-hidden="true">→</div></div>
+            </a>
+            <a href="/gameplay/weapons" class="db-card reveal d2" role="listitem">
+              <div class="db-card__cat">Firearms, melee, explosives</div>
+              <div class="db-card__name">Weapons</div>
+              <div class="db-card__foot"><div class="db-card__count"><b>25</b> entries</div><div class="db-card__arr" aria-hidden="true">→</div></div>
+            </a>
+          </div>
+          <div class="db-rail-dots" id="db-dots" role="tablist" aria-label="Database categories navigation"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTEL FEED — only verified existing article slugs, root level -->
+    <section class="sec" style="padding-top:0" aria-labelledby="intel-hd">
+      <div class="wrap">
+        <div class="sec__top">
+          <div>
+            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Latest News</span></div>
+            <h2 class="sec__hd reveal" id="intel-hd">Fresh From <span>Leonida</span></h2>
+          </div>
+          <a href="/news" class="sec__viewall reveal d1">All News</a>
+        </div>
+        <div class="intel-grid">
+          <a href="/news/gta-6-release-date-november-2026/" class="intel-card intel-card--hero reveal">
+            <div class="intel-card__thumb">
+              <!-- IMAGE PLACEHOLDER: gta-6-release-date-november-2026.jpg — drop in without restructuring -->
+              <div class="intel-card__thumb-inner" aria-hidden="true"><span class="intel-card__thumb-letter">GTA</span></div>
+              <div class="intel-card__thumb-overlay" aria-hidden="true"></div>
+            </div>
+            <div class="intel-card__body">
+              <div class="intel-card__meta"><span class="intel-card__cat">Official</span><span class="intel-card__date">November 6, 2025</span></div>
+              <h3 class="intel-card__title">GTA 6 Release Date: November 19, 2026</h3>
+              <p class="intel-card__excerpt">November 19, 2026. PS5 and Xbox Series X/S. Rockstar confirmed the date on November 6, 2025. Full timeline, platform details, and what the delay means for the final stretch.</p>
+              <span class="intel-card__read">Full breakdown</span>
+            </div>
+          </a>
+          <div style="display:flex;flex-direction:column;gap:14px">
+            <a href="/news/gta-6-trailer-2-breakdown/" class="intel-card intel-card--side reveal d1">
+              <div class="intel-card__thumb">
+                <!-- IMAGE PLACEHOLDER: gta-6-trailer-2-breakdown.jpg — drop in without restructuring -->
+                <div class="intel-card__thumb-inner" aria-hidden="true"><span class="intel-card__thumb-letter">MC</span></div>
+                <div class="intel-card__thumb-overlay" aria-hidden="true"></div>
+              </div>
+              <div class="intel-card__body">
+                <div class="intel-card__meta"><span class="intel-card__cat intel-card__cat--blue">Gameplay</span><span class="intel-card__date">January 13, 2025</span></div>
+                <h3 class="intel-card__title">GTA 6 Trailer 2: The Full Intelligence Breakdown</h3>
+                <p class="intel-card__excerpt">Three minutes of footage. Every confirmed location, faction, vehicle, and mechanic indexed and linked to the database.</p>
+                <span class="intel-card__read">Read more</span>
+              </div>
+            </a>
+            <a href="/news/gta-6-official-announcements-log/" class="intel-card intel-card--side reveal d2">
+              <div class="intel-card__thumb">
+                <!-- IMAGE PLACEHOLDER: gta-6-official-announcements-log.jpg — drop in without restructuring -->
+                <div class="intel-card__thumb-inner" aria-hidden="true"><span class="intel-card__thumb-letter">RS</span></div>
+                <div class="intel-card__thumb-overlay" aria-hidden="true"></div>
+              </div>
+              <div class="intel-card__body">
+                <div class="intel-card__meta"><span class="intel-card__cat">Official</span><span class="intel-card__date">May 2, 2025</span></div>
+                <h3 class="intel-card__title">GTA 6 Official Announcements Log</h3>
+                <p class="intel-card__excerpt">Every official Rockstar communication on GTA 6 in one place. Release date, trailer drops, and platform confirmations sourced from Newswire.</p>
+                <span class="intel-card__read">Read more</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENTITY BRIEFING — Dre'Quan Priest -->
+    <section class="sec" style="padding-top:0" aria-labelledby="briefing-hd">
+      <div class="wrap">
+        <div class="sec__top">
+          <div>
+            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Filed May 17, 2026</span></div>
+            <h2 class="sec__hd reveal" id="briefing-hd">New Profile: <span>Dre'Quan Priest</span></h2>
+          </div>
+          <a href="/gameplay/characters" class="sec__viewall reveal d1">All Characters</a>
+        </div>
+        <div class="briefing reveal">
+          <div class="briefing__visual">
+            <div class="briefing__visual-bg" aria-hidden="true"></div>
+            <div class="briefing__visual-letter" aria-hidden="true">D</div>
+            <!-- IMAGE PLACEHOLDER: dre-quan-priest-gta-6-character.jpg — drop in without restructuring -->
+            <div class="briefing__visual-overlay" aria-hidden="true"></div>
+            <div class="briefing__visual-bottom">
+              <span class="briefing__status" role="img" aria-label="Confirmed Active">Confirmed Active</span>
+              <div class="briefing__visual-name">Dre'Quan<br>Priest</div>
+            </div>
+          </div>
+          <div class="briefing__content">
+            <span class="briefing__label">Music Entrepreneur — GTA 6</span>
+            <h3 class="briefing__h">Dre'Quan Priest</h3>
+            <p class="briefing__role">Founder, Only Raw Records</p>
+            <p class="briefing__desc">
+              Started running bookings for Boobie Ike's venues before he had a label of his own. That access gave him what money alone could not buy. Only Raw Records is the result. Independent operation. Real Dimez on the roster. Building the music industry from the inside out.
+            </p>
+            <div class="briefing__grid" role="list">
+              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Status</div><div class="briefing__cell-val">Confirmed Active</div></div>
+              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Role</div><div class="briefing__cell-val">Music Entrepreneur</div></div>
+              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Venture</div><div class="briefing__cell-val">Only Raw Records</div></div>
+              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Partner</div><div class="briefing__cell-val">Boobie Ike</div></div>
+            </div>
+            <a href="/gameplay/characters/dre-quan-priest" class="briefing__cta">Open Full Dossier</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTEL LOG — May 17, 2026 -->
+    <section class="sec" style="padding-top:0" aria-labelledby="log-hd">
+      <div class="wrap">
+        <div class="sec__top">
+          <div>
+            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Recent Updates</span></div>
+            <h2 class="sec__hd reveal" id="log-hd">Latest <span>Updates</span></h2>
+          </div>
+          <a href="/intel-drops" class="sec__viewall reveal d1">Full Changelog</a>
+        </div>
+        <div class="log reveal">
+          <div class="log__head">
+            <div class="log__head-left"><div class="log__head-dot" aria-hidden="true"></div><span class="log__head-title">May 17, 2026</span></div>
+            <a href="/intel-drops" class="log__head-link">View All Drops</a>
+          </div>
+          <ul class="log__list" role="list">
+            <a href="/gameplay/gangs-and-factions/7x" class="log__item" role="listitem">
+              <span class="log__item-date">May 17</span>
+              <span class="log__item-badge log__item-badge--blue">New</span>
+              <span class="log__item-text"><strong>7X</strong> faction profile live. Vice City's dominant street gang. Territory, enterprise, and sighting log filed.</span>
+              <span class="log__item-cat">Factions</span>
+            </a>
+            <a href="/gameplay/locations/port-gellhorn" class="log__item" role="listitem">
+              <span class="log__item-date">May 17</span>
+              <span class="log__item-badge log__item-badge--green">Upgrade</span>
+              <span class="log__item-text"><strong>Port Gellhorn</strong> expanded. Industrial corridor intel added. Faction presence and vehicle sightings updated.</span>
+              <span class="log__item-cat">Locations</span>
+            </a>
+            <a href="/gameplay/animals/florida-panther" class="log__item" role="listitem">
+              <span class="log__item-date">May 17</span>
+              <span class="log__item-badge log__item-badge--blue">New</span>
+              <span class="log__item-text"><strong>Florida Panther</strong> filed. LETHAL threat level. Confirmed in Leonida interior footage.</span>
+              <span class="log__item-cat">Animals</span>
+            </a>
+            <a href="/gameplay/weapons/heavy-revolver" class="log__item" role="listitem">
+              <span class="log__item-date">May 17</span>
+              <span class="log__item-badge log__item-badge--green">Upgrade</span>
+              <span class="log__item-text"><strong>Heavy Revolver</strong> confirmed carrier section expanded. Jason Duval sighting cross-referenced.</span>
+              <span class="log__item-cat">Weapons</span>
+            </a>
+            <a href="/gameplay/activities/street-takeovers" class="log__item" role="listitem">
+              <span class="log__item-date">May 17</span>
+              <span class="log__item-badge log__item-badge--blue">New</span>
+              <span class="log__item-text"><strong>Street Takeovers</strong> activity profile live. High Rollerz connection filed. Confirmed in official footage.</span>
+              <span class="log__item-cat">Activities</span>
+            </a>
+            <a href="/gameplay/characters/raul-bautista" class="log__item" role="listitem">
+              <span class="log__item-date">May 17</span>
+              <span class="log__item-badge log__item-badge--green">Upgrade</span>
+              <span class="log__item-text"><strong>Raul Bautista</strong> intel log updated. Port Gellhorn corridor connection confirmed.</span>
+              <span class="log__item-cat">Characters</span>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- LAUNCH CTA -->
+    <section class="sec sec--tight" aria-labelledby="cta-hd">
+      <div class="wrap">
+        <div class="cta-block reveal">
+          <div class="cta-block__left">
+            <div class="cta-block__left-bg" aria-hidden="true"></div>
+            <span class="cta-block__eyebrow">November 19, 2026</span>
+            <h2 class="cta-block__h" id="cta-hd">The Map<br>Goes Live<br><span>On Launch Day</span></h2>
+            <p class="cta-block__sub">Interactive map with every confirmed location, faction territory, and activity zone. In development. Drops the moment the servers open. The database does not pause after launch.</p>
+            <div class="cta-block__btns">
+              <a href="/gameplay" class="btn-p">Browse Database</a>
+              <a href="/intel-drops" class="btn-g">Intel Drops Log</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+<footer class="footer" role="contentinfo">
+  <div class="wrap">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <div class="footer__brand-logo"><div class="footer__brand-badge" aria-hidden="true">VI</div>GTAVITIPS</div>
+        <p class="footer__brand-desc">The intel database for GTA 6. You picked the wrong house, fool!</p>
+      </div>
+      <div><div class="footer__col-head">Database</div><ul class="footer__links"><li><a href="/gameplay/activities">Activities</a></li><li><a href="/gameplay/animals">Animals</a></li><li><a href="/gameplay/brands">Brands</a></li><li><a href="/gameplay/characters">Characters</a></li><li><a href="/gameplay/gangs-and-factions">Factions</a></li><li><a href="/gameplay/locations">Locations</a></li><li><a href="/gameplay/vehicles">Vehicles</a></li><li><a href="/gameplay/weapons">Weapons</a></li></ul></div>
+      <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li></ul></div>
+      <div><div class="footer__col-head">Legal</div><ul class="footer__links"><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li></ul></div>
+      <div><div class="footer__col-head">Contact</div><ul class="footer__links"><li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li><li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li><li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
+    </div>
+    <div class="footer__bottom"><p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p></div>
+  </div>
+</footer>
+
+  <script>
+    /* NAV */
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => nav.classList.toggle('solid', scrollY > 40), { passive: true });
+    nav.classList.toggle('solid', scrollY > 40);
+    const burger = document.getElementById('burger');
+    const mobileNav = document.getElementById('mobile-nav');
+    burger.addEventListener('click', () => {
+      const o = mobileNav.classList.toggle('open');
+      burger.setAttribute('aria-expanded', o);
+    });
+
+    /* SEARCH — /search does not exist. Routes to Google site search. */
+    const overlay   = document.getElementById('search-overlay');
+    const searchInp = document.getElementById('search-input');
+    function openSearch() { overlay.classList.add('open'); setTimeout(() => searchInp.focus(), 60); }
+    function closeSearch() { overlay.classList.remove('open'); }
+    document.getElementById('search-open').addEventListener('click', openSearch);
+    document.getElementById('search-close').addEventListener('click', closeSearch);
+    overlay.addEventListener('click', e => { if (e.target === overlay) closeSearch(); });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeSearch();
+      if ((e.ctrlKey || e.metaKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+    });
+    searchInp.addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        const q = searchInp.value.trim();
+        if (q) window.open('https://www.google.com/search?q=site:gtavitips.com+' + encodeURIComponent(q), '_blank');
+      }
+    });
+
+    /* COUNTDOWN */
+    const LAUNCH = new Date('2026-11-19T00:00:00');
+    function pad(n, w) { return String(Math.max(0, n)).padStart(w, '0'); }
+    function tick() {
+      const diff = LAUNCH - Date.now();
+      if (diff <= 0) {
+        ['cd-d','cd-h','cd-m','cd-s'].forEach(id => document.getElementById(id).textContent = '00');
+        return;
+      }
+      document.getElementById('cd-d').textContent = pad(Math.floor(diff / 864e5), 3);
+      document.getElementById('cd-h').textContent = pad(Math.floor(diff / 36e5) % 24, 2);
+      document.getElementById('cd-m').textContent = pad(Math.floor(diff / 6e4) % 60, 2);
+      document.getElementById('cd-s').textContent = pad(Math.floor(diff / 1e3) % 60, 2);
+    }
+    tick();
+    setInterval(tick, 1000);
+
+    /* SCROLL REVEAL */
+    const ro = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('on'); ro.unobserve(e.target); }
+      });
+    }, { threshold: .1 });
+    document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
+
+    // DB RAIL DOTS
+    (function() {
+      var rail = document.querySelector('.db-rail');
+      var dotsWrap = document.getElementById('db-dots');
+      if (!rail || !dotsWrap) return;
+      var cards = rail.querySelectorAll('.db-card');
+      var dots = [];
+      cards.forEach(function(card, i) {
+        var dot = document.createElement('button');
+        dot.className = 'db-rail-dot' + (i === 0 ? ' active' : '');
+        dot.setAttribute('aria-label', card.querySelector('.db-card__name').textContent.trim());
+        dot.setAttribute('role', 'tab');
+        dot.addEventListener('click', function() {
+          rail.scrollTo({ left: card.offsetLeft - 2, behavior: 'smooth' });
+        });
+        dotsWrap.appendChild(dot);
+        dots.push(dot);
+      });
+      rail.addEventListener('scroll', function() {
+        var center = rail.scrollLeft + rail.offsetWidth / 2;
+        var closest = 0;
+        var minDist = Infinity;
+        cards.forEach(function(card, i) {
+          var dist = Math.abs(card.offsetLeft + card.offsetWidth / 2 - center);
+          if (dist < minDist) { minDist = dist; closest = i; }
+        });
+        dots.forEach(function(d, i) { d.classList.toggle('active', i === closest); });
+      }, { passive: true });
+    })();
+
+  // DROPDOWN NAV
+  (function() {
+    var wrap = document.querySelector('.nav__dropdown-wrap');
+    var btn = wrap && wrap.querySelector('.nav__dropdown-btn');
+    if (!btn) return;
+    var closeTimer = null;
+    function openMenu() {
+      clearTimeout(closeTimer);
+      wrap.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+    }
+    function closeMenu() {
+      closeTimer = setTimeout(function() {
+        wrap.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      }, 120);
+    }
+    wrap.addEventListener('mouseenter', openMenu);
+    wrap.addEventListener('mouseleave', closeMenu);
+    btn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      if (wrap.classList.contains('open')) { closeMenu(); } else { openMenu(); }
+    });
+    document.addEventListener('click', function(e) {
+      if (wrap && !wrap.contains(e.target)) {
+        wrap.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && wrap) {
+        wrap.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  })();
+</script>
+  <script>
+  (function(){
+    var btn=document.getElementById('theme-toggle');
+    if(!btn)return;
+    btn.addEventListener('click',function(){
+      var next=document.documentElement.getAttribute('data-theme')=='light'?'dark':'light';
+      document.documentElement.setAttribute('data-theme',next);
+      localStorage.setItem('gtavitips-theme',next);
+    });
+  })();
+  </script>
+
+  <!-- COOKIE CONSENT BANNER -->
+  <style>
+    .cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999; background: #0d1320; border-top: 1px solid rgba(0,95,144,0.28); padding: 16px 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; transform: translateY(100%); transition: transform .35s ease; }
+    .cookie-banner.visible { transform: translateY(0); }
+    .cookie-banner__text { font-family: 'Poppins', sans-serif; font-size: 13px; color: #7e8fa3; line-height: 1.5; max-width: 680px; }
+    .cookie-banner__text a { color: #005f90; text-decoration: underline; }
+    .cookie-banner__btns { display: flex; gap: 10px; flex-shrink: 0; }
+    .cookie-banner__accept { padding: 9px 22px; background: #005f90; color: #fff; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border: none; border-radius: 8px; cursor: pointer; transition: opacity .18s; }
+    .cookie-banner__accept:hover { opacity: .85; }
+    .cookie-banner__decline { padding: 9px 22px; background: none; color: #445060; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border: 1px solid rgba(255,255,255,.06); border-radius: 8px; cursor: pointer; transition: color .18s, border-color .18s; }
+    .cookie-banner__decline:hover { color: #7e8fa3; border-color: rgba(255,255,255,.12); }
+  </style>
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+    <p class="cookie-banner__text">We use Google Analytics to understand how visitors use this site. No advertising. No data sales. <a href="/cookie-policy">Cookie Policy</a> &middot; <a href="/privacy">Privacy Policy</a></p>
+    <div class="cookie-banner__btns">
+      <button class="cookie-banner__decline" id="cookie-decline">Decline</button>
+      <button class="cookie-banner__accept" id="cookie-accept">Accept</button>
+    </div>
+  </div>
+  <script>
+  (function(){
+    var CONSENT_KEY='gtavitips-cookie-consent';
+    var GA4_ID='G-J8Q9S7G7K6';
+    var banner=document.getElementById('cookie-banner');
+    var consent=localStorage.getItem(CONSENT_KEY);
+    function loadGA4(){
+      if(document.getElementById('ga4-script'))return;
+      var s=document.createElement('script');
+      s.id='ga4-script';s.async=true;
+      s.src='https://www.googletagmanager.com/gtag/js?id='+GA4_ID;
+      document.head.appendChild(s);
+      window.dataLayer=window.dataLayer||[];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag=gtag;
+      gtag('js',new Date());gtag('config',GA4_ID);
+    }
+    if(consent==='accepted'){loadGA4();}
+    else if(consent===null){setTimeout(function(){banner&&banner.classList.add('visible');},800);}
+    document.getElementById('cookie-accept')&&document.getElementById('cookie-accept').addEventListener('click',function(){
+      localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.remove('visible');loadGA4();
+    });
+    document.getElementById('cookie-decline')&&document.getElementById('cookie-decline').addEventListener('click',function(){
+      localStorage.setItem(CONSENT_KEY,'declined');banner.classList.remove('visible');
+    });
+  })();
+  </script>
+</body>
+</html>
