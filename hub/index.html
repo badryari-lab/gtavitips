@@ -458,7 +458,7 @@
 
     /* ── FOOTER ── */
     .footer { border-top: 1px solid var(--border); padding: 52px 0 28px; }
-    .footer__inner { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
+    .footer__inner { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
     .footer__brand { display: flex; flex-direction: column; gap: 12px; }
     .footer__brand-logo { display: flex; align-items: center; gap: 9px; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--t1); }
     .footer__brand-badge { width: 28px; height: 28px; background: var(--blue); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 900; color: #fff; }
@@ -620,32 +620,7 @@
   <div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search the database">
     <div class="search-overlay__inner">
       <div class="search-overlay__label">Search the Database</div>
-      <div class="search-overlay__field">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input type="search" id="search-input" class="search-overlay__input" placeholder="Lucia, Pegassi, Vice City, 7X..." autocomplete="off" aria-label="Search query">
-        <button class="search-overlay__close" id="search-close">Close</button>
-      </div>
-      <p class="search-overlay__hint">Press <kbd>Enter</kbd> to search &nbsp;&middot;&nbsp; <kbd>Esc</kbd> to close</p>
-    </div>
-  </div>
-
-  <div style="background:var(--bg-2);border-bottom:1px solid var(--border-b);height:38px;display:flex;flex-direction:row;align-items:center;justify-content:center;gap:18px;padding:0 28px;font-family:'Poppins',sans-serif;flex-wrap:nowrap;overflow:hidden;" role="timer" aria-label="GTA 6 launch countdown">
-    <span style="font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.13em;color:var(--pink);white-space:nowrap;">GTA 6 Launches In</span>
-    <span style="display:inline-flex;align-items:baseline;gap:6px;white-space:nowrap;">
-      <span style="font-size:15px;font-weight:900;color:var(--t1);font-variant-numeric:tabular-nums;" id="lb-d">--</span><span style="font-size:9px;font-weight:700;text-transform:uppercase;color:var(--t3);">d</span>
-      <span style="font-size:13px;color:var(--t3);">:</span>
-      <span style="font-size:15px;font-weight:900;color:var(--t1);font-variant-numeric:tabular-nums;" id="lb-h">--</span><span style="font-size:9px;font-weight:700;text-transform:uppercase;color:var(--t3);">h</span>
-      <span style="font-size:13px;color:var(--t3);">:</span>
-      <span style="font-size:15px;font-weight:900;color:var(--t1);font-variant-numeric:tabular-nums;" id="lb-m">--</span><span style="font-size:9px;font-weight:700;text-transform:uppercase;color:var(--t3);">m</span>
-      <span style="font-size:13px;color:var(--t3);">:</span>
-      <span style="font-size:15px;font-weight:900;color:var(--t1);font-variant-numeric:tabular-nums;" id="lb-s">--</span><span style="font-size:9px;font-weight:700;text-transform:uppercase;color:var(--t3);">s</span>
-    </span>
-    <span style="font-size:11px;color:var(--t3);font-weight:600;white-space:nowrap;">Nov 19, 2026</span>
-    <span style="display:inline-flex;gap:4px;">
-      <span style="font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:3px 7px;border-radius:4px;background:var(--bg-4);border:1px solid var(--border);color:var(--t3);">PS5</span>
-      <span style="font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:3px 7px;border-radius:4px;background:var(--bg-4);border:1px solid var(--border);color:var(--t3);">XSX</span>
-    </span>
-  </div>
+      
   <main id="main">
 
     <!-- HERO -->
@@ -674,7 +649,7 @@
 
             <p class="hero__sub">
               Characters running the streets. Vehicles tearing through Vice County. Factions holding their turf.
-              <strong>You picked the wrong house, fool!</strong>
+              <strong>If it appeared in official footage, it is in here.</strong>
             </p>
 
             <div class="hero__actions">
@@ -934,25 +909,54 @@
             <!-- IMAGE PLACEHOLDER: gtavitips-interactive-map-preview.jpg — drop in without restructuring -->
             <div class="cta-block__img-label" aria-hidden="true">Map Preview</div>
           </div>
+          </div>
         </div>
       </div>
     </section>
 
   </main>
 
-    <footer class="footer" role="contentinfo">
+  <footer class="footer" role="contentinfo">
     <div class="wrap">
       <div class="footer__inner">
         <div class="footer__brand">
           <div class="footer__brand-logo"><div class="footer__brand-badge" aria-hidden="true">VI</div>GTAVITIPS</div>
-          <p class="footer__brand-desc">The intel database for GTA 6. You picked the wrong house, fool!</p>
+          <p class="footer__brand-desc">The GTA 6 intel database for Leonida. Characters, vehicles, factions, locations, weapons, brands, animals, and activities. Sourced from official material.</p>
         </div>
-        <div><div class="footer__col-head">Database</div><ul class="footer__links"><li><a href="/gameplay/activities">Activities</a></li><li><a href="/gameplay/animals">Animals</a></li><li><a href="/gameplay/brands">Brands</a></li><li><a href="/gameplay/characters">Characters</a></li><li><a href="/gameplay/gangs-and-factions">Factions</a></li><li><a href="/gameplay/locations">Locations</a></li><li><a href="/gameplay/vehicles">Vehicles</a></li><li><a href="/gameplay/weapons">Weapons</a></li></ul></div>
-        <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li></ul></div>
-        <div><div class="footer__col-head">Legal</div><ul class="footer__links"><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li></ul></div>
-        <div><div class="footer__col-head">Contact</div><ul class="footer__links"><li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li><li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li><li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
+        <div>
+          <div class="footer__col-head">Database</div>
+          <ul class="footer__links">
+            <li><a href="/gameplay/activities">Activities</a></li>
+            <li><a href="/gameplay/animals">Animals</a></li>
+            <li><a href="/gameplay/brands">Brands</a></li>
+            <li><a href="/gameplay/characters">Characters</a></li>
+            <li><a href="/gameplay/gangs-and-factions">Factions</a></li>
+            <li><a href="/gameplay/locations">Locations</a></li>
+            <li><a href="/gameplay/vehicles">Vehicles</a></li>
+            <li><a href="/gameplay/weapons">Weapons</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__col-head">Site</div>
+          <ul class="footer__links">
+            <li><a href="/news">News</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/intel-drops">Intel Drops</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__col-head">Contact</div>
+          <ul class="footer__links">
+            <li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li>
+            <li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li>
+            <li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+            <li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="footer__bottom"><p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p></div>
+      <div class="footer__bottom">
+        <p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p>
+      </div>
     </div>
   </footer>
 
