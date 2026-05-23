@@ -17,14 +17,7 @@
       var theme = saved || (prefersDark ? 'dark' : 'light');
       document.documentElement.setAttribute('data-theme', theme);
     })();
-  </script><link rel="preconnect" href="https://fonts.googleapis.com">  <script>
-    (function(){
-      var saved = localStorage.getItem('gtavitips-theme');
-      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      var theme = saved || (prefersDark ? 'dark' : 'light');
-      document.documentElement.setAttribute('data-theme', theme);
-    })();
-  </script><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </script><link rel="preconnect" href="https://fonts.googleapis.com">  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Article","headline":"Leonida Keys - GTA 6 Location","description":"The Leonida Keys are a tropical island chain in GTA 6, south of Vice City. Coral reefs, shallow waterways, and maritime access routes.","url":"https://gtavitips.com/gameplay/locations/leonida-keys","dateModified":"2026-02-01","publisher":{"@type":"Organization","name":"GTAVITIPS","url":"https://gtavitips.com"}}
@@ -253,10 +246,9 @@
     .nav__theme-btn .icon-sun { opacity: 0; }
     [data-theme="light"] .nav__theme-btn .icon-moon { opacity: 0; }
     [data-theme="light"] .nav__theme-btn .icon-sun { opacity: 1; }
-    @media (prefers-color-scheme: light) {
-      :root { --bg: #f3f6fa; --bg-2: #ffffff; --bg-3: #f0f3f8; --bg-4: #e8ecf2; --border: rgba(0,0,0,.07); --border-b: rgba(0,95,144,.20); --t1: #111827; --t2: #4b5563; --t3: #9ca3af; }
-      .nav { background: rgba(243,246,250,.95); }
-    }
+        [data-theme="light"] { --bg:#f3f6fa; --bg-2:#ffffff; --bg-3:#f0f3f8; --bg-4:#e8ecf2; --border:rgba(0,0,0,.07); --border-b:rgba(0,95,144,.20); --t1:#111827; --t2:#4b5563; --t3:#9ca3af; }
+    [data-theme="light"] .nav { background: rgba(243,246,250,.95); }
+    [data-theme="dark"] { --bg:#080c12; --bg-2:#0d1320; --bg-3:#131c2e; --bg-4:#192236; --border:rgba(255,255,255,0.06); --border-b:rgba(0,95,144,0.22); --t1:#eef2f7; --t2:#7e8fa3; --t3:#445060; }
   
     /* NAV DROPDOWN */
     .nav__dropdown-wrap { position: relative; }
@@ -422,20 +414,20 @@
     </aside>
   </div></div></main>
   <footer class="footer" role="contentinfo">
-    <div class="wrap">
-      <div class="footer__inner">
-        <div class="footer__brand">
-          <div class="footer__brand-logo"><div class="footer__brand-badge" aria-hidden="true">VI</div>GTAVITIPS</div>
-          <p class="footer__brand-desc">The intel database for GTA 6. You picked the wrong house, fool!</p>
-        </div>
-        <div><div class="footer__col-head">Database</div><ul class="footer__links"><li><a href="/gameplay/activities">Activities</a></li><li><a href="/gameplay/animals">Animals</a></li><li><a href="/gameplay/brands">Brands</a></li><li><a href="/gameplay/characters">Characters</a></li><li><a href="/gameplay/gangs-and-factions">Factions</a></li><li><a href="/gameplay/locations">Locations</a></li><li><a href="/gameplay/vehicles">Vehicles</a></li><li><a href="/gameplay/weapons">Weapons</a></li></ul></div>
-        <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li></ul></div>
-        <div><div class="footer__col-head">Legal</div><ul class="footer__links"><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li></ul></div>
-        <div><div class="footer__col-head">Contact</div><ul class="footer__links"><li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li><li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li><li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
+  <div class="wrap">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <div class="footer__brand-logo"><div class="footer__brand-badge" aria-hidden="true">VI</div>GTAVITIPS</div>
+        <p class="footer__brand-desc">The intel database for GTA 6. You picked the wrong house, fool!</p>
       </div>
-      <div class="footer__bottom"><p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p></div>
+      <div><div class="footer__col-head">Database</div><ul class="footer__links"><li><a href="/gameplay/activities">Activities</a></li><li><a href="/gameplay/animals">Animals</a></li><li><a href="/gameplay/brands">Brands</a></li><li><a href="/gameplay/characters">Characters</a></li><li><a href="/gameplay/gangs-and-factions">Factions</a></li><li><a href="/gameplay/locations">Locations</a></li><li><a href="/gameplay/vehicles">Vehicles</a></li><li><a href="/gameplay/weapons">Weapons</a></li></ul></div>
+      <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li></ul></div>
+      <div><div class="footer__col-head">Legal</div><ul class="footer__links"><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li></ul></div>
+      <div><div class="footer__col-head">Contact</div><ul class="footer__links"><li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li><li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li><li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
     </div>
-  </footer>
+    <div class="footer__bottom"><p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p></div>
+  </div>
+</footer>
 
   <script>
     const burger = document.getElementById('burger');
