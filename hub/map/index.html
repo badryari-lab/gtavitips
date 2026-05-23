@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GTA 6 Interactive Map – Leonida | GTAVITIPS</title>
+  <meta name="description" content="Interactive map of GTA 6 Leonida launching November 19, 2026. All 23 confirmed locations, faction territories, and activity zones indexed.">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="GTA 6 Interactive Map – Leonida | GTAVITIPS">
+  <meta property="og:description" content="Interactive map of GTA 6 Leonida launching November 19, 2026. All 23 confirmed locations, faction territories, and activity zones indexed.">
+  <meta property="og:url" content="https://gtavitips.com/map">
+  <!-- OG IMAGE PLACEHOLDER: replace with map-gta-6-leonida.jpg when available -->
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://gtavitips.com/map">
+
+  <script>
+  (function(){
+    var saved=localStorage.getItem('gtavitips-theme');
+    var prefersDark=window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme',saved||(prefersDark?'dark':'light'));
+  })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "GTA 6 Interactive Map – Leonida",
+    "description": "Interactive map of GTA 6 Leonida launching November 19, 2026. All 23 confirmed locations, faction territories, and activity zones indexed.",
+    "url": "https://gtavitips.com/map",
+    "dateModified": "2026-05-23T00:00:00+00:00",
+    "publisher": { "@type": "Organization", "name": "GTAVITIPS", "url": "https://gtavitips.com" },
+    "author": { "@type": "Organization", "name": "GTAVITIPS" }
+  }
+  </script>
+
+  <style>
+    [data-theme="light"] { --bg:#f3f6fa; --bg-2:#ffffff; --bg-3:#f0f3f8; --bg-4:#e8ecf2; --border:rgba(0,0,0,.07); --border-b:rgba(0,95,144,.20); --t1:#111827; --t2:#4b5563; --t3:#9ca3af; }
+    [data-theme="light"] .nav { background: rgba(243,246,250,.95); }
+    [data-theme="dark"] { --bg:#080c12; --bg-2:#0d1320; --bg-3:#131c2e; --bg-4:#192236; --border:rgba(255,255,255,0.06); --border-b:rgba(0,95,144,0.22); --t1:#eef2f7; --t2:#7e8fa3; --t3:#445060; }
+
+    :root {
+      --blue:#005f90; --blue-dim:rgba(0,95,144,0.12); --blue-border:rgba(0,95,144,0.28);
+      --pink:#ff0055; --green:#28a745; --green-dim:rgba(40,167,69,0.12);
+      --amber:#ffc107; --amber-dim:rgba(255,193,7,0.12);
+      --r:12px; --nav-h:62px;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+    body{font-family:'Poppins',sans-serif;background:var(--bg);color:var(--t1);overflow-x:hidden;font-size:16px;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    img{display:block;max-width:100%}
+    ::selection{background:var(--blue);color:#fff}
+    ::-webkit-scrollbar{width:5px}
+    ::-webkit-scrollbar-track{background:var(--bg)}
+    ::-webkit-scrollbar-thumb{background:var(--bg-4);border-radius:99px}
+    .wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+
+    /* NAV */
+    .nav{position:fixed;top:0;left:0;right:0;z-index:200;height:var(--nav-h);display:flex;align-items:center;background:rgba(8,12,18,.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border-b);transition:background .3s}
+    .nav__inner{width:100%;max-width:1120px;margin:0 auto;padding:0 28px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .nav__logo{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--t1);flex-shrink:0}
+    .nav__logo-badge{width:30px;height:30px;background:var(--blue);border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:900;color:#fff;letter-spacing:-.5px}
+    .nav__links{display:flex;align-items:center;gap:2px;list-style:none}
+    .nav__links a{padding:5px 13px;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--t2);border-radius:99px;transition:color .18s,background .18s}
+    .nav__links a:hover{color:var(--t1);background:rgba(255,255,255,.05)}
+    .nav__right{display:flex;align-items:center;gap:10px;flex-shrink:0}
+    .nav__theme-btn{width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,.05);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--t2);transition:color .18s,background .18s}
+    .nav__theme-btn:hover{color:var(--t1);background:rgba(255,255,255,.09)}
+    .nav__theme-btn svg{width:15px;height:15px}
+    .nav__search-btn{width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,.05);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--t2);transition:color .18s,background .18s}
+    .nav__search-btn:hover{color:var(--t1);background:rgba(255,255,255,.09)}
+    .nav__search-btn svg{width:15px;height:15px}
+    .nav__db-btn{padding:7px 18px;background:var(--blue);color:#fff;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;border-radius:8px;transition:opacity .18s,transform .15s}
+    .nav__db-btn:hover{opacity:.85;transform:translateY(-1px)}
+    .nav__burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:6px}
+    .nav__burger span{display:block;width:20px;height:1.5px;background:var(--t2);border-radius:99px}
+    .nav__mobile{display:none;position:fixed;top:var(--nav-h);left:0;right:0;background:rgba(8,12,18,.98);backdrop-filter:blur(20px);border-bottom:1px solid var(--border-b);padding:16px 28px 24px;flex-direction:column;gap:2px;z-index:199}
+    .nav__mobile.open{display:flex}
+    .nav__mobile a{padding:11px 14px;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--t2);border-radius:9px;transition:.18s}
+    .nav__mobile a:hover{color:var(--t1);background:rgba(255,255,255,.05)}
+    .nav__dropdown-wrap{position:relative;display:flex;align-items:center;gap:2px}
+    .nav__dropdown-link{font-family:'Poppins',sans-serif;font-size:13px;font-weight:600;color:var(--blue);text-transform:uppercase;letter-spacing:.06em;text-decoration:none;transition:opacity .15s}
+    .nav__dropdown-link:hover{opacity:.75}
+    .nav__dropdown-btn{background:none;border:none;cursor:pointer;color:var(--blue);padding:0;display:flex;align-items:center;transition:opacity .15s}
+    .nav__dropdown-btn:hover{opacity:.75}
+    .nav__dropdown-chevron{width:12px;height:12px;transition:transform .2s;flex-shrink:0}
+    .nav__dropdown-wrap.open .nav__dropdown-chevron{transform:rotate(180deg)}
+    .nav__dropdown{position:absolute;top:100%;left:50%;background:var(--bg-2);border:1px solid var(--border-b);border-radius:12px;padding:14px 6px 6px;min-width:200px;box-shadow:0 12px 32px rgba(0,0,0,.18);opacity:0;pointer-events:none;transition:opacity .18s,transform .18s;transform:translateX(-50%) translateY(-6px);list-style:none;margin:0;z-index:200}
+    .nav__dropdown li{list-style:none;padding:0;margin:0}
+    .nav__dropdown-wrap.open .nav__dropdown{opacity:1;pointer-events:all;transform:translateX(-50%) translateY(0)}
+    .nav__dropdown li a{display:block;padding:9px 14px;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--t2);text-decoration:none;border-radius:8px;transition:background .15s,color .15s;white-space:nowrap}
+    .nav__dropdown li a:hover{background:var(--bg-3);color:var(--blue)}
+
+    /* SEARCH OVERLAY */
+    .search-overlay{position:fixed;inset:0;z-index:300;background:rgba(8,12,18,.92);backdrop-filter:blur(24px);display:flex;align-items:flex-start;justify-content:center;padding-top:120px;opacity:0;pointer-events:none;transition:opacity .22s}
+    .search-overlay.open{opacity:1;pointer-events:all}
+    .search-overlay__inner{width:100%;max-width:640px;padding:0 28px}
+    .search-overlay__label{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--pink);margin-bottom:14px}
+    .search-overlay__field{display:flex;align-items:center;background:var(--bg-3);border:1px solid var(--blue-border);border-radius:12px;overflow:hidden}
+    .search-overlay__field svg{width:18px;height:18px;color:var(--t3);margin-left:18px;flex-shrink:0}
+    .search-overlay__input{flex:1;padding:16px 18px;background:none;border:none;outline:none;font-family:'Poppins',sans-serif;font-size:16px;font-weight:500;color:var(--t1)}
+    .search-overlay__input::placeholder{color:var(--t3)}
+    .search-overlay__close{padding:10px 16px;background:none;border:none;font-size:12px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--t3);cursor:pointer;transition:color .18s}
+    .search-overlay__close:hover{color:var(--t1)}
+    .search-overlay__hint{margin-top:12px;font-size:12px;color:var(--t3)}
+    .search-overlay__hint kbd{background:var(--bg-4);border:1px solid var(--border);border-radius:5px;padding:2px 7px;font-family:inherit;font-size:11px;color:var(--t2)}
+
+    /* HERO */
+    .map-hero{padding:calc(var(--nav-h) + 64px) 0 56px;text-align:center}
+    .map-hero__eyebrow{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.16em;color:var(--pink);margin-bottom:18px;display:flex;align-items:center;justify-content:center;gap:8px}
+    .map-hero__eyebrow::before,.map-hero__eyebrow::after{content:'';display:block;width:28px;height:2px;background:var(--pink)}
+    .map-hero__h1{font-size:clamp(36px,6vw,72px);font-weight:900;text-transform:uppercase;letter-spacing:-.02em;line-height:1;color:var(--t1);margin-bottom:20px}
+    .map-hero__h1 span{color:var(--blue)}
+    .map-hero__sub{font-size:17px;color:var(--t2);max-width:560px;margin:0 auto 44px;line-height:1.7}
+
+    /* COUNTDOWN */
+    .countdown{display:inline-flex;align-items:center;gap:4px;background:var(--bg-2);border:1px solid var(--border-b);border-radius:16px;padding:22px 32px;margin-bottom:56px}
+    .countdown__unit{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:64px}
+    .countdown__num{font-size:36px;font-weight:900;color:var(--t1);font-variant-numeric:tabular-nums;line-height:1;letter-spacing:-.02em}
+    .countdown__num span{color:var(--blue)}
+    .countdown__label{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--t3)}
+    .countdown__sep{font-size:28px;font-weight:900;color:var(--t3);margin-bottom:14px;align-self:flex-end}
+
+    /* LAUNCH BADGE */
+    .launch-badge{display:inline-flex;align-items:center;gap:8px;background:var(--blue-dim);border:1px solid var(--blue-border);border-radius:99px;padding:6px 18px;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.10em;color:var(--blue);margin-bottom:56px}
+    .launch-badge__dot{width:6px;height:6px;border-radius:50%;background:var(--blue);animation:pulse 2s infinite}
+    @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.7)}}
+
+    /* WHAT THE MAP COVERS */
+    .map-covers{margin-bottom:72px}
+    .section-eyebrow{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+    .section-eyebrow__line{width:24px;height:2px;background:var(--pink);flex-shrink:0}
+    .section-eyebrow__text{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--pink)}
+    .section-h2{font-size:clamp(22px,3vw,32px);font-weight:700;text-transform:uppercase;letter-spacing:.02em;color:var(--blue);margin-bottom:32px}
+    .covers-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .covers-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r);padding:24px 22px}
+    .covers-card__icon{font-size:24px;margin-bottom:14px}
+    .covers-card__title{font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--t1);margin-bottom:8px}
+    .covers-card__desc{font-size:13px;color:var(--t2);line-height:1.6}
+
+    /* LOCATIONS GRID */
+    .locations-section{margin-bottom:72px}
+    .locations-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+    .loc-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r);padding:18px 20px;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,transform .2s,background .2s}
+    .loc-card:hover{border-color:var(--border-b);transform:translateY(-3px);background:var(--bg-3)}
+    .loc-card__type{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.10em;color:var(--blue)}
+    .loc-card__type--reported{color:var(--amber)}
+    .loc-card__type--restricted{color:#ef4444}
+    .loc-card__name{font-size:15px;font-weight:700;color:var(--t1);line-height:1.2}
+    .loc-card__arr{font-size:12px;color:var(--t3);margin-top:auto;padding-top:8px;transition:color .18s}
+    .loc-card:hover .loc-card__arr{color:var(--blue)}
+
+    /* LAUNCH CALLOUT */
+    .launch-callout{background:var(--bg-2);border:1px solid var(--border-b);border-radius:16px;padding:44px 48px;display:flex;align-items:center;justify-content:space-between;gap:32px;margin-bottom:80px;position:relative;overflow:hidden}
+    .launch-callout::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,95,144,.08),rgba(255,0,85,.04));pointer-events:none}
+    .launch-callout__left{position:relative;z-index:1}
+    .launch-callout__label{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.13em;color:var(--pink);margin-bottom:10px}
+    .launch-callout__title{font-size:clamp(22px,3vw,30px);font-weight:900;text-transform:uppercase;color:var(--t1);line-height:1.1;margin-bottom:14px}
+    .launch-callout__title span{color:var(--blue)}
+    .launch-callout__text{font-size:14px;color:var(--t2);line-height:1.7;max-width:520px}
+    .launch-callout__right{position:relative;z-index:1;flex-shrink:0;text-align:center}
+    .launch-callout__date{font-size:clamp(28px,4vw,48px);font-weight:900;color:var(--blue);line-height:1}
+    .launch-callout__sublabel{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.10em;color:var(--t3);margin-top:6px}
+
+    /* FOOTER */
+    .footer{border-top:1px solid var(--border);padding:52px 0 28px}
+    .footer__inner{display:grid;grid-template-columns:1.8fr 1fr 1fr 1fr 1fr;gap:48px;margin-bottom:44px}
+    .footer__brand{display:flex;flex-direction:column;gap:12px}
+    .footer__brand-logo{display:flex;align-items:center;gap:9px;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--t1)}
+    .footer__brand-badge{width:28px;height:28px;background:var(--blue);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:900;color:#fff}
+    .footer__brand-desc{font-size:13px;color:var(--t3);line-height:1.7}
+    .footer__col-head{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--t2);margin-bottom:14px}
+    .footer__links{list-style:none;display:flex;flex-direction:column;gap:8px}
+    .footer__links a{font-size:13px;color:var(--t3);transition:color .18s}
+    .footer__links a:hover{color:var(--t2)}
+    .footer__bottom{border-top:1px solid var(--border);padding-top:22px}
+    .footer__legal{font-size:12px;color:var(--t3);line-height:1.6}
+
+    @media(max-width:860px){
+      .nav__links,.nav__db-btn{display:none}
+      .nav__burger{display:flex}
+      .covers-grid{grid-template-columns:1fr}
+      .launch-callout{flex-direction:column;padding:32px 28px}
+      .footer__inner{grid-template-columns:1fr 1fr;gap:28px}
+    }
+    @media(max-width:480px){
+      .countdown{padding:16px 18px;gap:2px}
+      .countdown__unit{min-width:48px}
+      .countdown__num{font-size:26px}
+      .footer__inner{grid-template-columns:1fr;gap:24px}
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo" aria-label="GTAVITIPS home">
+        <div class="nav__logo-badge" aria-hidden="true">VI</div>
+        GTAVITIPS
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="/news">News</a></li>
+        <li class="nav__dropdown-wrap">
+          <a href="/gameplay" class="nav__dropdown-link">Database</a><button class="nav__dropdown-btn" aria-expanded="false" aria-haspopup="true" aria-label="Open database menu"><svg class="nav__dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+          <ul class="nav__dropdown" role="menu">
+            <li role="none"><a href="/gameplay/activities" role="menuitem">Activities</a></li>
+            <li role="none"><a href="/gameplay/animals" role="menuitem">Animals</a></li>
+            <li role="none"><a href="/gameplay/brands" role="menuitem">Brands</a></li>
+            <li role="none"><a href="/gameplay/characters" role="menuitem">Characters</a></li>
+            <li role="none"><a href="/gameplay/gangs-and-factions" role="menuitem">Gangs &amp; Factions</a></li>
+            <li role="none"><a href="/gameplay/locations" role="menuitem">Locations</a></li>
+            <li role="none"><a href="/gameplay/vehicles" role="menuitem">Vehicles</a></li>
+            <li role="none"><a href="/gameplay/weapons" role="menuitem">Weapons</a></li>
+          </ul>
+        </li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/intel-drops">Intel Drops</a></li>
+      </ul>
+      <div class="nav__right">
+        <button class="nav__theme-btn" id="theme-toggle" aria-label="Toggle dark/light mode">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+        <button class="nav__search-btn" id="search-open" aria-label="Search the database">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <a href="/gameplay" class="nav__db-btn">Browse Database</a>
+      </div>
+      <button class="nav__burger" id="burger" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <nav class="nav__mobile" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="/news">News</a>
+    <a href="/gameplay">Database</a>
+    <a href="/gameplay/locations">Locations</a>
+    <a href="/gameplay/characters">Characters</a>
+    <a href="/gameplay/vehicles">Vehicles</a>
+    <a href="/faq">FAQ</a>
+    <a href="/intel-drops">Intel Drops</a>
+  </nav>
+
+  <div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search the database">
+    <div class="search-overlay__inner">
+      <div class="search-overlay__label">Search the Database</div>
+      <div class="search-overlay__field">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" id="search-input" class="search-overlay__input" placeholder="Lucia, Pegassi, Vice City, 7X..." autocomplete="off" aria-label="Search query">
+        <button class="search-overlay__close" id="search-close">Close</button>
+      </div>
+      <p class="search-overlay__hint">Press <kbd>Enter</kbd> to search &nbsp;&middot;&nbsp; <kbd>Esc</kbd> to close</p>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <section class="map-hero" aria-labelledby="map-h1">
+      <div class="wrap">
+        <div class="map-hero__eyebrow" aria-hidden="true">Interactive Map</div>
+        <h1 class="map-hero__h1" id="map-h1">The State of <span>Leonida</span></h1>
+        <p class="map-hero__sub">Every confirmed location, faction territory, and activity zone. The interactive map goes live the moment GTA 6 servers open.</p>
+
+        <div class="countdown" role="timer" aria-label="Countdown to GTA 6 launch">
+          <div class="countdown__unit">
+            <div class="countdown__num" id="cd-d">--</div>
+            <div class="countdown__label">Days</div>
+          </div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__unit">
+            <div class="countdown__num" id="cd-h">--</div>
+            <div class="countdown__label">Hours</div>
+          </div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__unit">
+            <div class="countdown__num" id="cd-m">--</div>
+            <div class="countdown__label">Min</div>
+          </div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__unit">
+            <div class="countdown__num" id="cd-s">--</div>
+            <div class="countdown__label">Sec</div>
+          </div>
+        </div>
+
+        <div class="launch-badge">
+          <span class="launch-badge__dot" aria-hidden="true"></span>
+          In Development &nbsp;&middot;&nbsp; Live November 19, 2026
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap">
+
+      <section class="map-covers" aria-labelledby="covers-hd">
+        <div class="section-eyebrow" aria-hidden="true">
+          <div class="section-eyebrow__line"></div>
+          <span class="section-eyebrow__text">What the map covers</span>
+        </div>
+        <h2 class="section-h2" id="covers-hd">Everything in Leonida</h2>
+        <div class="covers-grid">
+          <div class="covers-card">
+            <div class="covers-card__icon" aria-hidden="true">📍</div>
+            <div class="covers-card__title">23 Confirmed Locations</div>
+            <p class="covers-card__desc">Every verified location in Leonida pinned and linked to its full database entry. Vice City, Port Gellhorn, the Grassrivers, the Keys, and every confirmed point in between.</p>
+          </div>
+          <div class="covers-card">
+            <div class="covers-card__icon" aria-hidden="true">🏴</div>
+            <div class="covers-card__title">Faction Territories</div>
+            <p class="covers-card__desc">20 confirmed gangs, cartels, and law enforcement units mapped to their known operating zones. Know who runs what before you drive through it.</p>
+          </div>
+          <div class="covers-card">
+            <div class="covers-card__icon" aria-hidden="true">⚡</div>
+            <div class="covers-card__title">Activity Zones</div>
+            <p class="covers-card__desc">29 confirmed activities placed on the map where their official footage puts them. Street takeovers, cage fights, hunting grounds, and gambling locations.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="locations-section" aria-labelledby="locations-hd">
+        <div class="section-eyebrow" aria-hidden="true">
+          <div class="section-eyebrow__line"></div>
+          <span class="section-eyebrow__text">Location Database</span>
+        </div>
+        <h2 class="section-h2" id="locations-hd">23 Confirmed Locations</h2>
+        <div class="locations-grid">
+          <a href="/gameplay/locations/vice-city" class="loc-card"><div class="loc-card__type">Metropolitan Core</div><div class="loc-card__name">Vice City</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/vice-county" class="loc-card"><div class="loc-card__type">Confirmed Region</div><div class="loc-card__name">Vice County</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/port-gellhorn" class="loc-card"><div class="loc-card__type">Confirmed Town</div><div class="loc-card__name">Port Gellhorn</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/leonida-keys" class="loc-card"><div class="loc-card__type">Confirmed Archipelago</div><div class="loc-card__name">Leonida Keys</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/grassrivers" class="loc-card"><div class="loc-card__type">Confirmed Wetlands</div><div class="loc-card__name">Grassrivers</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/mount-kalaga" class="loc-card"><div class="loc-card__type">Confirmed High Elevation</div><div class="loc-card__name">Mount Kalaga</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/mount-kalaga-national-park" class="loc-card"><div class="loc-card__type">Confirmed Wilderness</div><div class="loc-card__name">Mount Kalaga National Park</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/south-beach" class="loc-card"><div class="loc-card__type">Confirmed Shoreline</div><div class="loc-card__name">South Beach</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/north-beaches" class="loc-card"><div class="loc-card__type">Confirmed Coastal Area</div><div class="loc-card__name">North Beaches</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/lake-leonida" class="loc-card"><div class="loc-card__type">Confirmed Water Body</div><div class="loc-card__name">Lake Leonida</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/red-hill-forest" class="loc-card"><div class="loc-card__type">Confirmed Woodland</div><div class="loc-card__name">Red Hill Forest</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/military-base" class="loc-card"><div class="loc-card__type loc-card__type--restricted">Restricted Zone</div><div class="loc-card__name">Military Base</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/monument-of-leonida" class="loc-card"><div class="loc-card__type">Confirmed Landmark</div><div class="loc-card__name">Monument of Leonida</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/ocean-view-hotel" class="loc-card"><div class="loc-card__type">Confirmed Hotel</div><div class="loc-card__name">Ocean View Hotel</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/malibu-club" class="loc-card"><div class="loc-card__type">Confirmed Nightclub</div><div class="loc-card__name">Malibu Club</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/jack-of-hearts" class="loc-card"><div class="loc-card__type">Confirmed Venue</div><div class="loc-card__name">Jack of Hearts</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/nine-1-nine" class="loc-card"><div class="loc-card__type">Confirmed Nightclub</div><div class="loc-card__name">Nine-1-Nine</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/starlet-motel" class="loc-card"><div class="loc-card__type">Confirmed Motel</div><div class="loc-card__name">Starlet Motel</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/ambrosia" class="loc-card"><div class="loc-card__type loc-card__type--reported">Reported Settlement</div><div class="loc-card__name">Ambrosia</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/brians-boat-workshop" class="loc-card"><div class="loc-card__type">Confirmed Business</div><div class="loc-card__name">Brian's Boat Workshop</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/delights-port-gellhorn" class="loc-card"><div class="loc-card__type">Confirmed Venue</div><div class="loc-card__name">Delights Port Gellhorn</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/shrewsbury" class="loc-card"><div class="loc-card__type loc-card__type--reported">Reported District</div><div class="loc-card__name">Shrewsbury</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+          <a href="/gameplay/locations/yorktown" class="loc-card"><div class="loc-card__type loc-card__type--reported">Reported Locality</div><div class="loc-card__name">Yorktown</div><div class="loc-card__arr">Open dossier &rarr;</div></a>
+        </div>
+      </section>
+
+      <div class="launch-callout" role="complementary" aria-label="Launch day information">
+        <div class="launch-callout__left">
+          <div class="launch-callout__label">November 19, 2026</div>
+          <h2 class="launch-callout__title">The Map Goes Live <span>On Launch Day</span></h2>
+          <p class="launch-callout__text">The interactive map drops the moment GTA 6 servers open. Every location, faction boundary, and activity zone placed on the Leonida grid in real time as the community confirms them. The database does not pause after launch.</p>
+        </div>
+        <div class="launch-callout__right">
+          <div class="launch-callout__date">Nov 19</div>
+          <div class="launch-callout__sublabel">Launch — 2026</div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="wrap">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__brand-logo"><div class="footer__brand-badge" aria-hidden="true">VI</div>GTAVITIPS</div>
+          <p class="footer__brand-desc">The intel database for GTA 6. You picked the wrong house, fool!</p>
+        </div>
+        <div><div class="footer__col-head">Database</div><ul class="footer__links"><li><a href="/gameplay/activities">Activities</a></li><li><a href="/gameplay/animals">Animals</a></li><li><a href="/gameplay/brands">Brands</a></li><li><a href="/gameplay/characters">Characters</a></li><li><a href="/gameplay/gangs-and-factions">Factions</a></li><li><a href="/gameplay/locations">Locations</a></li><li><a href="/gameplay/vehicles">Vehicles</a></li><li><a href="/gameplay/weapons">Weapons</a></li></ul></div>
+        <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div>
+        <div><div class="footer__col-head">Legal</div><ul class="footer__links"><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li></ul></div>
+        <div><div class="footer__col-head">Contact</div><ul class="footer__links"><li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li><li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li><li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
+      </div>
+      <div class="footer__bottom"><p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p></div>
+    </div>
+  </footer>
+
+  <script>
+  // Countdown
+  (function(){
+    var launch=new Date('2026-11-19T00:00:00-05:00');
+    function update(){
+      var now=new Date();
+      var diff=launch-now;
+      if(diff<=0){
+        document.getElementById('cd-d').textContent='00';
+        document.getElementById('cd-h').textContent='00';
+        document.getElementById('cd-m').textContent='00';
+        document.getElementById('cd-s').textContent='00';
+        return;
+      }
+      var d=Math.floor(diff/864e5);
+      var h=Math.floor((diff%864e5)/36e5);
+      var m=Math.floor((diff%36e5)/6e4);
+      var s=Math.floor((diff%6e4)/1e3);
+      function pad(n){return n<10?'0'+n:n}
+      document.getElementById('cd-d').textContent=d;
+      document.getElementById('cd-h').textContent=pad(h);
+      document.getElementById('cd-m').textContent=pad(m);
+      document.getElementById('cd-s').textContent=pad(s);
+    }
+    update();setInterval(update,1000);
+  })();
+  // Theme toggle
+  (function(){
+    var btn=document.getElementById('theme-toggle');
+    if(!btn)return;
+    btn.addEventListener('click',function(){
+      var next=document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';
+      document.documentElement.setAttribute('data-theme',next);
+      localStorage.setItem('gtavitips-theme',next);
+    });
+  })();
+  // Dropdown nav
+  (function(){
+    var wrap=document.querySelector('.nav__dropdown-wrap');
+    var btn=wrap&&wrap.querySelector('.nav__dropdown-btn');
+    if(!btn)return;var t=null;
+    function openMenu(){clearTimeout(t);wrap.classList.add('open');btn.setAttribute('aria-expanded','true');}
+    function closeMenu(){t=setTimeout(function(){wrap.classList.remove('open');btn.setAttribute('aria-expanded','false');},120);}
+    wrap.addEventListener('mouseenter',openMenu);wrap.addEventListener('mouseleave',closeMenu);
+    btn.addEventListener('click',function(e){e.stopPropagation();if(wrap.classList.contains('open')){closeMenu();}else{openMenu();}});
+    document.addEventListener('click',function(e){if(wrap&&!wrap.contains(e.target)){wrap.classList.remove('open');btn.setAttribute('aria-expanded','false');}});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&wrap){wrap.classList.remove('open');btn.setAttribute('aria-expanded','false');}});
+  })();
+  // Burger
+  var burger=document.getElementById('burger');
+  var mobileNav=document.getElementById('mobile-nav');
+  if(burger){burger.addEventListener('click',function(){var o=mobileNav.classList.toggle('open');burger.setAttribute('aria-expanded',o);});}
+  // Search
+  var overlay=document.getElementById('search-overlay');
+  var searchInp=document.getElementById('search-input');
+  function openSearch(){overlay.classList.add('open');setTimeout(function(){searchInp.focus();},60);}
+  function closeSearch(){overlay.classList.remove('open');}
+  document.getElementById('search-open').addEventListener('click',openSearch);
+  document.getElementById('search-close').addEventListener('click',closeSearch);
+  overlay.addEventListener('click',function(e){if(e.target===overlay)closeSearch();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')closeSearch();if((e.ctrlKey||e.metaKey)&&e.key==='k'){e.preventDefault();openSearch();}});
+  searchInp.addEventListener('keydown',function(e){if(e.key==='Enter'){var q=searchInp.value.trim();if(q)window.open('https://www.google.com/search?q=site:gtavitips.com+'+encodeURIComponent(q),'_blank');}});
+  </script>
+
+  <!-- COOKIE CONSENT BANNER -->
+  <style>
+    .cookie-banner{position:fixed;bottom:0;left:0;right:0;z-index:9999;background:#0d1320;border-top:1px solid rgba(0,95,144,0.28);padding:16px 28px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;transform:translateY(100%);transition:transform .35s ease}
+    .cookie-banner.visible{transform:translateY(0)}
+    .cookie-banner__text{font-family:'Poppins',sans-serif;font-size:13px;color:#7e8fa3;line-height:1.5;max-width:680px}
+    .cookie-banner__text a{color:#005f90;text-decoration:underline}
+    .cookie-banner__btns{display:flex;gap:10px;flex-shrink:0}
+    .cookie-banner__accept{padding:9px 22px;background:#005f90;color:#fff;font-family:'Poppins',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;border:none;border-radius:8px;cursor:pointer;transition:opacity .18s}
+    .cookie-banner__accept:hover{opacity:.85}
+    .cookie-banner__decline{padding:9px 22px;background:none;color:#445060;font-family:'Poppins',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;border:1px solid rgba(255,255,255,.06);border-radius:8px;cursor:pointer;transition:color .18s,border-color .18s}
+    .cookie-banner__decline:hover{color:#7e8fa3;border-color:rgba(255,255,255,.12)}
+  </style>
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+    <p class="cookie-banner__text">We use Google Analytics to understand how visitors use this site. No advertising. No data sales. <a href="/cookie-policy">Cookie Policy</a> &middot; <a href="/privacy">Privacy Policy</a></p>
+    <div class="cookie-banner__btns">
+      <button class="cookie-banner__decline" id="cookie-decline">Decline</button>
+      <button class="cookie-banner__accept" id="cookie-accept">Accept</button>
+    </div>
+  </div>
+  <script>
+  (function(){
+    var CONSENT_KEY='gtavitips-cookie-consent';
+    var GA4_ID='G-J8Q9S7G7K6';
+    var banner=document.getElementById('cookie-banner');
+    var consent=localStorage.getItem(CONSENT_KEY);
+    function loadGA4(){if(document.getElementById('ga4-script'))return;var s=document.createElement('script');s.id='ga4-script';s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+GA4_ID;document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('js',new Date());gtag('config',GA4_ID);}
+    if(consent==='accepted'){loadGA4();}
+    else if(consent===null){setTimeout(function(){banner&&banner.classList.add('visible');},800);}
+    document.getElementById('cookie-accept')&&document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.remove('visible');loadGA4();});
+    document.getElementById('cookie-decline')&&document.getElementById('cookie-decline').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'declined');banner.classList.remove('visible');});
+  })();
+  </script>
+</body>
+</html>
