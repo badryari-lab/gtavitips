@@ -221,8 +221,8 @@
     [data-theme="dark"] { --bg:#080c12; --bg-2:#0d1320; --bg-3:#131c2e; --bg-4:#192236; --border:rgba(255,255,255,0.06); --border-b:rgba(0,95,144,0.22); --t1:#eef2f7; --t2:#7e8fa3; --t3:#445060; }
   
     /* NAV DROPDOWN */
-    .nav__dropdown-wrap { position: relative; }
-    .nav__dropdown-btn { background: none; border: none; cursor: pointer; font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 600; color: var(--blue); text-transform: uppercase; letter-spacing: .06em; padding: 0; display: flex; align-items: center; gap: 4px; transition: opacity .15s; }
+    .nav__dropdown-wrap { position: relative; display: flex; align-items: center; gap: 2px; }
+    .nav__dropdown-link { font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 600; color: var(--blue); text-transform: uppercase; letter-spacing: .06em; text-decoration: none; transition: opacity .15s; } .nav__dropdown-btn { background: none; border: none; cursor: pointer; color: var(--blue); padding: 0; display: flex; align-items: center; transition: opacity .15s; }
     .nav__dropdown-btn:hover { opacity: .75; }
     .nav__dropdown-chevron { width: 12px; height: 12px; transition: transform .2s; flex-shrink: 0; }
     .nav__dropdown-wrap.open .nav__dropdown-chevron { transform: rotate(180deg); }
@@ -233,8 +233,8 @@
     .nav__dropdown li a { display: block; padding: 9px 14px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t2); text-decoration: none; border-radius: 8px; transition: background .15s, color .15s; white-space: nowrap; }
     .nav__dropdown li a:hover { background: var(--bg-3); color: var(--blue); }
     @media(max-width: 860px) {
-      .nav__dropdown-wrap { width: 100%; }
-      .nav__dropdown-btn { width: 100%; justify-content: space-between; padding: 11px 14px; font-size: 13px; background: none; border-radius: 9px; }
+      .nav__dropdown-wrap { width: 100%; display: flex; align-items: center; justify-content: space-between; }
+      .nav__dropdown-link { padding: 11px 14px; font-size: 13px; flex: 1; } .nav__dropdown-btn { padding: 11px 14px; background: none; border-radius: 9px; }
       .nav__dropdown-btn:hover { background: rgba(255,255,255,.05); color: var(--t1); }
       .nav__dropdown { position: static; transform: none; opacity: 1; pointer-events: all; box-shadow: none; border: none; border-radius: 0; background: none; padding: 0 0 0 14px; display: none; }
       .nav__dropdown-wrap.open .nav__dropdown { display: block; transform: none; }
@@ -327,10 +327,7 @@
       <ul class="nav__links" role="list">
         <li><a href="/news">News</a></li>
         <li class="nav__dropdown-wrap">
-          <button class="nav__dropdown-btn" aria-expanded="false" aria-haspopup="true">
-            Database
-            <svg class="nav__dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-          </button>
+          <a href="/gameplay" class="nav__dropdown-link">Database</a><button class="nav__dropdown-btn" aria-expanded="false" aria-haspopup="true" aria-label="Open database menu"><svg class="nav__dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
           <ul class="nav__dropdown" role="menu">
             <li role="none"><a href="/gameplay/activities" role="menuitem">Activities</a></li>
             <li role="none"><a href="/gameplay/animals" role="menuitem">Animals</a></li>
