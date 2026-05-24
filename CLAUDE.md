@@ -82,7 +82,9 @@ Light theme overrides exist via `[data-theme="light"]` — always support both.
 
 ### Aesthetic
 
-Military/intel briefing style. Uppercase headings, tight letter-spacing, animated scan line on the homepage, pulse dots on live badges. The tone is authoritative and terse — like a field dossier, not a blog post. Pink (`--pink`) is used for eyebrows, labels, and accents. Blue (`--blue`) is the primary action and highlight color.
+The visual design is intel/military — uppercase headings, tight letter-spacing, scan lines, pulse dots, dossier-style layouts. But the **tone of voice** is different: it's GTA with a bit of internet language. Write like you're *inside* the world of Leonida reporting on what's happening on the ground — not like a journalist covering a video game. 7X doesn't "appear in GTA 6" — they run Vice City and everyone knows it. Lucia isn't "a confirmed protagonist" — she's out and she's moving.
+
+Keep it street-level, in-world, self-assured. A touch of internet language and GTA attitude keeps it from feeling too stiff. Never hype-driven, never clickbait, never "OMG confirmed!!!" — but also never dry or academic. The tagline says it all: "You picked the wrong house, fool."
 
 ### Typography conventions
 
