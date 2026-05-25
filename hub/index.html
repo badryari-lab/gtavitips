@@ -125,7 +125,7 @@
     .hero__atmos-word { position: absolute; bottom: 60px; right: -30px; font-size: clamp(120px, 20vw, 300px); font-weight: 900; text-transform: uppercase; letter-spacing: -.04em; color: transparent; -webkit-text-stroke: 1px rgba(0,95,144,.07); line-height: 1; user-select: none; pointer-events: none; z-index: 0; }
     @keyframes scan { 0% { top: 15%; opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { top: 85%; opacity: 0; } }
 
-    .hero__body { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 400px; gap: 0; align-items: center; padding: 72px 0 56px; }
+    .hero__body { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 400px; gap: 0; align-items: start; padding: 72px 0 56px; }
     .hero__left { padding-right: 64px; }
 
     .hero__tag { display: inline-flex; align-items: center; gap: 8px; font-size: 10px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--pink); border: 1px solid rgba(255,0,85,.25); padding: 5px 14px; border-radius: 99px; margin-bottom: 24px; }
@@ -156,7 +156,7 @@
     .hero__stat-div { width: 1px; height: 44px; background: var(--border); flex-shrink: 0; }
 
     /* ── INTEL TERMINAL (unified right card) ── */
-    .hero__right { position: relative; }
+    .hero__right { position: relative; padding-top: 46px; }
     .intel-terminal { background: var(--bg-2); border: 1px solid var(--border-b); border-radius: 14px; overflow: hidden; }
     .intel-terminal__bar { position: relative; padding: 10px 16px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
     .intel-terminal__bar::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--blue), var(--pink)); }
