@@ -86,6 +86,8 @@ The visual design is intel/military — uppercase headings, tight letter-spacing
 
 Keep it street-level, in-world, self-assured. A touch of internet language and GTA attitude keeps it from feeling too stiff. Never hype-driven, never clickbait, never "OMG confirmed!!!" — but also never dry or academic. The tagline says it all: "You picked the wrong house, fool."
 
+**Full tone of voice rules, examples, and checklist: see `TOV.md` in the repo root.** When improving any page, reference TOV.md first.
+
 ### Typography conventions
 
 - Headings: `font-weight: 900`, `text-transform: uppercase`, `letter-spacing: -.02em`
@@ -153,6 +155,23 @@ Entry slugs follow kebab-case: `/gameplay/characters/lucia-caminos`, `/gameplay/
 | Speculation | `--amber` / `--amber-dim` |
 | New (changelog) | `--blue` / `--blue-dim` |
 | Upgrade (changelog) | `--green` / `--green-dim` |
+
+## Canonical category images
+
+Each database category has one locked image used wherever that category appears as a visual card (homepage, future use). Never mix these up across pages.
+
+| Category | Canonical image | Note |
+|---|---|---|
+| Activities | `gameplay-index-gta-6-01.jpg` | ✓ |
+| Animals | `mount-kalaga-national-park-gta-6-location-05.jpg` | ✓ |
+| Brands | `jason-duval-gta-6-character-06.jpg` | ⚠ placeholder — needs a brands/storefront shot |
+| Characters | `vice-city-gta-6-location-04.jpg` | ⚠ placeholder — needs a character shot |
+| Gangs & Factions | `ambrosia-gta-6-location-01.jpg` | ✓ |
+| Locations | `grassrivers-gta-6-location-02.jpg` | ✓ |
+| Vehicles | `grassrivers-gta-6-location-03.jpg` | ⚠ placeholder — needs a vehicle shot |
+| Weapons | `jason-duval-gta-6-character-05.jpg` | ⚠ placeholder — needs a weapons shot |
+
+When a better image is found for a ⚠ category, update it on the homepage card AND anywhere else it appears — always keep them in sync.
 
 ## Key facts about GTA 6 (for content accuracy)
 
