@@ -512,31 +512,14 @@
                   <span class="intel-terminal__live-dot" aria-hidden="true"></span>
                   Live Feed
                 </span>
-                <span class="intel-terminal__date">May 25, 2026</span>
+                <span class="intel-terminal__date" id="feed-date"></span>
                 <a href="/intel-drops" class="intel-terminal__link">Full log →</a>
               </div>
               <div class="intel-terminal__img">
                 <img src="/assets/images/social-media-gta-6-activity-01.png?v=3" alt="GTA 6 Vice City activity footage" loading="eager">
                 <div class="intel-terminal__img-overlay" aria-hidden="true">Vice City · Activity Log</div>
               </div>
-              <div class="intel-terminal__feed">
-                <a href="/gameplay/characters/boobie-ike" class="intel-terminal__item">
-                  <span class="intel-terminal__badge intel-terminal__badge--new">New</span>
-                  <span class="intel-terminal__text"><strong>Boobie Ike</strong> — 7X lieutenant dossier live.</span>
-                </a>
-                <a href="/gameplay/locations/port-gellhorn" class="intel-terminal__item">
-                  <span class="intel-terminal__badge intel-terminal__badge--upg">Upg</span>
-                  <span class="intel-terminal__text"><strong>Port Gellhorn</strong> — Industrial corridor expanded.</span>
-                </a>
-                <a href="/gameplay/vehicles/karin-sultan-rs" class="intel-terminal__item">
-                  <span class="intel-terminal__badge intel-terminal__badge--new">New</span>
-                  <span class="intel-terminal__text"><strong>Karin Sultan RS</strong> — High Rollerz have these on lock.</span>
-                </a>
-                <a href="/gameplay/animals/flamingo" class="intel-terminal__item">
-                  <span class="intel-terminal__badge intel-terminal__badge--new">New</span>
-                  <span class="intel-terminal__text"><strong>Flamingo</strong> — Spotted along the Leonida coast.</span>
-                </a>
-              </div>
+              <div class="intel-terminal__feed" id="intel-feed"></div>
             </div>
           </div>
 
@@ -874,6 +857,28 @@
       document.documentElement.setAttribute('data-theme',next);
       localStorage.setItem('gtavitips-theme',next);
     });
+  })();
+
+  // ── INTEL FEED ──
+  (function(){
+    var feed=document.getElementById('intel-feed');
+    var dateEl=document.getElementById('feed-date');
+    if(!feed)return;
+    fetch('/assets/feed.json')
+      .then(function(r){return r.json()})
+      .then(function(data){
+        if(dateEl&&data.date)dateEl.textContent=data.date;
+        var html='';
+        (data.items||[]).forEach(function(item){
+          var label=item.badge==='upg'?'Upg':'New';
+          var cls=item.badge==='upg'?'intel-terminal__badge--upg':'intel-terminal__badge--new';
+          html+='<a href="'+item.url+'" class="intel-terminal__item">'
+               +'<span class="intel-terminal__badge '+cls+'">'+label+'</span>'
+               +'<span class="intel-terminal__text"><strong>'+item.name+'</strong> — '+item.text+'</span>'
+               +'</a>';
+        });
+        feed.innerHTML=html;
+      });
   })();
   </script>
 

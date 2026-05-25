@@ -1,0 +1,10 @@
+{
+  "date": "May 25, 2026",
+  "items": [
+    { "badge": "new", "url": "/gameplay/characters/boobie-ike",    "name": "Boobie Ike",     "text": "7X lieutenant dossier live." },
+    { "badge": "upg", "url": "/gameplay/locations/port-gellhorn",  "name": "Port Gellhorn",  "text": "Industrial corridor expanded." },
+    { "badge": "new", "url": "/gameplay/vehicles/karin-sultan-rs", "name": "Karin Sultan RS", "text": "High Rollerz have these on lock." },
+    { "badge": "new", "url": "/gameplay/characters/wyman",         "name": "Wyman",           "text": "Mechanic running vehicle procurement out of Leonida." },
+    { "badge": "new", "url": "/gameplay/animals/flamingo",         "name": "Flamingo",        "text": "Spotted along the Leonida coast." }
+  ]
+}
