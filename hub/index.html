@@ -207,9 +207,8 @@
     .cat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--blue), transparent); opacity: 0; transition: opacity .2s; }
     .cat-card:hover { border-color: var(--border-b); transform: translateY(-3px); box-shadow: 0 10px 28px rgba(0,0,0,.35); }
     .cat-card:hover::before { opacity: 1; }
-    .cat-card__count { font-size: 38px; font-weight: 900; line-height: 1; color: var(--blue); letter-spacing: -.03em; }
-    .cat-card__name { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--t1); margin-top: 2px; }
-    .cat-card__desc { font-size: 11px; color: var(--t3); line-height: 1.5; margin-top: 4px; }
+    .cat-card__name { font-size: 15px; font-weight: 900; text-transform: uppercase; letter-spacing: .06em; color: var(--t1); margin-bottom: 8px; }
+    .cat-card__desc { font-size: 12px; color: var(--t2); line-height: 1.6; }
     .cat-card__arrow { font-size: 14px; color: var(--t3); margin-top: 12px; transition: color .2s, transform .2s; display: block; }
     .cat-card:hover .cat-card__arrow { color: var(--blue); transform: translateX(3px); }
 
@@ -574,58 +573,50 @@
       <div class="wrap">
         <div class="sec__top" style="margin-bottom: 24px;">
           <div>
-            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">The Database</span></div>
-            <h2 class="sec__hd reveal" id="cats-hd">322 Entries. <span>8 Categories.</span></h2>
+            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Browse Leonida</span></div>
+            <h2 class="sec__hd reveal" id="cats-hd"><span>Database</span></h2>
           </div>
           <a href="/gameplay" class="sec__viewall reveal d1">Browse All</a>
         </div>
         <div class="cat-grid">
           <a href="/gameplay/characters" class="cat-card reveal">
-            <span class="cat-card__count">12</span>
             <span class="cat-card__name">Characters</span>
-            <span class="cat-card__desc">Jason. Lucia. And everyone else moving in Leonida.</span>
+            <span class="cat-card__desc">Everyone with a name in Leonida. The faces, the moves, the heat.</span>
             <span class="cat-card__arrow">→</span>
           </a>
           <a href="/gameplay/vehicles" class="cat-card reveal d1">
-            <span class="cat-card__count">81</span>
             <span class="cat-card__name">Vehicles</span>
-            <span class="cat-card__desc">Every confirmed ride. Sourced from official footage.</span>
+            <span class="cat-card__desc">What they drive. What you want. Every ride tearing through Vice County.</span>
             <span class="cat-card__arrow">→</span>
           </a>
           <a href="/gameplay/locations" class="cat-card reveal d2">
-            <span class="cat-card__count">23</span>
             <span class="cat-card__name">Locations</span>
-            <span class="cat-card__desc">Vice City to the Grassrivers. Full field intel.</span>
+            <span class="cat-card__desc">Vice City to the Keys. Every district and stretch of road.</span>
             <span class="cat-card__arrow">→</span>
           </a>
           <a href="/gameplay/gangs-and-factions" class="cat-card reveal d3">
-            <span class="cat-card__count">20</span>
             <span class="cat-card__name">Factions</span>
-            <span class="cat-card__desc">7X. Cartel. VCPD. Who controls what territory.</span>
+            <span class="cat-card__desc">7X runs Vice City. The cartel moves the product. Everyone's holding turf.</span>
             <span class="cat-card__arrow">→</span>
           </a>
           <a href="/gameplay/weapons" class="cat-card reveal">
-            <span class="cat-card__count">25</span>
             <span class="cat-card__name">Weapons</span>
-            <span class="cat-card__desc">Confirmed loadouts. Carrier log filed.</span>
+            <span class="cat-card__desc">What's being carried. Every piece spotted in the streets.</span>
             <span class="cat-card__arrow">→</span>
           </a>
           <a href="/gameplay/brands" class="cat-card reveal d1">
-            <span class="cat-card__count">50</span>
             <span class="cat-card__name">Brands</span>
-            <span class="cat-card__desc">The commercial layer of Leonida. All confirmed.</span>
+            <span class="cat-card__desc">Everything for sale in Leonida. The stores, the labels, the money.</span>
             <span class="cat-card__arrow">→</span>
           </a>
           <a href="/gameplay/animals" class="cat-card reveal d2">
-            <span class="cat-card__count">32</span>
             <span class="cat-card__name">Animals</span>
-            <span class="cat-card__desc">What's out there will find you before you find it.</span>
+            <span class="cat-card__desc">Florida Panthers, gators, and things that don't care who you are.</span>
             <span class="cat-card__arrow">→</span>
           </a>
           <a href="/gameplay/activities" class="cat-card reveal d3">
-            <span class="cat-card__count">28</span>
             <span class="cat-card__name">Activities</span>
-            <span class="cat-card__desc">Not just the work. The whole Leonida schedule.</span>
+            <span class="cat-card__desc">Street takeovers, races, side work. The full menu in Leonida.</span>
             <span class="cat-card__arrow">→</span>
           </a>
         </div>
