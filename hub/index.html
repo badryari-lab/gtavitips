@@ -203,7 +203,7 @@
 
     /* ── CATEGORY GRID ── */
     .cat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
-    .cat-card { background: var(--bg-2); border: none; border-radius: var(--r); padding: 0 18px 20px; min-height: 220px; display: flex; flex-direction: column; justify-content: flex-end; gap: 5px; text-decoration: none; transition: transform .2s, box-shadow .2s; position: relative; overflow: hidden; background-size: cover; background-position: center top; box-shadow: 0 4px 18px rgba(0,0,0,.45); }
+    .cat-card { background: var(--bg-2); border: none; border-radius: var(--r); padding: 0 18px 12px; min-height: 220px; display: flex; flex-direction: column; justify-content: flex-end; gap: 5px; text-decoration: none; transition: transform .2s, box-shadow .2s; position: relative; overflow: hidden; background-size: cover; background-position: center top; box-shadow: 0 4px 18px rgba(0,0,0,.45); }
     .cat-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,95,144,.10) 0%, rgba(13,19,32,0) 30%, rgba(13,19,32,.72) 54%, rgba(13,19,32,.93) 100%); z-index: 0; pointer-events: none; transition: background .25s; }
     .cat-card:hover::after { background: linear-gradient(to bottom, rgba(0,95,144,.18) 0%, rgba(13,19,32,0) 26%, rgba(13,19,32,.62) 50%, rgba(13,19,32,.90) 100%); }
     .cat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--blue), transparent); opacity: 0; transition: opacity .2s; z-index: 3; }
@@ -571,7 +571,7 @@
           </a>
           <a href="/gameplay/vehicles" class="cat-card reveal d1" style="background-image:url('/assets/images/grassrivers-gta-6-location-03.jpg')">
             <span class="cat-card__name">Vehicles</span>
-            <span class="cat-card__desc">What they drive. What you want. Every ride tearing through Vice County.</span>
+            <span class="cat-card__desc">What they drive. Every ride tearing through Vice County.</span>
             <span class="cat-card__arrow">→</span>
           </a>
           <a href="/gameplay/locations" class="cat-card reveal d2" style="background-image:url('/assets/images/grassrivers-gta-6-location-02.jpg')">
