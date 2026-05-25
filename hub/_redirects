@@ -14,4 +14,15 @@
 /animals/*               /gameplay/animals/:splat          301
 /activities              /gameplay/activities              301
 /activities/*            /gameplay/activities/:splat       301
-/gameplay/animals/deer   /gameplay/animals/white-tailed-deer 301
+/gameplay/animals/deer              /gameplay/animals/white-tailed-deer        301
+/gameplay/characters/lucia          /gameplay/characters/lucia-caminos         301
+/gameplay/characters/jason          /gameplay/characters/jason-duval           301
+/gameplay/characters/cal            /gameplay/characters/cal-hampton           301
+/gameplay/characters/brian          /gameplay/characters/brian-heder           301
+/gameplay/characters/boobie         /gameplay/characters/boobie-ike            301
+/gameplay/characters/drequan        /gameplay/characters/dre-quan-priest       301
+/gameplay/characters/dre-quan       /gameplay/characters/dre-quan-priest       301
+/gameplay/characters/phil           /gameplay/characters/phil-cassidy          301
+/gameplay/characters/raul           /gameplay/characters/raul-bautista         301
+/gameplay/locations/keys            /gameplay/locations/leonida-keys           301
+/gameplay/gangs-and-factions/the-7x /gameplay/gangs-and-factions/7x           301
