@@ -14,3 +14,4 @@
 /animals/*               /gameplay/animals/:splat          301
 /activities              /gameplay/activities              301
 /activities/*            /gameplay/activities/:splat       301
+/gameplay/animals/deer   /gameplay/animals/white-tailed-deer 301
