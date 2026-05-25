@@ -203,9 +203,9 @@
 
     /* ── CATEGORY GRID ── */
     .cat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
-    .cat-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 0 18px 18px; min-height: 190px; display: flex; flex-direction: column; justify-content: flex-end; gap: 6px; text-decoration: none; transition: border-color .2s, transform .2s, box-shadow .2s; position: relative; overflow: hidden; background-size: cover; background-position: center; }
-    .cat-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,95,144,.28) 0%, rgba(8,12,18,0) 38%, rgba(8,12,18,.88) 65%, rgba(8,12,18,.97) 100%); z-index: 0; transition: background .25s; pointer-events: none; }
-    .cat-card:hover::after { background: linear-gradient(to bottom, rgba(0,95,144,.42) 0%, rgba(8,12,18,0) 32%, rgba(8,12,18,.78) 62%, rgba(8,12,18,.95) 100%); }
+    .cat-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 0 18px 18px; min-height: 220px; display: flex; flex-direction: column; justify-content: flex-end; gap: 6px; text-decoration: none; transition: border-color .2s, transform .2s, box-shadow .2s; position: relative; overflow: hidden; background-size: cover; background-position: center top; }
+    .cat-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,95,144,.10) 0%, rgba(13,19,32,0) 42%, rgba(13,19,32,1) 60%, rgba(13,19,32,1) 100%); z-index: 0; pointer-events: none; }
+    .cat-card:hover::after { background: linear-gradient(to bottom, rgba(0,95,144,.18) 0%, rgba(13,19,32,0) 38%, rgba(13,19,32,1) 57%, rgba(13,19,32,1) 100%); }
     .cat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--blue), transparent); opacity: 0; transition: opacity .2s; z-index: 2; }
     .cat-card:hover { border-color: var(--border-b); transform: translateY(-3px); box-shadow: 0 10px 28px rgba(0,0,0,.5); }
     .cat-card:hover::before { opacity: 1; }
@@ -353,7 +353,7 @@
       .hero__stats { gap: 20px; }
       .briefing__grid { grid-template-columns: 1fr; }
       .cat-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
-      .cat-card { padding: 0 14px 14px; min-height: 160px; }
+      .cat-card { padding: 0 14px 14px; min-height: 180px; }
       .cat-card__count { font-size: 30px; }
     }
 
