@@ -1,0 +1,79 @@
+{
+  "sections": [
+    {
+      "id": "melee-hd",
+      "eyebrow": "Melee",
+      "title": "Melee",
+      "items": [
+        { "url": "/gameplay/weapons/baseball-bat",   "label": "Blunt",  "color": "var(--amber)", "name": "Baseball Bat",   "desc": "Plausible deniability. Everyone in Leonida has one.",              "dataName": "baseball bat",              "dataCat": "melee" },
+        { "url": "/gameplay/weapons/combat-knife",   "label": "Blade",  "color": "#dc3545",      "name": "Combat Knife",   "desc": "Military-spec blade for close quarters.",                          "dataName": "combat knife",              "dataCat": "melee" },
+        { "url": "/gameplay/weapons/crowbar",        "label": "Blunt",  "color": "var(--amber)", "name": "Crowbar",        "desc": "Opens doors and skulls.",                                           "dataName": "crowbar",                   "dataCat": "melee" },
+        { "url": "/gameplay/weapons/golf-club",      "label": "Blunt",  "color": "var(--amber)", "name": "Golf Club",      "desc": "Vice City staple. Technically a sports item.",                      "dataName": "golf club",                 "dataCat": "melee" },
+        { "url": "/gameplay/weapons/knife",          "label": "Blade",  "color": "#dc3545",      "name": "Knife",          "desc": "Silent. Permanent.",                                                "dataName": "knife",                     "dataCat": "melee" },
+        { "url": "/gameplay/weapons/pool-cue",       "label": "Blunt",  "color": "var(--amber)", "name": "Pool Cue",       "desc": "Bar fight standard. Snaps on the third swing.",                     "dataName": "pool cue",                  "dataCat": "melee" },
+        { "url": "/gameplay/weapons/throwing-knife", "label": "Thrown", "color": "var(--blue)",  "name": "Throwing Knife", "desc": "Silent ranged option. Skill-dependent.",                            "dataName": "throwing knife",            "dataCat": "melee" }
+      ]
+    },
+    {
+      "id": "sidearms-hd",
+      "eyebrow": "Sidearms",
+      "title": "Sidearms",
+      "items": [
+        { "url": "/gameplay/weapons/machine-pistol", "label": "Sidearm", "color": "var(--blue)", "name": "Machine Pistol",  "desc": "Full-auto in your pocket. Close range. Very loud.",                    "dataName": "machine pistol",            "dataCat": "sidearms" },
+        { "url": "/gameplay/weapons/heavy-revolver", "label": "Sidearm", "color": "#dc3545",     "name": "Heavy Revolver",  "desc": "Six rounds. Each one is a statement.",                                 "dataName": "heavy revolver magnum",     "dataCat": "sidearms" },
+        { "url": "/gameplay/weapons/pistol",         "label": "Sidearm", "color": "var(--blue)", "name": "Standard Pistol", "desc": "The default. 9mm, semi-auto. Carried by everyone on both sides.",      "dataName": "pistol standard",           "dataCat": "sidearms" }
+      ]
+    },
+    {
+      "id": "smg-hd",
+      "eyebrow": "SMGs",
+      "title": "Submachine Guns",
+      "items": [
+        { "url": "/gameplay/weapons/compact-smg", "label": "SMG", "color": "var(--blue)", "name": "Compact SMG", "desc": "More range and accuracy than the Micro. Still fits in a jacket.", "dataName": "compact smg submachine", "dataCat": "smg" },
+        { "url": "/gameplay/weapons/micro-smg",   "label": "SMG", "color": "var(--blue)", "name": "Micro SMG",   "desc": "Compact and concealable. Drive-by capable.",                     "dataName": "micro smg submachine",   "dataCat": "smg" }
+      ]
+    },
+    {
+      "id": "rifles-hd",
+      "eyebrow": "Rifles",
+      "title": "Rifles",
+      "items": [
+        { "url": "/gameplay/weapons/sniper-rifle",           "label": "Sniper", "color": "#dc3545",     "name": "Sniper Rifle",           "desc": "One round, one result. Grassrivers and rooftops.",                  "dataName": "sniper rifle bolt action",  "dataCat": "rifles" },
+        { "url": "/gameplay/weapons/carbine-rifle",          "label": "Rifle",  "color": "var(--blue)", "name": "Carbine Rifle",          "desc": "Reliable at most engagement distances in Leonida.",                 "dataName": "carbine rifle",             "dataCat": "rifles" },
+        { "url": "/gameplay/weapons/heavy-rifle",            "label": "Rifle",  "color": "#dc3545",     "name": "Heavy Rifle",            "desc": "Punches through cover that other rifles respect.",                  "dataName": "heavy rifle",               "dataCat": "rifles" },
+        { "url": "/gameplay/weapons/light-machine-gun",      "label": "LMG",    "color": "#dc3545",     "name": "Light Machine Gun",      "desc": "Volume of fire over precision. Suppression tool.",                  "dataName": "light machine gun lmg",     "dataCat": "rifles" },
+        { "url": "/gameplay/weapons/standard-assault-rifle", "label": "Rifle",  "color": "var(--blue)", "name": "Standard Assault Rifle", "desc": "Full-size platform. More accurate at distance.",                    "dataName": "standard assault rifle ar", "dataCat": "rifles" }
+      ]
+    },
+    {
+      "id": "shotguns-hd",
+      "eyebrow": "Shotguns",
+      "title": "Shotguns",
+      "items": [
+        { "url": "/gameplay/weapons/pump-action-shotgun", "label": "Shotgun", "color": "#dc3545", "name": "Pump Action Shotgun", "desc": "Decisive at close range.", "dataName": "pump action shotgun", "dataCat": "shotguns" }
+      ]
+    },
+    {
+      "id": "heavy-hd",
+      "eyebrow": "Heavy &amp; Explosives",
+      "title": "Heavy &amp; Explosives",
+      "items": [
+        { "url": "/gameplay/weapons/frag-grenade",    "label": "Explosive",  "color": "#dc3545",      "name": "Frag Grenade",    "desc": "Standard fragmentation. Clears rooms and vehicles.",                      "dataName": "frag grenade explosive",     "dataCat": "heavy" },
+        { "url": "/gameplay/weapons/molotov",         "label": "Incendiary", "color": "var(--amber)", "name": "Molotov",         "desc": "Fire spreads. Cheap, available, impossible to ignore.",                   "dataName": "molotov cocktail incendiary","dataCat": "heavy" },
+        { "url": "/gameplay/weapons/petrol-can",      "label": "Item",       "color": "var(--amber)", "name": "Petrol Can",      "desc": "Trail it, light it.",                                                     "dataName": "petrol can fuel",            "dataCat": "heavy" },
+        { "url": "/gameplay/weapons/rocket-launcher", "label": "Heavy",      "color": "#dc3545",      "name": "Rocket Launcher", "desc": "For when the situation requires a different category of response.",       "dataName": "rocket launcher rpg",        "dataCat": "heavy" },
+        { "url": "/gameplay/weapons/sticky-bomb",     "label": "Explosive",  "color": "#dc3545",      "name": "Sticky Bomb",     "desc": "Place it, leave, detonate when ready.",                                   "dataName": "sticky bomb explosive",      "dataCat": "heavy" }
+      ]
+    },
+    {
+      "id": "tactical-hd",
+      "eyebrow": "Tactical &amp; Special",
+      "title": "Tactical &amp; Special",
+      "items": [
+        { "url": "/gameplay/weapons/flashbang",     "label": "Tactical", "color": "var(--blue)", "name": "Flashbang",     "desc": "Disorientation without fatality.",    "dataName": "flashbang tactical stun", "dataCat": "tactical" },
+        { "url": "/gameplay/weapons/smoke-grenade", "label": "Tactical", "color": "var(--blue)", "name": "Smoke Grenade", "desc": "Cover for movement or extraction.",   "dataName": "smoke grenade tactical",  "dataCat": "tactical" },
+        { "url": "/gameplay/weapons/spear-gun",     "label": "Special",  "color": "var(--blue)", "name": "Spear Gun",     "desc": "Underwater and coastal operations.",  "dataName": "spear gun underwater",    "dataCat": "tactical" }
+      ]
+    }
+  ]
+}

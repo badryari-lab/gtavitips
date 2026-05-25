@@ -1,0 +1,48 @@
+{
+  "sections": [
+    {
+      "id": "cities-hd",
+      "eyebrow": "Cities & Towns",
+      "title": "Cities &amp; Towns",
+      "items": [
+        { "url": "/gameplay/locations/ambrosia",     "label": "Locality",    "color": "#94a3b8", "name": "Ambrosia",     "desc": "Rural settlement. Interior Leonida." },
+        { "url": "/gameplay/locations/port-gellhorn","label": "Town",        "color": "#fbbf24", "name": "Port Gellhorn","desc": "Industrial and rural hub to the west. The working side of Leonida." },
+        { "url": "/gameplay/locations/shrewsbury",   "label": "District",    "color": "#818cf8", "name": "Shrewsbury",   "desc": "Urban district within the Vice County jurisdiction." },
+        { "url": "/gameplay/locations/vice-city",    "label": "Metropolis",  "color": "#c084fc", "name": "Vice City",    "desc": "The neon capital. Financial and cultural centre of Leonida." },
+        { "url": "/gameplay/locations/vice-county",  "label": "County",      "color": "#84cc16", "name": "Vice County",  "desc": "The wider administrative region surrounding Vice City." },
+        { "url": "/gameplay/locations/yorktown",     "label": "Locality",    "color": "#94a3b8", "name": "Yorktown",     "desc": "Rural Leonida settlement." }
+      ]
+    },
+    {
+      "id": "regions-hd",
+      "eyebrow": "Regions & Nature",
+      "title": "Regions &amp; Nature",
+      "items": [
+        { "url": "/gameplay/locations/grassrivers",                "label": "Wetlands",    "color": "#2dd4bf", "name": "Grassrivers",                "desc": "Swamp interior. Alligators, pythons, airboats, and the Skunk Ape." },
+        { "url": "/gameplay/locations/lake-leonida",               "label": "Water",       "color": "#0284c7", "name": "Lake Leonida",               "desc": "Major inland lake. Freshwater access statewide." },
+        { "url": "/gameplay/locations/leonida-keys",               "label": "Archipelago", "color": "#38bdf8", "name": "Leonida Keys",               "desc": "Tropical island chain stretching south. Naval operations and open water." },
+        { "url": "/gameplay/locations/mount-kalaga",               "label": "Nature",      "color": "#4ade80", "name": "Mount Kalaga",               "desc": "High elevation. Leonida interior mountain territory." },
+        { "url": "/gameplay/locations/mount-kalaga-national-park", "label": "Nature",      "color": "#4ade80", "name": "Mount Kalaga National Park", "desc": "Protected wilderness surrounding the peak." },
+        { "url": "/gameplay/locations/north-beaches",              "label": "Coastal",     "color": "#22d3ee", "name": "North Beaches",              "desc": "Northern Vice City coastline. Residential and resort strips." },
+        { "url": "/gameplay/locations/red-hill-forest",            "label": "Nature",      "color": "#4ade80", "name": "Red Hill Forest",            "desc": "Woodland region. Florida panther territory." },
+        { "url": "/gameplay/locations/south-beach",                "label": "Coastal",     "color": "#22d3ee", "name": "South Beach",                "desc": "The Art Deco strip. Maximum exposure. Maximum foot traffic." }
+      ]
+    },
+    {
+      "id": "landmarks-hd",
+      "eyebrow": "Businesses & Landmarks",
+      "title": "Landmarks",
+      "items": [
+        { "url": "/gameplay/locations/brians-boat-workshop",   "label": "Business",   "color": "#60a5fa", "name": "Brian's Boat Workshop",  "desc": "Marine repair. Operational contact point." },
+        { "url": "/gameplay/locations/delights-port-gellhorn", "label": "Business",   "color": "#60a5fa", "name": "Delights Port Gellhorn", "desc": "Venue in the Port Gellhorn corridor." },
+        { "url": "/gameplay/locations/jack-of-hearts",         "label": "Strip Club", "color": "#f472b6", "name": "Jack of Hearts",         "desc": "Adult entertainment. Vice City." },
+        { "url": "/gameplay/locations/malibu-club",            "label": "Nightclub",  "color": "#e11d48", "name": "Malibu Club",            "desc": "Vice City legacy venue. Nightlife and criminal operations." },
+        { "url": "/gameplay/locations/military-base",          "label": "Restricted", "color": "#ef4444", "name": "Military Base",          "desc": "Government installation. Entry not advised." },
+        { "url": "/gameplay/locations/monument-of-leonida",    "label": "Landmark",   "color": "#fcd34d", "name": "Monument of Leonida",    "desc": "Historical state landmark." },
+        { "url": "/gameplay/locations/nine-1-nine",            "label": "Nightclub",  "color": "#e11d48", "name": "Nine-One-Nine",          "desc": "Active Vice City nightlife venue inside the urban grid." },
+        { "url": "/gameplay/locations/ocean-view-hotel",       "label": "Hotel",      "color": "#e879f9", "name": "Ocean View Hotel",       "desc": "Ocean Drive hotel. Vice City beachfront." },
+        { "url": "/gameplay/locations/starlet-motel",          "label": "Motel",      "color": "#f97316", "name": "Starlet Motel",          "desc": "Roadside lodging. Rural Leonida." }
+      ]
+    }
+  ]
+}

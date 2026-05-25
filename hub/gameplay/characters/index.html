@@ -211,36 +211,7 @@
   <main id="main">
     <div class="wrap">
       <div class="no-results" id="no-results" aria-live="polite">No results found.</div>
-<section class="index-section reveal" aria-labelledby="proto-hd">
-        <div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">Protagonists & Key Figures</span></div>
-        <h2 class="index-section__h2" id="proto-hd">Protagonists</h2>
-        <div class="card-grid" role="list">
-          <a href="/gameplay/characters/brian-heder" class="entry-card" role="listitem"><div class="entry-card__label" style="color:#60a5fa">Associate</div><div class="entry-card__name">Brian Heder</div><div class="entry-card__desc">Boatyard owner. Operational contact for marine logistics.</div></a>
-<a href="/gameplay/characters/cal-hampton" class="entry-card" role="listitem"><div class="entry-card__label" style="color:#60a5fa">Associate</div><div class="entry-card__name">Cal Hampton</div><div class="entry-card__desc">Conspiracy theorist with documented proximity to active operations.</div></a>
-<a href="/gameplay/characters/jason-duval" class="entry-card" role="listitem"><div class="entry-card__label" style="color:#ff0055">Protagonist</div><div class="entry-card__name">Jason Duval</div><div class="entry-card__desc">Leonida native. Former military. Drug running history in the Keys corridor.</div></a>
-<a href="/gameplay/characters/lucia-caminos" class="entry-card" role="listitem"><div class="entry-card__label" style="color:#ff0055">Protagonist</div><div class="entry-card__name">Lucia Caminos</div><div class="entry-card__desc">Recently paroled. The tactical lead. First confirmed female protagonist in the HD Universe.</div></a>
-<a href="/gameplay/characters/raul-bautista" class="entry-card" role="listitem"><div class="entry-card__label" style="color:#f97316">Veteran</div><div class="entry-card__name">Raul Bautista</div><div class="entry-card__desc">Seasoned bank robber. Product runs through the Port Gellhorn corridor.</div></a>
-        </div>
-      </section>
-      <section class="index-section reveal" aria-labelledby="underworld-hd">
-        <div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">Underworld & Commerce</span></div>
-        <h2 class="index-section__h2" id="underworld-hd">Underworld</h2>
-        <div class="card-grid" role="list">
-          <a href="/gameplay/characters/boobie-ike" class="entry-card" role="listitem"><div class="entry-card__label" style="color:#e879f9">Mogul</div><div class="entry-card__name">Boobie Ike</div><div class="entry-card__desc">Vice City nightclub and recording studio empire. Street-to-boardroom.</div></a>
-<a href="/gameplay/characters/dre-quan-priest" class="entry-card" role="listitem"><div class="entry-card__label" style="color:#fbbf24">Manager</div><div class="entry-card__name">Dre'Quan Priest</div><div class="entry-card__desc">Only Raw Records. Works directly with Boobie Ike.</div></a>
-<a href="/gameplay/characters/phil-cassidy" class="entry-card" role="listitem"><div class="entry-card__label" style="color:#34d399">Vendor</div><div class="entry-card__name">Phil Cassidy</div><div class="entry-card__desc">Arms dealer. No questions asked.</div></a>
-<a href="/gameplay/characters/wyman" class="entry-card" role="listitem"><div class="entry-card__label" style="color:#94a3b8">Mechanic</div><div class="entry-card__name">Wyman</div><div class="entry-card__desc">Vehicle parts and fencing. Operational support from the shop floor.</div></a>
-        </div>
-      </section>
-      <section class="index-section reveal" aria-labelledby="public-hd">
-        <div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">Nightlife & Public Figures</span></div>
-        <h2 class="index-section__h2" id="public-hd">Public Figures</h2>
-        <div class="card-grid" role="list">
-          <a href="/gameplay/characters/bae-lux" class="entry-card" role="listitem"><div class="entry-card__label" style="color:#c084fc">Artist</div><div class="entry-card__name">Bae-Lux</div><div class="entry-card__desc">Rapper. Real Dimez crew. Vice City nightlife circuit.</div></a>
-<a href="/gameplay/characters/roxy" class="entry-card" role="listitem"><div class="entry-card__label" style="color:#c084fc">Artist</div><div class="entry-card__name">Roxy</div><div class="entry-card__desc">Rapper. Real Dimez crew. Vice City nightlife circuit.</div></a>
-<a href="/gameplay/characters/stefanie" class="entry-card" role="listitem"><div class="entry-card__label" style="color:#22d3ee">Official</div><div class="entry-card__name">Stefanie</div><div class="entry-card__desc">Correctional social worker. Lucia's parole officer.</div></a>
-        </div>
-      </section>
+      <div id="characters-grid"></div>
     </div>
   </main>
     <footer class="footer" role="contentinfo">
@@ -315,6 +286,58 @@
       btn.addEventListener('click',function(e){e.stopPropagation();if(wrap.classList.contains('open')){closeMenu()}else{openMenu()}});
       document.addEventListener('click',function(e){if(wrap&&!wrap.contains(e.target)){wrap.classList.remove('open');btn.setAttribute('aria-expanded','false')}});
       document.addEventListener('keydown',function(e){if(e.key==='Escape'&&wrap){wrap.classList.remove('open');btn.setAttribute('aria-enabled','false')}});
+    })();
+  // ── CHARACTERS GRID ──
+    (function(){
+      var grid=document.getElementById('characters-grid');
+      if(!grid)return;
+      fetch('/assets/data/characters.json')
+        .then(function(r){return r.json()})
+        .then(function(data){
+          var html='';
+          (data.sections||[]).forEach(function(sec){
+            html+='<section class="index-section reveal" aria-labelledby="'+sec.id+'">'
+                 +'<div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">'+sec.eyebrow+'</span></div>'
+                 +'<h2 class="index-section__h2" id="'+sec.id+'">'+sec.title+'</h2>'
+                 +'<div class="card-grid" role="list">';
+            (sec.items||[]).forEach(function(item){
+              html+='<a href="'+item.url+'" class="entry-card" role="listitem">'
+                   +'<div class="entry-card__label" style="color:'+item.color+'">'+item.label+'</div>'
+                   +'<div class="entry-card__name">'+item.name+'</div>'
+                   +'<div class="entry-card__desc">'+item.desc+'</div>'
+                   +'</a>';
+            });
+            html+='</div></section>';
+          });
+          grid.innerHTML=html;
+          document.querySelectorAll('#characters-grid .reveal').forEach(function(el){ro.observe(el)});
+        });
+    })();
+        // ── CHARACTERS GRID ──
+    (function(){
+      var grid=document.getElementById('characters-grid');
+      if(!grid)return;
+      fetch('/assets/data/characters.json')
+        .then(function(r){return r.json()})
+        .then(function(data){
+          var html='';
+          (data.sections||[]).forEach(function(sec){
+            html+='<section class="index-section reveal" aria-labelledby="'+sec.id+'">'
+                 +'<div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">'+sec.eyebrow+'</span></div>'
+                 +'<h2 class="index-section__h2" id="'+sec.id+'">'+sec.title+'</h2>'
+                 +'<div class="card-grid" role="list">';
+            (sec.items||[]).forEach(function(item){
+              html+='<a href="'+item.url+'" class="entry-card" role="listitem">'
+                   +'<div class="entry-card__label" style="color:'+item.color+'">'+item.label+'</div>'
+                   +'<div class="entry-card__name">'+item.name+'</div>'
+                   +'<div class="entry-card__desc">'+item.desc+'</div>'
+                   +'</a>';
+            });
+            html+='</div></section>';
+          });
+          grid.innerHTML=html;
+          document.querySelectorAll('#characters-grid .reveal').forEach(function(el){ro.observe(el)});
+        });
     })();
   </script>
 

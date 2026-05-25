@@ -1,0 +1,120 @@
+{
+  "sections": [
+    {
+      "id": "food-hd",
+      "eyebrow": "Food & Drinks",
+      "title": "Food &amp; Drinks",
+      "items": [
+        { "url": "/gameplay/brands/archez",                "label": "Restaurant", "color": "#6ee7b7", "name": "Archez",         "desc": "Leonida dining. The sign shows up across the state." },
+        { "url": "/gameplay/brands/burgershot",            "label": "Fast Food",  "color": "#ff6b6b", "name": "Burger Shot",    "desc": "The franchise that outlives everything. Vice City has twelve of them." },
+        { "url": "/gameplay/brands/cherry-popper-ice-cream","label": "Food",      "color": "#4ade80", "name": "Cherry Popper",  "desc": "Ice cream. The brand name has always been this way." },
+        { "url": "/gameplay/brands/cluckin-bell",          "label": "Fast Food",  "color": "#ff6b6b", "name": "Cluckin' Bell",  "desc": "Chicken. Aggressively branded. Hard to avoid." },
+        { "url": "/gameplay/brands/cool-beans",            "label": "Drinks",     "color": "#34d399", "name": "Cool Beans",     "desc": "Coffee chain. Vice City commuter staple." },
+        { "url": "/gameplay/brands/ecola",                 "label": "Soda",       "color": "#2dd4bf", "name": "eCola",          "desc": "The default soda of Leonida. Questioned by nobody." },
+        { "url": "/gameplay/brands/hanks-waffles",         "label": "Diner",      "color": "#fb923c", "name": "Hank's Waffles", "desc": "Roadside diner. Rural Leonida." },
+        { "url": "/gameplay/brands/hornys",                "label": "Restaurant", "color": "#6ee7b7", "name": "Horny's",        "desc": "Leonida restaurant chain. The name is intentional." },
+        { "url": "/gameplay/brands/sprunk",                "label": "Soda",       "color": "#2dd4bf", "name": "Sprunk",         "desc": "Competing with eCola for every available surface in Leonida." },
+        { "url": "/gameplay/brands/tacobomb",              "label": "Fast Food",  "color": "#ff6b6b", "name": "TacoBomb",       "desc": "Drive-through Tex-Mex. Open at 3am, no questions asked." }
+      ]
+    },
+    {
+      "id": "alcohol-hd",
+      "eyebrow": "Alcohol & Tobacco",
+      "title": "Alcohol &amp; Tobacco",
+      "items": [
+        { "url": "/gameplay/brands/buff-beer",             "label": "Beer",       "color": "#fbbf24", "name": "Buff Beer",    "desc": "Leonida domestic lager." },
+        { "url": "/gameplay/brands/debonaire-cigarettes",  "label": "Cigarettes", "color": "#78716c", "name": "Debonaire",    "desc": "The sophisticated cigarette brand." },
+        { "url": "/gameplay/brands/logger-beer",           "label": "Beer",       "color": "#fbbf24", "name": "Logger Beer",  "desc": "Rural Leonida bars." },
+        { "url": "/gameplay/brands/patriot-beer",          "label": "Beer",       "color": "#fbbf24", "name": "Patriot Beer", "desc": "American nationalism in a can." },
+        { "url": "/gameplay/brands/pisswasser",            "label": "Beer",       "color": "#fbbf24", "name": "Pisswasser",   "desc": "Imported lager. The price is not a joke." },
+        { "url": "/gameplay/brands/redwood-cigarettes",    "label": "Cigarettes", "color": "#78716c", "name": "Redwood",      "desc": "Mass-market cigarettes. Everywhere in Leonida." }
+      ]
+    },
+    {
+      "id": "clothing-hd",
+      "eyebrow": "Clothing & Fashion",
+      "title": "Clothing &amp; Fashion",
+      "items": [
+        { "url": "/gameplay/brands/binco",          "label": "Retail",     "color": "#60a5fa", "name": "Binco",         "desc": "Budget clothing chain. Gets the job done." },
+        { "url": "/gameplay/brands/didier-sachs",   "label": "Luxury",     "color": "#e879f9", "name": "Didier Sachs",  "desc": "High-end fashion. Financial District clientele." },
+        { "url": "/gameplay/brands/ponsonbys",      "label": "Luxury",     "color": "#e879f9", "name": "Ponsonbys",     "desc": "Premium menswear. For when the job requires looking the part." },
+        { "url": "/gameplay/brands/prolaps",        "label": "Sports",     "color": "#fcd34d", "name": "ProLaps",       "desc": "Sportswear. Ubiquitous in Vice City." },
+        { "url": "/gameplay/brands/sessanta-nove",  "label": "Luxury",     "color": "#e879f9", "name": "Sessanta Nove", "desc": "Italian luxury. 69 in Italian." },
+        { "url": "/gameplay/brands/suburban",       "label": "Streetwear", "color": "#a78bfa", "name": "SubUrban",      "desc": "Street-level clothing." },
+        { "url": "/gameplay/brands/victim",         "label": "Streetwear", "color": "#a78bfa", "name": "Victim",        "desc": "Alternative fashion." },
+        { "url": "/gameplay/brands/zip",            "label": "Retail",     "color": "#60a5fa", "name": "ZIP",           "desc": "General clothing. Multiple Vice City locations." }
+      ]
+    },
+    {
+      "id": "vehicles-brands-hd",
+      "eyebrow": "Vehicles & Auto",
+      "title": "Vehicles &amp; Auto",
+      "items": [
+        { "url": "/gameplay/brands/annis",            "label": "Manufacturer", "color": "#ff8042", "name": "Annis",           "desc": "Nissan equivalent. JDM sports heritage. The Elegy is confirmed in Leonida." },
+        { "url": "/gameplay/brands/benefactor",       "label": "Manufacturer", "color": "#ff8042", "name": "Benefactor",      "desc": "Mercedes-Benz equivalent. Executive sedans. German precision, Leonida discretion." },
+        { "url": "/gameplay/brands/bravado",          "label": "Manufacturer", "color": "#ff8042", "name": "Bravado",         "desc": "American muscle and trucks. Dodge equivalent." },
+        { "url": "/gameplay/brands/declasse",         "label": "Manufacturer", "color": "#ff8042", "name": "Declasse",        "desc": "Domestic vehicles. What regular Leonida residents actually drive." },
+        { "url": "/gameplay/brands/dinka",            "label": "Manufacturer", "color": "#ff8042", "name": "Dinka",           "desc": "Honda equivalent. Compact cars and motorcycles. The default vehicle of Leonida." },
+        { "url": "/gameplay/brands/gallivanter",      "label": "Manufacturer", "color": "#ff8042", "name": "Gallivanter",     "desc": "Land Rover equivalent. Luxury SUVs. Off-road capability, zero off-road use." },
+        { "url": "/gameplay/brands/grotti",           "label": "Manufacturer", "color": "#ff8042", "name": "Grotti",          "desc": "Italian exotic performance. Ferrari equivalent." },
+        { "url": "/gameplay/brands/invetero",         "label": "Manufacturer", "color": "#ff8042", "name": "Invetero",        "desc": "Premium domestic sports engineering." },
+        { "url": "/gameplay/brands/karin",            "label": "Manufacturer", "color": "#ff8042", "name": "Karin",           "desc": "Toyota equivalent. The Sultan has been in every GTA. Four models confirmed in Leonida." },
+        { "url": "/gameplay/brands/maibatsu",         "label": "Manufacturer", "color": "#ff8042", "name": "Maibatsu",        "desc": "Mitsubishi equivalent. Commercial vehicles and motorcycles. The Mule is everywhere." },
+        { "url": "/gameplay/brands/nagasaki",         "label": "Manufacturer", "color": "#ff8042", "name": "Nagasaki",        "desc": "Kawasaki equivalent. ATVs, motorcycles, and marine. Wherever the pavement stops." },
+        { "url": "/gameplay/brands/obey",             "label": "Manufacturer", "color": "#ff8042", "name": "Obey",            "desc": "Audi equivalent. Performance sedans and the first confirmed EV in Leonida." },
+        { "url": "/gameplay/brands/ocelot",           "label": "Manufacturer", "color": "#ff8042", "name": "Ocelot",          "desc": "Porsche equivalent. Precision." },
+        { "url": "/gameplay/brands/pegassi",          "label": "Manufacturer", "color": "#ff8042", "name": "Pegassi",         "desc": "Lamborghini equivalent. Extreme performance." },
+        { "url": "/gameplay/brands/pfister",          "label": "Manufacturer", "color": "#ff8042", "name": "Pfister",         "desc": "Luxury performance. The Comet lives here." },
+        { "url": "/gameplay/brands/schyster",         "label": "Manufacturer", "color": "#ff8042", "name": "Schyster",        "desc": "Chrysler equivalent. American executive sedans. Old money. New price." },
+        { "url": "/gameplay/brands/scooter-brothers", "label": "Dealer",       "color": "#3b82f6", "name": "Scooter Brothers","desc": "Moped dealership. Vice City coastal areas." },
+        { "url": "/gameplay/brands/ubermacht",        "label": "Manufacturer", "color": "#ff8042", "name": "Ubermacht",       "desc": "BMW equivalent. Executive performance." },
+        { "url": "/gameplay/brands/vapid",            "label": "Manufacturer", "color": "#ff8042", "name": "Vapid",           "desc": "Ford equivalent. Trucks, muscle, utility." },
+        { "url": "/gameplay/brands/western",          "label": "Manufacturer", "color": "#ff8042", "name": "Western",         "desc": "Harley-Davidson equivalent. American cruiser motorcycles. The outlaw circuit runs on Western." }
+      ]
+    },
+    {
+      "id": "logistics-hd",
+      "eyebrow": "Logistics & Airlines",
+      "title": "Logistics &amp; Airlines",
+      "items": [
+        { "url": "/gameplay/brands/adios-airlines", "label": "Airline",   "color": "#22d3ee", "name": "Adios Airlines", "desc": "Leonida regional carrier." },
+        { "url": "/gameplay/brands/airemu",         "label": "Airline",   "color": "#22d3ee", "name": "AirEmu",         "desc": "Domestic airline. Budget end of the market." },
+        { "url": "/gameplay/brands/flyus",          "label": "Airline",   "color": "#22d3ee", "name": "FlyUS",          "desc": "Main domestic carrier." },
+        { "url": "/gameplay/brands/go-postal",      "label": "Logistics", "color": "#94a3b8", "name": "GoPostal",       "desc": "Parcel delivery. The vans are everywhere." },
+        { "url": "/gameplay/brands/post-op",        "label": "Logistics", "color": "#94a3b8", "name": "Post OP",        "desc": "Freight and logistics." }
+      ]
+    },
+    {
+      "id": "media-hd",
+      "eyebrow": "Media & Entertainment",
+      "title": "Media &amp; Entertainment",
+      "items": [
+        { "url": "/gameplay/brands/cnt",               "label": "Television", "color": "#0d9488", "name": "CNT",               "desc": "Television network. Weazel's main competition." },
+        { "url": "/gameplay/brands/only-raw-records",  "label": "Music",      "color": "#c084fc", "name": "Only Raw Records",  "desc": "Dre'Quan Priest's label. Vice City music industry." },
+        { "url": "/gameplay/brands/snapmatic",         "label": "App",        "color": "#818cf8", "name": "Snapmatic",         "desc": "In-game photo sharing. Instagram equivalent in Leonida." },
+        { "url": "/gameplay/brands/vice-news-network", "label": "News",       "color": "#f472b6", "name": "Vice News Network", "desc": "Local media. Vice City coverage." },
+        { "url": "/gameplay/brands/weazel-news",       "label": "News",       "color": "#f472b6", "name": "Weazel News",       "desc": "\"Confirming your prejudices.\" Leonida's most trusted and most ridiculed outlet." }
+      ]
+    },
+    {
+      "id": "nightlife-hd",
+      "eyebrow": "Nightlife & Leisure",
+      "title": "Nightlife &amp; Leisure",
+      "items": [
+        { "url": "/gameplay/brands/bahama-mamas", "label": "Nightclub", "color": "#e11d48", "name": "Bahama Mamas", "desc": "Vice City nightclub. Full interior, fully operational." },
+        { "url": "/gameplay/brands/onlybangs",    "label": "Adult",     "color": "#ef4444", "name": "OnlyBangs",   "desc": "Leonida's adult content platform." },
+        { "url": "/gameplay/brands/tequi-la-la",  "label": "Bar",       "color": "#f97316", "name": "Tequi-la-la", "desc": "Vice City bar." }
+      ]
+    },
+    {
+      "id": "other-hd",
+      "eyebrow": "Weapons & Energy",
+      "title": "Weapons &amp; Energy",
+      "items": [
+        { "url": "/gameplay/brands/ammu-nation", "label": "Retail",  "color": "#60a5fa", "name": "Ammu-Nation", "desc": "Firearms retail. Legal purchases, no waiting period." },
+        { "url": "/gameplay/brands/global-oil",  "label": "Energy",  "color": "#a3e635", "name": "Global Oil",  "desc": "Corporate energy. Refineries across Leonida." },
+        { "url": "/gameplay/brands/ron-oil",     "label": "Energy",  "color": "#a3e635", "name": "Ron Oil",     "desc": "Petrol stations statewide. Every highway exit." }
+      ]
+    }
+  ]
+}

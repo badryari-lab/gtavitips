@@ -361,6 +361,34 @@
       document.addEventListener('click',function(e){if(wrap&&!wrap.contains(e.target)){wrap.classList.remove('open');btn.setAttribute('aria-expanded','false')}});
       document.addEventListener('keydown',function(e){if(e.key==='Escape'&&wrap){wrap.classList.remove('open');btn.setAttribute('aria-expanded','false')}});
     })();
+        // ── WEAPONS GRID ──
+    (function(){
+      var grid=document.getElementById('weapons-grid');
+      if(!grid)return;
+      fetch('/assets/data/weapons.json')
+        .then(function(r){return r.json()})
+        .then(function(data){
+          var html='';
+          (data.sections||[]).forEach(function(sec){
+            html+='<section class="index-section reveal" aria-labelledby="'+sec.id+'">'
+                 +'<div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">'+sec.eyebrow+'</span></div>'
+                 +'<h2 class="index-section__h2" id="'+sec.id+'">'+sec.title+'</h2>'
+                 +'<div class="card-grid" role="list">';
+            (sec.items||[]).forEach(function(item){
+              html+='<a href="'+item.url+'" class="entry-card reveal" role="listitem"'
+                   +(item.dataName?' data-name="'+item.dataName+'"':'')
+                   +(item.dataCat?' data-cat="'+item.dataCat+'"':'')
+                   +'><div class="entry-card__label" style="color:'+item.color+'">'+item.label+'</div>'
+                   +'<div class="entry-card__name">'+item.name+'</div>'
+                   +'<div class="entry-card__desc">'+item.desc+'</div>'
+                   +'</a>';
+            });
+            html+='</div></section>';
+          });
+          grid.innerHTML=html;
+          document.querySelectorAll('#weapons-grid .reveal').forEach(function(el){ro.observe(el)});
+        });
+    })();
   </script>
 
   <!-- COOKIE CONSENT BANNER -->

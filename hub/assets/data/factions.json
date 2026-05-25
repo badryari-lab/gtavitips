@@ -1,0 +1,45 @@
+{
+  "sections": [
+    {
+      "id": "criminal-hd",
+      "eyebrow": "Criminal Organizations",
+      "title": "Criminal Organizations",
+      "items": [
+        { "url": "/gameplay/gangs-and-factions/7x",                    "label": "Gang",   "color": "#f472b6", "name": "7X",                    "desc": "Street-level presence across Vice City districts." },
+        { "url": "/gameplay/gangs-and-factions/high-rollerz",          "label": "Racers", "color": "#a3e635", "name": "High Rollerz",          "desc": "Underground racing crew in Vice City circuits." },
+        { "url": "/gameplay/gangs-and-factions/leonida-cartel",        "label": "Cartel", "color": "#ef4444", "name": "Leonida Cartel",        "desc": "The dominant cartel. Product runs through the port corridor." },
+        { "url": "/gameplay/gangs-and-factions/outlaw-motorcycle-gang","label": "Biker",  "color": "#f97316", "name": "Outlaw Motorcycle Gang","desc": "Biker gang. Rural and highway Leonida." },
+        { "url": "/gameplay/gangs-and-factions/real-dimez",            "label": "Crew",   "color": "#fbbf24", "name": "Real Dimez",            "desc": "Viral music collective. Bae-Lux and Roxy. Vice City nightlife." },
+        { "url": "/gameplay/gangs-and-factions/san-4-san",             "label": "Gang",   "color": "#f472b6", "name": "San 4 San",             "desc": "Street gang. Vice County jurisdiction." }
+      ]
+    },
+    {
+      "id": "law-hd",
+      "eyebrow": "Law Enforcement",
+      "title": "Law Enforcement",
+      "items": [
+        { "url": "/gameplay/gangs-and-factions/leonida-state-police","label": "State",   "color": "#22d3ee", "name": "Leonida State Police","desc": "Highway interdiction and multi-jurisdictional support statewide." },
+        { "url": "/gameplay/gangs-and-factions/lhp",                 "label": "State",   "color": "#22d3ee", "name": "LHP",                 "desc": "Leonida Highway Patrol." },
+        { "url": "/gameplay/gangs-and-factions/noose",               "label": "Tactical","color": "#0d9488", "name": "N.O.O.S.E.",          "desc": "Federal tactical response. Maximum wanted level deployment." },
+        { "url": "/gameplay/gangs-and-factions/vcpd",                "label": "Police",  "color": "#38bdf8", "name": "VCPD",                "desc": "Vice City first response. Tourist corridors and the downtown grid." },
+        { "url": "/gameplay/gangs-and-factions/vcso",                "label": "Sheriff", "color": "#fcd34d", "name": "VCSO",                "desc": "Vice County jurisdiction outside the city limits." },
+        { "url": "/gameplay/gangs-and-factions/vice-beach-police",   "label": "Local",   "color": "#60a5fa", "name": "Vice Beach Police",   "desc": "Coastal and boardwalk tourist sector policing." },
+        { "url": "/gameplay/gangs-and-factions/vice-county-swat",    "label": "Tactical","color": "#0d9488", "name": "Vice County SWAT",    "desc": "Paramilitary response when VCPD reaches its limits." }
+      ]
+    },
+    {
+      "id": "services-hd",
+      "eyebrow": "Public Services & Private Security",
+      "title": "Public Services",
+      "items": [
+        { "url": "/gameplay/gangs-and-factions/animal-control",           "label": "Civil",   "color": "#a78bfa", "name": "Animal Control",          "desc": "Handles Leonida's alligator-in-the-swimming-pool situation." },
+        { "url": "/gameplay/gangs-and-factions/brute-security",           "label": "Private", "color": "#818cf8", "name": "Brute Security",          "desc": "Private armoured transport. Port Gellhorn operations." },
+        { "url": "/gameplay/gangs-and-factions/correctional",             "label": "Prison",  "color": "#9ca3af", "name": "Leonida DOC",             "desc": "Department of Corrections. State penitentiary facilities." },
+        { "url": "/gameplay/gangs-and-factions/leonida-ems",              "label": "Medical", "color": "#34d399", "name": "Leonida EMS",             "desc": "Emergency Medical Services statewide." },
+        { "url": "/gameplay/gangs-and-factions/leonida-fire-department",  "label": "Fire",    "color": "#ff6b6b", "name": "Leonida Fire Department", "desc": "Fire and rescue services across the state." },
+        { "url": "/gameplay/gangs-and-factions/vice-county-corrections",  "label": "Prison",  "color": "#9ca3af", "name": "Vice County Corrections", "desc": "County-level detention and corrections." },
+        { "url": "/gameplay/gangs-and-factions/vice-county-transit",      "label": "Transit", "color": "#6ee7b7", "name": "Vice County Transit",     "desc": "Public transport. Vice City and surrounding areas." }
+      ]
+    }
+  ]
+}
