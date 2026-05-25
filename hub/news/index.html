@@ -276,8 +276,19 @@
     .news-filter__tab.active { background: rgba(0,95,144,.12); border-color: rgba(0,95,144,.30); color: var(--blue); }
 
     /* CARDS */
-    .news-card { display: block; text-decoration: none; background: var(--bg-2); border: 1px solid var(--border); border-radius: 14px; padding: 24px; transition: border-color .2s, transform .2s, box-shadow .2s; }
+    .news-card { display: block; text-decoration: none; background: var(--bg-2); border: 1px solid var(--border); border-radius: 14px; padding: 0; overflow: hidden; transition: border-color .2s, transform .2s, box-shadow .2s; }
     .news-card:hover { border-color: var(--border-b); transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,.12); }
+    .news-card__thumb { position: relative; overflow: hidden; background: var(--bg-3); flex-shrink: 0; }
+    .news-card--featured .news-card__thumb { height: 180px; }
+    .news-card--latest .news-card__thumb { height: 120px; }
+    .news-card--grid .news-card__thumb { height: 140px; }
+    .news-card__thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
+    .news-card__thumb-inner { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,95,144,.15), rgba(255,0,85,.07)); display: flex; align-items: center; justify-content: center; }
+    .news-card__thumb-letter { font-size: 52px; font-weight: 900; color: rgba(255,255,255,.05); letter-spacing: -.03em; user-select: none; }
+    .news-card--latest .news-card__thumb-letter, .news-card--grid .news-card__thumb-letter { font-size: 36px; }
+    .news-card__thumb-overlay { position: absolute; bottom: 0; left: 0; right: 0; height: 50%; background: linear-gradient(to top, var(--bg-2), transparent); z-index: 2; pointer-events: none; }
+    .news-card__body { padding: 20px; }
+    .news-card--latest .news-card__body, .news-card--grid .news-card__body { padding: 16px 18px; }
     .news-card__badge-row { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
     .news-card__badge { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .10em; padding: 4px 10px; border-radius: 999px; }
     .news-card__date { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t3); }
@@ -407,74 +418,14 @@
 
     <section class="news-featured reveal">
       <div class="news-featured__label">Featured</div>
-      <div class="news-featured__grid">
-        <a href="/news/gta-6-trailer-2-breakdown" class="news-card news-card--featured" data-cat="rockstar">
-          <div class="news-card__badge-row">
-            <span class="news-card__badge badge--official">Rockstar</span>
-            <span class="news-card__date">May 2025</span>
-          </div>
-          <h2 class="news-card__title">GTA 6 Trailer 2: The Full Intelligence Breakdown</h2>
-          <p class="news-card__deck">Three minutes. The full map. This is everything Trailer 2 confirmed about Leonida, organized by category and linked to t...</p>
-        </a><a href="/news/every-confirmed-gang-and-faction-in-gta-6" class="news-card news-card--featured" data-cat="deep-dive">
-          <div class="news-card__badge-row">
-            <span class="news-card__badge badge--deepdive">Deep Dive</span>
-            <span class="news-card__date">March 2026</span>
-          </div>
-          <h2 class="news-card__title">Every Confirmed Gang and Faction in GTA 6</h2>
-          <p class="news-card__deck">Twenty factions. Six categories. One state. This is the full picture of who runs what in Leonida. The criminal crews, th...</p>
-        </a><a href="/news/gta-6-release-date-november-2026" class="news-card news-card--featured" data-cat="rockstar">
-          <div class="news-card__badge-row">
-            <span class="news-card__badge badge--official">Rockstar</span>
-            <span class="news-card__date">November 2025</span>
-          </div>
-          <h2 class="news-card__title">GTA 6 Release Date Confirmed: November 19, 2026</h2>
-          <p class="news-card__deck">November 19, 2026. PlayStation 5 and Xbox Series X/S. The date is confirmed, the platform is confirmed, and the countdow...</p>
-        </a>
-      </div>
+      <div class="news-featured__grid" id="news-featured"></div>
     </section>
 
     <div class="news-divider"></div>
 
     <section class="news-latest reveal">
       <div class="news-latest__label">Latest Intel</div>
-      <div class="news-latest__strip">
-        <a href="/news/gta-6-xbox-store-wishlist-confirmed" class="news-card news-card--latest" data-cat="surrounding">
-          <div class="news-card__badge-row">
-            <span class="news-card__badge badge--surrounding">Surrounding</span>
-            <span class="news-card__date">May 2026</span>
-          </div>
-          <h2 class="news-card__title">GTA 6 Lands on Xbox Store. Wishlist Live.</h2>
-          <p class="news-card__deck">Xbox posted the key art on May 22. The store page lists November 19. No pre-orders yet, just a wishlist button and a date already on the calendar.</p>
-        </a><a href="/news/brands-of-vice-city" class="news-card news-card--latest" data-cat="deep-dive">
-          <div class="news-card__badge-row">
-            <span class="news-card__badge badge--deepdive">Deep Dive</span>
-            <span class="news-card__date">April 2026</span>
-          </div>
-          <h2 class="news-card__title">The Brands of Vice City: In-World Commerce as World Building</h2>
-          <p class="news-card__deck">50 confirmed brands. Every product category. The brand ecosystem is Vice City's self-portrait. Here is what it says.</p>
-        </a><a href="/news/criminal-economy-vice-city" class="news-card news-card--latest" data-cat="deep-dive">
-          <div class="news-card__badge-row">
-            <span class="news-card__badge badge--deepdive">Deep Dive</span>
-            <span class="news-card__date">April 2026</span>
-          </div>
-          <h2 class="news-card__title">The Criminal Economy of Vice City: How It Works</h2>
-          <p class="news-card__deck">Product enters at Port Gellhorn. It moves through the OMG corridor. It distributes through Real Dimez and San 4 San. Mon...</p>
-        </a><a href="/news/geography-of-leonida" class="news-card news-card--latest" data-cat="deep-dive">
-          <div class="news-card__badge-row">
-            <span class="news-card__badge badge--deepdive">Deep Dive</span>
-            <span class="news-card__date">April 2026</span>
-          </div>
-          <h2 class="news-card__title">The Geography of Leonida: A Reconstruction</h2>
-          <p class="news-card__deck">Five confirmed zones. No official map yet. This is the spatial logic of Leonida reconstructed from confirmed locations, ...</p>
-        </a><a href="/news/gta-6-map-expansion-after-launch" class="news-card news-card--latest" data-cat="rumour">
-          <div class="news-card__badge-row">
-            <span class="news-card__badge badge--rumour">Rumour</span>
-            <span class="news-card__date">April 2026</span>
-          </div>
-          <h2 class="news-card__title">Will GTA 6 Get Map Expansions After Launch?</h2>
-          <p class="news-card__deck">No official DLC announced. The infrastructure arguments, the geographic candidates, and the commercial logic examined.</p>
-        </a>
-      </div>
+      <div class="news-latest__strip" id="news-latest"></div>
     </section>
 
     <div class="news-divider"></div>
@@ -484,7 +435,7 @@
       <div class="news-filter__tabs">
         <button class="news-filter__tab active" data-filter="all">All</button><button class="news-filter__tab" data-filter="rockstar">Rockstar</button><button class="news-filter__tab" data-filter="deep-dive">Deep Dive</button><button class="news-filter__tab" data-filter="surrounding">Surrounding</button><button class="news-filter__tab" data-filter="rumour">Rumour</button><button class="news-filter__tab" data-filter="gtavitips">GTAVITIPS</button><button class="news-filter__tab" data-filter="analysis">Analysis</button>
       </div>
-      <div class="news-grid">
+      <div class="news-grid" id="news-grid">
         <a href="/news/brands-of-vice-city" class="news-card news-card--grid" data-cat="deep-dive">
           <div class="news-card__badge-row">
             <span class="news-card__badge badge--deepdive">Deep Dive</span>
@@ -964,7 +915,44 @@
       localStorage.setItem('gtavitips-theme',next);
     });
   })();
-  </script></body>
+  </script>
+  <script>
+  (function() {
+    var LATEST_COUNT = 5;
+    function thumbHTML(a) {
+      var img = a.image ? '<img src="' + a.image + '" alt="' + (a.imageAlt||'') + '" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;">' : '';
+      return '<div class="news-card__thumb">' + img + '<div class="news-card__thumb-inner" aria-hidden="true"><span class="news-card__thumb-letter">' + a.thumb + '</span></div><div class="news-card__thumb-overlay" aria-hidden="true"></div></div>';
+    }
+    function cardHTML(a, cls) {
+      return '<a href="' + a.url + '" class="news-card ' + cls + '" data-cat="' + a.cat + '">' + thumbHTML(a) + '<div class="news-card__body"><div class="news-card__badge-row"><span class="news-card__badge ' + a.badgeClass + '">' + a.badge + '</span><span class="news-card__date">' + a.date + '</span></div><h2 class="news-card__title">' + a.title + '</h2><p class="news-card__deck">' + a.deck + '</p></div></a>';
+    }
+    function initFilter(gridEl) {
+      var tabs = document.querySelectorAll('.news-filter__tab');
+      tabs.forEach(function(tab) {
+        tab.addEventListener('click', function() {
+          tabs.forEach(function(t) { t.classList.remove('active'); });
+          tab.classList.add('active');
+          var f = tab.dataset.filter;
+          Array.from(gridEl.children).forEach(function(c) {
+            c.classList.remove('hidden');
+            if (f !== 'all' && c.dataset.cat !== f) c.classList.add('hidden');
+          });
+        });
+      });
+    }
+    fetch('/assets/data/news.json').then(function(r) { return r.json(); }).then(function(data) {
+      var featured = data.articles.filter(function(a) { return a.featured; });
+      var nonFeatured = data.articles.filter(function(a) { return !a.featured; });
+      var featuredEl = document.getElementById('news-featured');
+      if (featuredEl) featuredEl.innerHTML = featured.map(function(a) { return cardHTML(a, 'news-card--featured'); }).join('');
+      var latestEl = document.getElementById('news-latest');
+      if (latestEl) latestEl.innerHTML = nonFeatured.slice(0, LATEST_COUNT).map(function(a) { return cardHTML(a, 'news-card--latest'); }).join('');
+      var gridEl = document.getElementById('news-grid');
+      if (gridEl) { gridEl.innerHTML = nonFeatured.map(function(a) { return cardHTML(a, 'news-card--grid'); }).join(''); initFilter(gridEl); }
+    }).catch(function() {});
+  })();
+  </script>
+</body>
 </html>
 
 
@@ -1060,5 +1048,42 @@
       localStorage.setItem('gtavitips-theme',next);
     });
   })();
-  </script></body>
+  </script>
+  <script>
+  (function() {
+    var LATEST_COUNT = 5;
+    function thumbHTML(a) {
+      var img = a.image ? '<img src="' + a.image + '" alt="' + (a.imageAlt||'') + '" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;">' : '';
+      return '<div class="news-card__thumb">' + img + '<div class="news-card__thumb-inner" aria-hidden="true"><span class="news-card__thumb-letter">' + a.thumb + '</span></div><div class="news-card__thumb-overlay" aria-hidden="true"></div></div>';
+    }
+    function cardHTML(a, cls) {
+      return '<a href="' + a.url + '" class="news-card ' + cls + '" data-cat="' + a.cat + '">' + thumbHTML(a) + '<div class="news-card__body"><div class="news-card__badge-row"><span class="news-card__badge ' + a.badgeClass + '">' + a.badge + '</span><span class="news-card__date">' + a.date + '</span></div><h2 class="news-card__title">' + a.title + '</h2><p class="news-card__deck">' + a.deck + '</p></div></a>';
+    }
+    function initFilter(gridEl) {
+      var tabs = document.querySelectorAll('.news-filter__tab');
+      tabs.forEach(function(tab) {
+        tab.addEventListener('click', function() {
+          tabs.forEach(function(t) { t.classList.remove('active'); });
+          tab.classList.add('active');
+          var f = tab.dataset.filter;
+          Array.from(gridEl.children).forEach(function(c) {
+            c.classList.remove('hidden');
+            if (f !== 'all' && c.dataset.cat !== f) c.classList.add('hidden');
+          });
+        });
+      });
+    }
+    fetch('/assets/data/news.json').then(function(r) { return r.json(); }).then(function(data) {
+      var featured = data.articles.filter(function(a) { return a.featured; });
+      var nonFeatured = data.articles.filter(function(a) { return !a.featured; });
+      var featuredEl = document.getElementById('news-featured');
+      if (featuredEl) featuredEl.innerHTML = featured.map(function(a) { return cardHTML(a, 'news-card--featured'); }).join('');
+      var latestEl = document.getElementById('news-latest');
+      if (latestEl) latestEl.innerHTML = nonFeatured.slice(0, LATEST_COUNT).map(function(a) { return cardHTML(a, 'news-card--latest'); }).join('');
+      var gridEl = document.getElementById('news-grid');
+      if (gridEl) { gridEl.innerHTML = nonFeatured.map(function(a) { return cardHTML(a, 'news-card--grid'); }).join(''); initFilter(gridEl); }
+    }).catch(function() {});
+  })();
+  </script>
+</body>
 </html>
