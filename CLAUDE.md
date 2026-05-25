@@ -171,9 +171,9 @@ Entry slugs follow kebab-case: `/gameplay/characters/lucia-caminos`, `/gameplay/
 - TikTok: @gtavi.tips
 - Instagram: @gtavi.tips
 
-## Known issue to fix
+## Cloudflare Worker name
 
-- `wrangler.jsonc` has `"name": "badr"` — should be changed to `"name": "gtavitips"`
+`wrangler.jsonc` uses `"name": "badr"` — this is intentional. The custom domain gtavitips.com is attached to the "badr" worker. Do NOT rename it without first moving the custom domain in the Cloudflare dashboard, or deploys will silently go to a new orphan worker and the live site will go stale.
 
 ## What Claude should always do
 
