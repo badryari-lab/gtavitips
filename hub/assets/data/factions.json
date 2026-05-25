@@ -37,7 +37,7 @@
         { "url": "/gameplay/gangs-and-factions/correctional",             "label": "Prison",  "color": "#9ca3af", "name": "Leonida DOC",             "desc": "Department of Corrections. State penitentiary facilities." },
         { "url": "/gameplay/gangs-and-factions/leonida-ems",              "label": "Medical", "color": "#34d399", "name": "Leonida EMS",             "desc": "Emergency Medical Services statewide." },
         { "url": "/gameplay/gangs-and-factions/leonida-fire-department",  "label": "Fire",    "color": "#ff6b6b", "name": "Leonida Fire Department", "desc": "Fire and rescue services across the state." },
-        { "url": "/gameplay/gangs-and-factions/vice-county-corrections",  "label": "Prison",  "color": "#9ca3af", "name": "Vice County Corrections", "desc": "County-level detention and corrections." },
+        { "url": "/gameplay/gangs-and-factions/vice-county-correctional-services",  "label": "Prison",  "color": "#9ca3af", "name": "Vice County Corrections", "desc": "County-level detention and corrections." },
         { "url": "/gameplay/gangs-and-factions/vice-county-transit",      "label": "Transit", "color": "#6ee7b7", "name": "Vice County Transit",     "desc": "Public transport. Vice City and surrounding areas." }
       ]
     }

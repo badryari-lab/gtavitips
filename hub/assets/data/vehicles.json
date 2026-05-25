@@ -17,12 +17,13 @@
         { "url": "/gameplay/vehicles/karin-sultan",            "label": "Sports",    "color": "#c084fc", "name": "Karin Sultan",            "desc": "The standard Sultan. Tuner platform for the street circuit." },
         { "url": "/gameplay/vehicles/karin-sultan-rs",         "label": "Super",     "color": "#ff8042", "name": "Karin Sultan RS",         "desc": "AWD rally-spec. Wide-body, roll cage, anti-lag exhaust." },
         { "url": "/gameplay/vehicles/maibatsu-penumbra",       "label": "Sports",    "color": "#c084fc", "name": "Maibatsu Penumbra",       "desc": "Japanese sports coupe. Tuner-friendly." },
-        { "url": "/gameplay/vehicles/obey-omnis-egt",          "label": "Sports",    "color": "#c084fc", "name": "Obey Omnis e-GT",         "desc": "Electric sports car." },
+        { "url": "/gameplay/vehicles/obey-omnis-e-gt",          "label": "Sports",    "color": "#c084fc", "name": "Obey Omnis e-GT",         "desc": "Electric sports car." },
         { "url": "/gameplay/vehicles/ocelot-jugular",          "label": "Sports",    "color": "#c084fc", "name": "Ocelot Jugular",          "desc": "Ocelot's sports saloon." },
         { "url": "/gameplay/vehicles/ocelot-locust",           "label": "Sports",    "color": "#c084fc", "name": "Ocelot Locust",           "desc": "Lightweight track-focused Ocelot." },
         { "url": "/gameplay/vehicles/pegassi-zentorno",        "label": "Super",     "color": "#ff8042", "name": "Pegassi Zentorno",        "desc": "Geometric bodywork. Aggressive AWD. Vice City apex predator on tarmac." },
         { "url": "/gameplay/vehicles/pegassi-zurrusso",        "label": "Super",     "color": "#ff8042", "name": "Pegassi Zurrusso",        "desc": "Pegassi's second super entry in Leonida." },
-        { "url": "/gameplay/vehicles/pfister-comet-retro",     "label": "Sports",    "color": "#c084fc", "name": "Pfister Comet Retro",     "desc": "Classic Comet silhouette." },
+        { "url": "/gameplay/vehicles/pfister-comet-2",           "label": "Sports",    "color": "#c084fc", "name": "Pfister Comet 2",         "desc": "Mid-generation Comet. Porsche 911 profile." },
+        { "url": "/gameplay/vehicles/pfister-comet-retro-custom","label": "Sports",    "color": "#c084fc", "name": "Pfister Comet Retro",     "desc": "Classic Comet silhouette." },
         { "url": "/gameplay/vehicles/pfister-comet-s2",        "label": "Sports",    "color": "#c084fc", "name": "Pfister Comet S2",        "desc": "Porsche 911 equivalent. Cabrio option available." },
         { "url": "/gameplay/vehicles/pfister-comet-s2-cabrio", "label": "Sports",    "color": "#c084fc", "name": "Pfister Comet S2 Cabrio", "desc": "Cabriolet variant." },
         { "url": "/gameplay/vehicles/ubermacht-cypher",        "label": "Sports",    "color": "#c084fc", "name": "Ubermacht Cypher",        "desc": "Compact German performance." }
@@ -35,6 +36,8 @@
       "items": [
         { "url": "/gameplay/vehicles/albany-buccaneer",          "label": "Muscle",   "color": "#ff6b6b", "name": "Albany Buccaneer",          "desc": "American classic. Low and wide." },
         { "url": "/gameplay/vehicles/benefactor-schafter-lwb",   "label": "Sedan",    "color": "#60a5fa", "name": "Benefactor Schafter LWB",   "desc": "Long wheelbase executive transport." },
+        { "url": "/gameplay/vehicles/bravado-buffalo",           "label": "Sedan",    "color": "#60a5fa", "name": "Bravado Buffalo",           "desc": "Dodge Charger profile. The default Bravado sedan in Vice City." },
+        { "url": "/gameplay/vehicles/bravado-buffalo-s",         "label": "Sedan",    "color": "#60a5fa", "name": "Bravado Buffalo S",         "desc": "Performance variant. Dodge Charger SRT profile." },
         { "url": "/gameplay/vehicles/bravado-gauntlet-hellfire", "label": "Muscle",   "color": "#ff6b6b", "name": "Bravado Gauntlet Hellfire", "desc": "High-output muscle. Noise mandatory." },
         { "url": "/gameplay/vehicles/declasse-tornado",          "label": "Classic",  "color": "#f97316", "name": "Declasse Tornado",          "desc": "Classic American convertible." },
         { "url": "/gameplay/vehicles/declasse-tulip",            "label": "Muscle",   "color": "#ff6b6b", "name": "Declasse Tulip",            "desc": "Mid-weight muscle." },
@@ -73,6 +76,7 @@
         { "url": "/gameplay/vehicles/dinka-blista-compact", "label": "Compact",    "color": "#34d399", "name": "Dinka Blista Compact", "desc": "City hatchback." },
         { "url": "/gameplay/vehicles/dinka-double-t",       "label": "Sport Bike", "color": "#ff0055", "name": "Dinka Double-T",       "desc": "Sport bike. Fast and exposed to everything." },
         { "url": "/gameplay/vehicles/maibatsu-sanchez",     "label": "Off-Road",   "color": "#84cc16", "name": "Maibatsu Sanchez",     "desc": "Dirt bike. The Grassrivers specialist." },
+        { "url": "/gameplay/vehicles/maibatsu-sanchez-livery",  "label": "Off-Road",   "color": "#84cc16", "name": "Maibatsu Sanchez Livery", "desc": "Race livery dirt bike. Competition-decorated Sanchez." },
         { "url": "/gameplay/vehicles/nagasaki-carbon-rs",   "label": "Sport Bike", "color": "#ff0055", "name": "Nagasaki Carbon RS",   "desc": "High-performance sport bike." },
         { "url": "/gameplay/vehicles/western-nightblade",   "label": "Chopper",    "color": "#818cf8", "name": "Western Nightblade",   "desc": "Chopper. Outlaw Motorcycle Gang territory." }
       ]
@@ -96,12 +100,14 @@
       "title": "Emergency &amp; Law Enforcement",
       "items": [
         { "url": "/gameplay/vehicles/nagasaki-blazer-lifeguard",          "label": "Rescue",    "color": "#4ade80", "name": "Blazer Lifeguard",    "desc": "Beach and coastal rescue." },
-        { "url": "/gameplay/vehicles/vapid-caracara-lifeguard",           "label": "Rescue",    "color": "#4ade80", "name": "Caracara 4x4",        "desc": "Heavy rescue vehicle." },
+        { "url": "/gameplay/vehicles/vapid-caracara-4x4-lifeguard",           "label": "Rescue",    "color": "#4ade80", "name": "Caracara 4x4",        "desc": "Heavy rescue vehicle." },
         { "url": "/gameplay/vehicles/declasse-sheriff-suv",               "label": "Sheriff",   "color": "#f59e0b", "name": "Declasse Granger",    "desc": "VCSO sheriff vehicle." },
         { "url": "/gameplay/vehicles/bravado-police-gauntlet-interceptor","label": "Pursuit",   "color": "#f472b6", "name": "Gauntlet Interceptor","desc": "High-performance police pursuit." },
-        { "url": "/gameplay/vehicles/bravado-police-buffalo",             "label": "Police",    "color": "#3b82f6", "name": "Police Buffalo",      "desc": "VCPD standard pursuit vehicle." },
+        { "url": "/gameplay/vehicles/bravado-police-cruiser-buffalo",             "label": "Police",    "color": "#3b82f6", "name": "Police Buffalo",      "desc": "VCPD standard pursuit vehicle." },
+        { "url": "/gameplay/vehicles/bravado-police-cruiser-buffalo-stx","label": "Pursuit",   "color": "#f472b6", "name": "Police Buffalo STX",  "desc": "VCPD high-performance interceptor. Dodge Charger SRT profile." },
         { "url": "/gameplay/vehicles/buckingham-police-maverick",         "label": "Air Unit",  "color": "#22d3ee", "name": "Police Maverick",     "desc": "VCPD air support helicopter." },
-        { "url": "/gameplay/vehicles/vapid-police-stanier",               "label": "Emergency", "color": "#ef4444", "name": "Police Stanier LE",   "desc": "Standard patrol sedan." },
+        { "url": "/gameplay/vehicles/ford-explorer-police-suv",           "label": "Police",    "color": "#3b82f6", "name": "Police Explorer",     "desc": "Law enforcement SUV. Confirmed in Leonida." },
+        { "url": "/gameplay/vehicles/vapid-police-cruiser-stanier-le",               "label": "Emergency", "color": "#ef4444", "name": "Police Stanier LE",   "desc": "Standard patrol sedan." },
         { "url": "/gameplay/vehicles/vapid-scout-police",                 "label": "Emergency", "color": "#ef4444", "name": "Vapid Scout",         "desc": "Police SUV. Off-road capable." }
       ]
     },
@@ -114,7 +120,7 @@
         { "url": "/gameplay/vehicles/blimp",                  "label": "Special",    "color": "#e879f9", "name": "Atomic Blimp",        "desc": "Promotional blimp. Impossible to miss. Possible to fly." },
         { "url": "/gameplay/vehicles/buckingham-maverick",    "label": "Helicopter", "color": "#38bdf8", "name": "Buckingham Maverick", "desc": "Standard utility helicopter." },
         { "url": "/gameplay/vehicles/mammoth-dodo",           "label": "Plane",      "color": "#06b6d4", "name": "Mammoth Dodo",        "desc": "Light seaplane. Keys and coastal operations." },
-        { "url": "/gameplay/vehicles/nagasaki-buzzard",       "label": "Helicopter", "color": "#38bdf8", "name": "Nagasaki Buzzard",    "desc": "Light attack helicopter." },
+        { "url": "/gameplay/vehicles/buzzard",       "label": "Helicopter", "color": "#38bdf8", "name": "Nagasaki Buzzard",    "desc": "Light attack helicopter." },
         { "url": "/gameplay/vehicles/nagasaki-dinghy",        "label": "Boat",       "color": "#0284c7", "name": "Nagasaki Dinghy",     "desc": "Small inflatable. Keys and coastal operations." },
         { "url": "/gameplay/vehicles/pegassi-speeder",        "label": "Boat",       "color": "#0284c7", "name": "Pegassi Speeder",     "desc": "High-performance speedboat." },
         { "url": "/gameplay/vehicles/sea-sparrow",            "label": "Helicopter", "color": "#38bdf8", "name": "Sea Sparrow",         "desc": "Amphibious helicopter." },

@@ -9,6 +9,7 @@
         { "url": "/gameplay/characters/cal-hampton",    "label": "Associate",  "color": "#60a5fa", "name": "Cal Hampton",    "desc": "Conspiracy theorist with documented proximity to active operations." },
         { "url": "/gameplay/characters/jason-duval",    "label": "Protagonist","color": "#ff0055", "name": "Jason Duval",    "desc": "Leonida native. Former military. Drug running history in the Keys corridor." },
         { "url": "/gameplay/characters/lucia-caminos",  "label": "Protagonist","color": "#ff0055", "name": "Lucia Caminos",  "desc": "Recently paroled. The tactical lead. First confirmed female protagonist in the HD Universe." },
+        { "url": "/gameplay/characters/lori-heder",     "label": "Associate",  "color": "#60a5fa", "name": "Lori Heder",     "desc": "Brian Heder's third wife. Co-operator of the boatyard in the Leonida Keys." },
         { "url": "/gameplay/characters/raul-bautista",  "label": "Veteran",    "color": "#f97316", "name": "Raul Bautista",  "desc": "Seasoned bank robber. Product runs through the Port Gellhorn corridor." }
       ]
     },
@@ -28,9 +29,12 @@
       "eyebrow": "Nightlife & Public Figures",
       "title": "Public Figures",
       "items": [
-        { "url": "/gameplay/characters/bae-lux",   "label": "Artist",  "color": "#c084fc", "name": "Bae-Lux",   "desc": "Rapper. Real Dimez crew. Vice City nightlife circuit." },
-        { "url": "/gameplay/characters/roxy",      "label": "Artist",  "color": "#c084fc", "name": "Roxy",      "desc": "Rapper. Real Dimez crew. Vice City nightlife circuit." },
-        { "url": "/gameplay/characters/stefanie",  "label": "Official","color": "#22d3ee", "name": "Stefanie",  "desc": "Correctional social worker. Lucia's parole officer." }
+        { "url": "/gameplay/characters/bae-lux",       "label": "Artist",    "color": "#c084fc", "name": "Bae-Lux",       "desc": "Rapper. Real Dimez crew. Vice City nightlife circuit." },
+        { "url": "/gameplay/characters/dwnply",        "label": "Artist",    "color": "#c084fc", "name": "DWNPLY",        "desc": "Vice City rapper. Collaborated with Real Dimez on their breakout hit." },
+        { "url": "/gameplay/characters/erin-henshaw",  "label": "Politician","color": "#94a3b8", "name": "Erin Henshaw",  "desc": "Local politician. Running for mayor near Ambrosia. Campaign signs visible statewide." },
+        { "url": "/gameplay/characters/roxy",          "label": "Artist",    "color": "#c084fc", "name": "Roxy",          "desc": "Rapper. Real Dimez crew. Vice City nightlife circuit." },
+        { "url": "/gameplay/characters/rudi",          "label": "Civilian",  "color": "#94a3b8", "name": "Rudi",          "desc": "The Leonida Man. Viral video. Climbing out of a moving pickup on the Leonida highway." },
+        { "url": "/gameplay/characters/stefanie",      "label": "Official",  "color": "#22d3ee", "name": "Stefanie",      "desc": "Correctional social worker. Lucia's parole officer." }
       ]
     }
   ]

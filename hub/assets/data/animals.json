@@ -14,7 +14,7 @@
         { "url": "/gameplay/animals/skunk",          "label": "Hazard",     "color": "#f97316", "name": "Skunk",             "desc": "Chemical deterrent. Woodland and rural zones." },
         { "url": "/gameplay/animals/skunk-ape",      "label": "Cryptid",    "color": "#ff0055", "name": "Skunk Ape",         "desc": "Leonida's swamp legend. Reported sightings in the Grassrivers." },
         { "url": "/gameplay/animals/squirrel",       "label": "Small Game", "color": "#fb923c", "name": "Squirrel",          "desc": "Urban rodent. Parks and city green space." },
-        { "url": "/gameplay/animals/deer",           "label": "Herbivore",  "color": "#4ade80", "name": "White-Tailed Deer", "desc": "Primary game animal. Forest and grassland zones." },
+        { "url": "/gameplay/animals/white-tailed-deer","label": "Herbivore",  "color": "#4ade80", "name": "White-Tailed Deer", "desc": "Primary game animal. Forest and grassland zones." },
         { "url": "/gameplay/animals/boar",           "label": "Aggressive", "color": "#ef4444", "name": "Wild Boar",         "desc": "Invasive and territorial. Rural Leonida." }
       ]
     },
@@ -27,7 +27,7 @@
         { "url": "/gameplay/animals/duck",               "label": "Game Bird", "color": "#a3e635", "name": "Duck",              "desc": "Freshwater fowl. Lakes, ponds, and river margins." },
         { "url": "/gameplay/animals/heron",              "label": "Wading",    "color": "#2dd4bf", "name": "Heron",             "desc": "Coastal and freshwater hunter. Waterways statewide." },
         { "url": "/gameplay/animals/pelican",            "label": "Coastal",   "color": "#06b6d4", "name": "Pelican",           "desc": "Coastal aviator. Keys and Vice City shoreline." },
-        { "url": "/gameplay/animals/pigeon",             "label": "Pest",      "color": "#78716c", "name": "Rock Pigeon",       "desc": "Urban dweller. Vice City rooftops and street level." },
+        { "url": "/gameplay/animals/rock-pigeon",             "label": "Pest",      "color": "#78716c", "name": "Rock Pigeon",       "desc": "Urban dweller. Vice City rooftops and street level." },
         { "url": "/gameplay/animals/roseate-spoonbill",  "label": "Exotic",    "color": "#e879f9", "name": "Roseate Spoonbill", "desc": "Swamp wader. Grassrivers wetland interior." },
         { "url": "/gameplay/animals/seagull",            "label": "Scavenger", "color": "#f472b6", "name": "Seagull",           "desc": "Beach scavenger. Vice City coastline and marina." }
       ]
@@ -38,11 +38,11 @@
       "title": "Reptiles",
       "items": [
         { "url": "/gameplay/animals/american-alligator", "label": "Lethal",   "color": "#b91c1c", "name": "American Alligator",   "desc": "Apex predator. Grassrivers, golf courses, and swimming pools." },
-        { "url": "/gameplay/animals/python",             "label": "Invasive", "color": "#ff8042", "name": "Burmese Python",        "desc": "Ambush constrictor. Grassrivers interior." },
+        { "url": "/gameplay/animals/pythons",             "label": "Invasive", "color": "#ff8042", "name": "Burmese Python",        "desc": "Ambush constrictor. Grassrivers interior." },
         { "url": "/gameplay/animals/iguana",             "label": "Invasive", "color": "#ff8042", "name": "Green Iguana",          "desc": "Suburban pest. Vice City gardens and fences." },
         { "url": "/gameplay/animals/lizard",             "label": "Ambient",  "color": "#94a3b8", "name": "Lizard",                "desc": "Small anole. Walls, fences, and warm surfaces statewide." },
         { "url": "/gameplay/animals/snake",              "label": "Venomous", "color": "#84cc16", "name": "Snake",                 "desc": "General serpent. Woodland and wetland zones." },
-        { "url": "/gameplay/animals/frog",               "label": "Ambient",  "color": "#94a3b8", "name": "Southern Leopard Frog", "desc": "Swamp chorus. Wetland and water margins." }
+        { "url": "/gameplay/animals/southern-leopard-frog",               "label": "Ambient",  "color": "#94a3b8", "name": "Southern Leopard Frog", "desc": "Swamp chorus. Wetland and water margins." }
       ]
     },
     {
@@ -53,7 +53,7 @@
         { "url": "/gameplay/animals/eel",        "label": "River",     "color": "#38bdf8", "name": "American Eel",    "desc": "River scavenger. Waterways and coastal margins." },
         { "url": "/gameplay/animals/crayfish",   "label": "Bait",      "color": "#fbbf24", "name": "Crayfish",        "desc": "Crustacean detail. Freshwater beds and swamp shallows." },
         { "url": "/gameplay/animals/dolphin",    "label": "Marine",    "color": "#0284c7", "name": "Dolphin",         "desc": "Coastal waters and boat wakes." },
-        { "url": "/gameplay/animals/bass",       "label": "Game Fish", "color": "#22d3ee", "name": "Largemouth Bass", "desc": "Freshwater trophy. Lakes and rivers across Leonida." },
+        { "url": "/gameplay/animals/largemouth-bass",       "label": "Game Fish", "color": "#22d3ee", "name": "Largemouth Bass", "desc": "Freshwater trophy. Lakes and rivers across Leonida." },
         { "url": "/gameplay/animals/manatee",    "label": "Protected", "color": "#fcd34d", "name": "Manatee",         "desc": "Gentle sea cow. Coastal shallows and river mouths." },
         { "url": "/gameplay/animals/sea-turtle", "label": "Protected", "color": "#fcd34d", "name": "Sea Turtle",      "desc": "Coral reef resident. Keys and southern coastline." },
         { "url": "/gameplay/animals/shark",      "label": "Lethal",    "color": "#b91c1c", "name": "Shark",           "desc": "Marine predator. Open water past the surf break." },

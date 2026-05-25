@@ -48,6 +48,8 @@
       "badgeClass": "badge--deepdive",
       "cat": "deep-dive",
       "deck": "50 confirmed brands. Every product category. The brand ecosystem is Vice City's self-portrait. Here is what it says.",
+      "image": "/assets/images/cal-hampton-gta-6-character-03.jpg",
+      "imageAlt": "Cal Hampton in GTA 6",
       "thumb": "VC",
       "featured": false
     },
@@ -59,6 +61,8 @@
       "badgeClass": "badge--deepdive",
       "cat": "deep-dive",
       "deck": "Product enters at Port Gellhorn. It moves through the OMG corridor. It distributes through Real Dimez and San 4 San. Money comes back clean.",
+      "image": "/assets/images/brian-heder-gta-6-character-03.jpg",
+      "imageAlt": "Brian Heder in GTA 6",
       "thumb": "CE",
       "featured": false
     },
@@ -70,6 +74,8 @@
       "badgeClass": "badge--deepdive",
       "cat": "deep-dive",
       "deck": "Five confirmed zones. No official map yet. This is the spatial logic of Leonida reconstructed from confirmed locations, trailer geography, and aerial footage.",
+      "image": "/assets/images/grassrivers-gta-6-location-04.jpg",
+      "imageAlt": "Grassrivers in Leonida GTA 6",
       "thumb": "GEO",
       "featured": false
     },
@@ -81,6 +87,8 @@
       "badgeClass": "badge--rumour",
       "cat": "rumour",
       "deck": "No official DLC announced. The infrastructure arguments, the geographic candidates, and the commercial logic examined.",
+      "image": "/assets/images/cal-hampton-gta-6-character-04.jpg",
+      "imageAlt": "Cal Hampton in GTA 6",
       "thumb": "DLC",
       "featured": false
     },
@@ -92,6 +100,8 @@
       "badgeClass": "badge--analysis",
       "cat": "analysis",
       "deck": "No PC release date confirmed. Analysis of what the console specs and Leonida visual targets imply for PC hardware requirements.",
+      "image": "/assets/images/brian-heder-gta-6-character-04.jpg",
+      "imageAlt": "Brian Heder in GTA 6",
       "thumb": "PC",
       "featured": false
     },
@@ -103,6 +113,8 @@
       "badgeClass": "badge--gtavitips",
       "cat": "gtavitips",
       "deck": "Confirmed is not a casual word here. This is the complete credibility system behind every label in the database.",
+      "image": "/assets/images/dre-quan-priest-gta-6-character-04.jpg",
+      "imageAlt": "Dre'Quan Priest in GTA 6",
       "thumb": "VI",
       "featured": false
     },
@@ -114,6 +126,8 @@
       "badgeClass": "badge--gtavitips",
       "cat": "gtavitips",
       "deck": "Targeting launch day. Confirmed locations now, full in-game coordinates at launch. Database-integrated and mobile-ready.",
+      "image": "/assets/images/mount-kalaga-national-park-gta-6-location-06.jpg",
+      "imageAlt": "Mount Kalaga National Park in GTA 6",
       "thumb": "MAP",
       "featured": false
     },
@@ -125,6 +139,8 @@
       "badgeClass": "badge--gtavitips",
       "cat": "gtavitips",
       "deck": "The database goes live on launch day. Here is exactly what happens on November 19 and how the site grows from there.",
+      "image": "/assets/images/raul-bautista-gta-6-character-01.jpg",
+      "imageAlt": "Raul Bautista in GTA 6",
       "thumb": "N19",
       "featured": false
     },
@@ -136,6 +152,8 @@
       "badgeClass": "badge--surrounding",
       "cat": "surrounding",
       "deck": "T-Pain is confirmed. The trailers signal the register. The full station lineup comes at launch. Here is everything known now.",
+      "image": "/assets/images/lucia-caminos-gta-6-character-06.jpg",
+      "imageAlt": "Lucia Caminos in GTA 6",
       "thumb": "MUS",
       "featured": false
     },
@@ -147,18 +165,9 @@
       "badgeClass": "badge--surrounding",
       "cat": "surrounding",
       "deck": "Ocean Drive to South Beach. Port Everglades to Port Gellhorn. The Florida Keys to Leonida Keys. The full geographic translation.",
+      "image": "/assets/images/boobie-ike-gta-6-character-04.jpg",
+      "imageAlt": "Boobie Ike in GTA 6",
       "thumb": "MIA",
-      "featured": false
-    },
-    {
-      "url": "/news/gtavitips-site-rebuild-april-2026",
-      "title": "GTAVITIPS Relaunches: The Full Site Rebuild",
-      "date": "April 2026",
-      "badge": "GTAVITIPS",
-      "badgeClass": "badge--gtavitips",
-      "cat": "gtavitips",
-      "deck": "Every page. Rebuilt from scratch. Launching April 1, 2026. This is what changed, why it changed, and what the site looks like now.",
-      "thumb": "VI",
       "featured": false
     },
     {
@@ -169,6 +178,8 @@
       "badgeClass": "badge--deepdive",
       "cat": "deep-dive",
       "deck": "80+ confirmed vehicles across every category. The fleet is not a menu of fast cars. It is the transport infrastructure of a functioning state.",
+      "image": "/assets/images/ambrosia-gta-6-location-01.jpg",
+      "imageAlt": "Ambrosia location in GTA 6",
       "thumb": "VEH",
       "featured": false
     },
@@ -180,6 +191,8 @@
       "badgeClass": "badge--deepdive",
       "cat": "deep-dive",
       "deck": "Same addresses. Different world. Forty years separate the two versions of this city. Here is what that gap means for Leonida.",
+      "image": "/assets/images/vice-city-gta-6-location-01.jpg",
+      "imageAlt": "Vice City in GTA 6",
       "thumb": "86",
       "featured": false
     },
@@ -191,6 +204,8 @@
       "badgeClass": "badge--deepdive",
       "cat": "deep-dive",
       "deck": "Seven agencies. One escalation chain. The complete intelligence picture for the Leonida wanted system.",
+      "image": "/assets/images/vcso-gta-6-faction-01.png",
+      "imageAlt": "VCSO faction in GTA 6",
       "thumb": "★★",
       "featured": false
     },
@@ -202,6 +217,8 @@
       "badgeClass": "badge--deepdive",
       "cat": "deep-dive",
       "deck": "25 confirmed weapons. One for every environment in Leonida. The spear gun is confirmed. Here is what the full arsenal says about the game.",
+      "image": "/assets/images/raul-bautista-gta-6-character-02.jpg",
+      "imageAlt": "Raul Bautista in GTA 6",
       "thumb": "ARM",
       "featured": false
     },
@@ -213,6 +230,8 @@
       "badgeClass": "badge--deepdive",
       "cat": "deep-dive",
       "deck": "32 confirmed species. Three apex predators. One cryptid. The Leonida wildlife roster is the most ecologically precise in the series.",
+      "image": "/assets/images/mount-kalaga-national-park-gta-6-location-05.jpg",
+      "imageAlt": "Mount Kalaga National Park in GTA 6",
       "thumb": "ECO",
       "featured": false
     },
@@ -224,6 +243,8 @@
       "badgeClass": "badge--deepdive",
       "cat": "deep-dive",
       "deck": "Twenty factions. Six categories. One state. This is the full picture of who runs what in Leonida. The criminal crews, the law, the private sector.",
+      "image": "/assets/images/gangs-and-factions-index-gta-6.jpg",
+      "imageAlt": "Gangs and factions in GTA 6",
       "thumb": "LC",
       "featured": true
     },
@@ -235,6 +256,8 @@
       "badgeClass": "badge--official",
       "cat": "rockstar",
       "deck": "Updated as new official material is released. No secondary sources. Primary Rockstar communications only.",
+      "image": "/assets/images/vice-city-gta-6-location-05.jpg",
+      "imageAlt": "Vice City in GTA 6",
       "thumb": "R★",
       "featured": false
     },
@@ -246,6 +269,8 @@
       "badgeClass": "badge--deepdive",
       "cat": "deep-dive",
       "deck": "Jason is Leonida. Lucia is from Liberty City. Together they run Vice City. Everything confirmed about the protagonists, the switching system, and what it means.",
+      "image": "/assets/images/lucia-caminos-gta-6-character-03.jpg",
+      "imageAlt": "Lucia Caminos in GTA 6",
       "thumb": "J+L",
       "featured": false
     },
@@ -257,6 +282,8 @@
       "badgeClass": "badge--gtavitips",
       "cat": "gtavitips",
       "deck": "On February 1, 2026 the GTAVITIPS database passed 280 confirmed entity pages across eight categories. This is what was added.",
+      "image": "/assets/images/gameplay-hub-gta-6.jpg",
+      "imageAlt": "GTAVITIPS gameplay database hub",
       "thumb": "VI",
       "featured": false
     },
@@ -281,6 +308,8 @@
       "badgeClass": "badge--rumour",
       "cat": "rumour",
       "deck": "No official announcement. Retail listings described the contents. Here is what circulated and how credible it is.",
+      "image": "/assets/images/vice-city-gta-6-location-06.jpg",
+      "imageAlt": "Vice City in GTA 6",
       "thumb": "CE",
       "featured": false
     },
@@ -292,6 +321,8 @@
       "badgeClass": "badge--rumour",
       "cat": "rumour",
       "deck": "Nothing confirmed. Everything circulating about GTA 6 Online examined with sources, analysis, and hard labeling.",
+      "image": "/assets/images/real-dimez-gta-6-faction-01.jpg",
+      "imageAlt": "Real Dimez faction in GTA 6",
       "thumb": "ONL",
       "featured": false
     },
@@ -303,6 +334,8 @@
       "badgeClass": "badge--official",
       "cat": "rockstar",
       "deck": "Three minutes. The full map. This is everything Trailer 2 confirmed about Leonida, organized by category and linked to the database.",
+      "image": "/assets/images/vice-city-gta-6-location-07.jpg",
+      "imageAlt": "Vice City in GTA 6",
       "thumb": "T2",
       "featured": true
     },
@@ -314,6 +347,8 @@
       "badgeClass": "badge--surrounding",
       "cat": "surrounding",
       "deck": "T-Pain stopped streaming GTA FiveM and explained why: his music is in GTA 6. What he confirmed, what it signals about Vice City's radio.",
+      "image": "/assets/images/real-dimez-gta-6-faction-03.jpg",
+      "imageAlt": "Real Dimez faction in GTA 6",
       "thumb": "TP",
       "featured": false
     },
@@ -325,6 +360,8 @@
       "badgeClass": "badge--rumour",
       "cat": "rumour",
       "deck": "Map size and base game pricing are the two rumours that will not go away. Sources named. Evidence examined. Gaps acknowledged.",
+      "image": "/assets/images/leonida-keys-gta-6-location-02.jpg",
+      "imageAlt": "Leonida Keys in GTA 6",
       "thumb": "$$$",
       "featured": false
     },
@@ -336,6 +373,8 @@
       "badgeClass": "badge--surrounding",
       "cat": "surrounding",
       "deck": "The voice match, the credibility markers, and why this identification has held up since Trailer 1.",
+      "image": "/assets/images/lucia-caminos-gta-6-character-04.jpg",
+      "imageAlt": "Lucia Caminos in GTA 6",
       "thumb": "VA",
       "featured": false
     },
@@ -347,6 +386,8 @@
       "badgeClass": "badge--official",
       "cat": "rockstar",
       "deck": "91 seconds. Two protagonists. One state. This is everything Trailer 1 confirmed about Leonida, organized by category and linked to the database.",
+      "image": "/assets/images/jason-duval-gta-6-character-01.jpg",
+      "imageAlt": "Jason Duval in GTA 6",
       "thumb": "T1",
       "featured": false
     },
@@ -358,6 +399,8 @@
       "badgeClass": "badge--official",
       "cat": "rockstar",
       "deck": "What the biggest leak in gaming history got right, what changed, and how it fits into the GTAVITIPS credibility system.",
+      "image": "/assets/images/vice-city-gta-6-location-08.jpg",
+      "imageAlt": "Vice City in GTA 6",
       "thumb": "22",
       "featured": false
     }
