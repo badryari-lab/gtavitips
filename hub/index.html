@@ -900,7 +900,7 @@
   (function() {
     function intelCardHTML(a, cls) {
       var catCls = (a.cat === 'surrounding' || a.cat === 'rockstar' || a.cat === 'gtavitips') ? 'intel-card__cat intel-card__cat--blue' : 'intel-card__cat';
-      var imgTag = a.image ? '<img src="' + a.image + '" alt="' + (a.imageAlt || '') + '" loading="lazy" style="position:absolute;width:100%;height:100%;object-fit:cover;z-index:1;">' : '';
+      var imgTag = a.image ? '<img src="' + a.image + '" alt="' + (a.imageAlt || '') + '" loading="lazy" style="position:absolute;width:100%;height:100%;object-fit:cover;object-position:' + (a.imagePosition || 'center') + ';z-index:1;">' : '';
       return '<a href="' + a.url + '" class="intel-card ' + cls + '">' +
         '<div class="intel-card__thumb">' + imgTag +
         '<div class="intel-card__thumb-inner" aria-hidden="true" style="z-index:0;"><span class="intel-card__thumb-letter">' + a.thumb + '</span></div>' +
