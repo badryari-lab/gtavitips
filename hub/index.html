@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -48,6 +48,9 @@
       --green:       #28a745;
       --green-dim:   rgba(40,167,69,0.12);
       --amber:       #ffc107;
+      --amber-dim:   rgba(255,193,7,0.12);
+      --red:         #dc3545;
+      --red-dim:     rgba(220,53,69,0.12);
       --bg:          #080c12;
       --bg-2:        #0d1320;
       --bg-3:        #131c2e;
@@ -115,55 +118,65 @@
     /* ── HERO ── */
     .hero { min-height: 100svh; display: grid; grid-template-rows: 1fr auto; padding-top: var(--nav-h); position: relative; overflow: hidden; }
     .hero__atmos { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
-    .hero__atmos-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(0,95,144,.04) 1px, transparent 1px), linear-gradient(90deg, rgba(0,95,144,.04) 1px, transparent 1px); background-size: 56px 56px; mask-image: radial-gradient(ellipse 80% 70% at 50% 30%, black 20%, transparent 75%); }
-    .hero__atmos-orb-1 { position: absolute; width: 900px; height: 600px; background: radial-gradient(ellipse, rgba(0,95,144,.20) 0%, transparent 65%); top: -180px; left: -280px; }
-    .hero__atmos-orb-2 { position: absolute; width: 600px; height: 500px; background: radial-gradient(ellipse, rgba(255,0,85,.08) 0%, transparent 65%); bottom: 60px; right: -180px; }
-    .hero__atmos-scan { position: absolute; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, rgba(0,95,144,.4), transparent); animation: scan 8s ease-in-out infinite; }
+    .hero__atmos-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(0,95,144,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0,95,144,.05) 1px, transparent 1px); background-size: 56px 56px; mask-image: radial-gradient(ellipse 90% 80% at 50% 30%, black 20%, transparent 75%); }
+    .hero__atmos-orb-1 { position: absolute; width: 900px; height: 600px; background: radial-gradient(ellipse, rgba(0,95,144,.22) 0%, transparent 65%); top: -180px; left: -280px; }
+    .hero__atmos-orb-2 { position: absolute; width: 600px; height: 500px; background: radial-gradient(ellipse, rgba(255,0,85,.09) 0%, transparent 65%); bottom: 60px; right: -180px; }
+    .hero__atmos-scan { position: absolute; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, rgba(0,95,144,.45), transparent); animation: scan 8s ease-in-out infinite; }
+    .hero__atmos-word { position: absolute; bottom: 60px; right: -30px; font-size: clamp(120px, 20vw, 300px); font-weight: 900; text-transform: uppercase; letter-spacing: -.04em; color: transparent; -webkit-text-stroke: 1px rgba(0,95,144,.07); line-height: 1; user-select: none; pointer-events: none; z-index: 0; }
     @keyframes scan { 0% { top: 15%; opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { top: 85%; opacity: 0; } }
 
-    .hero__body { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 380px; gap: 0; align-items: center; padding: 80px 0 60px; }
+    .hero__body { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 400px; gap: 0; align-items: center; padding: 72px 0 56px; }
     .hero__left { padding-right: 64px; }
 
-    .hero__tag { display: inline-flex; align-items: center; gap: 8px; font-size: 10px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--pink); border: 1px solid rgba(255,0,85,.25); padding: 5px 14px; border-radius: 99px; margin-bottom: 28px; }
+    .hero__tag { display: inline-flex; align-items: center; gap: 8px; font-size: 10px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--pink); border: 1px solid rgba(255,0,85,.25); padding: 5px 14px; border-radius: 99px; margin-bottom: 24px; }
     .hero__tag-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--pink); animation: pulse 2s ease-in-out infinite; }
     @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .5; transform: scale(.7); } }
 
-    .hero__h1 { font-size: clamp(44px, 7.5vw, 92px); font-weight: 900; line-height: .92; letter-spacing: -.025em; text-transform: uppercase; margin-bottom: 24px; }
+    /* BIGGER H1 */
+    .hero__h1 { font-size: clamp(58px, 11vw, 144px); font-weight: 900; line-height: .9; letter-spacing: -.03em; text-transform: uppercase; margin-bottom: 22px; }
     .hero__h1-line-1 { display: block; color: var(--t1); }
     .hero__h1-line-2 { display: block; color: var(--blue); }
-    .hero__h1-line-3 { display: block; color: transparent; -webkit-text-stroke: 1.5px var(--t3); }
+    .hero__h1-line-3 { display: block; color: transparent; -webkit-text-stroke: 1.5px var(--t3); opacity: .6; }
 
-    .hero__sub { font-size: 15px; color: var(--t2); line-height: 1.7; max-width: 480px; margin-bottom: 36px; }
+    .hero__sub { font-size: 15px; color: var(--t2); line-height: 1.7; max-width: 480px; margin-bottom: 32px; }
     .hero__sub strong { color: var(--t1); font-weight: 600; }
 
-    .hero__actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 52px; }
+    .hero__actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 44px; }
     .hero__btn-primary { padding: 13px 28px; background: var(--blue); color: #fff; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border-radius: 9px; transition: opacity .18s, transform .15s; }
     .hero__btn-primary:hover { opacity: .85; transform: translateY(-1px); }
     .hero__btn-ghost { padding: 12px 28px; color: var(--t2); font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border-radius: 9px; border: 1px solid var(--border); transition: color .18s, border-color .18s, transform .15s; }
     .hero__btn-ghost:hover { color: var(--t1); border-color: rgba(255,255,255,.18); transform: translateY(-1px); }
 
-    .hero__micro { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
-    .hero__micro-item { display: flex; flex-direction: column; gap: 3px; }
-    .hero__micro-num { font-size: 22px; font-weight: 900; line-height: 1; color: var(--t1); }
-    .hero__micro-num b { color: var(--blue); }
-    .hero__micro-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t3); }
-    .hero__micro-div { width: 1px; height: 32px; background: var(--border); }
+    /* BIGGER STATS */
+    .hero__stats { display: flex; align-items: center; gap: 32px; }
+    .hero__stat { display: flex; flex-direction: column; gap: 4px; }
+    .hero__stat-num { font-size: clamp(36px, 5vw, 52px); font-weight: 900; line-height: 1; color: var(--t1); letter-spacing: -.02em; }
+    .hero__stat-num b { color: var(--blue); }
+    .hero__stat-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t3); }
+    .hero__stat-div { width: 1px; height: 44px; background: var(--border); flex-shrink: 0; }
 
+    /* ── INTEL TERMINAL (unified right card) ── */
     .hero__right { position: relative; }
-    
-    /* ── INTEL DROPS PANEL ── */
-    .hero__latest { margin-top: 12px; background: var(--bg-2); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
-    .hero__latest-head { padding: 12px 16px; border-bottom: 1px solid var(--border); font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--t3); display: flex; align-items: center; justify-content: space-between; }
-    .hero__latest-head a { color: var(--blue); font-size: 10px; font-weight: 700; transition: opacity .18s; }
-    .hero__latest-head a:hover { opacity: .7; }
-    .hero__latest-list { list-style: none; }
-    .hero__latest-item { display: flex; align-items: flex-start; gap: 12px; padding: 11px 16px; border-bottom: 1px solid var(--border); transition: background .18s; text-decoration: none; }
-    .hero__latest-item:last-child { border-bottom: none; }
-    .hero__latest-item:hover { background: rgba(255,255,255,.03); }
-    .hero__latest-dot { width: 6px; height: 6px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; background: var(--blue); }
-    .hero__latest-text { font-size: 12px; color: var(--t2); line-height: 1.5; flex: 1; }
-    .hero__latest-text strong { color: var(--t1); font-weight: 600; }
-    .hero__latest-badge { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); flex-shrink: 0; padding-top: 2px; }
+    .intel-terminal { background: var(--bg-2); border: 1px solid var(--border-b); border-radius: 14px; overflow: hidden; }
+    .intel-terminal__bar { position: relative; padding: 10px 16px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+    .intel-terminal__bar::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--blue), var(--pink)); }
+    .intel-terminal__live { display: flex; align-items: center; gap: 5px; font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--green); }
+    .intel-terminal__live-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--green); animation: pulse 2s ease-in-out infinite; }
+    .intel-terminal__date { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--t3); }
+    .intel-terminal__link { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--blue); transition: opacity .18s; }
+    .intel-terminal__link:hover { opacity: .7; }
+    .intel-terminal__img { position: relative; height: 200px; overflow: hidden; border-bottom: 1px solid var(--border); }
+    .intel-terminal__img img { width: 100%; height: 250px; object-fit: cover; display: block; margin-top: -25px; }
+    .intel-terminal__img-overlay { position: absolute; bottom: 0; left: 0; right: 0; padding: 14px 16px; background: linear-gradient(to top, rgba(8,12,18,.88), transparent); font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; color: var(--t2); }
+    .intel-terminal__feed { display: flex; flex-direction: column; }
+    .intel-terminal__item { display: flex; align-items: center; gap: 10px; padding: 10px 16px; border-bottom: 1px solid var(--border); text-decoration: none; transition: background .18s; }
+    .intel-terminal__item:last-child { border-bottom: none; }
+    .intel-terminal__item:hover { background: rgba(255,255,255,.025); }
+    .intel-terminal__badge { font-size: 8px; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; padding: 2px 8px; border-radius: 99px; flex-shrink: 0; }
+    .intel-terminal__badge--new { background: var(--blue-dim); color: var(--blue); }
+    .intel-terminal__badge--upg { background: var(--green-dim); color: var(--green); }
+    .intel-terminal__text { font-size: 12px; color: var(--t2); line-height: 1.4; }
+    .intel-terminal__text strong { color: var(--t1); font-weight: 600; }
 
     /* ── TICKER ── */
     .hero__strip { position: relative; z-index: 1; border-top: 1px solid var(--border); display: flex; align-items: center; overflow: hidden; }
@@ -187,6 +200,18 @@
     .sec__top { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 40px; flex-wrap: wrap; }
     .sec__viewall { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--blue); border-bottom: 1px solid rgba(0,95,144,.3); padding-bottom: 1px; white-space: nowrap; transition: border-color .18s; }
     .sec__viewall:hover { border-color: var(--blue); }
+
+    /* ── CATEGORY GRID ── */
+    .cat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+    .cat-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 22px 18px 18px; display: flex; flex-direction: column; gap: 5px; text-decoration: none; transition: border-color .2s, transform .2s, box-shadow .2s; position: relative; overflow: hidden; }
+    .cat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--blue), transparent); opacity: 0; transition: opacity .2s; }
+    .cat-card:hover { border-color: var(--border-b); transform: translateY(-3px); box-shadow: 0 10px 28px rgba(0,0,0,.35); }
+    .cat-card:hover::before { opacity: 1; }
+    .cat-card__count { font-size: 38px; font-weight: 900; line-height: 1; color: var(--blue); letter-spacing: -.03em; }
+    .cat-card__name { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--t1); margin-top: 2px; }
+    .cat-card__desc { font-size: 11px; color: var(--t3); line-height: 1.5; margin-top: 4px; }
+    .cat-card__arrow { font-size: 14px; color: var(--t3); margin-top: 12px; transition: color .2s, transform .2s; display: block; }
+    .cat-card:hover .cat-card__arrow { color: var(--blue); transform: translateX(3px); }
 
     /* ── INTEL GRID ── */
     .intel-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 14px; }
@@ -308,6 +333,7 @@
       .footer__inner { grid-template-columns: 1fr 1fr; }
       .log__item { grid-template-columns: auto 1fr auto; }
       .log__item-date { display: none; }
+      .cat-grid { grid-template-columns: repeat(4, 1fr); }
     }
     @media (max-width: 768px) {
       .nav__links, .nav__db-btn { display: none; }
@@ -318,18 +344,23 @@
       .cta-block__left { padding: 36px 28px; }
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
       .sec { padding: 64px 0; }
+      .cat-grid { grid-template-columns: repeat(2, 1fr); }
     }
     @media (max-width: 480px) {
-      .hero__micro-div { display: none; }
-      .hero__micro { gap: 18px; }
+      .hero__stat-div { display: none; }
+      .hero__stats { gap: 20px; }
       .briefing__grid { grid-template-columns: 1fr; }
+      .cat-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+      .cat-card { padding: 16px 14px; }
+      .cat-card__count { font-size: 30px; }
     }
+
     [data-theme="light"] { --bg:#f3f6fa; --bg-2:#ffffff; --bg-3:#f0f3f8; --bg-4:#e8ecf2; --border:rgba(0,0,0,.07); --border-b:rgba(0,95,144,.20); --t1:#111827; --t2:#4b5563; --t3:#9ca3af; }
     [data-theme="light"] .hero__atmos-orb-1 { background: radial-gradient(ellipse, rgba(0,95,144,.10) 0%, transparent 65%); }
     [data-theme="light"] .hero__atmos-orb-2 { background: radial-gradient(ellipse, rgba(255,0,85,.04) 0%, transparent 65%); }
     [data-theme="light"] .nav.solid { background: rgba(243,246,250,.95); }
     [data-theme="dark"] { --bg:#080c12; --bg-2:#0d1320; --bg-3:#131c2e; --bg-4:#192236; --border:rgba(255,255,255,0.06); --border-b:rgba(0,95,144,0.22); --t1:#eef2f7; --t2:#7e8fa3; --t3:#445060; }
-  
+
     /* NAV DROPDOWN */
     .nav__dropdown-wrap { position: relative; display: flex; align-items: center; gap: 2px; }
     .nav__dropdown-link { font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 600; color: var(--blue); text-transform: uppercase; letter-spacing: .06em; text-decoration: none; transition: opacity .15s; } .nav__dropdown-btn { background: none; border: none; cursor: pointer; color: var(--blue); padding: 0; display: flex; align-items: center; transition: opacity .15s; }
@@ -339,10 +370,8 @@
     .nav__dropdown { position: absolute; top: 100%; left: 50%; background: var(--bg-2); border: 1px solid var(--border-b); border-radius: 12px; padding: 14px 6px 6px; min-width: 200px; box-shadow: 0 12px 32px rgba(0,0,0,.18); opacity: 0; pointer-events: none; transition: opacity .18s, transform .18s; transform: translateX(-50%) translateY(-6px); list-style: none; margin: 0; z-index: 200; }
     .nav__dropdown li { list-style: none; padding: 0; margin: 0; }
     .nav__dropdown-wrap.open .nav__dropdown { opacity: 1; pointer-events: all; transform: translateX(-50%) translateY(0); }
-    .nav__dropdown-wrap.open .nav__dropdown-chevron { transform: rotate(180deg); }
     .nav__dropdown li a { display: block; padding: 9px 14px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t2); text-decoration: none; border-radius: 8px; transition: background .15s, color .15s; white-space: nowrap; }
     .nav__dropdown li a:hover { background: var(--bg-3); color: var(--blue); }
-    /* Mobile dropdown */
     @media(max-width: 860px) {
       .nav__dropdown-wrap { width: 100%; display: flex; align-items: center; justify-content: space-between; }
       .nav__dropdown-link { padding: 11px 14px; font-size: 13px; flex: 1; } .nav__dropdown-btn { padding: 11px 14px; background: none; border-radius: 9px; }
@@ -420,18 +449,21 @@
 
   <main id="main">
 
+    <!-- ── HERO ── -->
     <section class="hero" aria-label="GTAVITIPS verified GTA 6 intel hub">
       <div class="hero__atmos" aria-hidden="true">
         <div class="hero__atmos-grid"></div>
         <div class="hero__atmos-orb-1"></div>
         <div class="hero__atmos-orb-2"></div>
         <div class="hero__atmos-scan"></div>
+        <div class="hero__atmos-word">Leonida</div>
       </div>
 
       <div class="wrap">
         <div class="hero__body">
-          <div class="hero__left">
 
+          <!-- LEFT -->
+          <div class="hero__left">
             <div class="hero__tag">
               <span class="hero__tag-dot" aria-hidden="true"></span>
               Verified GTA 6 Intel Hub
@@ -454,68 +486,64 @@
               <a href="/gameplay/characters/jason-duval" class="hero__btn-ghost">Jason Duval</a>
             </div>
 
-            <div class="hero__micro" role="list" aria-label="Database statistics">
-              <div class="hero__micro-item" role="listitem">
-                <div class="hero__micro-num"><b>322</b></div>
-                <div class="hero__micro-label">Database entries</div>
+            <div class="hero__stats" role="list" aria-label="Database statistics">
+              <div class="hero__stat" role="listitem">
+                <div class="hero__stat-num"><b>322</b></div>
+                <div class="hero__stat-label">Database Entries</div>
               </div>
-              <div class="hero__micro-div" aria-hidden="true"></div>
-              <div class="hero__micro-item" role="listitem">
-                <div class="hero__micro-num"><b>8</b></div>
-                <div class="hero__micro-label">Categories</div>
+              <div class="hero__stat-div" aria-hidden="true"></div>
+              <div class="hero__stat" role="listitem">
+                <div class="hero__stat-num"><b>8</b></div>
+                <div class="hero__stat-label">Categories</div>
               </div>
-              <div class="hero__micro-div" aria-hidden="true"></div>
-              <div class="hero__micro-item" role="listitem">
-                <div class="hero__micro-num"><b>Nov 19</b></div>
-                <div class="hero__micro-label">Launch — 2026</div>
+              <div class="hero__stat-div" aria-hidden="true"></div>
+              <div class="hero__stat" role="listitem">
+                <div class="hero__stat-num">Nov <b>19</b></div>
+                <div class="hero__stat-label">Launch — 2026</div>
               </div>
             </div>
-
           </div>
 
+          <!-- RIGHT: unified terminal card -->
           <div class="hero__right">
-            
-            <div style="background: var(--bg-2); border: 1px solid var(--border-b); border-radius: 16px; overflow: hidden; position: relative;">
-              <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--blue), var(--pink)); z-index: 2;"></div>
-              <div style="height: 220px; overflow: hidden; border-bottom: 1px solid var(--border);"><img src="/assets/images/social-media-gta-6-activity-01.png" alt="Social Media Activity" style="width: 100%; height: 275px; object-fit: cover; display: block; margin-top: -28px;" width="3840" height="2160" loading="eager"></div>
-              <div style="padding: 16px 24px;">
-                <div style="font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .13em; color: var(--pink); margin-bottom: 6px;">Activity Log</div>
-                <div style="font-size: 14px; font-weight: 700; color: var(--t1);">Vice City Nightlife Sighting</div>
+            <div class="intel-terminal">
+              <div class="intel-terminal__bar">
+                <span class="intel-terminal__live">
+                  <span class="intel-terminal__live-dot" aria-hidden="true"></span>
+                  Live Feed
+                </span>
+                <span class="intel-terminal__date">May 25, 2026</span>
+                <a href="/intel-drops" class="intel-terminal__link">Full log →</a>
               </div>
-            </div>
-
-            <div class="hero__latest" role="complementary" aria-label="Latest Updates">
-              <div class="hero__latest-head">
-                <span>Updates — May 25, 2026</span>
-                <a href="/intel-drops">Full log</a>
+              <div class="intel-terminal__img">
+                <img src="/assets/images/social-media-gta-6-activity-01.png" alt="GTA 6 Vice City activity footage" width="3840" height="2160" loading="eager">
+                <div class="intel-terminal__img-overlay" aria-hidden="true">Vice City · Activity Log</div>
               </div>
-              <ul class="hero__latest-list">
-                <a href="/gameplay/characters/boobie-ike" class="hero__latest-item">
-                  <span class="hero__latest-dot" aria-hidden="true"></span>
-                  <span class="hero__latest-text"><strong>Boobie Ike</strong> dossier live. 7X lieutenant. Vice City territory intel and known connections filed.</span>
-                  <span class="hero__latest-badge">New</span>
+              <div class="intel-terminal__feed">
+                <a href="/gameplay/characters/boobie-ike" class="intel-terminal__item">
+                  <span class="intel-terminal__badge intel-terminal__badge--new">New</span>
+                  <span class="intel-terminal__text"><strong>Boobie Ike</strong> — 7X lieutenant dossier live.</span>
                 </a>
-                <a href="/gameplay/locations/port-gellhorn" class="hero__latest-item">
-                  <span class="hero__latest-dot" aria-hidden="true"></span>
-                  <span class="hero__latest-text"><strong>Port Gellhorn</strong> location profile upgraded. Industrial corridor field intel and operator notes expanded.</span>
-                  <span class="hero__latest-badge">Upgrade</span>
+                <a href="/gameplay/locations/port-gellhorn" class="intel-terminal__item">
+                  <span class="intel-terminal__badge intel-terminal__badge--upg">Upg</span>
+                  <span class="intel-terminal__text"><strong>Port Gellhorn</strong> — Industrial corridor expanded.</span>
                 </a>
-                <a href="/gameplay/vehicles/karin-sultan-rs" class="hero__latest-item">
-                  <span class="hero__latest-dot" aria-hidden="true"></span>
-                  <span class="hero__latest-text"><strong>Karin Sultan RS</strong> vehicle profile live. High Rollerz connection confirmed.</span>
-                  <span class="hero__latest-badge">New</span>
+                <a href="/gameplay/vehicles/karin-sultan-rs" class="intel-terminal__item">
+                  <span class="intel-terminal__badge intel-terminal__badge--new">New</span>
+                  <span class="intel-terminal__text"><strong>Karin Sultan RS</strong> — High Rollerz connection confirmed.</span>
                 </a>
-                <a href="/gameplay/animals/flamingo" class="hero__latest-item">
-                  <span class="hero__latest-dot" aria-hidden="true"></span>
-                  <span class="hero__latest-text"><strong>Flamingo</strong> filed under animals. Confirmed in coastal sequences.</span>
-                  <span class="hero__latest-badge">New</span>
+                <a href="/gameplay/animals/flamingo" class="intel-terminal__item">
+                  <span class="intel-terminal__badge intel-terminal__badge--new">New</span>
+                  <span class="intel-terminal__text"><strong>Flamingo</strong> — Confirmed in coastal sequences.</span>
                 </a>
-              </ul>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
 
+      <!-- Ticker strip -->
       <div class="hero__strip" role="marquee" aria-label="Confirmed intel feed">
         <div class="hero__strip-label" aria-hidden="true">Confirmed Intel</div>
         <div class="hero__strip-track-wrap">
@@ -541,6 +569,70 @@
       </div>
     </section>
 
+    <!-- ── CATEGORY GRID ── -->
+    <section class="sec" style="padding-top: 0" aria-labelledby="cats-hd">
+      <div class="wrap">
+        <div class="sec__top" style="margin-bottom: 24px;">
+          <div>
+            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">The Database</span></div>
+            <h2 class="sec__hd reveal" id="cats-hd">322 Entries. <span>8 Categories.</span></h2>
+          </div>
+          <a href="/gameplay" class="sec__viewall reveal d1">Browse All</a>
+        </div>
+        <div class="cat-grid">
+          <a href="/gameplay/characters" class="cat-card reveal">
+            <span class="cat-card__count">12</span>
+            <span class="cat-card__name">Characters</span>
+            <span class="cat-card__desc">Jason. Lucia. And everyone else moving in Leonida.</span>
+            <span class="cat-card__arrow">→</span>
+          </a>
+          <a href="/gameplay/vehicles" class="cat-card reveal d1">
+            <span class="cat-card__count">81</span>
+            <span class="cat-card__name">Vehicles</span>
+            <span class="cat-card__desc">Every confirmed ride. Sourced from official footage.</span>
+            <span class="cat-card__arrow">→</span>
+          </a>
+          <a href="/gameplay/locations" class="cat-card reveal d2">
+            <span class="cat-card__count">23</span>
+            <span class="cat-card__name">Locations</span>
+            <span class="cat-card__desc">Vice City to the Grassrivers. Full field intel.</span>
+            <span class="cat-card__arrow">→</span>
+          </a>
+          <a href="/gameplay/gangs-and-factions" class="cat-card reveal d3">
+            <span class="cat-card__count">20</span>
+            <span class="cat-card__name">Factions</span>
+            <span class="cat-card__desc">7X. Cartel. VCPD. Who controls what territory.</span>
+            <span class="cat-card__arrow">→</span>
+          </a>
+          <a href="/gameplay/weapons" class="cat-card reveal">
+            <span class="cat-card__count">25</span>
+            <span class="cat-card__name">Weapons</span>
+            <span class="cat-card__desc">Confirmed loadouts. Carrier log filed.</span>
+            <span class="cat-card__arrow">→</span>
+          </a>
+          <a href="/gameplay/brands" class="cat-card reveal d1">
+            <span class="cat-card__count">50</span>
+            <span class="cat-card__name">Brands</span>
+            <span class="cat-card__desc">The commercial layer of Leonida. All confirmed.</span>
+            <span class="cat-card__arrow">→</span>
+          </a>
+          <a href="/gameplay/animals" class="cat-card reveal d2">
+            <span class="cat-card__count">32</span>
+            <span class="cat-card__name">Animals</span>
+            <span class="cat-card__desc">What's out there will find you before you find it.</span>
+            <span class="cat-card__arrow">→</span>
+          </a>
+          <a href="/gameplay/activities" class="cat-card reveal d3">
+            <span class="cat-card__count">28</span>
+            <span class="cat-card__name">Activities</span>
+            <span class="cat-card__desc">Not just the work. The whole Leonida schedule.</span>
+            <span class="cat-card__arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── NEWS ── -->
     <section class="sec" style="padding-top:0" aria-labelledby="intel-hd">
       <div class="wrap">
         <div class="sec__top">
@@ -551,7 +643,6 @@
           <a href="/news" class="sec__viewall reveal d1">All News</a>
         </div>
         <div class="intel-grid">
-          
           <a href="https://gtavitips.com/news/gta-6-best-buy-pre-order-leak" class="intel-card intel-card--hero reveal">
             <div class="intel-card__thumb">
               <img src="/assets/images/gta-6-pre-order-leak.webp" alt="GTA 6 Pre-order Leak" style="position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
@@ -565,7 +656,6 @@
               <span class="intel-card__read">Full breakdown</span>
             </div>
           </a>
-          
           <div style="display:flex;flex-direction:column;gap:14px">
             <a href="https://gtavitips.com/news/strauss-zelnick-gta-6-expectations-terrifying" class="intel-card intel-card--side reveal d1">
               <div class="intel-card__thumb">
@@ -580,7 +670,6 @@
                 <span class="intel-card__read">Read more</span>
               </div>
             </a>
-            
             <a href="/news/gta-6-xbox-store-wishlist-confirmed" class="intel-card intel-card--side reveal d2">
               <div class="intel-card__thumb">
                 <img src="/assets/images/xbox-gta-6-wishlist-news-01.png" alt="Xbox GTA 6 wishlist tweet confirming November 19 release date" style="position: absolute; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; z-index: 1;" width="600" height="755" loading="lazy">
@@ -599,6 +688,7 @@
       </div>
     </section>
 
+    <!-- ── BRIEFING ── -->
     <section class="sec" style="padding-top:0" aria-labelledby="briefing-hd">
       <div class="wrap">
         <div class="sec__top">
@@ -637,6 +727,7 @@
       </div>
     </section>
 
+    <!-- ── LOG ── -->
     <section class="sec" style="padding-top:0" aria-labelledby="log-hd">
       <div class="wrap">
         <div class="sec__top">
@@ -693,6 +784,7 @@
       </div>
     </section>
 
+    <!-- ── CTA ── -->
     <section class="sec sec--tight" aria-labelledby="cta-hd">
       <div class="wrap">
         <div class="cta-block reveal" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));">
@@ -715,24 +807,23 @@
 
   </main>
 
-<footer class="footer" role="contentinfo">
-  <div class="wrap">
-    <div class="footer__inner">
-      <div class="footer__brand">
-        <div class="footer__brand-logo"><div class="footer__brand-badge" aria-hidden="true">VI</div>GTAVITIPS</div>
-        <p class="footer__brand-desc">The intel database for GTA 6. You picked the wrong house, fool!</p>
+  <footer class="footer" role="contentinfo">
+    <div class="wrap">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__brand-logo"><div class="footer__brand-badge" aria-hidden="true">VI</div>GTAVITIPS</div>
+          <p class="footer__brand-desc">The intel database for GTA 6. You picked the wrong house, fool!</p>
+        </div>
+        <div><div class="footer__col-head">Database</div><ul class="footer__links"><li><a href="/gameplay/activities">Activities</a></li><li><a href="/gameplay/animals">Animals</a></li><li><a href="/gameplay/brands">Brands</a></li><li><a href="/gameplay/characters">Characters</a></li><li><a href="/gameplay/gangs-and-factions">Factions</a></li><li><a href="/gameplay/locations">Locations</a></li><li><a href="/gameplay/vehicles">Vehicles</a></li><li><a href="/gameplay/weapons">Weapons</a></li></ul></div>
+        <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li><li><a href="/map">Map</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div>
+        <div><div class="footer__col-head">Legal</div><ul class="footer__links"><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li></ul></div>
+        <div><div class="footer__col-head">Contact</div><ul class="footer__links"><li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li><li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li><li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
       </div>
-      <div><div class="footer__col-head">Database</div><ul class="footer__links"><li><a href="/gameplay/activities">Activities</a></li><li><a href="/gameplay/animals">Animals</a></li><li><a href="/gameplay/brands">Brands</a></li><li><a href="/gameplay/characters">Characters</a></li><li><a href="/gameplay/gangs-and-factions">Factions</a></li><li><a href="/gameplay/locations">Locations</a></li><li><a href="/gameplay/vehicles">Vehicles</a></li><li><a href="/gameplay/weapons">Weapons</a></li></ul></div>
-      <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li><li><a href="/map">Map</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div>
-      <div><div class="footer__col-head">Legal</div><ul class="footer__links"><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li></ul></div>
-      <div><div class="footer__col-head">Contact</div><ul class="footer__links"><li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li><li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li><li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
+      <div class="footer__bottom"><p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p></div>
     </div>
-    <div class="footer__bottom"><p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p></div>
-  </div>
-</footer>
+  </footer>
 
   <script>
-    /* NAV */
     const nav = document.getElementById('nav');
     window.addEventListener('scroll', () => nav.classList.toggle('solid', scrollY > 40), { passive: true });
     nav.classList.toggle('solid', scrollY > 40);
@@ -743,7 +834,6 @@
       burger.setAttribute('aria-expanded', o);
     });
 
-    /* SEARCH */
     const overlay   = document.getElementById('search-overlay');
     const searchInp = document.getElementById('search-input');
     function openSearch() { overlay.classList.add('open'); setTimeout(() => searchInp.focus(), 60); }
@@ -762,7 +852,6 @@
       }
     });
 
-    /* SCROLL REVEAL (Nu de countdown js weg is, zal dit perfect laden!) */
     const ro = new IntersectionObserver(entries => {
       entries.forEach(e => {
         if (e.isIntersecting) { e.target.classList.add('on'); ro.unobserve(e.target); }
@@ -770,73 +859,20 @@
     }, { threshold: .1 });
     document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 
-    // DB RAIL DOTS
-    (function() {
-      var rail = document.querySelector('.db-rail');
-      var dotsWrap = document.getElementById('db-dots');
-      if (!rail || !dotsWrap) return;
-      var cards = rail.querySelectorAll('.db-card');
-      var dots = [];
-      cards.forEach(function(card, i) {
-        var dot = document.createElement('button');
-        dot.className = 'db-rail-dot' + (i === 0 ? ' active' : '');
-        dot.setAttribute('aria-label', card.querySelector('.db-card__name').textContent.trim());
-        dot.setAttribute('role', 'tab');
-        dot.addEventListener('click', function() {
-          rail.scrollTo({ left: card.offsetLeft - 2, behavior: 'smooth' });
-        });
-        dotsWrap.appendChild(dot);
-        dots.push(dot);
-      });
-      rail.addEventListener('scroll', function() {
-        var center = rail.scrollLeft + rail.offsetWidth / 2;
-        var closest = 0;
-        var minDist = Infinity;
-        cards.forEach(function(card, i) {
-          var dist = Math.abs(card.offsetLeft + card.offsetWidth / 2 - center);
-          if (dist < minDist) { minDist = dist; closest = i; }
-        });
-        dots.forEach(function(d, i) { d.classList.toggle('active', i === closest); });
-      }, { passive: true });
-    })();
-
-  // DROPDOWN NAV
   (function() {
     var wrap = document.querySelector('.nav__dropdown-wrap');
     var btn = wrap && wrap.querySelector('.nav__dropdown-btn');
     if (!btn) return;
     var closeTimer = null;
-    function openMenu() {
-      clearTimeout(closeTimer);
-      wrap.classList.add('open');
-      btn.setAttribute('aria-expanded', 'true');
-    }
-    function closeMenu() {
-      closeTimer = setTimeout(function() {
-        wrap.classList.remove('open');
-        btn.setAttribute('aria-expanded', 'false');
-      }, 120);
-    }
+    function openMenu() { clearTimeout(closeTimer); wrap.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); }
+    function closeMenu() { closeTimer = setTimeout(function() { wrap.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); }, 120); }
     wrap.addEventListener('mouseenter', openMenu);
     wrap.addEventListener('mouseleave', closeMenu);
-    btn.addEventListener('click', function(e) {
-      e.stopPropagation();
-      if (wrap.classList.contains('open')) { closeMenu(); } else { openMenu(); }
-    });
-    document.addEventListener('click', function(e) {
-      if (wrap && !wrap.contains(e.target)) {
-        wrap.classList.remove('open');
-        btn.setAttribute('aria-expanded', 'false');
-      }
-    });
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape' && wrap) {
-        wrap.classList.remove('open');
-        btn.setAttribute('aria-expanded', 'false');
-      }
-    });
+    btn.addEventListener('click', function(e) { e.stopPropagation(); if (wrap.classList.contains('open')) { closeMenu(); } else { openMenu(); } });
+    document.addEventListener('click', function(e) { if (wrap && !wrap.contains(e.target)) { wrap.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); } });
+    document.addEventListener('keydown', function(e) { if (e.key === 'Escape' && wrap) { wrap.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); } });
   })();
-</script>
+  </script>
   <script>
   (function(){
     var btn=document.getElementById('theme-toggle');
@@ -894,6 +930,6 @@
     });
   })();
   </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"3731d2e3e02646cca904b149723ad932","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"3731d2e3e02646cca904b149723ad932","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
