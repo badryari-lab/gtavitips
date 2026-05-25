@@ -1,0 +1,128 @@
+{
+  "sections": [
+    {
+      "id": "sports-hd",
+      "eyebrow": "Sports & Super",
+      "title": "Sports &amp; Super",
+      "items": [
+        { "url": "/gameplay/vehicles/albany-alpha",            "label": "Sports",    "color": "#c084fc", "name": "Albany Alpha",           "desc": "Albany's sports entry." },
+        { "url": "/gameplay/vehicles/annis-elegy-retro-custom","label": "Sports",    "color": "#c084fc", "name": "Annis Elegy Retro",       "desc": "Japanese performance with retro styling." },
+        { "url": "/gameplay/vehicles/benefactor-schafter-v12", "label": "Sports",    "color": "#c084fc", "name": "Benefactor Schafter V12", "desc": "High-performance executive sports." },
+        { "url": "/gameplay/vehicles/bravado-banshee",         "label": "Sports",    "color": "#c084fc", "name": "Bravado Banshee",         "desc": "American muscle-sports. The Banshee endures." },
+        { "url": "/gameplay/vehicles/grotti-carbonizzare",     "label": "Sports",    "color": "#c084fc", "name": "Grotti Carbonizzare",     "desc": "Italian open-top sports." },
+        { "url": "/gameplay/vehicles/grotti-cheetah-classic",  "label": "Classic",   "color": "#f97316", "name": "Grotti Cheetah Classic",  "desc": "Heritage Italian performance." },
+        { "url": "/gameplay/vehicles/grotti-furia",            "label": "Super",     "color": "#ff8042", "name": "Grotti Furia",            "desc": "Grotti's flagship hypercar for Leonida." },
+        { "url": "/gameplay/vehicles/invetero-coquette-d10",   "label": "Sports",    "color": "#c084fc", "name": "Invetero Coquette D10",   "desc": "American sports with European influence." },
+        { "url": "/gameplay/vehicles/karin-futo",              "label": "Compact",   "color": "#34d399", "name": "Karin Futo",              "desc": "Drift-capable compact. The underground circuit standard." },
+        { "url": "/gameplay/vehicles/karin-sultan",            "label": "Sports",    "color": "#c084fc", "name": "Karin Sultan",            "desc": "The standard Sultan. Tuner platform for the street circuit." },
+        { "url": "/gameplay/vehicles/karin-sultan-rs",         "label": "Super",     "color": "#ff8042", "name": "Karin Sultan RS",         "desc": "AWD rally-spec. Wide-body, roll cage, anti-lag exhaust." },
+        { "url": "/gameplay/vehicles/maibatsu-penumbra",       "label": "Sports",    "color": "#c084fc", "name": "Maibatsu Penumbra",       "desc": "Japanese sports coupe. Tuner-friendly." },
+        { "url": "/gameplay/vehicles/obey-omnis-egt",          "label": "Sports",    "color": "#c084fc", "name": "Obey Omnis e-GT",         "desc": "Electric sports car." },
+        { "url": "/gameplay/vehicles/ocelot-jugular",          "label": "Sports",    "color": "#c084fc", "name": "Ocelot Jugular",          "desc": "Ocelot's sports saloon." },
+        { "url": "/gameplay/vehicles/ocelot-locust",           "label": "Sports",    "color": "#c084fc", "name": "Ocelot Locust",           "desc": "Lightweight track-focused Ocelot." },
+        { "url": "/gameplay/vehicles/pegassi-zentorno",        "label": "Super",     "color": "#ff8042", "name": "Pegassi Zentorno",        "desc": "Geometric bodywork. Aggressive AWD. Vice City apex predator on tarmac." },
+        { "url": "/gameplay/vehicles/pegassi-zurrusso",        "label": "Super",     "color": "#ff8042", "name": "Pegassi Zurrusso",        "desc": "Pegassi's second super entry in Leonida." },
+        { "url": "/gameplay/vehicles/pfister-comet-retro",     "label": "Sports",    "color": "#c084fc", "name": "Pfister Comet Retro",     "desc": "Classic Comet silhouette." },
+        { "url": "/gameplay/vehicles/pfister-comet-s2",        "label": "Sports",    "color": "#c084fc", "name": "Pfister Comet S2",        "desc": "Porsche 911 equivalent. Cabrio option available." },
+        { "url": "/gameplay/vehicles/pfister-comet-s2-cabrio", "label": "Sports",    "color": "#c084fc", "name": "Pfister Comet S2 Cabrio", "desc": "Cabriolet variant." },
+        { "url": "/gameplay/vehicles/ubermacht-cypher",        "label": "Sports",    "color": "#c084fc", "name": "Ubermacht Cypher",        "desc": "Compact German performance." }
+      ]
+    },
+    {
+      "id": "muscle-hd",
+      "eyebrow": "Muscle, Sedans & Classics",
+      "title": "Muscle, Sedans &amp; Classics",
+      "items": [
+        { "url": "/gameplay/vehicles/albany-buccaneer",          "label": "Muscle",   "color": "#ff6b6b", "name": "Albany Buccaneer",          "desc": "American classic. Low and wide." },
+        { "url": "/gameplay/vehicles/benefactor-schafter-lwb",   "label": "Sedan",    "color": "#60a5fa", "name": "Benefactor Schafter LWB",   "desc": "Long wheelbase executive transport." },
+        { "url": "/gameplay/vehicles/bravado-gauntlet-hellfire", "label": "Muscle",   "color": "#ff6b6b", "name": "Bravado Gauntlet Hellfire", "desc": "High-output muscle. Noise mandatory." },
+        { "url": "/gameplay/vehicles/declasse-tornado",          "label": "Classic",  "color": "#f97316", "name": "Declasse Tornado",          "desc": "Classic American convertible." },
+        { "url": "/gameplay/vehicles/declasse-tulip",            "label": "Muscle",   "color": "#ff6b6b", "name": "Declasse Tulip",            "desc": "Mid-weight muscle." },
+        { "url": "/gameplay/vehicles/declasse-yosemite-rancher", "label": "Off-Road", "color": "#84cc16", "name": "Declasse Yosemite",         "desc": "Rural truck. Leonida backcountry." },
+        { "url": "/gameplay/vehicles/imponte-ruiner",            "label": "Muscle",   "color": "#ff6b6b", "name": "Imponte Ruiner",            "desc": "Classic muscle silhouette." },
+        { "url": "/gameplay/vehicles/obey-tailgater",            "label": "Sedan",    "color": "#60a5fa", "name": "Obey Tailgater",            "desc": "Corporate Leonida fleet sedan." },
+        { "url": "/gameplay/vehicles/schyster-pmp-700",          "label": "Sedan",    "color": "#60a5fa", "name": "Schyster PMP 700",          "desc": "Mid-range sedan." },
+        { "url": "/gameplay/vehicles/vapid-chino",               "label": "Muscle",   "color": "#ff6b6b", "name": "Vapid Chino",               "desc": "Lowrider platform." }
+      ]
+    },
+    {
+      "id": "suv-hd",
+      "eyebrow": "SUVs, Off-Road & Utility",
+      "title": "SUVs, Off-Road &amp; Utility",
+      "items": [
+        { "url": "/gameplay/vehicles/annis-hellion",         "label": "Off-Road", "color": "#84cc16", "name": "Annis Hellion",         "desc": "Off-road buggy." },
+        { "url": "/gameplay/vehicles/bravado-bison",         "label": "Utility",  "color": "#64748b", "name": "Bravado Bison",         "desc": "Full-size pickup." },
+        { "url": "/gameplay/vehicles/enus-jubilee",          "label": "SUV",      "color": "#fcd34d", "name": "Enus Jubilee",          "desc": "Luxury SUV. Vice City and cartel logistics alike." },
+        { "url": "/gameplay/vehicles/gallivanter-baller",    "label": "SUV",      "color": "#fcd34d", "name": "Gallivanter Baller",    "desc": "Mid-range luxury SUV." },
+        { "url": "/gameplay/vehicles/gallivanter-baller-st", "label": "SUV",      "color": "#fcd34d", "name": "Gallivanter Baller ST", "desc": "Sport-tuned Baller." },
+        { "url": "/gameplay/vehicles/karin-rebel",           "label": "Off-Road", "color": "#84cc16", "name": "Karin Rebel",           "desc": "Off-road platform. Backcountry Leonida." },
+        { "url": "/gameplay/vehicles/nagasaki-blazer",       "label": "ATV",      "color": "#a3e635", "name": "Nagasaki Blazer",       "desc": "Quad ATV. Compact off-road." },
+        { "url": "/gameplay/vehicles/nagasaki-outlaw",       "label": "Off-Road", "color": "#84cc16", "name": "Nagasaki Outlaw",       "desc": "Off-road truck. Rural and swamp terrain." },
+        { "url": "/gameplay/vehicles/pfister-astron",        "label": "SUV",      "color": "#fcd34d", "name": "Pfister Astron",        "desc": "Pfister's premium SUV." },
+        { "url": "/gameplay/vehicles/vapid-bobcat-xl",       "label": "Utility",  "color": "#64748b", "name": "Vapid Bobcat XL",       "desc": "Extended cab pickup." },
+        { "url": "/gameplay/vehicles/vapid-liberator",       "label": "Off-Road", "color": "#84cc16", "name": "Vapid Liberator",       "desc": "Monster truck." },
+        { "url": "/gameplay/vehicles/vapid-sandking-xl",     "label": "Off-Road", "color": "#84cc16", "name": "Vapid Sandking XL",     "desc": "Large off-road truck." },
+        { "url": "/gameplay/vehicles/vapid-towtruck",        "label": "Utility",  "color": "#64748b", "name": "Vapid Towtruck",        "desc": "Recovery vehicle. Also useful for other purposes." }
+      ]
+    },
+    {
+      "id": "bikes-hd",
+      "eyebrow": "Bikes & Compact",
+      "title": "Bikes &amp; Compact",
+      "items": [
+        { "url": "/gameplay/vehicles/dinka-blista-compact", "label": "Compact",    "color": "#34d399", "name": "Dinka Blista Compact", "desc": "City hatchback." },
+        { "url": "/gameplay/vehicles/dinka-double-t",       "label": "Sport Bike", "color": "#ff0055", "name": "Dinka Double-T",       "desc": "Sport bike. Fast and exposed to everything." },
+        { "url": "/gameplay/vehicles/maibatsu-sanchez",     "label": "Off-Road",   "color": "#84cc16", "name": "Maibatsu Sanchez",     "desc": "Dirt bike. The Grassrivers specialist." },
+        { "url": "/gameplay/vehicles/nagasaki-carbon-rs",   "label": "Sport Bike", "color": "#ff0055", "name": "Nagasaki Carbon RS",   "desc": "High-performance sport bike." },
+        { "url": "/gameplay/vehicles/western-nightblade",   "label": "Chopper",    "color": "#818cf8", "name": "Western Nightblade",   "desc": "Chopper. Outlaw Motorcycle Gang territory." }
+      ]
+    },
+    {
+      "id": "vans-hd",
+      "eyebrow": "Vans, Trucks & Commercial",
+      "title": "Vans, Trucks &amp; Commercial",
+      "items": [
+        { "url": "/gameplay/vehicles/bravado-rumpo-custom", "label": "Van",        "color": "#a78bfa", "name": "Bravado Rumpo Custom", "desc": "Cargo van. Move people, product, or problems." },
+        { "url": "/gameplay/vehicles/brute-camper",         "label": "RV",         "color": "#fb923c", "name": "Brute Camper",         "desc": "Recreational vehicle. Or mobile operation base." },
+        { "url": "/gameplay/vehicles/brute-shuttle-bus",    "label": "Bus",        "color": "#fbbf24", "name": "Brute Shuttle Bus",    "desc": "Transit bus. Vice City public routes." },
+        { "url": "/gameplay/vehicles/jobuilt-phantom",      "label": "Truck",      "color": "#78716c", "name": "JoBuilt Phantom",      "desc": "Semi-truck. Long-haul Leonida freight." },
+        { "url": "/gameplay/vehicles/maibatsu-mule",        "label": "Truck",      "color": "#78716c", "name": "Maibatsu Mule",        "desc": "Box truck. Delivery and logistics." },
+        { "url": "/gameplay/vehicles/vapid-benson",         "label": "Commercial", "color": "#94a3b8", "name": "Vapid Benson",         "desc": "Commercial delivery vehicle." }
+      ]
+    },
+    {
+      "id": "emergency-hd",
+      "eyebrow": "Emergency & Law Enforcement",
+      "title": "Emergency &amp; Law Enforcement",
+      "items": [
+        { "url": "/gameplay/vehicles/nagasaki-blazer-lifeguard",          "label": "Rescue",    "color": "#4ade80", "name": "Blazer Lifeguard",    "desc": "Beach and coastal rescue." },
+        { "url": "/gameplay/vehicles/vapid-caracara-lifeguard",           "label": "Rescue",    "color": "#4ade80", "name": "Caracara 4x4",        "desc": "Heavy rescue vehicle." },
+        { "url": "/gameplay/vehicles/declasse-sheriff-suv",               "label": "Sheriff",   "color": "#f59e0b", "name": "Declasse Granger",    "desc": "VCSO sheriff vehicle." },
+        { "url": "/gameplay/vehicles/bravado-police-gauntlet-interceptor","label": "Pursuit",   "color": "#f472b6", "name": "Gauntlet Interceptor","desc": "High-performance police pursuit." },
+        { "url": "/gameplay/vehicles/bravado-police-buffalo",             "label": "Police",    "color": "#3b82f6", "name": "Police Buffalo",      "desc": "VCPD standard pursuit vehicle." },
+        { "url": "/gameplay/vehicles/buckingham-police-maverick",         "label": "Air Unit",  "color": "#22d3ee", "name": "Police Maverick",     "desc": "VCPD air support helicopter." },
+        { "url": "/gameplay/vehicles/vapid-police-stanier",               "label": "Emergency", "color": "#ef4444", "name": "Police Stanier LE",   "desc": "Standard patrol sedan." },
+        { "url": "/gameplay/vehicles/vapid-scout-police",                 "label": "Emergency", "color": "#ef4444", "name": "Vapid Scout",         "desc": "Police SUV. Off-road capable." }
+      ]
+    },
+    {
+      "id": "boats-hd",
+      "eyebrow": "Boats, Air & Special",
+      "title": "Boats, Air &amp; Special",
+      "items": [
+        { "url": "/gameplay/vehicles/airboat-fanboat",        "label": "Boat",       "color": "#0284c7", "name": "Airboat",             "desc": "Grassrivers standard. Fan-propelled and flat-bottomed." },
+        { "url": "/gameplay/vehicles/blimp",                  "label": "Special",    "color": "#e879f9", "name": "Atomic Blimp",        "desc": "Promotional blimp. Impossible to miss. Possible to fly." },
+        { "url": "/gameplay/vehicles/buckingham-maverick",    "label": "Helicopter", "color": "#38bdf8", "name": "Buckingham Maverick", "desc": "Standard utility helicopter." },
+        { "url": "/gameplay/vehicles/mammoth-dodo",           "label": "Plane",      "color": "#06b6d4", "name": "Mammoth Dodo",        "desc": "Light seaplane. Keys and coastal operations." },
+        { "url": "/gameplay/vehicles/nagasaki-buzzard",       "label": "Helicopter", "color": "#38bdf8", "name": "Nagasaki Buzzard",    "desc": "Light attack helicopter." },
+        { "url": "/gameplay/vehicles/nagasaki-dinghy",        "label": "Boat",       "color": "#0284c7", "name": "Nagasaki Dinghy",     "desc": "Small inflatable. Keys and coastal operations." },
+        { "url": "/gameplay/vehicles/pegassi-speeder",        "label": "Boat",       "color": "#0284c7", "name": "Pegassi Speeder",     "desc": "High-performance speedboat." },
+        { "url": "/gameplay/vehicles/sea-sparrow",            "label": "Helicopter", "color": "#38bdf8", "name": "Sea Sparrow",         "desc": "Amphibious helicopter." },
+        { "url": "/gameplay/vehicles/speedophile-seashark",   "label": "Boat",       "color": "#0284c7", "name": "Seashark",            "desc": "Jet ski. Keys and coastline." },
+        { "url": "/gameplay/vehicles/shitzu-longfin",         "label": "Boat",       "color": "#0284c7", "name": "Shitzu Longfin",      "desc": "Sport fishing boat." },
+        { "url": "/gameplay/vehicles/shitzu-tropic",          "label": "Boat",       "color": "#0284c7", "name": "Shitzu Tropic",       "desc": "Leisure craft. Vice City marina." },
+        { "url": "/gameplay/vehicles/buckingham-supervolito", "label": "Helicopter", "color": "#38bdf8", "name": "SuperVolito",         "desc": "Premium helicopter." }
+      ]
+    }
+  ]
+}

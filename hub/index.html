@@ -488,7 +488,7 @@
 
             <div class="hero__stats" role="list" aria-label="Database statistics">
               <div class="hero__stat" role="listitem">
-                <div class="hero__stat-num"><b>322</b></div>
+                <div class="hero__stat-num"><b id="stat-entries">322</b></div>
                 <div class="hero__stat-label">Database Entries</div>
               </div>
               <div class="hero__stat-div" aria-hidden="true"></div>
@@ -879,6 +879,15 @@
         });
         feed.innerHTML=html;
       });
+  })();
+
+  // ── STATS ──
+  (function(){
+    var el=document.getElementById('stat-entries');
+    if(!el)return;
+    fetch('/assets/data/stats.json')
+      .then(function(r){return r.json()})
+      .then(function(data){if(data.entries)el.textContent=data.entries});
   })();
   </script>
 
