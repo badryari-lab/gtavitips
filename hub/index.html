@@ -203,17 +203,16 @@
 
     /* ── CATEGORY GRID ── */
     .cat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
-    .cat-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 0 18px 18px; min-height: 220px; display: flex; flex-direction: column; justify-content: flex-end; gap: 6px; text-decoration: none; transition: border-color .2s, transform .2s, box-shadow .2s; position: relative; overflow: hidden; background-size: cover; background-position: center top; }
-    .cat-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,95,144,.10) 0%, rgba(13,19,32,0) 42%, rgba(13,19,32,1) 60%, rgba(13,19,32,1) 100%); z-index: 0; pointer-events: none; }
-    .cat-card:hover::after { background: linear-gradient(to bottom, rgba(0,95,144,.18) 0%, rgba(13,19,32,0) 38%, rgba(13,19,32,1) 57%, rgba(13,19,32,1) 100%); }
-    .cat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--blue), transparent); opacity: 0; transition: opacity .2s; z-index: 2; }
-    .cat-card:hover { border-color: var(--border-b); transform: translateY(-3px); box-shadow: 0 10px 28px rgba(0,0,0,.5); }
+    .cat-card { background: var(--bg-2); border: none; border-radius: var(--r); padding: 0 18px 20px; min-height: 220px; display: flex; flex-direction: column; justify-content: flex-end; gap: 5px; text-decoration: none; transition: transform .2s, box-shadow .2s; position: relative; overflow: hidden; background-size: cover; background-position: center top; box-shadow: 0 4px 18px rgba(0,0,0,.45); }
+    .cat-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,95,144,.10) 0%, rgba(13,19,32,0) 30%, rgba(13,19,32,.72) 54%, rgba(13,19,32,.93) 100%); z-index: 0; pointer-events: none; transition: background .25s; }
+    .cat-card:hover::after { background: linear-gradient(to bottom, rgba(0,95,144,.18) 0%, rgba(13,19,32,0) 26%, rgba(13,19,32,.62) 50%, rgba(13,19,32,.90) 100%); }
+    .cat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--blue), transparent); opacity: 0; transition: opacity .2s; z-index: 3; }
+    .cat-card:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(0,0,0,.6); }
     .cat-card:hover::before { opacity: 1; }
-    .cat-card__name { font-size: 15px; font-weight: 900; text-transform: uppercase; letter-spacing: .06em; color: var(--t1); position: relative; z-index: 1; }
-    .cat-card:nth-child(even) .cat-card__name { color: var(--blue); }
-    .cat-card__desc { font-size: 12px; color: var(--t2); line-height: 1.55; position: relative; z-index: 1; }
-    .cat-card__arrow { font-size: 14px; color: var(--t3); margin-top: 8px; transition: color .2s, transform .2s; display: block; position: relative; z-index: 1; }
-    .cat-card:hover .cat-card__arrow { color: var(--blue); transform: translateX(3px); }
+    .cat-card__name { font-size: 15px; font-weight: 900; text-transform: uppercase; letter-spacing: .06em; color: #fff; position: relative; z-index: 1; }
+    .cat-card__desc { font-size: 12px; color: rgba(255,255,255,.68); line-height: 1.55; position: relative; z-index: 1; }
+    .cat-card__arrow { position: absolute; top: 14px; right: 16px; font-size: 17px; color: rgba(255,255,255,.80); z-index: 3; transition: color .2s, transform .2s; }
+    .cat-card:hover .cat-card__arrow { color: #fff; transform: translateX(3px); }
 
     /* ── INTEL GRID ── */
     .intel-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 14px; }
