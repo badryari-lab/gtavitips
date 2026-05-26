@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -228,6 +228,7 @@
     .faq-item:last-child{border-bottom:none}
     .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
     .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
+    a[style*="color:var(--blue)"]{color:inherit!important;text-decoration:underline;text-decoration-color:var(--blue-border);text-underline-offset:2px;text-decoration-thickness:1px}
   </style>
 </head>
 <body>
@@ -286,8 +287,7 @@
 
       <div class="dossier">
         <div class="dossier__left">
-          <div class="dossier__badge dossier__badge--blue">Active Asset</div>
-          <h1 class="dossier__h1">Brian<br>Heder</h1>
+          <h1 class="dossier__h1">Brian<br><span style="color:var(--blue)">Heder</span></h1>
           <p class="dossier__tagline">Boatyard owner on his third wife and his thirtieth year in the game. <strong>Smuggling veteran turned administrator.</strong> The operation runs through his dock whether he is personally involved or not.</p>
           <div class="stat-block" role="list" aria-label="Character stats">
             <div class="stat-block__item" role="listitem">
@@ -304,11 +304,6 @@
               <div class="stat-block__key">Key Location</div>
               <div class="stat-block__val">Brian's Boat Workshop</div>
               <div class="stat-block__sub">Marine repair as the legitimate front. Operational hub for shoreline contraband movement.</div>
-            </div>
-            <div class="stat-block__item" role="listitem">
-              <div class="stat-block__key">Status</div>
-              <div class="stat-block__val">Active</div>
-              
             </div>
           </div>
         </div>

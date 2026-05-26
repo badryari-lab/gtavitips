@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -228,6 +228,7 @@
     .faq-item:last-child{border-bottom:none}
     .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
     .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
+    a[style*="color:var(--blue)"]{color:inherit!important;text-decoration:underline;text-decoration-color:var(--blue-border);text-underline-offset:2px;text-decoration-thickness:1px}
   </style>
 </head>
 <body>
@@ -286,8 +287,7 @@
 
       <div class="dossier">
         <div class="dossier__left">
-          <div class="dossier__badge dossier__badge--green">Confirmed Active</div>
-          <h1 class="dossier__h1">Dre'Quan<br>Priest</h1>
+          <h1 class="dossier__h1">Dre'Quan<br><span style="color:var(--blue)">Priest</span></h1>
           <p class="dossier__tagline">Founded Only Raw Records on street hustle and <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> ambition. <strong>Signed Real Dimez. Books Boobie Ike's venues. Building the music industry from the inside out.</strong></p>
           <div class="stat-block" role="list" aria-label="Character stats">
             <div class="stat-block__item" role="listitem">
@@ -304,11 +304,6 @@
               <div class="stat-block__key">Venture</div>
               <div class="stat-block__val">Only Raw Records</div>
               <div class="stat-block__sub">Independent label. Current flagship act: Real Dimez.</div>
-            </div>
-            <div class="stat-block__item" role="listitem">
-              <div class="stat-block__key">Status</div>
-              <div class="stat-block__val">Active</div>
-              
             </div>
           </div>
         </div>

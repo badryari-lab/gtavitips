@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -228,6 +228,7 @@
     .faq-item:last-child{border-bottom:none}
     .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
     .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
+    a[style*="color:var(--blue)"]{color:inherit!important;text-decoration:underline;text-decoration-color:var(--blue-border);text-underline-offset:2px;text-decoration-thickness:1px}
   </style>
 </head>
 <body>
@@ -286,8 +287,7 @@
 
       <div class="dossier">
         <div class="dossier__left">
-          <div class="dossier__badge dossier__badge--green">Confirmed Protagonist</div>
-          <h1 class="dossier__h1">Lucia<br>Caminos</h1>
+          <h1 class="dossier__h1">Lucia<br><span style="color:var(--blue)">Caminos</span></h1>
           <p class="dossier__tagline">From Liberty City to Leonida State Penitentiary to the street. <strong>The first female protagonist in the HD Universe.</strong> Paroled and running jobs with <a href="/gameplay/characters/jason-duval" style="color:var(--blue)">Jason Duval</a> across Vice County.</p>
           <div class="stat-block" role="list" aria-label="Character stats">
             <div class="stat-block__item" role="listitem">
@@ -304,11 +304,6 @@
               <div class="stat-block__key">Background</div>
               <div class="stat-block__val">Liberty City via Leonida</div>
               <div class="stat-block__sub">Moved to Leonida with her mother. Leonida State Penitentiary. Recently paroled.</div>
-            </div>
-            <div class="stat-block__item" role="listitem">
-              <div class="stat-block__key">Status</div>
-              <div class="stat-block__val">Active — At Large</div>
-              
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -228,6 +228,7 @@
     .faq-item:last-child{border-bottom:none}
     .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
     .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
+    a[style*="color:var(--blue)"]{color:inherit!important;text-decoration:underline;text-decoration-color:var(--blue-border);text-underline-offset:2px;text-decoration-thickness:1px}
   </style>
 </head>
 <body>
@@ -286,8 +287,7 @@
 
       <div class="dossier">
         <div class="dossier__left">
-          <div class="dossier__badge dossier__badge--green">Confirmed Active</div>
-          <h1 class="dossier__h1">Raul<br>Bautista</h1>
+          <h1 class="dossier__h1">Raul<br><span style="color:var(--blue)">Bautista</span></h1>
           <p class="dossier__tagline">Veteran of the Leonida criminal scene. <strong>Bank jobs, talent recruitment, and the <a href="/gameplay/locations/port-gellhorn" style="color:var(--blue)">Port Gellhorn</a> corridor.</strong> Experienced enough to know the risk. Reckless enough to take it anyway.</p>
           <div class="stat-block" role="list" aria-label="Character stats">
             <div class="stat-block__item" role="listitem">
@@ -304,11 +304,6 @@
               <div class="stat-block__key">Disposition</div>
               <div class="stat-block__val">Calculated Risk-Taker</div>
               <div class="stat-block__sub">Confident under pressure. The recklessness is a feature, not a bug, until it is not.</div>
-            </div>
-            <div class="stat-block__item" role="listitem">
-              <div class="stat-block__key">Status</div>
-              <div class="stat-block__val">Active</div>
-              
             </div>
           </div>
         </div>
