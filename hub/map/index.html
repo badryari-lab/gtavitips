@@ -151,7 +151,8 @@
     .section-eyebrow{display:flex;align-items:center;gap:8px;margin-bottom:10px}
     .section-eyebrow__line{width:24px;height:2px;background:var(--pink);flex-shrink:0}
     .section-eyebrow__text{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--pink)}
-    .section-h2{font-size:clamp(22px,3vw,32px);font-weight:700;text-transform:uppercase;letter-spacing:.02em;color:var(--blue);margin-bottom:32px}
+    .section-h2{font-size:clamp(22px,3vw,32px);font-weight:700;text-transform:uppercase;letter-spacing:.02em;color:var(--t1);margin-bottom:32px}
+    .section-h2 span{color:var(--blue)}
     .covers-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
     .covers-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r);padding:24px 22px}
     .covers-card__title{font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--t1);margin-bottom:8px}
@@ -333,7 +334,7 @@
           <div class="section-eyebrow__line"></div>
           <span class="section-eyebrow__text">What the map covers</span>
         </div>
-        <h2 class="section-h2" id="covers-hd">Everything in Leonida</h2>
+        <h2 class="section-h2" id="covers-hd">Everything in <span>Leonida</span></h2>
         <div class="covers-grid">
           <div class="covers-card">
             <div class="covers-card__title">23 Locations</div>
@@ -355,7 +356,7 @@
           <div class="section-eyebrow__line"></div>
           <span class="section-eyebrow__text">Confirmed Locations</span>
         </div>
-        <h2 class="section-h2" id="locations-hd">23 Locations</h2>
+        <h2 class="section-h2" id="locations-hd">23 <span>Locations</span></h2>
         <div class="locations-grid">
           <a href="/gameplay/locations/vice-city" class="loc-card"><div class="loc-card__type">Metropolitan Core</div><div class="loc-card__name">Vice City</div><div class="loc-card__arr">View &rarr;</div></a>
           <a href="/gameplay/locations/vice-county" class="loc-card"><div class="loc-card__type">Confirmed Region</div><div class="loc-card__name">Vice County</div><div class="loc-card__arr">View &rarr;</div></a>
