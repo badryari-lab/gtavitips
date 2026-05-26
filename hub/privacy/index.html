@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,12 +73,12 @@
     .search-overlay__hint{margin-top:12px;font-size:12px;color:var(--t3)}
     .search-overlay__hint kbd{background:var(--bg-4);border:1px solid var(--border);border-radius:5px;padding:2px 7px;font-family:inherit;font-size:11px;color:var(--t2)}
     main{padding-top:calc(var(--nav-h) + 56px);padding-bottom:96px}
-    .page-header{margin-bottom:56px;border-bottom:1px solid var(--border);padding-bottom:40px}
+    .page-header{position:relative;overflow:hidden;margin-bottom:56px;border-bottom:1px solid var(--border);padding-bottom:40px}
     .page-header__eyebrow{display:flex;align-items:center;gap:8px;margin-bottom:12px}
     .page-header__eyebrow-line{width:20px;height:2px;background:var(--pink)}
     .page-header__eyebrow-text{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--pink)}
     .page-header__h1{font-size:clamp(32px,5vw,52px);font-weight:900;text-transform:uppercase;letter-spacing:-.02em;color:var(--t1);line-height:.95;margin-bottom:12px}
-    .page-header__h1 span{color:var(--blue)}
+    .page-header__h1 span{color:var(--blue)}.page-header__bg{position:absolute;inset:0;pointer-events:none}.page-header__bg-orb{position:absolute;width:700px;height:400px;background:radial-gradient(ellipse,rgba(0,95,144,.14) 0%,transparent 65%);top:-120px;right:-180px}
     .page-header__meta{font-size:12px;color:var(--t3)}
     .content-layout{display:grid;grid-template-columns:1fr 240px;gap:64px;align-items:start}
     .prose h2{font-size:clamp(16px,2vw,20px);font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:var(--blue);margin:40px 0 14px;line-height:1.2}
@@ -216,7 +216,7 @@
   </div>
   <main id="main">
     <div class="wrap">
-      <header class="page-header">
+      <header class="page-header"><div class="page-header__bg"><div class="page-header__bg-orb"></div></div>
         <div class="page-header__eyebrow"><div class="page-header__eyebrow-line"></div><span class="page-header__eyebrow-text">Legal</span></div>
         <h1 class="page-header__h1">Privacy <span>Policy</span></h1>
         <p class="page-header__meta">Last updated: May 19, 2026</p>
