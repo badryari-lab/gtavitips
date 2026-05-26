@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <script>
@@ -96,7 +96,7 @@
     .index-section__eyebrow{display:flex;align-items:center;gap:8px;margin-bottom:10px}
     .index-section__eyebrow-line{width:24px;height:2px;background:var(--pink);flex-shrink:0}
     .index-section__eyebrow-text{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--pink)}
-    .index-section__h2{font-size:clamp(18px,2.5vw,26px);font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:var(--blue);margin-bottom:24px}
+    .index-section__h2{font-size:clamp(18px,2.5vw,26px);font-weight:700;text-transform:uppercase;letter-spacing:.03em;color: var(--t1);margin-bottom:24px}
     .card-grid,.intel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
     .entry-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r);padding:18px 20px;text-decoration:none;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,transform .2s,background .2s}
     .entry-card:hover{border-color:var(--border-b);transform:translateY(-2px);background:var(--bg-3)}
@@ -299,7 +299,7 @@
           (data.sections||[]).forEach(function(sec){
             html+='<section class="index-section reveal" aria-labelledby="'+sec.id+'">'
                  +'<div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">'+sec.eyebrow+'</span></div>'
-                 +'<h2 class="index-section__h2" id="'+sec.id+'">'+sec.title+'</h2>'
+                 +'<h2 class="index-section__h2" id="'+sec.id+'">'+splitTitle(sec.title)+'</h2>'
                  +'<div class="card-grid" role="list">';
             (sec.items||[]).forEach(function(item){
               html+='<a href="'+item.url+'" class="entry-card" role="listitem">'

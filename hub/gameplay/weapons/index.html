@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <script>
@@ -97,7 +97,7 @@
     .index-section__eyebrow{display:flex;align-items:center;gap:8px;margin-bottom:10px}
     .index-section__eyebrow-line{width:24px;height:2px;background:var(--pink);flex-shrink:0}
     .index-section__eyebrow-text{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--pink)}
-    .index-section__h2{font-size:clamp(18px,2.5vw,26px);font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:var(--blue);margin-bottom:24px}
+    .index-section__h2{font-size:clamp(18px,2.5vw,26px);font-weight:700;text-transform:uppercase;letter-spacing:.03em;color: var(--t1);margin-bottom:24px}
     .card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
     .entry-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r);padding:18px 20px;text-decoration:none;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,transform .2s,background .2s}
     .entry-card:hover{border-color:var(--border-b);transform:translateY(-2px);background:var(--bg-3)}
@@ -235,7 +235,7 @@
 
       <section class="index-section reveal" id="sec-smg" aria-labelledby="smg-hd">
         <div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">SMGs</span></div>
-        <h2 class="index-section__h2" id="smg-hd">Submachine Guns</h2>
+        <h2 class="index-section__h2" id="smg-hd">Submachine <span style="color:var(--blue)">Guns</span></h2>
         <div class="card-grid" role="list">
           <a href="/gameplay/weapons/compact-smg" class="entry-card reveal" role="listitem" data-name="compact smg submachine" data-cat="smg"><div class="entry-card__label entry-card__label--blue">SMG</div><div class="entry-card__name">Compact SMG</div><div class="entry-card__desc">More range and accuracy than the Micro. Still fits in a jacket.</div></a>
           <a href="/gameplay/weapons/micro-smg" class="entry-card reveal" role="listitem" data-name="micro smg submachine" data-cat="smg"><div class="entry-card__label entry-card__label--blue">SMG</div><div class="entry-card__name">Micro SMG</div><div class="entry-card__desc">Compact and concealable. Drive-by capable.</div></a>
@@ -264,7 +264,7 @@
 
       <section class="index-section reveal" id="sec-heavy" aria-labelledby="heavy-hd">
         <div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">Heavy &amp; Explosives</span></div>
-        <h2 class="index-section__h2" id="heavy-hd">Heavy &amp; Explosives</h2>
+        <h2 class="index-section__h2" id="heavy-hd">Heavy <span style="color:var(--blue)">&amp; Explosives</span></h2>
         <div class="card-grid" role="list">
           <a href="/gameplay/weapons/frag-grenade" class="entry-card reveal" role="listitem" data-name="frag grenade explosive" data-cat="heavy"><div class="entry-card__label entry-card__label--red">Explosive</div><div class="entry-card__name">Frag Grenade</div><div class="entry-card__desc">Standard fragmentation. Clears rooms and vehicles.</div></a>
           <a href="/gameplay/weapons/molotov" class="entry-card reveal" role="listitem" data-name="molotov cocktail incendiary" data-cat="heavy"><div class="entry-card__label entry-card__label--amber">Incendiary</div><div class="entry-card__name">Molotov</div><div class="entry-card__desc">Fire spreads. Cheap, available, impossible to ignore.</div></a>
@@ -276,7 +276,7 @@
 
       <section class="index-section reveal" id="sec-tactical" aria-labelledby="tactical-hd">
         <div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">Tactical &amp; Special</span></div>
-        <h2 class="index-section__h2" id="tactical-hd">Tactical &amp; Special</h2>
+        <h2 class="index-section__h2" id="tactical-hd">Tactical <span style="color:var(--blue)">&amp; Special</span></h2>
         <div class="card-grid" role="list">
           <a href="/gameplay/weapons/flashbang" class="entry-card reveal" role="listitem" data-name="flashbang tactical stun" data-cat="tactical"><div class="entry-card__label entry-card__label--blue">Tactical</div><div class="entry-card__name">Flashbang</div><div class="entry-card__desc">Disorientation without fatality.</div></a>
           <a href="/gameplay/weapons/smoke-grenade" class="entry-card reveal" role="listitem" data-name="smoke grenade tactical" data-cat="tactical"><div class="entry-card__label entry-card__label--blue">Tactical</div><div class="entry-card__name">Smoke Grenade</div><div class="entry-card__desc">Cover for movement or extraction.</div></a>
@@ -365,6 +365,14 @@
     (function(){
       var grid=document.getElementById('weapons-grid');
       if(!grid)return;
+            function splitTitle(t){
+        t=String(t).trim();var w=t.split(/\s+/).filter(Boolean),n=w.length;
+        if(n<=1)return t;
+        var s='<span style="color:var(--blue)">';
+        if(t.indexOf('&')!==-1){var m=t.match(/^(.*?)\s*(&.+)$/);if(m&&m[1])return m[1]+' '+s+m[2]+'</span>';return t;}
+        if(t.indexOf(':')!==-1){var m=t.match(/^(.+?:)\s*(.+)$/);if(m)return m[1]+' '+s+m[2]+'</span>';}
+        var wc=Math.ceil(n/2);return w.slice(0,wc).join(' ')+' '+s+w.slice(wc).join(' ')+'</span>';
+      }
       fetch('/assets/data/weapons.json')
         .then(function(r){return r.json()})
         .then(function(data){
@@ -372,7 +380,7 @@
           (data.sections||[]).forEach(function(sec){
             html+='<section class="index-section reveal" aria-labelledby="'+sec.id+'">'
                  +'<div class="index-section__eyebrow" aria-hidden="true"><div class="index-section__eyebrow-line"></div><span class="index-section__eyebrow-text">'+sec.eyebrow+'</span></div>'
-                 +'<h2 class="index-section__h2" id="'+sec.id+'">'+sec.title+'</h2>'
+                 +'<h2 class="index-section__h2" id="'+sec.id+'">'+splitTitle(sec.title)+'</h2>'
                  +'<div class="card-grid" role="list">';
             (sec.items||[]).forEach(function(item){
               html+='<a href="'+item.url+'" class="entry-card reveal" role="listitem"'

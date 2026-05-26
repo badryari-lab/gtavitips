@@ -146,6 +146,28 @@ Each entry page follows the same dossier structure:
 
 Entry slugs follow kebab-case: `/gameplay/characters/lucia-caminos`, `/gameplay/vehicles/karin-sultan-rs`.
 
+## Internal linking rules
+
+Every page must link to logically related content. This is not a separate step — it's part of creating the page. Rules by page type:
+
+**Database entries** — link to all meaningfully related entries across categories:
+- Characters → their locations, faction affiliations, vehicles spotted with them, connected characters
+- Locations → factions operating there, characters associated, vehicles spotted, activities available
+- Vehicles → associated brand, factions using them, characters spotted with them, locations seen
+- Gangs/Factions → territory locations, associated characters, vehicles they use
+- Brands → locations where present, associated vehicles or factions
+- Animals → habitat locations, other animals in the same region
+- Weapons → characters carrying them, factions using them, locations where spotted
+- Activities → locations where they take place, associated factions or characters
+
+**FAQ pages** — link to 2–4 related FAQ questions at the bottom. Also link to any database entries or news articles directly relevant to the answer.
+
+**News articles / deepdives** — link to every database entry mentioned. Also link to related news articles and relevant FAQ questions.
+
+**Index/hub pages** — structural links already handled by nav and category cards. No extra action needed.
+
+When a referenced entry doesn't have a page yet: don't link it. Flag it as a missing entry for a future database session — never create a page just to satisfy a link.
+
 ## Status badge colors
 
 | Status | Color |
