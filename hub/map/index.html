@@ -194,15 +194,16 @@
 
     /* LOCATIONS GRID */
     .locations-section{margin-bottom:72px}
-    .locations-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
-    .loc-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r);padding:18px 20px;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,transform .2s,background .2s}
-    .loc-card:hover{border-color:var(--border-b);transform:translateY(-3px);background:var(--bg-3)}
-    .loc-card__type{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.10em;color:var(--blue)}
-    .loc-card__type--reported{color:var(--amber)}
-    .loc-card__type--restricted{color:#ef4444}
-    .loc-card__name{font-size:15px;font-weight:700;color:var(--t1);line-height:1.2}
-    .loc-card__arr{font-size:12px;color:var(--t3);margin-top:auto;padding-top:8px;transition:color .18s}
-    .loc-card:hover .loc-card__arr{color:var(--blue)}
+    .locations-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .entry-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r);padding:18px 20px;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,transform .2s,background .2s;text-decoration:none}
+    .entry-card:hover{border-color:var(--border-b);transform:translateY(-2px);background:var(--bg-3)}
+    .entry-card__label{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.10em}
+    .entry-card__name{font-size:15px;font-weight:700;color:var(--t1);line-height:1.2}
+    .entry-card__desc{font-size:12px;color:var(--t3);line-height:1.5;margin-top:2px}
+    .entry-card__arr{font-size:12px;color:var(--t3);margin-top:auto;padding-top:8px;transition:color .18s}
+    .entry-card:hover .entry-card__arr{color:var(--blue)}
+    @media(max-width:860px){.locations-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:480px){.locations-grid{grid-template-columns:1fr}}
 
     /* LAUNCH CALLOUT */
     .launch-callout{background:var(--bg-2);border:1px solid var(--border-b);border-radius:16px;padding:44px 48px;display:flex;align-items:center;justify-content:space-between;gap:32px;margin-bottom:80px;position:relative;overflow:hidden}
@@ -374,10 +375,10 @@
           <div class="section-eyebrow__line"></div>
           <span class="section-eyebrow__text">What the map covers</span>
         </div>
-        <h2 class="section-h2" id="covers-hd">Everything in <span>Leonida</span></h2>
+        <h2 class="section-h2" id="covers-hd">The Full <span>Picture</span></h2>
         <div class="covers-grid">
           <div class="covers-card">
-            <div class="covers-card__title">23 Locations</div>
+            <div class="covers-card__title">Locations</div>
             <p class="covers-card__desc">Every confirmed location pinned and linked. Vice City, Port Gellhorn, Grassrivers, the Keys, and every point in between.</p>
           </div>
           <div class="covers-card">
@@ -396,31 +397,31 @@
           <div class="section-eyebrow__line"></div>
           <span class="section-eyebrow__text">Confirmed Locations</span>
         </div>
-        <h2 class="section-h2" id="locations-hd">23 <span>Locations</span></h2>
+        <h2 class="section-h2" id="locations-hd">Locations</h2>
         <div class="locations-grid">
-          <a href="/gameplay/locations/vice-city" class="loc-card"><div class="loc-card__type">Metropolitan Core</div><div class="loc-card__name">Vice City</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/vice-county" class="loc-card"><div class="loc-card__type">Confirmed Region</div><div class="loc-card__name">Vice County</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/port-gellhorn" class="loc-card"><div class="loc-card__type">Confirmed Town</div><div class="loc-card__name">Port Gellhorn</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/leonida-keys" class="loc-card"><div class="loc-card__type">Confirmed Archipelago</div><div class="loc-card__name">Leonida Keys</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/grassrivers" class="loc-card"><div class="loc-card__type">Confirmed Wetlands</div><div class="loc-card__name">Grassrivers</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/mount-kalaga" class="loc-card"><div class="loc-card__type">Confirmed High Elevation</div><div class="loc-card__name">Mount Kalaga</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/mount-kalaga-national-park" class="loc-card"><div class="loc-card__type">Confirmed Wilderness</div><div class="loc-card__name">Mount Kalaga National Park</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/south-beach" class="loc-card"><div class="loc-card__type">Confirmed Shoreline</div><div class="loc-card__name">South Beach</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/north-beaches" class="loc-card"><div class="loc-card__type">Confirmed Coastal Area</div><div class="loc-card__name">North Beaches</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/lake-leonida" class="loc-card"><div class="loc-card__type">Confirmed Water Body</div><div class="loc-card__name">Lake Leonida</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/red-hill-forest" class="loc-card"><div class="loc-card__type">Confirmed Woodland</div><div class="loc-card__name">Red Hill Forest</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/military-base" class="loc-card"><div class="loc-card__type loc-card__type--restricted">Restricted Zone</div><div class="loc-card__name">Military Base</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/monument-of-leonida" class="loc-card"><div class="loc-card__type">Confirmed Landmark</div><div class="loc-card__name">Monument of Leonida</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/ocean-view-hotel" class="loc-card"><div class="loc-card__type">Confirmed Hotel</div><div class="loc-card__name">Ocean View Hotel</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/malibu-club" class="loc-card"><div class="loc-card__type">Confirmed Nightclub</div><div class="loc-card__name">Malibu Club</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/jack-of-hearts" class="loc-card"><div class="loc-card__type">Confirmed Venue</div><div class="loc-card__name">Jack of Hearts</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/nine-1-nine" class="loc-card"><div class="loc-card__type">Confirmed Nightclub</div><div class="loc-card__name">Nine-1-Nine</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/starlet-motel" class="loc-card"><div class="loc-card__type">Confirmed Motel</div><div class="loc-card__name">Starlet Motel</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/ambrosia" class="loc-card"><div class="loc-card__type loc-card__type--reported">Reported Settlement</div><div class="loc-card__name">Ambrosia</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/brians-boat-workshop" class="loc-card"><div class="loc-card__type">Confirmed Business</div><div class="loc-card__name">Brian's Boat Workshop</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/delights-port-gellhorn" class="loc-card"><div class="loc-card__type">Confirmed Venue</div><div class="loc-card__name">Delights Port Gellhorn</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/shrewsbury" class="loc-card"><div class="loc-card__type loc-card__type--reported">Reported District</div><div class="loc-card__name">Shrewsbury</div><div class="loc-card__arr">View &rarr;</div></a>
-          <a href="/gameplay/locations/yorktown" class="loc-card"><div class="loc-card__type loc-card__type--reported">Reported Locality</div><div class="loc-card__name">Yorktown</div><div class="loc-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/vice-city" class="entry-card"><div class="entry-card__label" style="color:#c084fc">Metropolis</div><div class="entry-card__name">Vice City</div><div class="entry-card__desc">The neon capital. Financial and cultural centre of Leonida.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/vice-county" class="entry-card"><div class="entry-card__label" style="color:#84cc16">County</div><div class="entry-card__name">Vice County</div><div class="entry-card__desc">The wider administrative region surrounding Vice City.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/port-gellhorn" class="entry-card"><div class="entry-card__label" style="color:#fbbf24">Town</div><div class="entry-card__name">Port Gellhorn</div><div class="entry-card__desc">Industrial and rural hub to the west. The working side of Leonida.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/south-beach" class="entry-card"><div class="entry-card__label" style="color:#22d3ee">Coastal</div><div class="entry-card__name">South Beach</div><div class="entry-card__desc">The Art Deco strip. Maximum exposure. Maximum foot traffic.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/north-beaches" class="entry-card"><div class="entry-card__label" style="color:#22d3ee">Coastal</div><div class="entry-card__name">North Beaches</div><div class="entry-card__desc">Northern Vice City coastline. Residential and resort strips.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/leonida-keys" class="entry-card"><div class="entry-card__label" style="color:#38bdf8">Archipelago</div><div class="entry-card__name">Leonida Keys</div><div class="entry-card__desc">Tropical island chain stretching south. Naval operations and open water.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/grassrivers" class="entry-card"><div class="entry-card__label" style="color:#2dd4bf">Wetlands</div><div class="entry-card__name">Grassrivers</div><div class="entry-card__desc">Swamp interior. Alligators, pythons, airboats, and the Skunk Ape.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/mount-kalaga" class="entry-card"><div class="entry-card__label" style="color:#4ade80">Nature</div><div class="entry-card__name">Mount Kalaga</div><div class="entry-card__desc">High elevation. Leonida interior mountain territory.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/mount-kalaga-national-park" class="entry-card"><div class="entry-card__label" style="color:#4ade80">Nature</div><div class="entry-card__name">Mount Kalaga National Park</div><div class="entry-card__desc">Protected wilderness surrounding the peak.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/lake-leonida" class="entry-card"><div class="entry-card__label" style="color:#0284c7">Water</div><div class="entry-card__name">Lake Leonida</div><div class="entry-card__desc">Major inland lake. Freshwater access statewide.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/red-hill-forest" class="entry-card"><div class="entry-card__label" style="color:#4ade80">Nature</div><div class="entry-card__name">Red Hill Forest</div><div class="entry-card__desc">Woodland region. Florida panther territory.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/military-base" class="entry-card"><div class="entry-card__label" style="color:#ef4444">Restricted</div><div class="entry-card__name">Military Base</div><div class="entry-card__desc">Government installation. Entry not advised.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/monument-of-leonida" class="entry-card"><div class="entry-card__label" style="color:#fcd34d">Landmark</div><div class="entry-card__name">Monument of Leonida</div><div class="entry-card__desc">Historical state landmark.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/ocean-view-hotel" class="entry-card"><div class="entry-card__label" style="color:#e879f9">Hotel</div><div class="entry-card__name">Ocean View Hotel</div><div class="entry-card__desc">Ocean Drive hotel. Vice City beachfront.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/malibu-club" class="entry-card"><div class="entry-card__label" style="color:#e11d48">Nightclub</div><div class="entry-card__name">Malibu Club</div><div class="entry-card__desc">Vice City legacy venue. Nightlife and criminal operations.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/jack-of-hearts" class="entry-card"><div class="entry-card__label" style="color:#f472b6">Strip Club</div><div class="entry-card__name">Jack of Hearts</div><div class="entry-card__desc">Adult entertainment. Vice City.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/nine-1-nine" class="entry-card"><div class="entry-card__label" style="color:#e11d48">Nightclub</div><div class="entry-card__name">Nine-One-Nine</div><div class="entry-card__desc">Active Vice City nightlife venue inside the urban grid.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/starlet-motel" class="entry-card"><div class="entry-card__label" style="color:#f97316">Motel</div><div class="entry-card__name">Starlet Motel</div><div class="entry-card__desc">Roadside lodging. Rural Leonida.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/ambrosia" class="entry-card"><div class="entry-card__label" style="color:#94a3b8">Locality</div><div class="entry-card__name">Ambrosia</div><div class="entry-card__desc">Rural settlement. Interior Leonida.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/brians-boat-workshop" class="entry-card"><div class="entry-card__label" style="color:#60a5fa">Business</div><div class="entry-card__name">Brian's Boat Workshop</div><div class="entry-card__desc">Marine repair. Operational contact point.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/delights-port-gellhorn" class="entry-card"><div class="entry-card__label" style="color:#60a5fa">Business</div><div class="entry-card__name">Delights Port Gellhorn</div><div class="entry-card__desc">Venue in the Port Gellhorn corridor.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/shrewsbury" class="entry-card"><div class="entry-card__label" style="color:#818cf8">District</div><div class="entry-card__name">Shrewsbury</div><div class="entry-card__desc">Urban district within the Vice County jurisdiction.</div><div class="entry-card__arr">View &rarr;</div></a>
+          <a href="/gameplay/locations/yorktown" class="entry-card"><div class="entry-card__label" style="color:#94a3b8">Locality</div><div class="entry-card__name">Yorktown</div><div class="entry-card__desc">Rural Leonida settlement.</div><div class="entry-card__arr">View &rarr;</div></a>
         </div>
       </section>
 
