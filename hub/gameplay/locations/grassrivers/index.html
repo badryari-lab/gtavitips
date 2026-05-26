@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +21,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Article","headline":"Grassrivers - GTA 6 Location","description":"Grassrivers is the wetland and swamp region in GTA 6 Leonida. Alligators, pythons, dense vegetation, and a waterway network.","url":"https://gtavitips.com/gameplay/locations/grassrivers","dateModified":"2026-02-01","publisher":{"@type":"Organization","name":"GTAVITIPS","url":"https://gtavitips.com"}}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is Grassrivers in GTA 6?","acceptedAnswer":{"@type":"Answer","text":"The wetlands and river basin region of Leonida. Swamp terrain, waterways, and airboat country. Confirmed in the official trailers."}},{"@type":"Question","name":"What is Grassrivers based on?","acceptedAnswer":{"@type":"Answer","text":"The Everglades, Florida. The waterway density, airboat culture, and swamp ecosystem are drawn from the real region west and south of Miami."}},{"@type":"Question","name":"Can you use airboats in Grassrivers?","acceptedAnswer":{"@type":"Answer","text":"Confirmed. Airboats appear in the official trailer footage set in the wetlands."}},{"@type":"Question","name":"What animals are in Grassrivers?","acceptedAnswer":{"@type":"Answer","text":"Confirmed species include alligators, Florida panthers, flamingos, and various fish and birds native to the Everglades ecosystem."}}]}
   </script>
   <style>
     :root {
@@ -159,6 +162,11 @@
 
     /* CONNECTED INTEL CARDS */
     .connected-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .faq-list{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+    .faq-item{padding:20px 24px;border-bottom:1px solid var(--border)}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
+    .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
     .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 16px 18px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; display: flex; flex-direction: column; gap: 4px; }
     .conn-card:hover { border-color: var(--border-b); transform: translateY(-3px); background: var(--bg-3); }
     .conn-card__type { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .10em; color: var(--pink); }
@@ -232,6 +240,11 @@
       .operator-notes__grid { grid-template-columns: 1fr; }
       .sighting-entry { grid-template-columns: 1fr; gap: 4px; }
       .connected-grid { grid-template-columns: 1fr; }
+    .faq-list{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+    .faq-item{padding:20px 24px;border-bottom:1px solid var(--border)}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
+    .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
     }
  
@@ -388,13 +401,22 @@
       </section>
       <section class="section reveal" aria-labelledby="sightings-hd">
         <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Official Rockstar Sources Only</span></div>
-        <h2 class="section__h2" id="sightings-hd">Verified <span style="color:var(--blue)">Sightings</span></h2>
+        <h2 class="section__h2" id="sightings-hd">On <span style="color:var(--blue)">Record</span></h2>
         <div class="sightings" role="list">          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 1</div><div class="sighting-entry__text"><strong>Grassrivers wetland environment in a vehicle sequence.</strong> Swamp road on the wetland margin. Dense vegetation on both sides. Water visible through the tree line.</div></div>          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 2</div><div class="sighting-entry__text"><strong>Airboat on a Grassrivers waterway channel.</strong> Flat water, dense vegetation walls, and the swamp interior geography confirmed.</div></div>          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 2</div><div class="sighting-entry__text"><strong>Alligator on the Grassrivers bank in a wildlife sequence.</strong> Waterway margin habitat. Consistent with the confirmed American alligator population in this region.</div></div></div>
       </section>
       <section class="section reveal" aria-labelledby="connected-hd">
-        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Related Intelligence</span></div>
-        <h2 class="section__h2" id="connected-hd">Connected <span style="color:var(--blue)">Intelligence</span></h2>
+        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Cross-Reference</span></div>
+        <h2 class="section__h2" id="connected-hd">What's <span style="color:var(--blue)">Connected</span></h2>
         <div class="connected-grid" role="list">          <a href="/gameplay/locations/port-gellhorn" class="conn-card reveal"><div class="conn-card__type">Industrial Town</div><div class="conn-card__name">Port Gellhorn</div><div class="conn-card__desc">The waterway system connects to Port Gellhorn at the coast. The swamp is the back route between inland and the port.</div></a>          <a href="/gameplay/animals/american-alligator" class="conn-card reveal"><div class="conn-card__type">Wildlife</div><div class="conn-card__name">American Alligator</div><div class="conn-card__desc">Primary apex predator of the Grassrivers. Waterway banks and vegetation margins throughout the region.</div></a>          <a href="/gameplay/animals/pythons" class="conn-card reveal"><div class="conn-card__type">Wildlife</div><div class="conn-card__name">Pythons</div><div class="conn-card__desc">Confirmed in the Grassrivers vegetation margin. Invasive species established in the wetland system.</div></a>          <a href="/gameplay/locations/vice-county" class="conn-card reveal"><div class="conn-card__type">Region</div><div class="conn-card__name">Vice County</div><div class="conn-card__desc">The county jurisdiction that includes the Grassrivers on its wetland margin.</div></a></div>
+      <section class="section reveal" aria-labelledby="faq-hd">
+        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Common Questions</span></div>
+        <h2 class="section__h2" id="faq-hd">Common <span style="color:var(--blue)">Questions</span></h2>
+        <div class="faq-list" role="list">
+          <div class="faq-item" role="listitem"><div class="faq-item__q">What is Grassrivers in GTA 6?</div><div class="faq-item__a">The wetlands and river basin region of Leonida. Swamp terrain, waterways, and the kind of geography that makes pursuit vehicles useless. Confirmed in the official trailers.</div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">What is Grassrivers based on?</div><div class="faq-item__a">The Everglades, Florida. The waterway density, airboat culture, and swamp ecosystem are all drawn from the real region west and south of Miami.</div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">Can you use airboats in Grassrivers?</div><div class="faq-item__a">Confirmed. Airboats appear in the official trailer footage set in the wetlands. The terrain is built around waterway navigation — airboats are not optional here.</div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">What animals are in Grassrivers?</div><div class="faq-item__a">Confirmed species in the wetlands include <a href="/gameplay/animals/american-alligator" style="color:var(--blue)">alligators</a>, <a href="/gameplay/animals/florida-panther" style="color:var(--blue)">Florida panthers</a>, <a href="/gameplay/animals/flamingo" style="color:var(--blue)">flamingos</a>, and various fish and birds native to the Everglades ecosystem.</div></div>
+        </div>
       </section>
     </div>
     <aside class="content-side" aria-label="Location navigation">

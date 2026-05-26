@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +21,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Article","headline":"Leonida Keys - GTA 6 Location","description":"The Leonida Keys are a tropical island chain in GTA 6, south of Vice City. Coral reefs, shallow waterways, and maritime access routes.","url":"https://gtavitips.com/gameplay/locations/leonida-keys","dateModified":"2026-02-01","publisher":{"@type":"Organization","name":"GTAVITIPS","url":"https://gtavitips.com"}}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the Leonida Keys in GTA 6?","acceptedAnswer":{"@type":"Answer","text":"An island chain extending south from the Leonida mainland. Confirmed as an operational zone for Lucia and Jason in the official trailers."}},{"@type":"Question","name":"What are the Leonida Keys based on?","acceptedAnswer":{"@type":"Answer","text":"The Florida Keys. The island chain geography, the single highway connecting them, and the water-on-both-sides exposure all map directly to the real Keys south of Miami."}},{"@type":"Question","name":"Are the Leonida Keys confirmed in GTA 6?","acceptedAnswer":{"@type":"Answer","text":"Confirmed. Lucia and Jason are seen running operations in the Keys in the official Rockstar trailer footage."}},{"@type":"Question","name":"What can you do in the Leonida Keys?","acceptedAnswer":{"@type":"Answer","text":"The Keys are a confirmed operational zone. Water access on both sides means boat routes are as important as road exits. Diving is also confirmed for the region."}}]}
   </script>
   <style>
     :root {
@@ -159,6 +162,11 @@
 
     /* CONNECTED INTEL CARDS */
     .connected-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .faq-list{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+    .faq-item{padding:20px 24px;border-bottom:1px solid var(--border)}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
+    .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
     .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 16px 18px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; display: flex; flex-direction: column; gap: 4px; }
     .conn-card:hover { border-color: var(--border-b); transform: translateY(-3px); background: var(--bg-3); }
     .conn-card__type { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .10em; color: var(--pink); }
@@ -232,6 +240,11 @@
       .operator-notes__grid { grid-template-columns: 1fr; }
       .sighting-entry { grid-template-columns: 1fr; gap: 4px; }
       .connected-grid { grid-template-columns: 1fr; }
+    .faq-list{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+    .faq-item{padding:20px 24px;border-bottom:1px solid var(--border)}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
+    .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
     }
  
@@ -388,13 +401,22 @@
       </section>
       <section class="section reveal" aria-labelledby="sightings-hd">
         <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Official Rockstar Sources Only</span></div>
-        <h2 class="section__h2" id="sightings-hd">Verified <span style="color:var(--blue)">Sightings</span></h2>
+        <h2 class="section__h2" id="sightings-hd">On <span style="color:var(--blue)">Record</span></h2>
         <div class="sightings" role="list">          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 1</div><div class="sighting-entry__text"><strong>Leonida Keys tropical coastline confirmed in an aerial establishing sequence.</strong> Island chain geography and shallow turquoise water visible. The Keys environment distinguishable from the Vice City coastal zone.</div></div>          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 2</div><div class="sighting-entry__text"><strong>Boat operation in the Keys waterway system.</strong> Shallow channel navigation between mangrove margins. Water clarity and reef geology consistent with Keys geography.</div></div>          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 2</div><div class="sighting-entry__text"><strong>Keys-type coastal settlement visible in a waterfront sequence.</strong> Low-rise structures, dock infrastructure, and the maritime character of the outer island economy.</div></div></div>
       </section>
       <section class="section reveal" aria-labelledby="connected-hd">
-        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Related Intelligence</span></div>
-        <h2 class="section__h2" id="connected-hd">Connected <span style="color:var(--blue)">Intelligence</span></h2>
+        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Cross-Reference</span></div>
+        <h2 class="section__h2" id="connected-hd">What's <span style="color:var(--blue)">Connected</span></h2>
         <div class="connected-grid" role="list">          <a href="/gameplay/locations/vice-city" class="conn-card reveal"><div class="conn-card__type">Core City</div><div class="conn-card__name">Vice City</div><div class="conn-card__desc">The northern anchor of Leonida. The Keys extend south from the metropolitan base.</div></a>          <a href="/gameplay/locations/south-beach" class="conn-card reveal"><div class="conn-card__type">Coastal Area</div><div class="conn-card__name">South Beach</div><div class="conn-card__desc">The southern Vice City waterfront. The nearest urban zone to the Keys chain.</div></a>          <a href="/gameplay/animals/shark" class="conn-card reveal"><div class="conn-card__type">Marine Life</div><div class="conn-card__name">Sharks</div><div class="conn-card__desc">Open water around the outer Keys. Present in the deeper Atlantic channels beyond the reef system.</div></a>          <a href="/gameplay/animals/sea-turtle" class="conn-card reveal"><div class="conn-card__type">Marine Life</div><div class="conn-card__name">Sea Turtle</div><div class="conn-card__desc">Reef systems and shallow coastal areas. The Keys habitat is the primary sea turtle environment in Leonida.</div></a></div>
+      <section class="section reveal" aria-labelledby="faq-hd">
+        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Common Questions</span></div>
+        <h2 class="section__h2" id="faq-hd">Common <span style="color:var(--blue)">Questions</span></h2>
+        <div class="faq-list" role="list">
+          <div class="faq-item" role="listitem"><div class="faq-item__q">What are the Leonida Keys in GTA 6?</div><div class="faq-item__a">An island chain extending south from the Leonida mainland. Confirmed as an operational zone for <a href="/gameplay/characters/lucia-caminos" style="color:var(--blue)">Lucia</a> and <a href="/gameplay/characters/jason-duval" style="color:var(--blue)">Jason</a> in the official trailers.</div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">What are the Leonida Keys based on?</div><div class="faq-item__a">The Florida Keys. The island chain geography, the single highway connecting them, and the water-on-both-sides exposure all map directly to the real Keys south of Miami.</div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">Are the Leonida Keys confirmed in GTA 6?</div><div class="faq-item__a">Confirmed. Lucia and Jason are seen running operations in the Keys in the official Rockstar trailer footage.</div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">What can you do in the Leonida Keys?</div><div class="faq-item__a">The Keys are a confirmed operational zone. Water access on both sides means boat and watercraft routes are as important as road exits. Diving and water-based activities are also confirmed for the region.</div></div>
+        </div>
       </section>
     </div>
     <aside class="content-side" aria-label="Location navigation">

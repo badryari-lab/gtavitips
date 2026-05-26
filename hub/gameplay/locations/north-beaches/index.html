@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +21,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Article","headline":"North Beaches - GTA 6 Location","description":"North Beaches is the northern coastal zone of Vice City in GTA 6. Residential and recreational character distinct from the South Beach tourist strip.","url":"https://gtavitips.com/gameplay/locations/north-beaches","dateModified":"2026-02-01","publisher":{"@type":"Organization","name":"GTAVITIPS","url":"https://gtavitips.com"}}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the North Beaches in GTA 6?","acceptedAnswer":{"@type":"Answer","text":"The northern coastal strip of Vice City. Less concentrated than South Beach — more residential, lower tourist density."}},{"@type":"Question","name":"Are the North Beaches confirmed in GTA 6?","acceptedAnswer":{"@type":"Answer","text":"Confirmed. Coastal footage in the official trailers shows the northern beachfront district as part of Vice City Atlantic coastline."}},{"@type":"Question","name":"How do the North Beaches differ from South Beach?","acceptedAnswer":{"@type":"Answer","text":"South Beach is the postcard — Art Deco, neon, maximum exposure. North Beaches is quieter. Less VCPD saturation, less foot traffic."}}]}
   </script>
   <style>
     :root {
@@ -159,6 +162,11 @@
 
     /* CONNECTED INTEL CARDS */
     .connected-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .faq-list{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+    .faq-item{padding:20px 24px;border-bottom:1px solid var(--border)}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
+    .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
     .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 16px 18px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; display: flex; flex-direction: column; gap: 4px; }
     .conn-card:hover { border-color: var(--border-b); transform: translateY(-3px); background: var(--bg-3); }
     .conn-card__type { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .10em; color: var(--pink); }
@@ -232,6 +240,11 @@
       .operator-notes__grid { grid-template-columns: 1fr; }
       .sighting-entry { grid-template-columns: 1fr; gap: 4px; }
       .connected-grid { grid-template-columns: 1fr; }
+    .faq-list{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+    .faq-item{padding:20px 24px;border-bottom:1px solid var(--border)}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
+    .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
     }
  
@@ -388,13 +401,21 @@
       </section>
       <section class="section reveal" aria-labelledby="sightings-hd">
         <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Official Rockstar Sources Only</span></div>
-        <h2 class="section__h2" id="sightings-hd">Verified <span style="color:var(--blue)">Sightings</span></h2>
+        <h2 class="section__h2" id="sightings-hd">On <span style="color:var(--blue)">Record</span></h2>
         <div class="sightings" role="list">          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 1</div><div class="sighting-entry__text"><strong>North Beaches coastal sequence in an establishing shot.</strong> Residential beach character visible. Architecture and street density distinguishable from the South Beach tourist zone.</div></div>          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 2</div><div class="sighting-entry__text"><strong>North Beaches seafront in a daytime sequence.</strong> Open beach access and the residential coastal street grid confirmed. The tourist strip infrastructure absent from this end of the coastline.</div></div></div>
       </section>
       <section class="section reveal" aria-labelledby="connected-hd">
-        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Related Intelligence</span></div>
-        <h2 class="section__h2" id="connected-hd">Connected <span style="color:var(--blue)">Intelligence</span></h2>
+        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Cross-Reference</span></div>
+        <h2 class="section__h2" id="connected-hd">What's <span style="color:var(--blue)">Connected</span></h2>
         <div class="connected-grid" role="list">          <a href="/gameplay/locations/south-beach" class="conn-card reveal"><div class="conn-card__type">Coastal Area</div><div class="conn-card__name">South Beach</div><div class="conn-card__desc">The southern tourist strip. Art Deco architecture, maximum foot traffic, and the postcard version of Vice City.</div></a>          <a href="/gameplay/locations/vice-city" class="conn-card reveal"><div class="conn-card__type">Core City</div><div class="conn-card__name">Vice City</div><div class="conn-card__desc">The metropolitan context. North Beaches is the upper residential coastal margin of the city.</div></a>          <a href="/gameplay/locations/nine-1-nine" class="conn-card reveal"><div class="conn-card__type">Nightclub</div><div class="conn-card__name">Nine 1 Nine</div><div class="conn-card__desc">Vice City nightlife venue operating in the coastal zone.</div></a>          <a href="/gameplay/gangs-and-factions/vcpd" class="conn-card reveal"><div class="conn-card__type">Agency</div><div class="conn-card__name">VCPD</div><div class="conn-card__desc">Vice City Police Department. Standard patrol grid on the residential North Beaches streets.</div></a></div>
+      <section class="section reveal" aria-labelledby="faq-hd">
+        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Common Questions</span></div>
+        <h2 class="section__h2" id="faq-hd">Common <span style="color:var(--blue)">Questions</span></h2>
+        <div class="faq-list" role="list">
+          <div class="faq-item" role="listitem"><div class="faq-item__q">What are the North Beaches in GTA 6?</div><div class="faq-item__a">The northern coastal strip of <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a>. Less concentrated than <a href="/gameplay/locations/south-beach" style="color:var(--blue)">South Beach</a> — more residential, lower tourist density, and a different kind of exposure.</div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">Are the North Beaches confirmed in GTA 6?</div><div class="faq-item__a">Confirmed. Coastal footage in the official trailers shows the northern beachfront district as part of Vice City's Atlantic coastline.</div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">How do the North Beaches differ from South Beach?</div><div class="faq-item__a"><a href="/gameplay/locations/south-beach" style="color:var(--blue)">South Beach</a> is the postcard — Art Deco, neon, maximum exposure. North Beaches is quieter. Less <a href="/gameplay/gangs-and-factions/vcpd" style="color:var(--blue)">VCPD</a> saturation, less foot traffic. Different kind of useful.</div></div>
+        </div>
       </section>
     </div>
     <aside class="content-side" aria-label="Location navigation">

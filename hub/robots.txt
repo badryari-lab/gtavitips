@@ -1,15 +1,14 @@
 # robots.txt – gtavitips.com
-# Generated: 2026-05-23
+# Updated: 2026-05-26
 
 User-agent: *
 Allow: /
-
-# Block dev artifacts and utility paths
 Disallow: /faq/Nieuwe map/
 Disallow: /faq/gta-6-save-system/
 Disallow: /faq/how-much-does-gta-6-cost/gta-6-early-access/
 
-# Assets – crawlable for image indexing, no need to block
-# Disallow: /assets/
+# Block OpenAI training crawler — OAI-SearchBot (live citations) remains allowed via *
+User-agent: GPTBot
+Disallow: /
 
 Sitemap: https://gtavitips.com/sitemap.xml

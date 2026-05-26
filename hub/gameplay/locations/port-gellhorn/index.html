@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -24,6 +24,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Article","headline":"Port Gellhorn - GTA 6 Location","description":"Port Gellhorn is the industrial port town in GTA 6 Leonida. Docks, warehouses, and the wetland margin between the coast and the interior.","url":"https://gtavitips.com/gameplay/locations/port-gellhorn","dateModified":"2026-02-01","publisher":{"@type":"Organization","name":"GTAVITIPS","url":"https://gtavitips.com"}}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is Port Gellhorn in GTA 6?","acceptedAnswer":{"@type":"Answer","text":"A working port town south of Vice City in Leonida. Industrial, water-dependent, and confirmed in multiple official trailer sequences."}},{"@type":"Question","name":"Where is Port Gellhorn in Leonida?","acceptedAnswer":{"@type":"Answer","text":"South of Vice City on the Leonida coast. The port connects Vice City to wider Leonida waterway routes."}},{"@type":"Question","name":"What can you do in Port Gellhorn?","acceptedAnswer":{"@type":"Answer","text":"Port Gellhorn has confirmed water access, industrial infrastructure, and venues including Delights bar. Brian Heder boat workshop operates here."}},{"@type":"Question","name":"Is Port Gellhorn confirmed in GTA 6?","acceptedAnswer":{"@type":"Answer","text":"Confirmed. Named in official Rockstar materials and featured in trailer footage as a significant Leonida location."}}]}
   </script>
   <style>
 
@@ -163,6 +166,11 @@
 
     /* CONNECTED INTEL CARDS */
     .connected-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .faq-list{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+    .faq-item{padding:20px 24px;border-bottom:1px solid var(--border)}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
+    .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
     .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 16px 18px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; display: flex; flex-direction: column; gap: 4px; }
     .conn-card:hover { border-color: var(--border-b); transform: translateY(-3px); background: var(--bg-3); }
     .conn-card__type { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .10em; color: var(--pink); }
@@ -236,6 +244,11 @@
       .operator-notes__grid { grid-template-columns: 1fr; }
       .sighting-entry { grid-template-columns: 1fr; gap: 4px; }
       .connected-grid { grid-template-columns: 1fr; }
+    .faq-list{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+    .faq-item{padding:20px 24px;border-bottom:1px solid var(--border)}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
+    .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
     }
  
@@ -434,7 +447,7 @@
           </section>
           <section class="section reveal" aria-labelledby="sightings-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Official Rockstar Sources Only</span></div>
-            <h2 class="section__h2" id="sightings-hd">Verified <span style="color:var(--blue)">Sightings</span></h2>
+            <h2 class="section__h2" id="sightings-hd">On <span style="color:var(--blue)">Record</span></h2>
             <div class="sightings" role="list">
           <div class="sighting-entry reveal">
             <div class="sighting-entry__source">Trailer 2</div>
@@ -451,8 +464,8 @@
             </div>
           </section>
           <section class="section reveal" aria-labelledby="connected-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Related Intelligence</span></div>
-            <h2 class="section__h2" id="connected-hd">Connected <span style="color:var(--blue)">Intelligence</span></h2>
+            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Cross-Reference</span></div>
+            <h2 class="section__h2" id="connected-hd">What's <span style="color:var(--blue)">Connected</span></h2>
             <div class="connected-grid" role="list">
           <a href="/gameplay/locations/vice-county" class="conn-card reveal">
             <div class="conn-card__type">Region</div>
@@ -474,6 +487,16 @@
             <div class="conn-card__name">Brian's Boat Workshop</div>
             <div class="conn-card__desc">Marine repair and boat services. Connected to Brian Heder and the Port Gellhorn waterfront.</div>
           </a>
+            </div>
+          </section>
+          <section class="section reveal" aria-labelledby="faq-hd">
+            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Common Questions</span></div>
+            <h2 class="section__h2" id="faq-hd">Common <span style="color:var(--blue)">Questions</span></h2>
+            <div class="faq-list" role="list">
+              <div class="faq-item" role="listitem"><div class="faq-item__q">What is Port Gellhorn in GTA 6?</div><div class="faq-item__a">A working port town south of <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> in Leonida. Industrial, water-dependent, and confirmed in multiple official trailer sequences. The kind of place where cargo moves and questions don't.</div></div>
+              <div class="faq-item" role="listitem"><div class="faq-item__q">Where is Port Gellhorn in Leonida?</div><div class="faq-item__a">South of Vice City on the Leonida coast. The port connects Vice City to wider Leonida waterway routes and handles the kind of freight that doesn't always go through official channels.</div></div>
+              <div class="faq-item" role="listitem"><div class="faq-item__q">What is in Port Gellhorn?</div><div class="faq-item__a">Confirmed locations include <a href="/gameplay/locations/brians-boat-workshop" style="color:var(--blue)">Brian's Boat Workshop</a> and <a href="/gameplay/locations/delights-port-gellhorn" style="color:var(--blue)">Delights</a>. Industrial docks, marine infrastructure, and the usual population that works around ports.</div></div>
+              <div class="faq-item" role="listitem"><div class="faq-item__q">Is Port Gellhorn confirmed in GTA 6?</div><div class="faq-item__a">Confirmed. Named in official Rockstar materials and featured prominently in trailer footage as a major Leonida location.</div></div>
             </div>
           </section>
         </div>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -24,6 +24,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Article","headline":"Shrewsbury - GTA 6 Location","description":"Shrewsbury is a named urban area in GTA 6 Leonida. Confirmed in official material. Detailed profile pending.","url":"https://gtavitips.com/gameplay/locations/shrewsbury","dateModified":"2026-02-01","publisher":{"@type":"Organization","name":"GTAVITIPS","url":"https://gtavitips.com"}}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is Shrewsbury in GTA 6?","acceptedAnswer":{"@type":"Answer","text":"An urban district in Leonida. Confirmed in the state administrative geography via official sources."}},{"@type":"Question","name":"Where is Shrewsbury in Leonida?","acceptedAnswer":{"@type":"Answer","text":"In the Leonida urban zone. Exact position is still under documentation."}},{"@type":"Question","name":"Is Shrewsbury confirmed in GTA 6?","acceptedAnswer":{"@type":"Answer","text":"Confirmed by name in official Rockstar materials. Detailed profiling of the district is still in progress."}}]}
   </script>
   <style>
 
@@ -163,6 +166,11 @@
 
     /* CONNECTED INTEL CARDS */
     .connected-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .faq-list{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+    .faq-item{padding:20px 24px;border-bottom:1px solid var(--border)}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
+    .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
     .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 16px 18px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; display: flex; flex-direction: column; gap: 4px; }
     .conn-card:hover { border-color: var(--border-b); transform: translateY(-3px); background: var(--bg-3); }
     .conn-card__type { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .10em; color: var(--pink); }
@@ -236,6 +244,11 @@
       .operator-notes__grid { grid-template-columns: 1fr; }
       .sighting-entry { grid-template-columns: 1fr; gap: 4px; }
       .connected-grid { grid-template-columns: 1fr; }
+    .faq-list{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+    .faq-item{padding:20px 24px;border-bottom:1px solid var(--border)}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
+    .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
     }
  
@@ -435,7 +448,7 @@
           </section>
           <section class="section reveal" aria-labelledby="sightings-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Official Rockstar Sources Only</span></div>
-            <h2 class="section__h2" id="sightings-hd">Verified <span style="color:var(--blue)">Sightings</span></h2>
+            <h2 class="section__h2" id="sightings-hd">On <span style="color:var(--blue)">Record</span></h2>
             <div class="sightings" role="list">
           <div class="sighting-entry reveal">
             <div class="sighting-entry__source">Reported</div>
@@ -444,8 +457,8 @@
             </div>
           </section>
           <section class="section reveal" aria-labelledby="connected-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Related Intelligence</span></div>
-            <h2 class="section__h2" id="connected-hd">Connected <span style="color:var(--blue)">Intelligence</span></h2>
+            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Cross-Reference</span></div>
+            <h2 class="section__h2" id="connected-hd">What's <span style="color:var(--blue)">Connected</span></h2>
             <div class="connected-grid" role="list">
           <a href="/gameplay/locations/vice-city" class="conn-card reveal">
             <div class="conn-card__type">Core City</div>
@@ -467,6 +480,13 @@
             <div class="conn-card__name">Yorktown</div>
             <div class="conn-card__desc">Fellow reported location in Leonida. Similar confirmation status.</div>
           </a>
+          <section class="section reveal" aria-labelledby="faq-hd">
+            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Common Questions</span></div>
+            <h2 class="section__h2" id="faq-hd">Common <span style="color:var(--blue)">Questions</span></h2>
+            <div class="faq-list" role="list">
+              <div class="faq-item" role="listitem"><div class="faq-item__q">What is Shrewsbury in GTA 6?</div><div class="faq-item__a">An urban district in Leonida. Confirmed in the state's administrative geography via official sources. What the district contains is still being mapped.</div></div>
+              <div class="faq-item" role="listitem"><div class="faq-item__q">Where is Shrewsbury in Leonida?</div><div class="faq-item__a">In the Leonida urban zone. Exact position within the city geography is still under documentation — it reads as a district within or adjacent to the main urban sprawl.</div></div>
+              <div class="faq-item" role="listitem"><div class="faq-item__q">Is Shrewsbury confirmed in GTA 6?</div><div class="faq-item__a">Confirmed by name in official Rockstar materials. Detailed profiling of the district is still in progress.</div></div>
             </div>
           </section>
         </div>

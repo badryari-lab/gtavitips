@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Article","headline":"South Beach - GTA 6 Location","description":"South Beach is the iconic tourist coastline of Vice City in GTA 6. Art Deco architecture, neon, high foot traffic, and maximum law enforcement presence.","url":"https://gtavitips.com/gameplay/locations/south-beach","dateModified":"2026-02-01","publisher":{"@type":"Organization","name":"GTAVITIPS","url":"https://gtavitips.com"}}
+    <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is South Beach in GTA 6?","acceptedAnswer":{"@type":"Answer","text":"The tourist-facing southern beachfront of Vice City in GTA 6. Art Deco architecture, neon hotel frontage, and the promenade that runs along the oceanfront."}},{"@type":"Question","name":"Is South Beach confirmed in GTA 6?","acceptedAnswer":{"@type":"Answer","text":"Confirmed. Featured in both Trailer 1 and Trailer 2 with multiple direct shots of the Art Deco strip, Ocean Drive architecture, and the nighttime promenade."}},{"@type":"Question","name":"What is South Beach based on?","acceptedAnswer":{"@type":"Answer","text":"Miami Beach South Beach district. The Ocean Drive strip, Art Deco hotels, and beachfront promenade are all directly referenced in the GTA 6 version."}},{"@type":"Question","name":"Is South Beach safe to operate in?","acceptedAnswer":{"@type":"Answer","text":"Not particularly. Maximum foot traffic, VCPD patrol density, and cameras on every hotel facade. Everything that happens here gets seen."}}]}
   </script>
+</script>
   <style>
     :root {
       --blue:        #005f90;
@@ -159,6 +162,11 @@
 
     /* CONNECTED INTEL CARDS */
     .connected-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .faq-list{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+    .faq-item{padding:20px 24px;border-bottom:1px solid var(--border)}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
+    .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
     .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 16px 18px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; display: flex; flex-direction: column; gap: 4px; }
     .conn-card:hover { border-color: var(--border-b); transform: translateY(-3px); background: var(--bg-3); }
     .conn-card__type { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .10em; color: var(--pink); }
@@ -232,6 +240,11 @@
       .operator-notes__grid { grid-template-columns: 1fr; }
       .sighting-entry { grid-template-columns: 1fr; gap: 4px; }
       .connected-grid { grid-template-columns: 1fr; }
+    .faq-list{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+    .faq-item{padding:20px 24px;border-bottom:1px solid var(--border)}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item__q{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:8px;line-height:1.4}
+    .faq-item__a{font-size:13px;color:var(--t2);line-height:1.75}
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
     }
  
@@ -387,14 +400,23 @@
       </section>
       <section class="section reveal" aria-labelledby="sightings-hd">
         <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Official Rockstar Sources Only</span></div>
-        <h2 class="section__h2" id="sightings-hd">Verified <span style="color:var(--blue)">Sightings</span></h2>
+        <h2 class="section__h2" id="sightings-hd">On <span style="color:var(--blue)">Record</span></h2>
         <div class="sightings" role="list">          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 1</div><div class="sighting-entry__text"><strong>South Beach Art Deco strip confirmed in an establishing sequence.</strong> Ocean Drive architecture, neon hotel signage, and the promenade visible. The postcard shot.</div></div>          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 2</div><div class="sighting-entry__text"><strong>South Beach at night in a pursuit sequence.</strong> Neon frontage, tourist foot traffic on the promenade, and <a href="/gameplay/gangs-and-factions/vcpd" style="color:var(--blue)">VCPD</a> units in the street. All confirmed simultaneously.</div></div>          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 2</div><div class="sighting-entry__text"><strong>Luxury vehicle on Ocean Drive.</strong> The promenade and hotel facade architecture. The <a href="/gameplay/brands/didier-sachs" style="color:var(--blue)">Didier Sachs</a> and <a href="/gameplay/brands/ponsonbys" style="color:var(--blue)">Ponsonbys</a> retail frontage visible in the sequence.</div></div></div>
       </section>
       <section class="section reveal" aria-labelledby="connected-hd">
-        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Related Intelligence</span></div>
-        <h2 class="section__h2" id="connected-hd">Connected <span style="color:var(--blue)">Intelligence</span></h2>
+        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Cross-Reference</span></div>
+        <h2 class="section__h2" id="connected-hd">What's <span style="color:var(--blue)">Connected</span></h2>
         <div class="connected-grid" role="list">          <a href="/gameplay/locations/north-beaches" class="conn-card reveal"><div class="conn-card__type">Coastal Area</div><div class="conn-card__name">North Beaches</div><div class="conn-card__desc">The residential northern coastline. Less tourist density, lower law enforcement intensity.</div></a>          <a href="/gameplay/locations/vice-city" class="conn-card reveal"><div class="conn-card__type">Core City</div><div class="conn-card__name">Vice City</div><div class="conn-card__desc">The metropolitan context. South Beach is the tourist face of the city.</div></a>          <a href="/gameplay/locations/malibu-club" class="conn-card reveal"><div class="conn-card__type">Nightclub</div><div class="conn-card__name">Malibu Club</div><div class="conn-card__desc">The South Beach nightclub. Returning from GTA Vice City.</div></a>          <a href="/gameplay/brands/didier-sachs" class="conn-card reveal"><div class="conn-card__type">Luxury Brand</div><div class="conn-card__name">Didier Sachs</div><div class="conn-card__desc">Luxury retail on the South Beach corridor. The bag that says what the owner cannot.</div></a></div>
-      </section>
+      <section class="section reveal" aria-labelledby="faq-hd">
+        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Common Questions</span></div>
+        <h2 class="section__h2" id="faq-hd">Common <span style="color:var(--blue)">Questions</span></h2>
+        <div class="faq-list" role="list">
+          <div class="faq-item" role="listitem"><div class="faq-item__q">What is South Beach in GTA 6?</div><div class="faq-item__a">The tourist-facing southern beachfront of <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a>. Art Deco architecture, neon hotel frontage, and the promenade that runs along the oceanfront. The most densely surveilled strip in Leonida.</div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">Is South Beach confirmed in GTA 6?</div><div class="faq-item__a">Confirmed. Featured in both Trailer 1 and Trailer 2 with multiple direct shots of the Art Deco strip, Ocean Drive architecture, and the nighttime promenade.</div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">What is South Beach based on?</div><div class="faq-item__a">Miami Beach's South Beach district. The Ocean Drive strip, Art Deco hotels, and beachfront promenade are all directly referenced in the GTA 6 version.</div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">Is South Beach safe to operate in?</div><div class="faq-item__a">Not particularly. Maximum foot traffic, <a href="/gameplay/gangs-and-factions/vcpd" style="color:var(--blue)">VCPD</a> patrol density, and cameras on every hotel facade. Everything that happens here gets seen. The early morning window is the only time the strip thins out.</div></div>
+        </div>
+      </section>      </section>
     </div>
     <aside class="content-side" aria-label="Location navigation">
       <div class="callout reveal"><div class="callout__title">Locations Index</div><div class="callout__items">
