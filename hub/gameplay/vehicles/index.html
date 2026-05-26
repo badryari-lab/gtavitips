@@ -292,6 +292,14 @@
     (function(){
       var grid=document.getElementById('vehicles-grid');
       if(!grid)return;
+            function splitTitle(t){
+        t=String(t).trim();var w=t.split(/\s+/).filter(Boolean),n=w.length;
+        if(n<=1)return t;
+        var s='<span style="color:var(--blue)">';
+        if(t.indexOf('&')!==-1){var m=t.match(/^(.*?)\s*(&.+)$/);if(m&&m[1])return m[1]+' '+s+m[2]+'</span>';return t;}
+        if(t.indexOf(':')!==-1){var m=t.match(/^(.+?:)\s*(.+)$/);if(m)return m[1]+' '+s+m[2]+'</span>';}
+        var wc=Math.ceil(n/2);return w.slice(0,wc).join(' ')+' '+s+w.slice(wc).join(' ')+'</span>';
+      }
       fetch('/assets/data/vehicles.json')
         .then(function(r){return r.json()})
         .then(function(data){
