@@ -6,10 +6,9 @@
       "title": "Melee",
       "items": [
         { "url": "/gameplay/weapons/baseball-bat",   "label": "Blunt",  "color": "var(--amber)", "name": "Baseball Bat",   "desc": "Plausible deniability. Everyone in Leonida has one.",              "dataName": "baseball bat",              "dataCat": "melee" },
-        { "url": "/gameplay/weapons/combat-knife",   "label": "Blade",  "color": "#dc3545",      "name": "Combat Knife",   "desc": "Military-spec blade for close quarters.",                          "dataName": "combat knife",              "dataCat": "melee" },
         { "url": "/gameplay/weapons/crowbar",        "label": "Blunt",  "color": "var(--amber)", "name": "Crowbar",        "desc": "Opens doors and skulls.",                                           "dataName": "crowbar",                   "dataCat": "melee" },
         { "url": "/gameplay/weapons/golf-club",      "label": "Blunt",  "color": "var(--amber)", "name": "Golf Club",      "desc": "Vice City staple. Technically a sports item.",                      "dataName": "golf club",                 "dataCat": "melee" },
-        { "url": "/gameplay/weapons/knife",          "label": "Blade",  "color": "#dc3545",      "name": "Knife",          "desc": "Silent. Permanent.",                                                "dataName": "knife",                     "dataCat": "melee" },
+        { "url": "/gameplay/weapons/knife",          "label": "Blade",  "color": "#dc3545",      "name": "Combat Knife",   "desc": "Military-spec blade for close quarters.",                           "dataName": "combat knife",              "dataCat": "melee" },
         { "url": "/gameplay/weapons/pool-cue",       "label": "Blunt",  "color": "var(--amber)", "name": "Pool Cue",       "desc": "Bar fight standard. Snaps on the third swing.",                     "dataName": "pool cue",                  "dataCat": "melee" },
         { "url": "/gameplay/weapons/throwing-knife", "label": "Thrown", "color": "var(--blue)",  "name": "Throwing Knife", "desc": "Silent ranged option. Skill-dependent.",                            "dataName": "throwing knife",            "dataCat": "melee" }
       ]
