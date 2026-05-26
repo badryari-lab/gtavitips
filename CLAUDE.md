@@ -200,7 +200,7 @@ When a better image is found for a ⚠ category, update it on the homepage card 
 - **Setting:** State of Leonida (fictional Florida). Vice City is the main urban hub (Miami analog).
 - **Protagonists:** Lucia Caminos (Liberty City origin, released from Leonida correctional at story start) and Jason Duval (Leonida native, military background, drug running history)
 - **Release date:** November 19, 2026 — PS5 and Xbox Series X/S only at launch. No PC date confirmed.
-- **Database size:** 288 entries across 8 categories (as of May 2026)
+- **Database size:** 287 entries across 8 categories (as of May 2026)
 - **Key confirmed locations:** Vice City, South Beach, Leonida Keys, Port Gellhorn, Grassrivers, Mount Kalaga, Lake Leonida, Red Hill Forest
 - **Key confirmed factions:** 7X (dominant Vice City street gang), High Rollerz (car culture crew), Brute Security, VCPD, VCSO, Leonida State Police, NOOSE
 - **Interactive map:** In development, targeting November 19, 2026 launch day release
