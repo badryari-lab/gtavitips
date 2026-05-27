@@ -38,13 +38,13 @@
   function timeAgo(ts) {
     var diff = Date.now() - new Date(ts).getTime();
     var m = Math.floor(diff / 60000);
-    if (m < 1)  return 'zojuist';
-    if (m < 60) return m + ' min geleden';
+    if (m < 1)  return 'just now';
+    if (m < 60) return m + ' min ago';
     var h = Math.floor(m / 60);
-    if (h < 24) return h + ' uur geleden';
+    if (h < 24) return h + (h === 1 ? ' hour ago' : ' hours ago');
     var d = Math.floor(h / 24);
-    if (d < 7)  return d + (d === 1 ? ' dag' : ' dagen') + ' geleden';
-    return new Date(ts).toLocaleDateString('nl-NL', { day: 'numeric', month: 'short', year: 'numeric' });
+    if (d < 7)  return d + (d === 1 ? ' day ago' : ' days ago');
+    return new Date(ts).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
   }
 
   function esc(str) {
@@ -76,7 +76,7 @@
 
         if (!list) return;
         if (count === 0) {
-          list.innerHTML = '<p class="comments-empty">Nog geen reacties. Wees de eerste.</p>';
+          list.innerHTML = '<p class="comments-empty">No comments yet. Be the first.</p>';
           return;
         }
 
@@ -115,9 +115,9 @@
     userBar.innerHTML =
       '<div class="comments-user-info">' +
         avatarHtml(src, name, 'comments-user-avatar') +
-        '<span>Ingelogd als <strong>' + esc(name) + '</strong></span>' +
+        '<span>Logged in as <strong>' + esc(name) + '</strong></span>' +
       '</div>' +
-      '<button class="comments-logout" id="comments-logout-btn">Uitloggen</button>';
+      '<button class="comments-logout" id="comments-logout-btn">Log out</button>';
     userBar.style.display = 'flex';
 
     var logoutBtn = document.getElementById('comments-logout-btn');
@@ -140,7 +140,7 @@
       if (!text || text.length > 1000) return;
 
       submitBtn.disabled = true;
-      submitBtn.textContent = 'Verzenden…';
+      submitBtn.textContent = 'Posting…';
 
       sb.auth.getUser().then(function (res) {
         if (!res.data || !res.data.user) { showLoggedOut(); return Promise.resolve(null); }
