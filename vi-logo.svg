@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&amp;display=swap');
+    </style>
+  </defs>
+  <rect width="1000" height="1000" rx="233" ry="233" fill="#005f90"/>
+  <text
+    x="487"
+    y="500"
+    font-family="'Poppins', 'Arial Black', sans-serif"
+    font-weight="900"
+    font-size="400"
+    fill="#ffffff"
+    text-anchor="middle"
+    dominant-baseline="central"
+    letter-spacing="-17">VI</text>
+</svg>
