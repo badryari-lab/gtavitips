@@ -1,6 +1,32 @@
 {
   "articles": [
     {
+      "url": "/news/gta-6-trailer-2-breakdown",
+      "title": "GTA 6 Trailer 2: Everything We Saw",
+      "date": "May 28, 2026",
+      "badge": "Rockstar",
+      "badgeClass": "badge--official",
+      "cat": "rockstar",
+      "deck": "Three minutes of Leonida. Shot by shot. Everything visible in Rockstar's May 2025 trailer, described as it appeared.",
+      "image": "/assets/images/lucia-caminos-gta-6-character-05.jpg",
+      "imageAlt": "Lucia Caminos in handcuffs at Leonida Correctional in GTA 6",
+      "thumb": "T2",
+      "featured": false
+    },
+    {
+      "url": "/news/gta-6-trailer-1-breakdown",
+      "title": "GTA 6 Trailer 1: Everything We Saw",
+      "date": "May 28, 2026",
+      "badge": "Rockstar",
+      "badgeClass": "badge--official",
+      "cat": "rockstar",
+      "deck": "91 seconds of Leonida. Shot by shot. Everything visible in Rockstar's December 2023 trailer, described as it appeared.",
+      "image": "/assets/images/vcso-gta-6-faction-01.png",
+      "imageAlt": "Vice County Sheriff's Office badge and mugshot in GTA 6 Trailer 1",
+      "thumb": "T1",
+      "featured": false
+    },
+    {
       "url": "/news/gta-6-xbox-store-wishlist-confirmed",
       "title": "GTA 6 Lands on Xbox Store. Wishlist Live.",
       "date": "May 22, 2026",
@@ -327,19 +353,6 @@
       "featured": false
     },
     {
-      "url": "/news/gta-6-trailer-2-breakdown",
-      "title": "GTA 6 Trailer 2: The Full Intelligence Breakdown",
-      "date": "May 2025",
-      "badge": "Rockstar",
-      "badgeClass": "badge--official",
-      "cat": "rockstar",
-      "deck": "Three minutes. The full map. This is everything Trailer 2 confirmed about Leonida, organized by category and linked to the database.",
-      "image": "/assets/images/vice-city-gta-6-location-07.jpg",
-      "imageAlt": "Vice City in GTA 6",
-      "thumb": "T2",
-      "featured": true
-    },
-    {
       "url": "/news/tpain-gta-6-music",
       "title": "T-Pain Confirms His Music Will Be in GTA 6",
       "date": "Early 2024",
@@ -376,19 +389,6 @@
       "image": "/assets/images/lucia-caminos-gta-6-character-04.jpg",
       "imageAlt": "Lucia Caminos in GTA 6",
       "thumb": "VA",
-      "featured": false
-    },
-    {
-      "url": "/news/gta-6-trailer-1-breakdown",
-      "title": "GTA 6 Trailer 1: The Full Intelligence Breakdown",
-      "date": "December 2023",
-      "badge": "Rockstar",
-      "badgeClass": "badge--official",
-      "cat": "rockstar",
-      "deck": "91 seconds. Two protagonists. One state. This is everything Trailer 1 confirmed about Leonida, organized by category and linked to the database.",
-      "image": "/assets/images/jason-duval-gta-6-character-01.jpg",
-      "imageAlt": "Jason Duval in GTA 6",
-      "thumb": "T1",
       "featured": false
     },
     {
