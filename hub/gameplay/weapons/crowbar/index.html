@@ -67,6 +67,13 @@
     .search-overlay__close:hover{color:var(--t1)}
     .search-overlay__hint{margin-top:12px;font-size:12px;color:var(--t3)}
     .search-overlay__hint kbd{background:var(--bg-4);border:1px solid var(--border);border-radius:5px;padding:2px 7px;font-family:inherit;font-size:11px;color:var(--t2)}
+    .search-overlay__results{margin-top:14px;display:flex;flex-direction:column;gap:3px;max-height:300px;overflow-y:auto;}
+    .search-result{display:flex;align-items:center;gap:12px;padding:11px 14px;background:var(--bg-3);border:1px solid var(--border);border-radius:8px;text-decoration:none;transition:border-color .15s,background .15s;}
+    .search-result.active,.search-result:hover{border-color:var(--blue-border);background:var(--bg-4);}
+    .search-result__cat{font-size:8px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--blue);background:var(--blue-dim);padding:2px 7px;border-radius:99px;flex-shrink:0;white-space:nowrap;}
+    .search-result__body{flex:1;min-width:0;}
+    .search-result__name{font-size:13px;font-weight:600;color:var(--t1);display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+    .search-overlay__nores{font-size:12px;color:var(--t3);padding:20px 0;text-align:center;}
     .page{padding-top:var(--nav-h)}
     .page__back{display:inline-flex;align-items:center;gap:7px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--t3);padding:24px 0 0;transition:color .18s}
     .page__back:hover{color:var(--blue)}
@@ -265,7 +272,8 @@
         <input type="search" id="search-input" class="search-overlay__input" placeholder="Lucia, Pegassi, Vice City, 7X..." autocomplete="off" aria-label="Search query">
         <button class="search-overlay__close" id="search-close">Close</button>
       </div>
-      <p class="search-overlay__hint">Press <kbd>Enter</kbd> to search &nbsp;&middot;&nbsp; <kbd>Esc</kbd> to close</p>
+      <div class="search-overlay__results" id="search-results"></div>
+      <p class="search-overlay__hint">↑↓ to navigate &nbsp;&middot;&nbsp; <kbd>Enter</kbd> to open &nbsp;&middot;&nbsp; <kbd>Esc</kbd> to close</p>
     </div>
   </div>
   <div class="page">
@@ -331,27 +339,27 @@
       <section class="section reveal" aria-labelledby="faq-hd">
         <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Frequently Asked</span></div>
         <h2 class="section__h2" id="faq-hd">Frequently Asked</h2>
-        <div class="faq-list">
+                <div class="faq-list">
           <details class="faq-item">
             <summary class="faq-q">
-              Is the Crowbar confirmed for GTA 6?
+              What's the Crowbar's real use in a Leonida operation?
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </summary>
-            <div class="faq-a"><strong>Confirmed.</strong> Verified in official Rockstar footage. The On Record section above covers the specific sources.</div>
+            <div class="faq-a">Access first. Doors, locks, crates. And when the situation requires more than that, it handles quiet corrections at close range without leaving anything traceable.</div>
           </details>
           <details class="faq-item">
             <summary class="faq-q">
               Where can you get the Crowbar in Leonida?
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </summary>
-            <div class="faq-a">Ammu-Nation is the confirmed weapon retailer in Leonida — Phil Cassidy's name is on the billboard. Specific stock, pricing, and unlock conditions will be on the map at launch on November 19, 2026.</div>
+            <div class="faq-a">Ammu-Nation is the confirmed weapon retailer in Leonida — Phil Cassidy's name is on the billboard. Specific stock, pricing, and unlock conditions aren't confirmed yet.</div>
           </details>
           <details class="faq-item">
             <summary class="faq-q">
-              What modifications are available for the Crowbar?
+              Does it show up in specific operations or locations?
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </summary>
-            <div class="faq-a">The Configurations section above covers confirmed and speculated modification options. The full modification system will be documented at launch.</div>
+            <div class="faq-a">Contextually it fits Keys and rural Leonida operations — anywhere forced entry is more useful than a firearm. The On Record section covers the confirmed appearances.</div>
           </details>
         </div>
       </section>
@@ -403,14 +411,30 @@
   <script>
     const burger=document.getElementById('burger'),mobileNav=document.getElementById('mobile-nav');
     burger.addEventListener('click',()=>{const o=mobileNav.classList.toggle('open');burger.setAttribute('aria-expanded',o)});
-    const overlay=document.getElementById('search-overlay'),searchInp=document.getElementById('search-input');
-    function openSearch(){overlay.classList.add('open');setTimeout(()=>searchInp.focus(),60)}
-    function closeSearch(){overlay.classList.remove('open')}
+    const overlay=document.getElementById('search-overlay'),searchInp=document.getElementById('search-input'),searchRes=document.getElementById('search-results');
+    let _idx=[],_ai=-1,_loaded=false;
+    function _load(){if(_loaded)return;fetch('/search-index.json').then(r=>r.json()).then(d=>{_idx=d;_loaded=true;}).catch(()=>{_idx=[];_loaded=true;});}
+    function openSearch(){overlay.classList.add('open');setTimeout(()=>searchInp.focus(),60);_load();}
+    function closeSearch(){overlay.classList.remove('open');searchRes.innerHTML='';searchInp.value='';_ai=-1;}
+    function _render(q){
+      if(!q||q.length<2){searchRes.innerHTML='';return;}
+      const ql=q.toLowerCase();
+      const hits=_idx.filter(e=>e.n.toLowerCase().includes(ql)||e.d.toLowerCase().includes(ql)).slice(0,8);
+      if(!hits.length){searchRes.innerHTML='<p class="search-overlay__nores">No results for \''+q.replace(/'/g,'&#39;')+'\'</p>';return;}
+      searchRes.innerHTML=hits.map((e,i)=>'<a href="'+e.u+'" class="search-result'+(i===0?' active':'')+'" data-i="'+i+'"><span class="search-result__cat">'+e.c+'</span><span class="search-result__body"><span class="search-result__name">'+e.n+'</span></span></a>').join('');
+      _ai=0;
+    }
     document.getElementById('search-open').addEventListener('click',openSearch);
     document.getElementById('search-close').addEventListener('click',closeSearch);
-    overlay.addEventListener('click',e=>{if(e.target===overlay)closeSearch()});
-    document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSearch();if((e.ctrlKey||e.metaKey)&&e.key==='k'){e.preventDefault();openSearch()}});
-    searchInp.addEventListener('keydown',e=>{if(e.key==='Enter'){const q=searchInp.value.trim();if(q)window.open('https://www.google.com/search?q=site:gtavitips.com+'+encodeURIComponent(q),'_blank')}});
+    overlay.addEventListener('click',e=>{if(e.target===overlay)closeSearch();});
+    document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSearch();if((e.ctrlKey||e.metaKey)&&e.key==='k'){e.preventDefault();openSearch();}});
+    searchInp.addEventListener('input',e=>{_render(e.target.value.trim());});
+    searchInp.addEventListener('keydown',e=>{
+      const items=searchRes.querySelectorAll('.search-result');
+      if(e.key==='ArrowDown'){e.preventDefault();if(_ai<items.length-1){items[_ai]&&items[_ai].classList.remove('active');_ai++;items[_ai]&&(items[_ai].classList.add('active'),items[_ai].scrollIntoView({block:'nearest'}));}}
+      else if(e.key==='ArrowUp'){e.preventDefault();if(_ai>0){items[_ai]&&items[_ai].classList.remove('active');_ai--;items[_ai]&&(items[_ai].classList.add('active'),items[_ai].scrollIntoView({block:'nearest'}));}}
+      else if(e.key==='Enter'){if(items[_ai])window.location.href=items[_ai].getAttribute('href');else{const q=searchInp.value.trim();if(q)window.open('https://www.google.com/search?q=site:gtavitips.com+'+encodeURIComponent(q),'_blank');}}
+    });
     const ro=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');ro.unobserve(e.target)}})},{threshold:.1});
     document.querySelectorAll('.reveal').forEach(el=>ro.observe(el));
   

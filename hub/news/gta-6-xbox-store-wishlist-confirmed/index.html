@@ -120,6 +120,13 @@
     .search-overlay__close:hover { color: var(--t1); }
     .search-overlay__hint { margin-top: 12px; font-size: 12px; color: var(--t3); }
     .search-overlay__hint kbd { background: var(--bg-4); border: 1px solid var(--border); border-radius: 5px; padding: 2px 7px; font-family: inherit; font-size: 11px; color: var(--t2); }
+    .search-overlay__results{margin-top:14px;display:flex;flex-direction:column;gap:3px;max-height:300px;overflow-y:auto;}
+    .search-result{display:flex;align-items:center;gap:12px;padding:11px 14px;background:var(--bg-3);border:1px solid var(--border);border-radius:8px;text-decoration:none;transition:border-color .15s,background .15s;}
+    .search-result.active,.search-result:hover{border-color:var(--blue-border);background:var(--bg-4);}
+    .search-result__cat{font-size:8px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--blue);background:var(--blue-dim);padding:2px 7px;border-radius:99px;flex-shrink:0;white-space:nowrap;}
+    .search-result__body{flex:1;min-width:0;}
+    .search-result__name{font-size:13px;font-weight:600;color:var(--t1);display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+    .search-overlay__nores{font-size:12px;color:var(--t3);padding:20px 0;text-align:center;}
 
     /* ARTICLE LAYOUT */
     .article-wrap { max-width: 780px; margin: 0 auto; padding: 0 28px; }
@@ -320,7 +327,8 @@
         <input type="search" id="search-input" class="search-overlay__input" placeholder="Lucia, Pegassi, Vice City, 7X..." autocomplete="off" aria-label="Search query">
         <button class="search-overlay__close" id="search-close">Close</button>
       </div>
-      <p class="search-overlay__hint">Press <kbd>Enter</kbd> to search &nbsp;&middot;&nbsp; <kbd>Esc</kbd> to close</p>
+      <div class="search-overlay__results" id="search-results"></div>
+      <p class="search-overlay__hint">↑↓ to navigate &nbsp;&middot;&nbsp; <kbd>Enter</kbd> to open &nbsp;&middot;&nbsp; <kbd>Esc</kbd> to close</p>
     </div>
   </div>
 
