@@ -144,6 +144,21 @@ Each entry page follows the same dossier structure:
 - Sighting log or connections section where relevant
 - Internal links to related characters, locations, factions
 
+### Activity pages (approved template — May 2026)
+
+Reference file: `hub/gameplay/activities/weightlifting/index.html`
+
+- **No** dossier badge, **no** Intel Status stat row
+- **H1**: compound word → split at natural boundary (`Weight<span style="color:var(--blue)">lifting</span>`); two words → second word blue; single word → all white
+- **Stat block**: Type / Setting / Real-World Basis (3 rows only)
+- **Photo**: `transform: scale(1.25)` to crop letterbox bars; no gradient overlay; no text label on image
+- **Section order and names** (fixed):
+  1. Eyebrow "Activity Overview" / H2 **Dossier** — all body text, how it works, no trailer references
+  2. Eyebrow "Official Rockstar Sources Only" / H2 **On Record** — 3-column intel log (source | label | text)
+  3. Eyebrow "Filed Connections" / H2 **Known Connections** — horizontal cards, always a mix of activity + character + location + vehicle; 56px avatar with photo if the linked page has one
+  4. Eyebrow "Frequently Asked" / H2 **Frequently Asked** — native `<details>/<summary>` accordions
+- **section__h2** always `color: var(--t1)` (white), never blue
+
 Entry slugs follow kebab-case: `/gameplay/characters/lucia-caminos`, `/gameplay/vehicles/karin-sultan-rs`.
 
 ## Internal linking rules
