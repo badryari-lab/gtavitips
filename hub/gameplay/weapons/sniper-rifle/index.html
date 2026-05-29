@@ -206,6 +206,16 @@
       .nav__dropdown-wrap.open .nav__dropdown { display: block; transform: none; }
       .nav__dropdown li a { color: var(--t3); font-size: 12px; }
     }
+  
+    /* FAQ */
+    .faq-list { display: flex; flex-direction: column; gap: 2px; }
+    .faq-item { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
+    .faq-q { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 22px; cursor: pointer; font-size: 14px; font-weight: 600; color: var(--t1); line-height: 1.4; list-style: none; }
+    .faq-q::-webkit-details-marker { display: none; }
+    .faq-q svg { width: 16px; height: 16px; color: var(--t3); flex-shrink: 0; transition: transform .22s; }
+    .faq-item[open] .faq-q svg { transform: rotate(180deg); }
+    .faq-a { padding: 0 22px 18px; font-size: 14px; color: var(--t2); line-height: 1.8; border-top: 1px solid var(--border); padding-top: 16px; }
+    .faq-a strong { color: var(--t1); font-weight: 600; }
   </style>
 </head>
 <body>
@@ -263,7 +273,7 @@
       <div class="dossier">
         <div class="dossier__left">
           <div class="dossier__badge">Sniper</div>
-          <h1 class="dossier__h1">Sniper<br>Rifle</h1>
+          <h1 class="dossier__h1">Sniper <span style="color:var(--blue)">Rifle</span></h1>
           <p class="dossier__tagline">One round. One result. <strong>It is over before the other person understands it has begun.</strong> That is what the rifle is for.</p>
           <div class="stat-block" role="list" aria-label="Weapon stats">
             <div class="stat-block__item" role="listitem">
@@ -284,11 +294,8 @@
           </div>
         </div>
         <div class="dossier__right">
-          <div class="dossier__img" aria-label="Sniper Rifle image placeholder">
-            <div class="dossier__img-bg" aria-hidden="true"></div>
-            <img src="/assets/images/grassrivers-gta-6-location-01.jpg" alt="Sniper Rifle in GTA 6 – confirmed weapon" width="1920" height="1080" loading="lazy" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">
-            <div class="dossier__img-label" aria-hidden="true">Sniper Rifle</div>
-          </div>
+          <div class="dossier__img" aria-label="Sniper Rifle image placeholder"> </div>
+            <img src="/assets/images/grassrivers-gta-6-location-01.jpg" alt="Sniper Rifle in GTA 6 – confirmed weapon" width="1920" height="1080" loading="lazy" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;"></div>
         </div>
       </div>
     </div>
@@ -299,7 +306,7 @@
         <div class="content-main">
           <section class="section reveal" aria-labelledby="intel-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Technical Intelligence</span></div>
-            <h2 class="section__h2" id="intel-hd">Field <span style="color:var(--blue)">Assessment</span></h2>
+            <h2 class="section__h2" id="intel-hd">Dossier</h2>
             <div class="section__body">
               <p>The bolt-action sniper rifle operates at ranges where everything else in the arsenal is irrelevant. <strong>The subject of the shot does not have a response available.</strong> By the time the sound arrives the situation is already resolved.</p>
               <p>It requires a position. High ground, a clear line, time to set up. The <a href="/gameplay/locations/grassrivers" style="color:var(--blue)">Grassrivers</a> provides all three along the water margins. <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> rooftops provide elevation. The <a href="/gameplay/locations/leonida-keys" style="color:var(--blue)">Keys</a> provide open water distances that have no parallel elsewhere in Leonida.</p>
@@ -308,7 +315,7 @@
           </section>
           <section class="section reveal" aria-labelledby="deploy-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Official Rockstar Sources Only</span></div>
-            <h2 class="section__h2" id="deploy-hd">Deployment <span style="color:var(--blue)">Log</span></h2>
+            <h2 class="section__h2" id="deploy-hd">On Record</h2>
             <div class="deploy-log" role="list">
               <div class="deploy-entry reveal" role="listitem">
                 <div class="deploy-entry__source">Trailer 1</div>
@@ -320,6 +327,33 @@
               </div>
             </div>
           </section>
+      <section class="section reveal" aria-labelledby="faq-hd">
+        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Frequently Asked</span></div>
+        <h2 class="section__h2" id="faq-hd">Frequently Asked</h2>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary class="faq-q">
+              Is the Sniper Rifle confirmed for GTA 6?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </summary>
+            <div class="faq-a"><strong>Confirmed.</strong> Verified in official Rockstar footage. The On Record section above covers the specific sources.</div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-q">
+              Where can you get the Sniper Rifle in Leonida?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </summary>
+            <div class="faq-a">Ammu-Nation is the confirmed weapon retailer in Leonida — Phil Cassidy's name is on the billboard. Specific stock, pricing, and unlock conditions will be on the map at launch on November 19, 2026.</div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-q">
+              What modifications are available for the Sniper Rifle?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </summary>
+            <div class="faq-a">The Configurations section above covers confirmed and speculated modification options. The full modification system will be documented at launch.</div>
+          </details>
+        </div>
+      </section>
         </div>
         <aside class="content-side" aria-label="Related weapons and carriers">
           <div class="callout reveal">
