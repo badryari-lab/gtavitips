@@ -216,7 +216,7 @@
     function _render(q){
       if(!q||q.length<2){searchRes.innerHTML='';return;}
       const ql=q.toLowerCase();
-      const hits=_idx.filter(e=>e.n.toLowerCase().includes(ql)||e.d.toLowerCase().includes(ql)).slice(0,8);
+      const hits=_idx.map(e=>{const nl=e.n.toLowerCase();let s=0;if(nl===ql)s=100;else if(nl.startsWith(ql))s=80;else if(nl.includes(ql))s=60;else if(e.d.toLowerCase().includes(ql))s=20;return{e,s};}).filter(x=>x.s>0).sort((a,b)=>b.s-a.s).slice(0,8).map(x=>x.e);
       if(!hits.length){searchRes.innerHTML='<p class="search-overlay__nores">No results for \''+q.replace(/'/g,'&#39;')+'\'</p>';return;}
       searchRes.innerHTML=hits.map((e,i)=>'<a href="'+e.u+'" class="search-result'+(i===0?' active':'')+'" data-i="'+i+'"><span class="search-result__cat">'+e.c+'</span><span class="search-result__body"><span class="search-result__name">'+e.n+'</span></span></a>').join('');
       _ai=0;
