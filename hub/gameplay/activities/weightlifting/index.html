@@ -14,7 +14,6 @@
   <meta property="og:type" content="article"><meta property="og:title" content="Weightlifting | GTA 6 Activity | GTAVITIPS">
   <meta property="og:description" content="Weightlifting confirmed in GTA 6 Leonida. Gym-based strength training in Vice City. Returns from GTA San Andreas. Confirmed in official footage.">
   <meta property="og:url" content="https://gtavitips.com/gameplay/activities/weightlifting">
-  <!-- OG IMAGE PLACEHOLDER: replace with weightlifting-gta-6-activity.jpg when available -->
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://gtavitips.com/gameplay/activities/weightlifting">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -102,7 +101,6 @@
 
     /* DOSSIER */
     .dossier { border-left: 5px solid var(--blue); padding-left: 28px; margin: 32px 0 56px; display: grid; grid-template-columns: 1fr 340px; gap: 48px; align-items: start; }
-    .dossier__badge { display: inline-flex; align-items: center; gap: 8px; font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; padding: 5px 12px; border-radius: 99px; background: var(--blue-dim); color: var(--blue); border: 1px solid var(--blue-border); margin-bottom: 14px; }
     .dossier__h1 { font-size: clamp(40px, 6vw, 76px); font-weight: 900; text-transform: uppercase; letter-spacing: -.025em; line-height: .92; color: var(--t1); margin-bottom: 14px; }
     .dossier__tagline { font-size: 15px; color: var(--t2); line-height: 1.65; max-width: 480px; margin-bottom: 28px; }
     .dossier__tagline strong { color: var(--t1); font-weight: 600; }
@@ -114,13 +112,8 @@
     .stat-block__key { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .11em; color: var(--pink); margin-bottom: 5px; }
     .stat-block__val { font-size: 14px; font-weight: 600; color: var(--t1); line-height: 1.4; }
     .stat-block__sub { font-size: 12px; color: var(--t2); margin-top: 3px; line-height: 1.5; }
-    .stat-block__wiki-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
-    .stat-block__wiki { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 700; color: var(--blue); border: 1px solid var(--blue-border); background: var(--blue-dim); padding: 4px 11px; border-radius: 99px; text-decoration: none; transition: background .18s; }
-    .stat-block__wiki:hover { background: rgba(0,95,144,.22); }
-    .stat-block__wiki svg { width: 11px; height: 11px; flex-shrink: 0; }
 
-    /* LOCATION VISUAL */
-    /* IMAGE PLACEHOLDER: vice-city-gta-6-location.jpg - drop in without restructuring */
+    /* DOSSIER IMAGE */
     .dossier__img { width: 100%; aspect-ratio: 4/3; background: var(--bg-3); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; display: flex; align-items: center; justify-content: center; position: relative; }
     .dossier__img-bg { position: absolute; inset: 0; background: linear-gradient(160deg, rgba(0,95,144,.18), rgba(255,0,85,.07)); }
     .dossier__img-label { position: relative; z-index: 1; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--t3); }
@@ -135,38 +128,43 @@
     .section__eyebrow { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
     .section__eyebrow-line { width: 20px; height: 2px; background: var(--pink); flex-shrink: 0; }
     .section__eyebrow-text { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; color: var(--pink); }
-    .section__h2 { font-size: clamp(18px, 2.5vw, 24px); font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--t1); margin-bottom: 20px; line-height: 1.2; }
+    .section__h2 { font-size: clamp(18px, 2.5vw, 24px); font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--blue); margin-bottom: 20px; line-height: 1.2; }
     .section__body { font-size: 14px; color: var(--t2); line-height: 1.85; }
     .section__body p { margin-bottom: 16px; }
     .section__body p:last-child { margin-bottom: 0; }
     .section__body strong { color: var(--t1); font-weight: 600; }
 
-    /* OPERATOR NOTES */
-    .operator-notes { background: var(--bg-2); border: 1px solid var(--border-b); border-radius: var(--r); padding: 24px 28px; margin-bottom: 56px; }
-    .operator-notes__label { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .13em; color: var(--pink); margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
-    .operator-notes__label::before { content: ''; display: block; width: 20px; height: 2px; background: var(--pink); flex-shrink: 0; }
-    .operator-notes__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-    .operator-notes__item { background: var(--bg-3); border: 1px solid var(--border); border-radius: 9px; padding: 14px 16px; }
-    .operator-notes__item-key { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .10em; color: var(--blue); margin-bottom: 5px; }
-    .operator-notes__item-val { font-size: 13px; color: var(--t2); line-height: 1.5; }
-    .operator-notes__item-val strong { color: var(--t1); font-weight: 600; }
+    /* INTEL LOG */
+    .intel-log { display: flex; flex-direction: column; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
+    .intel-entry { display: grid; grid-template-columns: 140px 80px 1fr; gap: 0 20px; align-items: start; padding: 18px 24px; border-bottom: 1px solid var(--border); transition: background .18s; }
+    .intel-entry:last-child { border-bottom: none; }
+    .intel-entry:hover { background: rgba(255,255,255,.02); }
+    .intel-entry__time { font-size: 11px; font-weight: 700; color: var(--blue); padding-top: 1px; }
+    .intel-entry__label { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .09em; padding: 3px 0 0; color: var(--t3); }
+    .intel-entry__text { font-size: 13px; color: var(--t2); line-height: 1.6; }
+    .intel-entry__text strong { color: var(--t1); font-weight: 600; }
 
-    /* SIGHTINGS LOG */
-    .sightings { display: flex; flex-direction: column; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
-    .sighting-entry { display: grid; grid-template-columns: 160px 1fr; gap: 0 20px; align-items: start; padding: 18px 24px; border-bottom: 1px solid var(--border); transition: background .18s; }
-    .sighting-entry:last-child { border-bottom: none; }
-    .sighting-entry:hover { background: rgba(255,255,255,.02); }
-    .sighting-entry__source { font-size: 11px; font-weight: 700; color: var(--blue); line-height: 1.4; padding-top: 1px; }
-    .sighting-entry__text { font-size: 13px; color: var(--t2); line-height: 1.6; }
-    .sighting-entry__text strong { color: var(--t1); font-weight: 600; }
-
-    /* CONNECTED INTEL CARDS */
-    .connected-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-    .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 16px 18px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; display: flex; flex-direction: column; gap: 4px; }
-    .conn-card:hover { border-color: var(--border-b); transform: translateY(-3px); background: var(--bg-3); }
-    .conn-card__type { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .10em; color: var(--pink); }
+    /* KNOWN CONNECTIONS */
+    .connections { display: flex; flex-direction: column; gap: 8px; }
+    .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 16px 18px; display: flex; align-items: center; gap: 16px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; }
+    .conn-card:hover { border-color: var(--border-b); transform: translateX(4px); background: var(--bg-3); }
+    .conn-card__avatar { width: 40px; height: 40px; border-radius: 8px; background: var(--bg-3); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 900; color: var(--blue); text-transform: uppercase; flex-shrink: 0; letter-spacing: -.02em; }
+    .conn-card__body { flex: 1; min-width: 0; }
+    .conn-card__role { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .10em; color: var(--pink); margin-bottom: 3px; }
     .conn-card__name { font-size: 14px; font-weight: 700; color: var(--t1); line-height: 1.2; }
     .conn-card__desc { font-size: 12px; color: var(--t3); margin-top: 2px; line-height: 1.4; }
+    .conn-card__arrow { font-size: 16px; color: var(--t3); transition: color .2s, transform .2s; flex-shrink: 0; }
+    .conn-card:hover .conn-card__arrow { color: var(--blue); transform: translateX(3px); }
+
+    /* FAQ */
+    .faq-list { display: flex; flex-direction: column; gap: 2px; }
+    .faq-item { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
+    .faq-q { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 22px; cursor: pointer; font-size: 14px; font-weight: 600; color: var(--t1); line-height: 1.4; list-style: none; }
+    .faq-q::-webkit-details-marker { display: none; }
+    .faq-q svg { width: 16px; height: 16px; color: var(--t3); flex-shrink: 0; transition: transform .22s; }
+    .faq-item[open] .faq-q svg { transform: rotate(180deg); }
+    .faq-a { padding: 0 22px 18px; font-size: 14px; color: var(--t2); line-height: 1.8; border-top: 1px solid var(--border); padding-top: 16px; }
+    .faq-a strong { color: var(--t1); font-weight: 600; }
 
     /* SIDE CALLOUT */
     .callout { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 20px; }
@@ -195,7 +193,7 @@
     .reveal.on { opacity: 1; transform: none; }
     .reveal.d1 { transition-delay: .07s; }
     .reveal.d2 { transition-delay: .14s; }
-    .reveal.d3 { transition-delay: .14s; }
+    .reveal.d3 { transition-delay: .21s; }
 
     /* RESPONSIVE */
     @media (max-width: 1024px) {
@@ -208,30 +206,30 @@
     @media (max-width: 768px) {
       .nav__links, .nav__db-btn { display: none; }
       .nav__burger { display: flex; }
-      .operator-notes__grid { grid-template-columns: 1fr; }
-      .sighting-entry { grid-template-columns: 1fr; gap: 4px; }
-      .connected-grid { grid-template-columns: 1fr; }
+      .intel-entry { grid-template-columns: 1fr; gap: 4px; }
+      .intel-entry__time { font-size: 10px; }
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
     }
-        [data-theme="light"] { --bg:#f3f6fa; --bg-2:#ffffff; --bg-3:#f0f3f8; --bg-4:#e8ecf2; --border:rgba(0,0,0,.07); --border-b:rgba(0,95,144,.20); --t1:#111827; --t2:#4b5563; --t3:#9ca3af; }
+    [data-theme="light"] { --bg:#f3f6fa; --bg-2:#ffffff; --bg-3:#f0f3f8; --bg-4:#e8ecf2; --border:rgba(0,0,0,.07); --border-b:rgba(0,95,144,.20); --t1:#111827; --t2:#4b5563; --t3:#9ca3af; }
     [data-theme="light"] .nav { background: rgba(243,246,250,.95); }
     [data-theme="dark"] { --bg:#080c12; --bg-2:#0d1320; --bg-3:#131c2e; --bg-4:#192236; --border:rgba(255,255,255,0.06); --border-b:rgba(0,95,144,0.22); --t1:#eef2f7; --t2:#7e8fa3; --t3:#445060; }
-  
+
     /* NAV DROPDOWN */
     .nav__dropdown-wrap { position: relative; display: flex; align-items: center; gap: 2px; }
-    .nav__dropdown-link { font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 600; color: var(--blue); text-transform: uppercase; letter-spacing: .06em; text-decoration: none; transition: opacity .15s; } .nav__dropdown-btn { background: none; border: none; cursor: pointer; color: var(--blue); padding: 0; display: flex; align-items: center; transition: opacity .15s; }
+    .nav__dropdown-link { font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 600; color: var(--blue); text-transform: uppercase; letter-spacing: .06em; text-decoration: none; transition: opacity .15s; }
+    .nav__dropdown-btn { background: none; border: none; cursor: pointer; color: var(--blue); padding: 0; display: flex; align-items: center; transition: opacity .15s; }
     .nav__dropdown-btn:hover { opacity: .75; }
     .nav__dropdown-chevron { width: 12px; height: 12px; transition: transform .2s; flex-shrink: 0; }
     .nav__dropdown-wrap.open .nav__dropdown-chevron { transform: rotate(180deg); }
     .nav__dropdown { position: absolute; top: 100%; left: 50%; background: var(--bg-2); border: 1px solid var(--border-b); border-radius: 12px; padding: 14px 6px 6px; min-width: 200px; box-shadow: 0 12px 32px rgba(0,0,0,.18); opacity: 0; pointer-events: none; transition: opacity .18s, transform .18s; transform: translateX(-50%) translateY(-6px); list-style: none; margin: 0; z-index: 200; }
     .nav__dropdown li { list-style: none; padding: 0; margin: 0; }
     .nav__dropdown-wrap.open .nav__dropdown { opacity: 1; pointer-events: all; transform: translateX(-50%) translateY(0); }
-    .nav__dropdown-wrap.open .nav__dropdown-chevron { transform: rotate(180deg); }
     .nav__dropdown li a { display: block; padding: 9px 14px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t2); text-decoration: none; border-radius: 8px; transition: background .15s, color .15s; white-space: nowrap; }
     .nav__dropdown li a:hover { background: var(--bg-3); color: var(--blue); }
     @media(max-width: 860px) {
       .nav__dropdown-wrap { width: 100%; display: flex; align-items: center; justify-content: space-between; }
-      .nav__dropdown-link { padding: 11px 14px; font-size: 13px; flex: 1; } .nav__dropdown-btn { padding: 11px 14px; background: none; border-radius: 9px; }
+      .nav__dropdown-link { padding: 11px 14px; font-size: 13px; flex: 1; }
+      .nav__dropdown-btn { padding: 11px 14px; background: none; border-radius: 9px; }
       .nav__dropdown-btn:hover { background: rgba(255,255,255,.05); color: var(--t1); }
       .nav__dropdown { position: static; transform: none; opacity: 1; pointer-events: all; box-shadow: none; border: none; border-radius: 0; background: none; padding: 0 0 0 14px; display: none; }
       .nav__dropdown-wrap.open .nav__dropdown { display: block; transform: none; }
@@ -264,7 +262,6 @@
         </li>
         <li><a href="/faq">FAQ</a></li>
         <li><a href="/intel-drops">Intel Drops</a></li>
-        <li><a href="/map">Map</a></li>
       </ul>
       <div class="nav__right">
         <button class="nav__theme-btn" id="theme-toggle" aria-label="Toggle dark/light mode">
@@ -289,7 +286,6 @@
     <a href="/gameplay/locations">Locations</a>
     <a href="/faq">FAQ</a>
     <a href="/intel-drops">Intel Drops</a>
-    <a href="/map">Map</a>
   </nav>
 
   <div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search the database">
@@ -304,19 +300,32 @@
     </div>
   </div>
 
-  
   <div class="page"><div class="wrap">
     <a href="/gameplay/activities" class="page__back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>Back to Activities</a>
     <div class="dossier">
       <div class="dossier__left">
-        <div class="dossier__badge">Confirmed Activity</div>
         <h1 class="dossier__h1">Weightlifting</h1>
-        <p class="dossier__tagline">The gym in <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a>. <strong>The strength system: the protagonist gets visibly bigger if you go consistently and visibly softer if you do not.</strong></p>
+        <p class="dossier__tagline">The gym in Vice City. <strong>Train consistently and it shows. Stop going and that changes too.</strong></p>
         <div class="stat-block" role="list" aria-label="Activity stats">
-            <div class="stat-block__item" role="listitem"><div class="stat-block__key">Type</div><div class="stat-block__val">Physical Training</div><div class="stat-block__sub">Gym-based strength development. Affects the protagonist's physical capability and appearance.</div></div>            <div class="stat-block__item" role="listitem"><div class="stat-block__key">Intel Status</div><div class="stat-block__val">Confirmed</div><div class="stat-block__sub">Weightlifting activity and gym environment confirmed in official footage.</div></div>            <div class="stat-block__item" role="listitem"><div class="stat-block__key">Setting</div><div class="stat-block__val"><a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> Gyms</div><div class="stat-block__sub">Dedicated gyms and the fitness facilities of Vice City.</div></div>            <div class="stat-block__item" role="listitem"><div class="stat-block__key">Real-World Basis</div><div class="stat-block__val">Miami Fitness Culture</div><div class="stat-block__sub">The real Miami gym scene. Year-round, culturally significant, and tied to the aesthetics of the beach and club environment.</div></div></div>
+          <div class="stat-block__item" role="listitem">
+            <div class="stat-block__key">Type</div>
+            <div class="stat-block__val">Physical Training</div>
+            <div class="stat-block__sub">Gym-based strength development. Affects the protagonist's physical capability and appearance.</div>
+          </div>
+          <div class="stat-block__item" role="listitem">
+            <div class="stat-block__key">Setting</div>
+            <div class="stat-block__val">Vice City Gyms</div>
+            <div class="stat-block__sub">Dedicated gyms and fitness facilities across Vice City's districts.</div>
+          </div>
+          <div class="stat-block__item" role="listitem">
+            <div class="stat-block__key">Real-World Basis</div>
+            <div class="stat-block__val">Miami Fitness Culture</div>
+            <div class="stat-block__sub">Year-round gym culture tied to the beach and club environment. Aesthetically motivated. Socially significant.</div>
+          </div>
+        </div>
       </div>
       <div class="dossier__right">
-        <div class="dossier__img" aria-label="Weightlifting activity image placeholder">
+        <div class="dossier__img" aria-label="Weightlifting activity image">
           <div class="dossier__img-bg" aria-hidden="true"></div>
           <img src="/assets/images/weightlifting-gta-6-activity-01.png" alt="Weightlifting in GTA 6 – confirmed activity in Leonida" width="1920" height="1080" loading="lazy" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">
           <div class="dossier__img-label" aria-hidden="true">Weightlifting</div>
@@ -324,30 +333,128 @@
       </div>
     </div>
   </div></div>
+
   <main id="main"><div class="wrap"><div class="content-grid">
     <div class="content-main">
+
       <section class="section reveal" aria-labelledby="overview-hd">
         <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Activity Overview</span></div>
-        <h2 class="section__h2" id="overview-hd">In <span style="color:var(--blue)">Leonida</span></h2>
-        <div class="section__body"><p>Weightlifting returns the physical development system to Leonida. The protagonist's strength level affects physical capabilities: punch damage, the ability to perform specific actions, and the visual change in the character model that consistent training produces. <strong><a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a>'s gym culture provides the setting that makes this activity culturally appropriate.</strong></p><p>Miami has a documented gym culture tied to the beach aesthetic and the club environment. Vice City reflects this: gyms in every district, the specific social environment of a gym where the clientele is there to both train and be seen, and the connection between gym activity and the nightlife economy that the beach creates.</p></div>
+        <h2 class="section__h2" id="overview-hd">Dossier</h2>
+        <div class="section__body">
+          <p>The gym is part of Vice City infrastructure. The protagonist's strength builds with consistent training and the character model reflects it. <strong>Train enough and the protagonist gets visibly bigger. Miss enough sessions and that reverses.</strong> That is not a hidden stat. That is the character changing based on what you do in Leonida.</p>
+          <p>The real Miami fitness scene is the reference point. Beach adjacent, club adjacent, aesthetically motivated. Vice City gyms reflect that: the clientele is there to train and to be seen training. The person on the next bench is a character. The trainer running the floor has history. GTA uses gyms the same way it uses bars.</p>
+        </div>
       </section>
+
       <section class="section reveal" aria-labelledby="mechanics-hd">
         <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">How It Works</span></div>
-        <h2 class="section__h2" id="mechanics-hd">Gameplay <span style="color:var(--blue)">Mechanics</span></h2>
-        <div class="section__body"><p>The weightlifting mechanic tracks progression across muscle groups through a simplified training session interface. Bench press, squat, and curl exercises build different attributes. <strong>The strength attribute affects combat performance</strong>, which connects weightlifting directly to the cage fighting circuit.</p><p>The gym is a social environment. Regular gym attendance puts the protagonist in contact with a specific <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> demographic. The person at the next bench is a character in the social map. The gym owner has connections. The trainer has a past. GTA uses gyms as social nodes the same way it uses bars.</p></div>
+        <h2 class="section__h2" id="mechanics-hd">On Record</h2>
+        <div class="section__body">
+          <p>Each gym session runs through a simplified exercise interface: bench press, squat, curls. Different exercises build different attributes. <strong>Strength feeds directly into punch damage and unlocks specific combat actions</strong> in the cage fighting context. The connection between the gym and the cage is direct.</p>
+          <p>Regular attendance places the protagonist inside a specific Vice City demographic. The gym connects to the nightlife circuit, the cage fighting scene, and the people who operate across both. It is a social node.</p>
+        </div>
       </section>
-      <section class="section reveal" aria-labelledby="sightings-hd">
+
+      <section class="section reveal" aria-labelledby="intel-hd">
         <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Official Rockstar Sources Only</span></div>
-        <h2 class="section__h2" id="sightings-hd">Confirmed <span style="color:var(--blue)">Sightings</span></h2>
-        <div class="sightings" role="list">
-          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 2</div><div class="sighting-entry__text"><strong>Gym environment confirmed in a <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> interior sequence.</strong> Training equipment and the fitness facility context established.</div></div>          <div class="sighting-entry reveal"><div class="sighting-entry__source">Reported</div><div class="sighting-entry__text"><strong>Weightlifting confirmed as a Leonida activity in official footage.</strong> Physical development system consistent with the GTA San Andreas fitness mechanic.</div></div></div>
+        <h2 class="section__h2" id="intel-hd">Verified Intelligence Log</h2>
+        <div class="intel-log" role="list">
+          <div class="intel-entry reveal" role="listitem">
+            <div class="intel-entry__time">Trailer 2</div>
+            <div class="intel-entry__label">Location</div>
+            <div class="intel-entry__text"><strong>Gym interior confirmed inside Vice City.</strong> Training equipment visible. Fitness facility context established in official footage.</div>
+          </div>
+          <div class="intel-entry reveal d1" role="listitem">
+            <div class="intel-entry__time">Trailer 2</div>
+            <div class="intel-entry__label">Activity</div>
+            <div class="intel-entry__text"><strong>Weightlifting confirmed as a Leonida activity.</strong> Physical development system consistent with the GTA San Andreas model returning in full.</div>
+          </div>
+        </div>
       </section>
-      <section class="section reveal" aria-labelledby="connected-hd">
-        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Related Intelligence</span></div>
-        <h2 class="section__h2" id="connected-hd">Connected <span style="color:var(--blue)">Intel</span></h2>
-        <div class="connected-grid" role="list">
-          <a href="/gameplay/activities/cardio" class="conn-card reveal"><div class="conn-card__type">Activity</div><div class="conn-card__name">Cardio</div><div class="conn-card__desc">Endurance training. The complementary half of the physical fitness system.</div></a>          <a href="/gameplay/activities/cage-fighting" class="conn-card reveal"><div class="conn-card__type">Activity</div><div class="conn-card__name">Cage Fighting</div><div class="conn-card__desc">Strength training feeds directly into fighting performance.</div></a>          <a href="/gameplay/activities/combat-training" class="conn-card reveal"><div class="conn-card__type">Activity</div><div class="conn-card__name">Combat Training</div><div class="conn-card__desc">Technique development alongside strength development.</div></a>          <a href="/gameplay/activities/basketball" class="conn-card reveal"><div class="conn-card__type">Activity</div><div class="conn-card__name">Basketball</div><div class="conn-card__desc">Fellow physical activity in the Vice City sport and fitness culture.</div></a></div>
+
+      <section class="section reveal" aria-labelledby="connections-hd">
+        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Filed Connections</span></div>
+        <h2 class="section__h2" id="connections-hd">Known Connections</h2>
+        <div class="connections" role="list">
+          <a href="/gameplay/activities/cardio" class="conn-card reveal" role="listitem">
+            <div class="conn-card__avatar" aria-hidden="true">CA</div>
+            <div class="conn-card__body">
+              <div class="conn-card__role">Activity</div>
+              <div class="conn-card__name">Cardio</div>
+              <div class="conn-card__desc">Endurance training. The complementary half of the physical fitness system.</div>
+            </div>
+            <div class="conn-card__arrow" aria-hidden="true">&#8594;</div>
+          </a>
+          <a href="/gameplay/activities/cage-fighting" class="conn-card reveal d1" role="listitem">
+            <div class="conn-card__avatar" aria-hidden="true">CF</div>
+            <div class="conn-card__body">
+              <div class="conn-card__role">Activity</div>
+              <div class="conn-card__name">Cage Fighting</div>
+              <div class="conn-card__desc">Strength training feeds directly into fighting performance. The gym is the prep work.</div>
+            </div>
+            <div class="conn-card__arrow" aria-hidden="true">&#8594;</div>
+          </a>
+          <a href="/gameplay/activities/combat-training" class="conn-card reveal d2" role="listitem">
+            <div class="conn-card__avatar" aria-hidden="true">CT</div>
+            <div class="conn-card__body">
+              <div class="conn-card__role">Activity</div>
+              <div class="conn-card__name">Combat Training</div>
+              <div class="conn-card__desc">Technique development alongside strength. Two sides of the same operation.</div>
+            </div>
+            <div class="conn-card__arrow" aria-hidden="true">&#8594;</div>
+          </a>
+          <a href="/gameplay/activities/basketball" class="conn-card reveal d3" role="listitem">
+            <div class="conn-card__avatar" aria-hidden="true">BB</div>
+            <div class="conn-card__body">
+              <div class="conn-card__role">Activity</div>
+              <div class="conn-card__name">Basketball</div>
+              <div class="conn-card__desc">Physical activity in the Vice City sport and fitness culture. Same scene, different court.</div>
+            </div>
+            <div class="conn-card__arrow" aria-hidden="true">&#8594;</div>
+          </a>
+        </div>
       </section>
+
+      <section class="section reveal" aria-labelledby="faq-hd">
+        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Frequently Asked</span></div>
+        <h2 class="section__h2" id="faq-hd">Field Questions</h2>
+        <div class="faq-list">
+
+          <details class="faq-item">
+            <summary class="faq-q">
+              Does the strength system from GTA San Andreas return?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </summary>
+            <div class="faq-a"><strong>Confirmed.</strong> The gym-based physical development system from San Andreas is back in Leonida. Regular training builds strength. Skip the gym and that changes.</div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-q">
+              Does consistent training actually change how the protagonist looks?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </summary>
+            <div class="faq-a"><strong>Yes.</strong> The character model updates based on gym attendance. Train consistently enough and the protagonist visibly builds muscle. Stop going and the model adjusts back. It is not a hidden stat. It shows.</div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-q">
+              What does the strength attribute actually affect?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </summary>
+            <div class="faq-a">Punch damage scales with strength. Specific combat actions also become available at higher levels. The gym connects directly to <a href="/gameplay/activities/cage-fighting" style="color:var(--blue)">cage fighting</a> performance. It is prep work, not just an aesthetic.</div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-q">
+              Where can you train in Vice City?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </summary>
+            <div class="faq-a">Dedicated gym facilities are confirmed across Vice City's districts. The beach and fitness culture that Vice City reflects means access in most areas, not just a single location. Specific gym locations will be on the map at launch.</div>
+          </details>
+
+        </div>
+      </section>
+
     </div>
     <aside class="content-side" aria-label="Activity navigation">
       <div class="callout reveal"><div class="callout__title">Activities Index</div><div class="callout__items">
@@ -364,21 +471,22 @@
       </div></div>
     </aside>
   </div></div></main>
+
   <footer class="footer" role="contentinfo">
-  <div class="wrap">
-    <div class="footer__inner">
-      <div class="footer__brand">
-        <div class="footer__brand-logo"><div class="footer__brand-badge" aria-hidden="true">VI</div>GTAVITIPS</div>
-        <p class="footer__brand-desc">The intel database for GTA 6. You picked the wrong house, fool!</p>
+    <div class="wrap">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__brand-logo"><div class="footer__brand-badge" aria-hidden="true">VI</div>GTAVITIPS</div>
+          <p class="footer__brand-desc">The intel database for GTA 6. You picked the wrong house, fool!</p>
+        </div>
+        <div><div class="footer__col-head">Database</div><ul class="footer__links"><li><a href="/gameplay/activities">Activities</a></li><li><a href="/gameplay/animals">Animals</a></li><li><a href="/gameplay/brands">Brands</a></li><li><a href="/gameplay/characters">Characters</a></li><li><a href="/gameplay/gangs-and-factions">Factions</a></li><li><a href="/gameplay/locations">Locations</a></li><li><a href="/gameplay/vehicles">Vehicles</a></li><li><a href="/gameplay/weapons">Weapons</a></li></ul></div>
+        <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li><li><a href="/map">Map</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div>
+        <div><div class="footer__col-head">Legal</div><ul class="footer__links"><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li></ul></div>
+        <div><div class="footer__col-head">Contact</div><ul class="footer__links"><li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li><li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li><li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
       </div>
-      <div><div class="footer__col-head">Database</div><ul class="footer__links"><li><a href="/gameplay/activities">Activities</a></li><li><a href="/gameplay/animals">Animals</a></li><li><a href="/gameplay/brands">Brands</a></li><li><a href="/gameplay/characters">Characters</a></li><li><a href="/gameplay/gangs-and-factions">Factions</a></li><li><a href="/gameplay/locations">Locations</a></li><li><a href="/gameplay/vehicles">Vehicles</a></li><li><a href="/gameplay/weapons">Weapons</a></li></ul></div>
-      <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li><li><a href="/map">Map</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div>
-      <div><div class="footer__col-head">Legal</div><ul class="footer__links"><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li></ul></div>
-      <div><div class="footer__col-head">Contact</div><ul class="footer__links"><li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li><li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li><li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
+      <div class="footer__bottom"><p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p></div>
     </div>
-    <div class="footer__bottom"><p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p></div>
-  </div>
-</footer>
+  </footer>
 
   <script>
     const burger = document.getElementById('burger');
@@ -410,8 +518,7 @@
       entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); ro.unobserve(e.target); } });
     }, { threshold: .1 });
     document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
-  
-    // DROPDOWN NAV
+
     (function(){
       var wrap = document.querySelector('.nav__dropdown-wrap');
       var btn = wrap && wrap.querySelector('.nav__dropdown-btn');
@@ -431,9 +538,9 @@
       document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape' && wrap) { wrap.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); }
       });
-    })();</script>
+    })();
+  </script>
 
-  <!-- COOKIE CONSENT BANNER -->
   <style>
     .cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999; background: #0d1320; border-top: 1px solid rgba(0,95,144,0.28); padding: 16px 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; transform: translateY(100%); transition: transform .35s ease; }
     .cookie-banner.visible { transform: translateY(0); }
@@ -458,7 +565,6 @@
       var GA4_ID = 'G-J8Q9S7G7K6';
       var banner = document.getElementById('cookie-banner');
       var consent = localStorage.getItem(CONSENT_KEY);
-
       function loadGA4() {
         if (document.getElementById('ga4-script')) return;
         var s = document.createElement('script');
@@ -472,22 +578,13 @@
         gtag('js', new Date());
         gtag('config', GA4_ID);
       }
-
-      if (consent === 'accepted') {
-        loadGA4();
-      } else if (consent === null) {
-        setTimeout(function(){ banner && banner.classList.add('visible'); }, 800);
-      }
-
+      if (consent === 'accepted') { loadGA4(); }
+      else if (consent === null) { setTimeout(function(){ banner && banner.classList.add('visible'); }, 800); }
       document.getElementById('cookie-accept') && document.getElementById('cookie-accept').addEventListener('click', function(){
-        localStorage.setItem(CONSENT_KEY, 'accepted');
-        banner.classList.remove('visible');
-        loadGA4();
+        localStorage.setItem(CONSENT_KEY, 'accepted'); banner.classList.remove('visible'); loadGA4();
       });
-
       document.getElementById('cookie-decline') && document.getElementById('cookie-decline').addEventListener('click', function(){
-        localStorage.setItem(CONSENT_KEY, 'declined');
-        banner.classList.remove('visible');
+        localStorage.setItem(CONSENT_KEY, 'declined'); banner.classList.remove('visible');
       });
     })();
   </script>
@@ -501,5 +598,6 @@
       localStorage.setItem('gtavitips-theme',next);
     });
   })();
-  </script></body>
+  </script>
+</body>
 </html>
