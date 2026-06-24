@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "url": "/news/gta-6-editions-pre-order-announced",
+      "title": "GTA VI Pre-Orders Open Tonight.",
+      "date": "June 24, 2026",
+      "badge": "Confirmed",
+      "badgeClass": "badge--official",
+      "cat": "rockstar",
+      "deck": "Two editions. Standard at $79.99, Ultimate at $99.99. Pre-orders open at midnight on June 25. Everything Rockstar confirmed, broken down.",
+      "image": "/assets/images/vintage-vice-city-pack-gta-6-preorder-looks-05.jpg",
+      "imageAlt": "Jason and Lucia in the Vintage Vice City Pack outfits — GTA 6 pre-order bonus",
+      "imagePosition": "center 35%",
+      "thumb": "PR",
+      "featured": false
+    },
+    {
       "url": "/news/gta-6-trailer-2-breakdown",
       "title": "GTA 6 Trailer 2: Everything We Saw",
       "date": "May 28, 2026",
@@ -10,6 +24,7 @@
       "deck": "Three minutes of Leonida. Shot by shot. Everything visible in Rockstar's May 2025 trailer, described as it appeared.",
       "image": "/assets/images/lucia-caminos-gta-6-character-05.jpg",
       "imageAlt": "Lucia Caminos in handcuffs at Leonida Correctional in GTA 6",
+      "imagePosition": "center 15%",
       "thumb": "T2",
       "featured": false
     },
