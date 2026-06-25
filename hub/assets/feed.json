@@ -1,10 +1,12 @@
 {
-  "date": "May 25, 2026",
+  "date": "June 24, 2026",
   "items": [
-    { "badge": "new", "url": "/gameplay/characters/boobie-ike",    "name": "Boobie Ike",     "text": "7X lieutenant. Vice City street level." },
-    { "badge": "upg", "url": "/gameplay/locations/port-gellhorn",  "name": "Port Gellhorn",  "text": "Industrial corridor expanded." },
-    { "badge": "new", "url": "/gameplay/vehicles/karin-sultan-rs", "name": "Karin Sultan RS", "text": "High Rollerz have these on lock." },
-    { "badge": "new", "url": "/gameplay/characters/wyman",         "name": "Wyman",           "text": "Mechanic running vehicle procurement out of Leonida." },
-    { "badge": "new", "url": "/gameplay/animals/flamingo",         "name": "Flamingo",        "text": "Spotted along the Leonida coast." }
+    { "badge": "new", "url": "/gameplay/vehicles/grotti-cheetah",         "name": "Grotti Cheetah",      "text": "'95 mid-engine V8. Ultimate Edition exclusive." },
+    { "badge": "new", "url": "/gameplay/vehicles/vapid-stanier",          "name": "Vapid Stanier",       "text": "1955 classic. Pre-order bonus with Shore Court garage." },
+    { "badge": "new", "url": "/gameplay/locations/shore-court",           "name": "Shore Court",         "text": "Coastal Vice City property. Weapon locker installed." },
+    { "badge": "new", "url": "/gameplay/gangs-and-factions/ptt-youngins", "name": "PTT YOUNGIN$",        "text": "Leonida street gang. Confirmed Ultimate Edition raid target." },
+    { "badge": "new", "url": "/gameplay/brands/one-eyes-willies",         "name": "One-Eyes Willies",    "text": "Ultimate Edition off-road mod shop." },
+    { "badge": "new", "url": "/gameplay/brands/rideout-customs",          "name": "Rideout Customs",     "text": "Ultimate Edition vehicle customization." },
+    { "badge": "new", "url": "/gameplay/brands/saras-unisex-salon",       "name": "Sara's Unisex Salon", "text": "Ultimate Edition hair salon. 50+ styles." }
   ]
 }
