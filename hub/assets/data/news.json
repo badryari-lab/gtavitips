@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "url": "/news/gta-6-playstation-ps5-partnership",
+      "title": "PlayStation and Rockstar: GTA VI Plays Best on PS5",
+      "date": "June 24, 2026",
+      "badge": "Confirmed",
+      "badgeClass": "badge--official",
+      "cat": "rockstar",
+      "deck": "Sony and Rockstar confirm a close partnership. DualSense, Tempest 3D Audio, SSD. Plus: the social media campaign that disappeared and came back the same day.",
+      "image": "",
+      "imageAlt": "",
+      "imagePosition": "center center",
+      "thumb": "PS5",
+      "featured": false
+    },
+    {
       "url": "/news/gta-6-editions-pre-order-announced",
       "title": "GTA VI Pre-Orders Open Tonight.",
       "date": "June 24, 2026",
