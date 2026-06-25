@@ -9,6 +9,7 @@
         { "url": "/gameplay/gangs-and-factions/high-rollerz",          "label": "Racers", "color": "#a3e635", "name": "High Rollerz",          "desc": "Underground racing crew in Vice City circuits." },
         { "url": "/gameplay/gangs-and-factions/leonida-cartel",        "label": "Cartel", "color": "#ef4444", "name": "Leonida Cartel",        "desc": "The dominant cartel. Product runs through the port corridor." },
         { "url": "/gameplay/gangs-and-factions/outlaw-motorcycle-gang","label": "Biker",  "color": "#f97316", "name": "Outlaw Motorcycle Gang","desc": "Biker gang. Rural and highway Leonida." },
+        { "url": "/gameplay/gangs-and-factions/ptt-youngins",         "label": "Gang",   "color": "#f472b6", "name": "PTT YOUNGIN$",          "desc": "Leonida street gang. Their compound is a confirmed Ultimate Edition raid target." },
         { "url": "/gameplay/gangs-and-factions/real-dimez",            "label": "Crew",   "color": "#fbbf24", "name": "Real Dimez",            "desc": "Viral music collective. Bae-Lux and Roxy. Vice City nightlife." },
         { "url": "/gameplay/gangs-and-factions/san-4-san",             "label": "Gang",   "color": "#f472b6", "name": "San 4 San",             "desc": "Street gang. Vice County jurisdiction." }
       ]

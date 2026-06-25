@@ -41,6 +41,7 @@
         { "url": "/gameplay/locations/monument-of-leonida",    "label": "Landmark",   "color": "#fcd34d", "name": "Monument of Leonida",    "desc": "Historical state landmark." },
         { "url": "/gameplay/locations/nine-1-nine",            "label": "Nightclub",  "color": "#e11d48", "name": "Nine-One-Nine",          "desc": "Active Vice City nightlife venue inside the urban grid." },
         { "url": "/gameplay/locations/ocean-view-hotel",       "label": "Hotel",      "color": "#e879f9", "name": "Ocean View Hotel",       "desc": "Ocean Drive hotel. Vice City beachfront." },
+        { "url": "/gameplay/locations/shore-court",            "label": "Property",   "color": "#22d3ee", "name": "Shore Court",            "desc": "Coastal Vice City personal property. Comes with the Vapid Stanier pre-order bonus. Weapon locker installed." },
         { "url": "/gameplay/locations/starlet-motel",          "label": "Motel",      "color": "#f97316", "name": "Starlet Motel",          "desc": "Roadside lodging. Rural Leonida." }
       ]
     }

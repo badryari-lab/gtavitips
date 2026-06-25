@@ -9,8 +9,9 @@
         { "url": "/gameplay/vehicles/annis-elegy-retro-custom","label": "Sports",    "color": "#c084fc", "name": "Annis Elegy Retro",       "desc": "Japanese performance with retro styling." },
         { "url": "/gameplay/vehicles/benefactor-schafter-v12", "label": "Sports",    "color": "#c084fc", "name": "Benefactor Schafter V12", "desc": "High-performance executive sports." },
         { "url": "/gameplay/vehicles/bravado-banshee",         "label": "Sports",    "color": "#c084fc", "name": "Bravado Banshee",         "desc": "American muscle-sports. The Banshee endures." },
-        { "url": "/gameplay/vehicles/grotti-carbonizzare",     "label": "Sports",    "color": "#c084fc", "name": "Grotti Carbonizzare",     "desc": "Italian open-top sports." },
-        { "url": "/gameplay/vehicles/grotti-cheetah-classic",  "label": "Classic",   "color": "#f97316", "name": "Grotti Cheetah Classic",  "desc": "Heritage Italian performance." },
+        { "url": "/gameplay/vehicles/grotti-carbonizzare",     "label": "Sports",   "color": "#c084fc", "name": "Grotti Carbonizzare",    "desc": "Italian open-top sports." },
+        { "url": "/gameplay/vehicles/grotti-cheetah",          "label": "Super",    "color": "#ff8042", "name": "Grotti Cheetah",         "desc": "'95 mid-engine V8. Ferrari F355 profile. Ultimate Edition exclusive." },
+        { "url": "/gameplay/vehicles/grotti-cheetah-classic",  "label": "Classic",  "color": "#f97316", "name": "Grotti Cheetah Classic", "desc": "Heritage Italian performance." },
         { "url": "/gameplay/vehicles/grotti-furia",            "label": "Super",     "color": "#ff8042", "name": "Grotti Furia",            "desc": "Grotti's flagship hypercar for Leonida." },
         { "url": "/gameplay/vehicles/invetero-coquette-d10",   "label": "Sports",    "color": "#c084fc", "name": "Invetero Coquette D10",   "desc": "American sports with European influence." },
         { "url": "/gameplay/vehicles/karin-futo",              "label": "Compact",   "color": "#34d399", "name": "Karin Futo",              "desc": "Drift-capable compact. The underground circuit standard." },
@@ -45,7 +46,8 @@
         { "url": "/gameplay/vehicles/imponte-ruiner",            "label": "Muscle",   "color": "#ff6b6b", "name": "Imponte Ruiner",            "desc": "Classic muscle silhouette." },
         { "url": "/gameplay/vehicles/obey-tailgater",            "label": "Sedan",    "color": "#60a5fa", "name": "Obey Tailgater",            "desc": "Corporate Leonida fleet sedan." },
         { "url": "/gameplay/vehicles/schyster-pmp-700",          "label": "Sedan",    "color": "#60a5fa", "name": "Schyster PMP 700",          "desc": "Mid-range sedan." },
-        { "url": "/gameplay/vehicles/vapid-chino",               "label": "Muscle",   "color": "#ff6b6b", "name": "Vapid Chino",               "desc": "Lowrider platform." }
+        { "url": "/gameplay/vehicles/vapid-chino",               "label": "Muscle",   "color": "#ff6b6b", "name": "Vapid Chino",               "desc": "Lowrider platform." },
+        { "url": "/gameplay/vehicles/vapid-stanier",             "label": "Classic",  "color": "#f97316", "name": "Vapid Stanier",             "desc": "1955 American sedan. Pre-order bonus. Shore Court property and weapon locker included." }
       ]
     },
     {
