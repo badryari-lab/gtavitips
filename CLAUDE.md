@@ -192,7 +192,8 @@ Reference file: `hub/news/gta-6-playstation-ps5-partnership/index.html` — repl
 - **Voice**: news is factual and self-assured, not forced street language. TOV.md rules apply in full (no meta-language, no hedging, no AI patterns, no em dashes)
 - **Author block**: bio line is always exactly **"You picked the wrong house, fool!"** — never a custom bio per article
 - **Comments section**: standard in every article (CSS + HTML block + Supabase script tags — see the Xbox wishlist article as reference)
-- **`news.json` entry** with: url, title, date, badge, badgeClass, cat, deck, image, imageAlt, thumb, featured
+- **`news.json` entry** with: url, title, date, badge, badgeClass, cat, deck, image, imageAlt, imagePosition (optional), thumb, featured
+- **`featured` semantics (counterintuitive!):** the homepage Latest Updates grid shows the first three articles with `featured: false` — the top one becomes the hero card. `featured: true` *excludes* an article from that grid (used to pin evergreens out of the rotation). To spotlight a new article on the homepage: `featured: false` + put it at the top of the array.
 - **Internal links**: every database entry mentioned gets its link, plus related news articles and relevant FAQs
 - **Sitemap**: add the new URL with today's `lastmod`
 

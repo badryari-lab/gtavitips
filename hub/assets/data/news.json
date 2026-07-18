@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "url": "/news/gta-6-trailer-3",
+      "title": "Trailer 3: What's Real and What's Noise",
+      "date": "July 18, 2026",
+      "badge": "Confirmed",
+      "badgeClass": "badge--official",
+      "cat": "rockstar",
+      "deck": "No date, no teaser, no countdown. What Rockstar has actually put on the record, the window everyone points at, and the rumors that already fell apart.",
+      "image": "/assets/images/vice-city-gta-6-location-01.jpg",
+      "imageAlt": "Vice City sign at dusk with a jet passing low overhead",
+      "imagePosition": "center 55%",
+      "thumb": "T3",
+      "featured": false
+    },
+    {
       "url": "/news/gta-6-playstation-ps5-partnership",
       "title": "PlayStation and Rockstar: GTA VI Plays Best on PS5",
       "date": "June 24, 2026",
