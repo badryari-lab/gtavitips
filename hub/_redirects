@@ -1,3 +1,112 @@
+# --- GSC 404-herstel (juli 2026): oude structuren uit Google's index ---
+
+# Hernoemde FAQ's
+/faq/is-gta-6-on-game-pass                /faq/is-gta-6-on-gamepass                 301
+/faq/how-much-will-gta-6-cost             /faq/how-much-does-gta-6-cost             301
+/faq/what-is-gta-6-pricing-model          /faq/how-much-does-gta-6-cost             301
+/faq/how-does-the-new-wanted-system-work  /faq/how-does-the-wanted-system-work      301
+/how-does-the-new-wanted-system-work      /faq/how-does-the-wanted-system-work      301
+/faq/gta-6-release-date                   /faq/when-does-gta-6-release              301
+/faq/when-is-gta-vi-coming-out            /faq/when-does-gta-6-release              301
+/faq/got-gta-6-delayed                    /faq/when-does-gta-6-release              301
+/faq/why-got-gta-6-delayed                /faq/when-does-gta-6-release              301
+/faq/will-gta-6-be-on-pc                  /faq/is-gta-6-coming-to-pc                301
+/faq/will-gta-6-be-crossplay              /faq/is-gta-6-cross-platform              301
+/faq/what-platforms-will-gta-6-be-on      /faq/gta-6-ps5-vs-xbox                    301
+/faq/what-platforms-will-gta-6-release-on /faq/gta-6-ps5-vs-xbox                    301
+/faq/ps5-pro-bundles                      /faq/gta-6-ps5-vs-xbox                    301
+/faq/will-gta-6-have-cheat-codes          /faq/gta-6-cheats                         301
+/faq/gta-6-collectors-edition-content     /faq/gta-6-physical-collector-edition     301
+/gta-6-collectors-edition-content         /faq/gta-6-physical-collector-edition     301
+/faq/who-are-the-voice-actors-jason-lucia /faq/who-are-the-main-characters-in-gta-6 301
+/who-are-the-voice-actors-jason-lucia     /faq/who-are-the-main-characters-in-gta-6 301
+/faq/will-gta6-have-a-female-protognist   /faq/who-are-the-main-characters-in-gta-6 301
+/faq/will-gta6-have-multiple-protognists  /faq/who-are-the-main-characters-in-gta-6 301
+/who-are-the-main-characters-in-gta-6     /faq/who-are-the-main-characters-in-gta-6 301
+/faq/is-jason-a-cop-in-gta-6              /gameplay/characters/jason-duval          301
+/faq/where-is-gta-6-set                   /faq/gta-6-map-size                       301
+/where-is-gta-6-set                       /faq/gta-6-map-size                       301
+/faq/will-gta-6-run-at-60-fps             /faq/does-gta-6-have-ray-tracing          301
+/faq/what-locations-are-confirmed-in-gta-6 /gameplay/locations                      301
+/faq/what-brands-are-confirmed-in-gta-6   /gameplay/brands                          301
+/faq/what-vehicles-are-confirmed-in-gta-6 /gameplay/vehicles                        301
+/what-vehicles-are-confirmed-in-gta-6     /gameplay/vehicles                        301
+/what-weapons-are-confirmed-in-gta-6      /gameplay/weapons                         301
+/what-animals-are-confirmed-in-gta-6      /gameplay/animals                         301
+/faq/will-gta-6-use-real-cars             /gameplay/vehicles                        301
+
+# Oude platte structuur (entries op root-niveau)
+/adios-airlines                           /gameplay/brands/adios-airlines           301
+/debonaire-cigarettes                     /gameplay/brands/debonaire-cigarettes     301
+/global-oil                               /gameplay/brands/global-oil               301
+/ron-oil                                  /gameplay/brands/ron-oil                  301
+/monument-of-leonida                      /gameplay/locations/monument-of-leonida   301
+/vice-beach-police                        /gameplay/gangs-and-factions/vice-beach-police 301
+/can-i-transfer-my-gta-online-character   /faq/can-i-transfer-my-gta-online-character 301
+/does-gta-6-feature-vice-city             /gameplay/locations/vice-city             301
+
+# Oude categorienamen (enkelvoud / factions)
+/gameplay/character                       /gameplay/characters                      301
+/gameplay/character/*                     /gameplay/characters/:splat               301
+/gameplay/vehicle                         /gameplay/vehicles                        301
+/gameplay/vehicle/*                       /gameplay/vehicles/:splat                 301
+/gameplay/factions                        /gameplay/gangs-and-factions              301
+/gameplay/factions/*                      /gameplay/gangs-and-factions/:splat       301
+/gameplay/animals.cat                     /gameplay/animals/cat                     301
+/gameplay/locations/mountains/mount-kalaga /gameplay/locations/mount-kalaga         301
+/gameplay/locations/red-hill-forrest      /gameplay/locations/red-hill-forest       301
+/gameplay/locations/bahama-mamas          /gameplay/brands/bahama-mamas             301
+/gameplay/locations/tequi-la-la           /gameplay/brands/tequi-la-la              301
+/gameplay/brands/malibu-club              /gameplay/locations/malibu-club           301
+
+# Hernoemde entries
+/gameplay/animals/bass                    /gameplay/animals/largemouth-bass         301
+/gameplay/animals/frog                    /gameplay/animals/southern-leopard-frog   301
+/gameplay/animals/panther                 /gameplay/animals/florida-panther         301
+/gameplay/animals/pigeon                  /gameplay/animals/rock-pigeon             301
+/gameplay/animals/python                  /gameplay/animals/pythons                 301
+/gameplay/animals/snake-python            /gameplay/animals/pythons                 301
+/gameplay/animals/police-dog              /gameplay/animals/dobermann               301
+/gameplay/animals/rottweiler              /gameplay/animals/dobermann               301
+/gameplay/vehicles/boats                  /gameplay/vehicles                        301
+/gameplay/vehicles/bravado-police-buffalo /gameplay/vehicles/bravado-police-cruiser-buffalo 301
+/gameplay/vehicles/nagasaki-buzzard       /gameplay/vehicles/buzzard                301
+/gameplay/vehicles/pfister-comet-retro    /gameplay/vehicles/pfister-comet-retro-custom 301
+/gameplay/vehicles/vapid-police-stanier   /gameplay/vehicles/vapid-police-cruiser-stanier-le 301
+/gameplay/vehicles/vapid-police-cruiser-interceptor /gameplay/vehicles/vapid-police-cruiser-stanier-le 301
+/gameplay/weapons/combat-knife            /gameplay/weapons/knife                   301
+/gameplay/weapons/magnum-revolver         /gameplay/weapons/heavy-revolver          301
+/gameplay/weapons/bolt-action-sniper-rifle /gameplay/weapons/sniper-rifle           301
+/gameplay/brands/burger-shot              /gameplay/brands/burgershot               301
+/gameplay/brands/cherry-popper-ice-cream-company /gameplay/brands/cherry-popper-ice-cream 301
+/gameplay/brands/cnt-cable-news-network   /gameplay/brands/cnt                      301
+/gameplay/brands/bean-machine             /gameplay/brands/cool-beans               301
+/gameplay/brands/fruit                    /gameplay/brands                          301
+/gameplay/brands/bleeter                  /gameplay/brands                          301
+/gameplay/brands/gruppe-6                 /gameplay/brands                          301
+/gameplay/gangs-and-factions/cartel       /gameplay/gangs-and-factions              301
+/gameplay/gangs-and-factions/vice-county-transit-authority /gameplay/gangs-and-factions 301
+/gameplay/locations/rusty-anchor          /gameplay/locations                       301
+
+# Verwijderde nieuws/deepdive-artikelen
+/news---updates                           /news                                     301
+/news/t-pain-gta-6-music-confirmed        /news                                     301
+/news/criminal-economy-vice-city          /news                                     301
+/news/official-announcements-log          /news                                     301
+/gta-6-remains-on-course-for-fall-2025-release /news                                301
+/rockstar-confirms-new-launch-date-for-grand-theft-auto-vi /news                    301
+/gta-five-mod-shutdown-by-rockstar        /news                                     301
+/decoding-the-gta-vi-document-1-the-return-of-iconic-businesses /news               301
+/decoding-the-gta-vi-document-weapons-equipment-gear-tools-and-items /news          301
+
+# Nooit-bestaande taalversies
+/fr                                       /                                         301
+/nl                                       /                                         301
+/es                                       /                                         301
+/en-gb                                    /                                         301
+
+# --- einde GSC 404-herstel ---
+
 /news-and-updates        /news                             301
 /news-and-updates/*      /news                             301
 /gameplay/location       /gameplay/locations               301
