@@ -6,8 +6,7 @@
     "enabled": true
   },
   "assets": {
-    "directory": "hub",
-    "html_handling": "drop-trailing-slash"
+    "directory": "hub"
   },
   "compatibility_flags": [
     "nodejs_compat"
