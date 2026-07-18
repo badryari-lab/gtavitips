@@ -49,7 +49,9 @@
 /gameplay/character                       /gameplay/characters                      301
 /gameplay/character/*                     /gameplay/characters/:splat               301
 /gameplay/vehicle                         /gameplay/vehicles                        301
+/gameplay/vehicle/dinghy                  /gameplay/vehicles/nagasaki-dinghy        301
 /gameplay/vehicle/*                       /gameplay/vehicles/:splat                 301
+/gameplay/vehicles/dinghy                 /gameplay/vehicles/nagasaki-dinghy        301
 /gameplay/factions                        /gameplay/gangs-and-factions              301
 /gameplay/factions/*                      /gameplay/gangs-and-factions/:splat       301
 /gameplay/animals.cat                     /gameplay/animals/cat                     301
