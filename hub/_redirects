@@ -1,3 +1,8 @@
+/news-and-updates        /news                             301
+/news-and-updates/*      /news                             301
+/gameplay/location       /gameplay/locations               301
+/gameplay/location/*     /gameplay/locations/:splat        301
+/ocelot                  /gameplay/brands/ocelot           301
 /characters              /gameplay/characters              301
 /characters/*            /gameplay/characters/:splat       301
 /locations               /gameplay/locations               301
