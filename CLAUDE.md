@@ -1,5 +1,14 @@
 # GTAVITIPS — Claude Working Guide
 
+## Rule zero — read this first, every session
+
+This file is the **single source of truth** for all agreements about the site. Memory files point here; if memory and this file ever disagree, this file wins.
+
+1. Before the first action in any session: consult this file.
+2. Before building or editing a specific part of the site (database entry, news article, FAQ, feed, intel drop): **step 1 is re-reading that part's section in this file**, plus `TOV.md` for any copy.
+3. Never draft copy from memory or summary — read `TOV.md` and one existing page of the same type first.
+4. New agreements made with Badr go into this file in the same session, not into separate memory notes.
+
 ## What this site is
 
 GTAVITIPS (gtavitips.com) is a GTA 6 intel database and fan hub. The mission is to be the definitive pre- and post-launch resource for GTA 6: verified characters, vehicles, locations, weapons, factions, brands, animals, and activities — plus news, walkthroughs, and tips after launch.
@@ -95,6 +104,13 @@ Keep it street-level, in-world, self-assured. A touch of internet language and G
 - Body: `font-size: 14–16px`, `color: var(--t2)`, `line-height: 1.65–1.75`
 - Eyebrow labels: `font-size: 10px`, `font-weight: 800`, `letter-spacing: .14em`
 - Badges/tags: `font-size: 9–10px`, `font-weight: 800`, `border-radius: 99px`
+- **Section H2s (`section__h2`, `article-section__h2`) are always `color: var(--t1)` (white), never blue — applies to every page type.** Recurring problem, check it on every page you touch.
+
+### Image overlays — two contexts, two rules
+
+- **Cards with a background image** (homepage, category cards, news cards): directional gradient overlay — blue tint at top (`rgba(0,95,144,.28–.42)`), transparent middle, dark at bottom (`rgba(8,12,18,.88–.97)`) with text pinned to the bottom. Never a flat dark wash (kills the brand feel).
+  Example: `linear-gradient(to bottom, rgba(0,95,144,.28) 0%, rgba(8,12,18,0) 38%, rgba(8,12,18,.88) 65%, rgba(8,12,18,.97) 100%)`
+- **Photos on entry pages** (dossier photo): **no overlay at all**, no text label on the photo; `transform: scale(1.25)` to crop letterbox bars, container `overflow: hidden`.
 
 ### Shared components (replicate exactly)
 
@@ -138,11 +154,16 @@ Never present unverified leaks as facts. Never omit a source label on a claim.
 ## Database entry conventions
 
 Each entry page follows the same dossier structure:
-- Header with name, category badge, status badge (Confirmed / Reported)
-- Key metadata grid (Status, Role/Type, Affiliation, First Seen, etc.)
+- Header with name and category badge — **no status badge** (decided May 2026: presence in the database implies confirmation; removed from all pages)
+- Key metadata grid (Role/Type, Affiliation, First Seen, etc.) — **no Status field** (removed May 2026 together with the badge)
 - Description paragraph — terse, authoritative, present tense
-- Sighting log or connections section where relevant
+- Sightings/intel log section is always called **"On Record"** (approved naming, all entry types)
 - Internal links to related characters, locations, factions
+
+### Character pages (approved template — May 2026)
+
+- **No** dossier badge, **no** Status stat-block field — skip both from the start
+- **H1**: two-part names get the last name in `<span style="color:var(--blue)">` (Lucia <span>Caminos</span>); single-word names (Roxy, Rudi, Wyman, Stefanie, DWNPLY) stay fully white, no color split
 
 ### Activity pages (approved template — May 2026)
 
@@ -155,11 +176,25 @@ Reference file: `hub/gameplay/activities/weightlifting/index.html`
 - **Section order and names** (fixed):
   1. Eyebrow "Activity Overview" / H2 **Dossier** — all body text, how it works, no trailer references
   2. Eyebrow "Official Rockstar Sources Only" / H2 **On Record** — 3-column intel log (source | label | text)
-  3. Eyebrow "Filed Connections" / H2 **Known Connections** — horizontal cards, always a mix of activity + character + location + vehicle; 56px avatar with photo if the linked page has one
+  3. Eyebrow "Filed Connections" / H2 **Known Connections** — horizontal cards, always a mix of activity + character + location + vehicle; 56px avatar with photo if the linked page has one; pick non-obvious connections (not Jason or the Karin Sultan RS by default); card descriptions never name "Trailer X" or "Scene X" — trailer references belong in On Record only
   4. Eyebrow "Frequently Asked" / H2 **Frequently Asked** — native `<details>/<summary>` accordions
 - **section__h2** always `color: var(--t1)` (white), never blue
 
 Entry slugs follow kebab-case: `/gameplay/characters/lucia-caminos`, `/gameplay/vehicles/karin-sultan-rs`.
+
+## News article template (approved June 2026)
+
+Reference file: `hub/news/gta-6-playstation-ps5-partnership/index.html` — replicate its structure exactly.
+
+- **Hero**: back-link to `/news`, H1 with the second part in a `<span>`, deck paragraph that answers the story in 2–3 concrete sentences, meta row with badge (Confirmed / Reported / Speculation) + date
+- **Sections**: eyebrow (pink line + pink uppercase label) + `article-section__h2` (white). Section names are custom per article — make them say something, not "Introduction"
+- **Intel callouts**: `Source — Confirmed` callouts for sourcing, `Analysis` callouts for perspective. The attitude lives in the Analysis callouts; body prose stays dry and precise
+- **Voice**: news is factual and self-assured, not forced street language. TOV.md rules apply in full (no meta-language, no hedging, no AI patterns, no em dashes)
+- **Author block**: bio line is always exactly **"You picked the wrong house, fool!"** — never a custom bio per article
+- **Comments section**: standard in every article (CSS + HTML block + Supabase script tags — see the Xbox wishlist article as reference)
+- **`news.json` entry** with: url, title, date, badge, badgeClass, cat, deck, image, imageAlt, thumb, featured
+- **Internal links**: every database entry mentioned gets its link, plus related news articles and relevant FAQs
+- **Sitemap**: add the new URL with today's `lastmod`
 
 ## Internal linking rules
 
@@ -215,10 +250,22 @@ When a better image is found for a ⚠ category, update it on the homepage card 
 - **Setting:** State of Leonida (fictional Florida). Vice City is the main urban hub (Miami analog).
 - **Protagonists:** Lucia Caminos (Liberty City origin, released from Leonida correctional at story start) and Jason Duval (Leonida native, military background, drug running history)
 - **Release date:** November 19, 2026 — PS5 and Xbox Series X/S only at launch. No PC date confirmed.
-- **Database size:** 287 entries across 8 categories (as of May 2026)
+- **Database size:** 301 entries across 8 categories, plus 21 FAQ pages and 34 news articles (as of July 2026)
 - **Key confirmed locations:** Vice City, South Beach, Leonida Keys, Port Gellhorn, Grassrivers, Mount Kalaga, Lake Leonida, Red Hill Forest
 - **Key confirmed factions:** 7X (dominant Vice City street gang), High Rollerz (car culture crew), Brute Security, VCPD, VCSO, Leonida State Police, NOOSE
 - **Interactive map:** In development, targeting November 19, 2026 launch day release
+
+## Standing workflows (always follow these step orders)
+
+**News article:** voorstel → sparren (dekking, hoek, bronnen) → schrijven (`/news/[slug]/index.html`) → afbeelding kiezen uit `/assets/images/` (zet path in news.json én artikel-hero; vraag of er een tweede afbeelding in het artikel moet) → vragen of het artikel featured op de homepage moet (`featured: true` in news.json) → posten (alles in één commit + push).
+
+**Database entry:** voorstel (naam + categorie) → sparren (confirmed/reported/speculation, bronnen, metadata) → schrijven (`/gameplay/[categorie]/[slug]/index.html`) → JSON updaten (characters.json etc.) → sitemap → herhaal per entry → feed-selectie aan het einde van de sessie (nooit per entry; max ~5 items, mix van categorieën, Badr geeft akkoord) → posten in één commit.
+
+**FAQ:** voorstel (of Claude suggereert ontbrekende vragen) → sparren (antwoord, nuances, lengte) → schrijven (`/faq/[slug]/index.html`) → FAQ-index bijwerken → sitemap → posten.
+
+**Feed (`feed.json`):** alleen in batch aan het einde van een database-sessie of bij een entry-upgrade. Claude stelt mix voor (max ~5, categorieën en badges new/upg gemengd) → akkoord Badr → updaten → posten.
+
+**Intel Drop (`/intel-drops/`):** alleen bij mijlpalen (nieuwe categorie, 10+ entries, grote site-change, significant officieel materiaal). Sparren over titel (één blauw woord in `<span style="color:var(--blue)">`), context-alinea en source badge (Official groen / Internal blauw / Leaker amber) → nieuw `<div class="drop">` blok **bovenaan** de lijst → geen sitemap-update nodig → posten. Entry badges: `--new` of `--upg`.
 
 ## Contacts & social
 
@@ -239,7 +286,7 @@ When a better image is found for a ⚠ category, update it on the homepage card 
 4. Label all content with the correct source status (Confirmed / Reported / Speculation)
 5. Use the military/intel tone: terse, uppercase headings, no fluff
 6. Keep the dark theme default — light theme must work too via CSS variables
-7. After adding a page: remind Badr to update `sitemap.xml`
+7. After adding a page: update `sitemap.xml` yourself with the new URL and today's `lastmod` (do not leave this to Badr)
 
 ## What Claude should never do
 
