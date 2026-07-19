@@ -144,3 +144,5 @@
 /gameplay/gangs-and-factions/the-7x /gameplay/gangs-and-factions/7x           301
 /gameplay/characters/bae            /gameplay/characters/bae-lux               301
 /gameplay/characters/lux            /gameplay/characters/bae-lux               301
+/feed                               /feed.xml                                  301
+/feed/atom                          /feed.xml                                  301

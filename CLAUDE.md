@@ -260,7 +260,7 @@ When a better image is found for a ⚠ category, update it on the homepage card 
 
 **Publishing rule (July 2026):** content never goes live without Badr's explicit confirmation on the finished work. Build everything locally first, present a summary, wait for his go, then push related changes as one batch — never piecemeal.
 
-**News article:** voorstel → sparren (dekking, hoek, bronnen) → schrijven (`/news/[slug]/index.html`) → afbeelding kiezen uit `/assets/images/` (zet path in news.json én artikel-hero; vraag of er een tweede afbeelding in het artikel moet) → vragen of het artikel featured op de homepage moet (`featured: true` in news.json) → posten (alles in één commit + push).
+**News article:** voorstel → sparren (dekking, hoek, bronnen) → schrijven (`/news/[slug]/index.html`) → afbeelding kiezen uit `/assets/images/` (zet path in news.json én artikel-hero; vraag of er een tweede afbeelding in het artikel moet) → vragen of het artikel featured op de homepage moet (`featured: true` in news.json) → **`feed.xml` bijwerken** (nieuw item bovenaan, RSS 2.0, pubDate in RFC-822; max ~20 items, oudste eruit) → posten (alles in één commit + push).
 
 **Database entry:** voorstel (naam + categorie) → sparren (confirmed/reported/speculation, bronnen, metadata) → schrijven (`/gameplay/[categorie]/[slug]/index.html`) → JSON updaten (characters.json etc.) → sitemap → herhaal per entry → feed-selectie aan het einde van de sessie (nooit per entry; max ~5 items, mix van categorieën, Badr geeft akkoord) → posten in één commit.
 
