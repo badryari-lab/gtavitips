@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GTAVITIPS | GTA 6 Intel Hub – Leonida</title>
-  <meta name="description" content="GTA 6 intel on characters, vehicles, locations, factions, and brands across Leonida. Sourced from official Rockstar footage.">
+  <title>GTA 6 Database &amp; Intel Hub: Characters, Vehicles, Locations | GTAVITIPS</title>
+  <meta name="description" content="The GTA 6 database: characters, vehicles, locations, factions and weapons across Leonida. Official Rockstar sources only. Launch November 19, 2026. Pre-orders open.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="GTAVITIPS | GTA 6 Intel Hub – Leonida">
-  <meta property="og:description" content="GTA 6 intel on characters, vehicles, locations, factions, and brands across Leonida. Sourced from official Rockstar footage.">
+  <meta property="og:title" content="GTA 6 Database &amp; Intel Hub | GTAVITIPS">
+  <meta property="og:description" content="The GTA 6 database: characters, vehicles, locations, factions and weapons across Leonida. Official Rockstar sources only. Launch November 19, 2026.">
   <meta property="og:url" content="https://gtavitips.com/">
+  <meta property="og:image" content="https://gtavitips.com/assets/images/vice-city-gta-6-location-04.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://gtavitips.com/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23005f90'/%3E%3Ctext x='32' y='44' font-family='Arial,sans-serif' font-size='30' font-weight='900' fill='white' text-anchor='middle'%3EVI%3C/text%3E%3C/svg%3E">
   <script>
   (function(){
     var saved=localStorage.getItem('gtavitips-theme');
@@ -25,16 +27,29 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "GTAVITIPS",
-    "url": "https://gtavitips.com",
-    "description": "Verified GTA 6 intel hub covering characters, vehicles, locations, weapons, factions, brands, animals, and activities across Leonida.",
-    "publisher": { "@type": "Organization", "name": "GTAVITIPS", "url": "https://gtavitips.com" },
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://www.google.com/search?q=site:gtavitips.com+{search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://gtavitips.com/#org",
+        "name": "GTAVITIPS",
+        "url": "https://gtavitips.com",
+        "description": "GTA 6 database and intel hub covering characters, vehicles, locations, weapons, factions, brands, animals, and activities across Leonida. Official Rockstar sources only.",
+        "email": "info@gtavitips.com",
+        "sameAs": [
+          "https://x.com/gtavitips",
+          "https://www.tiktok.com/@gtavi.tips",
+          "https://www.instagram.com/gtavi.tips"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://gtavitips.com/#website",
+        "name": "GTAVITIPS",
+        "url": "https://gtavitips.com",
+        "description": "Verified GTA 6 intel hub covering characters, vehicles, locations, weapons, factions, brands, animals, and activities across Leonida.",
+        "publisher": { "@id": "https://gtavitips.com/#org" }
+      }
+    ]
   }
   </script>
 
@@ -195,6 +210,40 @@
     .hero__strip-item { display: inline-flex; align-items: center; gap: 8px; padding: 14px 32px; font-size: 11px; font-weight: 600; color: var(--t3); border-right: 1px solid var(--border); }
     .hero__strip-item b { color: var(--t2); }
     .hero__strip-pip { width: 4px; height: 4px; border-radius: 50%; flex-shrink: 0; }
+
+    /* ── SITREP ── */
+    .sitrep { padding: 48px 0 72px; }
+    .sitrep__card { background: var(--bg-2); border: 1px solid var(--border-b); border-radius: 14px; overflow: hidden; }
+    .sitrep__bar { position: relative; padding: 12px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    .sitrep__bar::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--blue), var(--pink)); }
+    .sitrep__label { display: flex; align-items: center; gap: 8px; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; color: var(--pink); }
+    .sitrep__updated { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--t3); }
+    .sitrep__grid { display: grid; grid-template-columns: repeat(4, 1fr); }
+    .sitrep__cell { padding: 22px 20px; border-right: 1px solid var(--border); display: flex; flex-direction: column; gap: 6px; text-decoration: none; transition: background .18s; }
+    .sitrep__cell:last-child { border-right: none; }
+    a.sitrep__cell:hover { background: rgba(255,255,255,.025); }
+    .sitrep__cell-key { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .13em; color: var(--t3); }
+    .sitrep__cell-val { font-size: 19px; font-weight: 900; text-transform: uppercase; letter-spacing: -.01em; color: var(--t1); line-height: 1.15; }
+    .sitrep__cell-val b { color: var(--blue); }
+    .sitrep__cell-sub { font-size: 11.5px; color: var(--t2); line-height: 1.5; }
+    @media (max-width: 900px) { .sitrep__grid { grid-template-columns: 1fr 1fr; } .sitrep__cell:nth-child(2) { border-right: none; } .sitrep__cell:nth-child(-n+2) { border-bottom: 1px solid var(--border); } }
+    @media (max-width: 480px) { .sitrep__grid { grid-template-columns: 1fr; } .sitrep__cell { border-right: none !important; border-bottom: 1px solid var(--border); } .sitrep__cell:last-child { border-bottom: none; } }
+
+    /* ── FAQ STRIP ── */
+    .faq-strip { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .faq-strip__item { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 16px 20px; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); text-decoration: none; transition: border-color .18s, background .18s, transform .15s; }
+    .faq-strip__item:hover { border-color: var(--border-b); background: var(--bg-3); transform: translateY(-1px); }
+    .faq-strip__q { font-size: 13.5px; font-weight: 600; color: var(--t1); line-height: 1.4; }
+    .faq-strip__arr { font-size: 14px; color: var(--t3); flex-shrink: 0; }
+    @media (max-width: 700px) { .faq-strip { grid-template-columns: 1fr; } }
+
+    /* ── REDUCED MOTION ── */
+    @media (prefers-reduced-motion: reduce) {
+      .hero__strip-track { animation: none; }
+      .hero__atmos-scan { display: none; }
+      .hero__tag-dot, .intel-terminal__live-dot { animation: none; }
+      .reveal { opacity: 1; transform: none; transition: none; }
+    }
 
     /* ── SECTIONS ── */
     .sec { padding: 96px 0; }
@@ -491,13 +540,13 @@
 
             <div class="hero__actions">
               <a href="/gameplay" class="hero__btn-primary">Browse Database</a>
+              <a href="/trailers" class="hero__btn-ghost">Watch the Trailers</a>
               <a href="/gameplay/characters/lucia-caminos" class="hero__btn-ghost">Lucia Caminos</a>
-              <a href="/gameplay/characters/jason-duval" class="hero__btn-ghost">Jason Duval</a>
             </div>
 
             <div class="hero__stats" role="list" aria-label="Database statistics">
               <div class="hero__stat" role="listitem">
-                <div class="hero__stat-num"><b id="stat-entries">288</b></div>
+                <div class="hero__stat-num"><b id="stat-entries">301</b></div>
                 <div class="hero__stat-label">Database Entries</div>
               </div>
               <div class="hero__stat-div" aria-hidden="true"></div>
@@ -536,7 +585,7 @@
       </div>
 
       <!-- Ticker strip -->
-      <div class="hero__strip" role="marquee" aria-label="Confirmed intel feed">
+      <div class="hero__strip" role="region" aria-label="Confirmed intel feed">
         <div class="hero__strip-label" aria-hidden="true">Confirmed Intel</div>
         <div class="hero__strip-track-wrap">
           <div class="hero__strip-track" aria-hidden="true">
@@ -547,6 +596,8 @@
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Port Gellhorn — Industrial hub</span>
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Brute Security — Armored transport faction</span>
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Release date: November 19, 2026 — Rockstar Newswire</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Pre-orders open — Standard $79.99, Ultimate $99.99</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Vintage Vice City Pack — pre-order bonus</span>
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--amber)"></span>Interactive map in development. Target: launch day.</span>
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Lucia Caminos — Protagonist</span>
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Jason Duval — Protagonist</span>
@@ -555,7 +606,43 @@
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Port Gellhorn — Industrial hub</span>
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Brute Security — Armored transport faction</span>
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Release date: November 19, 2026 — Rockstar Newswire</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Pre-orders open — Standard $79.99, Ultimate $99.99</span>
+            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Vintage Vice City Pack — pre-order bonus</span>
             <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--amber)"></span>Interactive map in development. Target: launch day.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SITREP ── -->
+    <section class="sitrep" aria-labelledby="sitrep-hd">
+      <div class="wrap">
+        <div class="sitrep__card reveal">
+          <div class="sitrep__bar">
+            <h2 class="sitrep__label" id="sitrep-hd"><span class="hero__tag-dot" aria-hidden="true"></span>Sitrep — State of the Game</h2>
+            <span class="sitrep__updated">Updated July 19, 2026</span>
+          </div>
+          <div class="sitrep__grid">
+            <a href="/faq/when-does-gta-6-release" class="sitrep__cell">
+              <span class="sitrep__cell-key">Launch</span>
+              <span class="sitrep__cell-val">Nov <b>19</b>, 2026</span>
+              <span class="sitrep__cell-sub">PS5 &amp; Xbox Series X|S. No PC at launch.</span>
+            </a>
+            <div class="sitrep__cell">
+              <span class="sitrep__cell-key">Countdown</span>
+              <span class="sitrep__cell-val"><b id="countdown-days">123</b> days</span>
+              <span class="sitrep__cell-sub">Until the servers open.</span>
+            </div>
+            <a href="/faq/gta-6-pre-order" class="sitrep__cell">
+              <span class="sitrep__cell-key">Pre-Orders</span>
+              <span class="sitrep__cell-val">Open <b>Now</b></span>
+              <span class="sitrep__cell-sub">Standard $79.99. Ultimate $99.99. Both get the Vintage Vice City Pack.</span>
+            </a>
+            <a href="/trailers" class="sitrep__cell">
+              <span class="sitrep__cell-key">Trailers</span>
+              <span class="sitrep__cell-val">Two <b>On Record</b></span>
+              <span class="sitrep__cell-sub">Trailer 3: not announced. Watch both here.</span>
+            </a>
           </div>
         </div>
       </div>
@@ -636,8 +723,8 @@
       <div class="wrap">
         <div class="sec__top">
           <div>
-            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Filed May 25, 2026</span></div>
-            <h2 class="sec__hd reveal" id="briefing-hd">New Profile: <span>Dre'Quan Priest</span></h2>
+            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Featured Dossier</span></div>
+            <h2 class="sec__hd reveal" id="briefing-hd">On File: <span>Dre'Quan Priest</span></h2>
           </div>
           <a href="/gameplay/characters" class="sec__viewall reveal d1">All Characters</a>
         </div>
@@ -729,6 +816,27 @@
               <span class="log__item-cat">Brands</span>
             </a>
           </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FAQ ── -->
+    <section class="sec" style="padding-top:0" aria-labelledby="faq-hd">
+      <div class="wrap">
+        <div class="sec__top">
+          <div>
+            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Straight Answers</span></div>
+            <h2 class="sec__hd reveal" id="faq-hd">Frequently <span>Asked</span></h2>
+          </div>
+          <a href="/faq" class="sec__viewall reveal d1">All Questions</a>
+        </div>
+        <div class="faq-strip reveal">
+          <a href="/faq/when-does-gta-6-release" class="faq-strip__item"><span class="faq-strip__q">When does GTA 6 release?</span><span class="faq-strip__arr">&#8594;</span></a>
+          <a href="/faq/how-much-does-gta-6-cost" class="faq-strip__item"><span class="faq-strip__q">How much does GTA 6 cost?</span><span class="faq-strip__arr">&#8594;</span></a>
+          <a href="/faq/gta-6-pre-order" class="faq-strip__item"><span class="faq-strip__q">Can I pre-order GTA 6?</span><span class="faq-strip__arr">&#8594;</span></a>
+          <a href="/faq/is-gta-6-coming-to-pc" class="faq-strip__item"><span class="faq-strip__q">Is GTA 6 coming to PC?</span><span class="faq-strip__arr">&#8594;</span></a>
+          <a href="/faq/is-the-ultimate-edition-worth-it" class="faq-strip__item"><span class="faq-strip__q">Is the Ultimate Edition worth it?</span><span class="faq-strip__arr">&#8594;</span></a>
+          <a href="/faq/gta-6-map-size" class="faq-strip__item"><span class="faq-strip__q">How big is the GTA 6 map?</span><span class="faq-strip__arr">&#8594;</span></a>
         </div>
       </div>
     </section>
@@ -868,6 +976,51 @@
     fetch('/assets/data/stats.json')
       .then(function(r){return r.json()})
       .then(function(data){if(data.entries)el.textContent=data.entries});
+  })();
+
+  // ── COUNTDOWN ──
+  (function(){
+    var el=document.getElementById('countdown-days');
+    if(!el)return;
+    var launch=new Date(2026,10,19);
+    var now=new Date();
+    var days=Math.ceil((launch-new Date(now.getFullYear(),now.getMonth(),now.getDate()))/86400000);
+    if(days>0)el.textContent=days;
+    else{
+      var cell=el.closest('.sitrep__cell');
+      if(cell){cell.querySelector('.sitrep__cell-val').innerHTML='<b>Live</b>';cell.querySelector('.sitrep__cell-sub').textContent='The servers are open.';}
+    }
+  })();
+
+  // ── LATEST UPDATES (from feed.json) ──
+  (function(){
+    var list=document.querySelector('.log__list');
+    var title=document.querySelector('.log__head-title');
+    if(!list)return;
+    var CATS={'activities':'Activities','animals':'Animals','brands':'Brands','characters':'Characters','gangs-and-factions':'Factions','locations':'Locations','vehicles':'Vehicles','weapons':'Weapons'};
+    fetch('/assets/feed.json')
+      .then(function(r){return r.json()})
+      .then(function(data){
+        if(!data.items||!data.items.length)return;
+        if(title&&data.date)title.textContent=data.date;
+        var short='';
+        if(data.date){var p=data.date.replace(',','').split(' ');short=p[0].slice(0,3)+' '+p[1];}
+        var html='';
+        data.items.forEach(function(item){
+          var seg=item.url.split('/')[2]||'';
+          var cat=CATS[seg]||'';
+          var badge=item.badge==='upg'
+            ?'<span class="log__item-badge log__item-badge--green">Upg</span>'
+            :'<span class="log__item-badge log__item-badge--blue">New</span>';
+          html+='<a href="'+item.url+'" class="log__item" role="listitem">'
+            +'<span class="log__item-date">'+short+'</span>'
+            +badge
+            +'<span class="log__item-text"><strong>'+item.name+'</strong> — '+item.text+'</span>'
+            +'<span class="log__item-cat">'+cat+'</span>'
+            +'</a>';
+        });
+        list.innerHTML=html;
+      });
   })();
   </script>
 

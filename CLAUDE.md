@@ -266,7 +266,9 @@ When a better image is found for a ⚠ category, update it on the homepage card 
 
 **FAQ:** voorstel (of Claude suggereert ontbrekende vragen) → sparren (antwoord, nuances, lengte) → schrijven (`/faq/[slug]/index.html`) → FAQ-index bijwerken → sitemap → posten.
 
-**Feed (`feed.json`):** alleen in batch aan het einde van een database-sessie of bij een entry-upgrade. Claude stelt mix voor (max ~5, categorieën en badges new/upg gemengd) → akkoord Badr → updaten → posten.
+**Feed (`feed.json`):** alleen in batch aan het einde van een database-sessie of bij een entry-upgrade. Claude stelt mix voor (max ~5, categorieën en badges new/upg gemengd) → akkoord Badr → updaten → posten. De homepage-secties "Live Feed" (hero) én "Latest Updates" renderen beide uit feed.json; een feed-update ververst dus automatisch de homepage.
+
+**Homepage Sitrep (juli 2026):** het Sitrep-blok op de homepage (launch/countdown/pre-orders/trailers + "Updated"-datum) is statische HTML en moet handmatig bijgewerkt worden zodra een feit verandert (nieuwe trailer, prijswijziging, PC-aankondiging, etc.) — check dit blok bij elke news-sessie. De countdown rekent zichzelf uit via JS. Entry-tellingen: `stats.json` én de statische fallback in de hero horen gelijk te lopen met het echte aantal entry-mappen.
 
 **Intel Drop (`/intel-drops/`):** alleen bij mijlpalen (nieuwe categorie, 10+ entries, grote site-change, significant officieel materiaal). Sparren over titel (één blauw woord in `<span style="color:var(--blue)">`), context-alinea en source badge (Official groen / Internal blauw / Leaker amber) → nieuw `<div class="drop">` blok **bovenaan** de lijst → geen sitemap-update nodig → posten. Entry badges: `--new` of `--upg`.
 

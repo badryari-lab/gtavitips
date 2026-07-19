@@ -1,0 +1,36 @@
+# GTAVITIPS
+
+> GTA 6 database and intel hub. Characters, vehicles, locations, weapons, factions, brands, animals, and activities across Leonida, sourced exclusively from official Rockstar Games communications (trailers, Rockstar Newswire, Take-Two investor posts). Every claim is labeled Confirmed, Reported, or Speculation. Not affiliated with Rockstar Games or Take-Two Interactive.
+
+Key facts (updated July 2026):
+- GTA 6 launches November 19, 2026 on PS5 and Xbox Series X/S. No PC version announced.
+- Pre-orders opened June 25, 2026. Standard Edition $79.99, Ultimate Edition $99.99 (digital only).
+- Pre-order bonus: Vintage Vice City Pack, included with both editions.
+- Two official trailers released (December 2023, May 2025). Trailer 3 not announced.
+- Protagonists: Lucia Caminos and Jason Duval. Setting: state of Leonida, main city Vice City.
+
+## Database
+
+- [Database hub](https://gtavitips.com/gameplay): 301 entries across 8 categories
+- [Characters](https://gtavitips.com/gameplay/characters): Lucia Caminos, Jason Duval, and everyone else with a name in Leonida
+- [Vehicles](https://gtavitips.com/gameplay/vehicles): every ride spotted in official footage
+- [Locations](https://gtavitips.com/gameplay/locations): Vice City, Leonida Keys, Port Gellhorn, and beyond
+- [Gangs & Factions](https://gtavitips.com/gameplay/gangs-and-factions): 7X, VCPD, cartel operations
+- [Weapons](https://gtavitips.com/gameplay/weapons)
+- [Brands](https://gtavitips.com/gameplay/brands)
+- [Animals](https://gtavitips.com/gameplay/animals)
+- [Activities](https://gtavitips.com/gameplay/activities)
+
+## Guides & News
+
+- [FAQ](https://gtavitips.com/faq): release date, pricing, editions, platforms, pre-orders
+- [News](https://gtavitips.com/news): coverage of official announcements
+- [Trailers](https://gtavitips.com/trailers): every official GTA 6 trailer with breakdowns
+- [Trailer 1 breakdown](https://gtavitips.com/news/gta-6-trailer-1-breakdown)
+- [Trailer 2 breakdown](https://gtavitips.com/news/gta-6-trailer-2-breakdown)
+- [Pre-order guide](https://gtavitips.com/news/gta-6-editions-pre-order-announced): editions, pricing, bonuses
+
+## Contact
+
+- Email: info@gtavitips.com
+- X: https://x.com/gtavitips
