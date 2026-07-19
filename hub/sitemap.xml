@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/faq</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -101,7 +101,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/news/gta-6-editions-pre-order-announced</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -257,7 +257,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/news/gta-6-trailer-2-breakdown</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -287,7 +287,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/news/gta-6-trailer-1-breakdown</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -366,6 +366,12 @@
   <url>
     <loc>https://gtavitips.com/faq/gta-6-download-size</loc>
     <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/faq/gta-6-save-system</loc>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
