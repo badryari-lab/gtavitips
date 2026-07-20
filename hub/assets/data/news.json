@@ -279,6 +279,19 @@
       "featured": false
     },
     {
+      "url": "/news/every-confirmed-character-in-gta-6",
+      "title": "Every Confirmed Character in GTA 6",
+      "date": "July 2026",
+      "badge": "Deep Dive",
+      "badgeClass": "badge--deepdive",
+      "cat": "deep-dive",
+      "deck": "16 confirmed characters across three tiers. Protagonists, underworld connections, and the public figures who make Vice City feel occupied.",
+      "image": "/assets/images/characters-index-gta-6.jpg",
+      "imageAlt": "GTA 6 character roster",
+      "thumb": "CAST",
+      "featured": false
+    },
+    {
       "url": "/news/weapons-of-leonida",
       "title": "Weapons of Leonida: The Confirmed Arsenal",
       "date": "April 2026",

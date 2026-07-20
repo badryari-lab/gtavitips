@@ -6,7 +6,14 @@
     <atom:link href="https://gtavitips.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>GTA 6 news and intel from official Rockstar sources. Characters, vehicles, locations, and everything moving in Leonida.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jul 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Every Confirmed Character in GTA 6</title>
+      <link>https://gtavitips.com/news/every-confirmed-character-in-gta-6</link>
+      <guid isPermaLink="true">https://gtavitips.com/news/every-confirmed-character-in-gta-6</guid>
+      <pubDate>Mon, 20 Jul 2026 12:00:00 +0000</pubDate>
+      <description>16 confirmed characters across three tiers. Protagonists, underworld connections, and the public figures who make Vice City feel occupied.</description>
+    </item>
     <item>
       <title>Trailer 3: What's Real and What's Noise</title>
       <link>https://gtavitips.com/news/gta-6-trailer-3</link>
@@ -139,13 +146,6 @@
       <guid isPermaLink="true">https://gtavitips.com/news/vehicle-roster-vice-city</guid>
       <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
       <description>80+ confirmed vehicles across every category. The fleet is not a menu of fast cars. It is the transport infrastructure of a functioning state.</description>
-    </item>
-    <item>
-      <title>Vice City Then and Now: 1986 to 2026</title>
-      <link>https://gtavitips.com/news/vice-city-1986-vs-2026</link>
-      <guid isPermaLink="true">https://gtavitips.com/news/vice-city-1986-vs-2026</guid>
-      <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-      <description>Same addresses. Different world. Forty years separate the two versions of this city. Here is what that gap means for Leonida.</description>
     </item>
   </channel>
 </rss>
