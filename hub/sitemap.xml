@@ -5,13 +5,13 @@
           http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://gtavitips.com/</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/news</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -85,6 +85,12 @@
     <loc>https://gtavitips.com/news/gta-6-playstation-ps5-partnership</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/news/gta-6-extended-look-netflix-exclusive</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>

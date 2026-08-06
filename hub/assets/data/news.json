@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "url": "/news/gta-6-extended-look-netflix-exclusive",
+      "title": "An Extended Look: GTA VI's Next Reveal Goes to Netflix First",
+      "date": "August 6, 2026",
+      "badge": "Confirmed",
+      "badgeClass": "badge--official",
+      "cat": "rockstar",
+      "deck": "Rockstar isn't calling it Trailer 3. On August 27, Netflix premieres it six hours before YouTube gets it. What's confirmed, what's still guesswork, and exactly when to watch.",
+      "image": "/assets/images/weazel-news-gta-6-brand-01.png",
+      "imageAlt": "Weazel News live broadcast overlay in GTA 6",
+      "imagePosition": "center 60%",
+      "thumb": "NFX",
+      "featured": false
+    },
+    {
       "url": "/news/gta-6-trailer-3",
       "title": "Trailer 3: What's Real and What's Noise",
       "date": "July 18, 2026",

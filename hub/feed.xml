@@ -6,7 +6,14 @@
     <atom:link href="https://gtavitips.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>GTA 6 news and intel from official Rockstar sources. Characters, vehicles, locations, and everything moving in Leonida.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>An Extended Look: GTA VI's Next Reveal Goes to Netflix First</title>
+      <link>https://gtavitips.com/news/gta-6-extended-look-netflix-exclusive</link>
+      <guid isPermaLink="true">https://gtavitips.com/news/gta-6-extended-look-netflix-exclusive</guid>
+      <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Rockstar isn't calling it Trailer 3. On August 27, Netflix premieres it six hours before YouTube gets it. What's confirmed, what's still guesswork, and exactly when to watch.</description>
+    </item>
     <item>
       <title>Every Confirmed Character in GTA 6</title>
       <link>https://gtavitips.com/news/every-confirmed-character-in-gta-6</link>
@@ -139,13 +146,6 @@
       <guid isPermaLink="true">https://gtavitips.com/news/real-vice-city-miami-leonida</guid>
       <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
       <description>Ocean Drive to South Beach. Port Everglades to Port Gellhorn. The Florida Keys to Leonida Keys. The full geographic translation.</description>
-    </item>
-    <item>
-      <title>The GTA 6 Vehicle Roster: What It Says About Vice City</title>
-      <link>https://gtavitips.com/news/vehicle-roster-vice-city</link>
-      <guid isPermaLink="true">https://gtavitips.com/news/vehicle-roster-vice-city</guid>
-      <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-      <description>80+ confirmed vehicles across every category. The fleet is not a menu of fast cars. It is the transport infrastructure of a functioning state.</description>
     </item>
   </channel>
 </rss>
