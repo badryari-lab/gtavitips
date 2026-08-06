@@ -641,8 +641,8 @@
             </a>
             <a href="/news/gta-6-extended-look-netflix-exclusive" class="sitrep__cell">
               <span class="sitrep__cell-key">Next Reveal</span>
-              <span class="sitrep__cell-val">Aug <b>27</b></span>
-              <span class="sitrep__cell-sub">An Extended Look. Netflix first, YouTube six hours later.</span>
+              <span class="sitrep__cell-val"><b id="reveal-countdown">21</b> days</span>
+              <span class="sitrep__cell-sub">An Extended Look — Aug 27. Netflix first, YouTube six hours later.</span>
             </a>
           </div>
         </div>
@@ -990,6 +990,20 @@
     else{
       var cell=el.closest('.sitrep__cell');
       if(cell){cell.querySelector('.sitrep__cell-val').innerHTML='<b>Live</b>';cell.querySelector('.sitrep__cell-sub').textContent='The servers are open.';}
+    }
+  })();
+
+  // ── EXTENDED LOOK COUNTDOWN ──
+  (function(){
+    var el=document.getElementById('reveal-countdown');
+    if(!el)return;
+    var reveal=new Date(2026,7,27);
+    var now=new Date();
+    var days=Math.ceil((reveal-new Date(now.getFullYear(),now.getMonth(),now.getDate()))/86400000);
+    if(days>0)el.textContent=days;
+    else{
+      var cell=el.closest('.sitrep__cell');
+      if(cell){cell.querySelector('.sitrep__cell-val').innerHTML='<b>Live</b>';cell.querySelector('.sitrep__cell-sub').textContent='Watch it now.';}
     }
   })();
 
