@@ -4,6 +4,17 @@ const path = require('path');
 const HUB = 'C:\\Users\\HP Omen\\Documents\\GitHub\\gtavitips\\hub';
 const OUT = path.join(HUB, 'search-index.json');
 
+// Standalone hub pages that aren't part of a repeated template (news article,
+// database entry, FAQ) but are still real content worth surfacing in search.
+// Add new ones here explicitly - don't widen a regex, since most top-level
+// pages (privacy, cookie-policy, about) are navigation/legal, not searchable content.
+const STANDALONE_PAGES = {
+  '/timeline': 'page',
+  '/trailers': 'page',
+  '/map': 'page',
+  '/intel-drops': 'page',
+};
+
 function category(url) {
   if (/\/gameplay\/characters\/.+/.test(url))        return 'character';
   if (/\/gameplay\/vehicles\/.+/.test(url))           return 'vehicle';
@@ -15,7 +26,8 @@ function category(url) {
   if (/\/gameplay\/activities\/.+/.test(url))         return 'activity';
   if (/\/faq\/.+/.test(url))                         return 'faq';
   if (/\/news\/.+/.test(url))                        return 'news';
-  return null; // index/hub pages — skip
+  if (STANDALONE_PAGES[url])                         return STANDALONE_PAGES[url];
+  return null; // remaining index/hub pages — skip
 }
 
 function extract(html) {
