@@ -139,7 +139,24 @@
     .search-overlay__nores{font-size:12px;color:var(--t3);padding:20px 0;text-align:center;}
 
     /* ── HERO ── */
-    .hero { min-height: 100svh; display: grid; grid-template-rows: 1fr auto; padding-top: var(--nav-h); position: relative; overflow: hidden; }
+    .hero { min-height: 100svh; display: grid; grid-template-rows: auto 1fr auto; padding-top: var(--nav-h); position: relative; overflow: hidden; }
+
+    /* COUNTDOWN BAR */
+    .countdown-bar{display:block;position:relative;z-index:1;background:linear-gradient(90deg,rgba(0,95,144,.16),rgba(255,0,85,.11));border-bottom:1px solid var(--border-b);text-decoration:none;transition:background .2s;}
+    .countdown-bar:hover{background:linear-gradient(90deg,rgba(0,95,144,.22),rgba(255,0,85,.17));}
+    .countdown-bar__inner{display:flex;align-items:center;justify-content:center;gap:18px;padding:12px 28px;flex-wrap:wrap;}
+    .countdown-bar__label{display:flex;align-items:center;gap:9px;font-size:12.5px;color:var(--t2);}
+    .countdown-bar__label strong{color:var(--t1);font-weight:700;}
+    .countdown-bar__dot{width:7px;height:7px;border-radius:50%;background:var(--pink);flex-shrink:0;box-shadow:0 0 0 3px rgba(255,0,85,.18);animation:cdPulse 1.8s ease-in-out infinite;}
+    @keyframes cdPulse{0%,100%{opacity:1}50%{opacity:.35}}
+    .countdown-bar__digits{display:flex;align-items:center;gap:6px;}
+    .countdown-bar__unit{display:flex;flex-direction:column;align-items:center;background:var(--bg-2);border:1px solid var(--border-b);border-radius:8px;padding:4px 10px;min-width:40px;}
+    .countdown-bar__num{font-size:16px;font-weight:900;color:var(--t1);line-height:1.15;font-variant-numeric:tabular-nums;}
+    .countdown-bar__unit-label{font-size:8px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--t3);margin-top:1px;}
+    .countdown-bar__sep{color:var(--t3);font-weight:700;font-size:13px;}
+    .countdown-bar__cta{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--blue);flex-shrink:0;}
+    @media(max-width:640px){.countdown-bar__inner{padding:10px 20px;gap:10px;}.countdown-bar__cta{display:none;}}
+    @media(max-width:420px){.countdown-bar__label-text{display:none;}}
     .hero__atmos { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
     .hero__atmos-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(0,95,144,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0,95,144,.05) 1px, transparent 1px); background-size: 56px 56px; mask-image: radial-gradient(ellipse 90% 80% at 50% 30%, black 20%, transparent 75%); }
     .hero__atmos-orb-1 { position: absolute; width: 900px; height: 600px; background: radial-gradient(ellipse, rgba(0,95,144,.22) 0%, transparent 65%); top: -180px; left: -280px; }
@@ -510,6 +527,24 @@
 
     <!-- ── HERO ── -->
     <section class="hero" aria-label="GTAVITIPS verified GTA 6 intel hub">
+      <a href="/news/gta-6-extended-look-netflix-exclusive" class="countdown-bar" aria-label="Countdown to Grand Theft Auto VI: An Extended Look, premiering on Netflix August 27">
+        <div class="wrap countdown-bar__inner">
+          <div class="countdown-bar__label">
+            <span class="countdown-bar__dot" aria-hidden="true"></span>
+            <span class="countdown-bar__label-text">Next Reveal — <strong>An Extended Look</strong> · Netflix, Aug 27</span>
+          </div>
+          <div class="countdown-bar__digits">
+            <div class="countdown-bar__unit"><span class="countdown-bar__num" id="cd-days">21</span><span class="countdown-bar__unit-label">Days</span></div>
+            <span class="countdown-bar__sep" aria-hidden="true">:</span>
+            <div class="countdown-bar__unit"><span class="countdown-bar__num" id="cd-hours">00</span><span class="countdown-bar__unit-label">Hrs</span></div>
+            <span class="countdown-bar__sep" aria-hidden="true">:</span>
+            <div class="countdown-bar__unit"><span class="countdown-bar__num" id="cd-mins">00</span><span class="countdown-bar__unit-label">Min</span></div>
+            <span class="countdown-bar__sep" aria-hidden="true">:</span>
+            <div class="countdown-bar__unit"><span class="countdown-bar__num" id="cd-secs">00</span><span class="countdown-bar__unit-label">Sec</span></div>
+          </div>
+          <span class="countdown-bar__cta">Details →</span>
+        </div>
+      </a>
       <div class="hero__atmos" aria-hidden="true">
         <div class="hero__atmos-grid"></div>
         <div class="hero__atmos-orb-1"></div>
@@ -1005,6 +1040,32 @@
       var cell=el.closest('.sitrep__cell');
       if(cell){cell.querySelector('.sitrep__cell-val').innerHTML='<b>Live</b>';cell.querySelector('.sitrep__cell-sub').textContent='Watch it now.';}
     }
+  })();
+
+  // ── HERO COUNTDOWN BAR (live, ticks every second) ──
+  (function(){
+    var elD=document.getElementById('cd-days'),elH=document.getElementById('cd-hours'),elM=document.getElementById('cd-mins'),elS=document.getElementById('cd-secs');
+    var bar=document.querySelector('.countdown-bar');
+    if(!elD||!bar)return;
+    var target=Date.UTC(2026,7,27,19,0,0); // Aug 27 2026, 3:00 PM ET / 9:00 PM CEST
+    function pad(n){return n<10?'0'+n:''+n;}
+    function tick(){
+      var diff=target-Date.now();
+      if(diff<=0){
+        var digits=bar.querySelector('.countdown-bar__digits'),label=bar.querySelector('.countdown-bar__label-text');
+        if(digits)digits.innerHTML='<div class="countdown-bar__unit"><span class="countdown-bar__num">LIVE</span></div>';
+        if(label)label.innerHTML='<strong>An Extended Look</strong> is live — watch now';
+        clearInterval(iv);
+        return;
+      }
+      var d=Math.floor(diff/86400000);
+      var h=Math.floor(diff%86400000/3600000);
+      var m=Math.floor(diff%3600000/60000);
+      var s=Math.floor(diff%60000/1000);
+      elD.textContent=d;elH.textContent=pad(h);elM.textContent=pad(m);elS.textContent=pad(s);
+    }
+    tick();
+    var iv=setInterval(tick,1000);
   })();
 
   // ── LATEST UPDATES (from feed.json) ──
