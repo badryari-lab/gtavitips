@@ -12,7 +12,7 @@
   <meta property="og:image" content="https://gtavitips.com/assets/images/vice-city-gta-6-location-04.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://gtavitips.com/">
-  <link rel="alternate" type="application/rss+xml" title="GTAVITIPS — GTA 6 News" href="https://gtavitips.com/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="GTAVITIPS: GTA 6 News" href="https://gtavitips.com/feed.xml">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpolygon points='0,0 48,0 64,15 64,64 0,64' fill='%23a8341f'/%3E%3Ctext x='30' y='44' font-family='Arial,sans-serif' font-size='28' font-weight='900' fill='%23ece4d3' text-anchor='middle'%3EVI%3C/text%3E%3C/svg%3E">
   <script>
   (function(){
@@ -174,8 +174,8 @@
 
     /* ── SECTIONS ── */
     .sec { padding: 60px 0; }
-    .sec__eyebrow { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
-    .sec__eyebrow-line { width: 20px; height: 2px; background: var(--stamp); }
+    .sec__eyebrow { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+    .eyebrow-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--stamp); flex-shrink: 0; }
     .sec__eyebrow-text { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--stamp); }
     .sec__hd { font-size: clamp(22px, 3.5vw, 32px); font-weight: 700; text-transform: uppercase; letter-spacing: .02em; color: var(--t1); line-height: 1.1; }
     .sec__hd span { color: var(--kraft); }
@@ -187,7 +187,7 @@
 
     /* ── HERO — real context up front, disciplined size, no glow-orb billboard ── */
     .hero { position: relative; min-height: 440px; display: flex; align-items: flex-end; padding-top: var(--nav-h); overflow: hidden; }
-    .hero__bg { position: absolute; inset: 0; background: url('/assets/images/vice-city-gta-6-location-04.jpg') center 30%/cover; }
+    .hero__bg { position: absolute; inset: 0; background: url('/assets/images/vice-city-gta-6-location-04.jpg') center 8%/cover; }
     .hero__overlay { position: absolute; inset: 0; background: linear-gradient(to top, var(--bg) 0%, rgba(11,10,8,.85) 45%, rgba(184,146,90,.14) 100%); }
     [data-theme="light"] .hero__overlay { background: linear-gradient(to top, var(--bg) 0%, rgba(236,228,211,.88) 45%, rgba(138,90,38,.14) 100%); }
     .hero__inner { position: relative; z-index: 1; padding: 60px 0 40px; }
@@ -437,7 +437,7 @@
         <div class="hero__actions">
           <a href="/gameplay" class="hero__btn-primary">Browse Database</a>
           <a href="/trailers" class="hero__btn-ghost">Watch the Trailers</a>
-          <span class="hero__reveal-chip tag-stamp tag-stamp--alt" style="margin-left:4px;"><a href="/news/gta-6-extended-look-netflix-exclusive" style="color:inherit;">Next Reveal — Aug 27</a></span>
+          <span class="hero__reveal-chip tag-stamp tag-stamp--alt" style="margin-left:4px;"><a href="/news/gta-6-extended-look-netflix-exclusive" style="color:inherit;">Next Reveal &middot; Aug 27</a></span>
         </div>
       </div>
     </section>
@@ -447,16 +447,16 @@
       <div class="wrap">
         <div class="sec__top">
           <div>
-            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">The Operation</span></div>
-            <h2 class="sec__hd reveal" id="ops-hd">Live &amp; <span>Incoming</span></h2>
-            <p class="sec__sub">The full spread — some of it live now, some of it sealed until it's ready.</p>
+            <div class="sec__eyebrow" aria-hidden="true"><span class="eyebrow-dot"></span><span class="sec__eyebrow-text">The Operation</span></div>
+            <h2 class="sec__hd reveal" id="ops-hd">No <span>Blind Spots</span></h2>
+            <p class="sec__sub">The full spread. Some of it's live now, some of it's sealed until it's ready.</p>
           </div>
         </div>
         <div class="ops-grid">
           <a href="/gameplay" class="ops-card reveal" style="background-image:url('/assets/images/grassrivers-gta-6-location-03.jpg')">
             <span class="ops-card__eyebrow">Live Now</span>
             <span class="ops-card__name">Database</span>
-            <span class="ops-card__desc">301 verified entries — characters, vehicles, locations, weapons, factions.</span>
+            <span class="ops-card__desc">301 verified entries: characters, vehicles, locations, weapons, factions.</span>
             <span class="ops-card__arrow">→</span>
           </a>
           <a href="/news" class="ops-card reveal d1" style="background-image:url('/assets/images/jason-duval-gta-6-character-06.jpg')">
@@ -470,21 +470,21 @@
             <span class="ops-card__eyebrow">Opens at Launch</span>
             <span class="ops-card__name">Walkthroughs &amp; Tips</span>
             <div class="redact-lines" aria-hidden="true"><div class="redact-line" style="width:88%"></div><div class="redact-line" style="width:62%"></div></div>
-            <span class="ops-card__soon">Mission guides, creator embeds, full credit — Nov 19</span>
+            <span class="ops-card__soon">Mission guides, creator embeds, full credit. Nov 19</span>
           </div>
           <div class="ops-card ops-card--sealed reveal">
             <span class="ops-card__stamp">Sealed</span>
             <span class="ops-card__eyebrow">In Development</span>
             <span class="ops-card__name">Interactive Map</span>
             <div class="redact-lines" aria-hidden="true"><div class="redact-line" style="width:80%"></div><div class="redact-line" style="width:50%"></div></div>
-            <span class="ops-card__soon">Every territory, zone, and activity — goes live launch day</span>
+            <span class="ops-card__soon">Every territory, zone, and activity. Goes live launch day</span>
           </div>
           <div class="ops-card ops-card--sealed reveal d1">
             <span class="ops-card__stamp">Sealed</span>
             <span class="ops-card__eyebrow">In the Works</span>
             <span class="ops-card__name">Economy &amp; Business</span>
             <div class="redact-lines" aria-hidden="true"><div class="redact-line" style="width:70%"></div><div class="redact-line" style="width:44%"></div></div>
-            <span class="ops-card__soon">How the money moves in Leonida — coming pre-launch</span>
+            <span class="ops-card__soon">How the money moves in Leonida. Coming pre-launch</span>
           </div>
           <div class="ops-card ops-card--sealed reveal d2">
             <span class="ops-card__stamp">Sealed</span>
@@ -527,7 +527,7 @@
       <div class="wrap">
         <div class="sec__top">
           <div>
-            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Latest News</span></div>
+            <div class="sec__eyebrow" aria-hidden="true"><span class="eyebrow-dot"></span><span class="sec__eyebrow-text">Latest News</span></div>
             <h2 class="sec__hd reveal" id="intel-hd">News &amp; <span>Updates</span></h2>
           </div>
           <a href="/news" class="sec__viewall reveal d1">All News</a>
@@ -547,7 +547,7 @@
       <div class="wrap">
         <div class="sitrep__card reveal">
           <div class="sitrep__bar">
-            <h2 class="sitrep__label" id="sitrep-hd"><span class="pulse-dot" aria-hidden="true"></span>Sitrep — State of the Game</h2>
+            <h2 class="sitrep__label" id="sitrep-hd"><span class="pulse-dot" aria-hidden="true"></span>Sitrep: State of the Game</h2>
             <span class="sitrep__updated">Updated August 6, 2026</span>
           </div>
           <div class="sitrep__grid">
@@ -569,7 +569,7 @@
             <a href="/news/gta-6-extended-look-netflix-exclusive" class="sitrep__cell">
               <span class="sitrep__cell-key">Next Reveal</span>
               <span class="sitrep__cell-val"><b id="reveal-countdown">21</b> days</span>
-              <span class="sitrep__cell-sub">An Extended Look — Aug 27. Netflix first, YouTube six hours later.</span>
+              <span class="sitrep__cell-sub">An Extended Look, Aug 27. Netflix first, YouTube six hours later.</span>
             </a>
           </div>
         </div>
@@ -733,7 +733,7 @@
           var badge=item.badge==='upg'
             ?'<span class="tag-stamp tag-stamp--alt" style="font-size:8px;padding:1px 7px;">Upg</span>'
             :'<span class="tag-stamp" style="font-size:8px;padding:1px 7px;">New</span>';
-          html+='<li><a href="'+item.url+'">'+badge+'<span class="rail-updates__text"><strong>'+item.name+'</strong> — '+item.text+'</span></a></li>';
+          html+='<li><a href="'+item.url+'">'+badge+'<span class="rail-updates__text"><strong>'+item.name+':</strong> '+item.text+'</span></a></li>';
         });
         list.innerHTML=html;
       });
