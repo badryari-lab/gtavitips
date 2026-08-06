@@ -109,7 +109,6 @@
     ::-webkit-scrollbar-thumb { background: var(--bg-4); border-radius: 99px; }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
     .wrap { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
-    main { padding-top: var(--nav-h); }
 
     /* ── PAPER GRAIN — dependency-free, no image request ── */
     .grain { position: fixed; inset: 0; z-index: 500; pointer-events: none; opacity: .045; mix-blend-mode: overlay;
@@ -144,7 +143,7 @@
     .nav__mobile a { padding: 11px 14px; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t2); border-radius: 9px; transition: .18s; }
     .nav__mobile a:hover { color: var(--t1); background: var(--kraft-dim); }
 
-    /* ── SEARCH OVERLAY (modal — kept for use from anywhere on the site) ── */
+    /* ── SEARCH OVERLAY (modal — usable from anywhere on the site) ── */
     .search-overlay { position: fixed; inset: 0; z-index: 300; background: var(--bg); opacity: 0; pointer-events: none; transition: opacity .22s; display: flex; align-items: flex-start; justify-content: center; padding-top: 120px; }
     [data-theme="dark"] .search-overlay { background: rgba(11,10,8,.94); }
     [data-theme="light"] .search-overlay { background: rgba(236,228,211,.96); }
@@ -173,36 +172,63 @@
     .tag-stamp--muted{border-color:var(--t3);color:var(--t2);background:transparent;border-style:dashed;transform:rotate(-1deg);}
 
     /* ── SECTIONS ── */
-    .sec { padding: 64px 0; }
+    .sec { padding: 60px 0; }
     .sec__eyebrow { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
     .sec__eyebrow-line { width: 20px; height: 2px; background: var(--stamp); }
     .sec__eyebrow-text { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--stamp); }
     .sec__hd { font-size: clamp(22px, 3.5vw, 32px); font-weight: 700; text-transform: uppercase; letter-spacing: .02em; color: var(--t1); line-height: 1.1; }
     .sec__hd span { color: var(--kraft); }
-    .sec__top { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 40px; flex-wrap: wrap; }
+    .sec__sub { font-size: 13.5px; color: var(--t2); max-width: 520px; margin-top: 8px; line-height: 1.6; }
+    .sec__top { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 32px; flex-wrap: wrap; }
     .sec__viewall { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--kraft); border-bottom: 1px solid var(--kraft-border); padding-bottom: 1px; white-space: nowrap; transition: border-color .18s; }
     .sec__viewall:hover { border-color: var(--kraft); }
+    @media (max-width: 768px) { .sec { padding: 40px 0; } }
 
-    /* ── INTRO STRIP (replaces the old full-screen hero billboard) ── */
-    .intro { padding: 26px 0 22px; border-bottom: 1px solid var(--border); }
-    .intro__inner { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
-    .intro__h1 { font-family: 'Archivo', sans-serif; font-weight: 900; text-transform: uppercase; letter-spacing: -.015em; font-size: clamp(21px, 3vw, 29px); line-height: 1.15; color: var(--t1); margin-bottom: 6px; }
-    .intro__h1 span { color: var(--kraft); }
-    .intro__line { font-size: 13.5px; color: var(--t2); line-height: 1.5; max-width: 540px; }
-    .intro__line strong { color: var(--t1); font-weight: 600; }
-    .intro__stats { display: flex; align-items: center; gap: 18px; flex-shrink: 0; }
-    .intro__stat { display: flex; flex-direction: column; gap: 2px; align-items: flex-start; }
-    .intro__stat-num { font-family: 'Courier Prime', monospace; font-size: 17px; font-weight: 700; color: var(--kraft); line-height: 1; }
-    .intro__stat-label { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t3); }
-    .intro__stat-div { width: 1px; height: 24px; background: var(--border); }
-    @media (max-width: 640px) { .intro__stats { display: none; } }
+    /* ── HERO — real context up front, disciplined size, no glow-orb billboard ── */
+    .hero { position: relative; min-height: 440px; display: flex; align-items: flex-end; padding-top: var(--nav-h); overflow: hidden; }
+    .hero__bg { position: absolute; inset: 0; background: url('/assets/images/vice-city-gta-6-location-04.jpg') center 30%/cover; }
+    .hero__overlay { position: absolute; inset: 0; background: linear-gradient(to top, var(--bg) 0%, rgba(11,10,8,.85) 45%, rgba(184,146,90,.14) 100%); }
+    [data-theme="light"] .hero__overlay { background: linear-gradient(to top, var(--bg) 0%, rgba(236,228,211,.88) 45%, rgba(138,90,38,.14) 100%); }
+    .hero__inner { position: relative; z-index: 1; padding: 60px 0 40px; }
+    .hero__tag { display: inline-flex; align-items: center; gap: 8px; font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--stamp); border: 1px solid var(--stamp-border); background: var(--stamp-dim); padding: 5px 14px; border-radius: var(--r2); margin-bottom: 20px; }
+    .hero__h1 { font-family: 'Archivo', sans-serif; font-weight: 900; text-transform: uppercase; letter-spacing: -.02em; font-size: clamp(32px, 5.5vw, 60px); line-height: .98; color: var(--t1); margin-bottom: 14px; }
+    .hero__h1 span { color: var(--kraft); }
+    .hero__sub { font-size: 15px; color: var(--t2); line-height: 1.7; max-width: 480px; margin-bottom: 26px; }
+    .hero__sub strong { color: var(--t1); font-weight: 600; }
+    .hero__actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .hero__btn-primary { padding: 12px 26px; background: var(--kraft); color: var(--paper-ink); font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border-radius: 9px; transition: opacity .18s, transform .15s; }
+    .hero__btn-primary:hover { opacity: .85; transform: translateY(-1px); }
+    .hero__btn-ghost { padding: 11px 26px; color: var(--t1); font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border-radius: 9px; border: 1px solid rgba(255,255,255,.28); transition: border-color .18s, transform .15s; }
+    .hero__btn-ghost:hover { border-color: var(--kraft); transform: translateY(-1px); }
+    .hero__reveal-chip { font-size: 12px; color: var(--t2); }
+    .hero__reveal-chip strong { color: var(--t1); }
+    @media (max-width: 560px) { .hero { min-height: 380px; } }
 
-    /* ── CORE: search + browse (left) / newsroom rail (right) ── */
-    .core { padding: 36px 0 20px; }
-    .core-layout { display: grid; grid-template-columns: 1fr 340px; gap: 26px; align-items: start; }
-    @media (max-width: 1024px) { .core-layout { grid-template-columns: 1fr; } }
+    /* ── OPS GRID — the full scope of the operation, live and sealed ── */
+    .ops-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    @media (max-width: 900px) { .ops-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 560px) { .ops-grid { grid-template-columns: 1fr; } }
 
-    .search-block { background: var(--bg-2); border: 1px solid var(--kraft-border); border-radius: var(--r); padding: 20px 22px; margin-bottom: 16px; }
+    .ops-card { position: relative; border-radius: var(--r); overflow: hidden; min-height: 190px; display: flex; flex-direction: column; justify-content: flex-end; padding: 18px 20px; text-decoration: none; background-size: cover; background-position: center; transition: transform .2s, box-shadow .2s; box-shadow: 0 4px 18px rgba(0,0,0,.4); background-color: var(--bg-2); border: 1px solid var(--border); }
+    .ops-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(184,146,90,.10) 0%, rgba(19,17,16,0) 32%, rgba(19,17,16,.80) 60%, rgba(19,17,16,.95) 100%); z-index: 0; }
+    a.ops-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(0,0,0,.55); }
+    .ops-card__eyebrow { position: relative; z-index: 1; font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .13em; color: var(--kraft); margin-bottom: 6px; }
+    .ops-card__name { position: relative; z-index: 1; font-size: 18px; font-weight: 900; text-transform: uppercase; letter-spacing: .02em; color: #fff; margin-bottom: 5px; }
+    .ops-card__desc { position: relative; z-index: 1; font-size: 12px; color: rgba(255,255,255,.72); line-height: 1.5; }
+    .ops-card__arrow { position: absolute; top: 14px; right: 16px; z-index: 1; color: rgba(255,255,255,.8); font-size: 16px; transition: transform .18s; }
+    a.ops-card:hover .ops-card__arrow { transform: translateX(3px); }
+
+    .ops-card--sealed { background-image: none !important; cursor: default; }
+    .ops-card--sealed::after { display: none; }
+    .ops-card--sealed .ops-card__eyebrow { color: var(--t3); }
+    .ops-card--sealed .ops-card__name { color: var(--t1); }
+    .ops-card__stamp { position: absolute; top: 14px; right: 14px; z-index: 2; font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--stamp); border: 1.3px solid var(--stamp); background: var(--stamp-dim); padding: 3px 9px; border-radius: 2px 8px 2px 8px; transform: rotate(-4deg); }
+    .redact-lines { display: flex; flex-direction: column; gap: 5px; margin: 8px 0; }
+    .redact-line { height: 8px; background: var(--bg-4); border-radius: 2px; }
+    .ops-card__soon { font-family: 'Courier Prime', monospace; font-size: 10px; color: var(--kraft); }
+
+    /* ── QUICK LOOKUP (secondary utility, not the page's opening move) ── */
+    .search-block { background: var(--bg-2); border: 1px solid var(--kraft-border); border-radius: var(--r); padding: 20px 22px; }
     .search-block__label { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--stamp); margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
     .search-block__field { display: flex; align-items: center; background: var(--bg-3); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; transition: border-color .18s; }
     .search-block__field:focus-within { border-color: var(--kraft-border); }
@@ -215,34 +241,50 @@
     .search-block__results { margin-top: 10px; display: flex; flex-direction: column; gap: 3px; }
     .search-block__results:empty { margin-top: 0; }
 
-    .cat-rail-hd { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
-    .cat-rail-title { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--t3); }
-    .cat-rail { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-    .cat-tile { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r2); padding: 14px 14px 12px; text-decoration: none; transition: border-color .18s, transform .15s, background .18s; display: flex; flex-direction: column; gap: 8px; }
-    .cat-tile:hover { border-color: var(--kraft-border); background: var(--bg-3); transform: translateY(-2px); }
-    .cat-tile__name { font-size: 12.5px; font-weight: 900; text-transform: uppercase; letter-spacing: .04em; color: var(--t1); }
-    .cat-tile__arrow { font-size: 12px; color: var(--kraft); }
-    @media (max-width: 640px) { .cat-rail { grid-template-columns: repeat(2, 1fr); } }
+    /* ── CATEGORY QUICK-CHIPS ── */
+    .cat-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .cat-chip { font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--t2); background: var(--bg-2); border: 1px solid var(--border); border-radius: 99px; padding: 7px 14px; transition: border-color .18s, color .18s, background .18s; }
+    .cat-chip:hover { color: var(--t1); border-color: var(--kraft-border); background: var(--bg-3); }
 
-    .rail { display: flex; flex-direction: column; gap: 14px; }
+    /* ── NEWS LAYOUT: main grid + live updates panel ── */
+    .news-layout { display: grid; grid-template-columns: 1fr 300px; gap: 20px; align-items: start; }
+    @media (max-width: 1024px) { .news-layout { grid-template-columns: 1fr; } }
+
     .rail-widget { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r2); padding: 16px 18px; }
     .rail-widget__label { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .13em; color: var(--stamp); margin-bottom: 12px; display: flex; align-items: center; gap: 7px; }
-
-    .countdown-bar { display: flex; flex-direction: column; gap: 8px; text-decoration: none; }
-    .countdown-bar__label-text { font-size: 12px; color: var(--t2); line-height: 1.4; }
-    .countdown-bar__label-text strong { color: var(--t1); font-weight: 700; }
-    .countdown-bar__digits { display: flex; align-items: center; gap: 5px; }
-    .countdown-bar__unit { display: flex; flex-direction: column; align-items: center; background: var(--bg-3); border: 1px solid var(--border-b); border-radius: 6px; padding: 3px 7px; min-width: 32px; }
-    .countdown-bar__num { font-family: 'Courier Prime', monospace; font-size: 13px; font-weight: 700; color: var(--t1); line-height: 1.2; font-variant-numeric: tabular-nums; }
-    .countdown-bar__unit-label { font-size: 7px; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; color: var(--t3); margin-top: 1px; }
-    .countdown-bar__sep { color: var(--t3); font-weight: 700; font-size: 11px; }
-
     .rail-updates { list-style: none; display: flex; flex-direction: column; gap: 12px; }
     .rail-updates li { padding-bottom: 12px; border-bottom: 1px solid var(--border); }
     .rail-updates li:last-child { border-bottom: none; padding-bottom: 0; }
     .rail-updates a { text-decoration: none; display: flex; flex-direction: column; gap: 6px; }
     .rail-updates__text { font-size: 12.5px; color: var(--t2); line-height: 1.4; }
     .rail-updates__text strong { color: var(--t1); font-weight: 600; }
+
+    /* ── INTEL GRID (news cards) ── */
+    .intel-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 14px; }
+    .intel-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; display: flex; flex-direction: column; text-decoration: none; transition: border-color .2s, transform .2s, box-shadow .2s; }
+    .intel-card:hover { border-color: var(--border-b); transform: translateY(-3px); box-shadow: 0 12px 36px rgba(0,0,0,.4); }
+    .intel-card--hero { grid-row: span 2; }
+    .intel-card__thumb { background: var(--bg-3); overflow: hidden; display: flex; align-items: center; justify-content: center; position: relative; }
+    .intel-card--hero .intel-card__thumb { height: 260px; }
+    .intel-card--side .intel-card__thumb { height: 110px; }
+    .intel-card__thumb-inner { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(184,146,90,.15), rgba(168,52,31,.06)); display: flex; align-items: center; justify-content: center; }
+    .intel-card__thumb-letter { font-size: 80px; font-weight: 900; text-transform: uppercase; color: rgba(255,255,255,.04); letter-spacing: -.03em; user-select: none; }
+    .intel-card--side .intel-card__thumb-letter { font-size: 40px; }
+    .intel-card__thumb-overlay { position: absolute; bottom: 0; left: 0; right: 0; height: 60%; background: linear-gradient(to top, var(--bg-2), transparent); z-index: 1; pointer-events: none; }
+    .intel-card__body { padding: 18px; flex: 1; display: flex; flex-direction: column; gap: 9px; position: relative; z-index: 2; }
+    .intel-card--side .intel-card__body { padding: 13px; gap: 6px; }
+    .intel-card__meta { display: flex; align-items: center; gap: 8px; }
+    .intel-card__cat { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .11em; padding: 3px 9px; border-radius: 99px; background: var(--stamp-dim); color: var(--stamp); }
+    .intel-card__cat--kraft { background: var(--kraft-dim); color: var(--kraft); }
+    .intel-card__date { font-size: 11px; color: var(--t3); }
+    .intel-card__title { font-size: 15.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--t1); line-height: 1.25; }
+    .intel-card--side .intel-card__title { font-size: 12px; }
+    .intel-card__excerpt { font-size: 12.5px; color: var(--t2); line-height: 1.6; }
+    .intel-card--side .intel-card__excerpt { font-size: 11px; }
+    .intel-card__read { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--kraft); margin-top: auto; display: flex; align-items: center; gap: 6px; transition: gap .18s; }
+    .intel-card:hover .intel-card__read { gap: 10px; }
+    .intel-card__read::after { content: '→'; }
+    @media (max-width: 768px) { .intel-grid { grid-template-columns: 1fr; } .intel-card--hero { grid-row: span 1; } }
 
     /* ── SITREP ── */
     .sitrep__card { background: var(--bg-2); border: 1px solid var(--border-b); border-radius: 14px; overflow: hidden; }
@@ -261,33 +303,6 @@
     @media (max-width: 900px) { .sitrep__grid { grid-template-columns: 1fr 1fr; } .sitrep__cell:nth-child(2) { border-right: none; } .sitrep__cell:nth-child(-n+2) { border-bottom: 1px solid var(--border); } }
     @media (max-width: 480px) { .sitrep__grid { grid-template-columns: 1fr; } .sitrep__cell { border-right: none !important; border-bottom: 1px solid var(--border); } .sitrep__cell:last-child { border-bottom: none; } }
 
-    /* ── INTEL GRID (news cards — also reused for the rail's featured article) ── */
-    .intel-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 14px; }
-    .intel-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; display: flex; flex-direction: column; text-decoration: none; transition: border-color .2s, transform .2s, box-shadow .2s; }
-    .intel-card:hover { border-color: var(--border-b); transform: translateY(-3px); box-shadow: 0 12px 36px rgba(0,0,0,.4); }
-    .intel-card--hero { grid-row: span 2; }
-    .intel-card__thumb { background: var(--bg-3); overflow: hidden; display: flex; align-items: center; justify-content: center; position: relative; }
-    .intel-card--hero .intel-card__thumb { height: 280px; }
-    .intel-card--side .intel-card__thumb { height: 120px; }
-    .intel-card__thumb-inner { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(184,146,90,.15), rgba(168,52,31,.06)); display: flex; align-items: center; justify-content: center; }
-    .intel-card__thumb-letter { font-size: 80px; font-weight: 900; text-transform: uppercase; color: rgba(255,255,255,.04); letter-spacing: -.03em; user-select: none; }
-    .intel-card--side .intel-card__thumb-letter { font-size: 40px; }
-    .intel-card__thumb-overlay { position: absolute; bottom: 0; left: 0; right: 0; height: 60%; background: linear-gradient(to top, var(--bg-2), transparent); z-index: 1; pointer-events: none; }
-    .intel-card__body { padding: 20px; flex: 1; display: flex; flex-direction: column; gap: 10px; position: relative; z-index: 2; }
-    .intel-card--side .intel-card__body { padding: 14px; gap: 7px; }
-    .intel-card__meta { display: flex; align-items: center; gap: 8px; }
-    .intel-card__cat { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .11em; padding: 3px 9px; border-radius: 99px; background: var(--stamp-dim); color: var(--stamp); }
-    .intel-card__cat--kraft { background: var(--kraft-dim); color: var(--kraft); }
-    .intel-card__date { font-size: 11px; color: var(--t3); }
-    .intel-card__title { font-size: 16px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--t1); line-height: 1.25; }
-    .intel-card--side .intel-card__title { font-size: 12.5px; }
-    .intel-card__excerpt { font-size: 13px; color: var(--t2); line-height: 1.65; }
-    .intel-card--side .intel-card__excerpt { font-size: 11.5px; }
-    .intel-card__read { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--kraft); margin-top: auto; display: flex; align-items: center; gap: 6px; transition: gap .18s; }
-    .intel-card:hover .intel-card__read { gap: 10px; }
-    .intel-card__read::after { content: '→'; }
-    @media (max-width: 768px) { .intel-grid { grid-template-columns: 1fr; } .intel-card--hero { grid-row: span 1; } }
-
     /* ── FOOTER ── */
     .footer { border-top: 1px solid var(--border); padding: 52px 0 28px; }
     .footer__inner { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
@@ -297,8 +312,9 @@
     .footer__brand-desc { font-size: 13px; color: var(--t3); line-height: 1.7; }
     .footer__col-head { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--t2); margin-bottom: 14px; }
     .footer__links { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-    .footer__links a { font-size: 13px; color: var(--t3); transition: color .18s; }
+    .footer__links a, .footer__links span { font-size: 13px; color: var(--t3); transition: color .18s; }
     .footer__links a:hover { color: var(--t2); }
+    .footer__links li { display: flex; align-items: center; gap: 7px; }
     .footer__bottom { border-top: 1px solid var(--border); padding-top: 22px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
     .footer__legal { font-size: 12px; color: var(--t3); line-height: 1.6; }
     .footer__legal a { color: var(--t3); transition: color .18s; }
@@ -312,11 +328,9 @@
     .reveal.d1 { transition-delay: .06s; }
     .reveal.d2 { transition-delay: .12s; }
 
-    /* ── RESPONSIVE (nav) ── */
     @media (max-width: 768px) {
       .nav__links, .nav__db-btn { display: none; }
       .nav__burger { display: flex; }
-      .sec { padding: 44px 0; }
     }
 
     [data-theme="light"] { --bg:#ece4d3; --bg-2:#f6f1e6; --bg-3:#e3d8c2; --bg-4:#d6c9ac; --border:rgba(42,36,32,.10); --border-b:rgba(138,90,38,.28); --t1:#211c17; --t2:#5a4f40; --t3:#8c7f68; --kraft:#8a5a26; --kraft-dim:rgba(138,90,38,.12); --kraft-border:rgba(138,90,38,.30); --stamp:#8f2a1c; --stamp-dim:rgba(143,42,28,.10); --stamp-border:rgba(143,42,28,.32); --paper-ink:#211c17; }
@@ -413,88 +427,103 @@
 
   <main id="main">
 
-    <!-- ── INTRO — one line, real H1, no billboard ── -->
-    <section class="intro" aria-label="GTAVITIPS verified GTA 6 intel hub">
-      <div class="wrap intro__inner">
-        <div>
-          <h1 class="intro__h1">GTA 6 Intel Database — <span>Leonida</span>, Verified.</h1>
-          <p class="intro__line">Gangs running the streets. Every crew holding their turf. <strong>You picked the wrong house, fool.</strong></p>
-        </div>
-        <div class="intro__stats" role="list" aria-label="Database statistics">
-          <div class="intro__stat" role="listitem"><span class="intro__stat-num" id="stat-entries">301</span><span class="intro__stat-label">Entries</span></div>
-          <div class="intro__stat-div" aria-hidden="true"></div>
-          <div class="intro__stat" role="listitem"><span class="intro__stat-num">8</span><span class="intro__stat-label">Categories</span></div>
-          <div class="intro__stat-div" aria-hidden="true"></div>
-          <div class="intro__stat" role="listitem"><span class="intro__stat-num">Nov 19</span><span class="intro__stat-label">Launch 2026</span></div>
+    <!-- ── HERO — real context first: where you are, what this is ── -->
+    <section class="hero" aria-label="GTAVITIPS verified GTA 6 intel hub">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="wrap hero__inner">
+        <div class="hero__tag"><span class="pulse-dot" aria-hidden="true"></span>Verified GTA 6 Intel — Leonida</div>
+        <h1 class="hero__h1">Everything Running<br>Through <span>Leonida.</span></h1>
+        <p class="hero__sub">Gangs holding turf, rides tearing through Vice County, every dollar moving somewhere. <strong>You picked the wrong house, fool.</strong></p>
+        <div class="hero__actions">
+          <a href="/gameplay" class="hero__btn-primary">Browse Database</a>
+          <a href="/trailers" class="hero__btn-ghost">Watch the Trailers</a>
+          <span class="hero__reveal-chip tag-stamp tag-stamp--alt" style="margin-left:4px;"><a href="/news/gta-6-extended-look-netflix-exclusive" style="color:inherit;">Next Reveal — Aug 27</a></span>
         </div>
       </div>
     </section>
 
-    <!-- ── CORE: search + browse (left) / newsroom rail (right) ── -->
-    <section class="core" aria-label="Search and browse the database">
-      <div class="wrap core-layout">
-
-        <!-- LEFT: the actual reference tool -->
-        <div>
-          <div class="search-block">
-            <div class="search-block__label"><span class="pulse-dot" aria-hidden="true"></span>Search the Database</div>
-            <div class="search-block__field">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-              <input type="search" id="home-search-input" class="search-block__input" placeholder="Lucia, Pegassi, Vice City, 7X..." autocomplete="off" aria-label="Search the database">
-              <span class="search-block__kbd"><kbd>Ctrl</kbd>+<kbd>K</kbd> anywhere</span>
-            </div>
-            <div class="search-block__results" id="home-search-results"></div>
-          </div>
-
-          <div class="cat-rail-hd">
-            <span class="cat-rail-title">Browse the Database</span>
-            <a href="/gameplay" class="sec__viewall" style="font-size:10px;">All Categories</a>
-          </div>
-          <div class="cat-rail" role="list" aria-label="Database categories">
-            <a href="/gameplay/activities" class="cat-tile" role="listitem"><span class="cat-tile__name">Activities</span><span class="cat-tile__arrow">→</span></a>
-            <a href="/gameplay/animals" class="cat-tile" role="listitem"><span class="cat-tile__name">Animals</span><span class="cat-tile__arrow">→</span></a>
-            <a href="/gameplay/brands" class="cat-tile" role="listitem"><span class="cat-tile__name">Brands</span><span class="cat-tile__arrow">→</span></a>
-            <a href="/gameplay/characters" class="cat-tile" role="listitem"><span class="cat-tile__name">Characters</span><span class="cat-tile__arrow">→</span></a>
-            <a href="/gameplay/gangs-and-factions" class="cat-tile" role="listitem"><span class="cat-tile__name">Factions</span><span class="cat-tile__arrow">→</span></a>
-            <a href="/gameplay/locations" class="cat-tile" role="listitem"><span class="cat-tile__name">Locations</span><span class="cat-tile__arrow">→</span></a>
-            <a href="/gameplay/vehicles" class="cat-tile" role="listitem"><span class="cat-tile__name">Vehicles</span><span class="cat-tile__arrow">→</span></a>
-            <a href="/gameplay/weapons" class="cat-tile" role="listitem"><span class="cat-tile__name">Weapons</span><span class="cat-tile__arrow">→</span></a>
+    <!-- ── OPS GRID — the full operation, live and sealed ── -->
+    <section class="sec" aria-labelledby="ops-hd">
+      <div class="wrap">
+        <div class="sec__top">
+          <div>
+            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">The Operation</span></div>
+            <h2 class="sec__hd reveal" id="ops-hd">What's <span>Running</span></h2>
+            <p class="sec__sub">The full spread — some of it live now, some of it sealed until it's ready.</p>
           </div>
         </div>
-
-        <!-- RIGHT: newsroom rail — separate from the reference core on purpose -->
-        <div class="rail">
-          <div class="rail-widget">
-            <div class="rail-widget__label"><span class="pulse-dot" aria-hidden="true"></span>Next Reveal</div>
-            <a href="/news/gta-6-extended-look-netflix-exclusive" class="countdown-bar" aria-label="Countdown to Grand Theft Auto VI: An Extended Look, premiering on Netflix August 27">
-              <span class="countdown-bar__label-text"><strong>An Extended Look</strong> — Netflix, Aug 27</span>
-              <span class="countdown-bar__digits">
-                <span class="countdown-bar__unit"><span class="countdown-bar__num" id="cd-days">21</span><span class="countdown-bar__unit-label">Days</span></span>
-                <span class="countdown-bar__sep" aria-hidden="true">:</span>
-                <span class="countdown-bar__unit"><span class="countdown-bar__num" id="cd-hours">00</span><span class="countdown-bar__unit-label">Hrs</span></span>
-                <span class="countdown-bar__sep" aria-hidden="true">:</span>
-                <span class="countdown-bar__unit"><span class="countdown-bar__num" id="cd-mins">00</span><span class="countdown-bar__unit-label">Min</span></span>
-                <span class="countdown-bar__sep" aria-hidden="true">:</span>
-                <span class="countdown-bar__unit"><span class="countdown-bar__num" id="cd-secs">00</span><span class="countdown-bar__unit-label">Sec</span></span>
-              </span>
-            </a>
+        <div class="ops-grid">
+          <a href="/gameplay" class="ops-card reveal" style="background-image:url('/assets/images/grassrivers-gta-6-location-03.jpg')">
+            <span class="ops-card__eyebrow">Live Now</span>
+            <span class="ops-card__name">Database</span>
+            <span class="ops-card__desc">301 verified entries — characters, vehicles, locations, weapons, factions.</span>
+            <span class="ops-card__arrow">→</span>
+          </a>
+          <a href="/news" class="ops-card reveal d1" style="background-image:url('/assets/images/jason-duval-gta-6-character-06.jpg')">
+            <span class="ops-card__eyebrow">Live Now</span>
+            <span class="ops-card__name">News &amp; Intel</span>
+            <span class="ops-card__desc">Every announcement, trailer breakdown, and confirmed detail.</span>
+            <span class="ops-card__arrow">→</span>
+          </a>
+          <div class="ops-card ops-card--sealed reveal d2">
+            <span class="ops-card__stamp">Sealed</span>
+            <span class="ops-card__eyebrow">Opens at Launch</span>
+            <span class="ops-card__name">Walkthroughs &amp; Tips</span>
+            <div class="redact-lines" aria-hidden="true"><div class="redact-line" style="width:88%"></div><div class="redact-line" style="width:62%"></div></div>
+            <span class="ops-card__soon">Mission guides, creator embeds, full credit — Nov 19</span>
           </div>
-
-          <div class="rail-widget" id="rail-featured-wrap" style="display:none;">
-            <div class="rail-widget__label">Top Story</div>
-            <div id="rail-featured"></div>
+          <div class="ops-card ops-card--sealed reveal">
+            <span class="ops-card__stamp">Sealed</span>
+            <span class="ops-card__eyebrow">In Development</span>
+            <span class="ops-card__name">Interactive Map</span>
+            <div class="redact-lines" aria-hidden="true"><div class="redact-line" style="width:80%"></div><div class="redact-line" style="width:50%"></div></div>
+            <span class="ops-card__soon">Every territory, zone, and activity — goes live launch day</span>
           </div>
-
-          <div class="rail-widget">
-            <div class="rail-widget__label">Live Updates</div>
-            <ul class="rail-updates" id="rail-updates-list"></ul>
+          <div class="ops-card ops-card--sealed reveal d1">
+            <span class="ops-card__stamp">Sealed</span>
+            <span class="ops-card__eyebrow">In the Works</span>
+            <span class="ops-card__name">Economy &amp; Business</span>
+            <div class="redact-lines" aria-hidden="true"><div class="redact-line" style="width:70%"></div><div class="redact-line" style="width:44%"></div></div>
+            <span class="ops-card__soon">How the money moves in Leonida — coming pre-launch</span>
+          </div>
+          <div class="ops-card ops-card--sealed reveal d2">
+            <span class="ops-card__stamp">Sealed</span>
+            <span class="ops-card__eyebrow">Opens Before the Next Reveal</span>
+            <span class="ops-card__name">Community / Discord</span>
+            <div class="redact-lines" aria-hidden="true"><div class="redact-line" style="width:85%"></div><div class="redact-line" style="width:58%"></div></div>
+            <span class="ops-card__soon">For now: <a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer" style="color:var(--kraft);">X</a> / <a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer" style="color:var(--kraft);">TikTok</a></span>
           </div>
         </div>
-
       </div>
     </section>
 
-    <!-- ── NEWS ── -->
+    <!-- ── QUICK LOOKUP + CATEGORIES ── -->
+    <section class="sec" style="padding-top:0" aria-label="Quick lookup and category shortcuts">
+      <div class="wrap">
+        <div class="search-block" style="margin-bottom:20px;">
+          <div class="search-block__label"><span class="pulse-dot" aria-hidden="true"></span>Quick Lookup</div>
+          <div class="search-block__field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="search" id="home-search-input" class="search-block__input" placeholder="Already know what you're looking for? Lucia, Pegassi, Vice City, 7X..." autocomplete="off" aria-label="Search the database">
+            <span class="search-block__kbd"><kbd>Ctrl</kbd>+<kbd>K</kbd> anywhere</span>
+          </div>
+          <div class="search-block__results" id="home-search-results"></div>
+        </div>
+        <div class="cat-chips" role="list" aria-label="Database categories">
+          <a href="/gameplay/activities" class="cat-chip" role="listitem">Activities</a>
+          <a href="/gameplay/animals" class="cat-chip" role="listitem">Animals</a>
+          <a href="/gameplay/brands" class="cat-chip" role="listitem">Brands</a>
+          <a href="/gameplay/characters" class="cat-chip" role="listitem">Characters</a>
+          <a href="/gameplay/gangs-and-factions" class="cat-chip" role="listitem">Factions</a>
+          <a href="/gameplay/locations" class="cat-chip" role="listitem">Locations</a>
+          <a href="/gameplay/vehicles" class="cat-chip" role="listitem">Vehicles</a>
+          <a href="/gameplay/weapons" class="cat-chip" role="listitem">Weapons</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── NEWS + LIVE UPDATES ── -->
     <section class="sec" style="padding-top:0" aria-labelledby="intel-hd">
       <div class="wrap">
         <div class="sec__top">
@@ -504,7 +533,12 @@
           </div>
           <a href="/news" class="sec__viewall reveal d1">All News</a>
         </div>
-        <div class="intel-grid" id="intel-grid">
+        <div class="news-layout">
+          <div class="intel-grid" id="intel-grid"></div>
+          <div class="rail-widget">
+            <div class="rail-widget__label">Live Updates</div>
+            <ul class="rail-updates" id="rail-updates-list"></ul>
+          </div>
         </div>
       </div>
     </section>
@@ -555,7 +589,14 @@
         <div><div class="footer__col-head">Database</div><ul class="footer__links"><li><a href="/gameplay/activities">Activities</a></li><li><a href="/gameplay/animals">Animals</a></li><li><a href="/gameplay/brands">Brands</a></li><li><a href="/gameplay/characters">Characters</a></li><li><a href="/gameplay/gangs-and-factions">Factions</a></li><li><a href="/gameplay/locations">Locations</a></li><li><a href="/gameplay/vehicles">Vehicles</a></li><li><a href="/gameplay/weapons">Weapons</a></li></ul></div>
         <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li><li><a href="/map">Map</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div>
         <div><div class="footer__col-head">Legal</div><ul class="footer__links"><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li></ul></div>
-        <div><div class="footer__col-head">Contact</div><ul class="footer__links"><li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li><li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li><li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
+        <div><div class="footer__col-head">Contact</div><ul class="footer__links">
+          <li><span style="color:var(--t3)">info&#64;gtavitips.com</span></li>
+          <li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li>
+          <li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+          <li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><span style="color:var(--t3)">Discord <span class="tag-stamp tag-stamp--muted" style="font-size:8px;padding:1px 6px;">Soon</span></span></li>
+          <li><span style="color:var(--t3)">Reddit <span class="tag-stamp tag-stamp--muted" style="font-size:8px;padding:1px 6px;">Soon</span></span></li>
+        </ul></div>
       </div>
       <div class="footer__bottom"><p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p></div>
     </div>
@@ -600,7 +641,7 @@
       else if(e.key==='Enter'){if(items[_ai])window.location.href=items[_ai].getAttribute('href');else{const q=searchInp.value.trim();if(q)window.open('https://www.google.com/search?q=site:gtavitips.com+'+encodeURIComponent(q),'_blank');}}
     });
 
-    // ── HOMEPAGE INLINE SEARCH — the primary interaction, not hidden behind a modal ──
+    // ── HOMEPAGE QUICK-LOOKUP SEARCH ──
     const homeInp=document.getElementById('home-search-input'),homeRes=document.getElementById('home-search-results');
     if(homeInp){
       _load();
@@ -652,15 +693,6 @@
     });
   })();
 
-  // ── STATS ──
-  (function(){
-    var el=document.getElementById('stat-entries');
-    if(!el)return;
-    fetch('/assets/data/stats.json')
-      .then(function(r){return r.json()})
-      .then(function(data){if(data.entries)el.textContent=data.entries});
-  })();
-
   // ── COUNTDOWN (sitrep) ──
   (function(){
     var el=document.getElementById('countdown-days');
@@ -689,33 +721,7 @@
     }
   })();
 
-  // ── RAIL COUNTDOWN (live, ticks every second) ──
-  (function(){
-    var elD=document.getElementById('cd-days'),elH=document.getElementById('cd-hours'),elM=document.getElementById('cd-mins'),elS=document.getElementById('cd-secs');
-    var bar=document.querySelector('.countdown-bar');
-    if(!elD||!bar)return;
-    var target=Date.UTC(2026,7,27,19,0,0); // Aug 27 2026, 3:00 PM ET / 9:00 PM CEST
-    function pad(n){return n<10?'0'+n:''+n;}
-    function tick(){
-      var diff=target-Date.now();
-      if(diff<=0){
-        var digits=bar.querySelector('.countdown-bar__digits'),label=bar.querySelector('.countdown-bar__label-text');
-        if(digits)digits.innerHTML='<span class="countdown-bar__unit"><span class="countdown-bar__num">LIVE</span></span>';
-        if(label)label.innerHTML='<strong>An Extended Look</strong> is live — watch now';
-        clearInterval(iv);
-        return;
-      }
-      var d=Math.floor(diff/86400000);
-      var h=Math.floor(diff%86400000/3600000);
-      var m=Math.floor(diff%3600000/60000);
-      var s=Math.floor(diff%60000/1000);
-      elD.textContent=d;elH.textContent=pad(h);elM.textContent=pad(m);elS.textContent=pad(s);
-    }
-    tick();
-    var iv=setInterval(tick,1000);
-  })();
-
-  // ── RAIL: LIVE UPDATES — single fetch, single render target (was fetched twice before) ──
+  // ── LIVE UPDATES (single fetch, single render target) ──
   (function(){
     var list=document.getElementById('rail-updates-list');
     if(!list)return;
@@ -734,7 +740,7 @@
       });
   })();
 
-  // ── NEWS: grid + rail featured (data-driven from news.json's existing "featured" flag) ──
+  // ── NEWS GRID ──
   (function() {
     function intelCardHTML(a, cls) {
       var catCls = (a.cat === 'surrounding' || a.cat === 'rockstar' || a.cat === 'gtavitips') ? 'intel-card__cat intel-card__cat--kraft' : 'intel-card__cat';
@@ -750,14 +756,7 @@
         '<span class="intel-card__read">Read more</span></div></a>';
     }
     fetch('/assets/data/news.json').then(function(r) { return r.json(); }).then(function(data) {
-      var all = data.articles || [];
-      var featured = all.find(function(a) { return a.featured; });
-      var wrap = document.getElementById('rail-featured-wrap'), target = document.getElementById('rail-featured');
-      if (featured && wrap && target) {
-        target.innerHTML = intelCardHTML(featured, 'intel-card--side');
-        wrap.style.display = '';
-      }
-      var articles = all.filter(function(a) { return !a.featured; });
+      var articles = (data.articles || []).filter(function(a) { return !a.featured; });
       var grid = document.getElementById('intel-grid');
       if (!grid || articles.length < 3) return;
       grid.innerHTML =
