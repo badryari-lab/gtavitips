@@ -23,7 +23,7 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,900;1,600&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,400;0,600;0,700;1,600&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
   <script type="application/ld+json">
   {
@@ -124,7 +124,7 @@
     .nav.solid { background: var(--bg-2); border-bottom: 1px solid var(--border-b); }
     .nav__inner { width: 100%; max-width: 1120px; margin: 0 auto; padding: 0 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
     .nav__logo { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--t1); flex-shrink: 0; text-shadow: 0 1px 4px rgba(0,0,0,.5); }
-    .nav__logo-badge { width: 30px; height: 30px; background: var(--stamp); color: var(--paper); clip-path: polygon(0 0, 78% 0, 100% 24%, 100% 100%, 0 100%); transform: rotate(-3deg); display: flex; align-items: center; justify-content: center; font-family: 'Archivo', sans-serif; font-size: 12px; font-weight: 900; letter-spacing: -.5px; }
+    .nav__logo-badge { width: 30px; height: 30px; background: var(--stamp); color: var(--paper); clip-path: polygon(0 0, 78% 0, 100% 24%, 100% 100%, 0 100%); transform: rotate(-3deg); display: flex; align-items: center; justify-content: center; font-family: 'Anton', sans-serif; font-size: 13px; font-weight: 400; letter-spacing: 0; }
     .nav__links { display: flex; align-items: center; gap: 2px; list-style: none; }
     .nav__links a { padding: 5px 13px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t2); border-radius: 99px; transition: color .18s, background .18s; text-shadow: 0 1px 4px rgba(0,0,0,.5); }
     .nav__links a:hover { color: var(--t1); background: var(--kraft-dim); }
@@ -177,7 +177,7 @@
     .sec__eyebrow { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
     .eyebrow-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--stamp); flex-shrink: 0; }
     .sec__eyebrow-text { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--stamp); }
-    .sec__hd { font-size: clamp(22px, 3.5vw, 32px); font-weight: 700; text-transform: uppercase; letter-spacing: .02em; color: var(--t1); line-height: 1.1; }
+    .sec__hd { font-family: 'Anton', sans-serif; font-weight: 400; font-size: clamp(22px, 3.5vw, 32px); text-transform: uppercase; letter-spacing: .01em; color: var(--t1); line-height: 1.05; }
     .sec__hd span { color: var(--kraft); }
     .sec__sub { font-size: 13.5px; color: var(--t2); max-width: 520px; margin-top: 8px; line-height: 1.6; }
     .sec__top { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 32px; flex-wrap: wrap; }
@@ -191,7 +191,7 @@
     .hero__overlay { position: absolute; inset: 0; background: linear-gradient(to top, var(--bg) 0%, rgba(11,10,8,.85) 45%, rgba(184,146,90,.14) 100%); }
     [data-theme="light"] .hero__overlay { background: linear-gradient(to top, var(--bg) 0%, rgba(236,228,211,.88) 45%, rgba(138,90,38,.14) 100%); }
     .hero__inner { position: relative; z-index: 1; padding: 60px 0 40px; }
-    .hero__h1 { font-family: 'Archivo', sans-serif; font-weight: 900; text-transform: uppercase; letter-spacing: -.02em; font-size: clamp(32px, 5.5vw, 60px); line-height: .98; color: var(--t1); margin-bottom: 14px; text-shadow: 0 2px 10px rgba(0,0,0,.4); }
+    .hero__h1 { font-family: 'Anton', sans-serif; font-weight: 400; text-transform: uppercase; letter-spacing: .005em; font-size: clamp(32px, 5.5vw, 60px); line-height: 1; color: var(--t1); margin-bottom: 14px; text-shadow: 0 2px 10px rgba(0,0,0,.4); }
     .hero__h1 span { color: var(--kraft); }
     .hero__sub { font-size: 15px; color: var(--t2); line-height: 1.7; max-width: 480px; margin-bottom: 26px; }
     .hero__sub strong { color: var(--t1); font-weight: 600; }
@@ -213,7 +213,7 @@
     .ops-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(184,146,90,.10) 0%, rgba(19,17,16,0) 32%, rgba(19,17,16,.80) 60%, rgba(19,17,16,.95) 100%); z-index: 0; }
     a.ops-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(0,0,0,.55); }
     .ops-card__eyebrow { position: relative; z-index: 1; font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .13em; color: var(--kraft); margin-bottom: 6px; }
-    .ops-card__name { position: relative; z-index: 1; font-size: 18px; font-weight: 900; text-transform: uppercase; letter-spacing: .02em; color: #fff; margin-bottom: 5px; }
+    .ops-card__name { position: relative; z-index: 1; font-family: 'Anton', sans-serif; font-weight: 400; font-size: 19px; text-transform: uppercase; letter-spacing: .01em; color: #fff; margin-bottom: 5px; }
     .ops-card__desc { position: relative; z-index: 1; font-size: 12px; color: rgba(255,255,255,.72); line-height: 1.5; }
     .ops-card__arrow { position: absolute; top: 14px; right: 16px; z-index: 1; color: rgba(255,255,255,.8); font-size: 16px; transition: transform .18s; }
     a.ops-card:hover .ops-card__arrow { transform: translateX(3px); }
@@ -277,7 +277,7 @@
     .intel-card__cat { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .11em; padding: 3px 9px; border-radius: 99px; background: var(--stamp-dim); color: var(--stamp); }
     .intel-card__cat--kraft { background: var(--kraft-dim); color: var(--kraft); }
     .intel-card__date { font-size: 11px; color: var(--t3); }
-    .intel-card__title { font-size: 15.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--t1); line-height: 1.25; }
+    .intel-card__title { font-family: 'Anton', sans-serif; font-weight: 400; font-size: 16.5px; text-transform: uppercase; letter-spacing: .01em; color: var(--t1); line-height: 1.2; }
     .intel-card--side .intel-card__title { font-size: 12px; }
     .intel-card__excerpt { font-size: 12.5px; color: var(--t2); line-height: 1.6; }
     .intel-card--side .intel-card__excerpt { font-size: 11px; }
@@ -297,7 +297,7 @@
     .sitrep__cell:last-child { border-right: none; }
     a.sitrep__cell:hover { background: var(--kraft-dim); }
     .sitrep__cell-key { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .13em; color: var(--t3); }
-    .sitrep__cell-val { font-size: 19px; font-weight: 900; text-transform: uppercase; letter-spacing: -.01em; color: var(--t1); line-height: 1.15; }
+    .sitrep__cell-val { font-family: 'Anton', sans-serif; font-weight: 400; font-size: 20px; text-transform: uppercase; letter-spacing: 0; color: var(--t1); line-height: 1.15; }
     .sitrep__cell-val b { color: var(--kraft); }
     .sitrep__cell-sub { font-size: 11.5px; color: var(--t2); line-height: 1.5; }
     @media (max-width: 900px) { .sitrep__grid { grid-template-columns: 1fr 1fr; } .sitrep__cell:nth-child(2) { border-right: none; } .sitrep__cell:nth-child(-n+2) { border-bottom: 1px solid var(--border); } }
@@ -308,7 +308,7 @@
     .footer__inner { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
     .footer__brand { display: flex; flex-direction: column; gap: 12px; }
     .footer__brand-logo { display: flex; align-items: center; gap: 9px; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--t1); }
-    .footer__brand-badge { width: 28px; height: 28px; background: var(--stamp); color: var(--paper); clip-path: polygon(0 0, 78% 0, 100% 24%, 100% 100%, 0 100%); transform: rotate(-3deg); display: flex; align-items: center; justify-content: center; font-family: 'Archivo', sans-serif; font-size: 11px; font-weight: 900; }
+    .footer__brand-badge { width: 28px; height: 28px; background: var(--stamp); color: var(--paper); clip-path: polygon(0 0, 78% 0, 100% 24%, 100% 100%, 0 100%); transform: rotate(-3deg); display: flex; align-items: center; justify-content: center; font-family: 'Anton', sans-serif; font-size: 12px; font-weight: 400; }
     .footer__brand-desc { font-size: 13px; color: var(--t3); line-height: 1.7; }
     .footer__col-head { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--t2); margin-bottom: 14px; }
     .footer__links { list-style: none; display: flex; flex-direction: column; gap: 8px; }
