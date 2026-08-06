@@ -88,6 +88,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gtavitips.com/timeline</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gtavitips.com/news/gta-6-extended-look-netflix-exclusive</loc>
     <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
