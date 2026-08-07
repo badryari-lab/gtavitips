@@ -111,11 +111,6 @@
     .entry-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r);padding:18px 20px;text-decoration:none;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,transform .2s,background .2s}
     .entry-card:hover{border-color:var(--border-b);transform:translateY(-2px);background:var(--bg-3)}
     .entry-card__label{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.10em;color:var(--pink) !important}
-    .entry-card__label--blue{color:var(--blue)}
-    .entry-card__label--red{color:#dc3545}
-    .entry-card__label--amber{color:var(--amber)}
-    .entry-card__label--green{color:var(--green)}
-    .entry-card__label--pink{color:var(--pink)}
     .entry-card__name{font-size:15px;font-weight:700;color:var(--t1);line-height:1.2}
     .entry-card__desc{font-size:12px;color:var(--t3);line-height:1.5;margin-top:2px}
     .intel-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r);padding:18px 20px;text-decoration:none;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,transform .2s,background .2s}
@@ -344,7 +339,7 @@
                  +'<div class="card-grid" role="list">';
             (sec.items||[]).forEach(function(item){
               html+='<a href="'+item.url+'" class="entry-card" role="listitem">'
-                   +'<div class="entry-card__label" style="color:'+item.color+'">'+item.label+'</div>'
+                   +'<div class="entry-card__label">'+item.label+'</div>'
                    +'<div class="entry-card__name">'+item.name+'</div>'
                    +'<div class="entry-card__desc">'+item.desc+'</div>'
                    +'</a>';
@@ -378,7 +373,7 @@
                  +'<div class="card-grid" role="list">';
             (sec.items||[]).forEach(function(item){
               html+='<a href="'+item.url+'" class="entry-card" role="listitem">'
-                   +'<div class="entry-card__label" style="color:'+item.color+'">'+item.label+'</div>'
+                   +'<div class="entry-card__label">'+item.label+'</div>'
                    +'<div class="entry-card__name">'+item.name+'</div>'
                    +'<div class="entry-card__desc">'+item.desc+'</div>'
                    +'</a>';
