@@ -87,7 +87,7 @@
     .search-overlay__nores{font-size:12px;color:var(--t3);padding:20px 0;text-align:center;}
 
     /* PAGE */
-    .page { padding-top: var(--nav-h); }
+    .page { padding-top: 40px; }
     .page__back { display: inline-flex; align-items: center; gap: 7px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t3); padding: 24px 0 0; transition: color .18s; }
     .page__back:hover { color: var(--blue); }
     .page__back svg { width: 14px; height: 14px; }
@@ -236,11 +236,7 @@
     .faq-item__a{padding:0 22px 18px;font-size:13px;color:var(--t2);line-height:1.75}
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
     }
- 
-    
-        [data-theme="light"] { --bg:#f3f6fa; --bg-2:#ffffff; --bg-3:#f0f3f8; --bg-4:#e8ecf2; --border:rgba(0,0,0,.07); --border-b:rgba(0,95,144,.20); --t1:#111827; --t2:#4b5563; --t3:#9ca3af; }
     [data-theme="light"] .nav { background: rgba(243,246,250,.95); }
-    [data-theme="dark"] { --bg:#080c12; --bg-2:#0d1320; --bg-3:#131c2e; --bg-4:#192236; --border:rgba(255,255,255,0.06); --border-b:rgba(0,95,144,0.22); --t1:#eef2f7; --t2:#7e8fa3; --t3:#445060; }
   
   
     /* NAV DROPDOWN */
@@ -285,6 +281,24 @@
     .photo-empty { width: 100%; aspect-ratio: 3/4; border-radius: var(--r) 4px var(--r) 4px; border: 1px solid var(--border-b); background: linear-gradient(150deg, var(--bg-3) 0%, var(--bg-2) 100%); position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; }
     .photo-empty svg { width: 46%; opacity: .09; color: var(--pink); }
     .photo-empty .photo-tag { position: absolute; bottom: 14px; left: 14px; right: auto; background: var(--bg); }
+
+    /* LOCATION HERO — full-bleed banner, every page gets one, photo or not */
+    .location-hero { position: relative; min-height: 400px; display: flex; align-items: flex-end; padding-top: var(--nav-h); overflow: hidden; border-bottom: 1px solid var(--border); }
+    .location-hero__bg-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; z-index: 0; }
+    .location-hero__bg-graphic { position: absolute; inset: 0; background: linear-gradient(155deg, var(--bg-3) 0%, var(--bg-2) 55%, var(--bg) 100%); overflow: hidden; }
+    .location-hero__bg-graphic svg { position: absolute; right: -8%; top: 50%; transform: translateY(-50%); width: 58%; max-width: 620px; opacity: .07; color: var(--pink); }
+    .location-hero__overlay { position: absolute; inset: 0; background: linear-gradient(to top, var(--bg) 0%, rgba(11,10,8,.55) 55%, rgba(11,10,8,0) 100%); z-index: 1; }
+    [data-theme="light"] .location-hero__overlay { background: linear-gradient(to top, var(--bg) 0%, rgba(236,228,211,.6) 55%, rgba(236,228,211,0) 100%); }
+    .location-hero__inner { position: relative; z-index: 2; max-width: 1120px; margin: 0 auto; padding: 0 28px 34px; width: 100%; }
+    .location-hero__back { display: inline-flex; align-items: center; gap: 7px; font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t2); margin-bottom: 18px; transition: color .18s; text-decoration: none; }
+    .location-hero__back:hover { color: var(--blue); }
+    .location-hero__back svg { width: 14px; height: 14px; }
+    .location-hero__eyebrow { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .16em; color: var(--pink); margin-bottom: 14px; }
+    .location-hero__h1 { font-family: 'Anton', sans-serif; font-weight: 400; font-size: clamp(38px, 6vw, 68px); text-transform: uppercase; letter-spacing: 0; color: var(--t1); line-height: .92; margin-bottom: 14px; }
+    .location-hero__sub { font-size: 15px; color: var(--t2); max-width: 560px; line-height: 1.65; }
+    .location-hero__sub strong { color: var(--t1); font-weight: 600; }
+    .dossier--stat-only { display: block; }
+    .dossier--stat-only .stat-block { max-width: 640px; }
     </style>
   <!-- Google tag (gtag.js) -->
   </head>
@@ -356,42 +370,45 @@
   </div>
 
   
+  <header class="location-hero">
+    <div class="location-hero__bg-graphic" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg>
+    </div>
+    <div class="location-hero__overlay" aria-hidden="true"></div>
+    <div class="location-hero__inner">
+      <a href="/gameplay/locations" class="location-hero__back">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        Back to Locations Index
+      </a>
+      <div class="location-hero__eyebrow">Location File</div>
+      <h1 class="location-hero__h1">Yorktown</h1>
+      <p class="location-hero__sub">A name confirmed on a Leonida road sign. <strong>What the sign points to is still being documented.</strong> Filed as a known point on the state's geography. Full profile pending.</p>
+    </div>
+  </header>
+
   <div class="page">
     <div class="wrap">
-      <a href="/gameplay/locations" class="page__back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>Back to Locations Index</a>
-      <div class="dossier">
-        <div class="dossier__left">
-          <h1 class="dossier__h1">Yorktown</h1>
-          <p class="dossier__tagline">A name confirmed on a Leonida road sign. <strong>What the sign points to is still being documented.</strong> Filed as a known point on the state's geography. Full profile pending.</p>
-          <div class="stat-block" role="list" aria-label="Location stats">
-            <div class="stat-block__item" role="listitem">
-              <div class="stat-block__key">Type</div>
-              <div class="stat-block__val">Inland Settlement</div>
-              <div class="stat-block__sub">Named locality within Leonida. Classification based on in-world signage and geographic positioning.</div>
-            </div>
-            <div class="stat-block__item" role="listitem">
-              <div class="stat-block__key">Territory</div>
-              <div class="stat-block__val">Inland Leonida</div>
-              <div class="stat-block__sub">Interior position away from the <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> coastal zone. Exact boundaries not yet confirmed in official footage.</div>
-            </div>
-            <div class="stat-block__item" role="listitem">
-              <div class="stat-block__key">Intel Status</div>
-              <div class="stat-block__val">Reported</div>
-              <div class="stat-block__sub">Confirmed by name in official material. Detailed layout and population type not yet documented.</div>
-            </div>
-            <div class="stat-block__item" role="listitem">
-              <div class="stat-block__key">Priority</div>
-              <div class="stat-block__val">Under Review</div>
-              <div class="stat-block__sub">Database entry filed on name confirmation. Field detail to be added as official sources provide it.</div>
-            </div>
+      <div class="dossier dossier--stat-only">
+        <div class="stat-block" role="list" aria-label="Location stats">
+          <div class="stat-block__item" role="listitem">
+            <div class="stat-block__key">Type</div>
+            <div class="stat-block__val">Inland Settlement</div>
+            <div class="stat-block__sub">Named locality within Leonida. Classification based on in-world signage and geographic positioning.</div>
           </div>
-        </div>
-        <div class="dossier__right">
-          <div class="photo-stack photo-stack--empty">
-            <div class="photo-empty">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="9"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><circle cx="12" cy="12" r="1.6" fill="currentColor" stroke="none"/></svg>
-              <span class="photo-tag">Inland Settlement</span>
-            </div>
+          <div class="stat-block__item" role="listitem">
+            <div class="stat-block__key">Territory</div>
+            <div class="stat-block__val">Inland Leonida</div>
+            <div class="stat-block__sub">Interior position away from the <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> coastal zone. Exact boundaries not yet confirmed in official footage.</div>
+          </div>
+          <div class="stat-block__item" role="listitem">
+            <div class="stat-block__key">Intel Status</div>
+            <div class="stat-block__val">Reported</div>
+            <div class="stat-block__sub">Confirmed by name in official material. Detailed layout and population type not yet documented.</div>
+          </div>
+          <div class="stat-block__item" role="listitem">
+            <div class="stat-block__key">Priority</div>
+            <div class="stat-block__val">Under Review</div>
+            <div class="stat-block__sub">Database entry filed on name confirmation. Field detail to be added as official sources provide it.</div>
           </div>
         </div>
       </div>
