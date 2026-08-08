@@ -126,7 +126,7 @@
     .search-overlay__nores{font-size:12px;color:var(--t3);padding:20px 0;text-align:center;}
 
     /* PAGE LAYOUT */
-    .page { padding-top: var(--nav-h); }
+    .page { padding-top: 40px; }
     .page__back { display: inline-flex; align-items: center; gap: 7px; font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t3); padding: 28px 0 0; transition: color .18s; }
     .page__back:hover { color: var(--blue); }
     .page__back svg { width: 14px; height: 14px; }
@@ -266,6 +266,27 @@
     [data-theme="light"] .nav { background: rgba(236,228,211,.95); }
     [data-theme="dark"] { --bg:#0b0a08; --bg-2:#131110; --bg-3:#1c1815; --bg-4:#262019; --border:rgba(255,255,255,0.055); --border-b:rgba(224,120,95,0.24); --t1:#f2ede4; --t2:#a89a86; --t3:#6b5f4f; --blue:#e0785f; --blue-dim:rgba(224,120,95,.14); --blue-border:rgba(224,120,95,.30); --pink:#4a9e93; --pink-dim:rgba(74,158,147,.14); --paper-ink:#2a2420; }
     [data-theme="dark"] .nav { background: rgba(11,10,8,.95); }
+  
+    /* CHAR HERO — full-bleed banner, every page gets one, photo or not */
+    .char-hero { position: relative; min-height: 400px; display: flex; align-items: flex-end; padding-top: var(--nav-h); overflow: hidden; border-bottom: 1px solid var(--border); }
+    .char-hero__bg-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; z-index: 0; }
+    .char-hero__bg-graphic { position: absolute; inset: 0; background: linear-gradient(155deg, var(--bg-3) 0%, var(--bg-2) 55%, var(--bg) 100%); overflow: hidden; }
+    .char-hero__bg-graphic svg { position: absolute; right: -8%; top: 50%; transform: translateY(-50%); width: 58%; max-width: 620px; opacity: .07; color: var(--pink); }
+    .char-hero__overlay { position: absolute; inset: 0; background: linear-gradient(to top, var(--bg) 0%, rgba(11,10,8,.55) 55%, rgba(11,10,8,0) 100%); z-index: 1; }
+    [data-theme="light"] .char-hero__overlay { background: linear-gradient(to top, var(--bg) 0%, rgba(236,228,211,.6) 55%, rgba(236,228,211,0) 100%); }
+    .char-hero__inner { position: relative; z-index: 2; max-width: 1120px; margin: 0 auto; padding: 0 28px 34px; width: 100%; }
+    .char-hero__back { display: inline-flex; align-items: center; gap: 7px; font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t2); margin-bottom: 18px; transition: color .18s; text-decoration: none; }
+    .char-hero__back:hover { color: var(--blue); }
+    .char-hero__back svg { width: 14px; height: 14px; }
+    .char-hero__eyebrow { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .16em; color: var(--pink); margin-bottom: 14px; }
+    .char-hero__h1 { font-family: 'Anton', sans-serif; font-weight: 400; font-size: clamp(38px, 6vw, 68px); text-transform: uppercase; letter-spacing: 0; color: var(--t1); line-height: .92; margin-bottom: 14px; }
+    .char-hero__sub { font-size: 15px; color: var(--t2); max-width: 560px; line-height: 1.65; }
+    .char-hero__sub strong { color: var(--t1); font-weight: 600; }
+    .dossier--stat-only { display: block; }
+    .dossier--stat-only .stat-block { max-width: 640px; }
+    .entry-gallery { display: flex; flex-direction: column; gap: 12px; }
+    .entry-gallery__item { position: relative; width: 100%; border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; border: 1px solid var(--border-b); }
+    .entry-gallery__item img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
   </style>
 </head>
 <body>
@@ -335,22 +356,26 @@
     </div>
   </div>
 
-  <div class="page">
-    <div class="wrap">
-
-      <a href="/gameplay/characters" class="page__back">
+    <header class="char-hero">
+    <img src="/assets/images/jason-duval-gta-6-character-01.jpg" alt="Jason Duval beside a motorcycle in Vice City, GTA 6" width="1920" height="1080" loading="eager" class="char-hero__bg-img">
+    <div class="char-hero__overlay" aria-hidden="true"></div>
+    <div class="char-hero__inner">
+      <a href="/gameplay/characters" class="char-hero__back">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
         Back to Character Profiles
       </a>
+      <div class="char-hero__eyebrow">Character File</div>
+      <h1 class="char-hero__h1">Jason <span>Duval</span></h1>
+      <p class="char-hero__sub">Leonida native. <strong>Former military. Drug running history in the Keys corridor.</strong> Currently operating across Vice County with <a href="/gameplay/characters/lucia-caminos" style="color:var(--blue)">Lucia Caminos</a>.</p>
+    </div>
+  </header>
+
+<div class="page">
+    <div class="wrap">
 
       <!-- DOSSIER: file header, name/stats left, the two images as attached case-board artifacts right -->
-      <div class="dossier">
+            <div class="dossier">
         <div class="dossier__left">
-          <div class="file-tag">Character File</div>
-          <h1 class="dossier__h1">Jason <span>Duval</span></h1>
-          <p class="dossier__role">Main Playable Protagonist &middot; Vice County</p>
-          <p class="dossier__tagline">Leonida native. <strong>Former military. Drug running history in the Keys corridor.</strong> Currently operating across Vice County with <a href="/gameplay/characters/lucia-caminos" style="color:var(--blue)">Lucia Caminos</a>.</p>
-
           <div class="stat-block" role="list" aria-label="Character stats">
             <div class="stat-block__item" role="listitem">
               <div class="stat-block__key">Role</div>
@@ -369,21 +394,9 @@
             </div>
           </div>
         </div>
-
         <div class="dossier__right">
-          <div class="photo-stack">
-            <figure class="photo-stack__sighting">
-              <div class="photo-frame">
-                <img src="/assets/images/jason-duval-gta-6-character-01.jpg" alt="Jason Duval beside a motorcycle in Vice City, GTA 6" width="3840" height="2160" loading="eager">
-              </div>
-              <span class="photo-tag photo-tag--sighting">Last Sighting &middot; Trailer 1</span>
-            </figure>
-            <figure class="photo-stack__onfile">
-              <div class="photo-frame">
-                <img src="/assets/images/jason-duval-gta-6-character-05.jpg" alt="Jason Duval on-file photo, GTA 6" width="1920" height="1080" loading="lazy">
-              </div>
-              <span class="photo-tag photo-tag--onfile">On File</span>
-            </figure>
+          <div class="entry-gallery">
+            <div class="entry-gallery__item"><img src="/assets/images/jason-duval-gta-6-character-05.jpg" alt="Jason Duval on-file photo, GTA 6" width="1920" height="1080" loading="lazy"></div>
           </div>
         </div>
       </div>
