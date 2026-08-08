@@ -95,17 +95,20 @@
     .search-overlay__nores{font-size:12px;color:var(--t3);padding:20px 0;text-align:center;}
 
     /* ARTICLE HERO (shared header component) */
-    .article-hero{padding:72px 0 0;border-bottom:1px solid var(--border);margin-bottom:0;}
-    .article-hero__wrap{max-width:780px;margin:0 auto;padding:0 24px 48px;}
-    .article-hero__cat{display:inline-flex;align-items:center;gap:8px;font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--pink);margin-bottom:20px;text-decoration:none;}
+    .article-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;padding-top:var(--nav-h);overflow:hidden;border-bottom:1px solid var(--border);}
+    .article-hero__bg-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 38%;z-index:0;}
+    .article-hero__overlay{position:absolute;inset:0;background:linear-gradient(to top, var(--bg) 0%, rgba(11,10,8,.86) 55%, rgba(224,120,95,.14) 100%);z-index:1;}
+    [data-theme="light"] .article-hero__overlay{background:linear-gradient(to top, var(--bg) 0%, rgba(236,228,211,.9) 55%, rgba(168,68,44,.14) 100%);}
+    .article-hero__wrap{position:relative;z-index:2;max-width:780px;margin:0 auto;padding:0 24px 34px;width:100%;}
+    .article-hero__cat{display:inline-flex;align-items:center;gap:8px;font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--pink);margin-bottom:20px;text-decoration:none;text-shadow:0 1px 4px rgba(0,0,0,.5);}
     .article-hero__cat svg{width:12px;height:12px;}
     .article-hero__h1{font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(28px,4.5vw,52px);text-transform:uppercase;letter-spacing:0;line-height:.95;color:var(--t1);margin-bottom:20px;}
     .article-hero__h1 span{color:var(--blue);}
     .article-hero__deck{font-size:17px;color:var(--t2);line-height:1.65;max-width:640px;margin-bottom:28px;font-weight:400;}
     .article-hero__meta{display:flex;align-items:center;gap:16px;flex-wrap:wrap;}
-    .article-hero__date{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--t3);}
-    .article-hero__badge{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.10em;padding:4px 10px;border-radius:999px;}
-    .badge--official{background:rgba(40,167,69,.12);color:#28a745;border:1px solid rgba(40,167,69,.22);}
+    .article-hero__date{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--t3);text-shadow:0 1px 4px rgba(0,0,0,.5);}
+    .article-hero__badge{display:inline-flex;align-items:center;font-family:'Courier Prime',monospace;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.09em;padding:6px 14px;border-radius:8px 2px 8px 2px;transform:rotate(1.2deg);white-space:nowrap;}
+    .badge--official{background:var(--green-dim);color:var(--green);border:1.3px solid rgba(40,167,69,.30);}
     .article-body{max-width:780px;margin:0 auto;padding:48px 24px 96px;}
     .article-body p{font-size:15px;color:var(--t2);line-height:1.85;margin-bottom:20px;}
     .article-body p:last-child{margin-bottom:0;}
@@ -265,6 +268,8 @@
 
   <article>
     <div class="article-hero">
+      <img src="/assets/images/vice-city-gta-6-location-09.jpg" alt="A classic car and dirt bikes on a Vice City street lined with murals in GTA 6" width="3840" height="2160" loading="eager" class="article-hero__bg-img">
+      <div class="article-hero__overlay" aria-hidden="true"></div>
       <div class="article-hero__wrap">
         <a href="/news" class="article-hero__cat">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
