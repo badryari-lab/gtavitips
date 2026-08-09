@@ -300,8 +300,8 @@
     .dossier--stat-only { display: block; }
     .dossier--stat-only .stat-block { max-width: 640px; }
     .entry-gallery { display: flex; flex-direction: column; gap: 12px; }
-    .entry-gallery__item { position: relative; width: 100%; border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; border: 1px solid var(--border-b); }
-    .entry-gallery__item img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
+    .entry-gallery__item { position: relative; width: 100%; padding-top: 75%; border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; border: 1px solid var(--border-b); }
+    .entry-gallery__item img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
   </style>
 </head>
 <body>
@@ -382,7 +382,7 @@
       </a>
       <div class="location-hero__eyebrow">Location File</div>
       <h1 class="location-hero__h1">Ambrosia</h1>
-      <p class="location-hero__sub">A rural settlement in the Leonida interior. <strong>Confirmed by name. What the name refers to on the ground is still being verified.</strong></p>
+      <p class="location-hero__sub">A rural settlement in the Leonida interior. <strong>The name's on the map. What it actually looks like on the ground isn't yet.</strong></p>
     </div>
   </header>
 
@@ -402,14 +402,9 @@
               <div class="stat-block__sub">Rural interior position. Away from the <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> coastal zone and the major highway network.</div>
             </div>
             <div class="stat-block__item" role="listitem">
-              <div class="stat-block__key">Intel Status</div>
-              <div class="stat-block__val">Reported</div>
-              <div class="stat-block__sub">Confirmed by name in official material. Ground-level detail not yet documented to a standard this database publishes.</div>
-            </div>
-            <div class="stat-block__item" role="listitem">
               <div class="stat-block__key">Priority</div>
               <div class="stat-block__val">Under Review</div>
-              <div class="stat-block__sub">Filed on name confirmation. Full profile requires additional source material.</div>
+              <div class="stat-block__sub">The name earned it a spot. The rest is still coming.</div>
             </div>
           </div>
         </div>
@@ -427,33 +422,29 @@
           <section class="section reveal" aria-labelledby="overview-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Location Overview</span></div>
             <h2 class="section__h2" id="overview-hd">Leonida <span style="color:var(--blue)">Profile</span></h2>
-            <div class="section__body"><p>Ambrosia is a confirmed settlement name in Leonida. The name appears in official material referencing the state's interior geography. Rural classification is based on geographic context.</p><p>The profile stops there. <strong>This database does not publish detail it cannot source.</strong> Ambrosia is on the map. The settlement itself will be documented when official sources provide sufficient material to do it properly.</p><p>Rural Leonida settlements are likely to share characteristics with the real-world Florida interior: small populations, agricultural land, and significant distance from the law enforcement resources concentrated in <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> and the urban fringe.</p></div>
+            <div class="section__body"><p>Ambrosia is a name in Leonida's rural interior. That's as far as anyone's gotten.</p><p>That's where it stops for now. <strong>Nobody's putting eyes on Ambrosia and guessing the rest.</strong> It's on the map. What's actually there will show up when it shows up.</p><p>Rural Leonida settlements tend to share the real-world Florida interior's characteristics: small populations, agricultural land, and significant distance from the law enforcement resources concentrated in <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> and the urban fringe.</p></div>
           </section>
           <div class="operator-notes reveal" aria-label="Field operator notes">
             <div class="operator-notes__label" aria-hidden="true">Field Intel</div>
             <div class="operator-notes__grid">
             <div class="operator-notes__item">
-              <div class="operator-notes__item-key">Status</div>
-              <div class="operator-notes__item-val">Reported. Name confirmed in official footage.</div>
-            </div>
-            <div class="operator-notes__item">
               <div class="operator-notes__item-key">Classification</div>
-              <div class="operator-notes__item-val">Rural settlement. Exact character not yet confirmed.</div>
+              <div class="operator-notes__item-val">Rural settlement. What kind, exactly, is still unclear.</div>
             </div>
             <div class="operator-notes__item">
               <div class="operator-notes__item-key">Intel Gap</div>
-              <div class="operator-notes__item-val">Layout, population, specific geography not yet in official sources.</div>
+              <div class="operator-notes__item-val">Layout, population, exact geography: all still dark.</div>
             </div>
             <div class="operator-notes__item">
               <div class="operator-notes__item-key">Update Status</div>
-              <div class="operator-notes__item-val">Profile will be expanded as official detail becomes available.</div>
+              <div class="operator-notes__item-val">Keep watching. More will surface eventually.</div>
             </div>
             </div>
           </div>
           <section class="section reveal" aria-labelledby="field-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Tactical Assessment</span></div>
             <h2 class="section__h2" id="field-hd">On the <span style="color:var(--blue)">Ground</span></h2>
-            <div class="section__body"><p>No confirmed tactical profile available. Rural settlements of this type in Leonida's interior typically feature low patrol density, agricultural infrastructure, and road access that connects to the wider county network rather than to anything useful in isolation.</p><p><strong>This entry will be updated when post-launch material provides sufficient detail for a full profile.</strong></p></div>
+            <div class="section__body"><p>Nothing specific on Ambrosia yet. Expect what rural Leonida usually runs on: thin patrol coverage, farmland, and roads that connect to the county network more than to anything useful on their own.</p><p><strong>More will surface after launch. For now, that's all there is.</strong></p></div>
           </section>
           <section class="section reveal" aria-labelledby="sightings-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Official Rockstar Sources Only</span></div>
@@ -461,7 +452,7 @@
             <div class="sightings" role="list">
           <div class="sighting-entry reveal">
             <div class="sighting-entry__source">Reported</div>
-            <div class="sighting-entry__text"><strong>Ambrosia confirmed as a named location in Leonida.</strong> Referenced in official material in the context of the state's rural interior geography.</div>
+            <div class="sighting-entry__text"><strong>Ambrosia shows up as a named location in Leonida's rural interior.</strong> That's the extent of it right now.</div>
           </div>
             </div>
           </section>
@@ -477,7 +468,7 @@
           <a href="/gameplay/locations/yorktown" class="conn-card reveal">
             <div class="conn-card__type">Locality</div>
             <div class="conn-card__name">Yorktown</div>
-            <div class="conn-card__desc">Fellow reported inland settlement. Similar confirmation status.</div>
+            <div class="conn-card__desc">Another inland settlement with barely anything filed on it yet.</div>
           </a>
           <a href="/gameplay/locations/grassrivers" class="conn-card reveal">
             <div class="conn-card__type">Wetland Region</div>
@@ -487,7 +478,7 @@
           <a href="/gameplay/locations/port-gellhorn" class="conn-card reveal">
             <div class="conn-card__type">Industrial Town</div>
             <div class="conn-card__name">Port Gellhorn</div>
-            <div class="conn-card__desc">The nearest confirmed settlement with a detailed profile.</div>
+            <div class="conn-card__desc">The nearest settlement close by with an actual profile filled in.</div>
           </a>
           <section class="section reveal" aria-labelledby="faq-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Common Questions</span></div>
