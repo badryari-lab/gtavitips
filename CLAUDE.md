@@ -276,7 +276,7 @@ When a better image is found for a ⚠ category, update it on the homepage card 
 - Email: info@gtavitips.com
 - X / Twitter: @gtavitips
 - TikTok: @gtavi.tips
-- Instagram: @gtavi.tips
+- Instagram: @gtavitipsdotcom
 
 ## Cloudflare Worker name
 
