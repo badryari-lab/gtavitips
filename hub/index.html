@@ -12,8 +12,8 @@
   <meta property="og:image" content="https://gtavitips.com/assets/images/vice-city-gta-6-location-04.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://gtavitips.com/">
-  <link rel="alternate" type="application/rss+xml" title="GTAVITIPS — GTA 6 News" href="https://gtavitips.com/feed.xml">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23005f90'/%3E%3Ctext x='32' y='44' font-family='Arial,sans-serif' font-size='30' font-weight='900' fill='white' text-anchor='middle'%3EVI%3C/text%3E%3C/svg%3E">
+  <link rel="alternate" type="application/rss+xml" title="GTAVITIPS: GTA 6 News" href="https://gtavitips.com/feed.xml">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpolygon points='0,0 48,0 64,15 64,64 0,64' fill='%23a8341f'/%3E%3Ctext x='30' y='44' font-family='Arial,sans-serif' font-size='28' font-weight='900' fill='%23ece4d3' text-anchor='middle'%3EVI%3C/text%3E%3C/svg%3E">
   <script>
   (function(){
     var saved=localStorage.getItem('gtavitips-theme');
@@ -23,7 +23,7 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,400;0,600;0,700;1,600&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
   <script type="application/ld+json">
   {
@@ -49,6 +49,26 @@
         "url": "https://gtavitips.com",
         "description": "Verified GTA 6 intel hub covering characters, vehicles, locations, weapons, factions, brands, animals, and activities across Leonida.",
         "publisher": { "@id": "https://gtavitips.com/#org" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "When does GTA 6 release?",
+            "acceptedAnswer": { "@type": "Answer", "text": "GTA 6 launches November 19, 2026 on PlayStation 5 and Xbox Series X|S. No PC version at launch." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I pre-order GTA 6?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Pre-orders are open now. Standard Edition is $79.99, Ultimate Edition is $99.99. Both include the Vintage Vice City Pack." }
+          },
+          {
+            "@type": "Question",
+            "name": "When is the next GTA 6 reveal?",
+            "acceptedAnswer": { "@type": "Answer", "text": "An Extended Look premieres on Netflix on August 27, 2026, with a YouTube release six hours later." }
+          }
+        ]
       }
     ]
   }
@@ -56,389 +76,270 @@
 
   <style>
     :root {
-      --blue:        #005f90;
-      --blue-dim:    rgba(0,95,144,0.12);
-      --blue-border: rgba(0,95,144,0.28);
-      --pink:        #ff0055;
-      --pink-dim:    rgba(255,0,85,0.10);
-      --green:       #28a745;
-      --green-dim:   rgba(40,167,69,0.12);
-      --amber:       #ffc107;
-      --amber-dim:   rgba(255,193,7,0.12);
-      --red:         #dc3545;
-      --red-dim:     rgba(220,53,69,0.12);
-      --bg:          #080c12;
-      --bg-2:        #0d1320;
-      --bg-3:        #131c2e;
-      --bg-4:        #192236;
-      --border:      rgba(255,255,255,0.06);
-      --border-b:    rgba(0,95,144,0.22);
-      --t1:          #eef2f7;
-      --t2:          #7e8fa3;
-      --t3:          #445060;
-      --r:           12px;
-      --nav-h:       62px;
+      --kraft:        #e0785f;
+      --kraft-dim:    rgba(224,120,95,0.14);
+      --kraft-border: rgba(224,120,95,0.30);
+      --stamp:        #4a9e93;
+      --stamp-dim:    rgba(74,158,147,0.14);
+      --stamp-border: rgba(74,158,147,0.38);
+      --paper:        #ece4d3;
+      --paper-ink:    #2a2420;
+      --bg:           #0b0a08;
+      --bg-2:         #131110;
+      --bg-3:         #1c1815;
+      --bg-4:         #262019;
+      --border:       rgba(255,255,255,0.055);
+      --border-b:     rgba(224,120,95,0.24);
+      --t1:           #f2ede4;
+      --t2:           #a89a86;
+      --t3:           #6b5f4f;
+      --r:            3px 14px 4px 16px;
+      --r2:           2px 9px 2px 9px;
+      --nav-h:        62px;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-    body { font-family: 'Poppins', sans-serif; background: var(--bg); color: var(--t1); overflow-x: hidden; font-size: 16px; line-height: 1.6; }
+    body { font-family: 'Archivo', sans-serif; background: var(--bg); color: var(--t1); overflow-x: hidden; font-size: 16px; line-height: 1.6; position: relative; }
     a { color: inherit; text-decoration: none; }
     img { display: block; max-width: 100%; }
-    ::selection { background: var(--blue); color: #fff; }
+    ::selection { background: var(--kraft); color: var(--paper-ink); }
     ::-webkit-scrollbar { width: 5px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: var(--bg-4); border-radius: 99px; }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
     .wrap { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
 
+    /* ── PAPER GRAIN — dependency-free, no image request ── */
+    .grain { position: fixed; inset: 0; z-index: 500; pointer-events: none; opacity: .045; mix-blend-mode: overlay;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+
+    .pulse-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--stamp); animation: pulse 2s ease-in-out infinite; flex-shrink: 0; }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .5; transform: scale(.7); } }
+    @media (prefers-reduced-motion: reduce) { .pulse-dot { animation: none; } .reveal { opacity: 1; transform: none; transition: none; } }
+
     /* ── NAV ── */
-    .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; height: var(--nav-h); display: flex; align-items: center; transition: background .3s, border-color .3s; }
-    .nav.solid { background: rgba(8,12,18,.95); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border-b); }
+    .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; height: var(--nav-h); display: flex; align-items: center; transition: background .3s, border-color .3s; background: linear-gradient(to bottom, rgba(11,10,8,.7) 0%, rgba(11,10,8,0) 100%); }
+    [data-theme="light"] .nav:not(.solid) { background: linear-gradient(to bottom, rgba(236,228,211,.8) 0%, rgba(236,228,211,0) 100%); }
+    .nav.solid { background: var(--bg-2); border-bottom: 1px solid var(--border-b); }
     .nav__inner { width: 100%; max-width: 1120px; margin: 0 auto; padding: 0 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
-    .nav__logo { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--t1); flex-shrink: 0; }
-    .nav__logo-badge { width: 30px; height: 30px; background: var(--blue); border-radius: 7px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 900; color: #fff; letter-spacing: -.5px; }
+    .nav__logo { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--t1); flex-shrink: 0; text-shadow: 0 1px 4px rgba(0,0,0,.5); }
+    .nav__logo-badge { width: 30px; height: 30px; background: var(--stamp); color: var(--paper); clip-path: polygon(0 0, 78% 0, 100% 24%, 100% 100%, 0 100%); transform: rotate(-3deg); display: flex; align-items: center; justify-content: center; font-family: 'Anton', sans-serif; font-size: 13px; font-weight: 400; letter-spacing: 0; }
     .nav__links { display: flex; align-items: center; gap: 2px; list-style: none; }
-    .nav__links a { padding: 5px 13px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t2); border-radius: 99px; transition: color .18s, background .18s; }
-    .nav__links a:hover { color: var(--t1); background: rgba(255,255,255,.05); }
+    .nav__links a { padding: 5px 13px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t2); border-radius: 99px; transition: color .18s, background .18s; text-shadow: 0 1px 4px rgba(0,0,0,.5); }
+    .nav__links a:hover { color: var(--t1); background: var(--kraft-dim); }
     .nav__right { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
-    .nav__search-btn { width: 34px; height: 34px; border-radius: 8px; background: rgba(255,255,255,.05); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--t2); transition: color .18s, background .18s; }
-    .nav__search-btn:hover { color: var(--t1); background: rgba(255,255,255,.09); }
+    .nav__search-btn { width: 34px; height: 34px; border-radius: 8px; background: var(--bg-3); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--t2); transition: color .18s, background .18s; }
+    .nav__search-btn:hover { color: var(--t1); background: var(--bg-4); }
     .nav__search-btn svg { width: 15px; height: 15px; }
-    .nav__db-btn { padding: 7px 18px; background: var(--blue); color: #fff; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border-radius: 8px; transition: opacity .18s, transform .15s; }
+    .nav__db-btn { padding: 7px 18px; background: var(--kraft); color: var(--paper-ink); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border-radius: 8px; transition: opacity .18s, transform .15s; }
     .nav__db-btn:hover { opacity: .85; transform: translateY(-1px); }
-    .nav__theme-btn { width: 34px; height: 34px; border-radius: 8px; background: rgba(255,255,255,.05); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--t2); transition: color .18s, background .18s; }
-    .nav__theme-btn:hover { color: var(--t1); background: rgba(255,255,255,.09); }
+    .nav__theme-btn { width: 34px; height: 34px; border-radius: 8px; background: var(--bg-3); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--t2); transition: color .18s, background .18s; }
+    .nav__theme-btn:hover { color: var(--t1); background: var(--bg-4); }
     .nav__theme-btn svg { width: 15px; height: 15px; }
     .nav__burger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px; }
     .nav__burger span { display: block; width: 20px; height: 1.5px; background: var(--t2); border-radius: 99px; transition: .25s; }
-    .nav__mobile { display: none; position: fixed; top: var(--nav-h); left: 0; right: 0; background: rgba(8,12,18,.98); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border-b); padding: 16px 28px 24px; flex-direction: column; gap: 2px; z-index: 199; }
+    .nav__mobile { display: none; position: fixed; top: var(--nav-h); left: 0; right: 0; background: var(--bg-2); border-bottom: 1px solid var(--border-b); padding: 16px 28px 24px; flex-direction: column; gap: 2px; z-index: 199; }
     .nav__mobile.open { display: flex; }
     .nav__mobile a { padding: 11px 14px; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t2); border-radius: 9px; transition: .18s; }
-    .nav__mobile a:hover { color: var(--t1); background: rgba(255,255,255,.05); }
+    .nav__mobile a:hover { color: var(--t1); background: var(--kraft-dim); }
 
-    /* ── SEARCH OVERLAY ── */
-    .search-overlay { position: fixed; inset: 0; z-index: 300; background: rgba(8,12,18,.92); backdrop-filter: blur(24px); display: flex; align-items: flex-start; justify-content: center; padding-top: 120px; opacity: 0; pointer-events: none; transition: opacity .22s; }
+    /* ── SEARCH OVERLAY (modal — usable from anywhere on the site) ── */
+    .search-overlay { position: fixed; inset: 0; z-index: 300; background: var(--bg); opacity: 0; pointer-events: none; transition: opacity .22s; display: flex; align-items: flex-start; justify-content: center; padding-top: 120px; }
+    [data-theme="dark"] .search-overlay { background: rgba(11,10,8,.94); }
+    [data-theme="light"] .search-overlay { background: rgba(236,228,211,.96); }
     .search-overlay.open { opacity: 1; pointer-events: all; }
     .search-overlay__inner { width: 100%; max-width: 640px; padding: 0 28px; }
-    .search-overlay__label { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; color: var(--pink); margin-bottom: 14px; }
-    .search-overlay__field { display: flex; align-items: center; background: var(--bg-3); border: 1px solid var(--blue-border); border-radius: 12px; overflow: hidden; }
+    .search-overlay__label { font-family: 'Courier Prime', monospace; font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--stamp); margin-bottom: 14px; }
+    .search-overlay__field { display: flex; align-items: center; background: var(--bg-3); border: 1px solid var(--kraft-border); border-radius: 12px; overflow: hidden; }
     .search-overlay__field svg { width: 18px; height: 18px; color: var(--t3); margin-left: 18px; flex-shrink: 0; }
-    .search-overlay__input { flex: 1; padding: 16px 18px; background: none; border: none; outline: none; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 500; color: var(--t1); }
+    .search-overlay__input { flex: 1; padding: 16px 18px; background: none; border: none; outline: none; font-family: 'Archivo', sans-serif; font-size: 16px; font-weight: 500; color: var(--t1); }
     .search-overlay__input::placeholder { color: var(--t3); }
     .search-overlay__close { padding: 10px 16px; background: none; border: none; font-size: 12px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--t3); cursor: pointer; transition: color .18s; }
     .search-overlay__close:hover { color: var(--t1); }
-    .search-overlay__hint { margin-top: 12px; font-size: 12px; color: var(--t3); }
-    .search-overlay__hint kbd { background: var(--bg-4); border: 1px solid var(--border); border-radius: 5px; padding: 2px 7px; font-family: inherit; font-size: 11px; color: var(--t2); }
+    .search-overlay__hint { margin-top: 12px; font-family: 'Courier Prime', monospace; font-size: 11.5px; color: var(--t3); }
+    .search-overlay__hint kbd { background: var(--bg-4); border: 1px solid var(--border); border-radius: 5px; padding: 2px 7px; font-family: inherit; font-size: 10.5px; color: var(--t2); }
     .search-overlay__results{margin-top:14px;display:flex;flex-direction:column;gap:3px;max-height:300px;overflow-y:auto;}
     .search-result{display:flex;align-items:center;gap:12px;padding:11px 14px;background:var(--bg-3);border:1px solid var(--border);border-radius:8px;text-decoration:none;transition:border-color .15s,background .15s;}
-    .search-result.active,.search-result:hover{border-color:var(--blue-border);background:var(--bg-4);}
-    .search-result__cat{font-size:8px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--blue);background:var(--blue-dim);padding:2px 7px;border-radius:99px;flex-shrink:0;white-space:nowrap;}
+    .search-result.active,.search-result:hover{border-color:var(--kraft-border);background:var(--bg-4);}
+    .search-result__cat{font-family:'Courier Prime',monospace;font-size:8px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--kraft);background:var(--kraft-dim);padding:2px 7px;border-radius:99px;flex-shrink:0;white-space:nowrap;}
     .search-result__body{flex:1;min-width:0;}
     .search-result__name{font-size:13px;font-weight:600;color:var(--t1);display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-    .search-overlay__nores{font-size:12px;color:var(--t3);padding:20px 0;text-align:center;}
+    .search-overlay__nores{font-family:'Courier Prime',monospace;font-size:12px;color:var(--t3);padding:20px 0;text-align:center;}
 
-    /* ── HERO ── */
-    .hero { min-height: 100svh; display: grid; grid-template-rows: auto 1fr auto; padding-top: var(--nav-h); position: relative; overflow: hidden; }
-
-    /* COUNTDOWN BAR */
-    .countdown-bar{display:block;position:relative;z-index:1;background:linear-gradient(90deg,rgba(0,95,144,.16),rgba(255,0,85,.11));border-bottom:1px solid var(--border-b);text-decoration:none;transition:background .2s;}
-    .countdown-bar:hover{background:linear-gradient(90deg,rgba(0,95,144,.22),rgba(255,0,85,.17));}
-    .countdown-bar__inner{display:flex;align-items:center;justify-content:center;gap:18px;padding:12px 28px;flex-wrap:wrap;}
-    .countdown-bar__label{display:flex;align-items:center;gap:9px;font-size:12.5px;color:var(--t2);}
-    .countdown-bar__label strong{color:var(--t1);font-weight:700;}
-    .countdown-bar__dot{width:7px;height:7px;border-radius:50%;background:var(--pink);flex-shrink:0;box-shadow:0 0 0 3px rgba(255,0,85,.18);animation:cdPulse 1.8s ease-in-out infinite;}
-    @keyframes cdPulse{0%,100%{opacity:1}50%{opacity:.35}}
-    .countdown-bar__digits{display:flex;align-items:center;gap:6px;}
-    .countdown-bar__unit{display:flex;flex-direction:column;align-items:center;background:var(--bg-2);border:1px solid var(--border-b);border-radius:8px;padding:4px 10px;min-width:40px;}
-    .countdown-bar__num{font-size:16px;font-weight:900;color:var(--t1);line-height:1.15;font-variant-numeric:tabular-nums;}
-    .countdown-bar__unit-label{font-size:8px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--t3);margin-top:1px;}
-    .countdown-bar__sep{color:var(--t3);font-weight:700;font-size:13px;}
-    .countdown-bar__cta{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--blue);flex-shrink:0;}
-    @media(max-width:640px){.countdown-bar__inner{padding:10px 20px;gap:10px;}.countdown-bar__cta{display:none;}}
-    @media(max-width:420px){.countdown-bar__label-text{display:none;}}
-    .hero__atmos { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
-    .hero__atmos-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(0,95,144,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0,95,144,.05) 1px, transparent 1px); background-size: 56px 56px; mask-image: radial-gradient(ellipse 90% 80% at 50% 30%, black 20%, transparent 75%); }
-    .hero__atmos-orb-1 { position: absolute; width: 900px; height: 600px; background: radial-gradient(ellipse, rgba(0,95,144,.22) 0%, transparent 65%); top: -180px; left: -280px; }
-    .hero__atmos-orb-2 { position: absolute; width: 600px; height: 500px; background: radial-gradient(ellipse, rgba(255,0,85,.09) 0%, transparent 65%); bottom: 60px; right: -180px; }
-    .hero__atmos-scan { position: absolute; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, rgba(0,95,144,.45), transparent); animation: scan 8s ease-in-out infinite; }
-    .hero__atmos-word { position: absolute; bottom: 60px; right: -30px; font-size: clamp(120px, 20vw, 300px); font-weight: 900; text-transform: uppercase; letter-spacing: -.04em; color: transparent; -webkit-text-stroke: 1px rgba(0,95,144,.07); line-height: 1; user-select: none; pointer-events: none; z-index: 0; }
-    @keyframes scan { 0% { top: 15%; opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { top: 85%; opacity: 0; } }
-
-    .hero__body { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 400px; gap: 0; align-items: start; padding: 72px 0 56px; }
-    .hero__left { padding-right: 64px; }
-
-    .hero__tag { display: inline-flex; align-items: center; gap: 8px; font-size: 10px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--pink); border: 1px solid rgba(255,0,85,.25); padding: 5px 14px; border-radius: 99px; margin-bottom: 24px; }
-    .hero__tag-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--pink); animation: pulse 2s ease-in-out infinite; }
-    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .5; transform: scale(.7); } }
-
-    /* BIGGER H1 */
-    .hero__h1 { font-size: clamp(50px, 9vw, 120px); font-weight: 900; line-height: .9; letter-spacing: -.03em; text-transform: uppercase; margin-bottom: 22px; }
-    .hero__h1-line-1 { display: block; color: var(--t1); }
-    .hero__h1-line-2 { display: block; color: var(--blue); }
-    .hero__h1-line-3 { display: block; color: transparent; -webkit-text-stroke: 1.5px var(--t3); opacity: .6; }
-
-    .hero__sub { font-size: 15px; color: var(--t2); line-height: 1.7; max-width: 480px; margin-bottom: 32px; }
-    .hero__sub strong { color: var(--t1); font-weight: 600; }
-
-    .hero__actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 44px; }
-    .hero__btn-primary { padding: 13px 28px; background: var(--blue); color: #fff; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border-radius: 9px; transition: opacity .18s, transform .15s; }
-    .hero__btn-primary:hover { opacity: .85; transform: translateY(-1px); }
-    .hero__btn-ghost { padding: 12px 28px; color: var(--t2); font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border-radius: 9px; border: 1px solid var(--border); transition: color .18s, border-color .18s, transform .15s; }
-    .hero__btn-ghost:hover { color: var(--t1); border-color: rgba(255,255,255,.18); transform: translateY(-1px); }
-
-    /* BIGGER STATS */
-    .hero__stats { display: flex; align-items: center; gap: 32px; }
-    .hero__stat { display: flex; flex-direction: column; gap: 4px; }
-    .hero__stat-num { font-size: clamp(36px, 5vw, 52px); font-weight: 900; line-height: 1; color: var(--t1); letter-spacing: -.02em; }
-    .hero__stat-num b { color: var(--blue); }
-    .hero__stat-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t3); }
-    .hero__stat-div { width: 1px; height: 44px; background: var(--border); flex-shrink: 0; }
-
-    /* ── INTEL TERMINAL (unified right card) ── */
-    .hero__right { position: relative; padding-top: 46px; }
-    .intel-terminal { background: var(--bg-2); border: 1px solid var(--border-b); border-radius: 14px; overflow: hidden; }
-    .intel-terminal__bar { position: relative; padding: 10px 16px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
-    .intel-terminal__bar::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--blue), var(--pink)); }
-    .intel-terminal__live { display: flex; align-items: center; gap: 5px; font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--green); }
-    .intel-terminal__live-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--green); animation: pulse 2s ease-in-out infinite; }
-    .intel-terminal__date { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--t3); }
-    .intel-terminal__link { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--blue); transition: opacity .18s; }
-    .intel-terminal__link:hover { opacity: .7; }
-    .intel-terminal__img { position: relative; height: 200px; overflow: hidden; border-bottom: 1px solid var(--border); }
-    .intel-terminal__img img { width: 100%; height: 100%; object-fit: cover; object-position: center center; display: block; }
-    .intel-terminal__img-overlay { position: absolute; bottom: 0; left: 0; right: 0; padding: 14px 16px; background: linear-gradient(to top, rgba(8,12,18,.88), transparent); font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; color: var(--t2); }
-    .intel-terminal__feed { display: flex; flex-direction: column; }
-    .intel-terminal__item { display: flex; align-items: center; gap: 10px; padding: 10px 16px; border-bottom: 1px solid var(--border); text-decoration: none; transition: background .18s; }
-    .intel-terminal__item:last-child { border-bottom: none; }
-    .intel-terminal__item:hover { background: rgba(255,255,255,.025); }
-    .intel-terminal__badge { font-size: 8px; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; padding: 2px 8px; border-radius: 99px; flex-shrink: 0; }
-    .intel-terminal__badge--new { background: var(--blue-dim); color: var(--blue); }
-    .intel-terminal__badge--upg { background: var(--green-dim); color: var(--green); }
-    .intel-terminal__text { font-size: 12px; color: var(--t2); line-height: 1.4; }
-    .intel-terminal__text strong { color: var(--t1); font-weight: 600; }
-
-    /* ── TICKER ── */
-    .hero__strip { position: relative; z-index: 1; border-top: 1px solid var(--border); display: flex; align-items: center; overflow: hidden; }
-    .hero__strip-label { flex-shrink: 0; padding: 14px 24px; border-right: 1px solid var(--border); font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .13em; color: var(--t3); white-space: nowrap; background: var(--bg); }
-    .hero__strip-track-wrap { overflow: hidden; flex: 1; }
-    .hero__strip-track { display: flex; white-space: nowrap; animation: marquee 40s linear infinite; }
-    .hero__strip-track:hover { animation-play-state: paused; }
-    @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-    .hero__strip-item { display: inline-flex; align-items: center; gap: 8px; padding: 14px 32px; font-size: 11px; font-weight: 600; color: var(--t3); border-right: 1px solid var(--border); }
-    .hero__strip-item b { color: var(--t2); }
-    .hero__strip-pip { width: 4px; height: 4px; border-radius: 50%; flex-shrink: 0; }
-
-    /* ── SITREP ── */
-    .sitrep { padding: 48px 0 72px; }
-    .sitrep__card { background: var(--bg-2); border: 1px solid var(--border-b); border-radius: 14px; overflow: hidden; }
-    .sitrep__bar { position: relative; padding: 12px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-    .sitrep__bar::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--blue), var(--pink)); }
-    .sitrep__label { display: flex; align-items: center; gap: 8px; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; color: var(--pink); }
-    .sitrep__updated { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--t3); }
-    .sitrep__grid { display: grid; grid-template-columns: repeat(4, 1fr); }
-    .sitrep__cell { padding: 22px 20px; border-right: 1px solid var(--border); display: flex; flex-direction: column; gap: 6px; text-decoration: none; transition: background .18s; }
-    .sitrep__cell:last-child { border-right: none; }
-    a.sitrep__cell:hover { background: rgba(255,255,255,.025); }
-    .sitrep__cell-key { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .13em; color: var(--t3); }
-    .sitrep__cell-val { font-size: 19px; font-weight: 900; text-transform: uppercase; letter-spacing: -.01em; color: var(--t1); line-height: 1.15; }
-    .sitrep__cell-val b { color: var(--blue); }
-    .sitrep__cell-sub { font-size: 11.5px; color: var(--t2); line-height: 1.5; }
-    @media (max-width: 900px) { .sitrep__grid { grid-template-columns: 1fr 1fr; } .sitrep__cell:nth-child(2) { border-right: none; } .sitrep__cell:nth-child(-n+2) { border-bottom: 1px solid var(--border); } }
-    @media (max-width: 480px) { .sitrep__grid { grid-template-columns: 1fr; } .sitrep__cell { border-right: none !important; border-bottom: 1px solid var(--border); } .sitrep__cell:last-child { border-bottom: none; } }
-
-    /* ── FAQ STRIP ── */
-    .faq-strip { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-    .faq-strip__item { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 16px 20px; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); text-decoration: none; transition: border-color .18s, background .18s, transform .15s; }
-    .faq-strip__item:hover { border-color: var(--border-b); background: var(--bg-3); transform: translateY(-1px); }
-    .faq-strip__q { font-size: 13.5px; font-weight: 600; color: var(--t1); line-height: 1.4; }
-    .faq-strip__arr { font-size: 14px; color: var(--t3); flex-shrink: 0; }
-    @media (max-width: 700px) { .faq-strip { grid-template-columns: 1fr; } }
-
-    /* ── REDUCED MOTION ── */
-    @media (prefers-reduced-motion: reduce) {
-      .hero__strip-track { animation: none; }
-      .hero__atmos-scan { display: none; }
-      .hero__tag-dot, .intel-terminal__live-dot { animation: none; }
-      .reveal { opacity: 1; transform: none; transition: none; }
-    }
+    /* ── TAG-STAMP — status labels everywhere ── */
+    .tag-stamp{display:inline-flex;align-items:center;gap:5px;font-family:'Courier Prime',monospace;font-weight:700;text-transform:uppercase;letter-spacing:.09em;border:1.3px solid var(--kraft);color:var(--kraft);background:var(--kraft-dim);padding:2px 9px;border-radius:var(--r2);transform:rotate(-1.5deg);white-space:nowrap;line-height:1.6;}
+    .tag-stamp--alt{border-color:var(--stamp);color:var(--stamp);background:var(--stamp-dim);border-radius:8px 2px 8px 2px;transform:rotate(1.2deg);}
+    .tag-stamp--muted{border-color:var(--t3);color:var(--t2);background:transparent;border-style:dashed;transform:rotate(-1deg);}
 
     /* ── SECTIONS ── */
-    .sec { padding: 96px 0; }
-    .sec--tight { padding: 64px 0; }
-    .sec__eyebrow { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
-    .sec__eyebrow-line { width: 20px; height: 2px; background: var(--pink); }
-    .sec__eyebrow-text { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; color: var(--pink); }
-    .sec__hd { font-size: clamp(22px, 3.5vw, 32px); font-weight: 700; text-transform: uppercase; letter-spacing: .02em; color: var(--t1); line-height: 1.1; }
-    .sec__hd span { color: var(--blue); }
-    .sec__top { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 40px; flex-wrap: wrap; }
-    .sec__viewall { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--blue); border-bottom: 1px solid rgba(0,95,144,.3); padding-bottom: 1px; white-space: nowrap; transition: border-color .18s; }
-    .sec__viewall:hover { border-color: var(--blue); }
+    .sec { padding: 60px 0; }
+    .sec__eyebrow { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+    .eyebrow-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--stamp); flex-shrink: 0; }
+    .sec__eyebrow-text { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--stamp); }
+    .sec__hd { font-family: 'Anton', sans-serif; font-weight: 400; font-size: clamp(22px, 3.5vw, 32px); text-transform: uppercase; letter-spacing: .01em; color: var(--t1); line-height: 1.05; }
+    .sec__hd span { color: var(--kraft); }
+    .sec__sub { font-size: 13.5px; color: var(--t2); max-width: 520px; margin-top: 8px; line-height: 1.6; }
+    .sec__top { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 32px; flex-wrap: wrap; }
+    .sec__viewall { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--kraft); border-bottom: 1px solid var(--kraft-border); padding-bottom: 1px; white-space: nowrap; transition: border-color .18s; }
+    .sec__viewall:hover { border-color: var(--kraft); }
+    @media (max-width: 768px) { .sec { padding: 40px 0; } }
 
-    /* ── CATEGORY GRID ── */
-    .cat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
-    .cat-card { background: var(--bg-2); border: none; border-radius: var(--r); padding: 0 18px 12px; min-height: 220px; display: flex; flex-direction: column; justify-content: flex-end; gap: 5px; text-decoration: none; transition: transform .2s, box-shadow .2s; position: relative; overflow: hidden; background-size: cover; background-position: center top; box-shadow: 0 4px 18px rgba(0,0,0,.45); }
-    .cat-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,95,144,.10) 0%, rgba(13,19,32,0) 30%, rgba(13,19,32,.72) 54%, rgba(13,19,32,.93) 100%); z-index: 0; pointer-events: none; transition: background .25s; }
-    .cat-card:hover::after { background: linear-gradient(to bottom, rgba(0,95,144,.18) 0%, rgba(13,19,32,0) 26%, rgba(13,19,32,.62) 50%, rgba(13,19,32,.90) 100%); }
-    .cat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--blue), transparent); opacity: 0; transition: opacity .2s; z-index: 3; }
-    .cat-card:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(0,0,0,.6); }
-    .cat-card:hover::before { opacity: 1; }
-    .cat-card__name { font-size: 15px; font-weight: 900; text-transform: uppercase; letter-spacing: .06em; color: #fff; position: relative; z-index: 1; }
-    .cat-card__desc { font-size: 12px; color: rgba(255,255,255,.68); line-height: 1.55; position: relative; z-index: 1; }
-    .cat-card__arrow { position: absolute; top: 14px; right: 16px; font-size: 17px; color: rgba(255,255,255,.80); z-index: 3; transition: color .2s, transform .2s; }
-    .cat-card:hover .cat-card__arrow { color: #fff; transform: translateX(3px); }
+    /* ── HERO — real context up front, disciplined size, no glow-orb billboard ── */
+    .hero { position: relative; min-height: 440px; display: flex; align-items: flex-end; padding-top: var(--nav-h); overflow: hidden; }
+    .hero__bg { position: absolute; inset: 0; background: url('/assets/images/vice-city-gta-6-location-04.jpg') center 8%/cover; }
+    .hero__overlay { position: absolute; inset: 0; background: linear-gradient(to top, var(--bg) 0%, rgba(11,10,8,.85) 45%, rgba(224,120,95,.14) 100%); }
+    [data-theme="light"] .hero__overlay { background: linear-gradient(to top, var(--bg) 0%, rgba(236,228,211,.88) 45%, rgba(168,68,44,.14) 100%); }
+    .hero__inner { position: relative; z-index: 1; padding: 60px 0 40px; }
+    .hero__h1 { font-family: 'Anton', sans-serif; font-weight: 400; text-transform: uppercase; letter-spacing: .005em; font-size: clamp(32px, 5.5vw, 60px); line-height: 1; color: var(--t1); margin-bottom: 14px; text-shadow: 0 2px 10px rgba(0,0,0,.4); }
+    .hero__h1 span { color: var(--kraft); }
+    .hero__sub { font-size: 15px; color: var(--t2); line-height: 1.7; max-width: 480px; margin-bottom: 26px; }
+    .hero__sub strong { color: var(--t1); font-weight: 600; }
+    .hero__actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .hero__btn-primary { padding: 12px 26px; background: var(--kraft); color: var(--paper-ink); font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border-radius: 9px; transition: opacity .18s, transform .15s; }
+    .hero__btn-primary:hover { opacity: .85; transform: translateY(-1px); }
+    .hero__btn-ghost { padding: 11px 26px; color: var(--t1); font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border-radius: 9px; border: 1px solid rgba(255,255,255,.28); transition: border-color .18s, transform .15s; }
+    .hero__btn-ghost:hover { border-color: var(--kraft); transform: translateY(-1px); }
+    .hero__reveal-chip { font-size: 12px; color: var(--t2); }
+    .hero__reveal-chip strong { color: var(--t1); }
+    @media (max-width: 560px) { .hero { min-height: 380px; } }
 
-    /* ── INTEL GRID ── */
+    /* ── OPS GRID — the full scope of the operation, live and sealed ── */
+    .ops-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    @media (max-width: 900px) { .ops-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 560px) { .ops-grid { grid-template-columns: 1fr; } }
+
+    .ops-card { position: relative; border-radius: var(--r); overflow: hidden; min-height: 190px; display: flex; flex-direction: column; justify-content: flex-end; padding: 18px 20px; text-decoration: none; background-size: cover; background-position: center; transition: transform .2s, box-shadow .2s; box-shadow: 0 4px 18px rgba(0,0,0,.4); background-color: var(--bg-2); border: 1px solid var(--border); }
+    .ops-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(224,120,95,.10) 0%, rgba(19,17,16,0) 32%, rgba(19,17,16,.80) 60%, rgba(19,17,16,.95) 100%); z-index: 0; }
+    a.ops-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(0,0,0,.55); }
+    .ops-card__eyebrow { position: relative; z-index: 1; font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .13em; color: var(--kraft); margin-bottom: 6px; }
+    .ops-card__name { position: relative; z-index: 1; font-family: 'Anton', sans-serif; font-weight: 400; font-size: 19px; text-transform: uppercase; letter-spacing: .01em; color: #fff; margin-bottom: 5px; }
+    .ops-card__desc { position: relative; z-index: 1; font-size: 12px; color: rgba(255,255,255,.72); line-height: 1.5; }
+    .ops-card__arrow { position: absolute; top: 14px; right: 16px; z-index: 1; color: rgba(255,255,255,.8); font-size: 16px; transition: transform .18s; }
+    a.ops-card:hover .ops-card__arrow { transform: translateX(3px); }
+
+    .ops-card--sealed { background-image: none !important; cursor: default; }
+    .ops-card--sealed::after { display: none; }
+    .ops-card--sealed .ops-card__eyebrow { color: var(--t3); }
+    .ops-card--sealed .ops-card__name { color: var(--t1); }
+    .ops-card__stamp { position: absolute; top: 14px; right: 14px; z-index: 2; font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--stamp); border: 1.3px solid var(--stamp); background: var(--stamp-dim); padding: 3px 9px; border-radius: 2px 8px 2px 8px; transform: rotate(-4deg); }
+    .redact-lines { display: flex; flex-direction: column; gap: 5px; margin: 8px 0; }
+    .redact-line { height: 8px; background: var(--bg-4); border-radius: 2px; }
+    .ops-card__soon { font-family: 'Courier Prime', monospace; font-size: 10px; color: var(--kraft); }
+
+    /* ── QUICK LOOKUP (secondary utility, not the page's opening move) ── */
+    .search-block { background: var(--bg-2); border: 1px solid var(--kraft-border); border-radius: var(--r); padding: 20px 22px; }
+    .search-block__label { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--stamp); margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+    .search-block__field { display: flex; align-items: center; background: var(--bg-3); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; transition: border-color .18s; }
+    .search-block__field:focus-within { border-color: var(--kraft-border); }
+    .search-block__field svg { width: 19px; height: 19px; color: var(--t3); margin-left: 16px; flex-shrink: 0; }
+    .search-block__input { flex: 1; padding: 15px 16px; background: none; border: none; outline: none; font-family: 'Archivo', sans-serif; font-size: 16px; font-weight: 500; color: var(--t1); min-width: 0; }
+    .search-block__input::placeholder { color: var(--t3); }
+    .search-block__kbd { margin-right: 14px; flex-shrink: 0; display: flex; align-items: center; gap: 4px; font-family: 'Courier Prime', monospace; font-size: 10px; color: var(--t3); }
+    .search-block__kbd kbd { background: var(--bg-4); border: 1px solid var(--border); border-radius: 5px; padding: 3px 7px; font-family: inherit; font-size: 10.5px; color: var(--t2); }
+    @media (max-width: 560px) { .search-block__kbd { display: none; } }
+    .search-block__results { margin-top: 10px; display: flex; flex-direction: column; gap: 3px; }
+    .search-block__results:empty { margin-top: 0; }
+
+    /* ── CATEGORY QUICK-CHIPS ── */
+    .cat-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .cat-chip { font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--t2); background: var(--bg-2); border: 1px solid var(--border); border-radius: 99px; padding: 7px 14px; transition: border-color .18s, color .18s, background .18s; }
+    .cat-chip:hover { color: var(--t1); border-color: var(--kraft-border); background: var(--bg-3); }
+
+    /* ── NEWS LAYOUT: main grid + live updates panel ── */
+    .news-layout { display: grid; grid-template-columns: 1fr 300px; gap: 20px; align-items: start; }
+    @media (max-width: 1024px) { .news-layout { grid-template-columns: 1fr; } }
+
+    .rail-widget { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r2); padding: 16px 18px; }
+    .rail-widget__label { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .13em; color: var(--stamp); margin-bottom: 12px; display: flex; align-items: center; gap: 7px; }
+    .rail-updates { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+    .rail-updates li { padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+    .rail-updates li:last-child { border-bottom: none; padding-bottom: 0; }
+    .rail-updates a { text-decoration: none; display: flex; flex-direction: column; gap: 6px; }
+    .rail-updates__text { font-size: 12.5px; color: var(--t2); line-height: 1.4; }
+    .rail-updates__text strong { color: var(--t1); font-weight: 600; }
+
+    /* ── INTEL GRID (news cards) ── */
     .intel-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 14px; }
     .intel-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; display: flex; flex-direction: column; text-decoration: none; transition: border-color .2s, transform .2s, box-shadow .2s; }
     .intel-card:hover { border-color: var(--border-b); transform: translateY(-3px); box-shadow: 0 12px 36px rgba(0,0,0,.4); }
     .intel-card--hero { grid-row: span 2; }
     .intel-card__thumb { background: var(--bg-3); overflow: hidden; display: flex; align-items: center; justify-content: center; position: relative; }
-    .intel-card--hero .intel-card__thumb { height: 280px; }
-    .intel-card--side .intel-card__thumb { height: 130px; }
-    .intel-card__thumb-inner { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,95,144,.15), rgba(255,0,85,.06)); display: flex; align-items: center; justify-content: center; }
+    .intel-card--hero .intel-card__thumb { height: 260px; }
+    .intel-card--side .intel-card__thumb { height: 110px; }
+    .intel-card__thumb-inner { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(224,120,95,.15), rgba(74,158,147,.06)); display: flex; align-items: center; justify-content: center; }
     .intel-card__thumb-letter { font-size: 80px; font-weight: 900; text-transform: uppercase; color: rgba(255,255,255,.04); letter-spacing: -.03em; user-select: none; }
-    .intel-card--side .intel-card__thumb-letter { font-size: 48px; }
+    .intel-card--side .intel-card__thumb-letter { font-size: 40px; }
     .intel-card__thumb-overlay { position: absolute; bottom: 0; left: 0; right: 0; height: 60%; background: linear-gradient(to top, var(--bg-2), transparent); z-index: 1; pointer-events: none; }
-    .intel-card__body { padding: 20px; flex: 1; display: flex; flex-direction: column; gap: 10px; position: relative; z-index: 2; }
-    .intel-card--side .intel-card__body { padding: 16px; gap: 8px; }
+    .intel-card__body { padding: 18px; flex: 1; display: flex; flex-direction: column; gap: 9px; position: relative; z-index: 2; }
+    .intel-card--side .intel-card__body { padding: 13px; gap: 6px; }
     .intel-card__meta { display: flex; align-items: center; gap: 8px; }
-    .intel-card__cat { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .11em; padding: 3px 9px; border-radius: 99px; background: var(--pink-dim); color: var(--pink); }
-    .intel-card__cat--blue { background: var(--blue-dim); color: var(--blue); }
+    .intel-card__cat { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .11em; padding: 3px 9px; border-radius: 99px; background: var(--stamp-dim); color: var(--stamp); }
+    .intel-card__cat--kraft { background: var(--kraft-dim); color: var(--kraft); }
     .intel-card__date { font-size: 11px; color: var(--t3); }
-    .intel-card__title { font-size: 16px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--t1); line-height: 1.25; }
-    .intel-card--side .intel-card__title { font-size: 13px; }
-    .intel-card__excerpt { font-size: 13px; color: var(--t2); line-height: 1.65; }
-    .intel-card--side .intel-card__excerpt { font-size: 12px; }
-    .intel-card__read { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--blue); margin-top: auto; display: flex; align-items: center; gap: 6px; transition: gap .18s; }
+    .intel-card__title { font-family: 'Anton', sans-serif; font-weight: 400; font-size: 16.5px; text-transform: uppercase; letter-spacing: .01em; color: var(--t1); line-height: 1.2; }
+    .intel-card--side .intel-card__title { font-size: 12px; }
+    .intel-card__excerpt { font-size: 12.5px; color: var(--t2); line-height: 1.6; }
+    .intel-card--side .intel-card__excerpt { font-size: 11px; }
+    .intel-card__read { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--kraft); margin-top: auto; display: flex; align-items: center; gap: 6px; transition: gap .18s; }
     .intel-card:hover .intel-card__read { gap: 10px; }
     .intel-card__read::after { content: '→'; }
+    @media (max-width: 768px) { .intel-grid { grid-template-columns: 1fr; } .intel-card--hero { grid-row: span 1; } }
 
-    /* ── BRIEFING ── */
-    .briefing { background: var(--bg-2); border: 1px solid var(--border); border-radius: 18px; overflow: hidden; display: grid; grid-template-columns: 400px 1fr; }
-    .briefing__visual { position: relative; min-height: 500px; background: var(--bg-3); overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; }
-    .briefing__visual-bg { position: absolute; inset: 0; background: linear-gradient(160deg, rgba(0,95,144,.22) 0%, rgba(255,0,85,.07) 100%); }
-    .briefing__visual-letter { position: absolute; font-size: 280px; font-weight: 900; letter-spacing: -.04em; text-transform: uppercase; color: rgba(255,255,255,.025); bottom: -40px; left: -10px; line-height: 1; user-select: none; }
-    .briefing__visual-overlay { position: absolute; inset: 0; background: linear-gradient(to right, transparent 60%, var(--bg-2) 100%); z-index: 1; pointer-events: none; }
-    .briefing__visual-bottom { position: relative; z-index: 2; padding: 28px; }
-    .briefing__status { display: inline-flex; align-items: center; gap: 6px; font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; padding: 5px 12px; border-radius: 99px; background: var(--green-dim); color: var(--green); margin-bottom: 10px; }
-    .briefing__status::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: var(--green); }
-    .briefing__visual-name { font-size: 52px; font-weight: 900; text-transform: uppercase; letter-spacing: -.02em; color: var(--t1); line-height: .95; }
-    .briefing__content { padding: 40px 44px; display: flex; flex-direction: column; justify-content: center; border-left: 1px solid var(--border); }
-    .briefing__label { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; color: var(--pink); margin-bottom: 4px; }
-    .briefing__h { font-size: clamp(26px, 3.5vw, 40px); font-weight: 900; text-transform: uppercase; letter-spacing: -.02em; line-height: .95; color: var(--t1); margin-bottom: 4px; }
-    .briefing__role { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .09em; color: var(--blue); margin-bottom: 20px; }
-    .briefing__desc { font-size: 14px; color: var(--t2); line-height: 1.75; margin-bottom: 28px; }
-    .briefing__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 28px; }
-    .briefing__cell { background: var(--bg-3); border: 1px solid var(--border); border-radius: 9px; padding: 13px 15px; }
-    .briefing__cell-key { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .10em; color: var(--t3); margin-bottom: 4px; }
-    .briefing__cell-val { font-size: 13px; font-weight: 700; color: var(--t1); }
-    .briefing__cta { display: inline-flex; align-items: center; gap: 10px; padding: 12px 24px; background: var(--blue); color: #fff; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; border-radius: 9px; transition: opacity .18s, transform .15s; width: fit-content; }
-    .briefing__cta:hover { opacity: .85; transform: translateY(-1px); }
-    .briefing__cta::after { content: '→'; }
-
-    /* ── INTEL LOG ── */
-    .log { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
-    .log__head { padding: 16px 24px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
-    .log__head-left { display: flex; align-items: center; gap: 10px; }
-    .log__head-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); animation: pulse 2s ease-in-out infinite; }
-    .log__head-title { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .13em; color: var(--t2); }
-    .log__head-link { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--blue); transition: opacity .18s; }
-    .log__head-link:hover { opacity: .7; }
-    .log__list { list-style: none; }
-    .log__item { display: grid; grid-template-columns: 72px auto 1fr auto; gap: 0 16px; align-items: center; padding: 14px 24px; border-bottom: 1px solid var(--border); transition: background .18s; text-decoration: none; }
-    .log__item:last-child { border-bottom: none; }
-    .log__item:hover { background: rgba(255,255,255,.025); }
-    .log__item-date { font-size: 11px; color: var(--t3); font-variant-numeric: tabular-nums; }
-    .log__item-badge { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .09em; padding: 3px 9px; border-radius: 99px; white-space: nowrap; }
-    .log__item-badge--green { background: var(--green-dim); color: var(--green); }
-    .log__item-badge--blue  { background: var(--blue-dim);  color: var(--blue); }
-    .log__item-text { font-size: 13px; color: var(--t2); line-height: 1.4; }
-    .log__item-text strong { color: var(--t1); font-weight: 600; }
-    .log__item-cat { font-size: 10px; color: var(--t3); text-align: right; white-space: nowrap; }
-
-    /* ── CTA BLOCK ── */
-    .cta-block { border: 1px solid var(--border-b); border-radius: 18px; overflow: hidden; display: grid; grid-template-columns: 1fr; }
-    .cta-block__left { padding: 56px 52px; position: relative; z-index: 1; }
-    .cta-block__left-bg { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,95,144,.15) 0%, transparent 70%); pointer-events: none; }
-    .cta-block__eyebrow { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; color: var(--pink); margin-bottom: 14px; display: block; }
-    .cta-block__h { font-size: clamp(28px, 4vw, 48px); font-weight: 900; text-transform: uppercase; letter-spacing: -.02em; line-height: .93; color: var(--t1); margin-bottom: 16px; }
-    .cta-block__h span { color: var(--blue); }
-    .cta-block__sub { font-size: 14px; color: var(--t2); line-height: 1.7; max-width: 380px; margin-bottom: 32px; }
-    .cta-block__btns { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-    .btn-p { padding: 12px 26px; background: var(--blue); color: #fff; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; border-radius: 8px; transition: opacity .18s, transform .15s; }
-    .btn-p:hover { opacity: .85; transform: translateY(-1px); }
-    .btn-g { padding: 11px 26px; color: var(--t2); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; border-radius: 8px; border: 1px solid var(--border); transition: color .18s, border-color .18s, transform .15s; }
-    .btn-g:hover { color: var(--t1); border-color: rgba(255,255,255,.18); transform: translateY(-1px); }
+    /* ── SITREP ── */
+    .sitrep__card { background: var(--bg-2); border: 1px solid var(--border-b); border-radius: 14px; overflow: hidden; }
+    .sitrep__bar { position: relative; padding: 12px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    .sitrep__bar::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--kraft), var(--stamp)); }
+    .sitrep__label { display: flex; align-items: center; gap: 8px; font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--stamp); }
+    .sitrep__updated { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--t3); }
+    .sitrep__grid { display: grid; grid-template-columns: repeat(4, 1fr); }
+    .sitrep__cell { padding: 22px 20px; border-right: 1px solid var(--border); display: flex; flex-direction: column; gap: 6px; text-decoration: none; transition: background .18s; }
+    .sitrep__cell:last-child { border-right: none; }
+    a.sitrep__cell:hover { background: var(--kraft-dim); }
+    .sitrep__cell-key { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .13em; color: var(--t3); }
+    .sitrep__cell-val { font-family: 'Anton', sans-serif; font-weight: 400; font-size: 20px; text-transform: uppercase; letter-spacing: 0; color: var(--t1); line-height: 1.15; }
+    .sitrep__cell-val b { color: var(--kraft); }
+    .sitrep__cell-sub { font-size: 11.5px; color: var(--t2); line-height: 1.5; }
+    @media (max-width: 900px) { .sitrep__grid { grid-template-columns: 1fr 1fr; } .sitrep__cell:nth-child(2) { border-right: none; } .sitrep__cell:nth-child(-n+2) { border-bottom: 1px solid var(--border); } }
+    @media (max-width: 480px) { .sitrep__grid { grid-template-columns: 1fr; } .sitrep__cell { border-right: none !important; border-bottom: 1px solid var(--border); } .sitrep__cell:last-child { border-bottom: none; } }
 
     /* ── FOOTER ── */
     .footer { border-top: 1px solid var(--border); padding: 52px 0 28px; }
     .footer__inner { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
     .footer__brand { display: flex; flex-direction: column; gap: 12px; }
     .footer__brand-logo { display: flex; align-items: center; gap: 9px; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--t1); }
-    .footer__brand-badge { width: 28px; height: 28px; background: var(--blue); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 900; color: #fff; }
+    .footer__brand-badge { width: 28px; height: 28px; background: var(--stamp); color: var(--paper); clip-path: polygon(0 0, 78% 0, 100% 24%, 100% 100%, 0 100%); transform: rotate(-3deg); display: flex; align-items: center; justify-content: center; font-family: 'Anton', sans-serif; font-size: 12px; font-weight: 400; }
     .footer__brand-desc { font-size: 13px; color: var(--t3); line-height: 1.7; }
-    .footer__col-head { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--t2); margin-bottom: 14px; }
+    .footer__col-head { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--t2); margin-bottom: 14px; }
     .footer__links { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-    .footer__links a { font-size: 13px; color: var(--t3); transition: color .18s; }
+    .footer__links a, .footer__links span { font-size: 13px; color: var(--t3); transition: color .18s; }
     .footer__links a:hover { color: var(--t2); }
+    .footer__links li { display: flex; align-items: center; gap: 7px; }
     .footer__bottom { border-top: 1px solid var(--border); padding-top: 22px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
     .footer__legal { font-size: 12px; color: var(--t3); line-height: 1.6; }
     .footer__legal a { color: var(--t3); transition: color .18s; }
     .footer__legal a:hover { color: var(--t2); }
+    @media (max-width: 1024px) { .footer__inner { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 768px) { .footer__inner { grid-template-columns: 1fr; gap: 28px; } }
 
     /* ── REVEAL ── */
     .reveal { opacity: 0; transform: translateY(20px); transition: opacity .5s ease, transform .5s ease; }
     .reveal.on { opacity: 1; transform: none; }
     .reveal.d1 { transition-delay: .06s; }
     .reveal.d2 { transition-delay: .12s; }
-    .reveal.d3 { transition-delay: .18s; }
-    .reveal.d4 { transition-delay: .24s; }
 
-    /* ── RESPONSIVE ── */
-    @media (max-width: 1024px) {
-      .hero__body { grid-template-columns: 1fr; }
-      .hero__left { padding-right: 0; }
-      .hero__right { display: none; }
-      .briefing { grid-template-columns: 1fr; }
-      .briefing__visual { min-height: 220px; }
-      .briefing__visual-overlay { background: linear-gradient(to top, var(--bg-2), transparent 60%); }
-      .briefing__content { border-left: none; border-top: 1px solid var(--border); }
-      .cta-block { grid-template-columns: 1fr; }
-      .footer__inner { grid-template-columns: 1fr 1fr; }
-      .log__item { grid-template-columns: auto 1fr auto; }
-      .log__item-date { display: none; }
-      .cat-grid { grid-template-columns: repeat(4, 1fr); }
-    }
     @media (max-width: 768px) {
       .nav__links, .nav__db-btn { display: none; }
       .nav__burger { display: flex; }
-      .intel-grid { grid-template-columns: 1fr; }
-      .intel-card--hero { grid-row: span 1; }
-      .briefing__grid { grid-template-columns: 1fr 1fr; }
-      .cta-block__left { padding: 36px 28px; }
-      .footer__inner { grid-template-columns: 1fr; gap: 28px; }
-      .sec { padding: 64px 0; }
-      .cat-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    @media (max-width: 480px) {
-      .hero__stat-div { display: none; }
-      .hero__stats { gap: 20px; }
-      .briefing__grid { grid-template-columns: 1fr; }
-      .cat-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
-      .cat-card { padding: 0 14px 14px; min-height: 180px; }
-      .cat-card__count { font-size: 30px; }
     }
 
-    [data-theme="light"] { --bg:#f3f6fa; --bg-2:#ffffff; --bg-3:#f0f3f8; --bg-4:#e8ecf2; --border:rgba(0,0,0,.07); --border-b:rgba(0,95,144,.20); --t1:#111827; --t2:#4b5563; --t3:#9ca3af; }
-    [data-theme="light"] .hero__atmos-orb-1 { background: radial-gradient(ellipse, rgba(0,95,144,.10) 0%, transparent 65%); }
-    [data-theme="light"] .hero__atmos-orb-2 { background: radial-gradient(ellipse, rgba(255,0,85,.04) 0%, transparent 65%); }
-    [data-theme="light"] .nav.solid { background: rgba(243,246,250,.95); }
-    [data-theme="dark"] { --bg:#080c12; --bg-2:#0d1320; --bg-3:#131c2e; --bg-4:#192236; --border:rgba(255,255,255,0.06); --border-b:rgba(0,95,144,0.22); --t1:#eef2f7; --t2:#7e8fa3; --t3:#445060; }
+    [data-theme="light"] { --bg:#ece4d3; --bg-2:#f6f1e6; --bg-3:#e3d8c2; --bg-4:#d6c9ac; --border:rgba(42,36,32,.10); --border-b:rgba(168,68,44,.28); --t1:#211c17; --t2:#5a4f40; --t3:#8c7f68; --kraft:#a8442c; --kraft-dim:rgba(168,68,44,.12); --kraft-border:rgba(168,68,44,.30); --stamp:#2c6b61; --stamp-dim:rgba(44,107,97,.10); --stamp-border:rgba(44,107,97,.32); --paper-ink:#211c17; }
+    [data-theme="light"] .nav__db-btn { color: var(--paper); }
+    [data-theme="dark"] { --bg:#0b0a08; --bg-2:#131110; --bg-3:#1c1815; --bg-4:#262019; --border:rgba(255,255,255,0.055); --border-b:rgba(224,120,95,0.24); --t1:#f2ede4; --t2:#a89a86; --t3:#6b5f4f; --kraft:#e0785f; --kraft-dim:rgba(224,120,95,.14); --kraft-border:rgba(224,120,95,.30); --stamp:#4a9e93; --stamp-dim:rgba(74,158,147,.14); --stamp-border:rgba(74,158,147,.38); --paper-ink:#2a2420; }
 
     /* NAV DROPDOWN */
     .nav__dropdown-wrap { position: relative; display: flex; align-items: center; gap: 2px; }
-    .nav__dropdown-link { font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 600; color: var(--blue); text-transform: uppercase; letter-spacing: .06em; text-decoration: none; transition: opacity .15s; } .nav__dropdown-btn { background: none; border: none; cursor: pointer; color: var(--blue); padding: 0; display: flex; align-items: center; transition: opacity .15s; }
+    .nav__dropdown-link { font-family: 'Archivo', sans-serif; font-size: 13px; font-weight: 600; color: var(--kraft); text-transform: uppercase; letter-spacing: .06em; text-decoration: none; transition: opacity .15s; } .nav__dropdown-btn { background: none; border: none; cursor: pointer; color: var(--kraft); padding: 0; display: flex; align-items: center; transition: opacity .15s; }
     .nav__dropdown-btn:hover { opacity: .75; }
     .nav__dropdown-chevron { width: 12px; height: 12px; transition: transform .2s; flex-shrink: 0; }
     .nav__dropdown-wrap.open .nav__dropdown-chevron { transform: rotate(180deg); }
@@ -446,11 +347,11 @@
     .nav__dropdown li { list-style: none; padding: 0; margin: 0; }
     .nav__dropdown-wrap.open .nav__dropdown { opacity: 1; pointer-events: all; transform: translateX(-50%) translateY(0); }
     .nav__dropdown li a { display: block; padding: 9px 14px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--t2); text-decoration: none; border-radius: 8px; transition: background .15s, color .15s; white-space: nowrap; }
-    .nav__dropdown li a:hover { background: var(--bg-3); color: var(--blue); }
+    .nav__dropdown li a:hover { background: var(--bg-3); color: var(--kraft); }
     @media(max-width: 860px) {
       .nav__dropdown-wrap { width: 100%; display: flex; align-items: center; justify-content: space-between; }
       .nav__dropdown-link { padding: 11px 14px; font-size: 13px; flex: 1; } .nav__dropdown-btn { padding: 11px 14px; background: none; border-radius: 9px; }
-      .nav__dropdown-btn:hover { background: rgba(255,255,255,.05); color: var(--t1); }
+      .nav__dropdown-btn:hover { background: var(--kraft-dim); color: var(--t1); }
       .nav__dropdown { position: static; transform: none; opacity: 1; pointer-events: all; box-shadow: none; border: none; border-radius: 0; background: none; padding: 0 0 0 14px; display: none; }
       .nav__dropdown-wrap.open .nav__dropdown { display: block; transform: none; }
       .nav__dropdown li a { color: var(--t3); font-size: 12px; }
@@ -458,6 +359,7 @@
   </style>
 </head>
 <body>
+  <div class="grain" aria-hidden="true"></div>
 
   <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
     <div class="nav__inner">
@@ -525,137 +427,127 @@
 
   <main id="main">
 
-    <!-- ── HERO ── -->
+    <!-- ── HERO — real context first: where you are, what this is ── -->
     <section class="hero" aria-label="GTAVITIPS verified GTA 6 intel hub">
-      <a href="/news/gta-6-extended-look-netflix-exclusive" class="countdown-bar" aria-label="Countdown to Grand Theft Auto VI: An Extended Look, premiering on Netflix August 27">
-        <div class="wrap countdown-bar__inner">
-          <div class="countdown-bar__label">
-            <span class="countdown-bar__dot" aria-hidden="true"></span>
-            <span class="countdown-bar__label-text">Next Reveal — <strong>An Extended Look</strong> · Netflix, Aug 27</span>
-          </div>
-          <div class="countdown-bar__digits">
-            <div class="countdown-bar__unit"><span class="countdown-bar__num" id="cd-days">21</span><span class="countdown-bar__unit-label">Days</span></div>
-            <span class="countdown-bar__sep" aria-hidden="true">:</span>
-            <div class="countdown-bar__unit"><span class="countdown-bar__num" id="cd-hours">00</span><span class="countdown-bar__unit-label">Hrs</span></div>
-            <span class="countdown-bar__sep" aria-hidden="true">:</span>
-            <div class="countdown-bar__unit"><span class="countdown-bar__num" id="cd-mins">00</span><span class="countdown-bar__unit-label">Min</span></div>
-            <span class="countdown-bar__sep" aria-hidden="true">:</span>
-            <div class="countdown-bar__unit"><span class="countdown-bar__num" id="cd-secs">00</span><span class="countdown-bar__unit-label">Sec</span></div>
-          </div>
-          <span class="countdown-bar__cta">Details →</span>
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="wrap hero__inner">
+        <h1 class="hero__h1">You Picked The Wrong<br>House, <span>Fool!</span></h1>
+        <p class="hero__sub">Gangs holding turf, rides tearing through Vice County, every dollar moving somewhere.</p>
+        <div class="hero__actions">
+          <a href="/gameplay" class="hero__btn-primary">Browse Database</a>
+          <a href="/trailers" class="hero__btn-ghost">Watch the Trailers</a>
+          <span class="hero__reveal-chip tag-stamp tag-stamp--alt" style="margin-left:4px;"><a href="/news/gta-6-extended-look-netflix-exclusive" style="color:inherit;">Next Reveal &middot; Aug 27</a></span>
         </div>
-      </a>
-      <div class="hero__atmos" aria-hidden="true">
-        <div class="hero__atmos-grid"></div>
-        <div class="hero__atmos-orb-1"></div>
-        <div class="hero__atmos-orb-2"></div>
-        <div class="hero__atmos-scan"></div>
-        <div class="hero__atmos-word">Leonida</div>
       </div>
+    </section>
 
+    <!-- ── OPS GRID — the full operation, live and sealed ── -->
+    <section class="sec" aria-labelledby="ops-hd">
       <div class="wrap">
-        <div class="hero__body">
-
-          <!-- LEFT -->
-          <div class="hero__left">
-            <div class="hero__tag">
-              <span class="hero__tag-dot" aria-hidden="true"></span>
-              Verified GTA 6 Intel Hub
-            </div>
-
-            <h1 class="hero__h1">
-              <span class="hero__h1-line-1">GTA 6</span>
-              <span class="hero__h1-line-2">Intel</span>
-              <span class="hero__h1-line-3">Database</span>
-            </h1>
-
-            <p class="hero__sub">
-              Gangs running the streets. Rides tearing through Vice County. Every crew holding their turf.
-              <strong>You picked the wrong house, fool.</strong>
-            </p>
-
-            <div class="hero__actions">
-              <a href="/gameplay" class="hero__btn-primary">Browse Database</a>
-              <a href="/trailers" class="hero__btn-ghost">Watch the Trailers</a>
-              <a href="/gameplay/characters/lucia-caminos" class="hero__btn-ghost">Lucia Caminos</a>
-            </div>
-
-            <div class="hero__stats" role="list" aria-label="Database statistics">
-              <div class="hero__stat" role="listitem">
-                <div class="hero__stat-num"><b id="stat-entries">301</b></div>
-                <div class="hero__stat-label">Database Entries</div>
-              </div>
-              <div class="hero__stat-div" aria-hidden="true"></div>
-              <div class="hero__stat" role="listitem">
-                <div class="hero__stat-num"><b>8</b></div>
-                <div class="hero__stat-label">Categories</div>
-              </div>
-              <div class="hero__stat-div" aria-hidden="true"></div>
-              <div class="hero__stat" role="listitem">
-                <div class="hero__stat-num">Nov <b>19</b></div>
-                <div class="hero__stat-label">Launch — 2026</div>
-              </div>
-            </div>
+        <div class="sec__top">
+          <div>
+            <div class="sec__eyebrow" aria-hidden="true"><span class="eyebrow-dot"></span><span class="sec__eyebrow-text">The Operation</span></div>
+            <h2 class="sec__hd reveal" id="ops-hd">No <span>Blind Spots</span></h2>
+            <p class="sec__sub">The full spread. Some of it's live now, some of it's sealed until it's ready.</p>
           </div>
-
-          <!-- RIGHT: unified terminal card -->
-          <div class="hero__right">
-            <div class="intel-terminal">
-              <div class="intel-terminal__bar">
-                <span class="intel-terminal__live">
-                  <span class="intel-terminal__live-dot" aria-hidden="true"></span>
-                  Live Feed
-                </span>
-                <span class="intel-terminal__date" id="feed-date"></span>
-                <a href="/intel-drops" class="intel-terminal__link">Full log →</a>
-              </div>
-              <div class="intel-terminal__img">
-                <img src="/assets/images/social-media-gta-6-activity-01.png?v=3" alt="GTA 6 Vice City activity footage" loading="eager">
-                <div class="intel-terminal__img-overlay" aria-hidden="true">Vice City · Activity Log</div>
-              </div>
-              <div class="intel-terminal__feed" id="intel-feed"></div>
-            </div>
-          </div>
-
         </div>
-      </div>
-
-      <!-- Ticker strip -->
-      <div class="hero__strip" role="region" aria-label="Confirmed intel feed">
-        <div class="hero__strip-label" aria-hidden="true">Confirmed Intel</div>
-        <div class="hero__strip-track-wrap">
-          <div class="hero__strip-track" aria-hidden="true">
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Lucia Caminos — Protagonist</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Jason Duval — Protagonist</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Vice City — Primary map</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Leonida — State setting — Rockstar Newswire</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Port Gellhorn — Industrial hub</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Brute Security — Armored transport faction</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Release date: November 19, 2026 — Rockstar Newswire</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Pre-orders open — Standard $79.99, Ultimate $99.99</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Vintage Vice City Pack — pre-order bonus</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--amber)"></span>Interactive map in development. Target: launch day.</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Lucia Caminos — Protagonist</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Jason Duval — Protagonist</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Vice City — Primary map</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Leonida — State setting — Rockstar Newswire</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Port Gellhorn — Industrial hub</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Brute Security — Armored transport faction</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Release date: November 19, 2026 — Rockstar Newswire</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Pre-orders open — Standard $79.99, Ultimate $99.99</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--green)"></span><b>CONFIRMED</b> Vintage Vice City Pack — pre-order bonus</span>
-            <span class="hero__strip-item"><span class="hero__strip-pip" style="background:var(--amber)"></span>Interactive map in development. Target: launch day.</span>
+        <div class="ops-grid">
+          <a href="/gameplay" class="ops-card reveal" style="background-image:url('/assets/images/grassrivers-gta-6-location-03.jpg')">
+            <span class="ops-card__eyebrow">Live Now</span>
+            <span class="ops-card__name">Database</span>
+            <span class="ops-card__desc">296 verified entries: characters, vehicles, locations, weapons, factions.</span>
+            <span class="ops-card__arrow">→</span>
+          </a>
+          <a href="/news" class="ops-card reveal d1" style="background-image:url('/assets/images/jason-duval-gta-6-character-06.jpg')">
+            <span class="ops-card__eyebrow">Live Now</span>
+            <span class="ops-card__name">News &amp; Intel</span>
+            <span class="ops-card__desc">Every announcement, trailer breakdown, and confirmed detail.</span>
+            <span class="ops-card__arrow">→</span>
+          </a>
+          <div class="ops-card ops-card--sealed reveal d2">
+            <span class="ops-card__stamp">Sealed</span>
+            <span class="ops-card__eyebrow">Opens at Launch</span>
+            <span class="ops-card__name">Walkthroughs &amp; Tips</span>
+            <div class="redact-lines" aria-hidden="true"><div class="redact-line" style="width:88%"></div><div class="redact-line" style="width:62%"></div></div>
+            <span class="ops-card__soon">Mission guides, creator embeds, full credit. Nov 19</span>
+          </div>
+          <div class="ops-card ops-card--sealed reveal">
+            <span class="ops-card__stamp">Sealed</span>
+            <span class="ops-card__eyebrow">In Development</span>
+            <span class="ops-card__name">Interactive Map</span>
+            <div class="redact-lines" aria-hidden="true"><div class="redact-line" style="width:80%"></div><div class="redact-line" style="width:50%"></div></div>
+            <span class="ops-card__soon">Every territory, zone, and activity. Goes live launch day</span>
+          </div>
+          <div class="ops-card ops-card--sealed reveal d1">
+            <span class="ops-card__stamp">Sealed</span>
+            <span class="ops-card__eyebrow">In the Works</span>
+            <span class="ops-card__name">Economy &amp; Business</span>
+            <div class="redact-lines" aria-hidden="true"><div class="redact-line" style="width:70%"></div><div class="redact-line" style="width:44%"></div></div>
+            <span class="ops-card__soon">How the money moves in Leonida. Coming pre-launch</span>
+          </div>
+          <div class="ops-card ops-card--sealed reveal d2">
+            <span class="ops-card__stamp">Sealed</span>
+            <span class="ops-card__eyebrow">Opens Before the Next Reveal</span>
+            <span class="ops-card__name">Community / Discord</span>
+            <div class="redact-lines" aria-hidden="true"><div class="redact-line" style="width:85%"></div><div class="redact-line" style="width:58%"></div></div>
+            <span class="ops-card__soon">For now: <a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer" style="color:var(--kraft);">X</a> / <a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer" style="color:var(--kraft);">TikTok</a></span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ── SITREP ── -->
-    <section class="sitrep" aria-labelledby="sitrep-hd">
+    <!-- ── QUICK LOOKUP + CATEGORIES ── -->
+    <section class="sec" style="padding-top:0" aria-label="Quick lookup and category shortcuts">
+      <div class="wrap">
+        <div class="search-block" style="margin-bottom:20px;">
+          <div class="search-block__label"><span class="pulse-dot" aria-hidden="true"></span>Quick Lookup</div>
+          <div class="search-block__field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="search" id="home-search-input" class="search-block__input" placeholder="Already know what you're looking for? Lucia, Pegassi, Vice City, 7X..." autocomplete="off" aria-label="Search the database">
+            <span class="search-block__kbd"><kbd>Ctrl</kbd>+<kbd>K</kbd> anywhere</span>
+          </div>
+          <div class="search-block__results" id="home-search-results"></div>
+        </div>
+        <div class="cat-chips" role="list" aria-label="Database categories">
+          <a href="/gameplay/activities" class="cat-chip" role="listitem">Activities</a>
+          <a href="/gameplay/animals" class="cat-chip" role="listitem">Animals</a>
+          <a href="/gameplay/brands" class="cat-chip" role="listitem">Brands</a>
+          <a href="/gameplay/characters" class="cat-chip" role="listitem">Characters</a>
+          <a href="/gameplay/gangs-and-factions" class="cat-chip" role="listitem">Factions</a>
+          <a href="/gameplay/locations" class="cat-chip" role="listitem">Locations</a>
+          <a href="/gameplay/vehicles" class="cat-chip" role="listitem">Vehicles</a>
+          <a href="/gameplay/weapons" class="cat-chip" role="listitem">Weapons</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── NEWS + LIVE UPDATES ── -->
+    <section class="sec" style="padding-top:0" aria-labelledby="intel-hd">
+      <div class="wrap">
+        <div class="sec__top">
+          <div>
+            <div class="sec__eyebrow" aria-hidden="true"><span class="eyebrow-dot"></span><span class="sec__eyebrow-text">Latest News</span></div>
+            <h2 class="sec__hd reveal" id="intel-hd">News &amp; <span>Updates</span></h2>
+          </div>
+          <a href="/news" class="sec__viewall reveal d1">All News</a>
+        </div>
+        <div class="news-layout">
+          <div class="intel-grid" id="intel-grid"></div>
+          <div class="rail-widget">
+            <div class="rail-widget__label">Live Updates</div>
+            <ul class="rail-updates" id="rail-updates-list"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SITREP — also the visible source backing the FAQPage schema above ── -->
+    <section class="sec" style="padding-top:0" aria-labelledby="sitrep-hd">
       <div class="wrap">
         <div class="sitrep__card reveal">
           <div class="sitrep__bar">
-            <h2 class="sitrep__label" id="sitrep-hd"><span class="hero__tag-dot" aria-hidden="true"></span>Sitrep — State of the Game</h2>
+            <h2 class="sitrep__label" id="sitrep-hd"><span class="pulse-dot" aria-hidden="true"></span>Sitrep: State of the Game</h2>
             <span class="sitrep__updated">Updated August 6, 2026</span>
           </div>
           <div class="sitrep__grid">
@@ -677,222 +569,8 @@
             <a href="/news/gta-6-extended-look-netflix-exclusive" class="sitrep__cell">
               <span class="sitrep__cell-key">Next Reveal</span>
               <span class="sitrep__cell-val"><b id="reveal-countdown">21</b> days</span>
-              <span class="sitrep__cell-sub">An Extended Look — Aug 27. Netflix first, YouTube six hours later.</span>
+              <span class="sitrep__cell-sub">An Extended Look, Aug 27. Netflix first, YouTube six hours later.</span>
             </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ── CATEGORY GRID ── -->
-    <section class="sec" style="padding-top: 0" aria-labelledby="cats-hd">
-      <div class="wrap">
-        <div class="sec__top" style="margin-bottom: 24px;">
-          <div>
-            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Browse Leonida</span></div>
-            <h2 class="sec__hd reveal" id="cats-hd"><span>Database</span></h2>
-          </div>
-          <a href="/gameplay" class="sec__viewall reveal d1">Browse All</a>
-        </div>
-        <div class="cat-grid">
-          <a href="/gameplay/activities" class="cat-card reveal" style="background-image:url('/assets/images/gameplay-index-gta-6-01.jpg')">
-            <span class="cat-card__name">Activities</span>
-            <span class="cat-card__desc">Street takeovers, races, side work. Pick your move.</span>
-            <span class="cat-card__arrow">→</span>
-          </a>
-          <a href="/gameplay/animals" class="cat-card reveal d1" style="background-image:url('/assets/images/mount-kalaga-national-park-gta-6-location-05.jpg')">
-            <span class="cat-card__name">Animals</span>
-            <span class="cat-card__desc">Florida Panthers, gators, and things that don't care who you are.</span>
-            <span class="cat-card__arrow">→</span>
-          </a>
-          <a href="/gameplay/brands" class="cat-card reveal d2" style="background-image:url('/assets/images/jason-duval-gta-6-character-06.jpg')">
-            <span class="cat-card__name">Brands</span>
-            <span class="cat-card__desc">Everything for sale in Leonida. The stores, the labels, the money.</span>
-            <span class="cat-card__arrow">→</span>
-          </a>
-          <a href="/gameplay/characters" class="cat-card reveal d3" style="background-image:url('/assets/images/vice-city-gta-6-location-04.jpg')">
-            <span class="cat-card__name">Characters</span>
-            <span class="cat-card__desc">Everyone with a name in Leonida. The faces, the moves, the heat.</span>
-            <span class="cat-card__arrow">→</span>
-          </a>
-          <a href="/gameplay/gangs-and-factions" class="cat-card reveal" style="background-image:url('/assets/images/ambrosia-gta-6-location-01.jpg')">
-            <span class="cat-card__name">Factions</span>
-            <span class="cat-card__desc">7X runs Vice City. The cartel moves the product. Everyone's holding turf.</span>
-            <span class="cat-card__arrow">→</span>
-          </a>
-          <a href="/gameplay/locations" class="cat-card reveal d1" style="background-image:url('/assets/images/grassrivers-gta-6-location-02.jpg')">
-            <span class="cat-card__name">Locations</span>
-            <span class="cat-card__desc">Vice City to the Keys. Every district and stretch of road.</span>
-            <span class="cat-card__arrow">→</span>
-          </a>
-          <a href="/gameplay/vehicles" class="cat-card reveal d2" style="background-image:url('/assets/images/grassrivers-gta-6-location-03.jpg')">
-            <span class="cat-card__name">Vehicles</span>
-            <span class="cat-card__desc">What they drive. Every ride tearing through Vice County.</span>
-            <span class="cat-card__arrow">→</span>
-          </a>
-          <a href="/gameplay/weapons" class="cat-card reveal d3" style="background-image:url('/assets/images/jason-duval-gta-6-character-05.jpg')">
-            <span class="cat-card__name">Weapons</span>
-            <span class="cat-card__desc">What's being carried. Every piece spotted in the streets.</span>
-            <span class="cat-card__arrow">→</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ── NEWS ── -->
-    <section class="sec" style="padding-top:0" aria-labelledby="intel-hd">
-      <div class="wrap">
-        <div class="sec__top">
-          <div>
-            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Latest News</span></div>
-            <h2 class="sec__hd reveal" id="intel-hd">News &amp; <span>Updates</span></h2>
-          </div>
-          <a href="/news" class="sec__viewall reveal d1">All News</a>
-        </div>
-        <div class="intel-grid" id="intel-grid">
-        </div>
-      </div>
-    </section>
-
-    <!-- ── BRIEFING ── -->
-    <section class="sec" style="padding-top:0" aria-labelledby="briefing-hd">
-      <div class="wrap">
-        <div class="sec__top">
-          <div>
-            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Featured Dossier</span></div>
-            <h2 class="sec__hd reveal" id="briefing-hd">On File: <span>Dre'Quan Priest</span></h2>
-          </div>
-          <a href="/gameplay/characters" class="sec__viewall reveal d1">All Characters</a>
-        </div>
-        <div class="briefing reveal">
-          <div class="briefing__visual">
-            <div class="briefing__visual-bg" aria-hidden="true"></div>
-            <div class="briefing__visual-letter" aria-hidden="true">D</div>
-            <img src="/assets/images/dre-quan-priest-gta-6-character-02.jpg" alt="Dre'Quan Priest in GTA 6 – music entrepreneur, founder of Only Raw Records." style="position: absolute; width: 100%; height: 100%; object-fit: cover; object-position: right center; z-index: 1; opacity: 0.9;" width="3840" height="2160" loading="lazy">
-            <div class="briefing__visual-overlay" aria-hidden="true" style="z-index: 2;"></div>
-            <div class="briefing__visual-bottom" style="z-index: 3;">
-              <div class="briefing__visual-name">Dre'Quan<br>Priest</div>
-            </div>
-          </div>
-          <div class="briefing__content">
-            <span class="briefing__label">Music Entrepreneur — GTA 6</span>
-            <h3 class="briefing__h">Dre'Quan Priest</h3>
-            <p class="briefing__role">Founder, Only Raw Records</p>
-            <p class="briefing__desc">
-              Started running bookings for Boobie Ike's venues before he had a label of his own. That access gave him what money alone could not buy. Only Raw Records is the result. Independent operation. Real Dimez on the roster. Building the music industry from the inside out.
-            </p>
-            <div class="briefing__grid" role="list">
-              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Status</div><div class="briefing__cell-val">Confirmed</div></div>
-              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Role</div><div class="briefing__cell-val">Music Entrepreneur</div></div>
-              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Venture</div><div class="briefing__cell-val">Only Raw Records</div></div>
-              <div class="briefing__cell" role="listitem"><div class="briefing__cell-key">Partner</div><div class="briefing__cell-val">Boobie Ike</div></div>
-            </div>
-            <a href="/gameplay/characters/dre-quan-priest" class="briefing__cta">Open Full Dossier</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ── LOG ── -->
-    <section class="sec" style="padding-top:0" aria-labelledby="log-hd">
-      <div class="wrap">
-        <div class="sec__top">
-          <div>
-            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Recent Updates</span></div>
-            <h2 class="sec__hd reveal" id="log-hd">Latest <span>Updates</span></h2>
-          </div>
-          <a href="/intel-drops" class="sec__viewall reveal d1">Full Changelog</a>
-        </div>
-        <div class="log reveal">
-          <div class="log__head">
-            <div class="log__head-left"><div class="log__head-dot" aria-hidden="true"></div><span class="log__head-title">June 24, 2026</span></div>
-            <a href="/intel-drops" class="log__head-link">View All Drops</a>
-          </div>
-          <ul class="log__list" role="list">
-            <a href="/gameplay/vehicles/grotti-cheetah" class="log__item" role="listitem">
-              <span class="log__item-date">Jun 24</span>
-              <span class="log__item-badge log__item-badge--blue">New</span>
-              <span class="log__item-text"><strong>Grotti Cheetah</strong> — '95 mid-engine V8. Ferrari F355 profile. Ultimate Edition exclusive.</span>
-              <span class="log__item-cat">Vehicles</span>
-            </a>
-            <a href="/gameplay/vehicles/vapid-stanier" class="log__item" role="listitem">
-              <span class="log__item-date">Jun 24</span>
-              <span class="log__item-badge log__item-badge--blue">New</span>
-              <span class="log__item-text"><strong>Vapid Stanier</strong> — 1955 American sedan. Pre-order bonus. Comes with Shore Court.</span>
-              <span class="log__item-cat">Vehicles</span>
-            </a>
-            <a href="/gameplay/locations/shore-court" class="log__item" role="listitem">
-              <span class="log__item-date">Jun 24</span>
-              <span class="log__item-badge log__item-badge--blue">New</span>
-              <span class="log__item-text"><strong>Shore Court</strong> — coastal Vice City property. Weapon locker installed. Pre-order exclusive.</span>
-              <span class="log__item-cat">Locations</span>
-            </a>
-            <a href="/gameplay/gangs-and-factions/ptt-youngins" class="log__item" role="listitem">
-              <span class="log__item-date">Jun 24</span>
-              <span class="log__item-badge log__item-badge--blue">New</span>
-              <span class="log__item-text"><strong>PTT YOUNGIN$</strong> — Leonida street gang. Confirmed Ultimate Edition raid target.</span>
-              <span class="log__item-cat">Factions</span>
-            </a>
-            <a href="/gameplay/brands/one-eyes-willies" class="log__item" role="listitem">
-              <span class="log__item-date">Jun 24</span>
-              <span class="log__item-badge log__item-badge--blue">New</span>
-              <span class="log__item-text"><strong>One-Eyes Willies</strong> — Ultimate Edition off-road mod shop. Built for when roads run out.</span>
-              <span class="log__item-cat">Brands</span>
-            </a>
-            <a href="/gameplay/brands/rideout-customs" class="log__item" role="listitem">
-              <span class="log__item-date">Jun 24</span>
-              <span class="log__item-badge log__item-badge--blue">New</span>
-              <span class="log__item-text"><strong>Rideout Customs</strong> — Ultimate Edition vehicle mod shop. Take what works and make it do more.</span>
-              <span class="log__item-cat">Brands</span>
-            </a>
-            <a href="/gameplay/brands/saras-unisex-salon" class="log__item" role="listitem">
-              <span class="log__item-date">Jun 24</span>
-              <span class="log__item-badge log__item-badge--blue">New</span>
-              <span class="log__item-text"><strong>Sara's Unisex Salon</strong> — Ultimate Edition hair salon. 50+ styles across Leonida's full aesthetic range.</span>
-              <span class="log__item-cat">Brands</span>
-            </a>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- ── FAQ ── -->
-    <section class="sec" style="padding-top:0" aria-labelledby="faq-hd">
-      <div class="wrap">
-        <div class="sec__top">
-          <div>
-            <div class="sec__eyebrow" aria-hidden="true"><div class="sec__eyebrow-line"></div><span class="sec__eyebrow-text">Straight Answers</span></div>
-            <h2 class="sec__hd reveal" id="faq-hd">Frequently <span>Asked</span></h2>
-          </div>
-          <a href="/faq" class="sec__viewall reveal d1">All Questions</a>
-        </div>
-        <div class="faq-strip reveal">
-          <a href="/faq/when-does-gta-6-release" class="faq-strip__item"><span class="faq-strip__q">When does GTA 6 release?</span><span class="faq-strip__arr">&#8594;</span></a>
-          <a href="/faq/how-much-does-gta-6-cost" class="faq-strip__item"><span class="faq-strip__q">How much does GTA 6 cost?</span><span class="faq-strip__arr">&#8594;</span></a>
-          <a href="/faq/gta-6-pre-order" class="faq-strip__item"><span class="faq-strip__q">Can I pre-order GTA 6?</span><span class="faq-strip__arr">&#8594;</span></a>
-          <a href="/faq/is-gta-6-coming-to-pc" class="faq-strip__item"><span class="faq-strip__q">Is GTA 6 coming to PC?</span><span class="faq-strip__arr">&#8594;</span></a>
-          <a href="/faq/is-the-ultimate-edition-worth-it" class="faq-strip__item"><span class="faq-strip__q">Is the Ultimate Edition worth it?</span><span class="faq-strip__arr">&#8594;</span></a>
-          <a href="/faq/gta-6-map-size" class="faq-strip__item"><span class="faq-strip__q">How big is the GTA 6 map?</span><span class="faq-strip__arr">&#8594;</span></a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ── CTA ── -->
-    <section class="sec sec--tight" aria-labelledby="cta-hd">
-      <div class="wrap">
-        <div class="cta-block reveal" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));">
-          <div class="cta-block__left">
-            <div class="cta-block__left-bg" aria-hidden="true"></div>
-            <span class="cta-block__eyebrow">November 19, 2026</span>
-            <h2 class="cta-block__h" id="cta-hd">The Map<br>Goes Live<br><span>On Launch Day</span></h2>
-            <p class="cta-block__sub">Every confirmed location, faction territory, and activity zone on one map. In development. Goes live the moment the servers open. Nothing stops after launch day.</p>
-            <div class="cta-block__btns">
-              <a href="/gameplay" class="btn-p">Browse Database</a>
-              <a href="/intel-drops" class="btn-g">Intel Drops Log</a>
-            </div>
-          </div>
-          <div class="cta-block__right" style="position: relative; min-height: 300px;">
-            <img src="/assets/images/leonida-keys-gta-6-location-01.jpg" alt="Leonida Keys map view" style="position: absolute; width: 100%; height: 100%; object-fit: cover; object-position: right 65%; inset: 0;">
           </div>
         </div>
       </div>
@@ -910,7 +588,14 @@
         <div><div class="footer__col-head">Database</div><ul class="footer__links"><li><a href="/gameplay/activities">Activities</a></li><li><a href="/gameplay/animals">Animals</a></li><li><a href="/gameplay/brands">Brands</a></li><li><a href="/gameplay/characters">Characters</a></li><li><a href="/gameplay/gangs-and-factions">Factions</a></li><li><a href="/gameplay/locations">Locations</a></li><li><a href="/gameplay/vehicles">Vehicles</a></li><li><a href="/gameplay/weapons">Weapons</a></li></ul></div>
         <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li><li><a href="/map">Map</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div>
         <div><div class="footer__col-head">Legal</div><ul class="footer__links"><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li></ul></div>
-        <div><div class="footer__col-head">Contact</div><ul class="footer__links"><li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li><li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li><li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
+        <div><div class="footer__col-head">Contact</div><ul class="footer__links">
+          <li><span style="color:var(--t3)">info&#64;gtavitips.com</span></li>
+          <li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li>
+          <li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+          <li><a href="https://www.instagram.com/gtavi.tips" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><span style="color:var(--t3)">Discord <span class="tag-stamp tag-stamp--muted" style="font-size:8px;padding:1px 6px;">Soon</span></span></li>
+          <li><span style="color:var(--t3)">Reddit <span class="tag-stamp tag-stamp--muted" style="font-size:8px;padding:1px 6px;">Soon</span></span></li>
+        </ul></div>
       </div>
       <div class="footer__bottom"><p class="footer__legal">&copy; 2026 GTAVITIPS. Not affiliated with Rockstar Games or Take-Two Interactive. GTA 6 and Grand Theft Auto are trademarks of Take-Two Interactive Software.</p></div>
     </div>
@@ -932,10 +617,13 @@
     function _load(){if(_loaded)return;fetch('/search-index.json').then(r=>r.json()).then(d=>{_idx=d;_loaded=true;}).catch(()=>{_idx=[];_loaded=true;});}
     function openSearch(){overlay.classList.add('open');setTimeout(()=>searchInp.focus(),60);_load();}
     function closeSearch(){overlay.classList.remove('open');searchRes.innerHTML='';searchInp.value='';_ai=-1;}
+    function _matches(q){
+      const ql=q.toLowerCase();
+      return _idx.map(e=>{const nl=e.n.toLowerCase();let s=0;if(nl===ql)s=100;else if(nl.startsWith(ql))s=80;else if(nl.includes(ql))s=60;else if(e.d.toLowerCase().includes(ql))s=20;return{e,s};}).filter(x=>x.s>0).sort((a,b)=>b.s-a.s).map(x=>x.e);
+    }
     function _render(q){
       if(!q||q.length<2){searchRes.innerHTML='';return;}
-      const ql=q.toLowerCase();
-      const hits=_idx.map(e=>{const nl=e.n.toLowerCase();let s=0;if(nl===ql)s=100;else if(nl.startsWith(ql))s=80;else if(nl.includes(ql))s=60;else if(e.d.toLowerCase().includes(ql))s=20;return{e,s};}).filter(x=>x.s>0).sort((a,b)=>b.s-a.s).slice(0,8).map(x=>x.e);
+      const hits=_matches(q).slice(0,8);
       if(!hits.length){searchRes.innerHTML='<p class="search-overlay__nores">No results for \''+q.replace(/'/g,'&#39;')+'\'</p>';return;}
       searchRes.innerHTML=hits.map((e,i)=>'<a href="'+e.u+'" class="search-result'+(i===0?' active':'')+'" data-i="'+i+'"><span class="search-result__cat">'+e.c+'</span><span class="search-result__body"><span class="search-result__name">'+e.n+'</span></span></a>').join('');
       _ai=0;
@@ -951,6 +639,27 @@
       else if(e.key==='ArrowUp'){e.preventDefault();if(_ai>0){items[_ai]&&items[_ai].classList.remove('active');_ai--;items[_ai]&&(items[_ai].classList.add('active'),items[_ai].scrollIntoView({block:'nearest'}));}}
       else if(e.key==='Enter'){if(items[_ai])window.location.href=items[_ai].getAttribute('href');else{const q=searchInp.value.trim();if(q)window.open('https://www.google.com/search?q=site:gtavitips.com+'+encodeURIComponent(q),'_blank');}}
     });
+
+    // ── HOMEPAGE QUICK-LOOKUP SEARCH ──
+    const homeInp=document.getElementById('home-search-input'),homeRes=document.getElementById('home-search-results');
+    if(homeInp){
+      _load();
+      homeInp.addEventListener('input',e=>{
+        const q=e.target.value.trim();
+        if(!q||q.length<2){homeRes.innerHTML='';return;}
+        const hits=_matches(q).slice(0,6);
+        if(!hits.length){homeRes.innerHTML='<p class="search-overlay__nores">No results for \''+q.replace(/'/g,'&#39;')+'\'</p>';return;}
+        homeRes.innerHTML=hits.map(e=>'<a href="'+e.u+'" class="search-result"><span class="search-result__cat">'+e.c+'</span><span class="search-result__body"><span class="search-result__name">'+e.n+'</span></span></a>').join('');
+      });
+      homeInp.addEventListener('keydown',e=>{
+        if(e.key==='Enter'){
+          const first=homeRes.querySelector('.search-result');
+          if(first)window.location.href=first.getAttribute('href');
+          else{const q=homeInp.value.trim();if(q)window.open('https://www.google.com/search?q=site:gtavitips.com+'+encodeURIComponent(q),'_blank');}
+        }
+      });
+    }
+
     const ro = new IntersectionObserver(entries => {
       entries.forEach(e => {
         if (e.isIntersecting) { e.target.classList.add('on'); ro.unobserve(e.target); }
@@ -983,38 +692,7 @@
     });
   })();
 
-  // ── INTEL FEED ──
-  (function(){
-    var feed=document.getElementById('intel-feed');
-    var dateEl=document.getElementById('feed-date');
-    if(!feed)return;
-    fetch('/assets/feed.json')
-      .then(function(r){return r.json()})
-      .then(function(data){
-        if(dateEl&&data.date)dateEl.textContent=data.date;
-        var html='';
-        (data.items||[]).forEach(function(item){
-          var label=item.badge==='upg'?'Upg':'New';
-          var cls=item.badge==='upg'?'intel-terminal__badge--upg':'intel-terminal__badge--new';
-          html+='<a href="'+item.url+'" class="intel-terminal__item">'
-               +'<span class="intel-terminal__badge '+cls+'">'+label+'</span>'
-               +'<span class="intel-terminal__text"><strong>'+item.name+'</strong> — '+item.text+'</span>'
-               +'</a>';
-        });
-        feed.innerHTML=html;
-      });
-  })();
-
-  // ── STATS ──
-  (function(){
-    var el=document.getElementById('stat-entries');
-    if(!el)return;
-    fetch('/assets/data/stats.json')
-      .then(function(r){return r.json()})
-      .then(function(data){if(data.entries)el.textContent=data.entries});
-  })();
-
-  // ── COUNTDOWN ──
+  // ── COUNTDOWN (sitrep) ──
   (function(){
     var el=document.getElementById('countdown-days');
     if(!el)return;
@@ -1028,7 +706,7 @@
     }
   })();
 
-  // ── EXTENDED LOOK COUNTDOWN ──
+  // ── EXTENDED LOOK COUNTDOWN (sitrep) ──
   (function(){
     var el=document.getElementById('reveal-countdown');
     if(!el)return;
@@ -1042,74 +720,67 @@
     }
   })();
 
-  // ── HERO COUNTDOWN BAR (live, ticks every second) ──
+  // ── LIVE UPDATES (single fetch, single render target) ──
   (function(){
-    var elD=document.getElementById('cd-days'),elH=document.getElementById('cd-hours'),elM=document.getElementById('cd-mins'),elS=document.getElementById('cd-secs');
-    var bar=document.querySelector('.countdown-bar');
-    if(!elD||!bar)return;
-    var target=Date.UTC(2026,7,27,19,0,0); // Aug 27 2026, 3:00 PM ET / 9:00 PM CEST
-    function pad(n){return n<10?'0'+n:''+n;}
-    function tick(){
-      var diff=target-Date.now();
-      if(diff<=0){
-        var digits=bar.querySelector('.countdown-bar__digits'),label=bar.querySelector('.countdown-bar__label-text');
-        if(digits)digits.innerHTML='<div class="countdown-bar__unit"><span class="countdown-bar__num">LIVE</span></div>';
-        if(label)label.innerHTML='<strong>An Extended Look</strong> is live — watch now';
-        clearInterval(iv);
-        return;
-      }
-      var d=Math.floor(diff/86400000);
-      var h=Math.floor(diff%86400000/3600000);
-      var m=Math.floor(diff%3600000/60000);
-      var s=Math.floor(diff%60000/1000);
-      elD.textContent=d;elH.textContent=pad(h);elM.textContent=pad(m);elS.textContent=pad(s);
-    }
-    tick();
-    var iv=setInterval(tick,1000);
-  })();
-
-  // ── LATEST UPDATES (from feed.json) ──
-  (function(){
-    var list=document.querySelector('.log__list');
-    var title=document.querySelector('.log__head-title');
+    var list=document.getElementById('rail-updates-list');
     if(!list)return;
-    var CATS={'activities':'Activities','animals':'Animals','brands':'Brands','characters':'Characters','gangs-and-factions':'Factions','locations':'Locations','vehicles':'Vehicles','weapons':'Weapons'};
     fetch('/assets/feed.json')
       .then(function(r){return r.json()})
       .then(function(data){
         if(!data.items||!data.items.length)return;
-        if(title&&data.date)title.textContent=data.date;
-        var short='';
-        if(data.date){var p=data.date.replace(',','').split(' ');short=p[0].slice(0,3)+' '+p[1];}
         var html='';
         data.items.forEach(function(item){
-          var seg=item.url.split('/')[2]||'';
-          var cat=CATS[seg]||'';
           var badge=item.badge==='upg'
-            ?'<span class="log__item-badge log__item-badge--green">Upg</span>'
-            :'<span class="log__item-badge log__item-badge--blue">New</span>';
-          html+='<a href="'+item.url+'" class="log__item" role="listitem">'
-            +'<span class="log__item-date">'+short+'</span>'
-            +badge
-            +'<span class="log__item-text"><strong>'+item.name+'</strong> — '+item.text+'</span>'
-            +'<span class="log__item-cat">'+cat+'</span>'
-            +'</a>';
+            ?'<span class="tag-stamp tag-stamp--alt" style="font-size:8px;padding:1px 7px;">Upg</span>'
+            :'<span class="tag-stamp" style="font-size:8px;padding:1px 7px;">New</span>';
+          html+='<li><a href="'+item.url+'">'+badge+'<span class="rail-updates__text"><strong>'+item.name+':</strong> '+item.text+'</span></a></li>';
         });
         list.innerHTML=html;
       });
   })();
+
+  // ── NEWS GRID ──
+  (function() {
+    function intelCardHTML(a, cls) {
+      var catCls = (a.cat === 'surrounding' || a.cat === 'rockstar' || a.cat === 'gtavitips') ? 'intel-card__cat intel-card__cat--kraft' : 'intel-card__cat';
+      var imgTag = a.image ? '<img src="' + a.image + '" alt="' + (a.imageAlt || '') + '" loading="lazy" style="position:absolute;width:100%;height:100%;object-fit:cover;object-position:' + (a.imagePosition || 'center') + ';z-index:1;">' : '';
+      return '<a href="' + a.url + '" class="intel-card ' + cls + '">' +
+        '<div class="intel-card__thumb">' + imgTag +
+        '<div class="intel-card__thumb-inner" aria-hidden="true" style="z-index:0;"><span class="intel-card__thumb-letter">' + a.thumb + '</span></div>' +
+        '<div class="intel-card__thumb-overlay" aria-hidden="true" style="z-index:2;"></div></div>' +
+        '<div class="intel-card__body">' +
+        '<div class="intel-card__meta"><span class="' + catCls + '">' + a.badge + '</span><span class="intel-card__date">' + a.date + '</span></div>' +
+        '<h3 class="intel-card__title">' + a.title + '</h3>' +
+        '<p class="intel-card__excerpt">' + a.deck + '</p>' +
+        '<span class="intel-card__read">Read more</span></div></a>';
+    }
+    fetch('/assets/data/news.json').then(function(r) { return r.json(); }).then(function(data) {
+      var articles = (data.articles || []).filter(function(a) { return !a.featured; });
+      var grid = document.getElementById('intel-grid');
+      if (!grid || articles.length < 3) return;
+      grid.innerHTML =
+        intelCardHTML(articles[0], 'intel-card--hero reveal') +
+        '<div style="display:flex;flex-direction:column;gap:14px">' +
+        intelCardHTML(articles[1], 'intel-card--side reveal d1') +
+        intelCardHTML(articles[2], 'intel-card--side reveal d2') +
+        '</div>';
+      if (typeof ro !== 'undefined') {
+        grid.querySelectorAll('.reveal').forEach(function(el) { ro.observe(el); });
+      }
+    }).catch(function() {});
+  })();
   </script>
 
   <style>
-    .cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999; background: #0d1320; border-top: 1px solid rgba(0,95,144,0.28); padding: 16px 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; transform: translateY(100%); transition: transform .35s ease; }
+    .cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999; background: var(--bg-2); border-top: 1px solid var(--kraft-border); padding: 16px 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; transform: translateY(100%); transition: transform .35s ease; }
     .cookie-banner.visible { transform: translateY(0); }
-    .cookie-banner__text { font-family: 'Poppins', sans-serif; font-size: 13px; color: #7e8fa3; line-height: 1.5; max-width: 680px; }
-    .cookie-banner__text a { color: #005f90; text-decoration: underline; }
+    .cookie-banner__text { font-family: 'Archivo', sans-serif; font-size: 13px; color: var(--t2); line-height: 1.5; max-width: 680px; }
+    .cookie-banner__text a { color: var(--kraft); text-decoration: underline; }
     .cookie-banner__btns { display: flex; gap: 10px; flex-shrink: 0; }
-    .cookie-banner__accept { padding: 9px 22px; background: #005f90; color: #fff; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border: none; border-radius: 8px; cursor: pointer; transition: opacity .18s; }
+    .cookie-banner__accept { padding: 9px 22px; background: var(--kraft); color: var(--paper-ink); font-family: 'Archivo', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border: none; border-radius: 8px; cursor: pointer; transition: opacity .18s; }
     .cookie-banner__accept:hover { opacity: .85; }
-    .cookie-banner__decline { padding: 9px 22px; background: none; color: #445060; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border: 1px solid rgba(255,255,255,.06); border-radius: 8px; cursor: pointer; transition: color .18s, border-color .18s; }
-    .cookie-banner__decline:hover { color: #7e8fa3; border-color: rgba(255,255,255,.12); }
+    .cookie-banner__decline { padding: 9px 22px; background: none; color: var(--t3); font-family: 'Archivo', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; border: 1px solid var(--border); border-radius: 8px; cursor: pointer; transition: color .18s, border-color .18s; }
+    .cookie-banner__decline:hover { color: var(--t2); border-color: var(--kraft-border); }
   </style>
   <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
     <p class="cookie-banner__text">We use Google Analytics to understand how visitors use this site. No advertising. No data sales. <a href="/cookie-policy">Cookie Policy</a> &middot; <a href="/privacy">Privacy Policy</a></p>
@@ -1143,37 +814,6 @@
     document.getElementById('cookie-decline')&&document.getElementById('cookie-decline').addEventListener('click',function(){
       localStorage.setItem(CONSENT_KEY,'declined');banner.classList.remove('visible');
     });
-  })();
-  </script>
-  <script>
-  (function() {
-    function intelCardHTML(a, cls) {
-      var catCls = (a.cat === 'surrounding' || a.cat === 'rockstar' || a.cat === 'gtavitips') ? 'intel-card__cat intel-card__cat--blue' : 'intel-card__cat';
-      var imgTag = a.image ? '<img src="' + a.image + '" alt="' + (a.imageAlt || '') + '" loading="lazy" style="position:absolute;width:100%;height:100%;object-fit:cover;object-position:' + (a.imagePosition || 'center') + ';z-index:1;">' : '';
-      return '<a href="' + a.url + '" class="intel-card ' + cls + '">' +
-        '<div class="intel-card__thumb">' + imgTag +
-        '<div class="intel-card__thumb-inner" aria-hidden="true" style="z-index:0;"><span class="intel-card__thumb-letter">' + a.thumb + '</span></div>' +
-        '<div class="intel-card__thumb-overlay" aria-hidden="true" style="z-index:2;"></div></div>' +
-        '<div class="intel-card__body">' +
-        '<div class="intel-card__meta"><span class="' + catCls + '">' + a.badge + '</span><span class="intel-card__date">' + a.date + '</span></div>' +
-        '<h3 class="intel-card__title">' + a.title + '</h3>' +
-        '<p class="intel-card__excerpt">' + a.deck + '</p>' +
-        '<span class="intel-card__read">Read more</span></div></a>';
-    }
-    fetch('/assets/data/news.json').then(function(r) { return r.json(); }).then(function(data) {
-      var articles = data.articles.filter(function(a) { return !a.featured; });
-      var grid = document.getElementById('intel-grid');
-      if (!grid || articles.length < 3) return;
-      grid.innerHTML =
-        intelCardHTML(articles[0], 'intel-card--hero reveal') +
-        '<div style="display:flex;flex-direction:column;gap:14px">' +
-        intelCardHTML(articles[1], 'intel-card--side reveal d1') +
-        intelCardHTML(articles[2], 'intel-card--side reveal d2') +
-        '</div>';
-      if (typeof ro !== 'undefined') {
-        grid.querySelectorAll('.reveal').forEach(function(el) { ro.observe(el); });
-      }
-    }).catch(function() {});
   })();
   </script>
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"3731d2e3e02646cca904b149723ad932","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>

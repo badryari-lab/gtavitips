@@ -157,7 +157,7 @@ Each entry page follows the same dossier structure:
 - Header with name and category badge — **no status badge** (decided May 2026: presence in the database implies confirmation; removed from all pages)
 - Key metadata grid (Role/Type, Affiliation, First Seen, etc.) — **no Status field** (removed May 2026 together with the badge)
 - Description paragraph — terse, authoritative, present tense
-- Sightings/intel log section is always called **"On Record"** (approved naming, all entry types)
+- **No "On Record" / sightings-intel-log section** (removed Aug 2026 across the whole site — was a per-claim trailer-citation list; Badr's call was to drop it entirely, no replacement, not even folded into body prose)
 - Internal links to related characters, locations, factions
 
 ### Character pages (approved template — May 2026)
@@ -175,9 +175,8 @@ Reference file: `hub/gameplay/activities/weightlifting/index.html`
 - **Photo**: `transform: scale(1.25)` to crop letterbox bars; no gradient overlay; no text label on image
 - **Section order and names** (fixed):
   1. Eyebrow "Activity Overview" / H2 **Dossier** — all body text, how it works, no trailer references
-  2. Eyebrow "Official Rockstar Sources Only" / H2 **On Record** — 3-column intel log (source | label | text)
-  3. Eyebrow "Filed Connections" / H2 **Known Connections** — horizontal cards, always a mix of activity + character + location + vehicle; 56px avatar with photo if the linked page has one; pick non-obvious connections (not Jason or the Karin Sultan RS by default); card descriptions never name "Trailer X" or "Scene X" — trailer references belong in On Record only
-  4. Eyebrow "Frequently Asked" / H2 **Frequently Asked** — native `<details>/<summary>` accordions
+  2. Eyebrow "Filed Connections" / H2 **Known Connections** — horizontal cards, always a mix of activity + character + location + vehicle; 56px avatar with photo if the linked page has one; pick non-obvious connections (not Jason or the Karin Sultan RS by default); card descriptions never name "Trailer X" or "Scene X"
+  3. Eyebrow "Frequently Asked" / H2 **Frequently Asked** — native `<details>/<summary>` accordions
 - **section__h2** always `color: var(--t1)` (white), never blue
 
 Entry slugs follow kebab-case: `/gameplay/characters/lucia-caminos`, `/gameplay/vehicles/karin-sultan-rs`.
