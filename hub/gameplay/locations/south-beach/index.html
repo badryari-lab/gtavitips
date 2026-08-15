@@ -140,13 +140,6 @@
     .operator-notes__item-val strong { color: var(--t1); font-weight: 600; }
 
     /* SIGHTINGS LOG */
-    .sightings { display: flex; flex-direction: column; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
-    .sighting-entry { display: flex; gap: 18px; align-items: flex-start; padding: 18px 22px; border-bottom: 1px solid var(--border); transition: background .18s; }
-    .sighting-entry:last-child { border-bottom: none; }
-    .sighting-entry:hover { background: rgba(255,255,255,.02); }
-    .sighting-entry__source { flex-shrink: 0; margin-top: 1px; font-family: 'Courier Prime', monospace; font-size: 9.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); background: var(--blue-dim); border: 1.2px solid var(--blue-border); border-radius: 6px 2px 6px 2px; padding: 4px 10px; transform: rotate(-1deg); white-space: nowrap; }
-    .sighting-entry__text { font-size: 13px; color: var(--t2); line-height: 1.6; }
-    .sighting-entry__text strong { color: var(--t1); font-weight: 600; }
 
     /* CONNECTED INTEL CARDS */
     .connected-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
@@ -220,7 +213,6 @@
       .nav__links, .nav__db-btn { display: none; }
       .nav__burger { display: flex; }
       .operator-notes__grid { grid-template-columns: 1fr; }
-      .sighting-entry { grid-template-columns: 1fr; gap: 4px; }
       .connected-grid { grid-template-columns: 1fr; }
     .faq-list{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
     .faq-item{border-bottom:1px solid var(--border)}
@@ -400,11 +392,6 @@
         <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Tactical Assessment</span></div>
         <h2 class="section__h2" id="field-hd">On the <span style="color:var(--blue)">Ground</span></h2>
         <div class="section__body"><p>South Beach is a difficult environment. The density is the problem. <strong>Any action taken here is witnessed.</strong> The foot traffic on the promenade at evening is continuous. The cameras on the hotel exteriors cover the street frontage. The <a href="/gameplay/gangs-and-factions/vcpd" style="color:var(--blue)">VCPD</a> patrol density in the tourist corridor is the highest in <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a>.</p><p>The promenade itself is pedestrian priority. Vehicle access is constrained to Ocean Drive and the side streets. Moving at speed through the tourist strip on foot means navigating crowds. Moving at speed in a vehicle means navigating a road that is not designed for speed.</p><p>The window where South Beach becomes operationally manageable is early morning: before the promenade fills, before the tourist hotels have their foot traffic on the street, and before the VCPD shift has fully deployed. That window is short. The strip activates early.</p></div>
-      </section>
-      <section class="section reveal" aria-labelledby="sightings-hd">
-        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Official Rockstar Sources Only</span></div>
-        <h2 class="section__h2" id="sightings-hd">On <span style="color:var(--blue)">Record</span></h2>
-        <div class="sightings" role="list">          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 1</div><div class="sighting-entry__text"><strong>The Art Deco strip anchors an establishing sequence.</strong> Ocean Drive architecture, neon hotel signage, the promenade. The postcard shot.</div></div>          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 2</div><div class="sighting-entry__text"><strong>South Beach at night in a pursuit sequence.</strong> Neon frontage, tourist foot traffic on the promenade, and <a href="/gameplay/gangs-and-factions/vcpd" style="color:var(--blue)">VCPD</a> units in the street, all at once.</div></div>          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 2</div><div class="sighting-entry__text"><strong>Luxury vehicle on Ocean Drive.</strong> The promenade and hotel facade architecture. The <a href="/gameplay/brands/didier-sachs" style="color:var(--blue)">Didier Sachs</a> and <a href="/gameplay/brands/ponsonbys" style="color:var(--blue)">Ponsonbys</a> retail frontage visible in the sequence.</div></div></div>
       </section>
       <section class="section reveal" aria-labelledby="connected-hd">
         <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Cross-Reference</span></div>

@@ -120,13 +120,6 @@
     .section__body strong { color: var(--t1); font-weight: 600; }
 
     /* ON RECORD LOG */
-    .sightings { display: flex; flex-direction: column; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
-    .sighting-entry { display: flex; gap: 18px; align-items: flex-start; padding: 18px 22px; border-bottom: 1px solid var(--border); transition: background .18s; }
-    .sighting-entry:last-child { border-bottom: none; }
-    .sighting-entry:hover { background: rgba(255,255,255,.02); }
-    .sighting-entry__source { flex-shrink: 0; margin-top: 1px; font-family: 'Courier Prime', monospace; font-size: 9.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); background: var(--blue-dim); border: 1.2px solid var(--blue-border); border-radius: 6px 2px 6px 2px; padding: 4px 10px; transform: rotate(-1deg); white-space: nowrap; }
-    .sighting-entry__text { font-size: 13px; color: var(--t2); line-height: 1.6; }
-    .sighting-entry__text strong { color: var(--t1); font-weight: 600; }
 
     /* CROSS-REFERENCE CARDS */
     .connected-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
@@ -232,7 +225,6 @@
     @media (max-width: 768px) {
       .nav__links, .nav__db-btn { display: none; }
       .nav__burger { display: flex; }
-      .sighting-entry { grid-template-columns: 1fr; gap: 4px; }
       .connected-grid { grid-template-columns: 1fr; }
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
     }
@@ -362,20 +354,6 @@
               <p>The American eel is catadromous, meaning it lives in freshwater and migrates to the Sargasso Sea to spawn. It is the reverse of the salmon. Leonida's river systems connect to the Atlantic in multiple places, which means the eel's full life cycle is possible within the game world.</p>
               <p>As a species in the game it is primarily environmental. It is in the water, moving along the bottom or through submerged structure, identifiable as an eel to anyone who looks at the water carefully. <strong>As a bait species it has functional value in fishing mechanics.</strong></p>
               <p>It is not a direct interaction species in the way the bass is. You do not target it with a rod. You catch it incidentally or collect it from shallow margins for use in targeting larger fish.</p>
-            </div>
-          </section>
-          <section class="section reveal" aria-labelledby="record-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Official Rockstar Sources Only</span></div>
-            <h2 class="section__h2" id="record-hd">On <span style="color:var(--blue)">Record</span></h2>
-            <div class="sightings" role="list">
-              <div class="sighting-entry reveal" role="listitem">
-                <div class="sighting-entry__source">Trailer 2</div>
-                <div class="sighting-entry__text"><strong>Visible in a <a href="/gameplay/locations/grassrivers" style="color:var(--blue)">Grassrivers</a> canal sequence.</strong> Moving along the bottom substrate near submerged vegetation.</div>
-              </div>
-              <div class="sighting-entry reveal d1" role="listitem">
-                <div class="sighting-entry__source">Reported</div>
-                <div class="sighting-entry__text"><strong>Present throughout Leonida river and estuary zones.</strong> Expected in any connected freshwater environment.</div>
-              </div>
             </div>
           </section>
           <section class="section reveal" aria-labelledby="species-hd">

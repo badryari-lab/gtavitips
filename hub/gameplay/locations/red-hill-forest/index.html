@@ -140,13 +140,6 @@
     .operator-notes__item-val strong { color: var(--t1); font-weight: 600; }
 
     /* SIGHTINGS LOG */
-    .sightings { display: flex; flex-direction: column; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
-    .sighting-entry { display: flex; gap: 18px; align-items: flex-start; padding: 18px 22px; border-bottom: 1px solid var(--border); transition: background .18s; }
-    .sighting-entry:last-child { border-bottom: none; }
-    .sighting-entry:hover { background: rgba(255,255,255,.02); }
-    .sighting-entry__source { flex-shrink: 0; margin-top: 1px; font-family: 'Courier Prime', monospace; font-size: 9.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); background: var(--blue-dim); border: 1.2px solid var(--blue-border); border-radius: 6px 2px 6px 2px; padding: 4px 10px; transform: rotate(-1deg); white-space: nowrap; }
-    .sighting-entry__text { font-size: 13px; color: var(--t2); line-height: 1.6; }
-    .sighting-entry__text strong { color: var(--t1); font-weight: 600; }
 
     /* CONNECTED INTEL CARDS */
     .connected-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
@@ -220,7 +213,6 @@
       .nav__links, .nav__db-btn { display: none; }
       .nav__burger { display: flex; }
       .operator-notes__grid { grid-template-columns: 1fr; }
-      .sighting-entry { grid-template-columns: 1fr; gap: 4px; }
       .connected-grid { grid-template-columns: 1fr; }
     .faq-list{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
     .faq-item{border-bottom:1px solid var(--border)}
@@ -403,11 +395,6 @@
         <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Tactical Assessment</span></div>
         <h2 class="section__h2" id="field-hd">On the <span style="color:var(--blue)">Ground</span></h2>
         <div class="section__body"><p>The canopy cover is the primary tactical feature of Red Hill Forest. <strong>Aerial units have limited observation capability through dense forest canopy.</strong> Ground units on the perimeter roads cannot enter the interior without transitioning to trail-capable movement.</p><p>The Florida panther presence is a practical consideration in the forest interior. Rare encounters rather than frequent ones, but the animal is territorial and the forest is its territory. Repeat encounters in the same spot are rarer still than the first one.</p><p>Trail access into the forest interior is possible but requires awareness of the panther territory and the limitations that dense vegetation places on movement speed and situational awareness. The forest is not hostile terrain in the military sense. It is simply terrain that rewards caution.</p></div>
-      </section>
-      <section class="section reveal" aria-labelledby="sightings-hd">
-        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Official Rockstar Sources Only</span></div>
-        <h2 class="section__h2" id="sightings-hd">On <span style="color:var(--blue)">Record</span></h2>
-        <div class="sightings" role="list">          <div class="sighting-entry reveal"><div class="sighting-entry__source">Trailer 2</div><div class="sighting-entry__text"><strong>The woodland terrain shows up in a Leonida interior sequence.</strong> Dense tree cover, forest floor, exactly what you'd expect inland.</div></div>          <div class="sighting-entry reveal"><div class="sighting-entry__source">Reported</div><div class="sighting-entry__text"><strong>Red Hill Forest is named directly as the Florida panther's primary habitat.</strong> This is the panther's territory, plain and simple.</div></div></div>
       </section>
       <section class="section reveal" aria-labelledby="connected-hd">
         <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Cross-Reference</span></div>

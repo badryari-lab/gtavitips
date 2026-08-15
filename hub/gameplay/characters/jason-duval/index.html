@@ -185,15 +185,6 @@
     .section__body strong { color: var(--t1); font-weight: 600; }
 
     /* INTEL LOG: stamped tickets, not a data table */
-    .intel-log { display: flex; flex-direction: column; gap: 0; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
-    .intel-entry { display: flex; gap: 18px; align-items: flex-start; padding: 18px 22px; border-bottom: 1px solid var(--border); transition: background .18s; }
-    .intel-entry:last-child { border-bottom: none; }
-    .intel-entry:hover { background: rgba(255,255,255,.02); }
-    .intel-entry__tag { flex-shrink: 0; margin-top: 1px; font-family: 'Courier Prime', monospace; font-size: 9.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); background: var(--blue-dim); border: 1.2px solid var(--blue-border); border-radius: 6px 2px 6px 2px; padding: 4px 10px; transform: rotate(-1deg); white-space: nowrap; }
-    .intel-entry__body { flex: 1; min-width: 0; }
-    .intel-entry__label { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t3); margin-bottom: 4px; }
-    .intel-entry__text { font-size: 13px; color: var(--t2); line-height: 1.6; }
-    .intel-entry__text strong { color: var(--t1); font-weight: 600; }
 
     /* CONNECTION CARDS */
     .connections { display: flex; flex-direction: column; gap: 8px; }
@@ -256,8 +247,6 @@
     @media (max-width: 768px) {
       .nav__links, .nav__db-btn { display: none; }
       .nav__burger { display: flex; }
-      .intel-entry { grid-template-columns: 1fr; gap: 4px; }
-      .intel-entry__time { font-size: 10px; }
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
     }
 
@@ -434,72 +423,6 @@
           </section>
 
           <!-- VERIFIED INTELLIGENCE LOG -->
-          <section class="section reveal" aria-labelledby="intel-hd">
-            <div class="section__eyebrow" aria-hidden="true">
-              <div class="section__eyebrow-line"></div>
-              <span class="section__eyebrow-text">Official Rockstar Sources Only</span>
-            </div>
-            <h2 class="section__h2" id="intel-hd">On <span style="color:var(--blue)">Record</span></h2>
-            <div class="intel-log" role="list">
-
-              <div class="intel-entry reveal" role="listitem">
-                <div class="intel-entry__tag">Trailer 1</div>
-                <div class="intel-entry__body">
-                  <div class="intel-entry__label">Operational</div>
-                  <div class="intel-entry__text"><strong>Commercial robbery in progress.</strong> Exiting a convenience store with <a href="/gameplay/characters/lucia-caminos" style="color:var(--blue)">Lucia</a>. Masked. Armed with a handgun. First confirmed sighting.</div>
-                </div>
-              </div>
-
-              <div class="intel-entry reveal d1" role="listitem">
-                <div class="intel-entry__tag">Trailer 1</div>
-                <div class="intel-entry__body">
-                  <div class="intel-entry__label">Interpersonal</div>
-                  <div class="intel-entry__text"><strong>Private residence. Trust dynamic on record.</strong> Scene with <a href="/gameplay/characters/lucia-caminos" style="color:var(--blue)">Lucia</a> establishes the core of their partnership. The word "trust" is used deliberately. The opening sequence chose that framing.</div>
-                </div>
-              </div>
-
-              <div class="intel-entry reveal d2" role="listitem">
-                <div class="intel-entry__tag">Trailer 1</div>
-                <div class="intel-entry__body">
-                  <div class="intel-entry__label">Pursuit</div>
-                  <div class="intel-entry__text"><strong>High-speed evasion through <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a>.</strong> Passenger and active combatant during a vehicle pursuit. <a href="/gameplay/gangs-and-factions/vcpd" style="color:var(--blue)">VCPD</a> units visible in the sequence.</div>
-                </div>
-              </div>
-
-              <div class="intel-entry reveal" role="listitem">
-                <div class="intel-entry__tag">Trailer 2</div>
-                <div class="intel-entry__body">
-                  <div class="intel-entry__label">Present</div>
-                  <div class="intel-entry__text"><strong>Roof repairs at his Keys property when <a href="/gameplay/characters/brian-heder" style="color:var(--blue)">Brian Heder</a> arrives at the gate.</strong> His answer to the question: <em>"I'm just up here fixing some leaks."</em> Marauders B Company tattoo visible on his right arm. Phoenix tattoo on his chest.</div>
-                </div>
-              </div>
-
-              <div class="intel-entry reveal" role="listitem">
-                <div class="intel-entry__tag">Trailer 2</div>
-                <div class="intel-entry__body">
-                  <div class="intel-entry__label">Operational</div>
-                  <div class="intel-entry__text"><strong>Shakedown on a crystal and new-age shop on behalf of <a href="/gameplay/characters/brian-heder" style="color:var(--blue)">Brian Heder</a>.</strong> Empties the till. Watch reads 11:08 AM. He left the Keys property at approximately 10:11 AM. First-person driving perspective visible on the route there.</div>
-                </div>
-              </div>
-
-              <div class="intel-entry reveal" role="listitem">
-                <div class="intel-entry__tag">Trailer 2</div>
-                <div class="intel-entry__body">
-                  <div class="intel-entry__label">Covert</div>
-                  <div class="intel-entry__text"><strong>Present at <a href="/gameplay/characters/brian-heder" style="color:var(--blue)">Brian's Boat Works and Marina</a> during a nighttime seaplane loading operation.</strong> <a href="/gameplay/characters/cal-hampton" style="color:var(--blue)">Cal Hampton</a> and <a href="/gameplay/characters/brian-heder" style="color:var(--blue)">Brian Heder</a> on site. A fourth individual deplanes. Boots only visible, identity unknown.</div>
-                </div>
-              </div>
-
-              <div class="intel-entry reveal" role="listitem">
-                <div class="intel-entry__tag">Trailer 2</div>
-                <div class="intel-entry__body">
-                  <div class="intel-entry__label">Heist</div>
-                  <div class="intel-entry__text"><strong>Sinfronta National Bank breach alongside <a href="/gameplay/characters/lucia-caminos" style="color:var(--blue)">Lucia Caminos</a>.</strong> Tackles a security guard. Military training visible in the engagement. They walk out carrying bags of money in daylight.</div>
-                </div>
-              </div>
-
-            </div>
-          </section>
 
           <!-- KNOWN CONNECTIONS -->
           <section class="section reveal" aria-labelledby="connections-hd">

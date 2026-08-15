@@ -120,13 +120,6 @@
     .section__body strong { color: var(--t1); font-weight: 600; }
 
     /* ON RECORD LOG */
-    .sightings { display: flex; flex-direction: column; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
-    .sighting-entry { display: flex; gap: 18px; align-items: flex-start; padding: 18px 22px; border-bottom: 1px solid var(--border); transition: background .18s; }
-    .sighting-entry:last-child { border-bottom: none; }
-    .sighting-entry:hover { background: rgba(255,255,255,.02); }
-    .sighting-entry__source { flex-shrink: 0; margin-top: 1px; font-family: 'Courier Prime', monospace; font-size: 9.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); background: var(--blue-dim); border: 1.2px solid var(--blue-border); border-radius: 6px 2px 6px 2px; padding: 4px 10px; transform: rotate(-1deg); white-space: nowrap; }
-    .sighting-entry__text { font-size: 13px; color: var(--t2); line-height: 1.6; }
-    .sighting-entry__text strong { color: var(--t1); font-weight: 600; }
 
     /* CROSS-REFERENCE CARDS */
     .connected-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
@@ -232,7 +225,6 @@
     @media (max-width: 768px) {
       .nav__links, .nav__db-btn { display: none; }
       .nav__burger { display: flex; }
-      .sighting-entry { grid-template-columns: 1fr; gap: 4px; }
       .connected-grid { grid-template-columns: 1fr; }
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
     }
@@ -361,20 +353,6 @@
               <p>Florida has more venomous snake species than most continental states. Leonida reflects this. The eastern diamondback rattlesnake, the cottonmouth, and the eastern coral snake are all native to the Florida analogue environment the game depicts.</p>
               <p>The rattlesnake gives a warning. The cottonmouth is the one people call the water moccasin; it is aggressive, it does not back down the way most snakes do, and it lives near water, which in Leonida means it is everywhere near the <a href="/gameplay/locations/grassrivers" style="color:var(--blue)">Grassrivers</a> margins.</p>
               <p><strong>The coral snake is the reverse of the other two: small, brightly coloured, slow to bite, but carrying venom that acts on the nervous system rather than the tissue.</strong> The player who dismisses it as a colourful small snake makes an expensive error.</p>
-            </div>
-          </section>
-          <section class="section reveal" aria-labelledby="record-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Official Rockstar Sources Only</span></div>
-            <h2 class="section__h2" id="record-hd">On <span style="color:var(--blue)">Record</span></h2>
-            <div class="sightings" role="list">
-              <div class="sighting-entry reveal" role="listitem">
-                <div class="sighting-entry__source">Trailer 1</div>
-                <div class="sighting-entry__text"><strong>Visible in a ground-level <a href="/gameplay/locations/grassrivers" style="color:var(--blue)">Grassrivers</a> sequence.</strong> Cottonmouth on a log at a water margin. Threat posture visible.</div>
-              </div>
-              <div class="sighting-entry reveal d1" role="listitem">
-                <div class="sighting-entry__source">Trailer 2</div>
-                <div class="sighting-entry__text"><strong>Strike sequence in a Red Hill Forest area.</strong> Diamondback in long grass adjacent to a trail. No prior visual warning.</div>
-              </div>
             </div>
           </section>
           <section class="section reveal" aria-labelledby="species-hd">

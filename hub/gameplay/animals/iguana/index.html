@@ -128,13 +128,6 @@
     .section__body strong { color: var(--t1); font-weight: 600; }
 
     /* ON RECORD LOG */
-    .sightings { display: flex; flex-direction: column; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
-    .sighting-entry { display: flex; gap: 18px; align-items: flex-start; padding: 18px 22px; border-bottom: 1px solid var(--border); transition: background .18s; }
-    .sighting-entry:last-child { border-bottom: none; }
-    .sighting-entry:hover { background: rgba(255,255,255,.02); }
-    .sighting-entry__source { flex-shrink: 0; margin-top: 1px; font-family: 'Courier Prime', monospace; font-size: 9.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); background: var(--blue-dim); border: 1.2px solid var(--blue-border); border-radius: 6px 2px 6px 2px; padding: 4px 10px; transform: rotate(-1deg); white-space: nowrap; }
-    .sighting-entry__text { font-size: 13px; color: var(--t2); line-height: 1.6; }
-    .sighting-entry__text strong { color: var(--t1); font-weight: 600; }
 
     /* CROSS-REFERENCE CARDS */
     .connected-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
@@ -241,7 +234,6 @@
     @media (max-width: 768px) {
       .nav__links, .nav__db-btn { display: none; }
       .nav__burger { display: flex; }
-      .sighting-entry { grid-template-columns: 1fr; gap: 4px; }
       .connected-grid { grid-template-columns: 1fr; }
       .footer__inner { grid-template-columns: 1fr; gap: 28px; }
     }
@@ -375,20 +367,6 @@
               <p>Green iguanas are not native to Florida. Like the Burmese python, they are the product of the exotic pet trade and a subtropical climate that allows escaped individuals to survive and breed. There are now millions of them in south Florida.</p>
               <p>In Leonida they are on the fences, the canal banks, the walls of <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a>'s residential districts. <strong>They look prehistoric against the background of pastel stucco housing.</strong> That contrast is exactly what makes them a detail worth including.</p>
               <p>They fall from trees in cold snaps. In real Florida this has become a local news staple: temperatures drop below ten degrees, iguanas enter a cold-induced torpor and fall from whatever tree they were in. Residents are advised not to pick them up as they revive quickly. <strong>Leonida presumably has the same problem.</strong></p>
-            </div>
-          </section>
-          <section class="section reveal" aria-labelledby="record-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Official Rockstar Sources Only</span></div>
-            <h2 class="section__h2" id="record-hd">On <span style="color:var(--blue)">Record</span></h2>
-            <div class="sightings" role="list">
-              <div class="sighting-entry reveal" role="listitem">
-                <div class="sighting-entry__source">Trailer 1</div>
-                <div class="sighting-entry__text"><strong>Visible on a canal bank in <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a>.</strong> Individual on a concrete wall in a residential sequence. Ambient suburban wildlife.</div>
-              </div>
-              <div class="sighting-entry reveal d1" role="listitem">
-                <div class="sighting-entry__source">Trailer 2</div>
-                <div class="sighting-entry__text"><strong>Present in a Vice City garden sequence.</strong> Foraging in a suburban garden. Flees when the protagonist approaches close.</div>
-              </div>
             </div>
           </section>
           <section class="section reveal" aria-labelledby="species-hd">
