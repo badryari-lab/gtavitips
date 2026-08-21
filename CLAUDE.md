@@ -27,7 +27,7 @@ Badr is not a professional developer but is a capable and quality-focused amateu
 - **Cloudflare Workers + Wrangler** — the `hub/` directory is the static asset root
 - **Deployment** — git push triggers automatic deploy via Cloudflare
 - **Analytics** — Google Analytics 4 (ID: `G-J8Q9S7G7K6`) loaded conditionally after cookie consent; Cloudflare Insights beacon on every page
-- **Fonts** — Poppins (400, 600, 700, 900) via Google Fonts
+- **Fonts** — Anton (display headings), Archivo (body/UI, 400/600/700), Courier Prime (monospace labels) via Google Fonts — see Design System below
 - **No external JS libraries** — everything is vanilla JS
 
 ## Site structure
@@ -62,36 +62,57 @@ Each article/entry lives in its own folder with an `index.html` (clean URLs, no 
 
 All CSS is written inline per page inside a `<style>` block — no shared stylesheet. When adding or editing pages, replicate the existing CSS pattern exactly. Never introduce external CSS files unless explicitly agreed.
 
+**Visual identity: Tropical Deco.** The site went through a full redesign (Aug 2026, merged to main in commit `0f9d4dfd`, confirmed live). Every page site-wide — index/hub pages, all 8 database categories, FAQ, news — uses the palette and fonts below. These values replace anything from before Aug 2026; if you find a page still using the old palette or Poppins, it wasn't migrated, flag it rather than porting the old style forward.
+
 ### CSS variables (always use these, never hardcode colors)
 
+Base (`:root`, also the dark-mode values):
 ```css
---blue:        #005f90;
---blue-dim:    rgba(0,95,144,0.12);
---blue-border: rgba(0,95,144,0.28);
---pink:        #ff0055;
---pink-dim:    rgba(255,0,85,0.10);
---green:       #28a745;
---green-dim:   rgba(40,167,69,0.12);
---amber:       #ffc107;
---amber-dim:   rgba(255,193,7,0.12);
---bg:          #080c12;   /* darkest background */
---bg-2:        #0d1320;
---bg-3:        #131c2e;
---bg-4:        #192236;
---border:      rgba(255,255,255,0.06);
---border-b:    rgba(0,95,144,0.22);
---t1:          #eef2f7;   /* primary text */
---t2:          #7e8fa3;   /* secondary text */
---t3:          #445060;   /* muted text */
---r:           12px;      /* border radius */
---nav-h:       62px;
+--blue:         #e0785f;   /* coral */
+--blue-dim:     rgba(224,120,95,0.14);
+--blue-border:  rgba(224,120,95,0.30);
+--pink:         #4a9e93;   /* teal */
+--pink-dim:     rgba(74,158,147,0.10);
+--paper:        #ece4d3;
+--paper-ink:    #2a2420;
+--green:        #3ea35f;
+--green-dim:    rgba(62,163,95,0.12);
+--green-border: rgba(62,163,95,0.30);
+--amber:        #d19a3d;
+--amber-dim:    rgba(209,154,61,0.12);
+--amber-border: rgba(209,154,61,0.30);
+--red:          #c0503f;
+--red-dim:      rgba(192,80,63,0.12);
+--red-border:   rgba(192,80,63,0.30);
+--bg:           #0b0a08;
+--bg-2:         #131110;
+--bg-3:         #1c1815;
+--bg-4:         #262019;
+--border:       rgba(255,255,255,0.055);
+--border-b:     rgba(224,120,95,0.22);
+--t1:           #f2ede4;   /* primary text */
+--t2:           #a89a86;   /* secondary text */
+--t3:           #6b5f4f;   /* muted text */
+--r:            12px;
+--nav-h:        62px;
 ```
 
-Light theme overrides exist via `[data-theme="light"]` — always support both.
+`[data-theme="light"]` overrides to warm paper tones (`--bg:#ece4d3`, `--blue:#a8442c` rust, `--pink:#2c6b61` deep teal, etc.); `[data-theme="dark"]` re-asserts the base values so the toggle wins over `prefers-color-scheme` in both directions. Copy the exact override blocks from a live page (e.g. `hub/news/gta-6-playstation-ps5-partnership/index.html`) rather than retyping them by hand.
+
+### Fonts
+
+Three-font system, loaded from Google Fonts:
+- **Anton** — display headings (H1/H2 everywhere), always uppercase, `font-weight: 400` (the typeface is inherently heavy)
+- **Archivo** — body text and UI (nav, buttons, form fields), weights 400/600/700
+- **Courier Prime** — monospace, used for every small structural label: eyebrows, badges, stat-block keys, dates, breadcrumbs — always uppercase with wide letter-spacing (`.09em`–`.14em`)
+
+Poppins is gone site-wide.
 
 ### Aesthetic
 
-The visual design is intel/military — uppercase headings, tight letter-spacing, scan lines, pulse dots, dossier-style layouts. But the **tone of voice** is different: it's GTA with a bit of internet language. Write like you're *inside* the world of Leonida reporting on what's happening on the ground — not like a journalist covering a video game. 7X doesn't "appear in GTA 6" — they run Vice City and everyone knows it. Lucia isn't "a confirmed protagonist" — she's out and she's moving.
+Visually the site reads as **Tropical Deco** — a street-artifact identity: warm paper/kraft tones in light mode, warm dark charcoal in dark mode, a coral + teal accent duo, rotated stamp-shaped tags and badges (asymmetric corner radius, e.g. `border-radius: 8px 2px 8px 2px`, `transform: rotate(-1.2deg)`) instead of pill+dot chips. The site's mark is a small rotated ticket/flag shape ("VI") used as the nav logo badge and footer brand badge.
+
+The **tone of voice** is a separate layer from the visual skin and hasn't changed: it's GTA with a bit of internet language. Write like you're *inside* the world of Leonida reporting on what's happening on the ground — not like a journalist covering a video game. 7X doesn't "appear in GTA 6" — they run Vice City and everyone knows it. Lucia isn't "a confirmed protagonist" — she's out and she's moving.
 
 Keep it street-level, in-world, self-assured. A touch of internet language and GTA attitude keeps it from feeling too stiff. Never hype-driven, never clickbait, never "OMG confirmed!!!" — but also never dry or academic. The tagline says it all: "You picked the wrong house, fool."
 
@@ -99,23 +120,24 @@ Keep it street-level, in-world, self-assured. A touch of internet language and G
 
 ### Typography conventions
 
-- Headings: `font-weight: 900`, `text-transform: uppercase`, `letter-spacing: -.02em`
-- Navigation: `font-weight: 600/700`, `text-transform: uppercase`, `letter-spacing: .07em`
-- Body: `font-size: 14–16px`, `color: var(--t2)`, `line-height: 1.65–1.75`
-- Eyebrow labels: `font-size: 10px`, `font-weight: 800`, `letter-spacing: .14em`
-- Badges/tags: `font-size: 9–10px`, `font-weight: 800`, `border-radius: 99px`
+- Headings (H1/H2): `font-family: 'Anton'`, `font-weight: 400`, `text-transform: uppercase`, `letter-spacing: 0`
+- Eyebrow / badge / stat-key labels: `font-family: 'Courier Prime'`, `font-size: 9–11px`, `font-weight: 700`, `text-transform: uppercase`, `letter-spacing: .09em–.14em`
+- Navigation: `font-family: 'Archivo'`, `font-weight: 600/700`, `text-transform: uppercase`, `letter-spacing: .07em`
+- Body: `font-family: 'Archivo'`, `font-size: 14–16px`, `color: var(--t2)`, `line-height: 1.6–1.85`
+- Tags/badges: rotated stamp shape (see Aesthetic above), not `border-radius: 99px` pills
 - **Section H2s (`section__h2`, `article-section__h2`) are always `color: var(--t1)` (white), never blue — applies to every page type.** Recurring problem, check it on every page you touch.
 
-### Image overlays — two contexts, two rules
+### Image overlays — three contexts now
 
-- **Cards with a background image** (homepage, category cards, news cards): directional gradient overlay — blue tint at top (`rgba(0,95,144,.28–.42)`), transparent middle, dark at bottom (`rgba(8,12,18,.88–.97)`) with text pinned to the bottom. Never a flat dark wash (kills the brand feel).
-  Example: `linear-gradient(to bottom, rgba(0,95,144,.28) 0%, rgba(8,12,18,0) 38%, rgba(8,12,18,.88) 65%, rgba(8,12,18,.97) 100%)`
-- **Photos on entry pages** (dossier photo): **no overlay at all**, no text label on the photo; `transform: scale(1.25)` to crop letterbox bars, container `overflow: hidden`.
+- **Cards with a background image** (homepage, category cards, news cards): directional gradient overlay, coral tint at top fading to transparent, dark at bottom, text pinned to the bottom. Never a flat dark wash.
+  Example: `linear-gradient(to bottom, rgba(224,120,95,.10) 0%, rgba(19,17,16,0) 32%, rgba(19,17,16,.80) 60%, rgba(19,17,16,.95) 100%)`
+- **Entry-page photo hero** (`.char-hero`, `.location-hero`, etc. — the full-bleed image at the top of a database entry page): carries a bottom-anchored scrim so the H1/eyebrow/subtitle stay legible over the photo. Example: `linear-gradient(to top, var(--bg) 0%, rgba(11,10,8,.55) 55%, rgba(11,10,8,0) 100%)`. This replaces the old "no overlay on entry photos" rule.
+- **Secondary/gallery photos** further down an entry page (additional shots beyond the hero): no overlay, no text label, plain framed images.
 
 ### Shared components (replicate exactly)
 
 Every page includes:
-1. **Nav** — fixed, with logo badge "VI", links, search button, theme toggle, "Browse Database" CTA, hamburger for mobile
+1. **Nav** — fixed, with logo badge "VI" (rotated ticket/flag clip-path shape), links, search button, theme toggle, "Browse Database" CTA, hamburger for mobile
 2. **Search overlay** — fullscreen, redirects to `google.com/search?q=site:gtavitips.com+{query}`
 3. **Footer** — 5-column grid: brand description, Database links, Site links, Legal links, Contact
 4. **Cookie banner** — GA4 loads only on accept, stores consent in `localStorage` as `gtavitips-cookie-consent`
@@ -153,15 +175,27 @@ Never present unverified leaks as facts. Never omit a source label on a claim.
 
 ## Database entry conventions
 
-Each entry page follows the same dossier structure:
-- Header with name and category badge — **no status badge** (decided May 2026: presence in the database implies confirmation; removed from all pages)
-- Key metadata grid (Role/Type, Affiliation, First Seen, etc.) — **no Status field** (removed May 2026 together with the badge)
+**Header structure updated Aug 2026** (part of the Tropical Deco redesign): each entry page now opens with a **full-bleed photo hero** (`.char-hero` for characters, equivalent classes per category) instead of the old boxed dossier header:
+- Back-link to the category index
+- Plain-text eyebrow ("Character File", "Location File", etc.) — no rotated stamp/badge in the hero itself
+- H1 with the second part in `<span style="color:var(--blue)">`, sitting over the photo
+- One-line subtitle paragraph
+- The photo carries a bottom-anchored scrim gradient (see Image overlays above) for legibility. If a subject has no photo at all, the hero falls back to a plain gradient background with a faint line-icon graphic — never fabricated or stock imagery.
+
+Below the hero:
+- Stat-block (Role/Type, Affiliation, First Seen, etc.) — **no Status field** (removed May 2026, still true)
+- Secondary/gallery photos where more than one image exists — plain, no overlay, no label
 - Description paragraph — terse, authoritative, present tense
 - **No "On Record" / sightings-intel-log section** (removed Aug 2026 across the whole site — was a per-claim trailer-citation list; Badr's call was to drop it entirely, no replacement, not even folded into body prose)
-- Internal links to related characters, locations, factions
+- "Known Connections" — horizontal cards, internal links to related characters, locations, factions
 
-### Character pages (approved template — May 2026)
+No status badge anywhere on the page (decided May 2026: presence in the database implies confirmation).
 
+Category-specific details below (stat-block fields, section order) were written pre-redesign and describe content structure that's still accurate; only the header/hero markup changed. When in doubt, read one live page of the same type before building — that's standing practice for this site, not specific to this section.
+
+### Character pages (approved template — May 2026, hero updated Aug 2026)
+
+- Hero eyebrow: "Character File"
 - **No** dossier badge, **no** Status stat-block field — skip both from the start
 - **H1**: two-part names get the last name in `<span style="color:var(--blue)">` (Lucia <span>Caminos</span>); single-word names (Roxy, Rudi, Wyman, Stefanie, DWNPLY) stay fully white, no color split
 

@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "url": "/news/gta-6-cyberleek-leak-gameplay-map",
+      "title": "The CyberLeek Leaks: What's Actually in the Footage",
+      "date": "August 21, 2026",
+      "badge": "Rumour",
+      "badgeClass": "badge--rumour",
+      "cat": "rumour",
+      "deck": "CyberLeek posted GTA 6 gameplay clips and a map screenshot a week before the Netflix reveal. Rockstar is DMCA-striking every repost, unofficial confirmation that it's real.",
+      "image": "/assets/images/jason-duval-gta-6-character-05.jpg",
+      "imageAlt": "Jason Duval in official GTA 6 artwork",
+      "thumb": "LEK",
+      "featured": false
+    },
+    {
       "url": "/news/gta-6-extended-look-netflix-exclusive",
       "title": "An Extended Look: GTA VI's Next Reveal Goes to Netflix First",
       "date": "August 6, 2026",

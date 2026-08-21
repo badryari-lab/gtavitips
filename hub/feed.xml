@@ -6,7 +6,14 @@
     <atom:link href="https://gtavitips.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>GTA 6 news and intel from official Rockstar sources. Characters, vehicles, locations, and everything moving in Leonida.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>The CyberLeek Leaks: What's Actually in the Footage</title>
+      <link>https://gtavitips.com/news/gta-6-cyberleek-leak-gameplay-map</link>
+      <guid isPermaLink="true">https://gtavitips.com/news/gta-6-cyberleek-leak-gameplay-map</guid>
+      <pubDate>Fri, 21 Aug 2026 12:00:00 +0000</pubDate>
+      <description>CyberLeek posted GTA 6 gameplay clips and a map screenshot a week before the Netflix reveal. Rockstar is DMCA-striking every repost, unofficial confirmation that it's real.</description>
+    </item>
     <item>
       <title>An Extended Look: GTA VI's Next Reveal Goes to Netflix First</title>
       <link>https://gtavitips.com/news/gta-6-extended-look-netflix-exclusive</link>
@@ -139,13 +146,6 @@
       <guid isPermaLink="true">https://gtavitips.com/news/music-of-leonida</guid>
       <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
       <description>T-Pain is confirmed. The trailers signal the register. The full station lineup comes at launch. Here is everything known now.</description>
-    </item>
-    <item>
-      <title>The Real Vice City: How Miami Became Leonida</title>
-      <link>https://gtavitips.com/news/real-vice-city-miami-leonida</link>
-      <guid isPermaLink="true">https://gtavitips.com/news/real-vice-city-miami-leonida</guid>
-      <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-      <description>Ocean Drive to South Beach. Port Everglades to Port Gellhorn. The Florida Keys to Leonida Keys. The full geographic translation.</description>
     </item>
   </channel>
 </rss>
