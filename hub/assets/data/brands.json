@@ -6,7 +6,9 @@
       "title": "Food &amp; Drinks",
       "items": [
         { "url": "/gameplay/brands/archez",                "label": "Restaurant", "color": "#6ee7b7", "name": "Archez",         "desc": "Leonida dining. The sign shows up across the state." },
+        { "url": "/gameplay/brands/brownsteins-root-beer", "label": "Soda",       "color": "#2dd4bf", "name": "Brownstein's Root Beer", "desc": "Old-label soda. Cross-promoted with Prairie Sandwich on late-night TV." },
         { "url": "/gameplay/brands/burgershot",            "label": "Fast Food",  "color": "#ff6b6b", "name": "Burger Shot",    "desc": "The franchise that outlives everything. Vice City has twelve of them." },
+        { "url": "/gameplay/brands/chachos-lasso-fries",   "label": "Fast Food",  "color": "#ff6b6b", "name": "Chacho's Lasso Fries", "desc": "Fried-food chain. Cross-promoted with Prairie Sandwich on late-night TV." },
         { "url": "/gameplay/brands/cherry-popper-ice-cream","label": "Food",      "color": "#4ade80", "name": "Cherry Popper",  "desc": "Ice cream. The brand name has always been this way." },
         { "url": "/gameplay/brands/cluckin-bell",          "label": "Fast Food",  "color": "#ff6b6b", "name": "Cluckin' Bell",  "desc": "Chicken. Aggressively branded. Hard to avoid." },
         { "url": "/gameplay/brands/cool-beans",            "label": "Drinks",     "color": "#34d399", "name": "Cool Beans",     "desc": "Coffee chain. Vice City commuter staple." },
@@ -35,6 +37,7 @@
       "eyebrow": "Clothing & Fashion",
       "title": "Clothing &amp; Fashion",
       "items": [
+        { "url": "/gameplay/brands/a1-fashions",    "label": "Retail",     "color": "#60a5fa", "name": "A1 Fashions",   "desc": "Storefront chain. Ubiquitous in the Vice City strip-mall crawl." },
         { "url": "/gameplay/brands/binco",          "label": "Retail",     "color": "#60a5fa", "name": "Binco",         "desc": "Budget clothing chain. Gets the job done." },
         { "url": "/gameplay/brands/didier-sachs",   "label": "Luxury",     "color": "#e879f9", "name": "Didier Sachs",  "desc": "High-end fashion. Financial District clientele." },
         { "url": "/gameplay/brands/ponsonbys",      "label": "Luxury",     "color": "#e879f9", "name": "Ponsonbys",     "desc": "Premium menswear. For when the job requires looking the part." },
@@ -82,8 +85,10 @@
       "items": [
         { "url": "/gameplay/brands/adios-airlines", "label": "Airline",   "color": "#22d3ee", "name": "Adios Airlines", "desc": "Leonida regional carrier." },
         { "url": "/gameplay/brands/airemu",         "label": "Airline",   "color": "#22d3ee", "name": "AirEmu",         "desc": "Domestic airline. Budget end of the market." },
+        { "url": "/gameplay/brands/azteca-gold",    "label": "Delivery",  "color": "#94a3b8", "name": "Azteca Gold",    "desc": "Delivery vans working the Vice City street grid." },
         { "url": "/gameplay/brands/flyus",          "label": "Airline",   "color": "#22d3ee", "name": "FlyUS",          "desc": "Main domestic carrier." },
         { "url": "/gameplay/brands/go-postal",      "label": "Logistics", "color": "#94a3b8", "name": "GoPostal",       "desc": "Parcel delivery. The vans are everywhere." },
+        { "url": "/gameplay/brands/gruppe-6",       "label": "Armored Transport", "color": "#94a3b8", "name": "Gruppe 6", "desc": "Cash-in-transit carrier. A recurring target the moment its trucks hit the street." },
         { "url": "/gameplay/brands/post-op",        "label": "Logistics", "color": "#94a3b8", "name": "Post OP",        "desc": "Freight and logistics." }
       ]
     },
@@ -100,11 +105,20 @@
       ]
     },
     {
+      "id": "corporate-hd",
+      "eyebrow": "Corporate & Industry",
+      "title": "Corporate &amp; Industry",
+      "items": [
+        { "url": "/gameplay/brands/megamundo", "label": "Conglomerate", "color": "#fbbf24", "name": "MegaMundo", "desc": "Opening its first American headquarters in Vice City. The launch turns into a firefight." }
+      ]
+    },
+    {
       "id": "nightlife-hd",
       "eyebrow": "Nightlife & Leisure",
       "title": "Nightlife &amp; Leisure",
       "items": [
         { "url": "/gameplay/brands/bahama-mamas", "label": "Nightclub", "color": "#e11d48", "name": "Bahama Mamas", "desc": "Vice City nightclub. Full interior, fully operational." },
+        { "url": "/gameplay/brands/casino-rojo",  "label": "Casino",    "color": "#f97316", "name": "Casino Rojo", "desc": "Fixture on the Vice City skyline." },
         { "url": "/gameplay/brands/onlybangs",    "label": "Adult",     "color": "#ef4444", "name": "OnlyBangs",   "desc": "Leonida's adult content platform." },
         { "url": "/gameplay/brands/tequi-la-la",  "label": "Bar",       "color": "#f97316", "name": "Tequi-la-la", "desc": "Vice City bar." }
       ]
@@ -116,7 +130,16 @@
       "items": [
         { "url": "/gameplay/brands/ammu-nation", "label": "Retail",  "color": "#60a5fa", "name": "Ammu-Nation", "desc": "Firearms retail. Legal purchases, no waiting period." },
         { "url": "/gameplay/brands/global-oil",  "label": "Energy",  "color": "#a3e635", "name": "Global Oil",  "desc": "Corporate energy. Refineries across Leonida." },
-        { "url": "/gameplay/brands/ron-oil",     "label": "Energy",  "color": "#a3e635", "name": "Ron Oil",     "desc": "Petrol stations statewide. Every highway exit." }
+        { "url": "/gameplay/brands/ron-oil",     "label": "Energy",  "color": "#a3e635", "name": "Ron Oil",     "desc": "Petrol stations statewide. Every highway exit." },
+        { "url": "/gameplay/brands/zekes-gadgets", "label": "Repairs", "color": "#60a5fa", "name": "Zeke's Gadgets", "desc": "\"We Do Repairs.\" Electronics shop, back room busier than the counter." }
+      ]
+    },
+    {
+      "id": "health-hd",
+      "eyebrow": "Health & Pharma",
+      "title": "Health &amp; Pharma",
+      "items": [
+        { "url": "/gameplay/brands/angstapan", "label": "Pharma", "color": "#c084fc", "name": "Angstapan", "desc": "Antidepressant. Advertised on Leonida TV between the shows nobody admits to watching." }
       ]
     }
   ]

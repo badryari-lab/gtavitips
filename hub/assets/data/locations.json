@@ -35,6 +35,7 @@
       "items": [
         { "url": "/gameplay/locations/brians-boat-workshop",   "label": "Business",   "color": "#60a5fa", "name": "Brian's Boat Workshop",  "desc": "Marine repair. Operational contact point." },
         { "url": "/gameplay/locations/delights-port-gellhorn", "label": "Business",   "color": "#60a5fa", "name": "Delights Port Gellhorn", "desc": "Venue in the Port Gellhorn corridor." },
+        { "url": "/gameplay/locations/effluvia",               "label": "Rooftop Bar","color": "#fb7185", "name": "Effluvia",               "desc": "Rooftop club high above Vice City. Signage that can't spell its own name." },
         { "url": "/gameplay/locations/jack-of-hearts",         "label": "Strip Club", "color": "#f472b6", "name": "Jack of Hearts",         "desc": "Adult entertainment. Vice City." },
         { "url": "/gameplay/locations/malibu-club",            "label": "Nightclub",  "color": "#e11d48", "name": "Malibu Club",            "desc": "Vice City legacy venue. Nightlife and criminal operations." },
         { "url": "/gameplay/locations/military-base",          "label": "Restricted", "color": "#ef4444", "name": "Military Base",          "desc": "Government installation. Entry not advised." },

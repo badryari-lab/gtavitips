@@ -1,12 +1,10 @@
 {
-  "date": "June 24, 2026",
+  "date": "August 28, 2026",
   "items": [
-    { "badge": "new", "url": "/gameplay/vehicles/grotti-cheetah",         "name": "Grotti Cheetah",      "text": "'95 mid-engine V8. Ultimate Edition exclusive." },
-    { "badge": "new", "url": "/gameplay/vehicles/vapid-stanier",          "name": "Vapid Stanier",       "text": "1955 classic. Pre-order bonus with Shore Court garage." },
-    { "badge": "new", "url": "/gameplay/locations/shore-court",           "name": "Shore Court",         "text": "Coastal Vice City property. Weapon locker installed." },
-    { "badge": "new", "url": "/gameplay/gangs-and-factions/ptt-youngins", "name": "PTT YOUNGIN$",        "text": "Leonida street gang. Confirmed Ultimate Edition raid target." },
-    { "badge": "new", "url": "/gameplay/brands/one-eyes-willies",         "name": "One-Eyes Willies",    "text": "Ultimate Edition off-road mod shop." },
-    { "badge": "new", "url": "/gameplay/brands/rideout-customs",          "name": "Rideout Customs",     "text": "Ultimate Edition vehicle customization." },
-    { "badge": "new", "url": "/gameplay/brands/saras-unisex-salon",       "name": "Sara's Unisex Salon", "text": "Ultimate Edition hair salon. 50+ styles." }
+    { "badge": "new", "url": "/gameplay/characters/raymond",       "name": "Raymond",       "text": "Stash house operator. Opens the Extended Look with a deal gone wrong." },
+    { "badge": "new", "url": "/gameplay/characters/petra-navarro", "name": "Petra Navarro", "text": "CEO of MegaMundo. Hires Jason and Lucia, then the party turns into a shootout." },
+    { "badge": "new", "url": "/gameplay/brands/megamundo",         "name": "MegaMundo",     "text": "Vice City headquarters opening. The Extended Look's final act." },
+    { "badge": "new", "url": "/gameplay/brands/gruppe-6",          "name": "Gruppe 6",      "text": "Armored cash transport. Confirmed target the moment the truck hits the street." },
+    { "badge": "new", "url": "/gameplay/locations/effluvia",       "name": "Effluvia",      "text": "Rooftop club above Vice City. Meeting point before the Extended Look's crime montage." }
   ]
 }

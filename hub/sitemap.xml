@@ -485,7 +485,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/characters/jason-duval</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -516,6 +516,36 @@
   <url>
     <loc>https://gtavitips.com/gameplay/characters/raul-bautista</loc>
     <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/characters/raymond</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/characters/ernesto</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/characters/andres-de-leon</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/characters/petra-navarro</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/characters/gustavo</loc>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -598,8 +628,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://gtavitips.com/gameplay/locations/effluvia</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://gtavitips.com/gameplay/locations/leonida-keys</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2012,6 +2048,18 @@
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/brands/gruppe-6</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/brands/megamundo</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/brands/go-postal</loc>

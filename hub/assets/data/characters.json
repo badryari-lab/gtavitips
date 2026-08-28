@@ -20,7 +20,9 @@
       "items": [
         { "url": "/gameplay/characters/boobie-ike",     "label": "Mogul",    "color": "#e879f9", "name": "Boobie Ike",      "desc": "Vice City nightclub and recording studio empire. Street-to-boardroom." },
         { "url": "/gameplay/characters/dre-quan-priest","label": "Manager",  "color": "#fbbf24", "name": "Dre'Quan Priest", "desc": "Only Raw Records. Works directly with Boobie Ike." },
+        { "url": "/gameplay/characters/ernesto",        "label": "Contact",  "color": "#f87171", "name": "Ernesto",         "desc": "Voice on the phone during a stash house deal that goes wrong." },
         { "url": "/gameplay/characters/phil-cassidy",   "label": "Vendor",   "color": "#34d399", "name": "Phil Cassidy",    "desc": "Arms dealer. No questions asked." },
+        { "url": "/gameplay/characters/raymond",        "label": "Operator", "color": "#f87171", "name": "Raymond",         "desc": "Runs the stash house Jason and Lucia hit for Boobie Ike's product." },
         { "url": "/gameplay/characters/wyman",          "label": "Mechanic", "color": "#94a3b8", "name": "Wyman",           "desc": "Vehicle parts and fencing. Operational support from the shop floor." }
       ]
     },
@@ -29,9 +31,12 @@
       "eyebrow": "Nightlife & Public Figures",
       "title": "Public Figures",
       "items": [
+        { "url": "/gameplay/characters/andres-de-leon","label": "Executive", "color": "#fbbf24", "name": "Andres de Leon","desc": "MegaMundo executive. Fronts the Vice City headquarters opening." },
         { "url": "/gameplay/characters/bae-lux",       "label": "Artist",    "color": "#c084fc", "name": "Bae-Lux",       "desc": "Rapper. Real Dimez crew. Vice City nightlife circuit." },
         { "url": "/gameplay/characters/dwnply",        "label": "Artist",    "color": "#c084fc", "name": "DWNPLY",        "desc": "Vice City rapper. Collaborated with Real Dimez on their breakout hit." },
         { "url": "/gameplay/characters/erin-henshaw",  "label": "Politician","color": "#94a3b8", "name": "Erin Henshaw",  "desc": "Local politician. Running for mayor near Ambrosia. Campaign signs visible statewide." },
+        { "url": "/gameplay/characters/gustavo",       "label": "Security",  "color": "#60a5fa", "name": "Gustavo",       "desc": "MegaMundo security. Confiscates Lucia's guns at the door." },
+        { "url": "/gameplay/characters/petra-navarro", "label": "Executive", "color": "#fbbf24", "name": "Petra Navarro", "desc": "CEO of MegaMundo. Hires Jason and Lucia for the headquarters opening." },
         { "url": "/gameplay/characters/roxy",          "label": "Artist",    "color": "#c084fc", "name": "Roxy",          "desc": "Rapper. Real Dimez crew. Vice City nightlife circuit." },
         { "url": "/gameplay/characters/rudi",          "label": "Civilian",  "color": "#94a3b8", "name": "Rudi",          "desc": "The Leonida Man. Viral video. Climbing out of a moving pickup on the Leonida highway." },
         { "url": "/gameplay/characters/stefanie",      "label": "Official",  "color": "#22d3ee", "name": "Stefanie",      "desc": "Correctional social worker. Lucia's parole officer." }
