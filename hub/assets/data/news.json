@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "url": "/news/gta-6-extended-look-breakdown",
+      "title": "An Extended Look: Everything We Saw",
+      "date": "August 27, 2026",
+      "badge": "Confirmed",
+      "badgeClass": "badge--official",
+      "cat": "rockstar",
+      "deck": "Twenty-six minutes on Netflix, then on Rockstar's own channel six hours later. A stash house pickup, a string of robberies, a rooftop deal, a high-speed chase, and a corporate gala that ends in a shootout. This is every scene, shot by shot.",
+      "image": "/assets/images/lucia-caminos-gta-6-character-06.jpg",
+      "imageAlt": "Lucia Caminos in official GTA 6 artwork",
+      "thumb": "EXT",
+      "featured": false
+    },
+    {
       "url": "/news/gta-6-cyberleek-leak-gameplay-map",
       "title": "The CyberLeek Leaks: What's Actually in the Footage",
       "date": "August 21, 2026",

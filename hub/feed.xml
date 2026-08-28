@@ -6,7 +6,14 @@
     <atom:link href="https://gtavitips.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>GTA 6 news and intel from official Rockstar sources. Characters, vehicles, locations, and everything moving in Leonida.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>An Extended Look: Everything We Saw</title>
+      <link>https://gtavitips.com/news/gta-6-extended-look-breakdown</link>
+      <guid isPermaLink="true">https://gtavitips.com/news/gta-6-extended-look-breakdown</guid>
+      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Twenty-six minutes on Netflix, then on Rockstar's own channel six hours later. A stash house pickup, a string of robberies, a rooftop deal, a high-speed chase, and a corporate gala that ends in a shootout. This is every scene, shot by shot.</description>
+    </item>
     <item>
       <title>The CyberLeek Leaks: What's Actually in the Footage</title>
       <link>https://gtavitips.com/news/gta-6-cyberleek-leak-gameplay-map</link>
@@ -139,13 +146,6 @@
       <guid isPermaLink="true">https://gtavitips.com/news/gtavitips-launch-day-plan</guid>
       <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
       <description>The database goes live on launch day. Here is exactly what happens on November 19 and how the site grows from there.</description>
-    </item>
-    <item>
-      <title>The Music of Leonida: Everything Confirmed</title>
-      <link>https://gtavitips.com/news/music-of-leonida</link>
-      <guid isPermaLink="true">https://gtavitips.com/news/music-of-leonida</guid>
-      <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-      <description>T-Pain is confirmed. The trailers signal the register. The full station lineup comes at launch. Here is everything known now.</description>
     </item>
   </channel>
 </rss>
