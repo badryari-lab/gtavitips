@@ -169,7 +169,10 @@ This is the most important editorial rule on the site. Every piece of informatio
 | **Reported** | Single approved source, named explicitly |
 | **Speculation / Unverified** | No approved source — always labeled clearly, never called Confirmed |
 
-**Approved sources:** Official Rockstar trailers, Rockstar Newswire, Take-Two investor communications, official social media posts, Tez2, Matheusvictorbr.
+**Approved sources:**
+- **Confirmed-tier:** Official Rockstar trailers, Rockstar Newswire, Take-Two investor communications, official social media posts — cross-referenced across 2+ of these, or one of these plus an on-screen/in-footage detail we verified ourselves.
+- **Reported-tier:** Tez2, Matheusvictorbr, and established gaming press/outlets (e.g. Kotaku, IGN, GamesRadar+, Push Square, PC Gamer, TheGamer, Vice, Jalopnik, Dexerto, VGC, Comicbook.com, TechRadar — the kind of outlet with an editorial byline and a track record, not a random blog or SEO-farm site). Agreed Aug 2026 after the Extended Look research made clear this was already the de facto practice — the research doc for that piece drew on 16+ such outlets. A single such outlet is enough for Reported; note it by name if the claim is narrow or contested.
+- **Never use:** leaker/breakdown sites under active legal action from Rockstar/Take-Two (e.g. CyberLeek) — not a sourcing-quality issue, a legal-exposure one. Don't cite them even as Speculation.
 
 Never present unverified leaks as facts. Never omit a source label on a claim.
 

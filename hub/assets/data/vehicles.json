@@ -46,6 +46,7 @@
         { "url": "/gameplay/vehicles/imponte-ruiner",            "label": "Muscle",   "color": "#ff6b6b", "name": "Imponte Ruiner",            "desc": "Classic muscle silhouette." },
         { "url": "/gameplay/vehicles/obey-tailgater",            "label": "Sedan",    "color": "#60a5fa", "name": "Obey Tailgater",            "desc": "Corporate Leonida fleet sedan." },
         { "url": "/gameplay/vehicles/schyster-pmp-700",          "label": "Sedan",    "color": "#60a5fa", "name": "Schyster PMP 700",          "desc": "Mid-range sedan." },
+        { "url": "/gameplay/vehicles/ubermacht-sentinel-classic-convertible", "label": "Classic", "color": "#f97316", "name": "Ubermacht Sentinel Classic Convertible", "desc": "German classic, top down. Jason's ride." },
         { "url": "/gameplay/vehicles/vapid-chino",               "label": "Muscle",   "color": "#ff6b6b", "name": "Vapid Chino",               "desc": "Lowrider platform." },
         { "url": "/gameplay/vehicles/vapid-stanier",             "label": "Classic",  "color": "#f97316", "name": "Vapid Stanier",             "desc": "1955 American sedan. Pre-order bonus. Shore Court property and weapon locker included." }
       ]
