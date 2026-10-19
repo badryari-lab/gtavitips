@@ -60,7 +60,15 @@ function buildCategory(category) {
       continue;
     }
     entry.slug = entry.slug || slug;
-    entry.proseHtml = template.renderProse(body);
+    // Most categories have one prose section (renderProse returns a string
+    // -> entry.proseHtml). Locations has two (profile + ground), so its
+    // renderProse returns an object of fields to merge into entry instead.
+    const prose = template.renderProse(body, entry);
+    if (typeof prose === 'string') {
+      entry.proseHtml = prose;
+    } else {
+      Object.assign(entry, prose);
+    }
 
     const html = template.render(entry);
     const outDir = path.join(OUTPUT_ROOT, category, entry.slug);
