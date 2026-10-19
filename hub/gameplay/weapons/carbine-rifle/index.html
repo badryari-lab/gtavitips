@@ -29,7 +29,7 @@
   {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How does the Carbine Rifle stack up against the other rifles?","acceptedAnswer":{"@type":"Answer","text":"It sits between the Standard Assault Rifle and the Heavy Rifle. Better accuracy and range than the standard, better handling than the heavy. The balanced option when you don't need maximum stopping power."}},{"@type":"Question","name":"Where can you get the Carbine Rifle in Leonida?","acceptedAnswer":{"@type":"Answer","text":"Ammu-Nation is the confirmed weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Specific stock, pricing, and unlock conditions aren't confirmed yet."}},{"@type":"Question","name":"Who are the confirmed Carbine Rifle carriers in Leonida?","acceptedAnswer":{"@type":"Answer","text":"Jason and Lucia are confirmed, along with VCPD, Leonida State Police, and the Leonida Cartel. It shows up across the widest range of factions in official footage."}}]}
   </script>
   <style>
-    :root{--blue:#e0785f;--blue-dim:rgba(224,120,95,0.14);--blue-border:rgba(224,120,95,0.30);--pink:#4a9e93;--pink-dim:rgba(74,158,147,0.10);--paper:#ece4d3;--paper-ink:#2a2420;--green:#28a745;--green-dim:rgba(40,167,69,0.12);--amber:#ffc107;--amber-dim:rgba(255,193,7,0.12);--bg:#0b0a08;--bg-2:#131110;--bg-3:#1c1815;--bg-4:#262019;--border:rgba(255,255,255,0.055);--border-b:rgba(224,120,95,0.22);--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--r:12px;--nav-h:62px}
+    :root{--blue:#e0785f;--blue-dim:rgba(224,120,95,0.14);--blue-border:rgba(224,120,95,0.30);--pink:#4a9e93;--pink-dim:rgba(74,158,147,0.10);--paper:#ece4d3;--paper-ink:#2a2420;--green:#3ea35f;--green-dim:rgba(62,163,95,0.12);--green-border:rgba(62,163,95,0.30);--amber:#d19a3d;--amber-dim:rgba(209,154,61,0.12);--amber-border:rgba(209,154,61,0.30);--red:#c0503f;--red-dim:rgba(192,80,63,0.12);--red-border:rgba(192,80,63,0.30);--bg:#0b0a08;--bg-2:#131110;--bg-3:#1c1815;--bg-4:#262019;--border:rgba(255,255,255,0.055);--border-b:rgba(224,120,95,0.22);--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--r:12px;--nav-h:62px}
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
     body { font-family: 'Archivo', sans-serif; background: var(--bg); color: var(--t1); overflow-x: hidden; font-size: 16px; line-height: 1.6; }
@@ -121,6 +121,9 @@
     .stat-block__key { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .11em; color: var(--pink); margin-bottom: 5px; }
     .stat-block__val { font-size: 14px; font-weight: 600; color: var(--t1); line-height: 1.4; }
     .stat-block__sub { font-size: 12px; color: var(--t2); margin-top: 3px; line-height: 1.5; }
+    .stat-block__wiki { display: inline-flex; align-items: center; gap: 5px; margin-top: 8px; font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; color: var(--blue); border: 1px solid var(--blue-border); background: var(--blue-dim); padding: 4px 11px; border-radius: 99px; text-decoration: none; transition: background .18s; }
+    .stat-block__wiki:hover { background: rgba(224,120,95,.22); }
+    .stat-block__wiki svg { width: 11px; height: 11px; flex-shrink: 0; }
 
     main { padding-bottom: 96px; }
     .content-grid { display: grid; grid-template-columns: 1fr 320px; gap: 48px; align-items: start; }
@@ -151,14 +154,9 @@
     .callout__item:hover { background: rgba(255,255,255,.04); color: var(--t1); }
     .callout__item-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--blue); flex-shrink: 0; }
 
-    .faq-list { display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
-    .faq-item { border-bottom: 1px solid var(--border); }
-    .faq-item:last-child { border-bottom: none; }
-    .faq-item__q { list-style: none; cursor: pointer; padding: 18px 22px; font-size: 14px; font-weight: 700; color: var(--t1); line-height: 1.4; display: flex; align-items: center; justify-content: space-between; gap: 14px; }
-    .faq-item__q::-webkit-details-marker { display: none; }
-    .faq-item__chevron { width: 15px; height: 15px; flex-shrink: 0; color: var(--t3); transition: transform .2s; }
-    .faq-item[open] .faq-item__chevron { transform: rotate(180deg); }
-    .faq-item__a { padding: 0 22px 18px; font-size: 13px; color: var(--t2); line-height: 1.75; }
+    .entry-gallery { display: flex; flex-direction: column; gap: 12px; }
+    .entry-gallery__item { position: relative; width: 100%; padding-top: 75%; border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; border: 1px solid var(--border-b); }
+    .entry-gallery__item img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 
     .footer { border-top: 1px solid var(--border); padding: 52px 0 28px; }
     .footer__inner { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
@@ -201,7 +199,7 @@
 
     .weapon-hero { position: relative; min-height: 400px; display: flex; align-items: flex-end; padding-top: var(--nav-h); overflow: hidden; border-bottom: 1px solid var(--border); }
     .weapon-hero__bg-graphic { position: absolute; inset: 0; background: linear-gradient(155deg, var(--bg-3) 0%, var(--bg-2) 55%, var(--bg) 100%); overflow: hidden; }
-    .weapon-hero__bg-graphic svg { position: absolute; right: -4%; top: 50%; transform: translateY(-50%); width: 42%; max-width: 460px; opacity: .07; color: var(--pink); }
+    .weapon-hero__bg-graphic svg { position: absolute; right: -6%; top: 50%; transform: translateY(-50%); width: 50%; max-width: 560px; opacity: .07; color: var(--pink); }
     .weapon-hero__overlay { position: absolute; inset: 0; background: linear-gradient(to top, var(--bg) 0%, rgba(11,10,8,.4) 55%, rgba(11,10,8,0) 100%); z-index: 1; }
     [data-theme="light"] .weapon-hero__overlay { background: linear-gradient(to top, var(--bg) 0%, rgba(236,228,211,.45) 55%, rgba(236,228,211,0) 100%); }
     .weapon-hero__inner { position: relative; z-index: 2; max-width: 1120px; margin: 0 auto; padding: 0 28px 34px; width: 100%; }
@@ -213,11 +211,15 @@
     .weapon-hero__h1 span { color: var(--blue); }
     .weapon-hero__sub { font-size: 15px; color: var(--t2); max-width: 560px; line-height: 1.65; }
     .weapon-hero__sub strong { color: var(--t1); font-weight: 600; }
-
-    .entry-gallery { display: flex; flex-direction: column; gap: 12px; }
-    .entry-gallery__item { position: relative; width: 100%; padding-top: 75%; border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; border: 1px solid var(--border-b); }
-    .entry-gallery__item img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
-  </style>
+    .faq-list { display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-item__q { list-style: none; cursor: pointer; padding: 18px 22px; font-size: 14px; font-weight: 700; color: var(--t1); line-height: 1.4; display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+    .faq-item__q::-webkit-details-marker { display: none; }
+    .faq-item__chevron { width: 15px; height: 15px; flex-shrink: 0; color: var(--t3); transition: transform .2s; }
+    .faq-item[open] .faq-item__chevron { transform: rotate(180deg); }
+    .faq-item__a { padding: 0 22px 18px; font-size: 13px; color: var(--t2); line-height: 1.75; }
+</style>
 </head>
 <body>
 
@@ -297,14 +299,13 @@
         Back to Weapons
       </a>
       <div class="weapon-hero__eyebrow">Weapon File</div>
-      <h1 class="weapon-hero__h1">Carbine <span style="color:var(--blue)">Rifle</span></h1>
+      <h1 class="weapon-hero__h1">Carbine <span>Rifle</span></h1>
       <p class="weapon-hero__sub">The standard. Not the most powerful rifle in Leonida. <strong>Not the most accurate at extreme range. The most useful across the widest set of situations.</strong> That is why it is the carbine.</p>
     </div>
   </header>
 
   <div class="page">
     <div class="wrap">
-
       <div class="dossier dossier--stat-only">
         <div class="dossier__left">
           <div class="stat-block" role="list" aria-label="Weapon stats">
@@ -339,11 +340,7 @@
           <section class="section reveal" aria-labelledby="assessment-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Weapon Intelligence</span></div>
             <h2 class="section__h2" id="assessment-hd">Field <span style="color:var(--blue)">Assessment</span></h2>
-            <div class="section__body">
-              <p>The carbine is the baseline from which every other rifle decision in Leonida is made. VCPD carries it. The Leonida State Police carries it. The Leonida Cartel carries it. <strong>When every faction in a territory is running the same platform, the platform is reliable.</strong></p>
-              <p>The modular configuration allows optics, suppressors, and grip accessories. In practice the configuration that shows up most often in <a href="/gameplay/locations/vice-county" style="color:var(--blue)">Vice County</a> is the standard iron sight setup because the engagement ranges in an urban environment do not require magnification.</p>
-              <p><strong>For the protagonists it is the primary long arm.</strong> When Lucia or Jason needs to hold a position, cover a route, or engage beyond pistol range without committing to a heavier platform, this is what appears in the footage.</p>
-            </div>
+            <div class="section__body"><p>The carbine is the baseline from which every other rifle decision in Leonida is made. VCPD carries it. The Leonida State Police carries it. The Leonida Cartel carries it. <strong>When every faction in a territory is running the same platform, the platform is reliable.</strong></p><p>The modular configuration allows optics, suppressors, and grip accessories. In practice the configuration that shows up most often in <a href="/gameplay/locations/vice-county" style="color:var(--blue)">Vice County</a> is the standard iron sight setup because the engagement ranges in an urban environment do not require magnification.</p><p><strong>For the protagonists it is the primary long arm.</strong> When Lucia or Jason needs to hold a position, cover a route, or engage beyond pistol range without committing to a heavier platform, this is what appears in the footage.</p></div>
           </section>
 
           <section class="section reveal" aria-labelledby="related-hd">
@@ -352,7 +349,7 @@
             <div class="connected-grid" role="list">
               <a href="/gameplay/characters/jason-duval" class="conn-card reveal" role="listitem"><div class="conn-card__type">Character</div><div class="conn-card__name">Jason Duval</div><div class="conn-card__desc">Mid-range firepower for operations that need more than a sidearm.</div></a>
               <a href="/gameplay/characters/lucia-caminos" class="conn-card reveal d1" role="listitem"><div class="conn-card__type">Character</div><div class="conn-card__name">Lucia Caminos</div><div class="conn-card__desc">Same reach, same reason to carry something heavier than a pistol.</div></a>
-              <a href="/gameplay/gangs-and-factions/vcpd" class="conn-card reveal d2" role="listitem"><div class="conn-card__type">Faction</div><div class="conn-card__name">VCPD</div><div class="conn-card__desc">Patrol rifle for officers expecting more than a routine stop.</div></a>
+              <a href="/gameplay/gangs-and-factions/vcpd" class="conn-card reveal d1" role="listitem"><div class="conn-card__type">Faction</div><div class="conn-card__name">VCPD</div><div class="conn-card__desc">Patrol rifle for officers expecting more than a routine stop.</div></a>
               <a href="/gameplay/gangs-and-factions/leonida-state-police" class="conn-card reveal d2" role="listitem"><div class="conn-card__type">Faction</div><div class="conn-card__name">Leonida State Police</div><div class="conn-card__desc">Standard-issue for highway and rural patrol units.</div></a>
               <a href="/gameplay/gangs-and-factions/leonida-cartel" class="conn-card reveal d2" role="listitem"><div class="conn-card__type">Faction</div><div class="conn-card__name">Leonida Cartel</div><div class="conn-card__desc">Mid-tier firepower for operations that need range.</div></a>
             </div>
@@ -378,7 +375,7 @@
           </section>
 
         </div>
-        <aside class="content-side" aria-label="Weapon navigation">
+        <aside class="content-side" aria-label="Vehicle navigation">
           <div class="callout reveal">
             <div class="callout__title">Weapon Database</div>
             <div class="callout__items">
