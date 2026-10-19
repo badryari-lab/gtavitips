@@ -58,24 +58,33 @@ hub/
 
 Each article/entry lives in its own folder with an `index.html` (clean URLs, no `.html` in paths).
 
-## Build tooling (`build/`) — vehicles only so far
+## Build tooling (`build/`) — all 8 database categories
 
-**Decided Oct 19 2026, piloted and shipped same window.** `hub/gameplay/vehicles/` is now generated from data files instead of hand-written per page. This does **not** change the deployed site: `hub/*/index.html` is still plain static HTML with everything inlined, still what gets committed and served — `build/` is a local, zero-dependency Node tool (no npm, no `node_modules`) that only runs on Badr's/Claude's machine to produce that HTML. The "no external libraries / no shared CSS files" rule is about what ships to the browser, which is unchanged.
+**Decided and built Oct 19 2026.** Every `hub/gameplay/<category>/` page is now generated from data files instead of hand-written per page. This does **not** change the deployed site: `hub/*/index.html` is still plain static HTML with everything inlined, still what gets committed and served — `build/` is a local, zero-dependency Node tool (no npm, no `node_modules`) that only runs on Badr's/Claude's machine to produce that HTML. The "no external libraries / no shared CSS files" rule is about what ships to the browser, which is unchanged. `news/` and `/faq/` are **not** part of this — still hand-written exactly as described elsewhere in this file.
 
 ```
 build/
-├── data/vehicles/<slug>.md    # one file per entry: JSON frontmatter, then "---", then Markdown body
+├── data/<category>/<slug>.md  # one file per entry: JSON frontmatter, then "---", then Markdown body
 ├── templates/
-│   ├── _shared.js             # nav/footer/search/cookie-banner/CSS — identical on every page, defined once
+│   ├── _shared.js             # nav/footer/search/cookie-banner + the vehicles-generation CSS, shared where a category uses it
 │   ├── _markdown.js           # tiny **bold**/[text](url) converter (internal links auto-get the blue-span style)
-│   └── vehicles.js            # vehicle-specific hero (photo or gradient-fallback variant) + stat-block + sections
-├── build.js                   # data + template -> build/output/vehicles/<slug>/index.html
-└── extract-vehicles.js        # one-time migration script, not part of the ongoing workflow
+│   ├── _css-characters.js / _css-locations.js / _css-animals.js  # per-category CSS for the 3 categories that aren't CSS-uniform with vehicles (see below)
+│   └── <category>.js          # one template per category — hero variant, stat-block, section layout, connection-card style all differ by category, see each file's own header comment
+├── build.js                   # data + template -> build/output/<category>/<slug>/index.html (run `node build/build.js [category]`, omit category to build all)
+├── diff.js                    # verification: node build/diff.js <category> — whitespace/reorder-insensitive diff against the live hub/ pages, used before every copy-over
+├── extract-utils.js           # shared div-depth-balanced extraction helper (don't guess closing-tag counts — confirmed to silently drop content when guessed wrong)
+└── extract-<category>.js      # one-time migration scripts, not part of the ongoing workflow
 ```
 
-**To add or edit a vehicle entry:** write/edit `build/data/vehicles/<slug>.md` (frontmatter fields: `titleParts`, `seo`, `heroSubtitle`, `heroImage` if a real photo exists, `statBlock`, `gallery`, `connections`, `sidebarDatabase`, `sidebarExplore`; body = the Field Assessment prose in Markdown) → `node build/build.js vehicles` → copy the relevant `build/output/vehicles/<slug>/index.html` into `hub/gameplay/vehicles/<slug>/` → sitemap lastmod → commit. Same Badr-approval discipline as any other page (see Publishing rule below) — build locally, show the result, wait for the go before copying into `hub/`.
+**To add or edit an entry:** write/edit `build/data/<category>/<slug>.md` (see that category's existing data files and its `templates/<category>.js` header comment for the exact field shape — they differ meaningfully by category, listed below) → `node build/build.js <category>` → `node build/diff.js <category>` if checking against something that should match → copy the relevant `build/output/<category>/<slug>/index.html` into `hub/gameplay/<category>/<slug>/` → sitemap lastmod → commit. Same Badr-approval discipline as any other page (see Publishing rule below) — build locally, show the result, wait for the go before copying into `hub/`.
 
-**Not yet templated:** activities, animals, brands, characters, gangs-and-factions, locations, weapons, news, FAQ — still hand-written HTML exactly as described elsewhere in this file. Brands in particular have a genuinely variable number of sections per entry (confirmed 2 or 3, not a fixed count) and will need that reflected in its own template when its turn comes; nothing here commits to extending the architecture beyond vehicles until that is separately agreed.
+**Real per-category differences, confirmed while building (don't assume vehicles' shape applies elsewhere):**
+- **CSS generation**: vehicles/weapons/gangs-and-factions/activities use the canonical Anton/Courier-Prime CSS documented below, safe to share. characters/locations/animals are internally uniform but on an older, pre-redesign CSS generation (no Anton on headings, different nav color) — each gets its own `_css-<category>.js`, extracted from a live reference page, not vehicles' CSS. characters additionally has ONE exception within itself (jason-duval already uses the canonical style while the other 20 don't) — when a category isn't provably 100% uniform, CSS is kept **per-entry** instead of shared; characters is the only category that needed this.
+- **Connection-card style**: three different designs exist — vehicles/weapons/gangs-and-factions/animals use type-label cards (`.conn-card`, `renderConnectionsGrid`); characters/activities use avatar cards with an arrow (`.conn-card__avatar`, `renderConnectionsGridAvatar`); brands uses a third style, `.eco-card` (avatar + industry + name only, no description or arrow) — never reuse one category's card renderer for another without checking.
+- **FAQ**: present on characters/weapons/locations/activities/animals, absent entirely from vehicles/gangs-and-factions/brands. Where present, the visible `<details>` accordion and the `FAQPage` JSON-LD block are extracted and stored **independently** — confirmed on characters that they can be genuinely different content (not duplicates), not just two renderings of the same text.
+- **Sidebar**: vehicles/weapons/gangs-and-factions use a fixed 2-block shape (`renderSidebar`, pass an explicit `ariaLabel` — it does not default correctly). characters/locations/animals/brands have per-entry-variable block counts and/or titles (`renderSidebarBlocks`) — some brands (the 10 vehicle-manufacturer ones) show a custom first-block title instead of "Brands Index".
+- **Hero**: vehicles/characters/gangs-and-factions/locations/brands support both a real photo and a gradient-fallback variant per entry (never assume one or the other for a whole category — e.g. only 2/84 vehicles have a photo, but 63/76 brands do). weapons has no photo variant at all. activities always has a photo. Brands' fallback icon additionally **varies per entry** (60/67 share one icon, 7 are unique) — never hardcode a single fallback icon.
+- **Pages excluded from migration, left hand-maintained**: `vice-city` (locations) has a custom hub-page structure, no "On the Ground" section. 4 empty brand directories (`electric-fang-tattoo`, `goodtime-gear`, `stock-305`, `vice-city-style`) are live 404s right now, linked from `saras-unisex-salon` and a news article — flagged per the "don't create a page just to satisfy a link" rule below, not yet fixed.
 
 ## Design system
 
