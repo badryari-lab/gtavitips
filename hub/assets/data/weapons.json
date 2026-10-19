@@ -20,7 +20,8 @@
       "items": [
         { "url": "/gameplay/weapons/machine-pistol", "label": "Sidearm", "color": "var(--blue)", "name": "Machine Pistol",  "desc": "Full-auto in your pocket. Close range. Very loud.",                    "dataName": "machine pistol",            "dataCat": "sidearms" },
         { "url": "/gameplay/weapons/heavy-revolver", "label": "Sidearm", "color": "#dc3545",     "name": "Heavy Revolver",  "desc": "Six rounds. Each one is a statement.",                                 "dataName": "heavy revolver magnum",     "dataCat": "sidearms" },
-        { "url": "/gameplay/weapons/pistol",         "label": "Sidearm", "color": "var(--blue)", "name": "Standard Pistol", "desc": "The default. 9mm, semi-auto. Carried by everyone on both sides.",      "dataName": "pistol standard",           "dataCat": "sidearms" }
+        { "url": "/gameplay/weapons/pistol",         "label": "Sidearm", "color": "var(--blue)", "name": "Standard Pistol", "desc": "The default. 9mm, semi-auto. Carried by everyone on both sides.",      "dataName": "pistol standard",           "dataCat": "sidearms" },
+        { "url": "/gameplay/weapons/hawk-little-morgan-revolvers", "label": "Sidearm", "color": "#dc3545", "name": "Hawk & Little Morgan Revolvers", "desc": "Vice City-styled. Ultimate Edition exclusive.",              "dataName": "hawk little morgan revolvers", "dataCat": "sidearms" }
       ]
     },
     {

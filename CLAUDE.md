@@ -188,6 +188,7 @@ Below the hero:
 - Description paragraph — terse, authoritative, present tense
 - **No "On Record" / sightings-intel-log section** (removed Aug 2026 across the whole site — was a per-claim trailer-citation list; Badr's call was to drop it entirely, no replacement, not even folded into body prose)
 - "Known Connections" — horizontal cards, internal links to related characters, locations, factions
+- **Connection card descriptions must be specific per relationship, never a generic stamp** ("The high-performance variant.", "Jason is among the operatives Wyman contracts for vehicle retrieval.") — never "Confirmed carrier/user in official footage." repeated across cards. Found as the established pattern on 25/26 weapons pages (restated the removed status-badge as prose instead of actually dropping it) and fixed Oct 2026; apply this standard to any category.
 
 No status badge anywhere on the page (decided May 2026: presence in the database implies confirmation).
 
@@ -198,6 +199,7 @@ Category-specific details below (stat-block fields, section order) were written 
 - Hero eyebrow: "Character File"
 - **No** dossier badge, **no** Status stat-block field — skip both from the start
 - **H1**: two-part names get the last name in `<span style="color:var(--blue)">` (Lucia <span>Caminos</span>); single-word names (Roxy, Rudi, Wyman, Stefanie, DWNPLY) stay fully white, no color split
+- **FAQ section eyebrow/heading**: eyebrow always "Frequently Asked", H2 always "Frequently <span style="color:var(--blue)">Asked</span>" — never "Common Questions" (found drifted on 9/21 character pages Oct 2026, corrected to match the site-wide convention used by activities/weapons/animals)
 
 ### Activity pages (approved template — May 2026)
 
