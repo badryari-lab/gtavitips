@@ -25,7 +25,7 @@
   {"@context":"https://schema.org","@type":"Article","headline":"Grotti - GTA 6 Brand Profile","description":"Grotti in GTA 6. The Italian exotic manufacturer. Heard before seen.","url":"https://gtavitips.com/gameplay/brands/grotti","dateModified":"2026-02-01","publisher":{"@type":"Organization","name":"GTAVITIPS","url":"https://gtavitips.com"}}
   </script>
   <style>
-    :root{--blue:#e0785f;--blue-dim:rgba(224,120,95,0.14);--blue-border:rgba(224,120,95,0.30);--pink:#4a9e93;--pink-dim:rgba(74,158,147,0.10);--paper:#ece4d3;--paper-ink:#2a2420;--green:#28a745;--green-dim:rgba(40,167,69,0.12);--amber:#ffc107;--amber-dim:rgba(255,193,7,0.12);--bg:#0b0a08;--bg-2:#131110;--bg-3:#1c1815;--bg-4:#262019;--border:rgba(255,255,255,0.055);--border-b:rgba(224,120,95,0.22);--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--r:12px;--nav-h:62px}
+    :root{--blue:#e0785f;--blue-dim:rgba(224,120,95,0.14);--blue-border:rgba(224,120,95,0.30);--pink:#4a9e93;--pink-dim:rgba(74,158,147,0.10);--paper:#ece4d3;--paper-ink:#2a2420;--green:#3ea35f;--green-dim:rgba(62,163,95,0.12);--green-border:rgba(62,163,95,0.30);--amber:#d19a3d;--amber-dim:rgba(209,154,61,0.12);--amber-border:rgba(209,154,61,0.30);--red:#c0503f;--red-dim:rgba(192,80,63,0.12);--red-border:rgba(192,80,63,0.30);--bg:#0b0a08;--bg-2:#131110;--bg-3:#1c1815;--bg-4:#262019;--border:rgba(255,255,255,0.055);--border-b:rgba(224,120,95,0.22);--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--r:12px;--nav-h:62px}
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
     body { font-family: 'Archivo', sans-serif; background: var(--bg); color: var(--t1); overflow-x: hidden; font-size: 16px; line-height: 1.6; }
@@ -106,10 +106,10 @@
     .search-result__name{font-size:13px;font-weight:600;color:var(--t1);display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
     .search-overlay__nores{font-size:12px;color:var(--t3);padding:20px 0;text-align:center;}
 
-    .dossier { margin: 32px 0 56px; display: block; }
-    .dossier .stat-block { max-width: 640px; }
-
-    .brand-hero__badge { display: inline-flex; align-items: center; font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; padding: 5px 12px; border-radius: 6px 2px 6px 2px; background: var(--bg-2); border: 1px solid var(--blue-border); color: var(--blue); transform: rotate(-1.2deg); margin-bottom: 14px; }
+    .page { padding-top: 40px; }
+    .dossier { margin: 0 0 56px; display: grid; grid-template-columns: 1fr 340px; gap: 48px; align-items: start; }
+    .dossier--stat-only { display: block; }
+    .dossier--stat-only .stat-block { max-width: 640px; }
 
     .stat-block { display: flex; flex-direction: column; gap: 0; background: var(--bg-2); border: 1px solid var(--border-b); border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; }
     .stat-block__item { padding: 16px 20px; border-bottom: 1px solid var(--border); }
@@ -117,10 +117,9 @@
     .stat-block__key { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .11em; color: var(--pink); margin-bottom: 5px; }
     .stat-block__val { font-size: 14px; font-weight: 600; color: var(--t1); line-height: 1.4; }
     .stat-block__sub { font-size: 12px; color: var(--t2); margin-top: 3px; line-height: 1.5; }
-    .stat-block__pills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
-    .wiki-pill { display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; background: var(--blue-dim); border: 1px solid var(--blue-border); border-radius: 99px; color: var(--blue); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; text-decoration: none; transition: background .18s, border-color .18s; }
-    .wiki-pill:hover { background: rgba(224,120,95,.22); border-color: rgba(224,120,95,.5); }
-    .wiki-pill svg { width: 11px; height: 11px; flex-shrink: 0; }
+    .stat-block__wiki { display: inline-flex; align-items: center; gap: 5px; margin-top: 8px; font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; color: var(--blue); border: 1px solid var(--blue-border); background: var(--blue-dim); padding: 4px 11px; border-radius: 99px; text-decoration: none; transition: background .18s; }
+    .stat-block__wiki:hover { background: rgba(224,120,95,.22); }
+    .stat-block__wiki svg { width: 11px; height: 11px; flex-shrink: 0; }
 
     main { padding-bottom: 96px; }
     .content-grid { display: grid; grid-template-columns: 1fr 320px; gap: 48px; align-items: start; }
@@ -136,14 +135,13 @@
     .section__body p:last-child { margin-bottom: 0; }
     .section__body strong { color: var(--t1); font-weight: 600; }
 
-    .eco-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-    .eco-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r) 4px var(--r) 4px; padding: 14px 16px; display: flex; align-items: center; gap: 12px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; }
-    .eco-card:hover { border-color: var(--border-b); transform: translateY(-2px); background: var(--bg-3); }
-    .eco-card__avatar { width: 36px; height: 36px; border-radius: 8px; background: var(--bg-3); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-family: 'Anton', sans-serif; font-size: 11px; font-weight: 400; color: var(--blue); text-transform: uppercase; flex-shrink: 0; }
-    .eco-card__body { flex: 1; min-width: 0; }
-    .eco-card__industry { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t3); margin-bottom: 2px; }
-    .eco-card__name { font-size: 13px; font-weight: 700; color: var(--t1); line-height: 1.2; }
-    @media(max-width:580px){ .eco-grid{grid-template-columns:1fr} }
+    .connected-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r) 4px var(--r) 4px; padding: 16px 18px; text-decoration: none; display: flex; flex-direction: column; gap: 5px; transition: border-color .2s, transform .2s, background .2s; }
+    .conn-card:hover { border-color: var(--border-b); transform: translateY(-2px); background: var(--bg-3); }
+    .conn-card__type { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .11em; color: var(--pink); }
+    .conn-card__name { font-size: 14px; font-weight: 700; color: var(--t1); line-height: 1.2; }
+    .conn-card__desc { font-size: 12px; color: var(--t3); line-height: 1.5; margin-top: 2px; }
+    @media(max-width:580px){ .connected-grid{grid-template-columns:1fr} }
 
     .callout { background: var(--bg-2); border: 1px solid var(--border-b); border-radius: var(--r) 4px var(--r) 4px; padding: 20px; }
     .callout__title { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--t3); margin-bottom: 14px; }
@@ -151,6 +149,10 @@
     .callout__item { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--t2); text-decoration: none; padding: 8px 10px; border-radius: 8px; transition: background .18s, color .18s; }
     .callout__item:hover { background: rgba(255,255,255,.04); color: var(--t1); }
     .callout__item-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--blue); flex-shrink: 0; }
+
+    .entry-gallery { display: flex; flex-direction: column; gap: 12px; }
+    .entry-gallery__item { position: relative; width: 100%; padding-top: 75%; border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; border: 1px solid var(--border-b); }
+    .entry-gallery__item img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 
     .footer { border-top: 1px solid var(--border); padding: 52px 0 28px; }
     .footer__inner { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
@@ -169,9 +171,11 @@
     .reveal.on { opacity: 1; transform: none; }
     .reveal.d1 { transition-delay: .07s; }
     .reveal.d2 { transition-delay: .14s; }
-    .reveal.d3 { transition-delay: .21s; }
+
+    a[style*="color:var(--blue)"]{color:inherit!important;text-decoration:underline;text-decoration-color:var(--blue-border);text-underline-offset:2px;text-decoration-thickness:1px}
 
     @media (max-width: 1024px) {
+      .dossier { grid-template-columns: 1fr; }
       .content-grid { grid-template-columns: 1fr; }
       .content-side { position: static; flex-direction: row; flex-wrap: wrap; }
       .content-side > * { flex: 1 1 260px; }
@@ -189,8 +193,18 @@
     [data-theme="dark"] { --bg:#0b0a08; --bg-2:#131110; --bg-3:#1c1815; --bg-4:#262019; --border:rgba(255,255,255,0.055); --border-b:rgba(224,120,95,0.24); --t1:#f2ede4; --t2:#a89a86; --t3:#6b5f4f; --blue:#e0785f; --blue-dim:rgba(224,120,95,.14); --blue-border:rgba(224,120,95,.30); --pink:#4a9e93; --pink-dim:rgba(74,158,147,.14); --paper-ink:#2a2420; }
     [data-theme="dark"] .nav { background: rgba(11,10,8,.95); }
 
+    .dossier { margin: 32px 0 56px; display: block; }
+    .dossier .stat-block { max-width: 640px; }
+    .brand-hero__badge { display: inline-flex; align-items: center; font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; padding: 5px 12px; border-radius: 6px 2px 6px 2px; background: var(--bg-2); border: 1px solid var(--blue-border); color: var(--blue); transform: rotate(-1.2deg); margin-bottom: 14px; }
+    .eco-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .eco-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r) 4px var(--r) 4px; padding: 14px 16px; display: flex; align-items: center; gap: 12px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; }
+    .eco-card:hover { border-color: var(--border-b); transform: translateY(-2px); background: var(--bg-3); }
+    .eco-card__avatar { width: 36px; height: 36px; border-radius: 8px; background: var(--bg-3); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-family: 'Anton', sans-serif; font-size: 11px; font-weight: 400; color: var(--blue); text-transform: uppercase; flex-shrink: 0; }
+    .eco-card__body { flex: 1; min-width: 0; }
+    .eco-card__industry { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t3); margin-bottom: 2px; }
+    .eco-card__name { font-size: 13px; font-weight: 700; color: var(--t1); line-height: 1.2; }
+    @media(max-width:580px){ .eco-grid{grid-template-columns:1fr} }
     .brand-hero { position: relative; min-height: 420px; display: flex; align-items: flex-end; padding-top: var(--nav-h); overflow: hidden; border-bottom: 1px solid var(--border); }
-    .brand-hero__bg-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 35%; z-index: 0; }
     .brand-hero__bg-graphic { position: absolute; inset: 0; background: linear-gradient(155deg, var(--bg-3) 0%, var(--bg-2) 55%, var(--bg) 100%); overflow: hidden; }
     .brand-hero__bg-graphic svg { position: absolute; right: -6%; top: 50%; transform: translateY(-50%); width: 46%; max-width: 480px; opacity: .07; color: var(--pink); }
     .brand-hero__overlay { position: absolute; inset: 0; background: linear-gradient(to top, var(--bg) 0%, rgba(11,10,8,.55) 55%, rgba(11,10,8,0) 100%); z-index: 1; }
@@ -202,7 +216,11 @@
     .brand-hero__eyebrow { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .16em; color: var(--pink); margin-bottom: 14px; }
     .brand-hero__h1 { font-family: 'Anton', sans-serif; font-weight: 400; font-size: clamp(34px, 6vw, 62px); text-transform: uppercase; letter-spacing: 0; color: var(--t1); line-height: .95; margin-bottom: 14px; }
     .brand-hero__slogan { font-family: 'Archivo', sans-serif; font-style: italic; font-size: 15px; color: var(--pink); font-weight: 600; max-width: 560px; line-height: 1.6; }
-  </style>
+    .stat-block__pills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .wiki-pill { display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; background: var(--blue-dim); border: 1px solid var(--blue-border); border-radius: 99px; color: var(--blue); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; text-decoration: none; transition: background .18s, border-color .18s; }
+    .wiki-pill:hover { background: rgba(224,120,95,.22); border-color: rgba(224,120,95,.5); }
+    .wiki-pill svg { width: 11px; height: 11px; flex-shrink: 0; }
+</style>
 </head>
 <body>
 
@@ -323,9 +341,7 @@
           <section class="section reveal" aria-labelledby="profile-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Brand Intelligence</span></div>
             <h2 class="section__h2" id="profile-hd">Leonida Profile</h2>
-            <div class="section__body">
-              <p>Grotti is the Italian exotic manufacturer in Leonida and one of the city's oldest brand presences. In Leonida the brand occupies <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a>'s luxury vehicle market with the same confidence it has always had: the cars are extraordinary, the price is beyond discussion, and the sound at full acceleration on the Vice City coast road makes nearby conversations impossible.</p><p>The <a href="/gameplay/locations/south-beach" style="color:var(--blue)">South Beach</a> valet stands in Vice City have an informal Grotti quota. Three or more per evening is considered a good night. The cars are there because the people who can afford them are there, and the people who can afford them chose Vice City for the same reasons they choose Grotti: <strong>the location is the statement and the car is the punctuation.</strong></p><p>In Leonida, the Grotti appears in pursuit sequences, in high-value vehicle targets, and parked outside establishments where the clientele needs to communicate something to everyone within line of sight of the pavement. The car does this without the driver having to say anything.</p>
-            </div>
+            <div class="section__body"><p>Grotti is the Italian exotic manufacturer in Leonida and one of the city's oldest brand presences. In Leonida the brand occupies <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a>'s luxury vehicle market with the same confidence it has always had: the cars are extraordinary, the price is beyond discussion, and the sound at full acceleration on the Vice City coast road makes nearby conversations impossible.</p><p>The <a href="/gameplay/locations/south-beach" style="color:var(--blue)">South Beach</a> valet stands in Vice City have an informal Grotti quota. Three or more per evening is considered a good night. The cars are there because the people who can afford them are there, and the people who can afford them chose Vice City for the same reasons they choose Grotti: <strong>the location is the statement and the car is the punctuation.</strong></p><p>In Leonida, the Grotti appears in pursuit sequences, in high-value vehicle targets, and parked outside establishments where the clientele needs to communicate something to everyone within line of sight of the pavement. The car does this without the driver having to say anything.</p></div>
           </section>
 
           <section class="section reveal" aria-labelledby="eco-hd">
@@ -365,15 +381,21 @@
 
         </div>
         <aside class="content-side" aria-label="Brand navigation">
-          <div class="callout reveal"><div class="callout__title">Brands Index</div><div class="callout__items">
-            <a href="/gameplay/brands" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>All Brands</a>
-          </div></div>
-          <div class="callout reveal d1"><div class="callout__title">Explore Database</div><div class="callout__items">
-            <a href="/gameplay/characters" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Characters</a>
-            <a href="/gameplay/vehicles" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Vehicles</a>
-            <a href="/gameplay/locations" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Locations</a>
-            <a href="/gameplay/gangs-and-factions" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Factions</a>
-          </div></div>
+          <div class="callout reveal">
+            <div class="callout__title">Brands Index</div>
+            <div class="callout__items">
+              <a href="/gameplay/brands" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>All Brands</a>
+            </div>
+          </div>
+          <div class="callout reveal d1">
+            <div class="callout__title">Explore Database</div>
+            <div class="callout__items">
+              <a href="/gameplay/characters" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Characters</a>
+              <a href="/gameplay/vehicles" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Vehicles</a>
+              <a href="/gameplay/locations" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Locations</a>
+              <a href="/gameplay/gangs-and-factions" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Factions</a>
+            </div>
+          </div>
         </aside>
       </div>
     </div>
