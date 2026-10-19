@@ -26,7 +26,7 @@
   {"@context":"https://schema.org","@type":"Article","headline":"Dinka Double-T - GTA 6 Vehicle","description":"The Dinka Double-T is a sport motorcycle in GTA 6 Leonida. Based on the Honda CBR / Kawasaki Ninja.","url":"https://gtavitips.com/gameplay/vehicles/dinka-double-t","dateModified":"2026-02-01","publisher":{"@type":"Organization","name":"GTAVITIPS","url":"https://gtavitips.com"}}
   </script>
   <style>
-    :root{--blue:#e0785f;--blue-dim:rgba(224,120,95,0.14);--blue-border:rgba(224,120,95,0.30);--pink:#4a9e93;--pink-dim:rgba(74,158,147,0.10);--paper:#ece4d3;--paper-ink:#2a2420;--green:#28a745;--green-dim:rgba(40,167,69,0.12);--amber:#ffc107;--amber-dim:rgba(255,193,7,0.12);--bg:#0b0a08;--bg-2:#131110;--bg-3:#1c1815;--bg-4:#262019;--border:rgba(255,255,255,0.055);--border-b:rgba(224,120,95,0.22);--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--r:12px;--nav-h:62px}
+    :root{--blue:#e0785f;--blue-dim:rgba(224,120,95,0.14);--blue-border:rgba(224,120,95,0.30);--pink:#4a9e93;--pink-dim:rgba(74,158,147,0.10);--paper:#ece4d3;--paper-ink:#2a2420;--green:#3ea35f;--green-dim:rgba(62,163,95,0.12);--green-border:rgba(62,163,95,0.30);--amber:#d19a3d;--amber-dim:rgba(209,154,61,0.12);--amber-border:rgba(209,154,61,0.30);--red:#c0503f;--red-dim:rgba(192,80,63,0.12);--red-border:rgba(192,80,63,0.30);--bg:#0b0a08;--bg-2:#131110;--bg-3:#1c1815;--bg-4:#262019;--border:rgba(255,255,255,0.055);--border-b:rgba(224,120,95,0.22);--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--r:12px;--nav-h:62px}
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
     body { font-family: 'Archivo', sans-serif; background: var(--bg); color: var(--t1); overflow-x: hidden; font-size: 16px; line-height: 1.6; }
@@ -136,7 +136,6 @@
     .section__body p:last-child { margin-bottom: 0; }
     .section__body strong { color: var(--t1); font-weight: 600; }
 
-
     .connected-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
     .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r) 4px var(--r) 4px; padding: 16px 18px; text-decoration: none; display: flex; flex-direction: column; gap: 5px; transition: border-color .2s, transform .2s, background .2s; }
     .conn-card:hover { border-color: var(--border-b); transform: translateY(-2px); background: var(--bg-3); }
@@ -151,6 +150,10 @@
     .callout__item { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--t2); text-decoration: none; padding: 8px 10px; border-radius: 8px; transition: background .18s, color .18s; }
     .callout__item:hover { background: rgba(255,255,255,.04); color: var(--t1); }
     .callout__item-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--blue); flex-shrink: 0; }
+
+    .entry-gallery { display: flex; flex-direction: column; gap: 12px; }
+    .entry-gallery__item { position: relative; width: 100%; padding-top: 75%; border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; border: 1px solid var(--border-b); }
+    .entry-gallery__item img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 
     .footer { border-top: 1px solid var(--border); padding: 52px 0 28px; }
     .footer__inner { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
@@ -196,6 +199,7 @@
     .vehicle-hero__bg-graphic svg { position: absolute; right: -6%; top: 50%; transform: translateY(-50%); width: 50%; max-width: 560px; opacity: .07; color: var(--pink); }
     .vehicle-hero__overlay { position: absolute; inset: 0; background: linear-gradient(to top, var(--bg) 0%, rgba(11,10,8,.4) 55%, rgba(11,10,8,0) 100%); z-index: 1; }
     [data-theme="light"] .vehicle-hero__overlay { background: linear-gradient(to top, var(--bg) 0%, rgba(236,228,211,.45) 55%, rgba(236,228,211,0) 100%); }
+
     .vehicle-hero__inner { position: relative; z-index: 2; max-width: 1120px; margin: 0 auto; padding: 0 28px 34px; width: 100%; }
     .vehicle-hero__back { display: inline-flex; align-items: center; gap: 7px; font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t2); margin-bottom: 18px; transition: color .18s; text-decoration: none; }
     .vehicle-hero__back:hover { color: var(--blue); }
@@ -205,11 +209,7 @@
     .vehicle-hero__h1 span { color: var(--blue); }
     .vehicle-hero__sub { font-size: 15px; color: var(--t2); max-width: 560px; line-height: 1.65; }
     .vehicle-hero__sub strong { color: var(--t1); font-weight: 600; }
-
-    .entry-gallery { display: flex; flex-direction: column; gap: 12px; }
-    .entry-gallery__item { position: relative; width: 100%; padding-top: 75%; border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; border: 1px solid var(--border-b); }
-    .entry-gallery__item img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
-  </style>
+</style>
 </head>
 <body>
 
@@ -296,7 +296,6 @@
 
   <div class="page">
     <div class="wrap">
-
       <div class="dossier dossier--stat-only">
         <div class="dossier__left">
           <div class="stat-block" role="list" aria-label="Vehicle stats">
@@ -309,7 +308,7 @@
               <div class="stat-block__key">Real-World Counterpart</div>
               <div class="stat-block__val">Honda CBR / Kawasaki Ninja</div>
               <div class="stat-block__sub">The full-faired sport motorcycle profile. The litre-class bikes that define the category.</div>
-              <a href="https://en.wikipedia.org/wiki/Honda_CBR1000RR" target="_blank" rel="noopener noreferrer" class="stat-block__wiki"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>Honda CBR1000RR</a>
+              <a href="https://en.wikipedia.org/wiki/Honda_CBR1000RR" target="_blank" rel="noopener noreferrer" class="stat-block__wiki" aria-label="Honda CBR1000RR on Wikipedia (opens in new tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>Honda CBR1000RR</a>
             </div>
             <div class="stat-block__item" role="listitem">
               <div class="stat-block__key">Handling</div>
@@ -333,7 +332,6 @@
             <h2 class="section__h2" id="assessment-hd">Field <span style="color:var(--blue)">Assessment</span></h2>
             <div class="section__body"><p>The Double-T is the Dinka sport motorcycle. Japanese full-fairing, aggressive forward lean geometry, and the engine output of a litre-class sport bike. In <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> traffic this translates to the ability to use road space that no car can access.</p><p>The sport motorcycle lane-splits, filter through stopped traffic, and takes the line through a corner that no four-wheel vehicle can follow. <strong>In Vice City's tourist corridor, the Double-T is faster than any car at any time the traffic is above light density.</strong></p><p>The handling demands the same awareness that all sport bikes require: the performance is available faster than the consequences of misusing it. In the city grid, the Double-T is the fastest vehicle from light to light. On the highway, it is the fastest vehicle until something with four wheels and forced induction makes a different argument.</p></div>
           </section>
-
 
           <section class="section reveal" aria-labelledby="related-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Related Intelligence</span></div>

@@ -58,6 +58,25 @@ hub/
 
 Each article/entry lives in its own folder with an `index.html` (clean URLs, no `.html` in paths).
 
+## Build tooling (`build/`) — vehicles only so far
+
+**Decided Oct 19 2026, piloted and shipped same window.** `hub/gameplay/vehicles/` is now generated from data files instead of hand-written per page. This does **not** change the deployed site: `hub/*/index.html` is still plain static HTML with everything inlined, still what gets committed and served — `build/` is a local, zero-dependency Node tool (no npm, no `node_modules`) that only runs on Badr's/Claude's machine to produce that HTML. The "no external libraries / no shared CSS files" rule is about what ships to the browser, which is unchanged.
+
+```
+build/
+├── data/vehicles/<slug>.md    # one file per entry: JSON frontmatter, then "---", then Markdown body
+├── templates/
+│   ├── _shared.js             # nav/footer/search/cookie-banner/CSS — identical on every page, defined once
+│   ├── _markdown.js           # tiny **bold**/[text](url) converter (internal links auto-get the blue-span style)
+│   └── vehicles.js            # vehicle-specific hero (photo or gradient-fallback variant) + stat-block + sections
+├── build.js                   # data + template -> build/output/vehicles/<slug>/index.html
+└── extract-vehicles.js        # one-time migration script, not part of the ongoing workflow
+```
+
+**To add or edit a vehicle entry:** write/edit `build/data/vehicles/<slug>.md` (frontmatter fields: `titleParts`, `seo`, `heroSubtitle`, `heroImage` if a real photo exists, `statBlock`, `gallery`, `connections`, `sidebarDatabase`, `sidebarExplore`; body = the Field Assessment prose in Markdown) → `node build/build.js vehicles` → copy the relevant `build/output/vehicles/<slug>/index.html` into `hub/gameplay/vehicles/<slug>/` → sitemap lastmod → commit. Same Badr-approval discipline as any other page (see Publishing rule below) — build locally, show the result, wait for the go before copying into `hub/`.
+
+**Not yet templated:** activities, animals, brands, characters, gangs-and-factions, locations, weapons, news, FAQ — still hand-written HTML exactly as described elsewhere in this file. Brands in particular have a genuinely variable number of sections per entry (confirmed 2 or 3, not a fixed count) and will need that reflected in its own template when its turn comes; nothing here commits to extending the architecture beyond vehicles until that is separately agreed.
+
 ## Design system
 
 All CSS is written inline per page inside a `<style>` block — no shared stylesheet. When adding or editing pages, replicate the existing CSS pattern exactly. Never introduce external CSS files unless explicitly agreed.

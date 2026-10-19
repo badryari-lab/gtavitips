@@ -26,7 +26,7 @@
   {"@context":"https://schema.org","@type":"Article","headline":"'95 Grotti Cheetah - GTA 6 Vehicle","description":"The '95 Grotti Cheetah is a mid-engine Italian supercar in GTA 6 Leonida. Ultimate Edition exclusive, based on the Ferrari F355.","url":"https://gtavitips.com/gameplay/vehicles/grotti-cheetah","dateModified":"2026-06-24","publisher":{"@type":"Organization","name":"GTAVITIPS","url":"https://gtavitips.com"}}
   </script>
   <style>
-    :root{--blue:#e0785f;--blue-dim:rgba(224,120,95,0.14);--blue-border:rgba(224,120,95,0.30);--pink:#4a9e93;--pink-dim:rgba(74,158,147,0.10);--paper:#ece4d3;--paper-ink:#2a2420;--green:#28a745;--green-dim:rgba(40,167,69,0.12);--amber:#ffc107;--amber-dim:rgba(255,193,7,0.12);--bg:#0b0a08;--bg-2:#131110;--bg-3:#1c1815;--bg-4:#262019;--border:rgba(255,255,255,0.055);--border-b:rgba(224,120,95,0.22);--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--r:12px;--nav-h:62px}
+    :root{--blue:#e0785f;--blue-dim:rgba(224,120,95,0.14);--blue-border:rgba(224,120,95,0.30);--pink:#4a9e93;--pink-dim:rgba(74,158,147,0.10);--paper:#ece4d3;--paper-ink:#2a2420;--green:#3ea35f;--green-dim:rgba(62,163,95,0.12);--green-border:rgba(62,163,95,0.30);--amber:#d19a3d;--amber-dim:rgba(209,154,61,0.12);--amber-border:rgba(209,154,61,0.30);--red:#c0503f;--red-dim:rgba(192,80,63,0.12);--red-border:rgba(192,80,63,0.30);--bg:#0b0a08;--bg-2:#131110;--bg-3:#1c1815;--bg-4:#262019;--border:rgba(255,255,255,0.055);--border-b:rgba(224,120,95,0.22);--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--r:12px;--nav-h:62px}
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
     body { font-family: 'Archivo', sans-serif; background: var(--bg); color: var(--t1); overflow-x: hidden; font-size: 16px; line-height: 1.6; }
@@ -37,9 +37,7 @@
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: var(--bg-4); border-radius: 99px; }
     .wrap { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
-    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
 
-    /* NAV */
     .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; height: var(--nav-h); display: flex; align-items: center; background: rgba(11,10,8,.95); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border-b); }
     .nav__inner { width: 100%; max-width: 1120px; margin: 0 auto; padding: 0 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
     .nav__logo { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--t1); flex-shrink: 0; }
@@ -68,7 +66,6 @@
     [data-theme="light"] .nav__theme-btn .icon-moon { opacity: 0; }
     [data-theme="light"] .nav__theme-btn .icon-sun { opacity: 1; }
 
-    /* NAV DROPDOWN */
     .nav__dropdown-wrap { position: relative; display: flex; align-items: center; gap: 2px; }
     .nav__dropdown-link { font-family: 'Archivo', sans-serif; font-size: 13px; font-weight: 600; color: var(--t2); text-transform: uppercase; letter-spacing: .07em; text-decoration: none; padding: 5px 0 5px 13px; transition: color .18s; }
     .nav__dropdown-btn { background: none; border: none; cursor: pointer; color: var(--t2); padding: 5px 13px 5px 0; display: flex; align-items: center; transition: color .18s; }
@@ -90,7 +87,6 @@
       .nav__dropdown li a { color: var(--t3); font-size: 12px; }
     }
 
-    /* SEARCH OVERLAY */
     .search-overlay { position: fixed; inset: 0; z-index: 300; background: rgba(11,10,8,.92); backdrop-filter: blur(24px); display: flex; align-items: flex-start; justify-content: center; padding-top: 120px; opacity: 0; pointer-events: none; transition: opacity .22s; }
     .search-overlay.open { opacity: 1; pointer-events: all; }
     .search-overlay__inner { width: 100%; max-width: 640px; padding: 0 28px; }
@@ -111,13 +107,11 @@
     .search-result__name{font-size:13px;font-weight:600;color:var(--t1);display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
     .search-overlay__nores{font-size:12px;color:var(--t3);padding:20px 0;text-align:center;}
 
-    /* PAGE LAYOUT */
     .page { padding-top: 40px; }
-
-    /* DOSSIER: stats left, gallery photo(s) right, under the hero */
     .dossier { margin: 0 0 56px; display: grid; grid-template-columns: 1fr 340px; gap: 48px; align-items: start; }
+    .dossier--stat-only { display: block; }
+    .dossier--stat-only .stat-block { max-width: 640px; }
 
-    /* STAT BLOCK */
     .stat-block { display: flex; flex-direction: column; gap: 0; background: var(--bg-2); border: 1px solid var(--border-b); border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; }
     .stat-block__item { padding: 16px 20px; border-bottom: 1px solid var(--border); }
     .stat-block__item:last-child { border-bottom: none; }
@@ -128,12 +122,10 @@
     .stat-block__wiki:hover { background: rgba(224,120,95,.22); }
     .stat-block__wiki svg { width: 11px; height: 11px; flex-shrink: 0; }
 
-    /* MAIN CONTENT */
     main { padding-bottom: 96px; }
     .content-grid { display: grid; grid-template-columns: 1fr 320px; gap: 48px; align-items: start; }
     .content-side { position: sticky; top: calc(var(--nav-h) + 24px); display: flex; flex-direction: column; gap: 14px; }
 
-    /* SECTION */
     .section { margin-bottom: 56px; }
     .section__eyebrow { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
     .section__eyebrow-line { width: 5px; height: 5px; border-radius: 50%; background: var(--pink); flex-shrink: 0; }
@@ -144,9 +136,14 @@
     .section__body p:last-child { margin-bottom: 0; }
     .section__body strong { color: var(--t1); font-weight: 600; }
 
-    /* INTEL LOG: stamped tickets, not a data table */
+    .connected-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r) 4px var(--r) 4px; padding: 16px 18px; text-decoration: none; display: flex; flex-direction: column; gap: 5px; transition: border-color .2s, transform .2s, background .2s; }
+    .conn-card:hover { border-color: var(--border-b); transform: translateY(-2px); background: var(--bg-3); }
+    .conn-card__type { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .11em; color: var(--pink); }
+    .conn-card__name { font-size: 14px; font-weight: 700; color: var(--t1); line-height: 1.2; }
+    .conn-card__desc { font-size: 12px; color: var(--t3); line-height: 1.5; margin-top: 2px; }
+    @media(max-width:580px){ .connected-grid{grid-template-columns:1fr} }
 
-    /* SIDE CALLOUT */
     .callout { background: var(--bg-2); border: 1px solid var(--border-b); border-radius: var(--r) 4px var(--r) 4px; padding: 20px; }
     .callout__title { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--t3); margin-bottom: 14px; }
     .callout__items { display: flex; flex-direction: column; gap: 8px; }
@@ -154,7 +151,10 @@
     .callout__item:hover { background: rgba(255,255,255,.04); color: var(--t1); }
     .callout__item-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--blue); flex-shrink: 0; }
 
-    /* FOOTER */
+    .entry-gallery { display: flex; flex-direction: column; gap: 12px; }
+    .entry-gallery__item { position: relative; width: 100%; padding-top: 75%; border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; border: 1px solid var(--border-b); }
+    .entry-gallery__item img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+
     .footer { border-top: 1px solid var(--border); padding: 52px 0 28px; }
     .footer__inner { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
     .footer__brand { display: flex; flex-direction: column; gap: 12px; }
@@ -168,7 +168,6 @@
     .footer__bottom { border-top: 1px solid var(--border); padding-top: 22px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
     .footer__legal { font-size: 12px; color: var(--t3); line-height: 1.6; }
 
-    /* REVEAL */
     .reveal { opacity: 0; transform: translateY(20px); transition: opacity .5s ease, transform .5s ease; }
     .reveal.on { opacity: 1; transform: none; }
     .reveal.d1 { transition-delay: .07s; }
@@ -176,7 +175,6 @@
 
     a[style*="color:var(--blue)"]{color:inherit!important;text-decoration:underline;text-decoration-color:var(--blue-border);text-underline-offset:2px;text-decoration-thickness:1px}
 
-    /* RESPONSIVE */
     @media (max-width: 1024px) {
       .dossier { grid-template-columns: 1fr; }
       .content-grid { grid-template-columns: 1fr; }
@@ -196,11 +194,11 @@
     [data-theme="dark"] { --bg:#0b0a08; --bg-2:#131110; --bg-3:#1c1815; --bg-4:#262019; --border:rgba(255,255,255,0.055); --border-b:rgba(224,120,95,0.24); --t1:#f2ede4; --t2:#a89a86; --t3:#6b5f4f; --blue:#e0785f; --blue-dim:rgba(224,120,95,.14); --blue-border:rgba(224,120,95,.30); --pink:#4a9e93; --pink-dim:rgba(74,158,147,.14); --paper-ink:#2a2420; }
     [data-theme="dark"] .nav { background: rgba(11,10,8,.95); }
 
-    /* VEHICLE HERO — full-bleed banner, matches the character/location hero pattern */
     .vehicle-hero { position: relative; min-height: 440px; display: flex; align-items: flex-end; padding-top: var(--nav-h); overflow: hidden; border-bottom: 1px solid var(--border); }
     .vehicle-hero__bg-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 32%; z-index: 0; }
     .vehicle-hero__overlay { position: absolute; inset: 0; background: linear-gradient(to top, var(--bg) 0%, rgba(11,10,8,.55) 55%, rgba(11,10,8,0) 100%); z-index: 1; }
     [data-theme="light"] .vehicle-hero__overlay { background: linear-gradient(to top, var(--bg) 0%, rgba(236,228,211,.6) 55%, rgba(236,228,211,0) 100%); }
+
     .vehicle-hero__inner { position: relative; z-index: 2; max-width: 1120px; margin: 0 auto; padding: 0 28px 34px; width: 100%; }
     .vehicle-hero__back { display: inline-flex; align-items: center; gap: 7px; font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t2); margin-bottom: 18px; transition: color .18s; text-decoration: none; }
     .vehicle-hero__back:hover { color: var(--blue); }
@@ -210,11 +208,7 @@
     .vehicle-hero__h1 span { color: var(--blue); }
     .vehicle-hero__sub { font-size: 15px; color: var(--t2); max-width: 560px; line-height: 1.65; }
     .vehicle-hero__sub strong { color: var(--t1); font-weight: 600; }
-
-    .entry-gallery { display: flex; flex-direction: column; gap: 12px; }
-    .entry-gallery__item { position: relative; width: 100%; padding-top: 75%; border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; border: 1px solid var(--border-b); }
-    .entry-gallery__item img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
-  </style>
+</style>
 </head>
 <body>
 
@@ -299,8 +293,6 @@
 
   <div class="page">
     <div class="wrap">
-
-      <!-- DOSSIER: stats left, evidence photo(s) right -->
       <div class="dossier">
         <div class="dossier__left">
           <div class="stat-block" role="list" aria-label="Vehicle stats">
@@ -317,7 +309,7 @@
               <div class="stat-block__key">Real-World Basis</div>
               <div class="stat-block__val">Ferrari F355</div>
               <div class="stat-block__sub">Mid-engine V8, rear-wheel drive, 375 horsepower from 3.5 litres. The F355 was the point where Ferrari got the formula right again.</div>
-              <a href="https://en.wikipedia.org/wiki/Ferrari_F355" target="_blank" rel="noopener noreferrer" class="stat-block__wiki" aria-label="Ferrari F355 on Wikipedia (opens in new tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>Wikipedia</a>
+              <a href="https://en.wikipedia.org/wiki/Ferrari_F355" target="_blank" rel="noopener noreferrer" class="stat-block__wiki" aria-label="Wikipedia on Wikipedia (opens in new tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>Wikipedia</a>
             </div>
             <div class="stat-block__item" role="listitem">
               <div class="stat-block__key">First Seen</div>
@@ -347,11 +339,7 @@
           <section class="section reveal" aria-labelledby="assessment-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Automotive Intel</span></div>
             <h2 class="section__h2" id="assessment-hd">Field <span style="color:var(--blue)">Assessment</span></h2>
-            <div class="section__body">
-              <p>The Cheetah name has been attached to <a href="/gameplay/brands/grotti" style="color:var(--blue)">Grotti</a>'s top-tier offering across multiple generations. The '95 spec is the mid-decade Italian formula: mid-engine placement, naturally aspirated V8, rear-wheel drive, and bodywork built for airflow rather than spectacle. It does not need to announce itself.</p>
-              <p>The Cheetah Classic is already in the database. <strong>This is not that car.</strong> The '95 variant is a different vehicle with different proportions, different power delivery, and the specific character of 1990s Italian engineering at its peak. The Classic is the later interpretation. The '95 is the origin point.</p>
-              <p>In <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a>, a mid-90s Grotti supercar reads as money that has been around long enough to stop trying to prove itself. The Cheetah sits in that space. <strong>Fast enough to be a problem, rare enough to be noticed, old enough to be taken seriously.</strong></p>
-            </div>
+            <div class="section__body"><p>The Cheetah name has been attached to <a href="/gameplay/brands/grotti" style="color:var(--blue)">Grotti</a>'s top-tier offering across multiple generations. The '95 spec is the mid-decade Italian formula: mid-engine placement, naturally aspirated V8, rear-wheel drive, and bodywork built for airflow rather than spectacle. It does not need to announce itself.</p><p>The Cheetah Classic is already in the database. <strong>This is not that car.</strong> The '95 variant is a different vehicle with different proportions, different power delivery, and the specific character of 1990s Italian engineering at its peak. The Classic is the later interpretation. The '95 is the origin point.</p><p>In <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a>, a mid-90s Grotti supercar reads as money that has been around long enough to stop trying to prove itself. The Cheetah sits in that space. <strong>Fast enough to be a problem, rare enough to be noticed, old enough to be taken seriously.</strong></p></div>
           </section>
 
           <section class="section reveal" aria-labelledby="related-hd">
@@ -360,8 +348,8 @@
             <div class="connected-grid" role="list">
               <a href="/gameplay/vehicles/grotti-cheetah-classic" class="conn-card reveal" role="listitem"><div class="conn-card__type">Vehicle</div><div class="conn-card__name">Grotti Cheetah Classic</div><div class="conn-card__desc">The later interpretation of the same nameplate. Different era, different character.</div></a>
               <a href="/gameplay/vehicles/grotti-furia" class="conn-card reveal d1" role="listitem"><div class="conn-card__type">Vehicle</div><div class="conn-card__name">Grotti Furia</div><div class="conn-card__desc">Fellow Grotti flagship, further up the lineup.</div></a>
-              <a href="/gameplay/vehicles/grotti-carbonizzare" class="conn-card reveal d2" role="listitem"><div class="conn-card__type">Vehicle</div><div class="conn-card__name">Grotti Carbonizzare</div><div class="conn-card__desc">The brand's mid-engine exotic, cut from similar cloth.</div></a>
-              <a href="/gameplay/vehicles/pegassi-zentorno" class="conn-card reveal" role="listitem"><div class="conn-card__type">Vehicle</div><div class="conn-card__name">Pegassi Zentorno</div><div class="conn-card__desc">Rival hypercar energy from across town.</div></a>
+              <a href="/gameplay/vehicles/grotti-carbonizzare" class="conn-card reveal d1" role="listitem"><div class="conn-card__type">Vehicle</div><div class="conn-card__name">Grotti Carbonizzare</div><div class="conn-card__desc">The brand's mid-engine exotic, cut from similar cloth.</div></a>
+              <a href="/gameplay/vehicles/pegassi-zentorno" class="conn-card reveal d2" role="listitem"><div class="conn-card__type">Vehicle</div><div class="conn-card__name">Pegassi Zentorno</div><div class="conn-card__desc">Rival hypercar energy from across town.</div></a>
             </div>
           </section>
 
