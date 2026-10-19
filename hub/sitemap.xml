@@ -4,8 +4,8 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
           http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://gtavitips.com/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://gtavitips.com</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1600,6 +1600,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://gtavitips.com/gameplay/activities/car-meets</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/activities/community-service</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://gtavitips.com/gameplay/animals/american-alligator</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -1937,6 +1949,48 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/brands/annis</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/brands/a1-fashions</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/brands/angstapan</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/brands/azteca-gold</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/brands/brownsteins-root-beer</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/brands/casino-rojo</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/brands/chachos-lasso-fries</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/brands/zekes-gadgets</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
