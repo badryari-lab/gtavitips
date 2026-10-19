@@ -178,12 +178,17 @@ const SHARED_CSS = `
     [data-theme="dark"] .nav { background: rgba(11,10,8,.95); }
 `;
 
-function renderHead({ title, description, ogDescription, ogImage, ogImagePlaceholder, canonical, jsonLd, extraCss }) {
+function renderHead({ title, description, ogDescription, ogImage, ogImagePlaceholder, canonical, jsonLd, extraCss, fullCss }) {
   const ogImageLine = ogImage
     ? `\n  <meta property="og:image" content="${ogImage}">`
     : ogImagePlaceholder
     ? `\n  <!-- OG IMAGE PLACEHOLDER: replace with ${ogImagePlaceholder} when available -->`
     : '';
+  // jsonLd may be one object or an array (e.g. characters: VideoGameCharacter + FAQPage) —
+  // each becomes its own <script> block, in order.
+  const jsonLdBlocks = (Array.isArray(jsonLd) ? jsonLd : [jsonLd])
+    .map((block) => `  <script type="application/ld+json">\n  ${JSON.stringify(block)}\n  </script>`)
+    .join('\n');
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -207,10 +212,8 @@ function renderHead({ title, description, ogDescription, ogImage, ogImagePlaceho
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,400;0,600;0,700;1,600&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpolygon points='0,0 48,0 64,15 64,64 0,64' fill='%23a8341f'/%3E%3Ctext x='30' y='44' font-family='Arial,sans-serif' font-size='28' font-weight='900' fill='%23ece4d3' text-anchor='middle'%3EVI%3C/text%3E%3C/svg%3E">
-  <script type="application/ld+json">
-  ${JSON.stringify(jsonLd)}
-  </script>
-  <style>${SHARED_CSS}${extraCss || ''}</style>
+${jsonLdBlocks}
+  <style>${fullCss != null ? fullCss : SHARED_CSS + (extraCss || '')}</style>
 </head>`;
 }
 
@@ -376,7 +379,7 @@ const COOKIE_BANNER_BLOCK = `  <!-- COOKIE CONSENT BANNER -->
 
 // item: { key, value, sub, wikiUrl?, wikiLabel? } — value/sub run through renderInline
 // so data files write "[Karin](/gameplay/brands/karin)" instead of raw <a> HTML.
-function renderStatBlock(items, galleryImages) {
+function renderStatBlock(items, galleryImages, statLabel) {
   const hasGallery = Array.isArray(galleryImages) && galleryImages.length > 0;
   const statItems = items
     .map((item) => {
@@ -410,7 +413,7 @@ function renderStatBlock(items, galleryImages) {
 
   return `      <div class="dossier${hasGallery ? '' : ' dossier--stat-only'}">
         <div class="dossier__left">
-          <div class="stat-block" role="list" aria-label="Vehicle stats">
+          <div class="stat-block" role="list" aria-label="${statLabel || 'Vehicle stats'}">
 ${statItems}
           </div>
         </div>
@@ -455,6 +458,46 @@ function renderSidebar(databaseTitle, databaseLinks, exploreLinks) {
         </aside>`;
 }
 
+// Flexible N-block sidebar: blocks = [{ title, items: [{label, url}] }, ...].
+// Used by categories whose sidebar isn't the fixed 2-block vehicle pattern.
+function renderSidebarBlocks(blocks) {
+  const rendered = blocks
+    .map((block, i) => {
+      const items = block.items
+        .map((l) => `<a href="${l.url}" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>${l.label}</a>`)
+        .join('\n              ');
+      return `          <div class="callout reveal${i === 0 ? '' : ' d' + Math.min(i, 2)}">
+            <div class="callout__title">${block.title}</div>
+            <div class="callout__items">
+              ${items}
+            </div>
+          </div>`;
+    })
+    .join('\n');
+  return `        <aside class="content-side" aria-label="Related intelligence">\n${rendered}\n        </aside>`;
+}
+
+// conn: { url, role, name, desc, avatarImage?: {src}, avatarInitials? }.
+// desc run through renderInline. One of avatarImage/avatarInitials must be set.
+function renderConnectionsGridAvatar(connections) {
+  return connections
+    .map((c) => {
+      const avatar = c.avatarImage
+        ? `<div class="conn-card__avatar" aria-hidden="true" style="overflow:hidden;padding:0"><img src="${c.avatarImage.src}" alt="" width="40" height="40" style="width:100%;height:100%;object-fit:cover;display:block;"></div>`
+        : `<div class="conn-card__avatar" aria-hidden="true">${c.avatarInitials}</div>`;
+      return `              <a href="${c.url}" class="conn-card reveal" role="listitem">
+                ${avatar}
+                <div class="conn-card__body">
+                  <div class="conn-card__role">${c.role}</div>
+                  <div class="conn-card__name">${c.name}</div>
+                  <div class="conn-card__desc">${renderInline(c.desc)}</div>
+                </div>
+                <div class="conn-card__arrow" aria-hidden="true">→</div>
+              </a>`;
+    })
+    .join('\n');
+}
+
 module.exports = {
   SHARED_CSS,
   renderHead,
@@ -465,4 +508,6 @@ module.exports = {
   renderStatBlock,
   renderConnectionsGrid,
   renderSidebar,
+  renderSidebarBlocks,
+  renderConnectionsGridAvatar,
 };
