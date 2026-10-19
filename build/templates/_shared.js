@@ -217,7 +217,12 @@ ${jsonLdBlocks}
 </head>`;
 }
 
-const NAV_AND_SEARCH_HTML = `<body>
+// extraMobileLink: {label, url} — some categories aren't in the base
+// mobile quick-list (Characters/Vehicles/Locations) and add a self-link
+// there (confirmed on all 21 gangs-and-factions pages, e.g. "Gangs & Factions").
+function renderNavAndSearch(extraMobileLink) {
+  const extraLinkHtml = extraMobileLink ? `\n    <a href="${extraMobileLink.url}">${extraMobileLink.label}</a>` : '';
+  return `<body>
 
   <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
     <div class="nav__inner">
@@ -264,8 +269,7 @@ const NAV_AND_SEARCH_HTML = `<body>
     <a href="/news">News</a>
     <a href="/gameplay">Database</a>
     <a href="/gameplay/characters">Characters</a>
-    <a href="/gameplay/vehicles">Vehicles</a>
-    <a href="/gameplay/locations">Locations</a>
+    <a href="/gameplay/vehicles">Vehicles</a>${extraLinkHtml || '\n    <a href="/gameplay/locations">Locations</a>'}
     <a href="/faq">FAQ</a>
     <a href="/intel-drops">Intel Drops</a>
     <a href="/map">Map</a>
@@ -284,6 +288,7 @@ const NAV_AND_SEARCH_HTML = `<body>
     </div>
   </div>
 `;
+}
 
 const FOOTER_HTML = `  <footer class="footer" role="contentinfo">
     <div class="wrap">
@@ -501,7 +506,7 @@ function renderConnectionsGridAvatar(connections) {
 module.exports = {
   SHARED_CSS,
   renderHead,
-  NAV_AND_SEARCH_HTML,
+  renderNavAndSearch,
   FOOTER_HTML,
   SHARED_SCRIPT,
   COOKIE_BANNER_BLOCK,

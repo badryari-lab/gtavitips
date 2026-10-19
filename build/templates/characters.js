@@ -2,7 +2,7 @@
 
 const {
   renderHead,
-  NAV_AND_SEARCH_HTML,
+  renderNavAndSearch,
   FOOTER_HTML,
   SHARED_SCRIPT,
   COOKIE_BANNER_BLOCK,
@@ -131,7 +131,7 @@ ${renderSidebarBlocks(sidebar)}
   </main>
 `;
 
-  return [head, NAV_AND_SEARCH_HTML, hero, dossier, main, FOOTER_HTML, SHARED_SCRIPT, COOKIE_BANNER_BLOCK].join('\n');
+  return [head, renderNavAndSearch(), hero, dossier, main, FOOTER_HTML, SHARED_SCRIPT, COOKIE_BANNER_BLOCK].join('\n');
 }
 
 module.exports = { render, renderProse: renderBlock };

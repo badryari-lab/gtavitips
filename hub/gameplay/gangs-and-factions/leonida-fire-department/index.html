@@ -26,7 +26,7 @@
   {"@context":"https://schema.org","@type":"Article","headline":"Leonida Fire Department - GTA 6 Faction Profile","description":"Leonida Fire Department in GTA 6: fire and rescue responding across the state, Vice City included.","url":"https://gtavitips.com/gameplay/gangs-and-factions/leonida-fire-department","dateModified":"2026-02-01","publisher":{"@type":"Organization","name":"GTAVITIPS","url":"https://gtavitips.com"}}
   </script>
   <style>
-    :root{--blue:#e0785f;--blue-dim:rgba(224,120,95,0.14);--blue-border:rgba(224,120,95,0.30);--pink:#4a9e93;--pink-dim:rgba(74,158,147,0.10);--paper:#ece4d3;--paper-ink:#2a2420;--green:#28a745;--green-dim:rgba(40,167,69,0.12);--amber:#ffc107;--amber-dim:rgba(255,193,7,0.12);--bg:#0b0a08;--bg-2:#131110;--bg-3:#1c1815;--bg-4:#262019;--border:rgba(255,255,255,0.055);--border-b:rgba(224,120,95,0.22);--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--r:12px;--nav-h:62px}
+    :root{--blue:#e0785f;--blue-dim:rgba(224,120,95,0.14);--blue-border:rgba(224,120,95,0.30);--pink:#4a9e93;--pink-dim:rgba(74,158,147,0.10);--paper:#ece4d3;--paper-ink:#2a2420;--green:#3ea35f;--green-dim:rgba(62,163,95,0.12);--green-border:rgba(62,163,95,0.30);--amber:#d19a3d;--amber-dim:rgba(209,154,61,0.12);--amber-border:rgba(209,154,61,0.30);--red:#c0503f;--red-dim:rgba(192,80,63,0.12);--red-border:rgba(192,80,63,0.30);--bg:#0b0a08;--bg-2:#131110;--bg-3:#1c1815;--bg-4:#262019;--border:rgba(255,255,255,0.055);--border-b:rgba(224,120,95,0.22);--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--r:12px;--nav-h:62px}
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
     body { font-family: 'Archivo', sans-serif; background: var(--bg); color: var(--t1); overflow-x: hidden; font-size: 16px; line-height: 1.6; }
@@ -118,6 +118,9 @@
     .stat-block__key { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .11em; color: var(--pink); margin-bottom: 5px; }
     .stat-block__val { font-size: 14px; font-weight: 600; color: var(--t1); line-height: 1.4; }
     .stat-block__sub { font-size: 12px; color: var(--t2); margin-top: 3px; line-height: 1.5; }
+    .stat-block__wiki { display: inline-flex; align-items: center; gap: 5px; margin-top: 8px; font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; color: var(--blue); border: 1px solid var(--blue-border); background: var(--blue-dim); padding: 4px 11px; border-radius: 99px; text-decoration: none; transition: background .18s; }
+    .stat-block__wiki:hover { background: rgba(224,120,95,.22); }
+    .stat-block__wiki svg { width: 11px; height: 11px; flex-shrink: 0; }
 
     main { padding-bottom: 96px; }
     .content-grid { display: grid; grid-template-columns: 1fr 320px; gap: 48px; align-items: start; }
@@ -147,6 +150,10 @@
     .callout__item { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--t2); text-decoration: none; padding: 8px 10px; border-radius: 8px; transition: background .18s, color .18s; }
     .callout__item:hover { background: rgba(255,255,255,.04); color: var(--t1); }
     .callout__item-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--blue); flex-shrink: 0; }
+
+    .entry-gallery { display: flex; flex-direction: column; gap: 12px; }
+    .entry-gallery__item { position: relative; width: 100%; padding-top: 75%; border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; border: 1px solid var(--border-b); }
+    .entry-gallery__item img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 
     .footer { border-top: 1px solid var(--border); padding: 52px 0 28px; }
     .footer__inner { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
@@ -192,6 +199,7 @@
     .faction-hero__bg-graphic svg { position: absolute; right: -4%; top: 50%; transform: translateY(-50%); width: 42%; max-width: 460px; opacity: .07; color: var(--pink); }
     .faction-hero__overlay { position: absolute; inset: 0; background: linear-gradient(to top, var(--bg) 0%, rgba(11,10,8,.4) 55%, rgba(11,10,8,0) 100%); z-index: 1; }
     [data-theme="light"] .faction-hero__overlay { background: linear-gradient(to top, var(--bg) 0%, rgba(236,228,211,.45) 55%, rgba(236,228,211,0) 100%); }
+
     .faction-hero__inner { position: relative; z-index: 2; max-width: 1120px; margin: 0 auto; padding: 0 28px 34px; width: 100%; }
     .faction-hero__back { display: inline-flex; align-items: center; gap: 7px; font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t2); margin-bottom: 18px; transition: color .18s; text-decoration: none; }
     .faction-hero__back:hover { color: var(--blue); }
@@ -201,7 +209,7 @@
     .faction-hero__h1 span { color: var(--blue); }
     .faction-hero__sub { font-size: 15px; color: var(--t2); max-width: 560px; line-height: 1.65; }
     .faction-hero__sub strong { color: var(--t1); font-weight: 600; }
-  </style>
+</style>
 </head>
 <body>
 
@@ -288,7 +296,6 @@
 
   <div class="page">
     <div class="wrap">
-
       <div class="dossier dossier--stat-only">
         <div class="dossier__left">
           <div class="stat-block" role="list" aria-label="Faction stats">
@@ -323,11 +330,7 @@
           <section class="section reveal" aria-labelledby="intel-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Organizational Intelligence</span></div>
             <h2 class="section__h2" id="intel-hd">Faction <span style="color:var(--blue)">Profile</span></h2>
-            <div class="section__body">
-              <p>The Leonida Fire Department covers the full range of fire and rescue scenarios that a state with <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> at its center generates. Structure fires in the dense hotel and commercial zones. Vehicle fires on the <a href="/gameplay/locations/vice-county" style="color:var(--blue)">Vice County</a> highway network. Boat fires in the Keys marina. And the specific category of large structural fire that the fire has always served as a set piece.</p>
-              <p>Vice City's building density and the materials that go into Vice City nightlife create a fire risk profile that the department manages continuously. The Art Deco buildings of <a href="/gameplay/locations/south-beach" style="color:var(--blue)">South Beach</a> are beautiful. The electrical infrastructure behind the facades is vintage. <strong>The fire department knows which blocks have the oldest wiring.</strong></p>
-              <p>Water rescue is the Keys and <a href="/gameplay/locations/grassrivers" style="color:var(--blue)">Grassrivers</a> operation. The fire department covers maritime rescue in coordination with the Coast Guard on the outer water. In the Grassrivers, the fire department's airboat capability overlaps with the Animal Control and EMS coverage of the wetland system. All three agencies occasionally arrive at the same incident from different directions.</p>
-            </div>
+            <div class="section__body"><p>The Leonida Fire Department covers the full range of fire and rescue scenarios that a state with <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> at its center generates. Structure fires in the dense hotel and commercial zones. Vehicle fires on the <a href="/gameplay/locations/vice-county" style="color:var(--blue)">Vice County</a> highway network. Boat fires in the Keys marina. And the specific category of large structural fire that the fire has always served as a set piece.</p><p>Vice City's building density and the materials that go into Vice City nightlife create a fire risk profile that the department manages continuously. The Art Deco buildings of <a href="/gameplay/locations/south-beach" style="color:var(--blue)">South Beach</a> are beautiful. The electrical infrastructure behind the facades is vintage. <strong>The fire department knows which blocks have the oldest wiring.</strong></p><p>Water rescue is the Keys and <a href="/gameplay/locations/grassrivers" style="color:var(--blue)">Grassrivers</a> operation. The fire department covers maritime rescue in coordination with the Coast Guard on the outer water. In the Grassrivers, the fire department's airboat capability overlaps with the Animal Control and EMS coverage of the wetland system. All three agencies occasionally arrive at the same incident from different directions.</p></div>
           </section>
 
           <section class="section reveal" aria-labelledby="connected-hd">
@@ -336,13 +339,13 @@
             <div class="connected-grid" role="list">
               <a href="/gameplay/gangs-and-factions/leonida-ems" class="conn-card reveal" role="listitem"><div class="conn-card__type">Agency</div><div class="conn-card__name">Leonida EMS</div><div class="conn-card__desc">Joint response to major incidents. Fire and EMS operate from the same incident scenes.</div></a>
               <a href="/gameplay/gangs-and-factions/vcpd" class="conn-card reveal d1" role="listitem"><div class="conn-card__type">Agency</div><div class="conn-card__name">VCPD</div><div class="conn-card__desc">Law enforcement at shared scenes. The three-agency response structure confirmed.</div></a>
-              <a href="/gameplay/locations/vice-city" class="conn-card reveal d2" role="listitem"><div class="conn-card__type">Location</div><div class="conn-card__name">Vice City</div><div class="conn-card__desc">Highest call volume environment. Building density and nightlife generate the most complex fire scenarios.</div></a>
+              <a href="/gameplay/locations/vice-city" class="conn-card reveal d1" role="listitem"><div class="conn-card__type">Location</div><div class="conn-card__name">Vice City</div><div class="conn-card__desc">Highest call volume environment. Building density and nightlife generate the most complex fire scenarios.</div></a>
               <a href="/gameplay/locations/grassrivers" class="conn-card reveal d2" role="listitem"><div class="conn-card__type">Location</div><div class="conn-card__name">Grassrivers</div><div class="conn-card__desc">Wetland rescue territory. Fire department airboat coverage in the swamp system.</div></a>
             </div>
           </section>
 
         </div>
-        <aside class="content-side" aria-label="Faction navigation">
+        <aside class="content-side" aria-label="Vehicle navigation">
           <div class="callout reveal">
             <div class="callout__title">Factions Index</div>
             <div class="callout__items">

@@ -2,7 +2,7 @@
 
 const {
   renderHead,
-  NAV_AND_SEARCH_HTML,
+  renderNavAndSearch,
   FOOTER_HTML,
   SHARED_SCRIPT,
   COOKIE_BANNER_BLOCK,
@@ -126,7 +126,7 @@ ${renderSidebar('Vehicle Database', sidebarDatabase, sidebarExplore)}
   </main>
 `;
 
-  return [head, NAV_AND_SEARCH_HTML, hero, dossier, main, FOOTER_HTML, SHARED_SCRIPT, COOKIE_BANNER_BLOCK].join('\n');
+  return [head, renderNavAndSearch(), hero, dossier, main, FOOTER_HTML, SHARED_SCRIPT, COOKIE_BANNER_BLOCK].join('\n');
 }
 
 // renderBlock is re-exported so build.js can turn a data file's Markdown body
