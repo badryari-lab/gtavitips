@@ -28,7 +28,7 @@
   {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is the convenience store robbery a mission or repeatable?","acceptedAnswer":{"@type":"Answer","text":"Both. The Trailer 1 corner store robbery is a story moment. But Vice City supports repeatable robbery as an activity, stores, armored trucks, and targets throughout the map."}},{"@type":"Question","name":"Is there a CCTV mechanic?","acceptedAnswer":{"@type":"Answer","text":"Reported. Trailer 1 shows a CCTV camera directly above Jason during the convenience store robbery. Community analysis: being caught on camera immediately alerts police. The camera placement in the shot is deliberate."}},{"@type":"Question","name":"Does crime scale affect the wanted level?","acceptedAnswer":{"@type":"Answer","text":"Yes. Small store robberies and major heists generate different law enforcement responses. The wanted level system connects to the scale and visibility of the crime."}}]}
   </script>
   <style>
-    :root{--blue:#e0785f;--blue-dim:rgba(224,120,95,0.14);--blue-border:rgba(224,120,95,0.30);--pink:#4a9e93;--pink-dim:rgba(74,158,147,0.10);--paper:#ece4d3;--paper-ink:#2a2420;--green:#28a745;--green-dim:rgba(40,167,69,0.12);--amber:#ffc107;--amber-dim:rgba(255,193,7,0.12);--bg:#0b0a08;--bg-2:#131110;--bg-3:#1c1815;--bg-4:#262019;--border:rgba(255,255,255,0.055);--border-b:rgba(224,120,95,0.22);--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--r:12px;--nav-h:62px}
+    :root{--blue:#e0785f;--blue-dim:rgba(224,120,95,0.14);--blue-border:rgba(224,120,95,0.30);--pink:#4a9e93;--pink-dim:rgba(74,158,147,0.10);--paper:#ece4d3;--paper-ink:#2a2420;--green:#3ea35f;--green-dim:rgba(62,163,95,0.12);--green-border:rgba(62,163,95,0.30);--amber:#d19a3d;--amber-dim:rgba(209,154,61,0.12);--amber-border:rgba(209,154,61,0.30);--red:#c0503f;--red-dim:rgba(192,80,63,0.12);--red-border:rgba(192,80,63,0.30);--bg:#0b0a08;--bg-2:#131110;--bg-3:#1c1815;--bg-4:#262019;--border:rgba(255,255,255,0.055);--border-b:rgba(224,120,95,0.22);--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--r:12px;--nav-h:62px}
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
     body { font-family: 'Archivo', sans-serif; background: var(--bg); color: var(--t1); overflow-x: hidden; font-size: 16px; line-height: 1.6; }
@@ -109,8 +109,10 @@
     .search-result__name{font-size:13px;font-weight:600;color:var(--t1);display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
     .search-overlay__nores{font-size:12px;color:var(--t3);padding:20px 0;text-align:center;}
 
-    .dossier { margin: 32px 0 56px; display: block; }
-    .dossier .stat-block { max-width: 640px; }
+    .page { padding-top: 40px; }
+    .dossier { margin: 0 0 56px; display: grid; grid-template-columns: 1fr 340px; gap: 48px; align-items: start; }
+    .dossier--stat-only { display: block; }
+    .dossier--stat-only .stat-block { max-width: 640px; }
 
     .stat-block { display: flex; flex-direction: column; gap: 0; background: var(--bg-2); border: 1px solid var(--border-b); border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; }
     .stat-block__item { padding: 16px 20px; border-bottom: 1px solid var(--border); }
@@ -118,6 +120,9 @@
     .stat-block__key { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .11em; color: var(--pink); margin-bottom: 5px; }
     .stat-block__val { font-size: 14px; font-weight: 600; color: var(--t1); line-height: 1.4; }
     .stat-block__sub { font-size: 12px; color: var(--t2); margin-top: 3px; line-height: 1.5; }
+    .stat-block__wiki { display: inline-flex; align-items: center; gap: 5px; margin-top: 8px; font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; color: var(--blue); border: 1px solid var(--blue-border); background: var(--blue-dim); padding: 4px 11px; border-radius: 99px; text-decoration: none; transition: background .18s; }
+    .stat-block__wiki:hover { background: rgba(224,120,95,.22); }
+    .stat-block__wiki svg { width: 11px; height: 11px; flex-shrink: 0; }
 
     main { padding-bottom: 96px; }
     .content-grid { display: grid; grid-template-columns: 1fr 320px; gap: 48px; align-items: start; }
@@ -133,25 +138,13 @@
     .section__body p:last-child { margin-bottom: 0; }
     .section__body strong { color: var(--t1); font-weight: 600; }
 
-    .connections { display: flex; flex-direction: column; gap: 8px; }
-    .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r) 4px var(--r) 4px; padding: 16px 18px; display: flex; align-items: center; gap: 16px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; }
-    .conn-card:hover { border-color: var(--border-b); transform: translateX(4px); background: var(--bg-3); }
-    .conn-card__avatar { width: 56px; height: 56px; border-radius: 8px; background: var(--bg-3); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-family: 'Anton', sans-serif; font-size: 15px; font-weight: 400; color: var(--blue); text-transform: uppercase; flex-shrink: 0; }
-    .conn-card__body { flex: 1; min-width: 0; }
-    .conn-card__role { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .10em; color: var(--pink); margin-bottom: 3px; }
+    .connected-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r) 4px var(--r) 4px; padding: 16px 18px; text-decoration: none; display: flex; flex-direction: column; gap: 5px; transition: border-color .2s, transform .2s, background .2s; }
+    .conn-card:hover { border-color: var(--border-b); transform: translateY(-2px); background: var(--bg-3); }
+    .conn-card__type { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .11em; color: var(--pink); }
     .conn-card__name { font-size: 14px; font-weight: 700; color: var(--t1); line-height: 1.2; }
-    .conn-card__desc { font-size: 12px; color: var(--t3); margin-top: 2px; line-height: 1.4; }
-    .conn-card__arrow { font-size: 16px; color: var(--t3); transition: color .2s, transform .2s; flex-shrink: 0; }
-    .conn-card:hover .conn-card__arrow { color: var(--blue); transform: translateX(3px); }
-
-    .faq-list { display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
-    .faq-item { border-bottom: 1px solid var(--border); }
-    .faq-item:last-child { border-bottom: none; }
-    .faq-q { list-style: none; cursor: pointer; padding: 18px 22px; font-size: 14px; font-weight: 700; color: var(--t1); line-height: 1.4; display: flex; align-items: center; justify-content: space-between; gap: 14px; }
-    .faq-q::-webkit-details-marker { display: none; }
-    .faq-q svg { width: 15px; height: 15px; flex-shrink: 0; color: var(--t3); transition: transform .2s; }
-    .faq-item[open] .faq-q svg { transform: rotate(180deg); }
-    .faq-a { padding: 0 22px 18px; font-size: 13px; color: var(--t2); line-height: 1.75; }
+    .conn-card__desc { font-size: 12px; color: var(--t3); line-height: 1.5; margin-top: 2px; }
+    @media(max-width:580px){ .connected-grid{grid-template-columns:1fr} }
 
     .callout { background: var(--bg-2); border: 1px solid var(--border-b); border-radius: var(--r) 4px var(--r) 4px; padding: 20px; }
     .callout__title { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--t3); margin-bottom: 14px; }
@@ -159,6 +152,10 @@
     .callout__item { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--t2); text-decoration: none; padding: 8px 10px; border-radius: 8px; transition: background .18s, color .18s; }
     .callout__item:hover { background: rgba(255,255,255,.04); color: var(--t1); }
     .callout__item-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--blue); flex-shrink: 0; }
+
+    .entry-gallery { display: flex; flex-direction: column; gap: 12px; }
+    .entry-gallery__item { position: relative; width: 100%; padding-top: 75%; border-radius: var(--r) 4px var(--r) 4px; overflow: hidden; border: 1px solid var(--border-b); }
+    .entry-gallery__item img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 
     .footer { border-top: 1px solid var(--border); padding: 52px 0 28px; }
     .footer__inner { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
@@ -177,9 +174,11 @@
     .reveal.on { opacity: 1; transform: none; }
     .reveal.d1 { transition-delay: .07s; }
     .reveal.d2 { transition-delay: .14s; }
-    .reveal.d3 { transition-delay: .21s; }
+
+    a[style*="color:var(--blue)"]{color:inherit!important;text-decoration:underline;text-decoration-color:var(--blue-border);text-underline-offset:2px;text-decoration-thickness:1px}
 
     @media (max-width: 1024px) {
+      .dossier { grid-template-columns: 1fr; }
       .content-grid { grid-template-columns: 1fr; }
       .content-side { position: static; flex-direction: row; flex-wrap: wrap; }
       .content-side > * { flex: 1 1 260px; }
@@ -197,6 +196,27 @@
     [data-theme="dark"] { --bg:#0b0a08; --bg-2:#131110; --bg-3:#1c1815; --bg-4:#262019; --border:rgba(255,255,255,0.055); --border-b:rgba(224,120,95,0.24); --t1:#f2ede4; --t2:#a89a86; --t3:#6b5f4f; --blue:#e0785f; --blue-dim:rgba(224,120,95,.14); --blue-border:rgba(224,120,95,.30); --pink:#4a9e93; --pink-dim:rgba(74,158,147,.14); --paper-ink:#2a2420; }
     [data-theme="dark"] .nav { background: rgba(11,10,8,.95); }
 
+    .dossier { margin: 32px 0 56px; display: block; }
+    .dossier .stat-block { max-width: 640px; }
+    .connections { display: flex; flex-direction: column; gap: 8px; }
+    .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r) 4px var(--r) 4px; padding: 16px 18px; display: flex; align-items: center; gap: 16px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; }
+    .conn-card:hover { border-color: var(--border-b); transform: translateX(4px); background: var(--bg-3); }
+    .conn-card__avatar { width: 56px; height: 56px; border-radius: 8px; background: var(--bg-3); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-family: 'Anton', sans-serif; font-size: 15px; font-weight: 400; color: var(--blue); text-transform: uppercase; flex-shrink: 0; }
+    .conn-card__body { flex: 1; min-width: 0; }
+    .conn-card__role { font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .10em; color: var(--pink); margin-bottom: 3px; }
+    .conn-card__name { font-size: 14px; font-weight: 700; color: var(--t1); line-height: 1.2; }
+    .conn-card__desc { font-size: 12px; color: var(--t3); margin-top: 2px; line-height: 1.4; }
+    .conn-card__arrow { font-size: 16px; color: var(--t3); transition: color .2s, transform .2s; flex-shrink: 0; }
+    .conn-card:hover .conn-card__arrow { color: var(--blue); transform: translateX(3px); }
+    .faq-list { display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-q { list-style: none; cursor: pointer; padding: 18px 22px; font-size: 14px; font-weight: 700; color: var(--t1); line-height: 1.4; display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+    .faq-q::-webkit-details-marker { display: none; }
+    .faq-q svg { width: 15px; height: 15px; flex-shrink: 0; color: var(--t3); transition: transform .2s; }
+    .faq-item[open] .faq-q svg { transform: rotate(180deg); }
+    .faq-a { padding: 0 22px 18px; font-size: 13px; color: var(--t2); line-height: 1.75; }
+    .reveal.d3 { transition-delay: .21s; }
     .activity-hero { position: relative; min-height: 420px; display: flex; align-items: flex-end; padding-top: var(--nav-h); overflow: hidden; border-bottom: 1px solid var(--border); }
     .activity-hero__bg-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 35%; z-index: 0; }
     .activity-hero__bg-graphic { position: absolute; inset: 0; background: linear-gradient(155deg, var(--bg-3) 0%, var(--bg-2) 55%, var(--bg) 100%); overflow: hidden; }
@@ -212,7 +232,7 @@
     .activity-hero__h1 span { color: var(--blue); }
     .activity-hero__sub { font-size: 15px; color: var(--t2); max-width: 560px; line-height: 1.65; }
     .activity-hero__sub strong { color: var(--t1); font-weight: 600; }
-  </style>
+</style>
 </head>
 <body>
 
@@ -282,7 +302,9 @@
   </div>
 
   <header class="activity-hero">
-    <div class="activity-hero__bg-graphic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.6"><circle cx="12" cy="12" r="9.5"/><circle cx="12" cy="12" r="6.2"/><circle cx="12" cy="12" r="2.6"/></svg></div>
+    <div class="activity-hero__bg-graphic" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 1v4M12 19v4M1 12h4M19 12h4"/></svg>
+    </div>
     <div class="activity-hero__overlay" aria-hidden="true"></div>
     <div class="activity-hero__inner">
       <a href="/gameplay/activities" class="activity-hero__back">
@@ -302,17 +324,6 @@
           <div class="stat-block__item" role="listitem">
             <div class="stat-block__key">Type</div>
             <div class="stat-block__val">Criminal / Core Activity</div>
-            <div class="stat-block__sub">Property crime at all scales from convenience store holdups to major heist operations.</div>
-          </div>
-          <div class="stat-block__item" role="listitem">
-            <div class="stat-block__key">Setting</div>
-            <div class="stat-block__val">Statewide</div>
-            <div class="stat-block__sub">Every commercial property in Leonida is a potential target. Scale determines the planning requirement and the response.</div>
-          </div>
-          <div class="stat-block__item" role="listitem">
-            <div class="stat-block__key">Real-World Basis</div>
-            <div class="stat-block__val">Florida Property Crime</div>
-            <div class="stat-block__sub">The real Florida commercial crime landscape. Convenience stores, pharmacies, cash businesses, and the larger targets that require planning.</div>
           </div>
         </div>
       </div>
@@ -327,52 +338,49 @@
           <section class="section reveal" aria-labelledby="overview-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Activity Overview</span></div>
             <h2 class="section__h2" id="overview-hd">Dossier</h2>
-            <div class="section__body">
-              <p>Robbery is confirmed explicitly in Trailer 1 with Jason and Lucia exiting a <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> convenience store during a holdup. The activity spans from the opportunistic small-scale store robbery to the planned heist operation. <strong>Both ends of the spectrum are present in the activity.</strong></p><p>The convenience store robbery is the baseline. Fast, simple, low planning requirement, and low reward per individual hit but high frequency of available targets. The armored car robbery is the mid-tier: Brute Security vehicles on their routes, higher yield, and a response that comes with the vehicle rather than arriving from outside.</p>
-          <p>Small robbery mechanics: enter the premises, display a weapon, manage the staff and customer response, collect the cash, and exit before the VCPD arrives. <strong>Speed is the primary variable.</strong> A fast small robbery generates minimal response. A slow one gives the staff time to trigger an alarm.</p><p>Large-scale robbery is the heist framework. Planning, crew management, approach routes, and the layered response that a major <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> target generates. The heist framework in Leonida with the Leonida context: Vice City financial infrastructure, Port Gellhorn cargo, and the targets that the criminal economy provides.</p>
-            </div>
+            <div class="section__body"><p>Robbery is confirmed explicitly in Trailer 1 with Jason and Lucia exiting a <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> convenience store during a holdup. The activity spans from the opportunistic small-scale store robbery to the planned heist operation. <strong>Both ends of the spectrum are present in the activity.</strong></p><p>The convenience store robbery is the baseline. Fast, simple, low planning requirement, and low reward per individual hit but high frequency of available targets. The armored car robbery is the mid-tier: Brute Security vehicles on their routes, higher yield, and a response that comes with the vehicle rather than arriving from outside.</p><p>Small robbery mechanics: enter the premises, display a weapon, manage the staff and customer response, collect the cash, and exit before the VCPD arrives. <strong>Speed is the primary variable.</strong> A fast small robbery generates minimal response. A slow one gives the staff time to trigger an alarm.</p><p>Large-scale robbery is the heist framework. Planning, crew management, approach routes, and the layered response that a major <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> target generates. The heist framework in Leonida with the Leonida context: Vice City financial infrastructure, Port Gellhorn cargo, and the targets that the criminal economy provides.</p></div>
           </section>
 
           <section class="section reveal" aria-labelledby="connections-hd">
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Filed Connections</span></div>
             <h2 class="section__h2" id="connections-hd">Known Connections</h2>
             <div class="connections" role="list">
-          <a href="/gameplay/activities/selling-drugs" class="conn-card reveal" role="listitem">
-            <div class="conn-card__avatar" aria-hidden="true">SD</div>
-            <div class="conn-card__body">
-              <div class="conn-card__role">Activity</div>
-              <div class="conn-card__name">Selling Drugs</div>
-              <div class="conn-card__desc">Both are crime. One is opportunistic, the other is operational.</div>
-            </div>
-            <div class="conn-card__arrow" aria-hidden="true">&#8594;</div>
-          </a>
-          <a href="/gameplay/characters/jason-duval" class="conn-card reveal d1" role="listitem">
-            <div class="conn-card__avatar" aria-hidden="true" style="overflow:hidden;padding:0"><img src="/assets/images/jason-duval-gta-6-character-05.jpg" alt="" width="56" height="56" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-            <div class="conn-card__body">
-              <div class="conn-card__role">Character</div>
-              <div class="conn-card__name">Jason Duval</div>
-              <div class="conn-card__desc">Him and Lucia, a convenience store, masks on. It's where the story starts.</div>
-            </div>
-            <div class="conn-card__arrow" aria-hidden="true">&#8594;</div>
-          </a>
-          <a href="/gameplay/locations/leonida-keys" class="conn-card reveal d2" role="listitem">
-            <div class="conn-card__avatar" aria-hidden="true">LK</div>
-            <div class="conn-card__body">
-              <div class="conn-card__role">Location</div>
-              <div class="conn-card__name">Leonida Keys</div>
-              <div class="conn-card__desc">The Keys corridor where Jason and Lucia operate before the bigger jobs.</div>
-            </div>
-            <div class="conn-card__arrow" aria-hidden="true">&#8594;</div>
-          </a>
-          <a href="/gameplay/vehicles/bravado-buffalo" class="conn-card reveal d3" role="listitem">
-            <div class="conn-card__avatar" aria-hidden="true">BB</div>
-            <div class="conn-card__body">
-              <div class="conn-card__role">Vehicle</div>
-              <div class="conn-card__name">Bravado Buffalo</div>
-              <div class="conn-card__desc">The getaway car. Built for exactly this kind of exit.</div>
-            </div>
-            <div class="conn-card__arrow" aria-hidden="true">&#8594;</div>
-          </a>
+              <a href="/gameplay/activities/selling-drugs" class="conn-card reveal" role="listitem">
+                <div class="conn-card__avatar" aria-hidden="true">SD</div>
+                <div class="conn-card__body">
+                  <div class="conn-card__role">Activity</div>
+                  <div class="conn-card__name">Selling Drugs</div>
+                  <div class="conn-card__desc">Both are crime. One is opportunistic, the other is operational.</div>
+                </div>
+                <div class="conn-card__arrow" aria-hidden="true">→</div>
+              </a>
+              <a href="/gameplay/characters/jason-duval" class="conn-card reveal" role="listitem">
+                <div class="conn-card__avatar" aria-hidden="true" style="overflow:hidden;padding:0"><img src="/assets/images/jason-duval-gta-6-character-05.jpg" alt="" width="40" height="40" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+                <div class="conn-card__body">
+                  <div class="conn-card__role">Character</div>
+                  <div class="conn-card__name">Jason Duval</div>
+                  <div class="conn-card__desc">Him and Lucia, a convenience store, masks on. It's where the story starts.</div>
+                </div>
+                <div class="conn-card__arrow" aria-hidden="true">→</div>
+              </a>
+              <a href="/gameplay/locations/leonida-keys" class="conn-card reveal" role="listitem">
+                <div class="conn-card__avatar" aria-hidden="true">LK</div>
+                <div class="conn-card__body">
+                  <div class="conn-card__role">Location</div>
+                  <div class="conn-card__name">Leonida Keys</div>
+                  <div class="conn-card__desc">The Keys corridor where Jason and Lucia operate before the bigger jobs.</div>
+                </div>
+                <div class="conn-card__arrow" aria-hidden="true">→</div>
+              </a>
+              <a href="/gameplay/vehicles/bravado-buffalo" class="conn-card reveal" role="listitem">
+                <div class="conn-card__avatar" aria-hidden="true">BB</div>
+                <div class="conn-card__body">
+                  <div class="conn-card__role">Vehicle</div>
+                  <div class="conn-card__name">Bravado Buffalo</div>
+                  <div class="conn-card__desc">The getaway car. Built for exactly this kind of exit.</div>
+                </div>
+                <div class="conn-card__arrow" aria-hidden="true">→</div>
+              </a>
             </div>
           </section>
 
@@ -380,48 +388,41 @@
             <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Frequently Asked</span></div>
             <h2 class="section__h2" id="faq-hd">Frequently Asked</h2>
             <div class="faq-list">
-
-          <details class="faq-item">
-            <summary class="faq-q">
-              Is the convenience store robbery a mission or repeatable?
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-            </summary>
-            <div class="faq-a"><strong>Both.</strong> The Trailer 1 corner store robbery is a story moment. But Vice City supports repeatable robbery as an activity, stores, armored trucks, and targets throughout the map.</div>
-          </details>
-
-          <details class="faq-item">
-            <summary class="faq-q">
-              Is there a CCTV mechanic?
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-            </summary>
-            <div class="faq-a"><strong>Reported.</strong> Trailer 1 shows a CCTV camera directly above Jason during the convenience store robbery. Community analysis: being caught on camera immediately alerts police. The camera placement in the shot is deliberate.</div>
-          </details>
-
-          <details class="faq-item">
-            <summary class="faq-q">
-              Does crime scale affect the wanted level?
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-            </summary>
-            <div class="faq-a"><strong>Yes.</strong> Small store robberies and major heists generate different law enforcement responses. The wanted level system connects to the scale and visibility of the crime.</div>
-          </details>
-
+              <details class="faq-item">
+                <summary class="faq-q">Is the convenience store robbery a mission or repeatable?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+                <div class="faq-a"><strong>Both.</strong> The Trailer 1 corner store robbery is a story moment. But Vice City supports repeatable robbery as an activity, stores, armored trucks, and targets throughout the map.</div>
+              </details>
+              <details class="faq-item">
+                <summary class="faq-q">Is there a CCTV mechanic?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+                <div class="faq-a"><strong>Reported.</strong> Trailer 1 shows a CCTV camera directly above Jason during the convenience store robbery. Community analysis: being caught on camera immediately alerts police. The camera placement in the shot is deliberate.</div>
+              </details>
+              <details class="faq-item">
+                <summary class="faq-q">Does crime scale affect the wanted level?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+                <div class="faq-a"><strong>Yes.</strong> Small store robberies and major heists generate different law enforcement responses. The wanted level system connects to the scale and visibility of the crime.</div>
+              </details>
             </div>
           </section>
 
         </div>
         <aside class="content-side" aria-label="Activity navigation">
-          <div class="callout reveal"><div class="callout__title">Activities Index</div><div class="callout__items">
-        <a href="/gameplay/activities" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>All Activities</a>
-        <a href="/gameplay/activities/racing" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Racing</a>
-        <a href="/gameplay/activities/fishing" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Fishing</a>
-        <a href="/gameplay/activities/gambling" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Gambling</a>
-          </div></div>
-          <div class="callout reveal d1"><div class="callout__title">Explore Database</div><div class="callout__items">
-        <a href="/gameplay/locations" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Locations</a>
-        <a href="/gameplay/characters" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Characters</a>
-        <a href="/gameplay/vehicles" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Vehicles</a>
-        <a href="/gameplay/gangs-and-factions" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Factions</a>
-          </div></div>
+          <div class="callout reveal">
+            <div class="callout__title">Activities Index</div>
+            <div class="callout__items">
+              <a href="/gameplay/activities" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>All Activities</a>
+              <a href="/gameplay/activities/racing" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Racing</a>
+              <a href="/gameplay/activities/fishing" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Fishing</a>
+              <a href="/gameplay/activities/gambling" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Gambling</a>
+            </div>
+          </div>
+          <div class="callout reveal d1">
+            <div class="callout__title">Explore Database</div>
+            <div class="callout__items">
+              <a href="/gameplay/locations" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Locations</a>
+              <a href="/gameplay/characters" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Characters</a>
+              <a href="/gameplay/vehicles" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Vehicles</a>
+              <a href="/gameplay/gangs-and-factions" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>Factions</a>
+            </div>
+          </div>
         </aside>
       </div>
     </div>
