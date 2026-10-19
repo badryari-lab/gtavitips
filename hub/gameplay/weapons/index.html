@@ -136,6 +136,7 @@
     main{padding-bottom:96px}
     .reveal{opacity:0;transform:translateY(20px);transition:opacity .5s ease,transform .5s ease}
     .reveal.on{opacity:1;transform:none}
+    @media (prefers-reduced-motion: reduce){.reveal{opacity:1;transform:none;transition:none}}
     @media(max-width:900px){.card-grid{grid-template-columns:1fr 1fr}.footer__inner{grid-template-columns:1fr 1fr}}
     @media(max-width:860px){.nav__dropdown-wrap{width:100%}.nav__dropdown-btn{width:100%;justify-content:space-between;padding:11px 14px;font-size:13px;background:none;border-radius:9px}.nav__dropdown{position:static;transform:none;opacity:1;pointer-events:all;box-shadow:none;border:none;border-radius:0;background:none;padding:0 0 0 14px;display:none}.nav__dropdown-wrap.open .nav__dropdown{display:block;transform:none}.nav__dropdown li a{color:var(--t3);font-size:12px}}
     @media(max-width:580px){.card-grid{grid-template-columns:1fr}}

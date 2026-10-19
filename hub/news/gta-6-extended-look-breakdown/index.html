@@ -147,6 +147,7 @@
     .related-card__title{font-size:14px;font-weight:700;color:var(--t1);line-height:1.3;}
     .reveal{opacity:0;transform:translateY(20px);transition:opacity .5s ease,transform .5s ease;}
     .reveal.on{opacity:1;transform:none;}
+    @media (prefers-reduced-motion: reduce){.reveal{opacity:1;transform:none;transition:none}}
 
     /* COMMENTS */
     .comments-section{padding:44px 24px 52px;max-width:780px;margin:0 auto;}

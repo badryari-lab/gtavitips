@@ -122,6 +122,7 @@
     .footer__legal{font-size:12px;color:var(--t3);line-height:1.6}
     .reveal{opacity:0;transform:translateY(20px);transition:opacity .5s ease,transform .5s ease}
     .reveal.on{opacity:1;transform:none}
+    @media (prefers-reduced-motion: reduce){.reveal{opacity:1;transform:none;transition:none}}
  
     [data-theme="light"] { --bg:#ece4d3;--bg-2:#f6f1e6;--bg-3:#e3d8c2;--bg-4:#d6c9ac;--border:rgba(42,36,32,.10);--border-b:rgba(168,68,44,.28);--t1:#211c17;--t2:#5a4f40;--t3:#8c7f68;--blue:#a8442c;--blue-dim:rgba(168,68,44,.12);--blue-border:rgba(168,68,44,.30);--pink:#2c6b61;--paper-ink:#211c17; }
     [data-theme="light"] .nav { background: rgba(236,228,211,.95); }
