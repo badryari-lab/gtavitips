@@ -440,14 +440,14 @@ function renderConnectionsGrid(connections) {
 }
 
 // links: [{label, url}] for both the "this category" and "explore" callouts.
-function renderSidebar(databaseTitle, databaseLinks, exploreLinks) {
+function renderSidebar(databaseTitle, databaseLinks, exploreLinks, ariaLabel) {
   const dbItems = databaseLinks
     .map((l) => `<a href="${l.url}" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>${l.label}</a>`)
     .join('\n              ');
   const exploreItems = exploreLinks
     .map((l) => `<a href="${l.url}" class="callout__item"><span class="callout__item-dot" aria-hidden="true"></span>${l.label}</a>`)
     .join('\n              ');
-  return `        <aside class="content-side" aria-label="Vehicle navigation">
+  return `        <aside class="content-side" aria-label="${ariaLabel || 'Vehicle navigation'}">
           <div class="callout reveal">
             <div class="callout__title">${databaseTitle}</div>
             <div class="callout__items">
@@ -465,7 +465,7 @@ function renderSidebar(databaseTitle, databaseLinks, exploreLinks) {
 
 // Flexible N-block sidebar: blocks = [{ title, items: [{label, url}] }, ...].
 // Used by categories whose sidebar isn't the fixed 2-block vehicle pattern.
-function renderSidebarBlocks(blocks) {
+function renderSidebarBlocks(blocks, ariaLabel) {
   const rendered = blocks
     .map((block, i) => {
       const items = block.items
@@ -479,7 +479,7 @@ function renderSidebarBlocks(blocks) {
           </div>`;
     })
     .join('\n');
-  return `        <aside class="content-side" aria-label="Related intelligence">\n${rendered}\n        </aside>`;
+  return `        <aside class="content-side" aria-label="${ariaLabel || 'Related intelligence'}">\n${rendered}\n        </aside>`;
 }
 
 // conn: { url, role, name, desc, avatarImage?: {src}, avatarInitials? }.

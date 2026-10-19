@@ -115,7 +115,7 @@ ${renderStatBlock(statBlock, gallery, 'Faction stats')}
           </section>
 
         </div>
-${renderSidebar('Factions Index', sidebarDatabase, sidebarExplore)}
+${renderSidebar('Factions Index', sidebarDatabase, sidebarExplore, 'Faction navigation')}
       </div>
     </div>
   </main>

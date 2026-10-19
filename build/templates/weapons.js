@@ -140,7 +140,7 @@ ${renderStatBlock(statBlock, gallery, 'Weapon stats')}
           </section>
 ${faqHtml}
         </div>
-${renderSidebar('Weapon Database', sidebarDatabase, sidebarExplore)}
+${renderSidebar('Weapon Database', sidebarDatabase, sidebarExplore, 'Weapon navigation')}
       </div>
     </div>
   </main>
