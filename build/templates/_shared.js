@@ -392,10 +392,13 @@ function renderStatBlock(items, galleryImages, statLabel) {
         ? `<a href="${item.wikiUrl}" target="_blank" rel="noopener noreferrer" class="stat-block__wiki" aria-label="${item.wikiLabel} on Wikipedia (opens in new tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>${item.wikiLabel}</a>`
         : '';
       const sub = item.sub ? `\n              <div class="stat-block__sub">${renderInline(item.sub)}</div>` : '';
+      const spec = item.speculation
+        ? `\n              <span class="stat-block__spec stat-block__spec--speculation">${item.speculation}</span>`
+        : '';
       const wikiLine = wiki ? `\n              ${wiki}` : '';
       return `            <div class="stat-block__item" role="listitem">
               <div class="stat-block__key">${item.key}</div>
-              <div class="stat-block__val">${renderInline(item.value)}</div>${sub}${wikiLine}
+              <div class="stat-block__val">${renderInline(item.value)}</div>${sub}${spec}${wikiLine}
             </div>`;
     })
     .join('\n');
