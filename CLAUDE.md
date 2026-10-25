@@ -299,7 +299,7 @@ Rumor checks live on `/faq/gta-6-rumors-true-or-false` (one hub, one block per r
 | Verdict | Meaning | Color |
 |---|---|---|
 | True | Rockstar's own material shows it | `--green` |
-| Debunked | Rockstar's own material contradicts it | `--red` |
+| Debunked | Rockstar's own material contradicts it, or the evidence is shown to be doctored (e.g. the fake 676.7 GB file size screenshot) | `--red` |
 | Unverified | No approved source either way | `--amber` |
 | Outdated | Overtaken by news | `--blue` |
 
