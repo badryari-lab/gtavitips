@@ -292,6 +292,19 @@ When a referenced entry doesn't have a page yet: don't link it. Flag it as a mis
 | New (changelog) | `--blue` / `--blue-dim` |
 | Upgrade (changelog) | `--green` / `--green-dim` |
 
+## Rumor checks (agreed Oct 2026)
+
+Rumor checks live on `/faq/gta-6-rumors-true-or-false` (one hub, one block per rumor, linking to the dedicated FAQ where one exists). Each rumor gets exactly one verdict:
+
+| Verdict | Meaning | Color |
+|---|---|---|
+| True | Rockstar's own material shows it | `--green` |
+| Debunked | Rockstar's own material contradicts it | `--red` |
+| Unverified | No approved source either way | `--amber` |
+| Outdated | Overtaken by news | `--blue` |
+
+A rumor with no approved source never counts as True. No personal names on rumors about people, no links to leakers or leak sources. Add a new check only after the sources were opened and read; update the hub, FAQ index, sitemap and search-index in the same batch.
+
 ## Canonical category images
 
 Each database category has one locked image used wherever that category appears as a visual card (homepage, future use). Never mix these up across pages.
