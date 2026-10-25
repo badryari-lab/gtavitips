@@ -6,8 +6,8 @@
   ],
   "seo": {
     "title": "Mammoth Dodo | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Mammoth Dodo in GTA 6. The seaplane returns. Keys and coastal water operations.",
-    "ogDescription": "Mammoth Dodo in GTA 6. The seaplane returns. Keys and coastal water operations.",
+    "description": "Mammoth Dodo in GTA 6. The seaplane returns: take off and land on water, linking the Keys islands and Vice City marinas.",
+    "ogDescription": "Mammoth Dodo in GTA 6. The seaplane returns: take off and land on water, linking the Keys islands and Vice City marinas.",
     "ogImagePlaceholder": "mammoth-dodo-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Mammoth Dodo - GTA 6 Vehicle",
     "jsonLdDescription": "The Mammoth Dodo is a seaplane in GTA 6 Leonida. Amphibious aircraft for Keys and coastal operations.",

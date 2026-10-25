@@ -40,11 +40,15 @@
         { "url": "/gameplay/brands/a1-fashions",    "label": "Retail",     "color": "#60a5fa", "name": "A1 Fashions",   "desc": "Storefront chain. Ubiquitous in the Vice City strip-mall crawl." },
         { "url": "/gameplay/brands/binco",          "label": "Retail",     "color": "#60a5fa", "name": "Binco",         "desc": "Budget clothing chain. Gets the job done." },
         { "url": "/gameplay/brands/didier-sachs",   "label": "Luxury",     "color": "#e879f9", "name": "Didier Sachs",  "desc": "High-end fashion. Financial District clientele." },
+        { "url": "/gameplay/brands/electric-fang-tattoo", "label": "Tattoo", "color": "#fb7185", "name": "Electric Fang Tattoo", "desc": "Ultimate Edition exclusive. 50+ designs by street art collective FAILE." },
+        { "url": "/gameplay/brands/goodtime-gear", "label": "Apparel", "color": "#fcd34d", "name": "Goodtime Gear", "desc": "Ultimate Edition exclusive. Apparel built around mascot Macca the Gator." },
         { "url": "/gameplay/brands/ponsonbys",      "label": "Luxury",     "color": "#e879f9", "name": "Ponsonbys",     "desc": "Premium menswear. For when the job requires looking the part." },
         { "url": "/gameplay/brands/prolaps",              "label": "Sports",  "color": "#fcd34d", "name": "ProLaps",              "desc": "Sportswear. Ubiquitous in Vice City." },
         { "url": "/gameplay/brands/saras-unisex-salon", "label": "Salon",   "color": "#e879f9", "name": "Sara's Unisex Salon",  "desc": "Ultimate Edition hair salon. 50+ signature styles across Leonida's full aesthetic range." },
         { "url": "/gameplay/brands/sessanta-nove",       "label": "Luxury",  "color": "#e879f9", "name": "Sessanta Nove",        "desc": "Italian luxury. 69 in Italian." },
+        { "url": "/gameplay/brands/stock-305", "label": "Retail", "color": "#60a5fa", "name": "Stock 305", "desc": "Ultimate Edition exclusive. Clothing store in the Vice City shop lineup." },
         { "url": "/gameplay/brands/suburban",       "label": "Streetwear", "color": "#a78bfa", "name": "SubUrban",      "desc": "Street-level clothing." },
+        { "url": "/gameplay/brands/vice-city-style", "label": "Apparel", "color": "#fcd34d", "name": "Vice City Style", "desc": "Ultimate Edition exclusive. Vice City outfits." },
         { "url": "/gameplay/brands/victim",         "label": "Streetwear", "color": "#a78bfa", "name": "Victim",        "desc": "Alternative fashion." },
         { "url": "/gameplay/brands/zip",            "label": "Retail",     "color": "#60a5fa", "name": "ZIP",           "desc": "General clothing. Multiple Vice City locations." }
       ]

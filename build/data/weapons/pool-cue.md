@@ -6,8 +6,8 @@
   ],
   "seo": {
     "title": "Pool Cue | GTA 6 Weapon Profile | GTAVITIPS",
-    "description": "The Pool Cue in GTA 6: found in every bar in Leonida, snaps on the third swing.",
-    "ogDescription": "The Pool Cue in GTA 6: found in every bar in Leonida, snaps on the third swing.",
+    "description": "The Pool Cue in GTA 6: found in every bar in Leonida, snaps on the third swing. Used for pool first, the fight second.",
+    "ogDescription": "The Pool Cue in GTA 6: found in every bar in Leonida, snaps on the third swing. Used for pool first, the fight second.",
     "ogImagePlaceholder": "pool-cue-gta-6-weapon.jpg",
     "jsonLdHeadline": "Pool Cue - GTA 6 Weapon Profile",
     "jsonLdDescription": "The Pool Cue in GTA 6: found in every bar in Leonida, snaps on the third swing.",

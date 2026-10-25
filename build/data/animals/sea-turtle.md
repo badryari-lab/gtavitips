@@ -9,7 +9,8 @@
     "ogDescription": "The Sea Turtle in GTA 6: a protected marine reptile, swimming coral reefs and nesting on Leonida Keys beaches.",
     "jsonLdHeadline": "Sea Turtle – GTA 6 Animal Profile",
     "jsonLdDescription": "The Sea Turtle in GTA 6: a protected marine reptile, swimming coral reefs and nesting on Leonida Keys beaches.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/leonida-keys-gta-6-location-04.jpg"
   },
   "heroSubtitle": "Coral reef zones and open coastal water. **Sea turtles have been doing this for longer than anything else in Leonida.**",
   "heroImage": {

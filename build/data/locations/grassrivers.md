@@ -9,7 +9,8 @@
     "ogDescription": "Grassrivers in GTA 6: Leonida's swamp and wetland region, home to alligators, pythons, and waterway access.",
     "jsonLdHeadline": "Grassrivers - GTA 6 Location",
     "jsonLdDescription": "Grassrivers in GTA 6: Leonida's swamp and wetland region, home to alligators, pythons, and waterway access.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/grassrivers-gta-6-location-03.jpg"
   },
   "heroSubtitle": "Leonida's swamp. **Dense vegetation, slow water, alligators, and the kind of geography that does not care what the wanted level says.** The road network ends where the Grassrivers begins.",
   "heroImage": {

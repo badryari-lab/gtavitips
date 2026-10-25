@@ -6,8 +6,8 @@
   ],
   "seo": {
     "title": "Bravado Rumpo Custom | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Bravado Rumpo Custom in GTA 6. Dodge Ram Van custom profile. Gang van.",
-    "ogDescription": "Bravado Rumpo Custom in GTA 6. Dodge Ram Van custom profile. Gang van.",
+    "description": "Bravado Rumpo Custom in GTA 6. Dodge Ram Van custom profile. The gang van, somewhere between tradesperson and trouble.",
+    "ogDescription": "Bravado Rumpo Custom in GTA 6. Dodge Ram Van custom profile. The gang van, somewhere between tradesperson and trouble.",
     "ogImagePlaceholder": "bravado-rumpo-custom-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Bravado Rumpo Custom - GTA 6 Vehicle",
     "jsonLdDescription": "The Bravado Rumpo Custom is a custom van in GTA 6 Leonida. Based on a custom Dodge Ram Van.",

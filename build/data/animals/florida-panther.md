@@ -9,7 +9,8 @@
     "ogDescription": "The Florida Panther in GTA 6: an extremely rare, lethal apex predator in Red Hill Forest and Leonida's inland wilderness. Attacks on sight.",
     "jsonLdHeadline": "Florida Panther – GTA 6 Animal Profile",
     "jsonLdDescription": "The Florida Panther in GTA 6: an extremely rare, lethal apex predator in Red Hill Forest and Leonida's inland wilderness. Attacks on sight.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-05.jpg"
   },
   "heroSubtitle": "Leonida has one apex land predator. **You do not see the Florida Panther coming. It sees you first, from cover, and then it has already decided.**",
   "heroImage": {

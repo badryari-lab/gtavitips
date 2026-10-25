@@ -10,7 +10,8 @@
     "ogDescription": "Car meets in GTA 6 Leonida: custom builds, the High Rollerz circuit, and a parking lot that's really just a stage.",
     "jsonLdHeadline": "Car Meets - GTA 6 Activity",
     "jsonLdDescription": "Car meets in GTA 6 Leonida: custom builds, the High Rollerz circuit, and a parking lot that's really just a stage.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/car-meets-gta-6-activity-01.jpg"
   },
   "heroSubtitle": "The social layer of [Vice City](/gameplay/locations/vice-city)'s car culture. **Block closed. Engines off. Everyone looking at what you built.** The High Rollerz circuit starts and ends here.",
   "heroImage": {

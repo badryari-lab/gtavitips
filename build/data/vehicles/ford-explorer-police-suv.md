@@ -6,8 +6,8 @@
   ],
   "seo": {
     "title": "Ford Explorer Police SUV | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Ford Explorer Police SUV in GTA 6. Law enforcement SUV in Leonida.",
-    "ogDescription": "Ford Explorer Police SUV in GTA 6. Law enforcement SUV in Leonida.",
+    "description": "Ford Explorer Police SUV in GTA 6. Law enforcement SUV: the Explorer platform in police configuration across Leonida's agencies.",
+    "ogDescription": "Ford Explorer Police SUV in GTA 6. Law enforcement SUV: the Explorer platform in police configuration across Leonida's agencies.",
     "ogImagePlaceholder": "ford-explorer-police-suv-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Ford Explorer Police SUV - GTA 6 Vehicle",
     "jsonLdDescription": "The Ford Explorer Police SUV is a law enforcement vehicle in GTA 6 Leonida.",

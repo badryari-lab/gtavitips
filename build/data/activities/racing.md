@@ -9,7 +9,8 @@
     "ogDescription": "Racing in GTA 6 Leonida: street races, track events, and the High Rollerz circuit, where reputation moves faster than the cars.",
     "jsonLdHeadline": "Racing - GTA 6 Activity",
     "jsonLdDescription": "Racing in GTA 6 Leonida: street races, track events, and the High Rollerz circuit, where reputation moves faster than the cars.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-01.jpg"
   },
   "heroSubtitle": "Street racing in [Vice City](/gameplay/locations/vice-city). **The High Rollerz run the circuit. The industrial waterfront at night, the highway approaches, and the Vice City streets that close themselves when the right crew shows up.**",
   "heroImage": {

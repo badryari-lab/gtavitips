@@ -11,7 +11,8 @@
     "ogDescription": "Bae-Lux in GTA 6. Vice City influencer and co-founder of Real Dimez alongside Roxy. Central figure in Vice City nightlife and the Only Raw Records circuit.",
     "jsonLdName": "Bae Lux",
     "jsonLdDescription": "Bae-Lux in GTA 6: Vice City influencer, model, and co-founder of Real Dimez, a fixture in the city's nightlife and entertainment circuit.",
-    "dateModified": "2026-05-26"
+    "dateModified": "2026-05-26",
+    "ogImage": "https://gtavitips.com/assets/images/real-dimez-gta-6-faction-01.jpg"
   },
   "heroSubtitle": "Model, influencer, and half of Real Dimez. **The [Vice City](/gameplay/locations/vice-city) social circuit does not move without her knowing about it first.**",
   "heroImage": {

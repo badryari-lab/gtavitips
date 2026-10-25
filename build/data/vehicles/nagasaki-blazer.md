@@ -6,8 +6,8 @@
   ],
   "seo": {
     "title": "Nagasaki Blazer | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Nagasaki Blazer in GTA 6. Honda TRX ATV. The off-road quad bike.",
-    "ogDescription": "Nagasaki Blazer in GTA 6. Honda TRX ATV. The off-road quad bike.",
+    "description": "Nagasaki Blazer in GTA 6. Honda TRX ATV. The off-road quad bike that reaches terrain a longer wheelbase cannot follow.",
+    "ogDescription": "Nagasaki Blazer in GTA 6. Honda TRX ATV. The off-road quad bike that reaches terrain a longer wheelbase cannot follow.",
     "ogImagePlaceholder": "nagasaki-blazer-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Nagasaki Blazer - GTA 6 Vehicle",
     "jsonLdDescription": "The Nagasaki Blazer is a ATV quad bike in GTA 6 Leonida. Based on the Honda TRX.",

@@ -5,8 +5,8 @@
   ],
   "seo": {
     "title": "CNT | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "CNT in GTA 6. The cable news rival to Weazel News. Leonida's second opinion.",
-    "ogDescription": "CNT in GTA 6. The cable news rival to Weazel News. Leonida's second opinion.",
+    "description": "CNT in GTA 6. The cable news rival to Weazel News, running the other version of events across Leonida's airwaves.",
+    "ogDescription": "CNT in GTA 6. The cable news rival to Weazel News, running the other version of events across Leonida's airwaves.",
     "jsonLdHeadline": "CNT - GTA 6 Brand Profile",
     "jsonLdDescription": "CNT in GTA 6. The cable news rival to Weazel News. Leonida's second opinion.",
     "dateModified": "2026-02-01"

@@ -86,6 +86,14 @@ build/
 - **Hero**: vehicles/characters/gangs-and-factions/locations/brands support both a real photo and a gradient-fallback variant per entry (never assume one or the other for a whole category — e.g. only 2/84 vehicles have a photo, but 63/76 brands do). weapons has no photo variant at all. activities always has a photo. Brands' fallback icon additionally **varies per entry** (60/67 share one icon, 7 are unique) — never hardcode a single fallback icon.
 - **Pages excluded from migration, left hand-maintained**: `vice-city` (locations) has a custom hub-page structure, no "On the Ground" section. The 4 brand directories that were empty 404s (`electric-fang-tattoo`, `goodtime-gear`, `stock-305`, `vice-city-style`, linked from `saras-unisex-salon` and a news article) were written as full stub entries Oct 19 2026 — same 1-section depth as angstapan/one-eyes-willies/rideout-customs/saras-unisex-salon, sourced from the pre-order announcement article. Brands is now a complete 76/76.
 
+**Hub pre-render (Oct 2026):** the category hubs (`/gameplay/animals|brands|characters|gangs-and-factions|locations|vehicles`) and `/news` fill their card grids in the browser from `hub/assets/data/*.json`. `node build/prerender-hubs.js` runs each hub's own render code against its own JSON and writes the markup between `<!--prerender:start-->` and `<!--prerender:end-->` inside the grid container, so crawlers that skip JS see real `<a href>` links to every entry (Ahrefs flagged 15 orphan pages and 37 single-link pages before this). **Run it after every edit to a hub JSON or to `news.json`**, then commit the hub pages with it. New brand/entry pages must also be added to their hub JSON, or they stay unlisted.
+
+**Redirects and the Worker:** `src/index.js` sends http to https and strips trailing slashes in a single 301 hop (localhost is exempt). Never add an `_redirects` rule whose source path has a real page (`gruppe-6` was hidden that way until Oct 2026): check with the audit below.
+
+**Social images:** a page gets `og:image` only when a real image of that page's own subject exists. Data-driven entries: set `seo.ogImage` to the absolute URL of `heroImage.src` (templates pass it through); entries without a hero photo keep the placeholder comment. News articles use the image from `news.json`; FAQ pages use the image of the first linked news article in the sidebar, else `vice-city-gta-6-location-04.jpg`. Never generate or stock an image for this.
+
+**Site audit (Ahrefs, Oct 2026):** the free Ahrefs Site Audit reports broken links, orphan pages, single-incoming-link pages, titles over 70 characters, schema.org validation and meta tags. Dates in JSON-LD must be full ISO dates or left out (never "April 2026"); there is no `VideoGameCharacter` type in schema.org (character pages use `Article` with `about`); a meta `content` attribute must escape double quotes as `&quot;` (an unescaped quote silently empties the description). When replacing text with `String.replace`, use a function as the replacement, because `$100` is read as a group reference.
+
 ## Design system
 
 All CSS is written inline per page inside a `<style>` block — no shared stylesheet. When adding or editing pages, replicate the existing CSS pattern exactly. Never introduce external CSS files unless explicitly agreed.
@@ -180,6 +188,8 @@ Every page must have:
 - `<meta name="description">` — specific, under 160 chars
 - `<meta property="og:type">`, `og:title`, `og:description`, `og:url`
 - `<meta name="twitter:card" content="summary_large_image">`
+- `<meta property="og:image">` with an absolute URL to a real image of the page's own subject (see Social images under Build tooling); no image is better than a wrong one
+- Every FAQ page ends with a "More FAQ" block of 2 to 4 related FAQ links plus the link to the FAQ index
 - `<link rel="canonical">`
 - `<script type="application/ld+json">` — appropriate Schema.org type (WebPage, Article, FAQPage, etc.)
 

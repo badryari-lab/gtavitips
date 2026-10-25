@@ -9,7 +9,8 @@
     "ogDescription": "Mini golf in GTA 6 Leonida: beachfront and tourist-zone courses across Vice City, lower stakes than anything else on this list.",
     "jsonLdHeadline": "Mini Golf - GTA 6 Activity",
     "jsonLdDescription": "Mini golf in GTA 6 Leonida: beachfront and tourist-zone courses across Vice City, lower stakes than anything else on this list.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/cal-hampton-gta-6-character-01.jpg"
   },
   "heroSubtitle": "The accessible version of the sport. **Beachfront course, tourist crowd, and the specific [Vice City](/gameplay/locations/vice-city) leisure infrastructure that serves the demographic that is on holiday and doing everything the strip offers.**",
   "heroImage": {

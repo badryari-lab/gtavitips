@@ -6,8 +6,8 @@
   ],
   "seo": {
     "title": "Bravado Bison | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Bravado Bison in GTA 6. Dodge Ram profile. The default Vice County pickup.",
-    "ogDescription": "Bravado Bison in GTA 6. Dodge Ram profile. The default Vice County pickup.",
+    "description": "Bravado Bison in GTA 6. Dodge Ram profile and the default Vice County pickup, in every ranch driveway and construction site.",
+    "ogDescription": "Bravado Bison in GTA 6. Dodge Ram profile and the default Vice County pickup, in every ranch driveway and construction site.",
     "ogImagePlaceholder": "bravado-bison-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Bravado Bison - GTA 6 Vehicle",
     "jsonLdDescription": "The Bravado Bison is a full-size pickup in GTA 6 Leonida. Based on the Dodge Ram 1500.",
@@ -58,6 +58,12 @@
       "type": "Brand",
       "name": "Bravado",
       "desc": "The manufacturer."
+    },
+    {
+      "url": "/gameplay/vehicles/declasse-yosemite-rancher",
+      "type": "Pickup",
+      "name": "Declasse Yosemite Rancher",
+      "desc": "The Silverado of Leonida. Vice County's agricultural pickup."
     }
   ],
   "sidebarDatabase": [

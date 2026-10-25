@@ -11,7 +11,8 @@
     "ogImagePlaceholder": "mount-kalaga-gta-6-location.jpg",
     "jsonLdHeadline": "Mount Kalaga - GTA 6 Location",
     "jsonLdDescription": "Mount Kalaga in GTA 6: the highest point in Leonida, wilderness terrain rising above the coastal plain.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-01.jpg"
   },
   "heroSubtitle": "The highest point in Leonida. **Wilderness terrain, significant elevation, and a view of the entire state on a clear day.** The mountain is there. People will reach the mountain is there.",
   "heroImage": {

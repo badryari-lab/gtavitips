@@ -9,7 +9,8 @@
     "ogDescription": "The American Alligator in GTA 6: a lethal wetland apex predator found in Grassrivers' wetlands and golf courses.",
     "jsonLdHeadline": "American Alligator – GTA 6 Animal Profile",
     "jsonLdDescription": "The American Alligator in GTA 6: a lethal wetland apex predator found in Grassrivers' wetlands and golf courses.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/grassrivers-gta-6-location-01.jpg"
   },
   "heroSubtitle": "At rest it looks like a log. Moving it is faster than the distance suggests. **In the water the gap closes before most players recognise it as a gap.**",
   "heroImage": {

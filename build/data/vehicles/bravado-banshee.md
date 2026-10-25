@@ -6,8 +6,8 @@
   ],
   "seo": {
     "title": "Bravado Banshee | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Bravado Banshee in GTA 6. Dodge Viper profile. American sports car icon.",
-    "ogDescription": "Bravado Banshee in GTA 6. Dodge Viper profile. American sports car icon.",
+    "description": "Bravado Banshee in GTA 6. Dodge Viper profile: long hood, V10, rear-wheel drive. The American sports car icon.",
+    "ogDescription": "Bravado Banshee in GTA 6. Dodge Viper profile: long hood, V10, rear-wheel drive. The American sports car icon.",
     "ogImagePlaceholder": "bravado-banshee-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Bravado Banshee - GTA 6 Vehicle",
     "jsonLdDescription": "The Bravado Banshee is a American sports car in GTA 6 Leonida. Based on the Dodge Viper.",

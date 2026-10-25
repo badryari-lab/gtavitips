@@ -6,8 +6,8 @@
   ],
   "seo": {
     "title": "Nagasaki Carbon RS | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Nagasaki Carbon RS in GTA 6. Kawasaki Ninja H2 / ZX-10R carbon sport bike.",
-    "ogDescription": "Nagasaki Carbon RS in GTA 6. Kawasaki Ninja H2 / ZX-10R carbon sport bike.",
+    "description": "Nagasaki Carbon RS in GTA 6. Kawasaki Ninja H2 / ZX-10R carbon sport bike: lightweight, high output, built for one purpose.",
+    "ogDescription": "Nagasaki Carbon RS in GTA 6. Kawasaki Ninja H2 / ZX-10R carbon sport bike: lightweight, high output, built for one purpose.",
     "ogImagePlaceholder": "nagasaki-carbon-rs-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Nagasaki Carbon RS - GTA 6 Vehicle",
     "jsonLdDescription": "The Nagasaki Carbon RS is a performance sport motorcycle in GTA 6 Leonida. Based on the Kawasaki Ninja H2.",

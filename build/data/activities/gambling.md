@@ -46,6 +46,13 @@
       "name": "Albany Alpha",
       "desc": "The car for the high-roller parking structure. Understated, right for the casino floor.",
       "avatarInitials": "AA"
+    },
+    {
+      "url": "/gameplay/activities/snooker",
+      "role": "Activity",
+      "name": "Snooker",
+      "desc": "Money on the table. The pool hall and the casino share the same social layer.",
+      "avatarInitials": "SN"
     }
   ],
   "faq": [

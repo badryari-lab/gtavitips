@@ -11,7 +11,8 @@
     "ogImagePlaceholder": "starlet-motel-gta-6-location.jpg",
     "jsonLdHeadline": "Starlet Motel - GTA 6 Location",
     "jsonLdDescription": "Starlet Motel in GTA 6: a roadside motel in Leonida, the lower end of Vice City accommodation.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/port-gellhorn-gta-6-location-01.jpg"
   },
   "heroSubtitle": "Roadside lodging in Leonida. **The accommodation option that does not ask questions, does not require a credit card hold, and has a parking space directly outside the room door.**",
   "heroImage": {

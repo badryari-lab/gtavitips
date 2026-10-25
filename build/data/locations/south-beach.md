@@ -11,7 +11,8 @@
     "ogImagePlaceholder": "south-beach-gta-6-location.jpg",
     "jsonLdHeadline": "South Beach - GTA 6 Location",
     "jsonLdDescription": "South Beach in GTA 6: Vice City's Art Deco tourist strip, maximum foot traffic, neon, and VCPD presence.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/vice-city-gta-6-location-05.jpg"
   },
   "heroSubtitle": "The postcard face of [Vice City](/gameplay/locations/vice-city). **Art Deco facades, neon frontage, the promenade, and more people per square metre than anywhere else in Leonida.** Also the most surveilled strip in the state.",
   "heroImage": {

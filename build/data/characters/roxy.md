@@ -10,7 +10,8 @@
     "ogDescription": "Roxy in GTA 6. Rapper and Real Dimez co-founder alongside Bae-Lux. Signed to Only Raw Records under Dre'Quan Priest's management in Vice City.",
     "jsonLdName": "Roxy ",
     "jsonLdDescription": "Roxy in GTA 6: rapper and Real Dimez co-founder, signed to Only Raw Records under Dre'Quan Priest's management.",
-    "dateModified": "2026-05-26"
+    "dateModified": "2026-05-26",
+    "ogImage": "https://gtavitips.com/assets/images/real-dimez-gta-6-faction-03.jpg"
   },
   "heroSubtitle": "Rapper. Real Dimez co-founder. **Signed to Only Raw Records and working her way back to the top of the [Vice City](/gameplay/locations/vice-city) entertainment scene.**",
   "heroImage": {

@@ -76,6 +76,12 @@
         "avatarInitials": "PL",
         "industry": "Sports",
         "name": "ProLaps"
+      },
+      {
+        "url": "/gameplay/brands/a1-fashions",
+        "avatarInitials": "A1",
+        "industry": "Retail",
+        "name": "A1 Fashions"
       }
     ]
   },

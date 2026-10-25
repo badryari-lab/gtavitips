@@ -9,7 +9,8 @@
     "ogDescription": "Drinking in GTA 6 Leonida: bar visits that blur the vision and loosen the judgment, exactly as advertised.",
     "jsonLdHeadline": "Drinking - GTA 6 Activity",
     "jsonLdDescription": "Drinking in GTA 6 Leonida: bar visits that blur the vision and loosen the judgment, exactly as advertised.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/drinking-gta-6-activity-01.jpg"
   },
   "heroSubtitle": "[Vice City](/gameplay/locations/vice-city) has bars and the bars have alcohol and the alcohol has effects. **The intoxication mechanics are present. The range of Vice City venues that make it possible is confirmed.**",
   "heroImage": {

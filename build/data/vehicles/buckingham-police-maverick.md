@@ -6,8 +6,8 @@
   ],
   "seo": {
     "title": "Buckingham Police Maverick | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Buckingham Police Maverick in GTA 6. VCPD and Weazel News helicopter.",
-    "ogDescription": "Buckingham Police Maverick in GTA 6. VCPD and Weazel News helicopter.",
+    "description": "Buckingham Police Maverick in GTA 6. The VCPD and Weazel News helicopter that shows up when the wanted star count goes up.",
+    "ogDescription": "Buckingham Police Maverick in GTA 6. The VCPD and Weazel News helicopter that shows up when the wanted star count goes up.",
     "ogImagePlaceholder": "buckingham-police-maverick-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Buckingham Police Maverick - GTA 6 Vehicle",
     "jsonLdDescription": "The Buckingham Police Maverick is a law enforcement helicopter in GTA 6. VCPD airborne unit over Vice City.",

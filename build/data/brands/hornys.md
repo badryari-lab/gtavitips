@@ -5,8 +5,8 @@
   ],
   "seo": {
     "title": "Horny's | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "Horny's in GTA 6. The Vice City beachfront restaurant. The wings are good.",
-    "ogDescription": "Horny's in GTA 6. The Vice City beachfront restaurant. The wings are good.",
+    "description": "Horny's in GTA 6. The Vice City beachfront restaurant chain. The wings are good and the name is intentional.",
+    "ogDescription": "Horny's in GTA 6. The Vice City beachfront restaurant chain. The wings are good and the name is intentional.",
     "jsonLdHeadline": "Horny's - GTA 6 Brand Profile",
     "jsonLdDescription": "Horny's in GTA 6. The Vice City beachfront restaurant. The wings are good.",
     "dateModified": "2026-02-01"

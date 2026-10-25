@@ -61,6 +61,12 @@
       "type": "Faction",
       "name": "Leonida Cartel",
       "desc": "Low-level operatives carry it as a baseline weapon."
+    },
+    {
+      "url": "/gameplay/weapons/hawk-little-morgan-revolvers",
+      "type": "Weapon",
+      "name": "Hawk &amp; Little Morgan Revolvers",
+      "desc": "The Ultimate Edition variants built on the base sidearm."
     }
   ],
   "faq": [

@@ -36,12 +36,6 @@
       "desc": "The metropolitan core of Leonida. PTT YOUNGIN$ operate inside this ecosystem."
     },
     {
-      "url": "/gameplay/activities/ptt-youngins-compound-raid",
-      "type": "Activity",
-      "name": "PTT YOUNGIN$ Compound Raid",
-      "desc": "Ultimate Edition exclusive. A confirmed assault on the PTT YOUNGIN$ compound in Leonida."
-    },
-    {
       "url": "/gameplay/characters/jason-duval",
       "type": "Character",
       "name": "Jason Duval",

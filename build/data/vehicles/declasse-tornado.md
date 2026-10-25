@@ -58,6 +58,12 @@
       "type": "Brand",
       "name": "Declasse",
       "desc": "The manufacturer."
+    },
+    {
+      "url": "/gameplay/vehicles/ubermacht-sentinel-classic-convertible",
+      "type": "Classic Convertible",
+      "name": "Ubermacht Sentinel Classic Convertible",
+      "desc": "Another classic convertible, different lineage entirely."
     }
   ],
   "sidebarDatabase": [

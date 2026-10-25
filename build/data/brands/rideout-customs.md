@@ -10,7 +10,8 @@
     "ogDescription": "Rideout Customs in GTA 6. Ultimate Edition exclusive vehicle modification shop. Take a car that works and turn it into something that does more than that.",
     "jsonLdHeadline": "Rideout Customs - GTA 6 Brand Profile",
     "jsonLdDescription": "Rideout Customs in GTA 6. Ultimate Edition exclusive vehicle modification shop. Take a car that works and turn it into something that does more than that.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/rideout-customs-gta-6-brand-01.jpg"
   },
   "heroBadge": "Vehicle Modification Shop",
   "heroSlogan": "Ultimate Edition Exclusive. Take a car that works and make it do more.",

@@ -58,6 +58,12 @@
       "type": "Activity",
       "name": "Robbery",
       "desc": "The cargo the Phantom carries is the objective."
+    },
+    {
+      "url": "/gameplay/vehicles/vapid-towtruck",
+      "type": "Tow Truck",
+      "name": "Vapid Towtruck",
+      "desc": "The F-450 class tow truck. Heavy commercial, Vapid-built."
     }
   ],
   "sidebarDatabase": [

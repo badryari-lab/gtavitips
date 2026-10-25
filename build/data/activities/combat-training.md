@@ -10,7 +10,8 @@
     "ogDescription": "Combat training in GTA 6 Leonida: Vice City facilities that turn getting hit into getting better at not getting hit.",
     "jsonLdHeadline": "Combat Training - GTA 6 Activity",
     "jsonLdDescription": "Combat training in GTA 6 Leonida: Vice City facilities that turn getting hit into getting better at not getting hit.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/lucia-caminos-gta-6-character-01.jpg"
   },
   "heroSubtitle": "Train to fight better. **The gym-based combat development system that feeds directly into cage fighting, confrontations, and every physical situation Leonida creates.**",
   "heroImage": {

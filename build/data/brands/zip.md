@@ -72,6 +72,12 @@
         "avatarInitials": "PO",
         "industry": "Luxury",
         "name": "Ponsonbys"
+      },
+      {
+        "url": "/gameplay/brands/a1-fashions",
+        "avatarInitials": "A1",
+        "industry": "Retail",
+        "name": "A1 Fashions"
       }
     ]
   },

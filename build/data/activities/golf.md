@@ -46,6 +46,20 @@
       "name": "Benefactor Schafter V12",
       "desc": "Country club arrival. The car that pulls into the clubhouse drop-off.",
       "avatarInitials": "BV"
+    },
+    {
+      "url": "/gameplay/activities/mini-golf",
+      "role": "Activity",
+      "name": "Mini Golf",
+      "desc": "Same game, different stakes. The beachfront version.",
+      "avatarInitials": "MG"
+    },
+    {
+      "url": "/gameplay/activities/tennis",
+      "role": "Activity",
+      "name": "Tennis",
+      "desc": "Country club sport. The same Vice City social tier.",
+      "avatarInitials": "TE"
     }
   ],
   "faq": [

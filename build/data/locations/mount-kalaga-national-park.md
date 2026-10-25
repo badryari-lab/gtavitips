@@ -10,7 +10,8 @@
     "ogDescription": "Mount Kalaga National Park in GTA 6: protected wilderness around the mountain, trails, wildlife, restricted vehicle access.",
     "jsonLdHeadline": "Mount Kalaga National Park - GTA 6 Location",
     "jsonLdDescription": "Mount Kalaga National Park in GTA 6: protected wilderness around the mountain, trails, wildlife, restricted vehicle access.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-02.jpg"
   },
   "heroSubtitle": "Protected wilderness surrounding Leonida's highest peak. **Trail access, dense forest, and the wildlife that moves through terrain where road vehicles cannot follow.**",
   "heroImage": {

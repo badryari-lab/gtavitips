@@ -6,8 +6,8 @@
   ],
   "seo": {
     "title": "Bravado Buffalo S | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Bravado Buffalo S in GTA 6. Dodge Charger SRT/Hellcat performance variant.",
-    "ogDescription": "Bravado Buffalo S in GTA 6. Dodge Charger SRT/Hellcat performance variant.",
+    "description": "Bravado Buffalo S in GTA 6. Dodge Charger SRT/Hellcat performance variant: the Charger platform with more output.",
+    "ogDescription": "Bravado Buffalo S in GTA 6. Dodge Charger SRT/Hellcat performance variant: the Charger platform with more output.",
     "ogImagePlaceholder": "bravado-buffalo-s-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Bravado Buffalo S - GTA 6 Vehicle",
     "jsonLdDescription": "The Bravado Buffalo S is a performance sedan in GTA 6 Leonida. Based on the Dodge Charger SRT.",

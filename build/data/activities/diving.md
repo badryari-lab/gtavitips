@@ -9,7 +9,8 @@
     "ogDescription": "Diving in GTA 6 Leonida: coral reefs and wrecks in the Keys and off Vice City, for whatever ends up on the bottom and stays there.",
     "jsonLdHeadline": "Diving - GTA 6 Activity",
     "jsonLdDescription": "Diving in GTA 6 Leonida: coral reefs and wrecks in the Keys and off Vice City, for whatever ends up on the bottom and stays there.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/leonida-keys-gta-6-location-04.jpg"
   },
   "heroSubtitle": "Underwater Leonida. **Reef systems, wrecks, marine life, and every submerged location the Leonida coast places under the surface of the Atlantic.**",
   "heroImage": {

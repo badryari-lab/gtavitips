@@ -6,8 +6,8 @@
   ],
   "seo": {
     "title": "Gallivanter Baller | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Gallivanter Baller in GTA 6. Range Rover profile. The Vice City luxury SUV.",
-    "ogDescription": "Gallivanter Baller in GTA 6. Range Rover profile. The Vice City luxury SUV.",
+    "description": "Gallivanter Baller in GTA 6. Range Rover profile: the Vice City luxury SUV with the high ride height and the status.",
+    "ogDescription": "Gallivanter Baller in GTA 6. Range Rover profile: the Vice City luxury SUV with the high ride height and the status.",
     "ogImagePlaceholder": "gallivanter-baller-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Gallivanter Baller - GTA 6 Vehicle",
     "jsonLdDescription": "The Gallivanter Baller is a luxury SUV in GTA 6 Leonida. Based on the Range Rover.",

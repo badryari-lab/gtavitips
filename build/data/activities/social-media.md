@@ -10,7 +10,8 @@
     "ogDescription": "Social media in GTA 6 Leonida: Snapmatic and in-game posting, because everyone in Leonida is already filming everything anyway.",
     "jsonLdHeadline": "Social Media - GTA 6 Activity",
     "jsonLdDescription": "Social media in GTA 6 Leonida: Snapmatic and in-game posting, because everyone in Leonida is already filming everything anyway.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/social-media-gta-6-activity-01.jpg"
   },
   "heroSubtitle": "[Vice City](/gameplay/locations/vice-city) performs for the phone. **Snapmatic is the platform, the content is whatever Leonida generates, and the protagonist is both the person filming and sometimes the thing being filmed.**",
   "heroImage": {

@@ -11,7 +11,8 @@
     "ogImagePlaceholder": "jack-of-hearts-gta-6-location.jpg",
     "jsonLdHeadline": "Jack of Hearts - GTA 6 Location",
     "jsonLdDescription": "Jack of Hearts in GTA 6: a strip club and adult entertainment venue in Vice City's entertainment district.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/boobie-ike-gta-6-character-02.jpg"
   },
   "heroSubtitle": "Vice City adult entertainment. **A strip club right in the entertainment district.** The kind of venue this city has always had.",
   "heroImage": {

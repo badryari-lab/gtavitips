@@ -76,6 +76,18 @@
         "avatarInitials": "FU",
         "industry": "Airline",
         "name": "FlyUS"
+      },
+      {
+        "url": "/gameplay/brands/azteca-gold",
+        "avatarInitials": "AG",
+        "industry": "Delivery",
+        "name": "Azteca Gold"
+      },
+      {
+        "url": "/gameplay/brands/gruppe-6",
+        "avatarInitials": "G6",
+        "industry": "Armored Transport",
+        "name": "Gruppe 6"
       }
     ]
   },

@@ -30,8 +30,10 @@ function render(entry) {
   const jsonLd = [
     {
       '@context': 'https://schema.org',
-      '@type': 'VideoGameCharacter',
+      '@type': 'Article',
+      headline: seo.jsonLdName,
       name: seo.jsonLdName,
+      about: { '@type': 'Thing', name: seo.jsonLdName },
       description: seo.jsonLdDescription,
       url: canonical,
       dateModified: seo.dateModified,

@@ -58,6 +58,18 @@
       "type": "Location",
       "name": "Vice County",
       "desc": "Primary Bobcat operating territory."
+    },
+    {
+      "url": "/gameplay/vehicles/declasse-yosemite-rancher",
+      "type": "Pickup",
+      "name": "Declasse Yosemite Rancher",
+      "desc": "The ranch truck. The Chevrolet Silverado equivalent."
+    },
+    {
+      "url": "/gameplay/vehicles/vapid-towtruck",
+      "type": "Tow Truck",
+      "name": "Vapid Towtruck",
+      "desc": "The heavy-duty Vapid. Same maker, working trade."
     }
   ],
   "sidebarDatabase": [

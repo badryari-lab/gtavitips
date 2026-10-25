@@ -9,7 +9,8 @@
     "ogDescription": "Hunting in GTA 6 Leonida: deer, boar, and game animals across rural Vice County, for anyone who'd rather earn dinner than buy it.",
     "jsonLdHeadline": "Hunting - GTA 6 Activity",
     "jsonLdDescription": "Hunting in GTA 6 Leonida: deer, boar, and game animals across rural Vice County, for anyone who'd rather earn dinner than buy it.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-03.jpg"
   },
   "heroSubtitle": "Rural [Vice County](/gameplay/locations/vice-county), a rifle, and the game animals that the Leonida interior supports. **The hunting activity that connects the wildlife database to the open landscape of the Vice County rural zone.**",
   "heroImage": {

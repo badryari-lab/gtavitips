@@ -6,8 +6,8 @@
   ],
   "seo": {
     "title": "Airboat / Fanboat | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Airboat in GTA 6 Leonida. Florida swamp transport for Grassrivers navigation.",
-    "ogDescription": "Airboat in GTA 6 Leonida. Florida swamp transport for Grassrivers navigation.",
+    "description": "Airboat in GTA 6 Leonida. Flat-bottomed, fan-propelled swamp transport, the practical way through the Grassrivers at speed.",
+    "ogDescription": "Airboat in GTA 6 Leonida. Flat-bottomed, fan-propelled swamp transport, the practical way through the Grassrivers at speed.",
     "ogImagePlaceholder": "airboat-fanboat-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Airboat / Fanboat - GTA 6 Vehicle",
     "jsonLdDescription": "The Airboat is a vehicle in GTA 6 Leonida. Florida swamp transport for Grassrivers navigation.",

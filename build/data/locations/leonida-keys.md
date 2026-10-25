@@ -10,7 +10,8 @@
     "ogDescription": "Leonida Keys in GTA 6: the tropical island chain south of Vice City, coral, shallow waterways, and maritime access.",
     "jsonLdHeadline": "Leonida Keys - GTA 6 Location",
     "jsonLdDescription": "Leonida Keys in GTA 6: the tropical island chain south of Vice City, coral, shallow waterways, and maritime access. Confirmed as Jason Duval's home.",
-    "dateModified": "2026-08-28"
+    "dateModified": "2026-08-28",
+    "ogImage": "https://gtavitips.com/assets/images/leonida-keys-gta-6-location-04.jpg"
   },
   "heroSubtitle": "Island chain stretching south of [Vice City](/gameplay/locations/vice-city) into the open water. **Coral, shallow waterways, boat culture, and the specific freedom that comes from being somewhere the road network does not reach.**",
   "heroImage": {

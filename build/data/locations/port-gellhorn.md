@@ -10,7 +10,8 @@
     "ogDescription": "Port Gellhorn in GTA 6: an industrial port town on the Vice County coast, docks, warehouses, and the marshland corridor.",
     "jsonLdHeadline": "Port Gellhorn - GTA 6 Location",
     "jsonLdDescription": "Port Gellhorn in GTA 6: an industrial port town on the Vice County coast, docks, warehouses, and the marshland corridor.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/port-gellhorn-gta-6-location-03.jpg"
   },
   "heroSubtitle": "**Leonida's working waterfront.** The port that moves the cargo [Vice City](/gameplay/locations/vice-city) consumes and does not ask where it came from. Docks, warehouses, marshland, and the operational vocabulary that goes with all three.",
   "heroImage": {

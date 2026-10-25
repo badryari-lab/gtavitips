@@ -5,8 +5,8 @@
   ],
   "seo": {
     "title": "Snapmatic | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "Snapmatic in GTA 6. The in-game social photo platform. The Vice City feed.",
-    "ogDescription": "Snapmatic in GTA 6. The in-game social photo platform. The Vice City feed.",
+    "description": "Snapmatic in GTA 6. The in-game social photo platform and the Vice City feed. Share, or do not. Leonida is watching either way.",
+    "ogDescription": "Snapmatic in GTA 6. The in-game social photo platform and the Vice City feed. Share, or do not. Leonida is watching either way.",
     "jsonLdHeadline": "Snapmatic - GTA 6 Brand Profile",
     "jsonLdDescription": "Snapmatic in GTA 6. The in-game social photo platform. The Vice City feed.",
     "dateModified": "2026-02-01"

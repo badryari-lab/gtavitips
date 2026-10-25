@@ -72,6 +72,12 @@
         "avatarInitials": "VP",
         "industry": "Manufacturer",
         "name": "Vapid"
+      },
+      {
+        "url": "/gameplay/brands/zekes-gadgets",
+        "avatarInitials": "ZG",
+        "industry": "Repairs",
+        "name": "Zeke's Gadgets"
       }
     ]
   },

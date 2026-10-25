@@ -10,7 +10,8 @@
     "ogDescription": "Strip clubs in GTA 6 Leonida: Jack of Hearts and adult entertainment venues across Vice City, where the bill always runs longer than planned.",
     "jsonLdHeadline": "Strip Clubs - GTA 6 Activity",
     "jsonLdDescription": "Strip clubs in GTA 6 Leonida: Jack of Hearts and adult entertainment venues across Vice City, where the bill always runs longer than planned.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/vice-city-gta-6-location-07.jpg"
   },
   "heroSubtitle": "The adult entertainment economy of [Vice City](/gameplay/locations/vice-city). **The Jack of Hearts is confirmed. The venue mechanics and the Vice City context that make it specific.**",
   "heroImage": {

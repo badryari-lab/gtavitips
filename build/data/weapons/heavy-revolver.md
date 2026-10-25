@@ -51,6 +51,12 @@
       "type": "Faction",
       "name": "VCPD",
       "desc": "Issued to officers who need stopping power over magazine size."
+    },
+    {
+      "url": "/gameplay/weapons/hawk-little-morgan-revolvers",
+      "type": "Weapon",
+      "name": "Hawk &amp; Little Morgan Revolvers",
+      "desc": "Another revolver. Ultimate Edition, one per protagonist."
     }
   ],
   "faq": [

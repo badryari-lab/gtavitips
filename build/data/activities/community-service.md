@@ -10,7 +10,8 @@
     "ogDescription": "Community service in GTA 6 Leonida: Lucia Caminos's parole condition, roadside cleanup in the Leonida Keys under an officer who isn't fooled for a second.",
     "jsonLdHeadline": "Community Service - GTA 6 Activity",
     "jsonLdDescription": "Community service in GTA 6 Leonida: Lucia Caminos's parole condition, roadside cleanup in the Leonida Keys under an officer who isn't fooled for a second.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/activities-index-gta-6.jpg"
   },
   "heroSubtitle": "The conditions of parole in the [Leonida Keys](/gameplay/locations/leonida-keys). **Hi-vis vest. A bucket and a litter picker. An officer watching.** You did the time. Now you do the hours.",
   "heroImage": {

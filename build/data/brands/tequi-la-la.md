@@ -72,6 +72,12 @@
         "avatarInitials": "PW",
         "industry": "Beer",
         "name": "Pißwasser"
+      },
+      {
+        "url": "/gameplay/brands/casino-rojo",
+        "avatarInitials": "CR",
+        "industry": "Casino",
+        "name": "Casino Rojo"
       }
     ]
   },

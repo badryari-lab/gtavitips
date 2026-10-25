@@ -6,8 +6,8 @@
   ],
   "seo": {
     "title": "Bravado Police Buffalo | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Bravado Police Buffalo in GTA 6. VCPD Dodge Charger pursuit car.",
-    "ogDescription": "Bravado Police Buffalo in GTA 6. VCPD Dodge Charger pursuit car.",
+    "description": "Bravado Police Buffalo in GTA 6. The VCPD Dodge Charger pursuit car, the Charger platform in police specification.",
+    "ogDescription": "Bravado Police Buffalo in GTA 6. The VCPD Dodge Charger pursuit car, the Charger platform in police specification.",
     "ogImagePlaceholder": "bravado-police-cruiser-buffalo-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Bravado Police Buffalo - GTA 6 Vehicle",
     "jsonLdDescription": "The Bravado Police Buffalo is the VCPD patrol car in GTA 6. Dodge Charger police cruiser.",

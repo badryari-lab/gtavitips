@@ -58,6 +58,12 @@
       "type": "Brand",
       "name": "Ubermacht",
       "desc": "The manufacturer."
+    },
+    {
+      "url": "/gameplay/vehicles/ubermacht-sentinel-classic-convertible",
+      "type": "Classic Convertible",
+      "name": "Ubermacht Sentinel Classic Convertible",
+      "desc": "The older end of the same badge."
     }
   ],
   "sidebarDatabase": [

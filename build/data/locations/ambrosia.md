@@ -9,7 +9,8 @@
     "ogDescription": "Ambrosia in GTA 6: a rural Leonida settlement named in official material, with thin patrol coverage and farmland roads tied into the county network.",
     "jsonLdHeadline": "Ambrosia - GTA 6 Location",
     "jsonLdDescription": "Ambrosia in GTA 6: a rural Leonida settlement named in official material, with thin patrol coverage and farmland roads tied into the county network.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/ambrosia-gta-6-location-01.jpg"
   },
   "heroSubtitle": "A rural settlement in the Leonida interior. **The name's on the map. What it actually looks like on the ground isn't yet.**",
   "heroImage": {

@@ -10,7 +10,8 @@
     "ogDescription": "Sara's Unisex Salon in GTA 6. Ultimate Edition exclusive hair salon with 50+ signature styles. Character customization across all of Leonida's aesthetics.",
     "jsonLdHeadline": "Sara's Unisex Salon - GTA 6 Brand Profile",
     "jsonLdDescription": "Sara's Unisex Salon in GTA 6. Ultimate Edition exclusive hair salon with 50+ signature styles. Character customization across all of Leonida's aesthetics.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/saras-unisex-salon-gta-6-brand-01.jpg"
   },
   "heroBadge": "Hairstyle / Character Customization",
   "heroSlogan": "Ultimate Edition Exclusive. Fifty-plus styles. Every aesthetic in Leonida covered.",

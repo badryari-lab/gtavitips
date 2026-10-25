@@ -166,7 +166,7 @@
 ---
 Lucia grew up fighting. Her father started teaching her from the moment she could stand. That is not backstory, she cage fights, and the way she moves through the Sinfronta Bank heist makes it obvious. Around her neck: **a small boxing glove pendant, worn and old, from her father.** She does not take it off. The one time it is not visible is the bank job, where a turtleneck covers it.
 
-Her mother is from Liberty City. Lucia was in Los Santos long enough to ride the Leviathan roller coaster at Pleasure Pier and hold on to the shirt for years. Then Leonida. Then Leonida State Penitentiary. Then out on parole, ankle tag on her left leg, mandatory community service on the roadside, answering to a corrections social worker named [Stefanie](/gameplay/characters/stefanie).
+Her mother is from Liberty City. Lucia was in Los Santos long enough to ride the Leviathan roller coaster at Pleasure Pier and hold on to the shirt for years. Then Leonida. Then Leonida State Penitentiary. Then out on parole, ankle tag on her left leg, mandatory [community service](/gameplay/activities/community-service) on the roadside, answering to a corrections social worker named [Stefanie](/gameplay/characters/stefanie).
 
 She is the tactical lead in the partnership with [Jason](/gameplay/characters/jason-duval). She plans the job. She reads the room. She knows when the situation has changed before anyone else in it does. Her line is <em>who you know and what you got is all that matters.</em> That is not nihilism. That is the math she has been running since Liberty City.
 

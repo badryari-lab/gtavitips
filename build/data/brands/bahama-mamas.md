@@ -72,6 +72,12 @@
         "avatarInitials": "WN",
         "industry": "News",
         "name": "Weazel News"
+      },
+      {
+        "url": "/gameplay/brands/casino-rojo",
+        "avatarInitials": "CR",
+        "industry": "Casino",
+        "name": "Casino Rojo"
       }
     ]
   },

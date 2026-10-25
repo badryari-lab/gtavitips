@@ -203,7 +203,7 @@
               
 
 
-                He lives rent-free in a property owned by [Brian Heder](/gameplay/characters/brian-heder), in exchange for fixing the leaks, running the errands, and stopping by when Lori needs company. When [Lucia](/gameplay/characters/lucia-caminos) got out of Leonida Penitentiary, Jason was the one who picked her up. His watch read 5:08 PM at the gate. They were at the [Rusty Anchor](/gameplay/locations/rusty-anchor) that same evening.
+                He lives rent-free in a property owned by [Brian Heder](/gameplay/characters/brian-heder), in exchange for fixing the leaks, running the errands, and stopping by when Lori needs company. When [Lucia](/gameplay/characters/lucia-caminos) got out of Leonida Penitentiary, Jason was the one who picked her up. His watch read 5:08 PM at the gate. They were at the Rusty Anchor that same evening.
               
 
 

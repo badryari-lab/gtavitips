@@ -9,7 +9,8 @@
     "ogDescription": "Weed growing in GTA 6 Leonida: indoor operations and rural cultivation, the quiet end of the state's drug economy.",
     "jsonLdHeadline": "Weed Growing - GTA 6 Activity",
     "jsonLdDescription": "Weed growing in GTA 6 Leonida: indoor operations and rural cultivation, the quiet end of the state's drug economy.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/gangs-and-factions-index-gta-6.jpg"
   },
   "heroSubtitle": "Leonida grows things. **The climate supports it. The demand supports it. The distribution network is already in place. Growing is the upstream end of an operation that runs all the way to the street.**",
   "heroImage": {

@@ -5,8 +5,8 @@
   ],
   "seo": {
     "title": "Grotti | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "Grotti in GTA 6. The Italian exotic manufacturer. Heard before seen.",
-    "ogDescription": "Grotti in GTA 6. The Italian exotic manufacturer. Heard before seen.",
+    "description": "Grotti in GTA 6. The Italian exotic manufacturer. The sound is the warning: you hear a Grotti before you see it.",
+    "ogDescription": "Grotti in GTA 6. The Italian exotic manufacturer. The sound is the warning: you hear a Grotti before you see it.",
     "jsonLdHeadline": "Grotti - GTA 6 Brand Profile",
     "jsonLdDescription": "Grotti in GTA 6. The Italian exotic manufacturer. Heard before seen.",
     "dateModified": "2026-02-01"

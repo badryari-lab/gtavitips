@@ -9,7 +9,8 @@
     "ogDescription": "Snooker in GTA 6 Leonida: a dedicated cue sport at Vice City venues, slower and more serious than the pool table next to it.",
     "jsonLdHeadline": "Snooker - GTA 6 Activity",
     "jsonLdDescription": "Snooker in GTA 6 Leonida: a dedicated cue sport at Vice City venues, slower and more serious than the pool table next to it.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/cal-hampton-gta-6-character-02.jpg"
   },
   "heroSubtitle": "The full table. **Not the bar pool table in the corner. The dedicated room, the regulation table, and the [Vice City](/gameplay/locations/vice-city) cue sport culture that takes the game seriously enough to have a proper venue for it.**",
   "heroImage": {

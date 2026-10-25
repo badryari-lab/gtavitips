@@ -9,7 +9,8 @@
     "ogDescription": "The White-Tailed Deer in GTA 6: a common inland prey animal grazing at dawn and across open grassland, the primary hunting target.",
     "jsonLdHeadline": "White-Tailed Deer – GTA 6 Animal Profile",
     "jsonLdDescription": "The White-Tailed Deer in GTA 6: a common inland prey animal grazing at dawn and across open grassland, the primary hunting target.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-05.jpg"
   },
   "heroSubtitle": "The standard prey animal of inland Leonida. **Spotted, still, then gone.** The distance between those three states is very small.",
   "heroImage": {

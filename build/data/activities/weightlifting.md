@@ -10,7 +10,8 @@
     "ogDescription": "Weightlifting in GTA 6 Leonida: gym-based strength training in Vice City, back for the first time since San Andreas.",
     "jsonLdHeadline": "Weightlifting - GTA 6 Activity",
     "jsonLdDescription": "Weightlifting in GTA 6 Leonida: gym-based strength training in Vice City, back for the first time since San Andreas.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/weightlifting-gta-6-activity-01.jpg"
   },
   "heroSubtitle": "The gym in Vice City. **Train consistently and it shows. Stop going and that changes too.**",
   "heroImage": {

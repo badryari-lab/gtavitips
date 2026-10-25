@@ -9,7 +9,8 @@
     "ogDescription": "The American Flamingo in GTA 6: a passive wading bird across the Grassrivers wetlands and Leonida Keys, colonial, harmless, unmistakable.",
     "jsonLdHeadline": "American Flamingo – GTA 6 Animal Profile",
     "jsonLdDescription": "The American Flamingo in GTA 6: a passive wading bird across the Grassrivers wetlands and Leonida Keys, colonial, harmless, unmistakable.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/flamingo-gta-6-animal-02.jpg"
   },
   "heroSubtitle": "The visual signature of Leonida. **Pink. Colonial. Impossible to miss and completely unbothered by you** until you get too close, and then a few hundred of them leave at once.",
   "heroImage": {

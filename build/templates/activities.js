@@ -87,6 +87,7 @@ function render(entry) {
     title: seo.title,
     description: seo.description,
     ogDescription: seo.ogDescription,
+    ogImage: seo.ogImage,
     canonical,
     jsonLd,
     extraCss: ACTIVITY_EXTRA_CSS,

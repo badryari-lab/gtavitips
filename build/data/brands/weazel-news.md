@@ -9,7 +9,8 @@
     "ogDescription": "Weazel News in GTA 6. Leonida's most trusted misinformation service. The helicopter is always there.",
     "jsonLdHeadline": "Weazel News - GTA 6 Brand Profile",
     "jsonLdDescription": "Weazel News in GTA 6. Leonida's most trusted misinformation service. The helicopter is always there.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/weazel-news-gta-6-brand-01.jpg"
   },
   "heroBadge": "News Industry",
   "heroSlogan": "Confirming Your Prejudices Since Forever.",

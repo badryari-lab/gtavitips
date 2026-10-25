@@ -17,7 +17,7 @@
   "statBlock": [
     {
       "key": "Brand",
-      "value": "[Albany](/gameplay/brands/albany)",
+      "value": "Albany",
       "sub": "GTA's Cadillac equivalent. Albany builds American luxury vehicles. The Alpha is the performance sports sedan."
     },
     {

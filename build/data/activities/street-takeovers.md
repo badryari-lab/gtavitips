@@ -10,7 +10,8 @@
     "ogDescription": "Street takeovers in GTA 6: intersection blockades and sideshows in Vice City, 7X's signature move and VCPD's least favorite night.",
     "jsonLdHeadline": "Street Takeovers - GTA 6 Activity",
     "jsonLdDescription": "Street takeovers in GTA 6: intersection blockades and sideshows in Vice City, 7X's signature move and VCPD's least favorite night.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/vice-city-gta-6-location-09.jpg"
   },
   "heroSubtitle": "Block the intersection, burn rubber, and film it. **The activity that 7X organized and [Vice City](/gameplay/locations/vice-city) car culture perfected. When the smoke clears, the VCPD arrives and the scatter is part of the show.**",
   "heroImage": {

@@ -6,8 +6,8 @@
   ],
   "seo": {
     "title": "Vice Beach Police | GTA 6 Faction | GTAVITIPS",
-    "description": "Vice Beach Police in GTA 6: beach patrol along the Vice City waterfront.",
-    "ogDescription": "Vice Beach Police in GTA 6: beach patrol along the Vice City waterfront.",
+    "description": "Vice Beach Police in GTA 6: the beach patrol covering Vice City's sand, promenade and waterfront, where tourists and trouble meet.",
+    "ogDescription": "Vice Beach Police in GTA 6: the beach patrol covering Vice City's sand, promenade and waterfront, where tourists and trouble meet.",
     "ogImagePlaceholder": "vice-beach-police-gta-6-faction.jpg",
     "jsonLdHeadline": "Vice Beach Police - GTA 6 Faction Profile",
     "jsonLdDescription": "Vice Beach Police in GTA 6: beach patrol along the Vice City waterfront.",

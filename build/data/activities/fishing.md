@@ -9,7 +9,8 @@
     "ogDescription": "Fishing in GTA 6 Leonida: Lake Leonida, the Keys, and coastal spots for largemouth bass and tropical species, patience required.",
     "jsonLdHeadline": "Fishing - GTA 6 Activity",
     "jsonLdDescription": "Fishing in GTA 6 Leonida: Lake Leonida, the Keys, and coastal spots for largemouth bass and tropical species, patience required.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/jason-duval-gta-6-character-01.jpg"
   },
   "heroSubtitle": "Rod and reel in Leonida. **Lake Leonida for bass, the [Keys](/gameplay/locations/leonida-keys) for reef species, the coastal zones for everything in between. The patience activity in a state that rewards patience with fish.**",
   "heroImage": {

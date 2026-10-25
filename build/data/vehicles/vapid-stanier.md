@@ -73,6 +73,12 @@
       "type": "Vehicle",
       "name": "Declasse Tornado",
       "desc": "Rival period classic from across the Leonida car scene."
+    },
+    {
+      "url": "/gameplay/locations/shore-court",
+      "type": "Property",
+      "name": "Shore Court",
+      "desc": "The pre-order property the '55 Stanier is delivered to. Straight to the garage."
     }
   ],
   "sidebarDatabase": [

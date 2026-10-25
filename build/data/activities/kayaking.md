@@ -9,7 +9,8 @@
     "ogDescription": "Kayaking in GTA 6 Leonida: quiet water through the Keys and Grassrivers, about as far from a wanted level as Leonida gets.",
     "jsonLdHeadline": "Kayaking - GTA 6 Activity",
     "jsonLdDescription": "Kayaking in GTA 6 Leonida: quiet water through the Keys and Grassrivers, about as far from a wanted level as Leonida gets.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-06.jpg"
   },
   "heroSubtitle": "Paddle through the waterways. **The [Keys](/gameplay/locations/leonida-keys) channels, the [Grassrivers](/gameplay/locations/grassrivers) swamp, and the inland waterway network navigable by kayak at a speed that notices things the motorboat misses.**",
   "heroImage": {
