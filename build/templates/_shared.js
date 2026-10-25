@@ -215,6 +215,7 @@ function renderHead({ title, description, ogDescription, ogImage, ogImagePlaceho
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpolygon points='0,0 48,0 64,15 64,64 0,64' fill='%23a8341f'/%3E%3Ctext x='30' y='44' font-family='Arial,sans-serif' font-size='28' font-weight='900' fill='%23ece4d3' text-anchor='middle'%3EVI%3C/text%3E%3C/svg%3E">
 ${jsonLdBlocks}
   <style>${fullCss != null ? fullCss : SHARED_CSS + (extraCss || '')}</style>
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="pD7Vauft0hzSQar6tj+hBg" async></script>
 </head>`;
 }
 
