@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "url": "/news/gta-6-launch-trailer",
+      "title": "The Launch Trailer: Five Weeks Out",
+      "date": "October 25, 2026",
+      "badge": "Confirmed",
+      "badgeClass": "badge--official",
+      "cat": "rockstar",
+      "deck": "No warning, no countdown. Rockstar dropped ninety seconds of GTA VI on October 15, captured entirely on PS5 and scored by Justice. A bank job, a swamp, a plane, and Lucia's ankle tag, on camera for the first time.",
+      "image": "/assets/images/lucia-caminos-gta-6-character-03.jpg",
+      "imageAlt": "Lucia Caminos in official GTA 6 artwork",
+      "thumb": "LCH",
+      "featured": false
+    },
+    {
       "url": "/news/gta-6-extended-look-breakdown",
       "title": "An Extended Look: Everything We Saw",
       "date": "August 27, 2026",

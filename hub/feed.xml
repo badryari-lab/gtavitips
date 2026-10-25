@@ -6,7 +6,14 @@
     <atom:link href="https://gtavitips.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>GTA 6 news and intel from official Rockstar sources. Characters, vehicles, locations, and everything moving in Leonida.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>The Launch Trailer: Five Weeks Out</title>
+      <link>https://gtavitips.com/news/gta-6-launch-trailer</link>
+      <guid isPermaLink="true">https://gtavitips.com/news/gta-6-launch-trailer</guid>
+      <pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
+      <description>No warning, no countdown. Rockstar dropped ninety seconds of GTA VI on October 15, captured entirely on PS5 and scored by Justice. A bank job, a swamp, a plane, and Lucia's ankle tag, on camera for the first time.</description>
+    </item>
     <item>
       <title>An Extended Look: Everything We Saw</title>
       <link>https://gtavitips.com/news/gta-6-extended-look-breakdown</link>
@@ -139,13 +146,6 @@
       <guid isPermaLink="true">https://gtavitips.com/news/gtavitips-interactive-leonida-map</guid>
       <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
       <description>Targeting launch day. Confirmed locations now, full in-game coordinates at launch. Database-integrated and mobile-ready.</description>
-    </item>
-    <item>
-      <title>GTAVITIPS on November 19: The Launch Day Plan</title>
-      <link>https://gtavitips.com/news/gtavitips-launch-day-plan</link>
-      <guid isPermaLink="true">https://gtavitips.com/news/gtavitips-launch-day-plan</guid>
-      <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-      <description>The database goes live on launch day. Here is exactly what happens on November 19 and how the site grows from there.</description>
     </item>
   </channel>
 </rss>
