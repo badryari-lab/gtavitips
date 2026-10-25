@@ -346,6 +346,8 @@ When a better image is found for a ⚠ category, update it on the homepage card 
 
 **Homepage Sitrep (juli 2026):** het Sitrep-blok op de homepage (launch/countdown/pre-orders/trailers + "Updated"-datum) is statische HTML en moet handmatig bijgewerkt worden zodra een feit verandert (nieuwe trailer, prijswijziging, PC-aankondiging, etc.) — check dit blok bij elke news-sessie. De countdown rekent zichzelf uit via JS. Entry-tellingen: `stats.json` én de statische fallback in de hero horen gelijk te lopen met het echte aantal entry-mappen.
 
+**Launch week (Nov 12 pre-load, Nov 19 launch):** `launch/PLAYBOOK.md` lists every page that carries live status and what changes on each date; `launch/day0-is-out-yet.js` flips the static text of the is-out-yet FAQ (run with `--dry` first). The `launch/` folder is outside `hub/` and is never deployed. Same publishing rule applies: build locally, show Badr, wait for go.
+
 **Intel Drop (`/intel-drops/`):** alleen bij mijlpalen (nieuwe categorie, 10+ entries, grote site-change, significant officieel materiaal). Sparren over titel (één blauw woord in `<span style="color:var(--blue)">`), context-alinea en source badge (Official groen / Internal blauw / Leaker amber) → nieuw `<div class="drop">` blok **bovenaan** de lijst → geen sitemap-update nodig → posten. Entry badges: `--new` of `--upg`.
 
 ## Contacts & social
