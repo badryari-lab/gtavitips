@@ -15,9 +15,24 @@
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    let redirect = false;
+
+    // Plain http used to answer 200 with the same pages as https (Ahrefs
+    // Site Audit flagged it as "Canonical from HTTP to HTTPS", 156 pages).
+    // Send it to https in the same single hop as the slash fix below.
+    // localhost stays on http so `wrangler dev` keeps working.
+    const isLocal = url.hostname === "localhost" || url.hostname === "127.0.0.1";
+    if (url.protocol === "http:" && !isLocal) {
+      url.protocol = "https:";
+      redirect = true;
+    }
 
     if (url.pathname.length > 1 && url.pathname.endsWith("/")) {
       url.pathname = url.pathname.slice(0, -1);
+      redirect = true;
+    }
+
+    if (redirect) {
       return Response.redirect(url.toString(), 301);
     }
 
