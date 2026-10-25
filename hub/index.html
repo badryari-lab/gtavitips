@@ -549,7 +549,7 @@
         <div class="sitrep__card reveal">
           <div class="sitrep__bar">
             <h2 class="sitrep__label" id="sitrep-hd"><span class="pulse-dot" aria-hidden="true"></span>Sitrep: State of the Game</h2>
-            <span class="sitrep__updated">Updated August 27, 2026</span>
+            <span class="sitrep__updated">Updated October 25, 2026</span>
           </div>
           <div class="sitrep__grid">
             <a href="/faq/when-does-gta-6-release" class="sitrep__cell">
@@ -559,7 +559,7 @@
             </a>
             <div class="sitrep__cell">
               <span class="sitrep__cell-key">Countdown</span>
-              <span class="sitrep__cell-val"><b id="countdown-days">123</b> days</span>
+              <span class="sitrep__cell-val"><b id="countdown-days">25</b> days</span>
               <span class="sitrep__cell-sub">Until the servers open.</span>
             </div>
             <a href="/faq/gta-6-pre-order" class="sitrep__cell">
@@ -567,10 +567,10 @@
               <span class="sitrep__cell-val">Open <b>Now</b></span>
               <span class="sitrep__cell-sub">Standard $79.99. Ultimate $99.99. Both get the Vintage Vice City Pack.</span>
             </a>
-            <a href="/news/gta-6-extended-look-breakdown" class="sitrep__cell">
-              <span class="sitrep__cell-key">Next Reveal</span>
-              <span class="sitrep__cell-val"><b id="reveal-countdown">21</b> days</span>
-              <span class="sitrep__cell-sub">An Extended Look is live. Full shot-by-shot breakdown here.</span>
+            <a href="/news/gta-6-launch-trailer" class="sitrep__cell">
+              <span class="sitrep__cell-key">Latest Trailer</span>
+              <span class="sitrep__cell-val"><b>Live</b></span>
+              <span class="sitrep__cell-sub">The Launch Trailer dropped October 15. What it showed, and what it left out.</span>
             </a>
           </div>
         </div>
@@ -704,20 +704,6 @@
     else{
       var cell=el.closest('.sitrep__cell');
       if(cell){cell.querySelector('.sitrep__cell-val').innerHTML='<b>Live</b>';cell.querySelector('.sitrep__cell-sub').textContent='The servers are open.';}
-    }
-  })();
-
-  // ── EXTENDED LOOK COUNTDOWN (sitrep) ──
-  (function(){
-    var el=document.getElementById('reveal-countdown');
-    if(!el)return;
-    var reveal=new Date(2026,7,27);
-    var now=new Date();
-    var days=Math.ceil((reveal-new Date(now.getFullYear(),now.getMonth(),now.getDate()))/86400000);
-    if(days>0)el.textContent=days;
-    else{
-      var cell=el.closest('.sitrep__cell');
-      if(cell){cell.querySelector('.sitrep__cell-val').innerHTML='<b>Live</b>';cell.querySelector('.sitrep__cell-sub').textContent='Watch it now.';}
     }
   })();
 
