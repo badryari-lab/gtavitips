@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+        "url": "/news/gta-6-original-score-justice",
+        "title": "Justice Scores Leonida: 30 Tracks, December 11",
+        "date": "November 6, 2026",
+        "badge": "Confirmed",
+        "badgeClass": "badge--official",
+        "cat": "rockstar",
+        "deck": "Rockstar named Justice as the composers of GTA VI's original score on October 29. It adapts to how you play, the album lands December 11 with 30 tracks, and a new single is already out.",
+        "image": "/assets/images/vice-city-gta-6-location-02.jpg",
+        "imageAlt": "A couple on a hotel balcony above a pool and the beach at golden hour, in official GTA 6 imagery",
+        "imagePosition": "center 40%",
+        "thumb": "SCR",
+        "featured": false
+    },
+    {
         "url": "/news/gta-6-launch-gallery",
         "title": "The Launch Gallery: Two Weeks Out",
         "date": "November 6, 2026",

@@ -6,7 +6,14 @@
     <atom:link href="https://gtavitips.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>GTA 6 news and intel from official Rockstar sources. Characters, vehicles, locations, and everything moving in Leonida.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2026 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 15:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Justice Scores Leonida: 30 Tracks, December 11</title>
+      <link>https://gtavitips.com/news/gta-6-original-score-justice</link>
+      <guid isPermaLink="true">https://gtavitips.com/news/gta-6-original-score-justice</guid>
+      <pubDate>Fri, 06 Nov 2026 15:00:00 +0000</pubDate>
+      <description>Rockstar named Justice as the composers of GTA VI's original score on October 29. It adapts to how you play, the album lands December 11 with 30 tracks, and a new single is already out.</description>
+    </item>
     <item>
       <title>The Launch Gallery: Two Weeks Out</title>
       <link>https://gtavitips.com/news/gta-6-launch-gallery</link>
@@ -139,13 +146,6 @@
       <guid isPermaLink="true">https://gtavitips.com/news/geography-of-leonida</guid>
       <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
       <description>Five confirmed zones. No official map yet. This is the spatial logic of Leonida reconstructed from confirmed locations, trailer geography, and aerial footage.</description>
-    </item>
-    <item>
-      <title>Will GTA 6 Get Map Expansions After Launch?</title>
-      <link>https://gtavitips.com/news/gta-6-map-expansion-after-launch</link>
-      <guid isPermaLink="true">https://gtavitips.com/news/gta-6-map-expansion-after-launch</guid>
-      <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-      <description>No official DLC announced. The infrastructure arguments, the geographic candidates, and the commercial logic examined.</description>
     </item>
   </channel>
 </rss>
