@@ -113,6 +113,6 @@
 ---
 The petrol can is not a weapon in the conventional sense. It is a setup tool. **Pour the trail, ignite the starting point, move to a safe distance.** The fire does the rest along the path the pour created.
 
-The directional control is the element that differentiates it from the molotov. A molotov is thrown and spreads from impact. The petrol can pours a trail with a defined shape: along a corridor, around a vehicle, across a doorway threshold. The fire follows that shape.
+The directional control is the element that differentiates it from the [molotov](/gameplay/weapons/molotov). A molotov is thrown and spreads from impact. The petrol can pours a trail with a defined shape: along a corridor, around a vehicle, across a doorway threshold. The fire follows that shape.
 
 **The practical limitation is time.** Pouring a meaningful trail takes seconds that require the operator to be in a vulnerable position. In an active firefight it is not a viable option. As a setup before the confrontation begins, or during a period of control over the environment, it is decisive and low-cost.

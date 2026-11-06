@@ -56,7 +56,7 @@
   "faq": [
     {
       "q": "How does the Machine Pistol differ from the Micro SMG?",
-      "a": "The Machine Pistol runs as a sidearm, more concealable than the Micro SMG, shorter effective range, but it pairs with a long arm without the bulk."
+      "a": "The Machine Pistol runs as a sidearm, more concealable than the [Micro SMG](/gameplay/weapons/micro-smg), shorter effective range, but it pairs with a long arm without the bulk."
     },
     {
       "q": "Where can you get the Machine Pistol in Leonida?",

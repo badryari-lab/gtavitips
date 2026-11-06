@@ -111,7 +111,7 @@
   ]
 }
 ---
-The sticky bomb removes the timing variable from explosive deployment. The frag grenade has a fuse. The molotov ignites on impact. **The sticky bomb detonates when the operator decides it detonates.**
+The sticky bomb removes the timing variable from explosive deployment. The frag grenade has a fuse. The [molotov](/gameplay/weapons/molotov) ignites on impact. **The sticky bomb detonates when the operator decides it detonates.**
 
 Attach it to a vehicle parked in a location. Attach it to a structure wall. Attach it to any surface and walk away. The device waits. The detonation comes when the target is in position, when the pursuit is in range, when the moment is correct rather than the moment the throw lands.
 

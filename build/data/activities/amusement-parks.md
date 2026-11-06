@@ -104,7 +104,7 @@
   ]
 }
 ---
-Leonida's amusement parks are the boardwalk version rather than the theme park version. The [Vice City](/gameplay/locations/vice-city) coastline does not have a gated attraction with mascots and a parking structure the size of an airport. It has the beachfront infrastructure that grows organically along a tourist-facing waterfront: a Ferris wheel visible from the road, thrill rides with names that promise something they probably cannot deliver, and the arcade-adjacent game kiosks that have been there longer than the current lease.
+Leonida's amusement parks are the boardwalk version rather than the theme park version. The [Vice City](/gameplay/locations/vice-city) coastline does not have a gated attraction with mascots and a parking structure the size of an airport. It has the beachfront infrastructure that grows organically along a tourist-facing waterfront: a Ferris wheel visible from the road, thrill rides with names that promise something they probably cannot deliver, and the arcade-adjacent [game kiosks](/gameplay/activities/games) that have been there longer than the current lease.
 
 **The boardwalk environment in Leonida is confirmed in official footage.** The rides are operational. The crowds are present. Whether the protagonist can interact with the rides as a gameplay mechanic or whether the boardwalk functions as mission environment and ambient world texture is not yet fully confirmed. Both are possible and The history of this type of setting in Leonida suggests both will apply.
 
