@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+        "url": "/news/gta-6-launch-gallery",
+        "title": "The Launch Gallery: Two Weeks Out",
+        "date": "November 6, 2026",
+        "badge": "Confirmed",
+        "badgeClass": "badge--official",
+        "cat": "rockstar",
+        "deck": "Rockstar put a new set of official screenshots on the GTA VI site on November 5. Heists, chases, clubs, a swamp, a reef, and one quiet hill at sunset. Here is what is in them.",
+        "image": "/assets/images/vice-city-gta-6-location-03.jpg",
+        "imageAlt": "Vice City from above, with Hotel Valletta, a basketball court and the skyline, in official GTA 6 imagery",
+        "imagePosition": "center 40%",
+        "thumb": "GAL",
+        "featured": false
+    },
+    {
         "url": "/news/gta-6-radio-stations",
         "title": "Six Stations: Leonida on the Dial",
         "date": "November 6, 2026",

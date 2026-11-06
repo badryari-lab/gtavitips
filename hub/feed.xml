@@ -6,7 +6,14 @@
     <atom:link href="https://gtavitips.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>GTA 6 news and intel from official Rockstar sources. Characters, vehicles, locations, and everything moving in Leonida.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 14:00:00 +0000</lastBuildDate>
+    <item>
+      <title>The Launch Gallery: Two Weeks Out</title>
+      <link>https://gtavitips.com/news/gta-6-launch-gallery</link>
+      <guid isPermaLink="true">https://gtavitips.com/news/gta-6-launch-gallery</guid>
+      <pubDate>Fri, 06 Nov 2026 14:00:00 +0000</pubDate>
+      <description>Rockstar put a new set of official screenshots on the GTA VI site on November 5. Heists, chases, clubs, a swamp, a reef, and one quiet hill at sunset. Here is what is in them.</description>
+    </item>
     <item>
       <title>Six Stations: Leonida on the Dial</title>
       <link>https://gtavitips.com/news/gta-6-radio-stations</link>
@@ -139,13 +146,6 @@
       <guid isPermaLink="true">https://gtavitips.com/news/gta-6-map-expansion-after-launch</guid>
       <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
       <description>No official DLC announced. The infrastructure arguments, the geographic candidates, and the commercial logic examined.</description>
-    </item>
-    <item>
-      <title>GTA 6 PC System Requirements: What to Expect</title>
-      <link>https://gtavitips.com/news/gta-6-pc-system-requirements</link>
-      <guid isPermaLink="true">https://gtavitips.com/news/gta-6-pc-system-requirements</guid>
-      <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-      <description>No PC release date confirmed. Analysis of what the console specs and Leonida visual targets imply for PC hardware requirements.</description>
     </item>
   </channel>
 </rss>
