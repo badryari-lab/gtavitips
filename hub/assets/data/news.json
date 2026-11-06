@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+        "url": "/news/gta-6-radio-stations",
+        "title": "Six Stations: Leonida on the Dial",
+        "date": "November 6, 2026",
+        "badge": "Confirmed",
+        "badgeClass": "badge--official",
+        "cat": "rockstar",
+        "deck": "Rockstar named six of GTA VI's radio stations on October 8, with the hosts who run them. Podcasts arrive for the first time, and the music follows Jason and Lucia on foot through earbuds.",
+        "image": "/assets/images/vice-city-gta-6-location-01.jpg",
+        "imageAlt": "The Vice City sign at dusk with a plane overhead, from official GTA 6 footage",
+        "imagePosition": "center 50%",
+        "thumb": "RAD",
+        "featured": false
+    },
+    {
         "url": "/news/gta-6-pre-load-november-10",
         "title": "Pre-Load Opens Tuesday: Clear 212 GB",
         "date": "November 6, 2026",

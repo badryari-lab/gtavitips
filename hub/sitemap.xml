@@ -94,6 +94,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gtavitips.com/news/gta-6-radio-stations</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gtavitips.com/news/gta-6-pre-load-november-10</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -203,7 +209,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/news/music-of-leonida</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -6,7 +6,14 @@
     <atom:link href="https://gtavitips.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>GTA 6 news and intel from official Rockstar sources. Characters, vehicles, locations, and everything moving in Leonida.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 13:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Six Stations: Leonida on the Dial</title>
+      <link>https://gtavitips.com/news/gta-6-radio-stations</link>
+      <guid isPermaLink="true">https://gtavitips.com/news/gta-6-radio-stations</guid>
+      <pubDate>Fri, 06 Nov 2026 13:00:00 +0000</pubDate>
+      <description>Rockstar named six of GTA VI's radio stations on October 8, with the hosts who run them. Podcasts arrive for the first time, and the music follows Jason and Lucia on foot through earbuds.</description>
+    </item>
     <item>
       <title>Pre-Load Opens Tuesday: Clear 212 GB</title>
       <link>https://gtavitips.com/news/gta-6-pre-load-november-10</link>
@@ -139,13 +146,6 @@
       <guid isPermaLink="true">https://gtavitips.com/news/gta-6-pc-system-requirements</guid>
       <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
       <description>No PC release date confirmed. Analysis of what the console specs and Leonida visual targets imply for PC hardware requirements.</description>
-    </item>
-    <item>
-      <title>How GTAVITIPS Sources Its Intelligence</title>
-      <link>https://gtavitips.com/news/gtavitips-how-we-source-intelligence</link>
-      <guid isPermaLink="true">https://gtavitips.com/news/gtavitips-how-we-source-intelligence</guid>
-      <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-      <description>Confirmed is not a casual word here. This is the complete credibility system behind every label in the database.</description>
     </item>
   </channel>
 </rss>
