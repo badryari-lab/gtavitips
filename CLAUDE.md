@@ -211,6 +211,10 @@ This is the most important editorial rule on the site. Every piece of informatio
 
 Never present unverified leaks as facts. Never omit a source label on a claim.
 
+**Newswire announcements (agreed Nov 2026):** a Rockstar Newswire announcement counts as **Confirmed** on its own, even though the table asks for 2+ sources. A secondary detail that appears only in one Newswire post and nowhere else approved (for example the free poster and map announced with the pre-load date) gets **Reported**. Read the Newswire post itself on rockstargames.com before labeling anything. Trackers and press coverage help find the post and are never cited as sources.
+
+**Before writing about a new Rockstar post:** search the site for the old claim it may overturn (the date, size, or status it replaces, for example "November 12", "has not published", "no station confirmed"). Correct the live status pages, and add an update callout to any dated article that now says the opposite. Otherwise news articles stay dated snapshots.
+
 ## Database entry conventions
 
 **Header structure updated Aug 2026** (part of the Tropical Deco redesign): each entry page now opens with a **full-bleed photo hero** (`.char-hero` for characters, equivalent classes per category) instead of the old boxed dossier header:
