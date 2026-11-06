@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leonida on the Dial | GTAVITIPS</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0b0a08;--bg3:#1c1815;--line:#2a2420;--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--coral:#e0785f;--teal:#4a9e93;--gold:#d19a3d}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;background:var(--bg);color:var(--t1);font-family:'Archivo',sans-serif;overflow:hidden}
+  .stage{width:100vw;height:100vh;display:grid;grid-template-rows:auto 1fr auto;padding:clamp(14px,2.4vw,40px);gap:2vh}
+  header{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+  .eyebrow{font-family:'Courier Prime',monospace;font-weight:700;font-size:clamp(10px,1.1vw,16px);letter-spacing:.16em;text-transform:uppercase;color:var(--teal)}
+  h1{font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(26px,4.4vw,72px);line-height:.95;text-transform:uppercase;margin-top:.25em}
+  h1 span{color:var(--coral)}
+  .chip{font-family:'Courier Prime',monospace;font-weight:700;font-size:clamp(10px,1.1vw,15px);letter-spacing:.14em;text-transform:uppercase;padding:.55em 1.1em;border:1px solid rgba(74,158,147,.5);background:rgba(74,158,147,.14);color:var(--teal);border-radius:6px 2px 6px 2px;white-space:nowrap}
+  .dialwrap{position:relative;display:flex;flex-direction:column;justify-content:center;gap:4vh}
+  .now{text-align:center;font-family:'Anton',sans-serif;font-size:clamp(34px,7vw,120px);line-height:1;text-transform:uppercase;min-height:1.1em;color:var(--gold);transition:color .2s}
+  .now.hit{color:var(--coral)}
+  .sub{text-align:center;font-family:'Courier Prime',monospace;font-size:clamp(11px,1.4vw,22px);letter-spacing:.12em;text-transform:uppercase;color:var(--t2);min-height:1.3em;margin-top:-2vh}
+  .dial{position:relative;height:clamp(70px,16vh,170px);margin:0 2%;border:1px solid var(--line);border-radius:12px;background:var(--bg3);overflow:hidden}
+  .scale{position:absolute;inset:0;background:repeating-linear-gradient(90deg,var(--t3) 0 2px,transparent 2px 3%);opacity:.55;-webkit-mask:linear-gradient(transparent 55%,#000 55%);mask:linear-gradient(transparent 55%,#000 55%)}
+  .st{position:absolute;top:12%;transform:translateX(-50%);font-family:'Courier Prime',monospace;font-weight:700;font-size:clamp(8px,1vw,15px);letter-spacing:.06em;text-transform:uppercase;color:var(--t3);white-space:nowrap;transition:color .25s}
+  .st::after{content:'';display:block;width:2px;height:clamp(18px,4vh,40px);background:var(--t3);margin:.4em auto 0;transition:background .25s}
+  .st.lit{color:var(--coral)}.st.lit::after{background:var(--coral)}
+  .needle{position:absolute;top:0;bottom:0;width:3px;background:var(--gold);box-shadow:0 0 18px var(--gold);left:0}
+  footer{display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:clamp(9px,1vw,15px);color:var(--t3)}
+  .brand{font-family:'Anton',sans-serif;letter-spacing:.06em;color:var(--t1);text-transform:uppercase;font-size:clamp(12px,1.5vw,24px)}
+  .brand b{color:var(--coral);font-weight:400}
+  .ctrl{position:fixed;right:14px;bottom:14px;z-index:5}
+  .ctrl button{font-family:'Courier Prime',monospace;font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:8px 14px;background:var(--bg3);color:var(--t1);border:1px solid var(--line);border-radius:6px;cursor:pointer}
+  .rec .ctrl{display:none}
+  @media (max-aspect-ratio:3/4){header{flex-direction:column;gap:12px}h1{font-size:clamp(34px,12vw,120px)}.st{font-size:8px;writing-mode:vertical-rl;transform:translateX(-50%) rotate(180deg)}.dial{height:30vh}}
+</style>
+</head>
+<body>
+<div class="stage">
+  <header>
+    <div>
+      <div class="eyebrow">GTAVITIPS &middot; Leonida radio</div>
+      <h1>Six stations. <span>And more to come.</span></h1>
+    </div>
+    <div class="chip">Confirmed &middot; Rockstar Newswire, Oct 8</div>
+  </header>
+  <div class="dialwrap">
+    <div class="now" id="now">&nbsp;</div>
+    <div class="sub" id="sub">&nbsp;</div>
+    <div class="dial" id="dial"><div class="scale"></div><div class="needle" id="needle"></div></div>
+  </div>
+  <footer>
+    <div>Rockstar says there are more stations than these six. Dial positions are decorative.</div>
+    <div class="brand">GTA<b>VI</b>TIPS.com</div>
+  </footer>
+</div>
+<div class="ctrl"><button id="replay">Replay</button></div>
+<script>
+(function(){
+  var P=new URLSearchParams(location.search);
+  if(P.get('rec')==='1')document.body.classList.add('rec');
+  var S=[['Cocoteo FM',9],['Back Country Radio',24],['AfroBank FM',40],['The Chamber 106.6',57],['Flash FM',73],['Dirty South Classics',90]];
+  var dial=document.getElementById('dial'),needle=document.getElementById('needle'),now=document.getElementById('now'),sub=document.getElementById('sub'),els=[],timers=[];
+  S.forEach(function(s){var e=document.createElement('div');e.className='st';e.style.left=s[1]+'%';e.textContent=s[0];dial.appendChild(e);els.push(e)});
+  function show(i){els.forEach(function(e,j){e.classList.toggle('lit',j===i)});now.textContent=i<0?' ':S[i][0];now.classList.toggle('hit',i>=0);sub.textContent=i<0?' ':(i+1)+' of 6'}
+  function run(){
+    timers.forEach(clearTimeout);timers=[];show(-1);
+    needle.style.transition='none';needle.style.left='2%';
+    S.forEach(function(s,i){
+      timers.push(setTimeout(function(){needle.style.transition='left 1s cubic-bezier(.5,0,.3,1)';needle.style.left=s[1]+'%'},300+i*2000));
+      timers.push(setTimeout(function(){show(i)},1250+i*2000));
+    });
+    timers.push(setTimeout(function(){show(-1);now.textContent='Six stations';sub.textContent='Rockstar says there are more';needle.style.transition='left 1.4s ease';needle.style.left='98%'},300+6*2000));
+    if(P.get('loop')!=='0')timers.push(setTimeout(run,300+6*2000+4500));
+  }
+  var t=P.get('t');
+  if(t!==null){var i=Math.min(+t,5);needle.style.left=S[i][1]+'%';show(i)}else run();
+  document.getElementById('replay').onclick=run;
+})();
+</script>
+</body>
+</html>

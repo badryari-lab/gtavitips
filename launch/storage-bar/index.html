@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clear 212 GB | GTAVITIPS</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0b0a08;--bg3:#1c1815;--line:#2a2420;--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--coral:#e0785f;--teal:#4a9e93;--gold:#d19a3d}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;background:var(--bg);color:var(--t1);font-family:'Archivo',sans-serif;overflow:hidden}
+  .stage{width:100vw;height:100vh;display:grid;grid-template-rows:auto 1fr auto;padding:clamp(14px,2.4vw,40px);gap:2vh}
+  header{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+  .eyebrow{font-family:'Courier Prime',monospace;font-weight:700;font-size:clamp(10px,1.1vw,16px);letter-spacing:.16em;text-transform:uppercase;color:var(--teal)}
+  h1{font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(26px,4.4vw,72px);line-height:.95;text-transform:uppercase;margin-top:.25em}
+  h1 span{color:var(--coral)}
+  .chip{font-family:'Courier Prime',monospace;font-weight:700;font-size:clamp(10px,1.1vw,15px);letter-spacing:.14em;text-transform:uppercase;padding:.55em 1.1em;border:1px solid rgba(74,158,147,.5);background:rgba(74,158,147,.14);color:var(--teal);border-radius:6px 2px 6px 2px;white-space:nowrap}
+  .rows{display:flex;flex-direction:column;justify-content:center;gap:clamp(10px,2.4vh,30px)}
+  .row{opacity:0;transform:translateY(10px);transition:opacity .5s,transform .5s}
+  .row.on{opacity:1;transform:none}
+  .lab{display:flex;justify-content:space-between;align-items:baseline;font-family:'Courier Prime',monospace;font-size:clamp(11px,1.4vw,22px);letter-spacing:.08em;text-transform:uppercase;color:var(--t2);margin-bottom:.45em}
+  .verdict{font-family:'Anton',sans-serif;font-size:clamp(16px,2.3vw,38px);letter-spacing:.02em;color:var(--t3);transition:color .3s}
+  .verdict.ok{color:var(--teal)}.verdict.no{color:var(--coral)}
+  .drive{position:relative;height:clamp(30px,6.5vh,72px);background:var(--bg3);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+  .game{position:absolute;left:0;top:0;bottom:0;width:0;background:repeating-linear-gradient(135deg,var(--gold) 0 14px,#b9822c 14px 28px);transition:width 1.2s cubic-bezier(.3,.7,.2,1)}
+  .game.no{background:repeating-linear-gradient(135deg,var(--coral) 0 14px,#b9604a 14px 28px)}
+  .gl{position:absolute;left:12px;top:50%;transform:translateY(-50%);font-family:'Anton',sans-serif;color:#0b0a08;font-size:clamp(12px,1.8vw,28px);letter-spacing:.04em;white-space:nowrap}
+  footer{display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:clamp(9px,1vw,15px);color:var(--t3)}
+  .brand{font-family:'Anton',sans-serif;letter-spacing:.06em;color:var(--t1);text-transform:uppercase;font-size:clamp(12px,1.5vw,24px)}
+  .brand b{color:var(--coral);font-weight:400}
+  .ctrl{position:fixed;right:14px;bottom:14px;z-index:5}
+  .ctrl button{font-family:'Courier Prime',monospace;font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:8px 14px;background:var(--bg3);color:var(--t1);border:1px solid var(--line);border-radius:6px;cursor:pointer}
+  .rec .ctrl{display:none}
+  @media (max-aspect-ratio:3/4){header{flex-direction:column;gap:12px}h1{font-size:clamp(34px,12vw,120px)}}
+</style>
+</head>
+<body>
+<div class="stage">
+  <header>
+    <div>
+      <div class="eyebrow">GTAVITIPS &middot; Pre-load opens Nov 10</div>
+      <h1>Will <span>212 GB</span> fit?</h1>
+    </div>
+    <div class="chip">Confirmed &middot; Rockstar Newswire, Nov 3</div>
+  </header>
+  <div class="rows" id="rows"></div>
+  <footer>
+    <div>Size is &ldquo;up to 212 GB&rdquo;. Usable space: 667 GB on a PS5, 802 GB on a Series X. Keep room for a day-one patch.</div>
+    <div class="brand">GTA<b>VI</b>TIPS.com</div>
+  </footer>
+</div>
+<div class="ctrl"><button id="replay">Replay</button></div>
+<script>
+(function(){
+  var NEED=212,P=new URLSearchParams(location.search);
+  if(P.get('rec')==='1')document.body.classList.add('rec');
+  var DRIVES=[
+    {n:'100 GB free',c:100},{n:'250 GB free',c:250},{n:'500 GB free',c:500},
+    {n:'Empty PS5 (667 usable)',c:667},{n:'Empty Series X (802 usable)',c:802}
+  ];
+  var MAX=802,rows=document.getElementById('rows'),timers=[];
+  function build(){
+    rows.innerHTML='';
+    DRIVES.forEach(function(d){
+      var el=document.createElement('div');el.className='row';
+      el.innerHTML='<div class="lab"><span>'+d.n+'</span><span class="verdict">&nbsp;</span></div>'+
+        '<div class="drive" style="width:'+(d.c/MAX*100)+'%"><div class="game"><span class="gl">GTA 6 &middot; 212 GB</span></div></div>';
+      rows.appendChild(el);d.el=el;
+    });
+  }
+  function fill(d,instant){
+    var g=d.el.querySelector('.game'),v=d.el.querySelector('.verdict'),fit=d.c>=NEED;
+    if(instant)g.style.transition='none';
+    g.style.width=Math.min(NEED/d.c,1)*100+'%';
+    if(!fit)g.classList.add('no');
+    v.className='verdict '+(fit?'ok':'no');
+    v.textContent=fit?'Fits · '+(d.c-NEED)+' GB to spare':'Needs '+(NEED-d.c)+' GB more';
+  }
+  function run(){
+    timers.forEach(clearTimeout);timers=[];build();
+    DRIVES.forEach(function(d,i){
+      timers.push(setTimeout(function(){d.el.classList.add('on')},i*900));
+      timers.push(setTimeout(function(){fill(d)},i*900+500));
+    });
+    if(P.get('loop')!=='0')timers.push(setTimeout(run,DRIVES.length*900+4500));
+  }
+  var t=P.get('t');
+  if(t!==null){build();DRIVES.forEach(function(d,i){if(i<=+t){d.el.classList.add('on');fill(d,true)}})}
+  else run();
+  document.getElementById('replay').onclick=run;
+})();
+</script>
+</body>
+</html>

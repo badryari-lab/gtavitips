@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Road to Launch | GTAVITIPS</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0b0a08;--bg3:#1c1815;--line:#2a2420;--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--coral:#e0785f;--teal:#4a9e93;--gold:#d19a3d}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;background:var(--bg);color:var(--t1);font-family:'Archivo',sans-serif;overflow:hidden}
+  .stage{width:100vw;height:100vh;display:grid;grid-template-rows:auto 1fr auto;padding:clamp(14px,2.4vw,40px);gap:2vh}
+  header{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+  .eyebrow{font-family:'Courier Prime',monospace;font-weight:700;font-size:clamp(10px,1.1vw,16px);letter-spacing:.16em;text-transform:uppercase;color:var(--teal)}
+  h1{font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(26px,4.4vw,72px);line-height:.95;text-transform:uppercase;margin-top:.25em}
+  h1 span{color:var(--coral)}
+  .chip{font-family:'Courier Prime',monospace;font-weight:700;font-size:clamp(10px,1.1vw,15px);letter-spacing:.14em;text-transform:uppercase;padding:.55em 1.1em;border:1px solid rgba(209,154,61,.5);background:rgba(209,154,61,.12);color:var(--gold);border-radius:6px 2px 6px 2px;white-space:nowrap}
+  .track{position:relative;display:flex;flex-direction:column;justify-content:space-evenly;padding-left:clamp(70px,9vw,150px)}
+  .spine{position:absolute;left:clamp(52px,6.6vw,110px);top:0;bottom:0;width:3px;background:var(--line)}
+  .spine i{position:absolute;left:0;top:0;width:100%;height:0;background:linear-gradient(var(--teal),var(--gold),var(--coral))}
+  .ev{position:relative;display:grid;grid-template-columns:auto 1fr;gap:1.2em;align-items:baseline;opacity:.18;transition:opacity .5s,transform .5s;transform:translateX(-8px)}
+  .ev.on{opacity:1;transform:none}
+  .ev::before{content:'';position:absolute;left:calc(-1 * clamp(18px,2.4vw,40px) - 6px);top:.55em;width:13px;height:13px;border-radius:50%;background:var(--bg);border:3px solid var(--t3);transition:all .4s}
+  .ev.on::before{border-color:var(--gold);background:var(--gold)}
+  .ev.big::before{width:19px;height:19px;left:calc(-1 * clamp(18px,2.4vw,40px) - 9px);border-color:var(--coral)}
+  .ev.big.on::before{background:var(--coral)}
+  .d{font-family:'Anton',sans-serif;font-size:clamp(16px,2.6vw,42px);letter-spacing:.02em;min-width:3.4em;color:var(--gold)}
+  .ev.big .d{color:var(--coral)}
+  .t{font-weight:700;font-size:clamp(13px,1.9vw,32px);line-height:1.15}
+  .t small{display:inline-block;margin-left:.7em;font-family:'Courier Prime',monospace;font-size:.5em;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);border:1px solid rgba(74,158,147,.5);padding:.1em .6em;border-radius:4px;vertical-align:middle}
+  .t small.r{color:var(--gold);border-color:rgba(209,154,61,.5)}
+  footer{display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:clamp(9px,1vw,15px);color:var(--t3)}
+  .brand{font-family:'Anton',sans-serif;letter-spacing:.06em;color:var(--t1);text-transform:uppercase;font-size:clamp(12px,1.5vw,24px)}
+  .brand b{color:var(--coral);font-weight:400}
+  .ctrl{position:fixed;right:14px;bottom:14px;z-index:5}
+  .ctrl button{font-family:'Courier Prime',monospace;font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:8px 14px;background:var(--bg3);color:var(--t1);border:1px solid var(--line);border-radius:6px;cursor:pointer}
+  .rec .ctrl{display:none}
+  @media (max-aspect-ratio:3/4){header{flex-direction:column;gap:12px}h1{font-size:clamp(34px,12vw,120px)}}
+</style>
+</head>
+<body>
+<div class="stage">
+  <header>
+    <div>
+      <div class="eyebrow">GTAVITIPS &middot; Launch intel</div>
+      <h1>The road to <span>Nov 19</span></h1>
+    </div>
+    <div class="chip">Rockstar announcements, in order</div>
+  </header>
+  <div class="track" id="track"><div class="spine"><i id="fill"></i></div></div>
+  <footer>
+    <div>Dates as announced by Rockstar. Region unlock times are Reported and can still move.</div>
+    <div class="brand">GTA<b>VI</b>TIPS.com</div>
+  </footer>
+</div>
+<div class="ctrl"><button id="replay">Replay</button></div>
+<script>
+(function(){
+  var P=new URLSearchParams(location.search);
+  if(P.get('rec')==='1')document.body.classList.add('rec');
+  var EV=[
+    ['Oct 8','Six radio stations named','C'],
+    ['Oct 25','Launch trailer','C'],
+    ['Oct 29','Justice scores Leonida','C'],
+    ['Nov 3','Pre-load moved to Nov 10 &middot; up to 212 GB','C'],
+    ['Nov 5','39 new launch screenshots','C'],
+    ['Nov 10','Pre-load opens','C',1],
+    ['Nov 12','Boxed codes at retailers','C'],
+    ['Nov 19','GTA 6 unlocks, midnight local time','R',1],
+    ['Dec 11','Justice score album','C']
+  ];
+  var track=document.getElementById('track'),fill=document.getElementById('fill'),els=[],timers=[],STEP=1100;
+  EV.forEach(function(e){
+    var d=document.createElement('div');d.className='ev'+(e[3]?' big':'');
+    d.innerHTML='<div class="d">'+e[0]+'</div><div class="t">'+e[1]+'<small class="'+(e[2]==='R'?'r':'')+'">'+(e[2]==='R'?'Reported':'Confirmed')+'</small></div>';
+    track.appendChild(d);els.push(d);
+  });
+  function reach(e,ms){
+    fill.style.transition=ms?'height '+ms+'ms linear':'none';
+    var tr=track.getBoundingClientRect(),er=e.getBoundingClientRect();
+    fill.style.height=(er.top+er.height/2-tr.top)+'px';
+  }
+  function run(){
+    timers.forEach(clearTimeout);timers=[];
+    els.forEach(function(e){e.classList.remove('on')});fill.style.transition='none';fill.style.height='0';
+    els.forEach(function(e,i){
+      timers.push(setTimeout(function(){e.classList.add('on');reach(e,STEP)},600+i*STEP));
+    });
+    if(P.get('loop')!=='0')timers.push(setTimeout(run,600+EV.length*STEP+4000));
+  }
+  var t=P.get('t');
+  if(t!==null){var n=Math.min(+t,els.length-1);els.forEach(function(e,i){if(i<=n)e.classList.add('on')});reach(els[n],0)}
+  else run();
+  document.getElementById('replay').onclick=run;
+})();
+</script>
+</body>
+</html>
