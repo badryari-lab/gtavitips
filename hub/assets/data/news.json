@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+        "url": "/news/gta-6-pre-load-november-10",
+        "title": "Pre-Load Opens Tuesday: Clear 212 GB",
+        "date": "November 6, 2026",
+        "badge": "Confirmed",
+        "badgeClass": "badge--official",
+        "cat": "rockstar",
+        "deck": "Rockstar moved the digital pre-load up two days, to Tuesday, November 10. The file needs up to 212 GB, the first size Rockstar has named. The game itself stays locked until November 19.",
+        "image": "/assets/images/gta-6-ultimate-edition-01.jpg",
+        "imageAlt": "Jason and Lucia in official GTA 6 artwork",
+        "imagePosition": "center 20%",
+        "thumb": "PRE",
+        "featured": false
+    },
+    {
       "url": "/news/gta-6-launch-trailer",
       "title": "The Launch Trailer: Five Weeks Out",
       "date": "October 25, 2026",

@@ -6,7 +6,14 @@
     <atom:link href="https://gtavitips.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>GTA 6 news and intel from official Rockstar sources. Characters, vehicles, locations, and everything moving in Leonida.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Pre-Load Opens Tuesday: Clear 212 GB</title>
+      <link>https://gtavitips.com/news/gta-6-pre-load-november-10</link>
+      <guid isPermaLink="true">https://gtavitips.com/news/gta-6-pre-load-november-10</guid>
+      <pubDate>Fri, 06 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Rockstar moved the digital pre-load up two days, to Tuesday, November 10. The file needs up to 212 GB, the first size Rockstar has named. The game itself stays locked until November 19.</description>
+    </item>
     <item>
       <title>The Launch Trailer: Five Weeks Out</title>
       <link>https://gtavitips.com/news/gta-6-launch-trailer</link>
@@ -139,13 +146,6 @@
       <guid isPermaLink="true">https://gtavitips.com/news/gtavitips-how-we-source-intelligence</guid>
       <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
       <description>Confirmed is not a casual word here. This is the complete credibility system behind every label in the database.</description>
-    </item>
-    <item>
-      <title>The Interactive Leonida Map: What We Are Building</title>
-      <link>https://gtavitips.com/news/gtavitips-interactive-leonida-map</link>
-      <guid isPermaLink="true">https://gtavitips.com/news/gtavitips-interactive-leonida-map</guid>
-      <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-      <description>Targeting launch day. Confirmed locations now, full in-game coordinates at launch. Database-integrated and mobile-ready.</description>
     </item>
   </channel>
 </rss>
