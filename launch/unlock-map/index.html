@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GTA 6 Unlock Map | GTAVITIPS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0b0a08;--bg2:#131110;--bg3:#1c1815;--line:#2a2420;--t1:#f2ede4;--t2:#a89a86;--t3:#6b5f4f;--coral:#e0785f;--teal:#4a9e93;--gold:#d19a3d;--paper:#ece4d3}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;background:var(--bg);color:var(--t1);font-family:'Archivo',sans-serif;overflow:hidden}
+  .stage{position:relative;width:100vw;height:100vh;display:grid;grid-template-rows:auto 1fr auto;gap:0;padding:clamp(14px,2.4vw,40px)}
+  header{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+  .eyebrow{font-family:'Courier Prime',monospace;font-weight:700;font-size:clamp(10px,1.1vw,16px);letter-spacing:.16em;text-transform:uppercase;color:var(--teal)}
+  h1{font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(24px,3.9vw,64px);line-height:.95;text-transform:uppercase;letter-spacing:.005em;margin-top:.25em;max-width:62vw}
+  h1 span{color:var(--coral)}
+  .chip{font-family:'Courier Prime',monospace;font-weight:700;font-size:clamp(10px,1.1vw,15px);letter-spacing:.14em;text-transform:uppercase;padding:.55em 1.1em;border:1px solid rgba(224,120,95,.45);background:rgba(224,120,95,.12);color:var(--coral);border-radius:6px 2px 6px 2px;white-space:nowrap}
+  .mapwrap{position:relative;min-height:0}
+  svg{width:100%;height:100%;display:block}
+  .country{fill:#1a1613;stroke:#2e2721;stroke-width:.5;transition:fill .5s ease}
+  .country.nodata{fill:#161310}
+  .ring{fill:none;stroke-width:2;pointer-events:none}
+  .dot{stroke:#0b0a08;stroke-width:1}
+  .now{position:absolute;left:0;top:0;pointer-events:none}
+  .now .big{font-family:'Anton',sans-serif;font-size:clamp(30px,6.2vw,104px);line-height:1;letter-spacing:.01em}
+  .now .sub{font-family:'Courier Prime',monospace;font-size:clamp(11px,1.25vw,20px);letter-spacing:.1em;text-transform:uppercase;color:var(--t2);margin-top:.5em}
+  .wave{pointer-events:none;position:absolute;left:0;bottom:0;font-family:'Anton',sans-serif;font-size:clamp(16px,2.6vw,44px);text-transform:uppercase;color:var(--coral);letter-spacing:.02em;max-width:60%;line-height:1.05;white-space:normal}
+  .count{position:absolute;right:0;top:0;text-align:right;pointer-events:none}
+  .count .n{font-family:'Anton',sans-serif;font-size:clamp(30px,5vw,84px);line-height:1}
+  .count .l{font-family:'Courier Prime',monospace;font-size:clamp(10px,1.1vw,16px);letter-spacing:.12em;text-transform:uppercase;color:var(--t2);margin-top:.4em}
+  footer{display:grid;gap:10px}
+  .bar{position:relative;height:clamp(8px,1vw,14px);background:var(--bg3);border:1px solid var(--line);border-radius:99px}
+  .fill{position:absolute;left:0;top:0;bottom:0;width:0;background:linear-gradient(90deg,var(--teal),var(--gold),var(--coral));border-radius:99px}
+  .tick{position:absolute;top:-3px;bottom:-3px;width:2px;background:rgba(255,255,255,.28)}
+  .ends{display:flex;justify-content:space-between;font-family:'Courier Prime',monospace;font-size:clamp(9px,1vw,15px);letter-spacing:.1em;text-transform:uppercase;color:var(--t3)}
+  .src{display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:clamp(9px,1vw,15px);color:var(--t3)}
+  .brand{font-family:'Anton',sans-serif;letter-spacing:.06em;color:var(--t1);text-transform:uppercase;font-size:clamp(12px,1.5vw,24px)}
+  .brand b{color:var(--coral);font-weight:400}
+  .ctrl{position:fixed;right:14px;bottom:14px;display:flex;gap:8px;z-index:5}
+  .ctrl button{font-family:'Courier Prime',monospace;font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:8px 14px;background:var(--bg3);color:var(--t1);border:1px solid var(--line);border-radius:6px;cursor:pointer}
+  .rec .ctrl{display:none}
+  @media (max-aspect-ratio:3/4){
+    header{flex-direction:column;gap:12px}
+    h1{font-size:clamp(34px,12vw,120px)}
+    .now .big{font-size:clamp(34px,11vw,130px)}
+    .count .n{font-size:clamp(34px,10vw,110px)}
+  }
+</style>
+</head>
+<body>
+<div class="stage" id="stage">
+  <header>
+    <div>
+      <div class="eyebrow">GTAVITIPS &middot; Launch intel</div>
+      <h1>GTA 6 unlocks <span>one midnight at a time</span></h1>
+    </div>
+    <div class="chip">Reported &middot; times can still move</div>
+  </header>
+
+  <div class="mapwrap" id="mapwrap">
+    <svg id="map" role="img" aria-label="World map showing when GTA 6 unlocks in each region"></svg>
+    <div class="now">
+      <div class="big" id="clock">NOV 18 &middot; 11:00</div>
+      <div class="sub" id="sub">UTC</div>
+    </div>
+    <div class="wave" id="wave"></div>
+    <div class="count">
+      <div class="n" id="n">0</div>
+      <div class="l">countries unlocked</div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="bar" id="bar"><div class="fill" id="fill"></div></div>
+    <div class="ends"><span>Nov 18 &middot; 11:00 UTC &middot; New Zealand</span><span>Nov 19 &middot; 06:00 UTC &middot; Mexico</span></div>
+    <div class="src">
+      <span>Midnight local time on Nov 19. Source: PlayStation Store listings, PlayStation Support, Rockstar Support (as quoted). No store data for China and some Gulf states.</span>
+      <span class="brand">GTA<b>VI</b>TIPS</span>
+    </div>
+  </footer>
+</div>
+<div class="ctrl"><button id="play">Pause</button><button id="restart">Restart</button></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script>
+(function(){
+  // Unlock waves: hours after Nov 18 11:00 UTC, from our unlock page (store listings). ISO 3166 numeric ids.
+  var WAVES = [
+    {h:0,    name:'New Zealand',                ids:['554']},
+    {h:2,    name:'Australia',                  ids:['036']},
+    {h:4,    name:'Japan and South Korea',      ids:['392','410']},
+    {h:5,    name:'Hong Kong, Malaysia, Singapore, Taiwan', ids:['458','158'], pts:[[103.8,1.35],[114.17,22.32]]},
+    {h:6,    name:'Indonesia and Thailand',     ids:['360','764']},
+    {h:7.5,  name:'India',                      ids:['356']},
+    {h:9,    name:'United Arab Emirates',       ids:['784']},
+    {h:10,   name:'Saudi Arabia and Turkey',    ids:['682','792']},
+    {h:11,   name:'Greece, Finland, Romania, South Africa, Ukraine', ids:['300','246','642','100','196','710','804']},
+    {h:12,   name:'Continental Europe',         ids:['250','276','380','528','616','752','724','040','056','191','208','203','348','442','578','703','705','756'], pts:[[14.5,35.9]]},
+    {h:13,   name:'UK, Ireland, Portugal, Iceland', ids:['826','372','620','352']},
+    {h:16,   name:'Brazil, Argentina, Chile',   ids:['076','032','152','600','858']},
+    {h:17,   name:'Bolivia',                    ids:['068']},
+    {h:18,   name:'United States, Canada, Colombia',  ids:['840','124','170','218','591','604']},
+    {h:19,   name:'Mexico and Central America', ids:['484','188','222','320','340','558']}
+  ];
+  var SPAN = 19, ACTIVE = 19, HOLD = 4;
+  var q = new URLSearchParams(location.search);
+  var frozen = q.has('t') ? parseFloat(q.get('t')) : null;
+  if (q.has('rec')) document.body.classList.add('rec');
+  var loop = q.get('loop') !== '0';
+
+  var colorFor = d3.interpolateRgbBasis(['#4a9e93','#d19a3d','#e0785f']);
+  var svg = d3.select('#map');
+  var features = [], groupOf = {}, centroids = [];
+  var projection, path, ringLayer, dotLayer;
+  var startTime = 0, paused = false, pausedAt = 0, pulsed = {};
+
+  function pad(n){return (n<10?'0':'')+n}
+  function clockText(hrs){
+    var total = 11*60 + Math.round(hrs*60);
+    var day = 18 + Math.floor(total/(24*60));
+    var rem = total % (24*60);
+    return 'NOV '+day+' · '+pad(Math.floor(rem/60))+':'+pad(rem%60);
+  }
+
+  d3.json('https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-110m.json').then(function(world){
+    var all = topojson.feature(world, world.objects.countries).features;
+    all.forEach(function(f){
+      if ((f.id === '250' || f.id === '528') && f.geometry.type === 'MultiPolygon'){
+        f.geometry.coordinates = f.geometry.coordinates.filter(function(poly){
+          var c = d3.geoCentroid({type:'Polygon',coordinates:poly}); return c[1] > 40 && c[0] > -10 && c[0] < 12;
+        });
+      }
+    });
+    features = all.filter(function(f){ return f.id !== '010'; });
+    WAVES.forEach(function(w,i){ w.ids.forEach(function(id){ groupOf[id] = i; }); });
+    draw();
+    window.addEventListener('resize', draw);
+    start();
+  });
+
+  function draw(){
+    var el = document.getElementById('mapwrap');
+    var w = el.clientWidth, h = el.clientHeight;
+    svg.attr('viewBox','0 0 '+w+' '+h);
+    svg.selectAll('*').remove();
+    projection = d3.geoNaturalEarth1().fitExtent([[0,h*0.12],[w,h*0.98]], {type:'FeatureCollection',features:features});
+    path = d3.geoPath(projection);
+    svg.append('g').selectAll('path').data(features).enter().append('path')
+      .attr('class', function(d){ return 'country'+(groupOf[d.id]===undefined?' nodata':''); })
+      .attr('d', path)
+      .attr('data-g', function(d){ return groupOf[d.id]===undefined?-1:groupOf[d.id]; });
+    dotLayer = svg.append('g');
+    WAVES.forEach(function(wv,i){ (wv.pts||[]).forEach(function(p){
+      var xy = projection(p);
+      dotLayer.append('circle').attr('class','dot').attr('data-g',i).attr('cx',xy[0]).attr('cy',xy[1]).attr('r',Math.max(3,w/320)).attr('fill','#1a1613');
+    });});
+    ringLayer = svg.append('g');
+    centroids = WAVES.map(function(wv,i){
+      var pts = features.filter(function(f){return groupOf[f.id]===i;}).map(function(f){ return projection(d3.geoCentroid(f)); }).filter(function(p){return p && isFinite(p[0]);});
+      (wv.pts||[]).forEach(function(p){ pts.push(projection(p)); });
+      if (!pts.length) return null;
+      return [d3.mean(pts,function(p){return p[0];}), d3.mean(pts,function(p){return p[1];})];
+    });
+    render(currentHours(), true);
+  }
+
+  function currentHours(){
+    if (frozen !== null) return frozen;
+    var t = (performance.now() - startTime)/1000;
+    var cycle = ACTIVE + HOLD;
+    t = loop ? t % cycle : Math.min(t, cycle);
+    return Math.min(t / ACTIVE, 1) * SPAN;
+  }
+  function render(hrs, silent){
+    document.getElementById('clock').textContent = clockText(hrs);
+    document.getElementById('fill').style.width = (hrs/SPAN*100)+'%';
+    var count = 0, lastWave = -1;
+    svg.selectAll('.country').each(function(){
+      var g = +this.getAttribute('data-g');
+      if (g < 0) return;
+      if (WAVES[g].h <= hrs + 1e-6){ this.style.fill = colorFor(WAVES[g].h/SPAN); count++; if (g > lastWave) lastWave = g; }
+      else { this.style.fill = ''; }
+    });
+    svg.selectAll('.dot').each(function(){
+      var g = +this.getAttribute('data-g');
+      this.setAttribute('fill', WAVES[g].h <= hrs + 1e-6 ? colorFor(WAVES[g].h/SPAN) : '#1a1613');
+    });
+    document.getElementById('n').textContent = count;
+    var wv = lastWave >= 0 ? WAVES[lastWave] : null;
+    var done = WAVES.filter(function(x){return x.h <= hrs + 1e-6;}).length;
+    document.getElementById('wave').textContent = wv ? 'Midnight in ' + wv.name : '';
+    document.getElementById('sub').textContent = 'UTC · ' + done + ' of ' + WAVES.length + ' waves';
+    WAVES.forEach(function(w,i){
+      if (w.h <= hrs + 1e-6 && !pulsed[i]){ pulsed[i] = true; if (!silent && frozen === null) ping(i); }
+    });
+  }
+  function ping(i){
+    var c = centroids[i]; if (!c) return;
+    var col = colorFor(WAVES[i].h/SPAN);
+    ringLayer.append('circle').attr('class','ring').attr('cx',c[0]).attr('cy',c[1]).attr('r',4).attr('stroke',col).attr('opacity',.9)
+      .transition().duration(1400).ease(d3.easeCubicOut).attr('r',Math.max(40,document.getElementById('mapwrap').clientWidth/14)).attr('opacity',0).remove();
+  }
+  function start(){
+    var bar = document.getElementById('bar');
+    WAVES.forEach(function(w){ var t = document.createElement('div'); t.className='tick'; t.style.left=(w.h/SPAN*100)+'%'; bar.appendChild(t); });
+    startTime = performance.now(); pulsed = {};
+    var lastCycle = -1;
+    function frame(){
+      if (!paused){
+        var t = (performance.now() - startTime)/1000;
+        var cycle = Math.floor(t/(ACTIVE+HOLD));
+        if (frozen === null && loop && cycle !== lastCycle){ lastCycle = cycle; pulsed = {}; }
+        render(currentHours());
+      }
+      requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+    document.getElementById('play').addEventListener('click', function(){
+      if (!paused){ paused = true; pausedAt = performance.now(); this.textContent = 'Play'; }
+      else { startTime += performance.now() - pausedAt; paused = false; this.textContent = 'Pause'; }
+    });
+    document.getElementById('restart').addEventListener('click', function(){
+      startTime = performance.now(); pulsed = {};
+      if (paused){ paused = false; document.getElementById('play').textContent = 'Pause'; }
+    });
+  }
+})();
+</script>
+</body>
+</html>
