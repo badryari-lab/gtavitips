@@ -18,6 +18,14 @@ The closest existing match to a real GTA 6 search is the character-transfer FAQ:
 | `/faq/when-can-you-pre-load-gta-6` | Pre-load date, needs the real facts on Nov 12. |
 | `/faq/can-i-transfer-my-gta-online-character` | Matches queries we already get impressions for. |
 | `/trailers`, `/timeline` | Reference pages for threads and videos. |
+| `/faq/gta-6-download-size` | Storage checker: type your free space, see if 212 GB fits (added Nov 6). |
+| `/faq/gta-6-pre-order` | Answers "is there a free GTA 6 download" with the official ways to buy, a scam warning people share. |
+
+## Where we stand (GSC and competitors, Nov 6 2026)
+
+- Search Console shows **0 external links** to gtavitips.com. Backlinks are the missing piece, not titles or technique.
+- All 31 clicks in three months came from Nepal at position 1.0. Real organic traffic from elsewhere has no clicks, and no query ranks above position 36.
+- New GTA 6 sites do almost the same job we do: gta6record.com (every fact with its source, Newswire archive, map, screenshot archive), leonidaunlocked.com (launch hub with storage checker, prices, printable map), endgametools.com and gta6cheatsheet.com (unlock times by country, downloadable CSV), plus vicepulse.net and getgvide.com. Unlock-time tables are no longer a differentiator. Our edge is the database, the bronlabels, and speed in correcting status pages.
 
 ## Where to go (needs Badr's own account)
 
