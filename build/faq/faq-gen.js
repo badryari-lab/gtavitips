@@ -4,7 +4,13 @@
 // Usage (repo root): node build/faq/faq-gen.js build/faq/<specs>.js [--dry]
 // Spec: { slug, q, h1, desc, source, answer:[html paragraphs], related:[{q, html, source, badge?}], more:[slug...],
 //         card:{label, big, sub}, intel:[[href,label]...], index:{section, short, source?, replaces?} }
+// Spoilers (Nov 2026, see CLAUDE.md "Spoilers"): an answer entry can be {spoiler:{chapter, html}} instead of a string, and a
+// related item can carry spoiler:{chapter, html} after its spoiler-free html. Each renders as a native <details class="spoiler">
+// click-to-reveal; chapter is a number ("Chapter 4") or a label ("Prologue"). Pages with a spoiler get a notice at the top and
+// the spoiler CSS once in <head>; their FAQPage JSON-LD keeps only the spoiler-free text plus SPOILER_LD. Pages without
+// spoilers come out exactly as before.
 const fs = require('fs'), path = require('path');
+const { clean } = require("./sources.js"); // never credit competitor guide sites
 const ROOT = process.cwd(), DRY = process.argv.includes('--dry');
 const specs = require(path.resolve(process.argv[2]));
 const SHELL = 'hub/faq/when-does-gta-6-release/index.html';
@@ -18,20 +24,47 @@ const shell = rd(SHELL);
 const head0 = shell.slice(0, shell.indexOf('<main id="main">')), tail0 = shell.slice(shell.indexOf('  </main>'));
 const news = JSON.parse(rd('hub/assets/data/news.json')).articles;
 const problems = [], pages = [];
+const SPOILER_LD = 'The full answer is on the page behind a spoiler warning.';
+const SPOILER_NOTE = 'Story spoilers sit behind a click. Nothing opens until you do.';
+const SPOILER_CSS = `
+    .spoiler-note { font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; line-height: 1.5; color: var(--amber); background: var(--amber-dim); border: 1px solid var(--amber-border); border-radius: 8px 2px 8px 2px; padding: 10px 14px; margin-bottom: 16px; }
+    .spoiler { margin-top: 14px; background: var(--bg-3); border: 1px dashed var(--amber-border); border-radius: 8px 2px 8px 2px; }
+    .answer-card__answer .spoiler { margin-bottom: 14px; }
+    .answer-card__answer .spoiler:last-child { margin-bottom: 0; }
+    .spoiler > summary { list-style: none; cursor: pointer; min-height: 44px; padding: 10px 14px; display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; line-height: 1.4; color: var(--t2); }
+    .spoiler > summary::-webkit-details-marker { display: none; }
+    .spoiler > summary:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+    .spoiler__stamp { display: inline-block; padding: 4px 10px; color: var(--amber); background: var(--amber-dim); border: 1px solid var(--amber-border); border-radius: 6px 2px 6px 2px; transform: rotate(-1.2deg); }
+    .spoiler__hint::after { content: ' +'; color: var(--amber); }
+    .spoiler[open] .spoiler__hint::after { content: ' \\2212'; }
+    .spoiler__body { padding: 2px 14px 14px; font-size: 13px; color: var(--t2); line-height: 1.75; }
+    .spoiler__body p { margin-bottom: 0; }
+    .spoiler__body p + p { margin-top: 10px; }
+    .spoiler__body strong { color: var(--t1); font-weight: 600; }`;
+const spoilerLabel = c => typeof c === 'number' ? `Chapter ${c}` : String(c);
+const renderSpoiler = (sp, ind) => `<details class="spoiler">
+${ind}  <summary><span class="spoiler__stamp">Spoiler: ${spoilerLabel(sp.chapter)}</span> <span class="spoiler__hint">Tap to reveal</span></summary>
+${ind}  <div class="spoiler__body">${/^\s*<p[ >]/.test(sp.html) ? sp.html : `<p>${sp.html}</p>`}</div>
+${ind}</details>`;
 
 for (const s of specs) {
   const url = `https://gtavitips.com/faq/${s.slug}`, title = `${s.h1} | GTA 6 FAQ | GTAVITIPS`;
   if (s.desc.length > 160) problems.push(`${s.slug}: description ${s.desc.length} chars`);
   if (title.length > 70) problems.push(`${s.slug}: title ${title.length} chars`);
   const allText = JSON.stringify(s);
+  const spoilers = [...s.answer.filter(p => typeof p !== 'string').map(p => p.spoiler), ...s.related.filter(r => r.spoiler).map(r => r.spoiler)];
+  for (const sp of spoilers) if (!sp || sp.chapter === undefined || sp.chapter === '' || !sp.html) problems.push(`${s.slug}: spoiler needs chapter and html`);
+  const hasSpoiler = spoilers.length > 0, plain = s.answer.filter(p => typeof p === 'string');
+  const ldText = (txt, sp) => sp ? [txt, SPOILER_LD].filter(Boolean).join(' ') : txt;
   if (/\u2014/.test(allText)) problems.push(`${s.slug}: em dash`);
   for (const m of s.more) if (!titles[m]) problems.push(`${s.slug}: more-link missing ${m}`);
   if (s.more.length < 2 || s.more.length > 4) problems.push(`${s.slug}: More FAQ needs 2 to 4 links`);
   for (const [href] of s.intel) if (!fs.existsSync(path.join(ROOT, 'hub' + href, 'index.html'))) problems.push(`${s.slug}: intel missing ${href}`);
   for (const m of allText.matchAll(/href=\\"(\/[^"\\#]+)/g)) if (!fs.existsSync(path.join(ROOT, 'hub' + m[1], 'index.html')) && !specs.some(x => '/faq/' + x.slug === m[1])) problems.push(`${s.slug}: dead link ${m[1]}`);
   const ogImg = 'https://gtavitips.com' + (news.find(a => a.url === s.intel[0][0]) || { image: '/assets/images/vice-city-gta-6-location-04.jpg' }).image;
-  const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: s.q, acceptedAnswer: { '@type': 'Answer', text: strip(s.answer.join(' ')) } }, ...s.related.map(r => ({ '@type': 'Question', name: r.q, acceptedAnswer: { '@type': 'Answer', text: strip(r.html) } }))] };
-  const head = head0
+  const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: s.q, acceptedAnswer: { '@type': 'Answer', text: ldText(strip(plain.join(' ')), plain.length < s.answer.length) } }, ...s.related.map(r => ({ '@type': 'Question', name: r.q, acceptedAnswer: { '@type': 'Answer', text: ldText(strip(r.html || ''), !!r.spoiler) } }))] };
+  if (hasSpoiler && !/\n  <\/style>/.test(head0)) problems.push(`${s.slug}: shell has no head </style> for the spoiler CSS`);
+  const head = (hasSpoiler ? head0.replace(/\n  <\/style>/, () => SPOILER_CSS + '\n  </style>') : head0)
     .replace(/<title>[^<]*<\/title>/, () => `<title>${title}</title>`)
     .replace(/<meta name="description" content="[^"]*">/, () => `<meta name="description" content="${escAttr(s.desc)}">`)
     .replace(/<meta property="og:title" content="[^"]*">/, () => `<meta property="og:title" content="${title}">`)
@@ -46,8 +79,8 @@ for (const s of specs) {
               <span class="detail-block__q">${r.q}</span>${r.badge ? `\n              <span class="detail-block__badge detail-block__badge--amber">${r.badge}</span>` : ''}
             </div>
             <div class="detail-block__body">
-              ${r.html}
-              <div class="detail-block__source">Source: ${r.source}</div>
+              ${r.html || ''}${r.spoiler ? '\n              ' + renderSpoiler(r.spoiler, '              ') : ''}
+              <div class="detail-block__source">Source: ${clean(r.source)}</div>
             </div>
           </div>`).join('\n');
   const more = [...s.more.map(m => `            <a href="/faq/${m}" class="related-link">
@@ -61,14 +94,14 @@ for (const s of specs) {
     <div class="wrap">
       <div class="layout">
         <div>
-
+${hasSpoiler ? `\n          <p class="spoiler-note reveal">${SPOILER_NOTE}</p>\n` : ''}
           <div class="answer-card reveal">
             <div class="answer-card__head">
-              <span class="answer-card__source">Source: ${s.source}</span>
+              <span class="answer-card__source">Source: ${clean(s.source)}</span>
             </div>
             <div class="answer-card__body">
               <h1 class="answer-card__h1">${s.h1}</h1>
-              <div class="answer-card__answer">${s.answer.map(p => `<p>${p}</p>`).join('\n                ')}</div>
+              <div class="answer-card__answer">${s.answer.map(p => typeof p === 'string' ? `<p>${p}</p>` : renderSpoiler(p.spoiler, '                ')).join('\n                ')}</div>
             </div>
           </div>
 
@@ -123,7 +156,7 @@ const item = s => `      <div class="faq-item" data-badge="green">
         <div class="faq-answer">
           <div class="faq-answer__inner">
             <p>${s.index.short}</p>
-            <p class="faq-answer__source">Source: ${s.index.source || s.source}</p>
+            <p class="faq-answer__source">Source: ${clean(s.index.source || s.source)}</p>
             <a href="/faq/${s.slug}" class="faq-answer__more">Read More &#8594;</a>
           </div>
         </div>
@@ -131,7 +164,7 @@ const item = s => `      <div class="faq-item" data-badge="green">
 `;
 for (const s of specs) {
   const items = [...idx.matchAll(/      <div class="faq-item"[\s\S]*?\n      <\/div>\n(?=      <div class="faq-item"|    <\/section>)/g)];
-  const hit = items.filter(m => m[0].includes(`href="/faq/${s.slug}"`) || (s.index.replaces || []).some(q => m[0].includes(`<span class="faq-btn__q">${q}</span>`)));
+  const hit = items.filter(m => m[0].includes(`<a href="/faq/${s.slug}" class="faq-answer__more">`) || (s.index.replaces || []).some(q => m[0].includes(`<span class="faq-btn__q">${q}</span>`)));
   if (hit.length) { idx = idx.replace(hit[0][0], () => item(s)); for (const extra of hit.slice(1)) idx = idx.replace(extra[0], ''); console.log('index: replaced', s.slug, hit.length > 1 ? `(+${hit.length - 1} merged)` : ''); continue; }
   const secStart = idx.indexOf(`<section class="faq-section reveal" id="${s.index.section}">`); if (secStart < 0) throw new Error('no section ' + s.index.section);
   const secEnd = idx.indexOf('    </section>', secStart);

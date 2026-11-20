@@ -161,7 +161,7 @@ module.exports = [
   desc: "The fastest car in GTA 6's published WAiNK stats is the '96 Pegassi Infernus at 7.1 speed, ahead of the '95 Grotti Cheetah and '88 Pfister Comet.",
   source: `${IGN}, WAiNK vehicle stats`,
   answer: ["<strong>The '96 Pegassi Infernus</strong>, at 7.1 out of 10 on WAiNK's speed bar. It also has the quickest acceleration of the cars with published numbers, at 7.3.",
-    `Behind it: the ${L('/gameplay/vehicles/grotti-cheetah', "'95 Grotti Cheetah")} at 6.6 and the '88 Pfister Comet at 6.1. The game shows bars out of 10, not top speeds, and IGN has stats for 74 of the 277 base models so far, so a newer supercar can still take the crown. The ${L('/gameplay/vehicles', 'Fleet Numbers table')} updates as the list grows.`],
+    `Behind it: the ${L('/gameplay/vehicles/grotti-cheetah', "'95 Grotti Cheetah")} at 6.6 and the '88 Pfister Comet at 6.1. The game shows bars out of 10, not top speeds, and published stats cover 74 of the 277 base models so far, so a newer supercar can still take the crown. The ${L('/gameplay/vehicles', 'Fleet Numbers table')} updates as the list grows.`],
   related: [
     { q: "Where do you see a car's stats?", html: 'Scan it with WAiNK. The vehicle bars (speed, acceleration, asphalt and off-road handling, strength) only appear once you are inside with the engine running.', source: IGN },
     { q: 'What handles best?', html: "On asphalt, the '88 Comet, '95 Cheetah and '96 Infernus tie at 6.5. Off-road, the '77 BF Bandito leads at 7.6, ahead of the '73 BF Injection at 7.3.", source: IGN },

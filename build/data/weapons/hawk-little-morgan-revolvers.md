@@ -21,7 +21,7 @@
     {
       "key": "In-Game Model",
       "value": "Hawk & Little Morgan",
-      "sub": "Damage 5.7, Accuracy 5.4, Handling 7.8, Range 6.0 out of 10. 6-round mag, semi-auto, .44 Magnum. Ammu-Nation: Standard and Hunting stock. Menu stats: IGN's Official GTA 6 Guide."
+      "sub": "Damage 5.7, Accuracy 5.4, Handling 7.8, Range 6.0 out of 10. 6-round mag, semi-auto, .44 Magnum. Ammu-Nation: Standard and Hunting stock. Menu stats from the in-game weapon menu."
     },
     {
       "key": "Lethality",

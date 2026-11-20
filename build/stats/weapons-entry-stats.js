@@ -13,7 +13,7 @@ for (const [slug, gun] of Object.entries(MAP)) {
   const file = path.join(__dirname, '..', 'data', 'weapons', slug + '.md');
   const raw = fs.readFileSync(file, 'utf8'); const crlf = raw.includes('\r\n'); const t = raw.replace(/\r\n/g, '\n');
   const cut = t.indexOf('\n---'); const j = JSON.parse(t.slice(0, cut));
-  const sub = `Damage ${f1(r[4])}, Accuracy ${f1(r[5])}, Handling ${f1(r[6])}, Range ${f1(r[7])} out of 10. ${r[8]}-round mag, ${r[9].toLowerCase()}, ${r[11]}. Ammu-Nation: ${STORE[r[12]] || 'not sold'}. Menu stats: IGN's Official GTA 6 Guide.`;
+  const sub = `Damage ${f1(r[4])}, Accuracy ${f1(r[5])}, Handling ${f1(r[6])}, Range ${f1(r[7])} out of 10. ${r[8]}-round mag, ${r[9].toLowerCase()}, ${r[11]}. Ammu-Nation: ${STORE[r[12]] || 'not sold'}. Menu stats from the in-game weapon menu.`;
   const row = { key: 'In-Game Model', value: `${r[0]}`, sub };
   const i = j.statBlock.findIndex(s => s.key === 'In-Game Model');
   if (i >= 0) j.statBlock[i] = row; else j.statBlock.splice(1, 0, row);

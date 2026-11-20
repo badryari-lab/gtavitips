@@ -33,7 +33,7 @@
     {
       "key": "WAiNK Stats",
       "value": "Dinka ’85 Blista · Coupe",
-      "sub": "Speed 4.5, Acceleration 4.7, Asphalt 3.8, Off-Road 4.2, Strength 3.0 out of 10. Fence value $825, registration $2,750. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
+      "sub": "Speed 4.5, Acceleration 4.7, Asphalt 3.8, Off-Road 4.2, Strength 3.0 out of 10. Fence value $825, registration $2,750. Tracker: None. Figures from an in-game WAiNK scan."
     }
   ],
   "gallery": [],

@@ -19,7 +19,7 @@ for (const [slug, name] of Object.entries(MAP)) {
   const parts = [`Speed ${f1(r[5])}, Acceleration ${f1(r[6])}, Asphalt ${f1(r[7])}, Off-Road ${f1(r[8])}, Strength ${f1(r[9])} out of 10.`];
   if (r[3]) parts.push(`Fence value ${money(r[3])}${r[4] ? `, registration ${money(r[4])}` : ''}.`);
   if (r[2]) parts.push(`Tracker: ${r[2]}.`);
-  parts.push("WAiNK figures: IGN's Official GTA 6 Guide.");
+  parts.push("Figures from an in-game WAiNK scan.");
   const row = { key: 'WAiNK Stats', value: `${r[1]} ${label} · ${r[12]}`, sub: parts.join(' ') };
   const i = j.statBlock.findIndex(s => s.key === 'WAiNK Stats');
   if (i >= 0) j.statBlock[i] = row; else j.statBlock.push(row);

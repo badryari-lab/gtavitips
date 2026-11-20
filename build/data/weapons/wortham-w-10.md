@@ -22,7 +22,7 @@
     {
       "key": "In-Game Model",
       "value": "Wortham W-10",
-      "sub": "Damage 4.2, Accuracy 3.2, Handling 7.5, Range 3.5 out of 10. 20-round mag, full auto, 9MM. Ammu-Nation: Standard stock. Menu stats: IGN's Official GTA 6 Guide."
+      "sub": "Damage 4.2, Accuracy 3.2, Handling 7.5, Range 3.5 out of 10. 20-round mag, full auto, 9MM. Ammu-Nation: Standard stock. Menu stats from the in-game weapon menu."
     },
     {
       "key": "Lethality",
@@ -65,7 +65,7 @@
     },
     {
       "q": "Where can you get the Wortham W-10 in Leonida?",
-      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Wortham W-10 from its Standard stock, so most branches have it. There are 26 stores across Leonida. Source: IGN's Official GTA 6 Guide."
+      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Wortham W-10 from its Standard stock, so most branches have it. There are 26 stores across Leonida."
     },
     {
       "q": "Who are the confirmed Wortham W-10 carriers in Leonida?",
@@ -79,7 +79,7 @@
     },
     {
       "q": "Where can you get the Wortham W-10 in Leonida?",
-      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Wortham W-10 from its Standard stock, so most branches have it. There are 26 stores across Leonida. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Wortham W-10 from its Standard stock, so most branches have it. There are 26 stores across Leonida."
     },
     {
       "q": "Who are the confirmed Wortham W-10 carriers in Leonida?",

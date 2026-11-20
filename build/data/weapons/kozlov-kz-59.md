@@ -22,7 +22,7 @@
     {
       "key": "In-Game Model",
       "value": "Kozlov KZ-59",
-      "sub": "Damage 5.4, Accuracy 5.2, Handling 5.2, Range 6.5 out of 10. 30-round mag, full auto, 7.62x39MM. Ammu-Nation: Standard stock. Menu stats: IGN's Official GTA 6 Guide."
+      "sub": "Damage 5.4, Accuracy 5.2, Handling 5.2, Range 6.5 out of 10. 30-round mag, full auto, 7.62x39MM. Ammu-Nation: Standard stock. Menu stats from the in-game weapon menu."
     },
     {
       "key": "Lethality",
@@ -65,7 +65,7 @@
     },
     {
       "q": "Where can you get the Kozlov KZ-59 in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Who are the confirmed Kozlov KZ-59 carriers in Leonida?",
@@ -79,7 +79,7 @@
     },
     {
       "q": "Where can you get the Kozlov KZ-59 in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Who are the confirmed Kozlov KZ-59 carriers in Leonida?",

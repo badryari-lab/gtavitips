@@ -60,7 +60,7 @@
     },
     {
       "q": "Where can you get Molotovs in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Is the Molotov confirmed with specific factions or just operative use?",
@@ -74,7 +74,7 @@
     },
     {
       "q": "Where can you get Molotovs in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Is the Molotov confirmed with specific factions or just operative use?",

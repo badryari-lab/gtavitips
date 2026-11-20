@@ -48,7 +48,7 @@
     {
       "key": "WAiNK Stats",
       "value": "Grotti ’95 Cheetah · Super",
-      "sub": "Speed 6.6, Acceleration 5.9, Asphalt 6.5, Off-Road 4.4, Strength 3.0 out of 10. Fence value $16,775, registration $32,750. Tracker: Advanced. WAiNK figures: IGN's Official GTA 6 Guide."
+      "sub": "Speed 6.6, Acceleration 5.9, Asphalt 6.5, Off-Road 4.4, Strength 3.0 out of 10. Fence value $16,775, registration $32,750. Tracker: Advanced. Figures from an in-game WAiNK scan."
     }
   ],
   "gallery": [

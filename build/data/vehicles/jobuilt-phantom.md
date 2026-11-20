@@ -35,7 +35,7 @@
     {
       "key": "WAiNK Stats",
       "value": "Jobuilt ’81 Phantom Custom · Truck",
-      "sub": "Speed 2.0, Acceleration 1.5, Asphalt 2.2, Off-Road 2.5, Strength 3.0 out of 10. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
+      "sub": "Speed 2.0, Acceleration 1.5, Asphalt 2.2, Off-Road 2.5, Strength 3.0 out of 10. Tracker: None. Figures from an in-game WAiNK scan."
     }
   ],
   "gallery": [],

@@ -35,7 +35,7 @@
     {
       "key": "WAiNK Stats",
       "value": "Karin ’84 Rebel · Pickup",
-      "sub": "Speed 3.8, Acceleration 4.4, Asphalt 3.4, Off-Road 6.5, Strength 3.0 out of 10. Fence value $2,035, registration $6,750. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
+      "sub": "Speed 3.8, Acceleration 4.4, Asphalt 3.4, Off-Road 6.5, Strength 3.0 out of 10. Fence value $2,035, registration $6,750. Tracker: None. Figures from an in-game WAiNK scan."
     }
   ],
   "gallery": [],

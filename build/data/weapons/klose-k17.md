@@ -22,7 +22,7 @@
     {
       "key": "In-Game Model",
       "value": "Klose K17",
-      "sub": "Damage 4.0, Accuracy 4.2, Handling 8.5, Range 3.8 out of 10. 17-round mag, semi-auto, 9MM. Ammu-Nation: Standard and Hunting stock. Menu stats: IGN's Official GTA 6 Guide."
+      "sub": "Damage 4.0, Accuracy 4.2, Handling 8.5, Range 3.8 out of 10. 17-round mag, semi-auto, 9MM. Ammu-Nation: Standard and Hunting stock. Menu stats from the in-game weapon menu."
     },
     {
       "key": "Lethality Level",
@@ -81,7 +81,7 @@
     },
     {
       "q": "Where can you get the Pistol in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "What modifications are confirmed for the Pistol?",
@@ -95,7 +95,7 @@
     },
     {
       "q": "Where can you get the Pistol in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "What modifications are confirmed for the Pistol?",

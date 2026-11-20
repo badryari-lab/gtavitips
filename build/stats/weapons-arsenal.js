@@ -97,7 +97,7 @@ const HTML = `<!--arsenal:start-->
       <div class="ars__scroll"><table class="ars__table" id="ars-std"><caption>GTA 6 standard-issue guns with in-game menu stats</caption>${head(true)}<tbody>
 ${sortRows(std).map(r => tr(r, true)).join('\n')}
       </tbody></table></div>
-      <p class="ars__note">Unmodded weapons. Mag is rounds per magazine, Fire is the trigger mode, and Standard, Expanded and Hunting are the three Ammu-Nation stock tiers. Stats: IGN's Official GTA 6 Guide.</p>
+      <p class="ars__note">Unmodded weapons. Mag is rounds per magazine, Fire is the trigger mode, and Standard, Expanded and Hunting are the three Ammu-Nation stock tiers. Stats: the in-game weapon menu.</p>
 
       <h3 class="ars__h3">Melee <span style="color:var(--blue)">&amp; Explosives</span></h3>
       <div class="ars__lists">
@@ -107,7 +107,7 @@ ${sortRows(std).map(r => tr(r, true)).join('\n')}
 
       <details class="ars__details">
         <summary>Unique Variants (${variants.length} listed)</summary>
-        <p>Named one-offs: signature guns, gang pieces and trophies pulled from story jobs, illegal operations and Ammu-Nation display cases. They cannot be modded, and one pickup unlocks the gun for both Jason and Lucia. IGN counts 127 in the base game plus 2 with the Ultimate Edition. Its table is still filling in, so this list is too.</p>
+        <p>Named one-offs: signature guns, gang pieces and trophies pulled from story jobs, illegal operations and Ammu-Nation display cases. They cannot be modded, and one pickup unlocks the gun for both Jason and Lucia. The base game has 127, plus 2 more with the Ultimate Edition. This list is still filling in.</p>
         <div class="ars__scroll"><table class="ars__table" id="ars-var"><caption>GTA 6 unique variant weapons with in-game menu stats</caption>${head(false)}<tbody>
 ${sortRows(variants).map(r => tr(r, false)).join('\n')}
         </tbody></table></div>

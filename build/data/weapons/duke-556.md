@@ -22,7 +22,7 @@
     {
       "key": "In-Game Model",
       "value": "Duke 556",
-      "sub": "Damage 5.0, Accuracy 6.0, Handling 5.8, Range 6.2 out of 10. 30-round mag, full auto, 5.56x45MM. Ammu-Nation: Standard and Hunting stock. Menu stats: IGN's Official GTA 6 Guide."
+      "sub": "Damage 5.0, Accuracy 6.0, Handling 5.8, Range 6.2 out of 10. 30-round mag, full auto, 5.56x45MM. Ammu-Nation: Standard and Hunting stock. Menu stats from the in-game weapon menu."
     },
     {
       "key": "Lethality",
@@ -77,7 +77,7 @@
     },
     {
       "q": "Where can you get the Duke 556 in Leonida?",
-      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Duke 556 from its Standard and Hunting stock, so most branches have it. There are 26 stores across Leonida. Source: IGN's Official GTA 6 Guide."
+      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Duke 556 from its Standard and Hunting stock, so most branches have it. There are 26 stores across Leonida."
     },
     {
       "q": "Who are the confirmed Duke 556 carriers in Leonida?",
@@ -91,7 +91,7 @@
     },
     {
       "q": "Where can you get the Duke 556 in Leonida?",
-      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Duke 556 from its Standard and Hunting stock, so most branches have it. There are 26 stores across Leonida. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Duke 556 from its Standard and Hunting stock, so most branches have it. There are 26 stores across Leonida."
     },
     {
       "q": "Who are the confirmed Duke 556 carriers in Leonida?",

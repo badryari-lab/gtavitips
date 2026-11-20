@@ -35,7 +35,7 @@
     {
       "key": "WAiNK Stats",
       "value": "Albany ’65 Buccaneer · Muscle",
-      "sub": "Speed 4.2, Acceleration 4.1, Asphalt 3.2, Off-Road 3.9, Strength 3.0 out of 10. Fence value $2,805, registration $9,400. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
+      "sub": "Speed 4.2, Acceleration 4.1, Asphalt 3.2, Off-Road 3.9, Strength 3.0 out of 10. Fence value $2,805, registration $9,400. Tracker: None. Figures from an in-game WAiNK scan."
     }
   ],
   "gallery": [],

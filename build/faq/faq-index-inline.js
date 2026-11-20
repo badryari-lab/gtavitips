@@ -1,10 +1,14 @@
 // Updates short FAQ index answers that have no page of their own (Nov 20 2026, post-launch). Matches by question text,
 // replaces the answer paragraph and source, drops any old verdict badge, then rebuilds the index FAQPage JSON-LD.
-// Usage (repo root): node build/faq/faq-index-inline.js [--dry]
+// Usage (repo root): node build/faq/faq-index-inline.js [items.js] [--dry]   (items.js exports [{q, nq?, a, s}]; omit to use the list below)
+// Index answers stay spoiler-free (no story beats past the opening). Avoid linking them to a slug that a faq-gen spec builds:
+// faq-gen merges every index item that links to its slug into that slug's own item.
 const fs = require('fs');
+const { clean } = require("./sources.js"); // never credit competitor guide sites
 const DRY = process.argv.includes('--dry'); const F = 'hub/faq/index.html';
 const L = (h, t) => `<a href="${h}">${t}</a>`;
-const U = [
+const ARG = process.argv.slice(2).find(a => !a.startsWith('--'));
+const U = ARG ? require(require('path').resolve(ARG)) : [
   { q: 'When is GTA 6 Trailer 3?', nq: 'Was there a GTA 6 Trailer 3?', a: `Not under that name. Rockstar's last trailer before release was the ${L('/news/gta-6-launch-trailer', 'Launch Trailer')} on October 15, 2026, and the game itself came out on November 19.`, s: 'Rockstar Newswire' },
   { q: 'Is there a PS5 Pro enhanced version?', a: `Yes. PS5 Pro upscales toward 4K with PSSR and is the only console with ray-traced shadows. It still runs at 30 fps. See ${L('/faq/gta-6-ps5-vs-xbox', 'PS5 vs Xbox')}.`, s: 'Digital Foundry, via press coverage' },
   { q: 'Does GTA 6 run at 60fps on PS5 and Xbox?', a: `No. Every console targets 30 fps, PS5 Pro included, with no performance mode. See ${L('/faq/gta-6-ps5-vs-xbox', 'PS5 vs Xbox')}.`, s: 'Digital Foundry, via press coverage' },
@@ -26,7 +30,7 @@ const miss = [];
 for (const u of U) {
   const re = new RegExp(`(      <div class="faq-item")[^>]*>([\\s\\S]*?<span class="faq-btn__q">)${esc(u.q)}(</span>[\\s\\S]*?<div class="faq-answer__inner">)[\\s\\S]*?(\\n          </div>\\n        </div>\\n      </div>)`);
   if (!re.test(t)) { miss.push(u.q); continue; }
-  t = t.replace(re, (m, open, mid, mid2, close) => `${open} data-badge="green">${mid.replace(/\s*<span class="faq-badge[^"]*">[^<]*<\/span>/, '')}${u.nq || u.q}${mid2}\n            <p>${u.a}</p>\n            <p class="faq-answer__source">Source: ${u.s}</p>${close}`);
+  t = t.replace(re, (m, open, mid, mid2, close) => `${open} data-badge="green">${mid.replace(/\s*<span class="faq-badge[^"]*">[^<]*<\/span>/, '')}${u.nq || u.q}${mid2}\n            <p>${u.a}</p>\n            <p class="faq-answer__source">Source: ${clean(u.s)}</p>${close}`);
 }
 if (miss.length) { console.error('not found:', miss); process.exit(1); }
 if (/\u2014/.test(JSON.stringify(U))) { console.error('em dash'); process.exit(1); }

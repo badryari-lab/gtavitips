@@ -22,7 +22,7 @@
     {
       "key": "In-Game Model",
       "value": "Fortune & Son Moreland 850",
-      "sub": "Damage 7.5, Accuracy 4.2, Handling 5.6, Range 2.5 out of 10. 5-round mag, pump action, 12-Gauge. Ammu-Nation: Standard and Hunting stock. Menu stats: IGN's Official GTA 6 Guide."
+      "sub": "Damage 7.5, Accuracy 4.2, Handling 5.6, Range 2.5 out of 10. 5-round mag, pump action, 12-Gauge. Ammu-Nation: Standard and Hunting stock. Menu stats from the in-game weapon menu."
     },
     {
       "key": "Lethality",
@@ -65,7 +65,7 @@
     },
     {
       "q": "Where can you get the Pump-Action Shotgun in Leonida?",
-      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Fortune & Son Moreland 850 from its Standard and Hunting stock, so most branches have it. There are 26 stores across Leonida. Source: IGN's Official GTA 6 Guide."
+      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Fortune & Son Moreland 850 from its Standard and Hunting stock, so most branches have it. There are 26 stores across Leonida."
     },
     {
       "q": "Is the Pump-Action Shotgun confirmed with specific factions in Leonida?",
@@ -79,7 +79,7 @@
     },
     {
       "q": "Where can you get the Pump-Action Shotgun in Leonida?",
-      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Fortune & Son Moreland 850 from its Standard and Hunting stock, so most branches have it. There are 26 stores across Leonida. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Fortune & Son Moreland 850 from its Standard and Hunting stock, so most branches have it. There are 26 stores across Leonida."
     },
     {
       "q": "Is the Pump-Action Shotgun confirmed with specific factions in Leonida?",

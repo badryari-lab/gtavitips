@@ -35,7 +35,7 @@
     {
       "key": "WAiNK Stats",
       "value": "Karin ’85 Futo · Coupe",
-      "sub": "Speed 4.3, Acceleration 4.5, Asphalt 3.5, Off-Road 4.2, Strength 3.0 out of 10. Fence value $1,430, registration $4,750. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
+      "sub": "Speed 4.3, Acceleration 4.5, Asphalt 3.5, Off-Road 4.2, Strength 3.0 out of 10. Fence value $1,430, registration $4,750. Tracker: None. Figures from an in-game WAiNK scan."
     }
   ],
   "gallery": [],

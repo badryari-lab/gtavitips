@@ -22,7 +22,7 @@
     {
       "key": "In-Game Model",
       "value": "AdB FRA",
-      "sub": "Damage 5.8, Accuracy 5.0, Handling 5.3, Range 6.9 out of 10. 20-round mag, full auto, 7.62x51MM. Ammu-Nation: Standard stock. Menu stats: IGN's Official GTA 6 Guide."
+      "sub": "Damage 5.8, Accuracy 5.0, Handling 5.3, Range 6.9 out of 10. 20-round mag, full auto, 7.62x51MM. Ammu-Nation: Standard stock. Menu stats from the in-game weapon menu."
     },
     {
       "key": "Lethality",
@@ -65,7 +65,7 @@
     },
     {
       "q": "Where can you get the AdB FRA in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Who are the confirmed AdB FRA carriers in Leonida?",
@@ -79,7 +79,7 @@
     },
     {
       "q": "Where can you get the AdB FRA in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Who are the confirmed AdB FRA carriers in Leonida?",

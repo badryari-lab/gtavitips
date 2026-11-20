@@ -35,7 +35,7 @@
     {
       "key": "WAiNK Stats",
       "value": "Pfister Astron · SUV",
-      "sub": "Speed 5.3, Acceleration 6.5, Asphalt 5.1, Off-Road 4.5, Strength 3.0 out of 10. Fence value $4,620, registration $15,500. Tracker: Standard. WAiNK figures: IGN's Official GTA 6 Guide."
+      "sub": "Speed 5.3, Acceleration 6.5, Asphalt 5.1, Off-Road 4.5, Strength 3.0 out of 10. Fence value $4,620, registration $15,500. Tracker: Standard. Figures from an in-game WAiNK scan."
     }
   ],
   "gallery": [],

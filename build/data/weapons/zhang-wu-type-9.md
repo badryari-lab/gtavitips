@@ -22,7 +22,7 @@
     {
       "key": "In-Game Model",
       "value": "Zhang Wu Type 9",
-      "sub": "Damage 4.2, Accuracy 3.8, Handling 7.8, Range 3.5 out of 10. 10-round mag, full auto, 9MM. Ammu-Nation: Standard stock. Menu stats: IGN's Official GTA 6 Guide."
+      "sub": "Damage 4.2, Accuracy 3.8, Handling 7.8, Range 3.5 out of 10. 10-round mag, full auto, 9MM. Ammu-Nation: Standard stock. Menu stats from the in-game weapon menu."
     },
     {
       "key": "Lethality",
@@ -65,7 +65,7 @@
     },
     {
       "q": "Where can you get the Zhang Wu Type 9 in Leonida?",
-      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Zhang Wu Type 9 from its Standard stock, so most branches have it. There are 26 stores across Leonida. Source: IGN's Official GTA 6 Guide."
+      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Zhang Wu Type 9 from its Standard stock, so most branches have it. There are 26 stores across Leonida."
     },
     {
       "q": "Is it mostly criminal or is law enforcement confirmed with it too?",
@@ -79,7 +79,7 @@
     },
     {
       "q": "Where can you get the Zhang Wu Type 9 in Leonida?",
-      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Zhang Wu Type 9 from its Standard stock, so most branches have it. There are 26 stores across Leonida. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Zhang Wu Type 9 from its Standard stock, so most branches have it. There are 26 stores across Leonida."
     },
     {
       "q": "Is it mostly criminal or is law enforcement confirmed with it too?",

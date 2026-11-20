@@ -60,7 +60,7 @@
     },
     {
       "q": "Where can you get Frag Grenades in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Does law enforcement in Leonida carry grenades?",
@@ -74,7 +74,7 @@
     },
     {
       "q": "Where can you get Frag Grenades in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Does law enforcement in Leonida carry grenades?",

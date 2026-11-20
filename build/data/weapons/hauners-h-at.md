@@ -22,7 +22,7 @@
     {
       "key": "In-Game Model",
       "value": "Hauners H-AT",
-      "sub": "Damage 9.6, Accuracy 4.5, Handling 3.0, Range 8.0 out of 10. 1-round mag, single shot, 66MM Rocket. Ammu-Nation: Expanded stock only. Menu stats: IGN's Official GTA 6 Guide."
+      "sub": "Damage 9.6, Accuracy 4.5, Handling 3.0, Range 8.0 out of 10. 1-round mag, single shot, 66MM Rocket. Ammu-Nation: Expanded stock only. Menu stats from the in-game weapon menu."
     },
     {
       "key": "Lethality",
@@ -65,11 +65,11 @@
     },
     {
       "q": "Where can you get the Hauners H-AT in Leonida?",
-      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Hauners H-AT from its Expanded stock only, so the smaller branches do not carry it. There are 26 stores across Leonida. Source: IGN's Official GTA 6 Guide."
+      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Hauners H-AT from its Expanded stock only, so the smaller branches do not carry it. There are 26 stores across Leonida."
     },
     {
       "q": "Is the Hauners H-AT available through standard channels in Leonida?",
-      "a": "Not at every store. The Hauners H-AT sits in Ammu-Nation's Expanded stock only, so the smaller branches do not carry it. Source: IGN's Official GTA 6 Guide."
+      "a": "Not at every store. The Hauners H-AT sits in Ammu-Nation's Expanded stock only, so the smaller branches do not carry it."
     }
   ],
   "faqSchema": [
@@ -79,11 +79,11 @@
     },
     {
       "q": "Where can you get the Hauners H-AT in Leonida?",
-      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Hauners H-AT from its Expanded stock only, so the smaller branches do not carry it. There are 26 stores across Leonida. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Hauners H-AT from its Expanded stock only, so the smaller branches do not carry it. There are 26 stores across Leonida."
     },
     {
       "q": "Is the Hauners H-AT available through standard channels in Leonida?",
-      "aPlain": "Not at every store. The Hauners H-AT sits in Ammu-Nation's Expanded stock only, so the smaller branches do not carry it. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Not at every store. The Hauners H-AT sits in Ammu-Nation's Expanded stock only, so the smaller branches do not carry it."
     }
   ],
   "sidebarDatabase": [

@@ -39,7 +39,7 @@ const HTML = `<!--fleet:start-->
       <div class="ars__scroll"><table class="ars__table" id="fleet-tbl"><caption>GTA 6 vehicles with in-game WAiNK stats</caption>${head}<tbody>
 ${rows.map(tr).join('\n')}
       </tbody></table></div>
-      <p class="ars__note">Speed, Accel, Asphalt, Off-Road and Strength are the WAiNK bars, out of 10. The vehicle bars only show once you are inside with the engine running. Fence value and registration are in-game dollars. Tracker is the anti-theft tier a fence strips before the car is safe to keep. Stats: IGN's Official GTA 6 Guide.</p>
+      <p class="ars__note">Speed, Accel, Asphalt, Off-Road and Strength are the WAiNK bars, out of 10. The vehicle bars only show once you are inside with the engine running. Fence value and registration are in-game dollars. Tracker is the anti-theft tier a fence strips before the car is safe to keep. Stats: in-game WAiNK scans.</p>
     </div>
   </section>
   <script>

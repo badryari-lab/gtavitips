@@ -35,7 +35,7 @@
     {
       "key": "WAiNK Stats",
       "value": "Maibatsu ’97 Penumbra FF · Coupe",
-      "sub": "Speed 5.1, Acceleration 5.5, Asphalt 4.4, Off-Road 4.3, Strength 3.0 out of 10. Fence value $2,035, registration $6,750. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
+      "sub": "Speed 5.1, Acceleration 5.5, Asphalt 4.4, Off-Road 4.3, Strength 3.0 out of 10. Fence value $2,035, registration $6,750. Tracker: None. Figures from an in-game WAiNK scan."
     }
   ],
   "gallery": [],

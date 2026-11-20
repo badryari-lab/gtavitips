@@ -22,7 +22,7 @@
     {
       "key": "In-Game Model",
       "value": "Fortune & Son Laird 350",
-      "sub": "Damage 6.5, Accuracy 8.0, Handling 4.5, Range 7.5 out of 10. 5-round mag, bolt action, 6.5MM. Ammu-Nation: Standard and Hunting stock. Menu stats: IGN's Official GTA 6 Guide."
+      "sub": "Damage 6.5, Accuracy 8.0, Handling 4.5, Range 7.5 out of 10. 5-round mag, bolt action, 6.5MM. Ammu-Nation: Standard and Hunting stock. Menu stats from the in-game weapon menu."
     },
     {
       "key": "Lethality",
@@ -65,7 +65,7 @@
     },
     {
       "q": "Where can you get the Fortune & Son Laird 350 in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Who are the confirmed Fortune & Son Laird 350 operators in Leonida?",
@@ -79,7 +79,7 @@
     },
     {
       "q": "Where can you get the Fortune & Son Laird 350 in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Who are the confirmed Fortune & Son Laird 350 operators in Leonida?",

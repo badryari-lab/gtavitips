@@ -22,7 +22,7 @@
     {
       "key": "In-Game Model",
       "value": "Goodwin LMG 6",
-      "sub": "Damage 6.8, Accuracy 2.8, Handling 2.8, Range 6.5 out of 10. 100-round mag, full auto, 7.62x51MM. Ammu-Nation: Expanded stock only. Menu stats: IGN's Official GTA 6 Guide."
+      "sub": "Damage 6.8, Accuracy 2.8, Handling 2.8, Range 6.5 out of 10. 100-round mag, full auto, 7.62x51MM. Ammu-Nation: Expanded stock only. Menu stats from the in-game weapon menu."
     },
     {
       "key": "Lethality",
@@ -65,7 +65,7 @@
     },
     {
       "q": "Where can you get the Goodwin LMG 6 in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Is the LMG confirmed in law enforcement or criminal loadouts?",
@@ -79,7 +79,7 @@
     },
     {
       "q": "Where can you get the Goodwin LMG 6 in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Is the LMG confirmed in law enforcement or criminal loadouts?",

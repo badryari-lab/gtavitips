@@ -22,7 +22,7 @@
     {
       "key": "In-Game Model",
       "value": "Vom Feuer VF5C",
-      "sub": "Damage 4.2, Accuracy 5.0, Handling 6.9, Range 4.0 out of 10. 30-round mag, full auto, 9MM. Ammu-Nation: Expanded stock only. Menu stats: IGN's Official GTA 6 Guide."
+      "sub": "Damage 4.2, Accuracy 5.0, Handling 6.9, Range 4.0 out of 10. 30-round mag, full auto, 9MM. Ammu-Nation: Expanded stock only. Menu stats from the in-game weapon menu."
     },
     {
       "key": "Lethality",
@@ -65,7 +65,7 @@
     },
     {
       "q": "Where can you get the Vom Feuer VF5C in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Is it confirmed with any specific factions in Leonida?",
@@ -79,7 +79,7 @@
     },
     {
       "q": "Where can you get the Vom Feuer VF5C in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Is it confirmed with any specific factions in Leonida?",

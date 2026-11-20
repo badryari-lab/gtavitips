@@ -35,7 +35,7 @@
     {
       "key": "WAiNK Stats",
       "value": "Declasse ’72 Tulip · Muscle",
-      "sub": "Speed 5.1, Acceleration 4.8, Asphalt 3.4, Off-Road 3.9, Strength 3.0 out of 10. Fence value $2,805, registration $9,400. Tracker: Standard. WAiNK figures: IGN's Official GTA 6 Guide."
+      "sub": "Speed 5.1, Acceleration 4.8, Asphalt 3.4, Off-Road 3.9, Strength 3.0 out of 10. Fence value $2,805, registration $9,400. Tracker: Standard. Figures from an in-game WAiNK scan."
     }
   ],
   "gallery": [],

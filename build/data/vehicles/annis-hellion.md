@@ -35,7 +35,7 @@
     {
       "key": "WAiNK Stats",
       "value": "Annis ’95 Hellion · SUV",
-      "sub": "Speed 3.1, Acceleration 3.4, Asphalt 3.0, Off-Road 6.7, Strength 3.0 out of 10. Fence value $1,320, registration $4,400. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
+      "sub": "Speed 3.1, Acceleration 3.4, Asphalt 3.0, Off-Road 6.7, Strength 3.0 out of 10. Fence value $1,320, registration $4,400. Tracker: None. Figures from an in-game WAiNK scan."
     }
   ],
   "gallery": [],

@@ -22,7 +22,7 @@
     {
       "key": "In-Game Model",
       "value": "Scorpio Akulus",
-      "sub": "Damage 7.0, Accuracy 4.2, Handling 7.6, Range 6.0 out of 10. 6-round mag, semi-auto, .44 Magnum. Ammu-Nation: Expanded and Hunting stock. Menu stats: IGN's Official GTA 6 Guide."
+      "sub": "Damage 7.0, Accuracy 4.2, Handling 7.6, Range 6.0 out of 10. 6-round mag, semi-auto, .44 Magnum. Ammu-Nation: Expanded and Hunting stock. Menu stats from the in-game weapon menu."
     },
     {
       "key": "Lethality",
@@ -71,7 +71,7 @@
     },
     {
       "q": "Where can you get the Scorpio Akulus in Leonida?",
-      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Scorpio Akulus from its Expanded and Hunting stock, so the smaller branches do not carry it. There are 26 stores across Leonida. Source: IGN's Official GTA 6 Guide."
+      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Scorpio Akulus from its Expanded and Hunting stock, so the smaller branches do not carry it. There are 26 stores across Leonida."
     },
     {
       "q": "Is the Scorpio Akulus used by law enforcement or just criminals in Leonida?",
@@ -85,7 +85,7 @@
     },
     {
       "q": "Where can you get the Scorpio Akulus in Leonida?",
-      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Scorpio Akulus from its Expanded and Hunting stock, so the smaller branches do not carry it. There are 26 stores across Leonida. Source: IGN's Official GTA 6 Guide."
+      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Scorpio Akulus from its Expanded and Hunting stock, so the smaller branches do not carry it. There are 26 stores across Leonida."
     },
     {
       "q": "Is the Scorpio Akulus used by law enforcement or just criminals in Leonida?",
