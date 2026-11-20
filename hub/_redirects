@@ -76,9 +76,8 @@
 /gameplay/vehicles/pfister-comet-retro    /gameplay/vehicles/pfister-comet-retro-custom 301
 /gameplay/vehicles/vapid-police-stanier   /gameplay/vehicles/vapid-police-cruiser-stanier-le 301
 /gameplay/vehicles/vapid-police-cruiser-interceptor /gameplay/vehicles/vapid-police-cruiser-stanier-le 301
-/gameplay/weapons/combat-knife            /gameplay/weapons/knife                   301
-/gameplay/weapons/magnum-revolver         /gameplay/weapons/heavy-revolver          301
-/gameplay/weapons/bolt-action-sniper-rifle /gameplay/weapons/sniper-rifle           301
+/gameplay/weapons/magnum-revolver         /gameplay/weapons/scorpio-akulus          301
+/gameplay/weapons/bolt-action-sniper-rifle /gameplay/weapons/fortune-and-son-laird-350           301
 /gameplay/brands/burger-shot              /gameplay/brands/burgershot               301
 /gameplay/brands/cherry-popper-ice-cream-company /gameplay/brands/cherry-popper-ice-cream 301
 /gameplay/brands/cnt-cable-news-network   /gameplay/brands/cnt                      301
