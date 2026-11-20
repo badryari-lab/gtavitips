@@ -131,7 +131,7 @@
 /gameplay/characters/lux            /gameplay/characters/bae-lux               301
 /feed                               /feed.xml                                  301
 /feed/atom                          /feed.xml                                  301
-/faq/when-can-i-pre-order-gta-6                      /faq/gta-6-pre-order                                 301
+/faq/when-can-i-pre-order-gta-6                      /faq/how-much-does-gta-6-cost                                 301
 /faq/does-gta-6-have-hurricanes                      /faq/does-gta-6-have-hurricanes-and-dynamic-weather  301
 /faq/will-gta-6-have-dynamic-weather-and-seasons     /faq/does-gta-6-have-hurricanes-and-dynamic-weather  301
 /faq/will-gta-6-online-launch-at-the-same-time       /faq/when-does-gta-6-release                         301
@@ -169,6 +169,16 @@
 /gameplay/weapons/petrol-can                      /gameplay/weapons/molotov                           301
 /gameplay/weapons/smoke-grenade                   /gameplay/weapons/flash-grenade                     301
 /gameplay/weapons/spear-gun                       /gameplay/weapons                                   301
+
+# --- FAQ retirements (Nov 20 2026): launch-week FAQs folded into their follow-ups ---
+/faq/how-to-pre-load-gta-6                        /faq/gta-6-download-size                      301
+/faq/gta-6-pre-order-payment-timing               /faq/how-much-does-gta-6-cost                 301
+/faq/gta-6-pre-order                              /faq/how-much-does-gta-6-cost                 301
+/faq/gta-6-early-access                           /faq/is-gta-6-out-yet                         301
+/faq/gta-6-launch-night-checklist                 /faq/what-to-do-first-in-gta-6                301
+
+# --- FAQ retirement (Nov 20 2026) ---
+/faq/when-can-you-pre-load-gta-6                  /faq/gta-6-download-size                      301
 
 # --- Dynamic (splat) rules: keep at the very bottom. Cloudflare counts every rule after the first dynamic one as dynamic (limit 100). ---
 /gameplay/character/*                     /gameplay/characters/:splat               301

@@ -219,6 +219,8 @@ Never present unverified leaks as facts. Never omit a source label on a claim.
 
 **No eyebrows (agreed Nov 20 2026).** No small label above an H2 or H1 (no `section__eyebrow`, `article-section__eyebrow`, `index-section__eyebrow`, hero eyebrows like "Character File"). The heading stands on its own. Badr called them AI slop. Also avoid the punchy one-liner closer in Analysis callouts. Removed site-wide by `build/stats/sitewide-labels-eyebrows.js`; templates no longer emit them.
 
+**Spoilers (agreed with Badr Nov 20 2026): yes, in three layers.** (1) Default spoiler-free: database entries, gameplay FAQs and news carry no story beats. (2) Light spoilers, flagged with a short notice at the top of the page: chapter and mission names, who a character is, the opening of the story. (3) Heavy spoilers (antagonist, deaths, betrayals, endings) only inside a click-to-reveal block with a warning and the chapter ("Spoiler: Chapter 4"); the text stays in the HTML for search engines. The story lives in three places, written once: mission pages (goal, rewards, missables, summary behind the reveal, a creator walkthrough embed with credit), a story hub (five chapters, linking to missions) and a collapsible "Story Arc" section on character pages. Story FAQs answer in one line behind the reveal and link to the hub. **Sourcing story facts:** plot facts reported by several good sources (guides, press, creator videos, widely shared community posts) are facts and fine to use; write them in our own words and voice, never copy or sentence-by-sentence paraphrase someone else's text, and credit the source.
+
 **Before writing about a new Rockstar post:** search the site for the old claim it may overturn (the date, size, or status it replaces, for example "November 12", "has not published", "no station confirmed"). Correct the live status pages, and add an update callout to any dated article that now says the opposite. Otherwise news articles stay dated snapshots.
 
 ## Database entry conventions
@@ -359,6 +361,8 @@ When a better image is found for a ⚠ category, update it on the homepage card 
 **News article:** voorstel → sparren (dekking, hoek, bronnen) → schrijven (`/news/[slug]/index.html`) → afbeelding kiezen uit `/assets/images/` (zet path in news.json én artikel-hero; vraag of er een tweede afbeelding in het artikel moet) → vragen of het artikel featured op de homepage moet (`featured: true` in news.json) → **`feed.xml` bijwerken** (nieuw item bovenaan, RSS 2.0, pubDate in RFC-822; max ~20 items, oudste eruit) → posten (alles in één commit + push).
 
 **Database entry:** voorstel (naam + categorie) → sparren (confirmed/reported/speculation, bronnen, metadata) → schrijven (`/gameplay/[categorie]/[slug]/index.html`) → JSON updaten (characters.json etc.) → sitemap → herhaal per entry → feed-selectie aan het einde van de sessie (nooit per entry; max ~5 items, mix van categorieën, Badr geeft akkoord) → posten in één commit.
+
+**FAQ tooling (Nov 2026):** `build/faq/faq-gen.js <specs>` writes FAQ pages from a spec file (shell = when-does-gta-6-release) and updates index, FAQPage JSON-LD, search-index and sitemap; `faq-retire.js` folds an obsolete FAQ into its follow-up with a 301; `faq-index-inline.js` edits short index answers without their own page. Output is still plain HTML. See the specs files for the field shape.
 
 **FAQ:** voorstel (of Claude suggereert ontbrekende vragen) → sparren (antwoord, nuances, lengte) → schrijven (`/faq/[slug]/index.html`) → FAQ-index bijwerken → sitemap → posten.
 

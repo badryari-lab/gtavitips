@@ -1,0 +1,88 @@
+// FAQ round 2 after launch (Nov 20 2026): gameplay systems rewritten from the game, launch FAQs turned post-launch. Spoiler-free.
+const IGN = "IGN's Official GTA 6 Guide";
+const OUT = ['/news/gta-6-out-now', 'Leonida Is Open: GTA VI Is Out'];
+const L = (href, txt) => `<a href="${href}" style="color:var(--blue)">${txt}</a>`;
+module.exports = [
+{
+  slug: 'how-does-the-wanted-system-work', q: 'How does the wanted system work in GTA 6?', h1: 'How Does the GTA 6 Wanted System Work?',
+  desc: 'GTA 6 wanted levels run on what gets reported, not on what you do. Six stars, Heat that lingers, and icons that show what the police know.',
+  source: IGN,
+  answer: ['<strong>It runs on reports, not on crimes.</strong> A star only comes when a cop sees you, a witness calls it in, or the crime is big enough for dispatch to send units straight away: explosions, trespassing in high-security areas, a stolen plane. Do the job where nobody is watching and nothing happens.',
+    'There are six stars. Get away and the stars turn red: that is Heat, the area staying warm behind you. Get spotted or commit another crime while it lingers and the chase picks up where it left off. Keep the police scanner on, because dispatch says out loud what has been reported and which way they think you went.'],
+  related: [
+    { q: 'What do the Heat icons mean?', html: "They show what the police know about you. Appearance: change accessories or your hair. Vehicle: ditch it or get it repainted. Outfit: change clothes, and keep a spare in the trunk. Partner: split up, or change the other character's look. CCTV: destroy the footage. Clear them and the police lose the thread.", source: IGN },
+    { q: 'What do gray and white stars mean?', html: 'Gray stars: the crime has been reported, but the police have not seen you yet. White stars: they have eyes on you. Red stars and red outlines are Heat after you got away.', source: IGN },
+    { q: 'Can you surrender to the police?', html: `Yes, as long as your Criminal Profile holds. Once a character slides to Violent or worse, the police stop taking surrenders. See ${L('/faq/what-is-the-criminal-profile-in-gta-6', 'the Criminal Profile')}.`, source: IGN },
+    { q: 'Where can you hide a longarm?', html: 'In the trunk. Longarms cannot be concealed on you, so stash them or drop them when the police are looking for an armed suspect.', source: IGN },
+  ],
+  more: ['what-is-the-criminal-profile-in-gta-6', 'how-to-steal-and-sell-cars-in-gta-6', 'gta-6-cheats'],
+  card: { label: 'Wanted Stars', big: '6', sub: 'Plus Heat that lingers' },
+  intel: [OUT, ['/news/wanted-system-gta-6', 'The Wanted System']],
+  index: { section: 'gameplay', q: 'How does the wanted system work?', short: 'Wanted levels run on what gets reported, not on what you do. Six stars, plus Heat that lingers in the area after you get away.', source: IGN },
+},
+{
+  slug: 'what-is-the-criminal-profile-in-gta-6', q: 'What is the Criminal Profile in GTA 6?', h1: 'What Is the Criminal Profile in GTA 6?',
+  desc: "GTA 6's Criminal Profile ranks Jason and Lucia separately as Professional, Hardened, Violent, Psycho or Irredeemable, with real consequences.",
+  source: IGN,
+  answer: ["<strong>A reputation that follows each character separately.</strong> Jason and Lucia are ranked on their own actions across five profiles: Professional, Hardened, Violent, Psycho and Irredeemable. What one does never touches the other's record.",
+    'Play it clean and it pays: Professional and Hardened characters build Focus permanently through non-lethal takedowns and small decent acts, like binning trash or doing a stranger a good turn. Slide to Violent or Psycho and the police stop accepting your surrender. Irredeemable is the only profile that sticks. There is no way back from it.'],
+  related: [
+    { q: 'Where do you check your Criminal Profile?', html: 'Open the map, tab over to Jason and Lucia with L1/LB, then press D-pad Left for Jason or D-pad Right for Lucia.', source: IGN },
+    { q: 'How do you stay Professional?', html: 'Skip the fights you do not need, talk or sneak your way through, and when it does turn violent, use Focus (L3 + R3) to hit the yellow non-vital points. Running over a pedestrian ruins it fastest. A full no-kill run is not possible.', source: IGN },
+    { q: 'What separates Violent from Hardened?', html: 'Killing cops and hurting civilians. Hardened characters fight back when fired on but do not start it. Cross that line and the profile drops to Violent.', source: IGN },
+  ],
+  more: ['how-does-the-wanted-system-work', 'does-gta-6-have-a-gym-and-fitness-system', 'how-to-make-money-in-gta-6'],
+  card: { label: 'Profiles', big: '5', sub: 'Tracked per character' },
+  intel: [OUT, ['/news/wanted-system-gta-6', 'The Wanted System']],
+  index: { section: 'gameplay', q: 'What is the Criminal Profile?', short: 'A reputation tracked per character across five profiles, from Professional to Irredeemable. Violent and worse lose the option to surrender.', source: IGN },
+},
+{
+  slug: 'does-gta-6-have-a-gym-and-fitness-system', q: 'Does GTA 6 have a gym and fitness system?', h1: 'Does GTA 6 Have a Gym and Fitness System?',
+  desc: 'Yes. GTA 6 tracks Strength, Cardio and Focus for Jason and Lucia separately, four levels each, and every level drops if you stop training.',
+  source: IGN,
+  answer: ['<strong>Yes. Three tracks: Strength, Cardio and Focus.</strong> Each has four levels, each character trains separately, and the Fitness app on the phone tracks all of it, along with calories, body and nutrition.',
+    'Levels are not permanent. Skip workouts and a level three Strength slides back to two. Training runs in windows: the app shows when the next one opens and when it is on cooldown. Strength stretches the health bar, which is why Jason starts with a longer one.'],
+  related: [
+    { q: 'Where do you train?', html: `Gyms and workout spots around Leonida, from free weights to running. ${L('/gameplay/activities/weightlifting', 'Weightlifting')} is the obvious one.`, source: `${IGN}, GameSpot` },
+    { q: 'Does food matter?', html: 'Yes. The Fitness app tracks calories and nutrition next to the three training tracks.', source: IGN },
+    { q: 'Does training unlock anything?', html: `Yes. 100 workouts unlock the body armor cheat, and five fitness challenges unlock a BMX spawn. See ${L('/faq/gta-6-cheats', 'cheats')}.`, source: 'GameSpot' },
+  ],
+  more: ['what-is-the-criminal-profile-in-gta-6', 'gta-6-cheats', 'how-long-is-gta-6'],
+  card: { label: 'Fitness Tracks', big: '3', sub: 'Four levels each, per character' },
+  intel: [OUT, ['/gameplay/activities/weightlifting', 'Weightlifting']],
+  index: { section: 'gameplay', short: 'Yes. Strength, Cardio and Focus, four levels each and trained per character. Levels drop if you stop working out.', source: IGN },
+},
+{
+  slug: 'gta-6-pre-order-bonus', q: 'Can you still get the GTA 6 pre-order bonus?', h1: 'Can You Still Get the Vintage Vice City Pack?',
+  desc: 'No. The Vintage Vice City Pack and the free month of GTA+ came with GTA 6 purchases up to November 19, 2026, launch day. That window has closed.',
+  source: 'Rockstar Newswire, November 19, 2026',
+  answer: ["<strong>No.</strong> Rockstar's launch-day post called November 19 the last day to get the <strong>Vintage Vice City Pack</strong> and a free month of <strong>GTA+</strong> with a purchase. Copies bought after that come without them.",
+    'If you pre-ordered or bought on launch day, the pack is already on your account. It was the same in the Standard and Ultimate editions. The free month of GTA+ came with digital copies, and GTA+ now carries GTA VI bonuses for members.'],
+  related: [
+    { q: 'Did physical copies get the bonus?', html: 'The pack, yes. The free month of GTA+ came with digital pre-orders only.', source: 'Rockstar pre-order announcement' },
+    { q: 'Is the Ultimate Edition still worth it?', html: `It is a separate question from the bonus. See ${L('/faq/is-the-ultimate-edition-worth-it', 'whether the Ultimate Edition is worth it')}.`, source: 'Rockstar' },
+    { q: 'What does GTA 6 cost now?', html: `Standard $79.99, Ultimate $99.99. More in ${L('/faq/how-much-does-gta-6-cost', 'the price FAQ')}.`, source: 'Rockstar Newswire' },
+  ],
+  more: ['how-much-does-gta-6-cost', 'which-gta-6-edition-should-i-buy', 'is-the-ultimate-edition-worth-it'],
+  card: { label: 'Bonus Window', big: 'Closed', sub: 'Ended November 19, 2026' },
+  intel: [OUT, ['/news/gta-6-editions-pre-order-announced', 'GTA VI Pre-Orders Open']],
+  index: { section: 'release-and-platforms', q: "What's in the GTA 6 pre-order bonus?", short: 'The Vintage Vice City Pack, plus a free month of GTA+ for digital copies. Both stopped coming with purchases after November 19, 2026.', source: 'Rockstar Newswire' },
+},
+{
+  slug: 'what-to-do-first-in-gta-6', q: 'What should you do first in GTA 6?', h1: 'What to Do First in GTA 6',
+  desc: 'First hours in GTA 6: bank your cash, scan every car, study animals, save in separate slots, sell product fast and keep a spare outfit in the trunk.',
+  source: `${IGN}, PowerPyx`,
+  answer: ['<strong>Start the habits that pay off for 80 hours.</strong> Scan every new car with WAiNK and study every new animal through binoculars: both count toward 100%, and doing it from the start means you never have to hunt for them later.',
+    'Bank your money as soon as the game lets you, because cash on you can disappear in one bad firefight. Sell product quickly and compare what each fence pays. Keep a spare outfit in the trunk for when the police have your description, and make manual saves in separate slots before every big job. Missions cannot be replayed.'],
+  related: [
+    { q: 'What is the best early money?', html: `Illegal operations. Clear one properly, loot every body and every stash, and sell straight away. ${L('/faq/how-to-make-money-in-gta-6', 'Making money')}.`, source: IGN },
+    { q: 'Should you train early?', html: `Yes. Fitness levels drop when you skip workouts, and Strength stretches your health bar. ${L('/faq/does-gta-6-have-a-gym-and-fitness-system', 'Fitness explained')}.`, source: IGN },
+    { q: 'Do your actions follow you?', html: `Yes. Each character has a Criminal Profile, and the worst one is permanent. ${L('/faq/what-is-the-criminal-profile-in-gta-6', 'The Criminal Profile')}.`, source: IGN },
+    { q: 'Do optional missions matter?', html: 'Do them as they appear. They count toward 100%, and their questlines introduce new systems like fencing and bank jobs.', source: 'PowerPyx' },
+  ],
+  more: ['how-to-make-money-in-gta-6', 'gta-6-save-system', 'gta-6-100-percent-completion'],
+  card: { label: 'First Habit', big: 'Scan Everything', sub: 'Cars and animals count for 100%' },
+  intel: [OUT],
+  index: { section: 'gameplay', short: 'Scan every car and study every animal from the start, bank your cash, sell product fast, keep a spare outfit and save in separate slots.', source: IGN },
+},
+];
