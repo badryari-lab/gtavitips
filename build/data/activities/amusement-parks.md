@@ -31,7 +31,7 @@
       "url": "/gameplay/characters/wyman",
       "role": "Character",
       "name": "Wyman",
-      "desc": "He owns the room he walks into. The boardwalk is in his territory.",
+      "desc": "Mechanic, collector and Mud Club regular. His idea of a ride has an engine and a lot of mud.",
       "avatarInitials": "WY"
     },
     {

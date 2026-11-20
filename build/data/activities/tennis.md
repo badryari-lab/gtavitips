@@ -30,7 +30,7 @@
       "url": "/gameplay/characters/erin-henshaw",
       "role": "Character",
       "name": "Erin Henshaw",
-      "desc": "The demographic that takes tennis seriously in Vice City. Her world.",
+      "desc": "Running for mayor of Ambrosia. Her campaign moves in the circles that take tennis seriously.",
       "avatarInitials": "EH"
     },
     {

@@ -6,14 +6,14 @@
   ],
   "seo": {
     "title": "Community Service | GTA 6 Activity | GTAVITIPS",
-    "description": "Community service in GTA 6 Leonida: Lucia Caminos's parole condition, roadside cleanup in the Leonida Keys under an officer who isn't fooled for a second.",
-    "ogDescription": "Community service in GTA 6 Leonida: Lucia Caminos's parole condition, roadside cleanup in the Leonida Keys under an officer who isn't fooled for a second.",
+    "description": "Community service in GTA 6: part of Lucia Caminos's supervised release, roadside cleanup in the Leonida Keys under an officer who isn't fooled for a second.",
+    "ogDescription": "Community service in GTA 6: part of Lucia Caminos's supervised release, roadside cleanup in the Leonida Keys under an officer who isn't fooled for a second.",
     "jsonLdHeadline": "Community Service - GTA 6 Activity",
-    "jsonLdDescription": "Community service in GTA 6 Leonida: Lucia Caminos's parole condition, roadside cleanup in the Leonida Keys under an officer who isn't fooled for a second.",
+    "jsonLdDescription": "Community service in GTA 6: part of Lucia Caminos's supervised release, roadside cleanup in the Leonida Keys under an officer who isn't fooled for a second.",
     "dateModified": "2026-02-01",
     "ogImage": "https://gtavitips.com/assets/images/activities-index-gta-6.jpg"
   },
-  "heroSubtitle": "The conditions of parole in the [Leonida Keys](/gameplay/locations/leonida-keys). **Hi-vis vest. A bucket and a litter picker. An officer watching.** You did the time. Now you do the hours.",
+  "heroSubtitle": "The conditions of supervised release in the [Leonida Keys](/gameplay/locations/leonida-keys). **Hi-vis vest. A bucket and a litter picker. An officer watching.** You did the time. Now you do the hours.",
   "heroImage": {
     "src": "/assets/images/activities-index-gta-6.jpg",
     "alt": "Community service in GTA 6, Lucia Caminos doing roadside cleanup in the Leonida Keys under officer supervision, tail lights sweeping across the group",
@@ -23,7 +23,7 @@
   "statBlock": [
     {
       "key": "Type",
-      "value": "Parole Condition"
+      "value": "Release Condition"
     }
   ],
   "connections": [
@@ -38,7 +38,7 @@
       "url": "/gameplay/characters/lucia-caminos",
       "role": "Character",
       "name": "Lucia Caminos",
-      "desc": "Roadside community service as a parole condition. She wears a Brian's Boat Works hat doing it.",
+      "desc": "Out of Leonida Penitentiary on supervised release, with an ankle monitor and conditions to meet.",
       "avatarImage": {
         "src": "/assets/images/lucia-caminos-gta-6-character-01.jpg"
       }
@@ -61,8 +61,8 @@
   "faq": [
     {
       "q": "Is community service forced or optional for Lucia?",
-      "a": "**Forced by the story.** Lucia is on early release with an ankle tag. Trailer 2 shows her doing roadside community service as a parole condition. The Brian's Boat Works hat she wears while doing it is a telling detail.",
-      "aPlain": "Forced by the story. Lucia is on early release with an ankle tag. Trailer 2 shows her doing roadside community service as a parole condition. The Brian's Boat Works hat she wears while doing it is a telling detail."
+      "a": "**Forced by the story.** Lucia is out on supervised release with an ankle monitor, and roadside community service comes with it. The Brian's Boat Works hat she wears while doing it is a telling detail.",
+      "aPlain": "Forced by the story. Lucia is out on supervised release with an ankle monitor, and roadside community service comes with it. The Brian's Boat Works hat she wears while doing it is a telling detail."
     },
     {
       "q": "What does community service actually involve?",
@@ -109,12 +109,12 @@
   ]
 }
 ---
-Community service in Leonida is not optional. [Lucia](/gameplay/characters/lucia-caminos) got out of Leonida State Penitentiary on parole. The ankle tag is one condition. The mandatory hours on the roadside are another. You show up in the hi-vis vest, you pick up the litter, you do not say anything to the officer, and you do not go anywhere until the hours are logged.
+Community service in Leonida is not optional. [Lucia](/gameplay/characters/lucia-caminos) got out of Leonida Penitentiary on supervised release. The ankle tag is one condition. The mandatory hours on the roadside are another. You show up in the hi-vis vest, you pick up the litter, you do not say anything to the officer, and you do not go anywhere until the hours are logged.
 
 **The scene in Trailer 2 is dusk in the Keys.** A residential street, overgrown lots on both sides. Three people in orange and grey vests working the roadside. An officer watching. A passing car sweeps its tail lights across the group as it goes by, Lucia lit from shadow to full colour as the beam moves over her. Litter and debris on the verge. A red bucket. The routine work that Leonida corrections requires before they consider you rehabilitated.
 
-She is wearing a [Brian Heder](/gameplay/characters/brian-heder)'s Boat Works cap. The parole conditions are running. So is everything else.
+She is wearing a [Brian Heder](/gameplay/characters/brian-heder)'s Boat Works cap. The release conditions are running. So is everything else.
 
-Community service is tied to Lucia's parole status. **Failing to complete mandated sessions, or getting arrested while conditions are active, affects her standing with [Stefanie](/gameplay/characters/stefanie)**, the Leonida Department of Corrections social worker who determines whether she stays out or goes back inside.
+Community service is tied to Lucia's supervised release. **Failing to complete mandated sessions, or getting arrested while conditions are active, affects her standing with [Stefanie](/gameplay/characters/stefanie)**, her counselor, who runs the supervised release that decides whether she stays out or goes back inside.
 
 It functions as a narrative constraint on what Lucia can do and when. Whether sessions can be skipped or completed ahead of schedule is not established in official material. What is established: they are supervised, they happen on a schedule, and the system that put that ankle tag on her left leg is paying attention.

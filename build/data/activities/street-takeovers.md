@@ -40,7 +40,7 @@
       "url": "/gameplay/characters/cal-hampton",
       "role": "Character",
       "name": "Cal Hampton",
-      "desc": "He's plugged into the Keys and Vice City street scene. The takeover world is his network.",
+      "desc": "Jason's best friend in the Keys. If a takeover clip is going around online, Cal has seen it and has a theory.",
       "avatarInitials": "CH"
     },
     {

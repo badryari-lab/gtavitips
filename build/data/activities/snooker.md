@@ -37,7 +37,7 @@
       "url": "/gameplay/characters/wyman",
       "role": "Character",
       "name": "Wyman",
-      "desc": "He owns rooms like this. The club, the back room, the snooker table. His territory.",
+      "desc": "Mechanic, collector, Mud Club regular. The kind of local who knows everybody in the room.",
       "avatarInitials": "WY"
     },
     {

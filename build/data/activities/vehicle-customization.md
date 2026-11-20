@@ -33,7 +33,7 @@
       "url": "/gameplay/characters/jason-duval",
       "role": "Character",
       "name": "Jason Duval",
-      "desc": "His Vapid is his vehicle throughout the story. He drives what he drives for a reason.",
+      "desc": "Army past, Keys present. He drives what he drives for a reason.",
       "avatarImage": {
         "src": "/assets/images/jason-duval-gta-6-character-05.jpg"
       }

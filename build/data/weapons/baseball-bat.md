@@ -47,7 +47,7 @@
       "url": "/gameplay/characters/jason-duval",
       "type": "Character",
       "name": "Jason Duval",
-      "desc": "Grabs it during the gas station heist when things get physical."
+      "desc": "A brawler's weapon for a brawler. Heavy hands, heavier bat."
     },
     {
       "url": "/gameplay/gangs-and-factions/7x",

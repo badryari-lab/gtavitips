@@ -55,7 +55,7 @@
       "url": "/gameplay/characters/raul-bautista",
       "type": "Character",
       "name": "Raul Bautista",
-      "desc": "Seen carrying it in operations tied to his cartel work."
+      "desc": "Bank jobs go loud sometimes. A rifle like this is how his crews answer."
     }
   ],
   "faq": [

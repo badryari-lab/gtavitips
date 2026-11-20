@@ -30,7 +30,7 @@
       "url": "/gameplay/characters/jason-duval",
       "role": "Character",
       "name": "Jason Duval",
-      "desc": "Him and Lucia, a convenience store, masks on. It's where the story starts.",
+      "desc": "Him and Lucia, masks on. Store holdups are part of the job.",
       "avatarImage": {
         "src": "/assets/images/jason-duval-gta-6-character-05.jpg"
       }

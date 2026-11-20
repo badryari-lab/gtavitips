@@ -56,12 +56,6 @@
       "desc": "The town Delights serves. Industrial port hub with a specific workforce demographic."
     },
     {
-      "url": "/gameplay/locations/brians-boat-workshop",
-      "type": "Business",
-      "name": "Brian's Boat Workshop",
-      "desc": "Another Port Gellhorn business. Marine operation on the waterfront."
-    },
-    {
       "url": "/gameplay/locations/vice-county",
       "type": "Region",
       "name": "Vice County",

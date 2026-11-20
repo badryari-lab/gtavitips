@@ -37,7 +37,7 @@
       "url": "/gameplay/characters/lucia-caminos",
       "type": "Character",
       "name": "Lucia Caminos",
-      "desc": "Confirmed DOC detainee in the game's opening. The story begins in the correctional system."
+      "desc": "Inside Leonida Penitentiary when the story opens, then out on supervised release with an ankle monitor."
     },
     {
       "url": "/gameplay/gangs-and-factions/vice-county-correctional-services",

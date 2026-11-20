@@ -489,6 +489,7 @@ function renderSidebarBlocks(blocks, ariaLabel) {
 
 // conn: { url, role, name, desc, avatarImage?: {src}, avatarInitials? }.
 // desc run through renderInline. One of avatarImage/avatarInitials must be set.
+// role is optional: entries without it (the post-launch character pages, Nov 2026) get no small label on the card.
 function renderConnectionsGridAvatar(connections) {
   return connections
     .map((c) => {
@@ -497,8 +498,8 @@ function renderConnectionsGridAvatar(connections) {
         : `<div class="conn-card__avatar" aria-hidden="true">${c.avatarInitials}</div>`;
       return `              <a href="${c.url}" class="conn-card reveal" role="listitem">
                 ${avatar}
-                <div class="conn-card__body">
-                  <div class="conn-card__role">${c.role}</div>
+                <div class="conn-card__body">${c.role ? `
+                  <div class="conn-card__role">${c.role}</div>` : ''}
                   <div class="conn-card__name">${c.name}</div>
                   <div class="conn-card__desc">${renderInline(c.desc)}</div>
                 </div>

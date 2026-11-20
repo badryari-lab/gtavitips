@@ -77,12 +77,6 @@
       "type": "Venue",
       "name": "Delights Port Gellhorn",
       "desc": "The primary social venue serving the Port Gellhorn workforce and surrounding area."
-    },
-    {
-      "url": "/gameplay/locations/brians-boat-workshop",
-      "type": "Business",
-      "name": "Brian's Boat Workshop",
-      "desc": "Marine repair and boat services. Connected to Brian Heder and the Port Gellhorn waterfront."
     }
   ],
   "faq": [
@@ -97,7 +91,7 @@
     },
     {
       "q": "What's in Port Gellhorn?",
-      "a": "[Brian's Boat Workshop](/gameplay/locations/brians-boat-workshop), [Delights](/gameplay/locations/delights-port-gellhorn), and the full industrial dock infrastructure of a working port town."
+      "a": "[Delights](/gameplay/locations/delights-port-gellhorn) and the full industrial dock infrastructure of a working port town."
     },
     {
       "q": "Who operates out of Port Gellhorn?",
@@ -153,7 +147,7 @@
 ---
 Port Gellhorn is where the goods arrive. Not the finished goods that end up in [Vice City](/gameplay/locations/vice-city) shop fronts and hotel minibar fridges. The raw input: cargo containers, fuel tankers, refrigerated freight, and the categories of shipment that do not appear on the manifest the port authority receives. The docks operate around the clock and the workforce that runs them asks the correct number of questions for a port that wants to stay operational.
 
-The town behind the port is the industrial support layer. Warehouses, vehicle storage yards, fuel distribution facilities, and the businesses that service the people who work in all of those. **[Delights Port Gellhorn](/gameplay/locations/delights-port-gellhorn) is the venue that handles the social end of this demographic.** [Brian's Boat Workshop](/gameplay/locations/brians-boat-workshop) handles the marine end.
+The town behind the port is the industrial support layer. Warehouses, vehicle storage yards, fuel distribution facilities, and the businesses that service the people who work in all of those. **[Delights Port Gellhorn](/gameplay/locations/delights-port-gellhorn) is the venue that handles the social end of this demographic.**
 
 The marshland on the western and northern edge of the town is where Port Gellhorn meets the [Grassrivers](/gameplay/locations/grassrivers) system. The transition from industrial infrastructure to wetland is abrupt and useful. The road network does not extend into the marshland. The waterways do.
 %%%GROUND%%%

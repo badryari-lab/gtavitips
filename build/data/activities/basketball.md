@@ -30,7 +30,7 @@
       "url": "/gameplay/characters/dre-quan-priest",
       "role": "Character",
       "name": "Dre'Quan Priest",
-      "desc": "Drug dealer turned music producer. The basketball court and the recording studio share the same cultural geography.",
+      "desc": "Hustler turned label man. The basketball court and the recording studio share the same cultural geography.",
       "avatarInitials": "DP"
     },
     {

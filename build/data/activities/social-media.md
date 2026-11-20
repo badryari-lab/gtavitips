@@ -38,7 +38,7 @@
       "url": "/gameplay/characters/roxy",
       "role": "Character",
       "name": "Roxy",
-      "desc": "The Real Dimez, Roxy and Bae-Luxe, are massive on social media. Confirmed in official Rockstar bios.",
+      "desc": "The Real Dimez, Roxy and Bae-Luxe, live on their phones. One big hit behind them and a lot left to prove.",
       "avatarInitials": "RO"
     },
     {

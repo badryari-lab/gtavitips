@@ -51,12 +51,6 @@
       "type": "Location",
       "name": "Port Gellhorn",
       "desc": "Industrial and logistics zone. High-value cargo transport through the port corridor."
-    },
-    {
-      "url": "/gameplay/characters/cal-hampton",
-      "type": "Character",
-      "name": "Cal Hampton",
-      "desc": "Character profile connected to security and transport operations in Leonida."
     }
   ],
   "sidebarDatabase": [

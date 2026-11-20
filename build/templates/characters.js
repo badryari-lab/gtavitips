@@ -21,9 +21,57 @@ const { renderBlock, renderInline } = require('./_markdown');
 // would have silently regressed whichever page(s) don't match it. This
 // faithfully reproduces each page's current reality; unifying everyone to
 // the CLAUDE.md-documented standard is a separate, flagged design decision.
+//
+// Post-launch fields (Nov 2026, all optional; an entry without them renders exactly as before):
+//   statSource: "GTA VI, in-game"  -> one plain source line under the stat block (credit, not a verdict)
+//   storyArc: { intro, beats: [{ chapter, html }], source }
+//     -> H2 "Story Arc" after Known Connections. intro is spoiler-light Markdown (who they are when the story
+//        starts); each beat is a closed <details class="spoiler"> labelled "Spoiler: Chapter N" (chapter is a
+//        number or a label such as "Prologue"). Same markup and CSS as build/faq/faq-gen.js, so the site has one
+//        spoiler pattern. A page with a storyArc also gets the spoiler notice at the top and the spoiler CSS.
+//   faq[i].spoiler: { chapter, html } -> a reveal under that answer; faqSchema stays separate and spoiler-free.
+// Story text never reaches the JSON-LD or the meta/og descriptions: those only read the seo fields.
+
+const SPOILER_NOTE = 'Light story spoilers on this page. The big moments sit behind a click, and nothing opens until you do.';
+const SPOILER_CSS = `
+    .spoiler-note { font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; line-height: 1.5; color: var(--amber); background: var(--amber-dim); border: 1px solid var(--amber-border); border-radius: 8px 2px 8px 2px; padding: 10px 14px; margin-bottom: 16px; }
+    .spoiler { margin-top: 14px; background: var(--bg-3); border: 1px dashed var(--amber-border); border-radius: 8px 2px 8px 2px; }
+    .spoiler > summary { list-style: none; cursor: pointer; min-height: 44px; padding: 10px 14px; display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; line-height: 1.4; color: var(--t2); }
+    .spoiler > summary::-webkit-details-marker { display: none; }
+    .spoiler > summary:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+    .spoiler__stamp { display: inline-block; padding: 4px 10px; color: var(--amber); background: var(--amber-dim); border: 1px solid var(--amber-border); border-radius: 6px 2px 6px 2px; transform: rotate(-1.2deg); }
+    .spoiler__hint::after { content: ' +'; color: var(--amber); }
+    .spoiler[open] .spoiler__hint::after { content: ' \\2212'; }
+    .spoiler__body { padding: 2px 14px 14px; font-size: 13px; color: var(--t2); line-height: 1.75; }
+    .spoiler__body p { margin-bottom: 0; }
+    .spoiler__body p + p { margin-top: 10px; }
+    .spoiler__body strong { color: var(--t1); font-weight: 600; }
+    .faq-item__a .spoiler { margin-top: 12px; }
+    .story-arc .spoiler + .spoiler { margin-top: 10px; }
+    .story-arc__source, .stat-source { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--t3); margin-top: 14px; }
+    .stat-source { margin-top: 12px; }`;
+const STAT_SOURCE_CSS = `
+    .stat-source { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--t3); margin-top: 12px; }`;
+
+const spoilerLabel = (c) => (typeof c === 'number' ? `Chapter ${c}` : String(c));
+function renderSpoiler(sp, ind) {
+  if (!sp || sp.chapter === undefined || sp.chapter === '' || !(sp.html || sp.md)) throw new Error('spoiler needs chapter and html or md');
+  // md: Markdown paragraphs (blank-line separated), same converter as the Dossier body; html: raw or inline text.
+  const body = sp.md ? renderBlock(sp.md) : /^\s*<p[ >]/.test(sp.html) ? sp.html : `<p>${renderInline(sp.html)}</p>`;
+  return `<details class="spoiler">
+${ind}  <summary><span class="spoiler__stamp">Spoiler: ${spoilerLabel(sp.chapter)}</span> <span class="spoiler__hint">Tap to reveal</span></summary>
+${ind}  <div class="spoiler__body">${body}</div>
+${ind}</details>`;
+}
 
 function render(entry) {
-  const { slug, css, titleParts, seo, heroSubtitle, heroImage, statBlock, gallery, connections, faq, faqSchema, sidebar } = entry;
+  const { slug, titleParts, seo, heroSubtitle, heroImage, statBlock, gallery, connections, faq, faqSchema, sidebar, statSource, storyArc } = entry;
+  const hasSpoilers = !!(storyArc || (faq || []).some((f) => f.spoiler));
+  const css = hasSpoilers
+    ? entry.css.replace(/\s*$/, (ws) => SPOILER_CSS + ws)
+    : statSource
+    ? entry.css.replace(/\s*$/, (ws) => STAT_SOURCE_CSS + ws)
+    : entry.css;
   const canonical = `https://gtavitips.com/gameplay/characters/${slug}`;
   const h1 = titleParts.length > 1 ? `${titleParts[0]} <span style="color:var(--blue)">${titleParts[1]}</span>` : titleParts[0];
 
@@ -82,9 +130,20 @@ function render(entry) {
 
   const dossier = `<div class="page">
     <div class="wrap">
-      ${renderStatBlock(statBlock, gallery, 'Character stats')}
+${hasSpoilers ? `      <p class="spoiler-note">${SPOILER_NOTE}</p>\n` : ''}      ${renderStatBlock(statBlock, gallery, 'Character stats')}${statSource ? `\n      <p class="stat-source">Source: ${statSource}</p>` : ''}
   </div>
 `;
+
+  const storyArcHtml = storyArc
+    ? `
+          <section class="section story-arc reveal" aria-labelledby="story-arc-hd">
+            <h2 class="section__h2" id="story-arc-hd">Story <span style="color:var(--blue)">Arc</span></h2>
+            ${storyArc.intro ? `<div class="section__body">${renderBlock(storyArc.intro)}</div>\n            ` : ''}${storyArc.beats
+              .map((b) => renderSpoiler(b, '            '))
+              .join('\n            ')}${storyArc.source ? `\n            <p class="story-arc__source">Source: ${storyArc.source}</p>` : ''}
+          </section>
+`
+    : '';
 
   const faqHtml = faq && faq.length
     ? `
@@ -95,7 +154,7 @@ function render(entry) {
                 .map(
                   (f) => `<details class="faq-item">
                 <summary class="faq-item__q">${f.q}<svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
-                <div class="faq-item__a">${renderInline(f.a)}</div>
+                <div class="faq-item__a">${renderInline(f.a)}${f.spoiler ? '\n                  ' + renderSpoiler(f.spoiler, '                  ') : ''}</div>
               </details>`
                 )
                 .join('\n              ')}
@@ -120,7 +179,7 @@ function render(entry) {
 ${renderConnectionsGridAvatar(connections)}
             </div>
           </section>
-${faqHtml}
+${storyArcHtml}${faqHtml}
         </div>
 
 ${renderSidebarBlocks(sidebar)}
@@ -132,4 +191,4 @@ ${renderSidebarBlocks(sidebar)}
   return [head, renderNavAndSearch(), hero, dossier, main, FOOTER_HTML, SHARED_SCRIPT, COOKIE_BANNER_BLOCK].join('\n');
 }
 
-module.exports = { render, renderProse: renderBlock };
+module.exports = { render, renderProse: renderBlock, renderSpoiler, SPOILER_CSS, SPOILER_NOTE };

@@ -9,6 +9,8 @@ const {
   renderSidebarBlocks,
 } = require('./_shared');
 const { renderBlock, renderInline } = require('./_markdown');
+// Spoiler reveal: same component as the characters template (and faq-gen).
+const { renderSpoiler, SPOILER_CSS, SPOILER_NOTE } = require('./characters');
 
 // Brands template. Confirmed 72/76 CSS-uniform canonical; 4 known stub
 // pages (angstapan, one-eyes-willies, rideout-customs, saras-unisex-salon)
@@ -51,7 +53,10 @@ const BRAND_EXTRA_CSS = `
 `;
 
 function render(entry) {
-  const { slug, titleParts, seo, heroBadge, heroSlogan, heroImage, heroIcon, statBlock, profileSection, ecoSection, sidebar } = entry;
+  const { slug, titleParts, seo, heroBadge, heroSlogan, heroImage, heroIcon, statBlock, profileSection, ecoSection, sidebar, profileSpoilers } = entry;
+  // Optional profileSpoilers: [{ chapter, md|html }] -> closed reveals under the profile prose, plus the
+  // spoiler notice and spoiler CSS on that page only. Never fed into meta, og or JSON-LD.
+  const hasSpoilers = !!(profileSpoilers && profileSpoilers.length);
   const canonical = `https://gtavitips.com/gameplay/brands/${slug}`;
   const h1 = titleParts.length > 1 ? `${titleParts[0]} <span style="color:var(--blue)">${titleParts[1]}</span>` : titleParts[0];
 
@@ -70,7 +75,7 @@ function render(entry) {
       dateModified: seo.dateModified,
       publisher: { '@type': 'Organization', name: 'GTAVITIPS', url: 'https://gtavitips.com' },
     },
-    extraCss: BRAND_EXTRA_CSS,
+    extraCss: hasSpoilers ? BRAND_EXTRA_CSS.replace(/\s*$/, (ws) => SPOILER_CSS + ws) : BRAND_EXTRA_CSS,
   });
 
   const heroBackground = heroImage
@@ -114,7 +119,7 @@ ${heroBadge ? `\n      <div class="brand-hero__badge">${heroBadge}</div>` : ''}
   const dossier = `  <div class="page">
     <div class="wrap">
       <div class="dossier">
-        <div class="stat-block" role="list" aria-label="Brand stats">
+${hasSpoilers ? `        <p class="spoiler-note">${SPOILER_NOTE}</p>\n` : ''}        <div class="stat-block" role="list" aria-label="Brand stats">
 ${statItemsHtml}
         </div>
       </div>
@@ -150,7 +155,7 @@ ${statItemsHtml}
 
           <section class="section reveal" aria-labelledby="profile-hd">
             <h2 class="section__h2" id="profile-hd">${profileSection.heading}</h2>
-            <div class="section__body">${entry.proseHtml}</div>
+            <div class="section__body">${entry.proseHtml}</div>${hasSpoilers ? profileSpoilers.map((sp) => '\n            ' + renderSpoiler(sp, '            ')).join('') : ''}
           </section>
 ${ecoHtml}
         </div>

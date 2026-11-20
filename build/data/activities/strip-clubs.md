@@ -38,7 +38,7 @@
       "url": "/gameplay/characters/boobie-ike",
       "role": "Character",
       "name": "Boobie Ike",
-      "desc": "His Rockstar bio confirms the strip club. Real estate, studio, and the venue. \"Make It Rain Mondays.\"",
+      "desc": "Owns the Jack of Hearts. Real estate, studio, and the venue. \"Make It Rain Mondays.\"",
       "avatarImage": {
         "src": "/assets/images/boobie-ike-gta-6-character-03.jpg"
       }

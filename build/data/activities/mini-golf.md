@@ -37,7 +37,7 @@
       "url": "/gameplay/characters/wyman",
       "role": "Character",
       "name": "Wyman",
-      "desc": "He owns the venues. The boardwalk leisure circuit is in his territory.",
+      "desc": "Runs a salvage yard, not a putting green. His day out is the Thrillbilly Mud Club.",
       "avatarInitials": "WY"
     },
     {

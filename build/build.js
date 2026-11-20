@@ -47,7 +47,8 @@ function buildCategory(category) {
     return { built: 0 };
   }
 
-  const files = fs.readdirSync(dataDir).filter((f) => f.endsWith('.md'));
+  // Files starting with "_" are working notes (e.g. characters/_missing-characters-SPOILERS.md), not entries.
+  const files = fs.readdirSync(dataDir).filter((f) => f.endsWith('.md') && !f.startsWith('_'));
   let built = 0;
   for (const file of files) {
     const slug = file.replace(/\.md$/, '');

@@ -30,7 +30,7 @@
       "url": "/gameplay/characters/erin-henshaw",
       "role": "Character",
       "name": "Erin Henshaw",
-      "desc": "The Vice City world she moves in is the one that takes fencing seriously.",
+      "desc": "Running for mayor of Ambrosia. Campaign money and country-club sports move in the same circles.",
       "avatarInitials": "EH"
     },
     {

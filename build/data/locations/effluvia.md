@@ -60,13 +60,13 @@
     },
     {
       "url": "/gameplay/characters/jason-duval",
-      "type": "Sighted",
+      "type": "Character",
       "name": "Jason Duval",
       "desc": "Passes through Effluvia during a stretch of cruising across Vice City."
     },
     {
       "url": "/gameplay/characters/lucia-caminos",
-      "type": "Sighted",
+      "type": "Character",
       "name": "Lucia Caminos",
       "desc": "Alongside Jason during the same stretch through the city."
     }

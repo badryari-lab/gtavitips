@@ -37,7 +37,7 @@
       "url": "/gameplay/locations/brians-boat-workshop",
       "role": "Location",
       "name": "Brian's Boat Workshop",
-      "desc": "The confirmed drug smuggling operation. Seaplane loaded under cover of darkness.",
+      "desc": "Brian's boat yard in the Keys. Product still moves through it.",
       "avatarInitials": "BW"
     },
     {

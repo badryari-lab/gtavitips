@@ -47,13 +47,13 @@
       "url": "/gameplay/characters/jason-duval",
       "type": "Character",
       "name": "Jason Duval",
-      "desc": "Default sidearm, seen on his hip in reveal footage."
+      "desc": "A compact sidearm for the Keys work: collecting, moving product, keeping it quiet."
     },
     {
       "url": "/gameplay/characters/lucia-caminos",
       "type": "Character",
       "name": "Lucia Caminos",
-      "desc": "Same default loadout, same starting weapon."
+      "desc": "Same compact frame, same reason to keep it close."
     },
     {
       "url": "/gameplay/gangs-and-factions/vcpd",

@@ -30,7 +30,7 @@
       "url": "/gameplay/characters/erin-henshaw",
       "role": "Character",
       "name": "Erin Henshaw",
-      "desc": "The Vice City demographic that takes golf seriously. Her world includes the country club circuit.",
+      "desc": "Running for mayor of Ambrosia. The donors behind a campaign like hers are the country club crowd.",
       "avatarInitials": "EH"
     },
     {

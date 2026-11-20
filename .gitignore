@@ -7,3 +7,6 @@
 
 # build output — regenerate with `node build/build.js`, deployed copy lives under hub/
 build/output/
+
+# Spoiler list of missing characters: never commit (names can be heavy spoilers)
+build/data/characters/_missing-characters-SPOILERS.md
