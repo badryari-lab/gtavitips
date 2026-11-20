@@ -28,9 +28,10 @@ let t = fs.readFileSync(F, 'utf8'); const nl = t.includes('\r\n'); t = t.replace
 const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const miss = [];
 for (const u of U) {
-  const re = new RegExp(`(      <div class="faq-item")[^>]*>([\\s\\S]*?<span class="faq-btn__q">)${esc(u.q)}(</span>[\\s\\S]*?<div class="faq-answer__inner">)[\\s\\S]*?(\\n          </div>\\n        </div>\\n      </div>)`);
+  const re = new RegExp(`(      <div class="faq-item")[^>]*>([\\s\\S]*?<span class="faq-btn__q">)${esc(u.q)}(</span>[\\s\\S]*?<div class="faq-answer__inner">)([\\s\\S]*?)(\\n          </div>\\n        </div>\\n      </div>)`);
   if (!re.test(t)) { miss.push(u.q); continue; }
-  t = t.replace(re, (m, open, mid, mid2, close) => `${open} data-badge="green">${mid.replace(/\s*<span class="faq-badge[^"]*">[^<]*<\/span>/, '')}${u.nq || u.q}${mid2}\n            <p>${u.a}</p>\n            <p class="faq-answer__source">Source: ${clean(u.s)}</p>${close}`);
+  // keep an existing "Read More" link to the item's own page (added Nov 20 2026)
+  t = t.replace(re, (m, open, mid, mid2, body, close) => { const more = body.match(/\n\s*<a href="[^"]+" class="faq-answer__more">[^<]*<\/a>/); return `${open} data-badge="green">${mid.replace(/\s*<span class="faq-badge[^"]*">[^<]*<\/span>/, '')}${u.nq || u.q}${mid2}\n            <p>${u.a}</p>\n            <p class="faq-answer__source">Source: ${clean(u.s)}</p>${more ? more[0] : ''}${close}`; });
 }
 if (miss.length) { console.error('not found:', miss); process.exit(1); }
 if (/\u2014/.test(JSON.stringify(U))) { console.error('em dash'); process.exit(1); }
