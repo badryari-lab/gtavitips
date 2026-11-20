@@ -1,10 +1,10 @@
 {
-  "date": "August 28, 2026",
+  "date": "November 20, 2026",
   "items": [
-    { "badge": "new", "url": "/gameplay/characters/raymond",       "name": "Raymond",       "text": "Stash house operator. Opens the Extended Look with a deal gone wrong." },
-    { "badge": "new", "url": "/gameplay/characters/petra-navarro", "name": "Petra Navarro", "text": "CEO of MegaMundo. Hires Jason and Lucia, then the party turns into a shootout." },
-    { "badge": "new", "url": "/gameplay/brands/megamundo",         "name": "MegaMundo",     "text": "Vice City headquarters opening. The Extended Look's final act." },
-    { "badge": "new", "url": "/gameplay/brands/gruppe-6",          "name": "Gruppe 6",      "text": "Armored cash transport. Confirmed target the moment the truck hits the street." },
-    { "badge": "new", "url": "/gameplay/locations/effluvia",       "name": "Effluvia",      "text": "Rooftop club above Vice City. Meeting point before the Extended Look's crime montage." }
+    { "badge": "upg", "url": "/gameplay/weapons",                    "name": "Full Arsenal",   "text": "Every gun in the menu with its in-game stats. Sort by damage, accuracy, range or mag." },
+    { "badge": "upg", "url": "/gameplay/vehicles",                   "name": "Fleet Numbers",  "text": "WAiNK scans side by side: speed, grip, strength and what a fence pays." },
+    { "badge": "new", "url": "/gameplay/weapons/klose-k17",          "name": "Klose K17",      "text": "The service pistol under its real name. 9mm, semi-auto, in every holster in Leonida." },
+    { "badge": "upg", "url": "/gameplay/vehicles/pfister-astron",    "name": "Pfister Astron", "text": "Not a supercar after all. A luxury SUV, quick off the line." },
+    { "badge": "upg", "url": "/gameplay/activities/gambling",        "name": "Gambling",       "text": "The casinos stay shut. The only money on a game is a pool stake." }
   ]
 }
