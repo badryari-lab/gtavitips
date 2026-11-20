@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "frag-grenade-gta-6-weapon.jpg",
     "jsonLdHeadline": "Frag Grenade - GTA 6 Weapon Profile",
     "jsonLdDescription": "The Frag Grenade in GTA 6: clears rooms and disables vehicles in close-quarters fights and pursuits.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "Throw it. Leave. **The fragmentation radius handles everything inside it.** The grenade does not distinguish between targets.",
   "statBlock": [
@@ -60,7 +60,7 @@
     },
     {
       "q": "Where can you get Frag Grenades in Leonida?",
-      "a": "Ammu-Nation is the confirmed weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Specific stock, pricing, and unlock conditions aren't confirmed yet."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
     },
     {
       "q": "Does law enforcement in Leonida carry grenades?",
@@ -74,7 +74,7 @@
     },
     {
       "q": "Where can you get Frag Grenades in Leonida?",
-      "aPlain": "Ammu-Nation is the confirmed weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Specific stock, pricing, and unlock conditions aren't confirmed yet."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
     },
     {
       "q": "Does law enforcement in Leonida carry grenades?",

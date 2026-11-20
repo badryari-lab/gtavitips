@@ -11,7 +11,7 @@
     "ogImage": "https://gtavitips.com/assets/images/grotti-cheetah-gta-6-vehicle-01.jpg",
     "jsonLdHeadline": "'95 Grotti Cheetah - GTA 6 Vehicle",
     "jsonLdDescription": "The '95 Grotti Cheetah is a mid-engine Italian supercar in GTA 6 Leonida. Ultimate Edition exclusive, based on the Ferrari F355.",
-    "dateModified": "2026-06-24"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "The Cheetah does not negotiate. **Mid-engine, rear-wheel drive, and a V8 that sounds like it has opinions.** The '95 spec is the one people actually wanted. Before the lawyers got involved.",
   "heroImage": {
@@ -44,6 +44,11 @@
     {
       "key": "Availability",
       "value": "Ultimate Edition Exclusive"
+    },
+    {
+      "key": "WAiNK Stats",
+      "value": "Grotti ’95 Cheetah · Super",
+      "sub": "Speed 6.6, Acceleration 5.9, Asphalt 6.5, Off-Road 4.4, Strength 3.0 out of 10. Fence value $16,775, registration $32,750. Tracker: Advanced. WAiNK figures: IGN's Official GTA 6 Guide."
     }
   ],
   "gallery": [

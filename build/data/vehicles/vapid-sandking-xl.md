@@ -36,10 +36,10 @@
   "gallery": [],
   "connections": [
     {
-      "url": "/gameplay/vehicles/vapid-bobcat-xl",
+      "url": "/gameplay/vehicles/declasse-bobcat-xl",
       "type": "Pickup",
-      "name": "Vapid Bobcat XL",
-      "desc": "The standard specification."
+      "name": "Declasse Bobcat XL",
+      "desc": "The Declasse pickup. Road-going, different badge."
     },
     {
       "url": "/gameplay/vehicles/vapid-liberator",

@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "baseball-bat-gta-6-weapon.jpg",
     "jsonLdHeadline": "Baseball Bat - GTA 6 Weapon Profile",
     "jsonLdDescription": "The Baseball Bat in GTA 6: a blunt melee weapon, used in a gas station heist and a Vice County bar fight.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "Silent. Available in every garage in Leonida. **Plausible deniability built in.** Nobody questions why you have one until they're on the wrong end of it.",
   "statBlock": [
@@ -63,7 +63,7 @@
     },
     {
       "q": "Where can you get the Baseball Bat in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Specific stock, pricing, and unlock conditions aren't confirmed yet."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
     },
     {
       "q": "Is it useful when someone pulls a firearm?",
@@ -77,7 +77,7 @@
     },
     {
       "q": "Where can you get the Baseball Bat in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Specific stock, pricing, and unlock conditions aren't confirmed yet."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
     },
     {
       "q": "Is it useful when someone pulls a firearm?",
@@ -90,11 +90,7 @@
       "label": "All Weapons"
     },
     {
-      "url": "/gameplay/weapons/crowbar",
-      "label": "Crowbar"
-    },
-    {
-      "url": "/gameplay/weapons/knife",
+      "url": "/gameplay/weapons/combat-knife",
       "label": "Knife"
     }
   ],

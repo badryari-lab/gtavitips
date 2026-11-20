@@ -42,10 +42,10 @@
       "desc": "The Ram equivalent in the same county."
     },
     {
-      "url": "/gameplay/vehicles/vapid-bobcat-xl",
+      "url": "/gameplay/vehicles/declasse-bobcat-xl",
       "type": "Pickup",
-      "name": "Vapid Bobcat XL",
-      "desc": "The Ford F-150 equivalent."
+      "name": "Declasse Bobcat XL",
+      "desc": "The older Declasse pickup. Same badge, square body."
     },
     {
       "url": "/gameplay/locations/vice-county",
@@ -96,6 +96,6 @@
 ---
 The Yosemite Rancher is the ranch pickup. The Silverado platform in the agricultural configuration: practical, maintained to working standard rather than showroom standard, and present at every ranch and farm in Vice County.
 
-The Rancher occupies the Vice County working truck territory alongside the Bravado Bison and the Vapid Bobcat XL. The distinction is the Declasse ranch specification: the tray bed for agricultural equipment, the tow bar, and the general configuration of a vehicle used for farming.
+The Rancher occupies the Vice County working truck territory alongside the Bravado Bison and the Declasse Bobcat XL. The distinction is the Declasse ranch specification: the tray bed for agricultural equipment, the tow bar, and the general configuration of a vehicle used for farming.
 
 **In [Vice County](/gameplay/locations/vice-county) the Yosemite Rancher is the vehicle parked outside every agricultural property.** It is the ambient rural Leonida vehicle in the same way the Blista Compact is the ambient urban vehicle.

@@ -10,13 +10,18 @@
     "ogDescription": "The Hawk &amp; Little Morgan Revolvers in GTA 6. Vice City-styled Ultimate Edition exclusive sidearm for Jason Duval and Lucia Caminos.",
     "jsonLdHeadline": "Hawk & Little Morgan Revolvers - GTA 6 Weapon Profile",
     "jsonLdDescription": "The Hawk & Little Morgan Revolvers in GTA 6. Vice City-styled Ultimate Edition exclusive sidearm for Jason Duval and Lucia Caminos.",
-    "dateModified": "2026-10-19"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "Same revolver, dressed for Vice City. **Ultimate Edition exclusive, one per protagonist.** Jason and Lucia both walk away with a Morgan Revolver that looks like nobody else's.",
   "statBlock": [
     {
       "key": "Type",
       "value": "Sidearm (Revolver)"
+    },
+    {
+      "key": "In-Game Model",
+      "value": "Hawk & Little Morgan",
+      "sub": "Damage 5.7, Accuracy 5.4, Handling 7.8, Range 6.0 out of 10. 6-round mag, semi-auto, .44 Magnum. Ammu-Nation: Standard and Hunting stock. Menu stats: IGN's Official GTA 6 Guide."
     },
     {
       "key": "Lethality",
@@ -61,9 +66,9 @@
       "desc": "Same Ultimate Edition bundle, same two weapons."
     },
     {
-      "url": "/gameplay/weapons/pistol",
+      "url": "/gameplay/weapons/klose-k17",
       "type": "Weapon",
-      "name": "Standard Pistol",
+      "name": "Klose K17",
       "desc": "The base sidearm that the \"personalized variants\" in the bundle are built from."
     }
   ],
@@ -101,11 +106,11 @@
       "label": "All Weapons"
     },
     {
-      "url": "/gameplay/weapons/pistol",
+      "url": "/gameplay/weapons/klose-k17",
       "label": "Standard Pistol"
     },
     {
-      "url": "/gameplay/weapons/heavy-revolver",
+      "url": "/gameplay/weapons/scorpio-akulus",
       "label": "Heavy Revolver"
     }
   ],

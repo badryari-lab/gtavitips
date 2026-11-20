@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "karin-rebel-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Karin Rebel - GTA 6 Vehicle",
     "jsonLdDescription": "The Karin Rebel is a off-road vehicle in GTA 6 Leonida. Based on the Toyota FJ Cruiser.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "The Toyota FJ Cruiser of Leonida. **Off-road capable, distinctive profile, and the Karin that [Vice County](/gameplay/locations/vice-county) actually uses for what off-road means in the Florida interior.**",
   "statBlock": [
@@ -31,6 +31,11 @@
       "key": "Handling",
       "value": "4WD Off-Road",
       "sub": "Four-wheel drive with the suspension clearance and approach angles for rough terrain."
+    },
+    {
+      "key": "WAiNK Stats",
+      "value": "Karin ’84 Rebel · Pickup",
+      "sub": "Speed 3.8, Acceleration 4.4, Asphalt 3.4, Off-Road 6.5, Strength 3.0 out of 10. Fence value $2,035, registration $6,750. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
     }
   ],
   "gallery": [],

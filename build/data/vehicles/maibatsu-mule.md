@@ -34,9 +34,9 @@
   "gallery": [],
   "connections": [
     {
-      "url": "/gameplay/vehicles/vapid-benson",
+      "url": "/gameplay/vehicles/interstate-benson",
       "type": "Box Truck",
-      "name": "Vapid Benson",
+      "name": "Interstate Benson",
       "desc": "The Ford-equivalent box truck."
     },
     {

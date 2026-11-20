@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "pegassi-zentorno-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Pegassi Zentorno - GTA 6 Vehicle",
     "jsonLdDescription": "The Pegassi Zentorno is a hypercar in GTA 6. Based on the Lamborghini Sesto Elemento.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "**Confirmed in Trailer 1.** The Zentorno is back. The geometric angles, the hexagonal exhaust arrangement, and the speed that sets the benchmark for [Vice City](/gameplay/locations/vice-city) hypercar ownership.",
   "statBlock": [
@@ -49,9 +49,9 @@
     },
     {
       "url": "/gameplay/vehicles/pfister-astron",
-      "type": "Hypercar",
+      "type": "SUV",
       "name": "Pfister Astron",
-      "desc": "The German hybrid competitor."
+      "desc": "Pfister's luxury SUV. Same money, more roof."
     },
     {
       "url": "/gameplay/brands/pegassi",

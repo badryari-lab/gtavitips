@@ -6,31 +6,36 @@
   ],
   "seo": {
     "title": "Declasse Tulip | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Declasse Tulip in GTA 6. Chevrolet Caprice profile. Classic full-size American sedan.",
-    "ogDescription": "Declasse Tulip in GTA 6. Chevrolet Caprice profile. Classic full-size American sedan.",
+    "description": "The '72 Declasse Tulip in GTA 6. Chevrolet Chevelle profile. A restored seventies muscle car with a long hood.",
+    "ogDescription": "The '72 Declasse Tulip in GTA 6. Chevrolet Chevelle profile. A restored seventies muscle car with a long hood.",
     "ogImagePlaceholder": "declasse-tulip-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Declasse Tulip - GTA 6 Vehicle",
-    "jsonLdDescription": "The Declasse Tulip is a classic sedan in GTA 6 Leonida. Based on the Chevrolet Caprice.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "The Declasse Tulip is a '72 muscle car in GTA 6 Leonida, on the Chevrolet Chevelle profile.",
+    "dateModified": "2026-11-20"
   },
-  "heroSubtitle": "The classic full-size Chevrolet sedan in Leonida. **Long wheelbase, V8 optional, and the car that [Vice City](/gameplay/locations/vice-city)'s older residential population has been driving since the street it lives on was built.**",
+  "heroSubtitle": "The '72 Declasse muscle car. **Long hood, short deck, and the restored seventies metal that [Vice City](/gameplay/locations/vice-city) still takes out on a Sunday.**",
   "statBlock": [
     {
       "key": "Brand",
       "value": "Declasse",
-      "sub": "GTA's Chevrolet equivalent. The Tulip is the classic full-size sedan in the Declasse civilian range."
+      "sub": "GTA's Chevrolet equivalent. The Tulip is the '72 muscle car in the Declasse range."
     },
     {
       "key": "Real-World Counterpart",
-      "value": "Chevrolet Caprice Classic",
-      "sub": "The classic full-size Caprice. Long, comfortable, and the automotive embodiment of a different era's approach to what a car should be.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Chevrolet_Caprice",
-      "wikiLabel": "Chevrolet Caprice"
+      "value": "Chevrolet Chevelle (1970 to 1972)",
+      "sub": "The third-generation Chevelle profile: long hood, short deck, muscle-era stance.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Chevrolet_Chevelle",
+      "wikiLabel": "Chevrolet Chevelle"
     },
     {
       "key": "Handling",
-      "value": "RWD Full-Size",
-      "sub": "Rear-wheel drive, full-size layout. The classic American sedan handling: soft, comfortable, and notably rear-wheel."
+      "value": "RWD Muscle",
+      "sub": "Rear-wheel drive and a heavy front end. It gets going; corners get respect."
+    },
+    {
+      "key": "WAiNK Stats",
+      "value": "Declasse ’72 Tulip · Muscle",
+      "sub": "Speed 5.1, Acceleration 4.8, Asphalt 3.4, Off-Road 3.9, Strength 3.0 out of 10. Fence value $2,805, registration $9,400. Tracker: Standard. WAiNK figures: IGN's Official GTA 6 Guide."
     }
   ],
   "gallery": [],
@@ -39,13 +44,13 @@
       "url": "/gameplay/vehicles/declasse-tornado",
       "type": "Classic Lowrider",
       "name": "Declasse Tornado",
-      "desc": "The classic Impala lowrider equivalent."
+      "desc": "The Declasse lowrider. Same family, slower on purpose."
     },
     {
-      "url": "/gameplay/vehicles/bravado-buffalo",
-      "type": "Sedan",
-      "name": "Bravado Buffalo",
-      "desc": "The modern civilian sedan."
+      "url": "/gameplay/vehicles/imponte-ruiner",
+      "type": "Muscle",
+      "name": "Imponte Ruiner",
+      "desc": "The '82 muscle car. A decade newer, same appetite."
     },
     {
       "url": "/gameplay/brands/declasse",
@@ -57,7 +62,7 @@
       "url": "/gameplay/locations/vice-city",
       "type": "Location",
       "name": "Vice City",
-      "desc": "The residential districts where the Tulip lives."
+      "desc": "Sunday cruises and the car meets that keep seventies metal moving."
     }
   ],
   "sidebarDatabase": [
@@ -94,8 +99,8 @@
   ]
 }
 ---
-The Tulip is the classic full-size American sedan in the [Vice City](/gameplay/locations/vice-city) vehicle population. The Caprice generation: long, chrome-detailed, comfortable in the way that cars built before fuel economy was a regulatory category were comfortable. **It is the car in the driveway of the Vice City house that was bought before the neighborhood changed around it.**
+The Tulip is the '72 Declasse muscle car, on the Chevrolet Chevelle profile. Long hood, short deck, and restored to the condition [Vice City](/gameplay/locations/vice-city)'s car crowd likes to be seen in.
 
-The Tulip does not perform at the level of the modern vehicles in the Leonida roster. It does not need to. It occupies a different function: the ambient civilian traffic that makes Vice City's residential districts feel inhabited, and the occasional mission vehicle for the specific narrative context where an older car is the correct choice.
+It is a straight-line car. **WAiNK puts acceleration at 4.8 and asphalt handling at 3.4: it gets going, and corners get respect.** Rear-wheel drive and a heavy front end decide the rest.
 
-The handling reflects the era. Soft suspension, body roll through corners, and the rear-wheel drive that the driver manages at the limit of what a comfortable car does under enthusiastic inputs.
+Cheap to own and cheap to lose. A fence pays $2,805, registration runs $9,400, and the tracker is standard. The [Declasse Tornado](/gameplay/vehicles/declasse-tornado) covers the lowrider side of the family. The Tulip is the one that gets driven hard.

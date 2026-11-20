@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "annis-hellion-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Annis Hellion - GTA 6 Vehicle",
     "jsonLdDescription": "The Annis Hellion is a off-road pickup in GTA 6 Leonida. Based on the Nissan Frontier.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "Japanese off-road pickup. **[Vice County](/gameplay/locations/vice-county) terrain, aggressive suspension lift, and the go-anywhere capability that the rural corridor demands.**",
   "statBlock": [
@@ -31,6 +31,11 @@
       "key": "Handling",
       "value": "RWD / 4WD Off-Road",
       "sub": "Rear-wheel drive standard with four-wheel drive available. The pickup configuration for both road and rural use."
+    },
+    {
+      "key": "WAiNK Stats",
+      "value": "Annis ’95 Hellion · SUV",
+      "sub": "Speed 3.1, Acceleration 3.4, Asphalt 3.0, Off-Road 6.7, Strength 3.0 out of 10. Fence value $1,320, registration $4,400. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
     }
   ],
   "gallery": [],

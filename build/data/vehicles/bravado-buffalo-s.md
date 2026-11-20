@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "bravado-buffalo-s-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Bravado Buffalo S - GTA 6 Vehicle",
     "jsonLdDescription": "The Bravado Buffalo S is a performance sedan in GTA 6 Leonida. Based on the Dodge Charger SRT.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "The Buffalo with the performance package. **Same Charger platform, more output, and the specific disposition of a four-door sedan that is significantly faster than it looks.**",
   "statBlock": [
@@ -49,9 +49,9 @@
     },
     {
       "url": "/gameplay/vehicles/declasse-tulip",
-      "type": "Sedan",
+      "type": "Muscle",
       "name": "Declasse Tulip",
-      "desc": "The alternative sedan."
+      "desc": "The '72 Declasse muscle car. Where the family tree starts."
     },
     {
       "url": "/gameplay/brands/bravado",

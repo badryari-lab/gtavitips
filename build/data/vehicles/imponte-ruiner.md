@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "imponte-ruiner-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Imponte Ruiner - GTA 6 Vehicle",
     "jsonLdDescription": "The Imponte Ruiner is a classic muscle car in GTA 6 Leonida. Based on the Pontiac Firebird Trans Am.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "The Firebird in Leonida. **The classic muscle profile, the V8 soundtrack, and the specific [Vice City](/gameplay/locations/vice-city) nostalgia that attaches to a car from the era when this city was first on screen.**",
   "statBlock": [
@@ -31,6 +31,11 @@
       "key": "Handling",
       "value": "RWD V8",
       "sub": "Rear-wheel drive, V8 engine. Classic American muscle car configuration. Power, torque, and the driving character that comes from both."
+    },
+    {
+      "key": "WAiNK Stats",
+      "value": "Imponte ’82 Ruiner · Coupe",
+      "sub": "Speed 4.5, Acceleration 4.6, Asphalt 3.7, Off-Road 4.1, Strength 3.0 out of 10. Fence value $1,925, registration $6,400. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
     }
   ],
   "gallery": [],

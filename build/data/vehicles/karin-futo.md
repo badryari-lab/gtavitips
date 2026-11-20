@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "karin-futo-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Karin Futo - GTA 6 Vehicle",
     "jsonLdDescription": "The Karin Futo is a classic sports car in GTA 6 Leonida. Based on the Toyota AE86 Corolla Trueno.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "The AE86 of Leonida. **Lightweight, rear-wheel drive, naturally aspirated, and the car that [Vice City](/gameplay/locations/vice-city)'s drift culture built its mythology around.**",
   "statBlock": [
@@ -31,6 +31,11 @@
       "key": "Handling",
       "value": "RWD Lightweight",
       "sub": "Rear-wheel drive, low weight. The handling character that the AE86 generation is known for. Responsive, communicative, and rewarding for a skilled driver."
+    },
+    {
+      "key": "WAiNK Stats",
+      "value": "Karin ’85 Futo · Coupe",
+      "sub": "Speed 4.3, Acceleration 4.5, Asphalt 3.5, Off-Road 4.2, Strength 3.0 out of 10. Fence value $1,430, registration $4,750. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
     }
   ],
   "gallery": [],

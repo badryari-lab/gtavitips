@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "sticky-bomb-gta-6-weapon.jpg",
     "jsonLdHeadline": "Sticky Bomb - GTA 6 Weapon Profile",
     "jsonLdDescription": "The Sticky Bomb in GTA 6: a remote detonation explosive, used on vehicles and structures across Vice City and Vice County.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "Place it. Leave. Detonate when the moment is correct. **The sticky bomb is the difference between reacting and planning.**",
   "statBlock": [
@@ -60,7 +60,7 @@
     },
     {
       "q": "Where can you get Sticky Bombs in Leonida?",
-      "a": "Ammu-Nation is the confirmed weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Specific stock, pricing, and unlock conditions aren't confirmed yet."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
     },
     {
       "q": "Are Sticky Bombs usable on all vehicle types in Leonida?",
@@ -74,7 +74,7 @@
     },
     {
       "q": "Where can you get Sticky Bombs in Leonida?",
-      "aPlain": "Ammu-Nation is the confirmed weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Specific stock, pricing, and unlock conditions aren't confirmed yet."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
     },
     {
       "q": "Are Sticky Bombs usable on all vehicle types in Leonida?",

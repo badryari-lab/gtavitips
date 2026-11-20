@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "grotti-furia-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Grotti Furia - GTA 6 Vehicle",
     "jsonLdDescription": "The Grotti Furia is a hypercar in GTA 6. Based on the Ferrari LaFerrari. Top of the Grotti lineup in Leonida.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "The top of the Grotti lineup. **Hybrid hypercar, active aerodynamics, and the weight of being the most expensive car at the [South Beach](/gameplay/locations/south-beach) valet stand.**",
   "statBlock": [
@@ -49,9 +49,9 @@
     },
     {
       "url": "/gameplay/vehicles/pfister-astron",
-      "type": "Hypercar",
+      "type": "SUV",
       "name": "Pfister Astron",
-      "desc": "The Porsche hybrid. Different approach, same tier."
+      "desc": "Pfister's SUV. A different kind of fast."
     },
     {
       "url": "/gameplay/brands/grotti",

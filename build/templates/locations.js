@@ -98,7 +98,6 @@ function render(entry) {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
         Back to Locations Index
       </a>
-      <div class="location-hero__eyebrow">Location File</div>
       <h1 class="location-hero__h1">${h1}</h1>
       <p class="location-hero__sub">${renderInline(heroSubtitle)}</p>
     </div>
@@ -112,7 +111,6 @@ ${renderStatBlock(statBlock, null, 'Location stats')}
 
   const faqHtml = faq && faq.length
     ? `      <section class="section reveal" aria-labelledby="faq-hd">
-        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Common Questions</span></div>
         <h2 class="section__h2" id="faq-hd">Common <span style="color:var(--blue)">Questions</span></h2>
         <div class="faq-list" role="list">
           ${faq
@@ -131,17 +129,14 @@ ${renderStatBlock(statBlock, null, 'Location stats')}
   const main = `  <main id="main"><div class="wrap"><div class="content-grid">
     <div class="content-main">
       <section class="section reveal" aria-labelledby="overview-hd">
-        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Location Overview</span></div>
         <h2 class="section__h2" id="overview-hd">Leonida <span style="color:var(--blue)">Profile</span></h2>
         <div class="section__body">${profileProse}</div>
       </section>
 ${renderOperatorNotes(operatorNotes)}      <section class="section reveal" aria-labelledby="field-hd">
-        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Tactical Assessment</span></div>
         <h2 class="section__h2" id="field-hd">On the <span style="color:var(--blue)">Ground</span></h2>
         <div class="section__body">${groundProse}</div>
       </section>
       <section class="section reveal" aria-labelledby="connected-hd">
-        <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Cross-Reference</span></div>
         <h2 class="section__h2" id="connected-hd">What's <span style="color:var(--blue)">Connected</span></h2>
         <div class="connected-grid" role="list">          ${renderConnectionsGrid(connections)}</div>
 ${faqHtml}    </div>

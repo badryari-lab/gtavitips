@@ -6,7 +6,14 @@
     <atom:link href="https://gtavitips.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>GTA 6 news and intel from official Rockstar sources. Characters, vehicles, locations, and everything moving in Leonida.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2026 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Leonida Is Open: GTA VI Is Out</title>
+      <link>https://gtavitips.com/news/gta-6-out-now</link>
+      <guid isPermaLink="true">https://gtavitips.com/news/gta-6-out-now</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Rockstar put it on the Newswire on November 19: GTA VI is available worldwide on PS5 and Xbox Series X|S. The Album dropped the same night, an official guide went live, and a launch festival hits Miami on Saturday.</description>
+    </item>
     <item>
       <title>Justice Scores Leonida: 30 Tracks, December 11</title>
       <link>https://gtavitips.com/news/gta-6-original-score-justice</link>
@@ -139,13 +146,6 @@
       <guid isPermaLink="true">https://gtavitips.com/news/gta-6-criminal-economy-vice-city</guid>
       <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
       <description>Product enters at Port Gellhorn. It moves through the OMG corridor. It distributes through Real Dimez and San 4 San. Money comes back clean.</description>
-    </item>
-    <item>
-      <title>The Geography of Leonida: A Reconstruction</title>
-      <link>https://gtavitips.com/news/geography-of-leonida</link>
-      <guid isPermaLink="true">https://gtavitips.com/news/geography-of-leonida</guid>
-      <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-      <description>Five confirmed zones. No official map yet. This is the spatial logic of Leonida reconstructed from confirmed locations, trailer geography, and aerial footage.</description>
     </item>
   </channel>
 </rss>

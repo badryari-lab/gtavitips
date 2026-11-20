@@ -81,7 +81,6 @@ function render(entry) {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
         Back to Gangs &amp; Factions
       </a>
-      <div class="faction-hero__eyebrow">Faction File</div>
       <h1 class="faction-hero__h1">${h1}</h1>
       <p class="faction-hero__sub">${renderInline(heroSubtitle)}</p>
     </div>
@@ -101,13 +100,11 @@ ${renderStatBlock(statBlock, gallery, 'Faction stats')}
         <div class="content-main">
 
           <section class="section reveal" aria-labelledby="intel-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Organizational Intelligence</span></div>
             <h2 class="section__h2" id="intel-hd">Faction <span style="color:var(--blue)">Profile</span></h2>
             <div class="section__body">${entry.proseHtml}</div>
           </section>
 
           <section class="section reveal" aria-labelledby="connected-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Related Intelligence</span></div>
             <h2 class="section__h2" id="connected-hd">Connected <span style="color:var(--blue)">Intelligence</span></h2>
             <div class="connected-grid" role="list">
               ${renderConnectionsGrid(connections)}

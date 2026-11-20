@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "molotov-gta-6-weapon.jpg",
     "jsonLdHeadline": "Molotov Cocktail - GTA 6 Weapon Profile",
     "jsonLdDescription": "The Molotov Cocktail in GTA 6: an incendiary device, fire that spreads and holds, used across Vice County street operations.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "Fire spreads. **It does not stop spreading because the situation has changed.** That is the advantage and the problem simultaneously.",
   "statBlock": [
@@ -60,7 +60,7 @@
     },
     {
       "q": "Where can you get Molotovs in Leonida?",
-      "a": "Ammu-Nation is the confirmed weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Specific stock, pricing, and unlock conditions aren't confirmed yet."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
     },
     {
       "q": "Is the Molotov confirmed with specific factions or just operative use?",
@@ -74,7 +74,7 @@
     },
     {
       "q": "Where can you get Molotovs in Leonida?",
-      "aPlain": "Ammu-Nation is the confirmed weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Specific stock, pricing, and unlock conditions aren't confirmed yet."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun. Source: IGN's Official GTA 6 Guide."
     },
     {
       "q": "Is the Molotov confirmed with specific factions or just operative use?",

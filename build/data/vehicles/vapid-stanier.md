@@ -63,9 +63,9 @@
       "desc": "The law enforcement spec of the same body, lights and livery added."
     },
     {
-      "url": "/gameplay/vehicles/vapid-chino",
+      "url": "/gameplay/vehicles/dundreary-chino",
       "type": "Vehicle",
-      "name": "Vapid Chino",
+      "name": "Dundreary Chino",
       "desc": "Fellow Vapid classic, same era of American design philosophy."
     },
     {
@@ -91,8 +91,8 @@
       "label": "Vapid Stanier LE (Police)"
     },
     {
-      "url": "/gameplay/vehicles/vapid-chino",
-      "label": "Vapid Chino"
+      "url": "/gameplay/vehicles/dundreary-chino",
+      "label": "Dundreary Chino"
     }
   ],
   "sidebarExplore": [

@@ -36,10 +36,10 @@
   "gallery": [],
   "connections": [
     {
-      "url": "/gameplay/vehicles/vapid-bobcat-xl",
+      "url": "/gameplay/vehicles/declasse-bobcat-xl",
       "type": "Pickup",
-      "name": "Vapid Bobcat XL",
-      "desc": "The Ford F-150 equivalent."
+      "name": "Declasse Bobcat XL",
+      "desc": "The square-body Declasse pickup."
     },
     {
       "url": "/gameplay/vehicles/bravado-buffalo",

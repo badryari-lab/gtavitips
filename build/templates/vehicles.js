@@ -86,7 +86,6 @@ function render(entry) {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
         Back to Vehicle Database
       </a>
-      <div class="vehicle-hero__eyebrow">Vehicle File</div>
       <h1 class="vehicle-hero__h1">${h1}</h1>
       <p class="vehicle-hero__sub">${renderInline(heroSubtitle)}</p>
     </div>
@@ -106,13 +105,11 @@ ${renderStatBlock(statBlock, gallery)}
         <div class="content-main">
 
           <section class="section reveal" aria-labelledby="assessment-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Automotive Intel</span></div>
             <h2 class="section__h2" id="assessment-hd">Field <span style="color:var(--blue)">Assessment</span></h2>
             <div class="section__body">${entry.proseHtml}</div>
           </section>
 
           <section class="section reveal" aria-labelledby="related-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Related Intelligence</span></div>
             <h2 class="section__h2" id="related-hd">Related <span style="color:var(--blue)">Vehicles</span></h2>
             <div class="connected-grid" role="list">
               ${renderConnectionsGrid(connections)}

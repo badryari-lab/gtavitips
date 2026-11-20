@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "maibatsu-penumbra-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Maibatsu Penumbra - GTA 6 Vehicle",
     "jsonLdDescription": "The Maibatsu Penumbra is a sports coupe in GTA 6 Leonida. Based on the Mitsubishi Eclipse.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "The Mitsubishi Eclipse of Leonida. **Front-wheel drive sports coupe aesthetic with the turbo option that makes the [Vice City](/gameplay/locations/vice-city) sport compact culture take it seriously.**",
   "statBlock": [
@@ -31,6 +31,11 @@
       "key": "Handling",
       "value": "FWD / AWD Turbocharged",
       "sub": "Front-wheel drive base with turbocharged option. The Eclipse formula."
+    },
+    {
+      "key": "WAiNK Stats",
+      "value": "Maibatsu ’97 Penumbra FF · Coupe",
+      "sub": "Speed 5.1, Acceleration 5.5, Asphalt 4.4, Off-Road 4.3, Strength 3.0 out of 10. Fence value $2,035, registration $6,750. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
     }
   ],
   "gallery": [],

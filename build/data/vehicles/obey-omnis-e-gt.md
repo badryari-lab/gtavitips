@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "obey-omnis-e-gt-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Obey Omnis E-GT - GTA 6 Vehicle",
     "jsonLdDescription": "The Obey Omnis E-GT is a electric performance sedan in GTA 6 Leonida. Based on the Audi RS E-Tron GT.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "The electric performance sedan. **Four-door, four-wheel drive, and silent at low speed until it is not silent at any speed at all.**",
   "statBlock": [
@@ -43,9 +43,9 @@
     },
     {
       "url": "/gameplay/vehicles/pfister-astron",
-      "type": "Hybrid Hypercar",
+      "type": "SUV",
       "name": "Pfister Astron",
-      "desc": "The Porsche electric alternative."
+      "desc": "The Pfister SUV. Tall where this one is low."
     },
     {
       "url": "/gameplay/vehicles/benefactor-schafter-v12",

@@ -107,7 +107,6 @@ function render(entry) {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
         Back to Activities
       </a>
-      <div class="activity-hero__eyebrow">Activity File</div>
       <h1 class="activity-hero__h1">${h1}</h1>
       <p class="activity-hero__sub">${renderInline(heroSubtitle)}</p>
     </div>
@@ -139,7 +138,6 @@ ${statItemsHtml}
   const faqHtml = faq && faq.length
     ? `
           <section class="section reveal" aria-labelledby="faq-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Frequently Asked</span></div>
             <h2 class="section__h2" id="faq-hd">Frequently Asked</h2>
             <div class="faq-list">
               ${faq
@@ -161,13 +159,11 @@ ${statItemsHtml}
         <div class="content-main">
 
           <section class="section reveal" aria-labelledby="overview-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Activity Overview</span></div>
             <h2 class="section__h2" id="overview-hd">Dossier</h2>
             <div class="section__body">${entry.proseHtml}</div>
           </section>
 
           <section class="section reveal" aria-labelledby="connections-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Filed Connections</span></div>
             <h2 class="section__h2" id="connections-hd">Known Connections</h2>
             <div class="connections" role="list">
 ${renderConnectionsGridAvatar(connections)}

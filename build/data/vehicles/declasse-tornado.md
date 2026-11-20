@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "declasse-tornado-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Declasse Tornado - GTA 6 Vehicle",
     "jsonLdDescription": "The Declasse Tornado is a classic lowrider in GTA 6 Leonida. Based on the Chevrolet Impala.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "The lowrider. **[Vice City](/gameplay/locations/vice-city)'s low-and-slow culture has been here since before the city built the buildings it shows tourists, and the Tornado is what it looks like.**",
   "statBlock": [
@@ -36,16 +36,16 @@
   "gallery": [],
   "connections": [
     {
-      "url": "/gameplay/vehicles/vapid-chino",
+      "url": "/gameplay/vehicles/dundreary-chino",
       "type": "Lowrider",
-      "name": "Vapid Chino",
+      "name": "Dundreary Chino",
       "desc": "The lowrider alternative."
     },
     {
       "url": "/gameplay/vehicles/declasse-tulip",
-      "type": "Sedan",
+      "type": "Muscle",
       "name": "Declasse Tulip",
-      "desc": "The Declasse sedan."
+      "desc": "The Declasse muscle car. Same badge, driven harder."
     },
     {
       "url": "/gameplay/activities/street-takeovers",

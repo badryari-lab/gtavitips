@@ -87,7 +87,6 @@ function render(entry) {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
         Back to Weapons
       </a>
-      <div class="weapon-hero__eyebrow">Weapon File</div>
       <h1 class="weapon-hero__h1">${h1}</h1>
       <p class="weapon-hero__sub">${renderInline(heroSubtitle)}</p>
     </div>
@@ -104,7 +103,6 @@ ${renderStatBlock(statBlock, gallery, 'Weapon stats')}
   const faqHtml = faq && faq.length
     ? `
           <section class="section reveal" aria-labelledby="faq-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Frequently Asked</span></div>
             <h2 class="section__h2" id="faq-hd">Frequently <span style="color:var(--blue)">Asked</span></h2>
             <div class="faq-list">
               ${faq
@@ -126,13 +124,11 @@ ${renderStatBlock(statBlock, gallery, 'Weapon stats')}
         <div class="content-main">
 
           <section class="section reveal" aria-labelledby="assessment-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Weapon Intelligence</span></div>
             <h2 class="section__h2" id="assessment-hd">Field <span style="color:var(--blue)">Assessment</span></h2>
             <div class="section__body">${entry.proseHtml}</div>
           </section>
 
           <section class="section reveal" aria-labelledby="related-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Filed Connections</span></div>
             <h2 class="section__h2" id="related-hd">Also <span style="color:var(--blue)">Carried</span></h2>
             <div class="connected-grid" role="list">
               ${renderConnectionsGrid(connections)}

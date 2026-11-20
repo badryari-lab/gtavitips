@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "dinka-blista-compact-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Dinka Blista Compact - GTA 6 Vehicle",
     "jsonLdDescription": "The Dinka Blista Compact is a compact hatchback in GTA 6 Leonida. Based on the Honda Civic/Jazz.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "The compact hatchback. **Small, economical, and the car that most of [Vice City](/gameplay/locations/vice-city)'s working population drives because it is what the price point delivers.**",
   "statBlock": [
@@ -29,6 +29,11 @@
       "key": "Handling",
       "value": "FWD Compact",
       "sub": "Front-wheel drive compact. The economy car configuration."
+    },
+    {
+      "key": "WAiNK Stats",
+      "value": "Dinka ’85 Blista · Coupe",
+      "sub": "Speed 4.5, Acceleration 4.7, Asphalt 3.8, Off-Road 4.2, Strength 3.0 out of 10. Fence value $825, registration $2,750. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
     }
   ],
   "gallery": [],
@@ -41,9 +46,9 @@
     },
     {
       "url": "/gameplay/vehicles/declasse-tulip",
-      "type": "Classic Sedan",
+      "type": "Muscle",
       "name": "Declasse Tulip",
-      "desc": "The full-size civilian alternative."
+      "desc": "The '72 American muscle car. The opposite of a Blista."
     },
     {
       "url": "/gameplay/brands/dinka",

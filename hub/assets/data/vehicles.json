@@ -47,7 +47,7 @@
         { "url": "/gameplay/vehicles/obey-tailgater",            "label": "Sedan",    "color": "#60a5fa", "name": "Obey Tailgater",            "desc": "Corporate Leonida fleet sedan." },
         { "url": "/gameplay/vehicles/schyster-pmp-700",          "label": "Sedan",    "color": "#60a5fa", "name": "Schyster PMP 700",          "desc": "Mid-range sedan." },
         { "url": "/gameplay/vehicles/ubermacht-sentinel-classic-convertible", "label": "Classic", "color": "#f97316", "name": "Ubermacht Sentinel Classic Convertible", "desc": "German classic, top down. Jason's ride." },
-        { "url": "/gameplay/vehicles/vapid-chino",               "label": "Muscle",   "color": "#ff6b6b", "name": "Vapid Chino",               "desc": "Lowrider platform." },
+        { "url": "/gameplay/vehicles/dundreary-chino",               "label": "Muscle",   "color": "#ff6b6b", "name": "Dundreary Chino",               "desc": "Lowrider platform." },
         { "url": "/gameplay/vehicles/vapid-stanier",             "label": "Classic",  "color": "#f97316", "name": "Vapid Stanier",             "desc": "1955 American sedan. Pre-order bonus. Shore Court property and weapon locker included." }
       ]
     },
@@ -65,7 +65,7 @@
         { "url": "/gameplay/vehicles/nagasaki-blazer",       "label": "ATV",      "color": "#a3e635", "name": "Nagasaki Blazer",       "desc": "Quad ATV. Compact off-road." },
         { "url": "/gameplay/vehicles/nagasaki-outlaw",       "label": "Off-Road", "color": "#84cc16", "name": "Nagasaki Outlaw",       "desc": "Off-road truck. Rural and swamp terrain." },
         { "url": "/gameplay/vehicles/pfister-astron",        "label": "SUV",      "color": "#fcd34d", "name": "Pfister Astron",        "desc": "Pfister's premium SUV." },
-        { "url": "/gameplay/vehicles/vapid-bobcat-xl",       "label": "Utility",  "color": "#64748b", "name": "Vapid Bobcat XL",       "desc": "Extended cab pickup." },
+        { "url": "/gameplay/vehicles/declasse-bobcat-xl",       "label": "Utility",  "color": "#64748b", "name": "Declasse Bobcat XL",       "desc": "Extended cab pickup." },
         { "url": "/gameplay/vehicles/vapid-liberator",       "label": "Off-Road", "color": "#84cc16", "name": "Vapid Liberator",       "desc": "Monster truck." },
         { "url": "/gameplay/vehicles/vapid-sandking-xl",     "label": "Off-Road", "color": "#84cc16", "name": "Vapid Sandking XL",     "desc": "Large off-road truck." },
         { "url": "/gameplay/vehicles/vapid-towtruck",        "label": "Utility",  "color": "#64748b", "name": "Vapid Towtruck",        "desc": "Recovery vehicle. Also useful for other purposes." }
@@ -94,7 +94,7 @@
         { "url": "/gameplay/vehicles/brute-shuttle-bus",    "label": "Bus",        "color": "#fbbf24", "name": "Brute Shuttle Bus",    "desc": "Transit bus. Vice City public routes." },
         { "url": "/gameplay/vehicles/jobuilt-phantom",      "label": "Truck",      "color": "#78716c", "name": "JoBuilt Phantom",      "desc": "Semi-truck. Long-haul Leonida freight." },
         { "url": "/gameplay/vehicles/maibatsu-mule",        "label": "Truck",      "color": "#78716c", "name": "Maibatsu Mule",        "desc": "Box truck. Delivery and logistics." },
-        { "url": "/gameplay/vehicles/vapid-benson",         "label": "Commercial", "color": "#94a3b8", "name": "Vapid Benson",         "desc": "Commercial delivery vehicle." }
+        { "url": "/gameplay/vehicles/interstate-benson",         "label": "Commercial", "color": "#94a3b8", "name": "Interstate Benson",         "desc": "Commercial delivery vehicle." }
       ]
     },
     {

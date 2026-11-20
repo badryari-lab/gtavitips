@@ -5,13 +5,13 @@
           http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://gtavitips.com</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/news</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/faq</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -47,13 +47,13 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/weapons</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -108,6 +108,12 @@
   <url>
     <loc>https://gtavitips.com/news/gta-6-radio-stations</loc>
     <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/news/gta-6-out-now</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -239,7 +245,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/news/vice-city-1986-vs-2026</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -359,7 +365,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/faq/when-does-gta-6-release</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -491,7 +497,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/faq/what-time-does-gta-6-unlock</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -515,7 +521,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/faq/when-can-you-pre-load-gta-6</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -539,7 +545,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/faq/is-gta-6-out-yet</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -893,7 +899,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/bravado-bison</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -935,7 +941,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/grotti-cheetah</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -989,7 +995,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/pfister-astron</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1007,13 +1013,13 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/karin-futo</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/karin-rebel</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1079,13 +1085,13 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/declasse-tulip</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/declasse-yosemite-rancher</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1096,26 +1102,26 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/vehicles/vapid-bobcat-xl</loc>
-    <lastmod>2026-10-25</lastmod>
+    <loc>https://gtavitips.com/gameplay/vehicles/declasse-bobcat-xl</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/vapid-sandking-xl</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/vehicles/vapid-benson</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/vehicles/interstate-benson</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/vehicles/vapid-chino</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/vehicles/dundreary-chino</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1133,7 +1139,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/vapid-towtruck</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1163,13 +1169,13 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/albany-buccaneer</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/imponte-ruiner</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1181,13 +1187,13 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/annis-hellion</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/dinka-blista-compact</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1205,7 +1211,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/maibatsu-penumbra</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1271,7 +1277,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/jobuilt-phantom</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1373,156 +1379,114 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/weapons/hawk-little-morgan-revolvers</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/weapons/pistol</loc>
-    <lastmod>2026-10-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gtavitips.com/gameplay/weapons/heavy-revolver</loc>
-    <lastmod>2026-10-25</lastmod>
+    <loc>https://gtavitips.com/gameplay/weapons/klose-k17</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/weapons/machine-pistol</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/weapons/scorpio-akulus</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/weapons/micro-smg</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/weapons/zhang-wu-type-9</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/weapons/compact-smg</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/weapons/wortham-w-10</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/weapons/carbine-rifle</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/weapons/vom-feuer-vf5c</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/weapons/heavy-rifle</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/weapons/duke-556</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/weapons/standard-assault-rifle</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/weapons/adb-fra</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/weapons/light-machine-gun</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/weapons/kozlov-kz-59</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/weapons/sniper-rifle</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/weapons/goodwin-lmg-6</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/weapons/pump-action-shotgun</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/weapons/fortune-and-son-laird-350</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/weapons/rocket-launcher</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/weapons/fortune-and-son-moreland-850</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/weapons/spear-gun</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/weapons/hauners-h-at</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/weapons/knife</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/weapons/combat-knife</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/weapons/baseball-bat</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gtavitips.com/gameplay/weapons/crowbar</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gtavitips.com/gameplay/weapons/golf-club</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gtavitips.com/gameplay/weapons/pool-cue</loc>
-    <lastmod>2026-10-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gtavitips.com/gameplay/weapons/throwing-knife</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/weapons/frag-grenade</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/weapons/sticky-bomb</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/weapons/molotov</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/weapons/flashbang</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gtavitips.com/gameplay/weapons/smoke-grenade</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gtavitips.com/gameplay/weapons/petrol-can</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/weapons/flash-grenade</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2500,7 +2464,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/about</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>

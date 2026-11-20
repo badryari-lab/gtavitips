@@ -85,7 +85,7 @@ function render(entry) {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
         Back to Brands Index
       </a>
-      <div class="brand-hero__eyebrow">Brand File</div>${heroBadge ? `\n      <div class="brand-hero__badge">${heroBadge}</div>` : ''}
+${heroBadge ? `\n      <div class="brand-hero__badge">${heroBadge}</div>` : ''}
       <h1 class="brand-hero__h1">${h1}</h1>
       <p class="brand-hero__slogan">${renderInline(heroSlogan)}</p>
     </div>
@@ -125,7 +125,6 @@ ${statItemsHtml}
   const ecoHtml = ecoSection
     ? `
           <section class="section reveal" aria-labelledby="eco-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">${ecoSection.eyebrow}</span></div>
             <h2 class="section__h2" id="eco-hd">${ecoSection.heading}</h2>
             <div class="eco-grid" role="list">
               ${ecoSection.items
@@ -150,7 +149,6 @@ ${statItemsHtml}
         <div class="content-main">
 
           <section class="section reveal" aria-labelledby="profile-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">${profileSection.eyebrow}</span></div>
             <h2 class="section__h2" id="profile-hd">${profileSection.heading}</h2>
             <div class="section__body">${entry.proseHtml}</div>
           </section>

@@ -155,3 +155,31 @@
 /jack-of-hearts                                      /gameplay/locations/jack-of-hearts                   301
 /brian-s-boat-works---marina                         /gameplay/locations/brians-boat-workshop             301
 /feed/rss2                                           /feed.xml                                            301
+
+# --- Post-launch renames (Nov 20 2026): in-game brand and model names ---
+/gameplay/vehicles/vapid-bobcat-xl                /gameplay/vehicles/declasse-bobcat-xl               301
+/gameplay/vehicles/vapid-chino                    /gameplay/vehicles/dundreary-chino                  301
+/gameplay/vehicles/vapid-benson                   /gameplay/vehicles/interstate-benson                301
+/gameplay/weapons/pump-action-shotgun             /gameplay/weapons/fortune-and-son-moreland-850      301
+/gameplay/weapons/rocket-launcher                 /gameplay/weapons/hauners-h-at                      301
+/gameplay/weapons/micro-smg                       /gameplay/weapons/wortham-w-10                      301
+/gameplay/weapons/machine-pistol                  /gameplay/weapons/zhang-wu-type-9                   301
+/gameplay/weapons/carbine-rifle                   /gameplay/weapons/duke-556                          301
+/gameplay/weapons/heavy-revolver                  /gameplay/weapons/scorpio-akulus                    301
+/gameplay/weapons/flashbang                       /gameplay/weapons/flash-grenade                     301
+/gameplay/weapons/knife                           /gameplay/weapons/combat-knife                      301
+
+# --- Weapons cleanup (Nov 20 2026): only real GTA 6 weapons ---
+/gameplay/weapons/pistol                          /gameplay/weapons/klose-k17                         301
+/gameplay/weapons/compact-smg                     /gameplay/weapons/vom-feuer-vf5c                    301
+/gameplay/weapons/sniper-rifle                    /gameplay/weapons/fortune-and-son-laird-350         301
+/gameplay/weapons/heavy-rifle                     /gameplay/weapons/adb-fra                           301
+/gameplay/weapons/light-machine-gun               /gameplay/weapons/goodwin-lmg-6                     301
+/gameplay/weapons/standard-assault-rifle          /gameplay/weapons/kozlov-kz-59                      301
+/gameplay/weapons/crowbar                         /gameplay/weapons/baseball-bat                      301
+/gameplay/weapons/pool-cue                        /gameplay/weapons/baseball-bat                      301
+/gameplay/weapons/golf-club                       /gameplay/activities/golf                           301
+/gameplay/weapons/throwing-knife                  /gameplay/weapons/combat-knife                      301
+/gameplay/weapons/petrol-can                      /gameplay/weapons/molotov                           301
+/gameplay/weapons/smoke-grenade                   /gameplay/weapons/flash-grenade                     301
+/gameplay/weapons/spear-gun                       /gameplay/weapons                                   301

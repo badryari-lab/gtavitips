@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "jobuilt-phantom-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Jobuilt Phantom - GTA 6 Vehicle",
     "jsonLdDescription": "The Jobuilt Phantom is a semi-truck in GTA 6 Leonida. Based on the Peterbilt 18-wheeler.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "The eighteen-wheeler on Leonida's highway network. **Loud, long, and moving at a speed that the road capacity determines rather than the driver's preference.**",
   "statBlock": [
@@ -31,6 +31,11 @@
       "key": "Handling",
       "value": "RWD Diesel",
       "sub": "Rear-wheel drive diesel on the drive axles. The standard American truck configuration."
+    },
+    {
+      "key": "WAiNK Stats",
+      "value": "Jobuilt ’81 Phantom Custom · Truck",
+      "sub": "Speed 2.0, Acceleration 1.5, Asphalt 2.2, Off-Road 2.5, Strength 3.0 out of 10. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
     }
   ],
   "gallery": [],
@@ -42,9 +47,9 @@
       "desc": "The smaller delivery truck."
     },
     {
-      "url": "/gameplay/vehicles/vapid-benson",
+      "url": "/gameplay/vehicles/interstate-benson",
       "type": "Box Truck",
-      "name": "Vapid Benson",
+      "name": "Interstate Benson",
       "desc": "The panel truck alternative."
     },
     {

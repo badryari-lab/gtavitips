@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "albany-buccaneer-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Albany Buccaneer - GTA 6 Vehicle",
     "jsonLdDescription": "The Albany Buccaneer is a classic car in GTA 6 Leonida. Based on the classic Cadillac Eldorado.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "The classic Cadillac Eldorado in Leonida. **Long, American, chrome-finished, and carrying the specific social weight of a car from the era when American manufacturing was the default luxury standard.**",
   "statBlock": [
@@ -31,6 +31,11 @@
       "key": "Handling",
       "value": "RWD Full-Size",
       "sub": "Rear-wheel drive, long wheelbase. The classic American luxury sedan handling character."
+    },
+    {
+      "key": "WAiNK Stats",
+      "value": "Albany ’65 Buccaneer · Muscle",
+      "sub": "Speed 4.2, Acceleration 4.1, Asphalt 3.2, Off-Road 3.9, Strength 3.0 out of 10. Fence value $2,805, registration $9,400. Tracker: None. WAiNK figures: IGN's Official GTA 6 Guide."
     }
   ],
   "gallery": [],
@@ -48,9 +53,9 @@
       "desc": "The classic Chevrolet equivalent."
     },
     {
-      "url": "/gameplay/vehicles/vapid-chino",
+      "url": "/gameplay/vehicles/dundreary-chino",
       "type": "Lowrider",
-      "name": "Vapid Chino",
+      "name": "Dundreary Chino",
       "desc": "The classic custom car alternative."
     },
     {

@@ -71,7 +71,6 @@ function render(entry) {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
         Back to Wildlife Index
       </a>
-      <div class="animal-hero__eyebrow">Animal File</div>
       <h1 class="animal-hero__h1">${h1}</h1>
       <p class="animal-hero__sub">${renderInline(heroSubtitle)}</p>
     </div>
@@ -88,7 +87,6 @@ ${renderStatBlock(statBlock, gallery, 'Species stats')}
   const faqHtml = faq && faq.length
     ? `
           <section class="section reveal" aria-labelledby="faq-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Common Questions</span></div>
             <h2 class="section__h2" id="faq-hd">Frequently <span style="color:var(--blue)">Asked</span></h2>
             <div class="faq-list" role="list">
               ${faq
@@ -109,12 +107,10 @@ ${renderStatBlock(statBlock, gallery, 'Species stats')}
       <div class="content-grid">
         <div class="content-main">
           <section class="section reveal" aria-labelledby="field-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Field Assessment</span></div>
             <h2 class="section__h2" id="field-hd">Behavior and <span style="color:var(--blue)">Threat Profile</span></h2>
             <div class="section__body">${entry.proseHtml}</div>
           </section>
           <section class="section reveal" aria-labelledby="species-hd">
-            <div class="section__eyebrow" aria-hidden="true"><div class="section__eyebrow-line"></div><span class="section__eyebrow-text">Leonida Wildlife</span></div>
             <h2 class="section__h2" id="species-hd">Related <span style="color:var(--blue)">Species</span></h2>
             <div class="connected-grid" role="list">
               ${renderConnectionsGrid(connections)}

@@ -40,9 +40,9 @@
       "desc": "The delivery van alternative."
     },
     {
-      "url": "/gameplay/vehicles/vapid-benson",
+      "url": "/gameplay/vehicles/interstate-benson",
       "type": "Van",
-      "name": "Vapid Benson",
+      "name": "Interstate Benson",
       "desc": "The panel van equivalent."
     },
     {

@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "bravado-buffalo-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Bravado Buffalo - GTA 6 Vehicle",
     "jsonLdDescription": "The Bravado Buffalo is a sedan in GTA 6 Leonida. Based on the Dodge Charger. Common in Vice City traffic.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-20"
   },
   "heroSubtitle": "The Dodge Charger of Leonida. **In every [Vice City](/gameplay/locations/vice-city) parking lot, at every red light, and occasionally in every mirror.**",
   "statBlock": [
@@ -49,9 +49,9 @@
     },
     {
       "url": "/gameplay/vehicles/declasse-tulip",
-      "type": "Sedan",
+      "type": "Muscle",
       "name": "Declasse Tulip",
-      "desc": "The alternative civilian sedan."
+      "desc": "The seventies Declasse muscle car. Old metal, same idea."
     },
     {
       "url": "/gameplay/brands/bravado",

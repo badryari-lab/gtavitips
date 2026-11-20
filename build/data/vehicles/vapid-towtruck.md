@@ -40,10 +40,10 @@
       "desc": "The heavy commercial vehicle."
     },
     {
-      "url": "/gameplay/vehicles/vapid-bobcat-xl",
+      "url": "/gameplay/vehicles/declasse-bobcat-xl",
       "type": "Pickup",
-      "name": "Vapid Bobcat XL",
-      "desc": "The standard Vapid truck."
+      "name": "Declasse Bobcat XL",
+      "desc": "The Declasse pickup. Same trade, different badge."
     },
     {
       "url": "/gameplay/brands/vapid",

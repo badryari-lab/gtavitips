@@ -13,9 +13,13 @@ const SEARCH = 'hub/search-index.json';
 const pagePairs = [
   // [from, to, expected count]
   ['<strong id="lc-verdict">Not yet.</strong> <span id="lc-line">GTA 6 launches November 19, 2026 on PS5 and Xbox Series X|S.</span>',
-   '<strong id="lc-verdict">Yes.</strong> <span id="lc-line">GTA 6 is out. The servers are open.</span>', 1],
-  ['<p>The clock counts to midnight where you are, because the game unlocks at local midnight on November 19. Rockstar has not announced a launch hour, so the exact moment is <a href="/faq/what-time-does-gta-6-unlock" style="color:var(--blue)">Reported, not confirmed</a>.</p>',
-   '<p>The game unlocked at local midnight on November 19, region by region. See <a href="/faq/what-time-does-gta-6-unlock" style="color:var(--blue)">the unlock times by country</a>.</p>', 1],
+   '<strong id="lc-verdict">Yes.</strong> <span id="lc-line">GTA 6 is out on PS5 and Xbox Series X|S.</span>', 1],
+  ['<p>The clock counts to midnight where you are, because the game unlocks at local midnight on November 19. PlayStation Support and Rockstar Support (as quoted by press) say midnight local time, so the exact moment is <a href="/faq/what-time-does-gta-6-unlock" style="color:var(--blue)">Reported, not confirmed</a>.</p></div>',
+   '<p>The game unlocked at local midnight on November 19, region by region. Rockstar announced it on the Newswire the same day: GTA 6 is available worldwide on PS5 and Xbox Series X|S. See <a href="/faq/what-time-does-gta-6-unlock" style="color:var(--blue)">the unlock times by country</a>.</p></div>', 1],
+  ["$('lc-line').textContent='GTA 6 is out. The servers are open.';",
+   "$('lc-line').textContent='GTA 6 is out on PS5 and Xbox Series X|S.';", 1],
+  ['<div class="countdown-card__sub">Releases November 19, 2026</div>',
+   '<div class="countdown-card__sub">Released November 19, 2026</div>', 1],
   ['<span id="lc-days-text">GTA 6 releases on November 19, 2026.</span> That is a Thursday. The countdown above updates as you read.',
    '<span id="lc-days-text">Zero. GTA 6 released on November 19, 2026.</span> That was a Thursday.', 1],
   ['Is GTA 6 out yet? Not yet. It releases November 19, 2026 on PS5 and Xbox Series X|S. Live countdown, unlock time and platforms.',
