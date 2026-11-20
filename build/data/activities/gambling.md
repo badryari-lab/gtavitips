@@ -5,71 +5,79 @@
   ],
   "seo": {
     "title": "Gambling | GTA 6 Activity | GTAVITIPS",
-    "description": "Gambling in GTA 6 Leonida: casinos, card games, and a full casino mechanic built for losing money in style.",
-    "ogDescription": "Gambling in GTA 6 Leonida: casinos, card games, and a full casino mechanic built for losing money in style.",
+    "description": "No gambling in GTA 6: Leonida's casinos stay closed, there are no card tables, slots or lottery, and the only money on a game is a pool stake.",
+    "ogDescription": "No gambling in GTA 6: Leonida's casinos stay closed, there are no card tables, slots or lottery, and the only money on a game is a pool stake.",
     "jsonLdHeadline": "Gambling - GTA 6 Activity",
-    "jsonLdDescription": "Gambling in GTA 6 Leonida: casinos, card games, and a full casino mechanic built for losing money in style.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "No gambling in GTA 6: Leonida's casinos stay closed, there are no card tables, slots or lottery, and the only money on a game is a pool stake.",
+    "dateModified": "2026-11-20"
   },
-  "heroSubtitle": "[Vice City](/gameplay/locations/vice-city) has a casino economy and the casino economy has games. **Blackjack, poker, slot machines, and the specific Leonida mechanic that lets you lose significant money very efficiently.**",
+  "heroSubtitle": "Leonida has casinos. **None of them deal.** Merlin's Palace sits closed for restoration in [Vice City](/gameplay/locations/vice-city), and the only money riding on a game anywhere in the state is a pool stake in a bar.",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Casino / Minigame"
+      "value": "Closed Casinos / Pool Stakes"
+    },
+    {
+      "key": "Setting",
+      "value": "Vice City casinos, bars across Leonida"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "South Florida casino resorts"
     }
   ],
   "connections": [
     {
-      "url": "/gameplay/activities/cage-fighting",
+      "url": "/gameplay/activities/games",
       "role": "Activity",
-      "name": "Cage Fighting",
-      "desc": "Money on fights is where the cage and the casino meet. The same crowd at both.",
-      "avatarInitials": "CF"
+      "name": "Games",
+      "desc": "Pool is where the real stakes are: a bar regular, a few dollars up front, double back if you win.",
+      "avatarInitials": "GA"
     },
     {
       "url": "/gameplay/characters/raul-bautista",
       "role": "Character",
       "name": "Raul Bautista",
-      "desc": "His Rockstar bio runs on gambling language. Double down or pull chips. He lives this way.",
+      "desc": "His Rockstar bio talks like a card player: double down, pull your chips. The only table he works is a job.",
       "avatarInitials": "RB"
     },
     {
-      "url": "/gameplay/locations/ocean-view-hotel",
+      "url": "/gameplay/locations/vice-city",
       "role": "Location",
-      "name": "Ocean View Hotel",
-      "desc": "Vice City's upscale waterfront hotel. The casino infrastructure is in this district.",
-      "avatarInitials": "OH"
+      "name": "Vice City",
+      "desc": "Home of Merlin's Palace, doors shut and a restoration sign out front.",
+      "avatarInitials": "VC"
+    },
+    {
+      "url": "/gameplay/locations/delights-port-gellhorn",
+      "role": "Location",
+      "name": "Delights",
+      "desc": "One of the bars where a pool regular waits to take your money.",
+      "avatarInitials": "DE"
     },
     {
       "url": "/gameplay/vehicles/albany-alpha",
       "role": "Vehicle",
       "name": "Albany Alpha",
-      "desc": "The car for the high-roller parking structure. Understated, right for the casino floor.",
+      "desc": "Nobody valets it at Merlin's Palace. The casino lot is as closed as the casino.",
       "avatarInitials": "AA"
-    },
-    {
-      "url": "/gameplay/activities/snooker",
-      "role": "Activity",
-      "name": "Snooker",
-      "desc": "Money on the table. The pool hall and the casino share the same social layer.",
-      "avatarInitials": "SN"
     }
   ],
   "faq": [
     {
-      "q": "What types of gambling are available?",
-      "a": "**Confirmed system.** Vice City supports a full gambling infrastructure consistent with the Florida setting. Specific game types will be apparent at launch.",
-      "aPlain": "Confirmed system. Vice City supports a full gambling infrastructure consistent with the Florida setting. Specific game types will be apparent at launch."
+      "q": "Can you gamble in GTA 6?",
+      "a": "**No.** The casinos are closed, and there are no card tables, slot machines or lottery tickets anywhere in Leonida. The only money on a game is a small pool stake against a bar regular.",
+      "aPlain": "No. The casinos are closed, and there are no card tables, slot machines or lottery tickets anywhere in Leonida. The only money on a game is a small pool stake against a bar regular."
     },
     {
-      "q": "Can you bet on cage fights?",
-      "a": "**Reported connection.** The cage fighting and gambling systems connect directly. The underground fight circuit in Vice City runs betting infrastructure alongside the competition.",
-      "aPlain": "Reported connection. The cage fighting and gambling systems connect directly. The underground fight circuit in Vice City runs betting infrastructure alongside the competition."
+      "q": "Will the casinos open later?",
+      "a": "Rockstar has not said. Its VP of design says a few areas of the map are kept as options for the future. GTA V kept its casino shut until GTA Online opened it in 2019, and GTA 6 has no online mode announced.",
+      "aPlain": "Rockstar has not said. Its VP of design says a few areas of the map are kept as options for the future. GTA V kept its casino shut until GTA Online opened it in 2019, and GTA 6 has no online mode announced."
     },
     {
-      "q": "Is Raul Bautista connected to the gambling scene?",
-      "a": "**His bio says so without saying so.** Every line of his official Rockstar profile uses gambling language, \"double down,\" \"take risks that bring the biggest rewards,\" \"pull their chips away from the table.\" Whether that is metaphor or literal is the question.",
-      "aPlain": "His bio says so without saying so. Every line of his official Rockstar profile uses gambling language, \"double down,\" \"take risks that bring the biggest rewards,\" \"pull their chips away from the table.\" Whether that is metaphor or literal is the question."
+      "q": "Can you bet on pool?",
+      "a": "Against the seven bar opponents, yes. You pay in before the game and a win pays back double, usually no more than $20 in the pot. The solo tables are free and pay nothing.",
+      "aPlain": "Against the seven bar opponents, yes. You pay in before the game and a win pays back double, usually no more than $20 in the pot. The solo tables are free and pay nothing."
     }
   ],
   "sidebarDatabase": [
@@ -110,10 +118,12 @@
   ]
 }
 ---
-Gambling is a [Vice City](/gameplay/locations/vice-city) institution. The real Miami area has a substantial legal gambling economy and Leonida translates that directly. **The casino is a location, an income source, a loss mechanism, and a mission environment simultaneously.**
+At least two big casinos stand on the map, and neither one opens. [Vice City](/gameplay/locations/vice-city)'s Merlin's Palace carries a "Temporarily Closed for Restoration" sign out front. No blackjack, no poker, no slots, no roulette, no lottery ticket at the counter. **There is no gambling in GTA VI.**
 
-The game types reflect GTA's history with gambling activities: blackjack and poker as skill-adjacent games where player decisions matter, slot machines as pure probability, and the sports betting infrastructure that connects to Leonida's racing and fighting activities. Each game type has a different house edge built into the mechanic.
+That is a choice, not a gap. Rockstar's VP of design Stephen Donkin says gambling did not fit Jason and Lucia's story, or the balance of an economy where cash is meant to be hard to come by. A casino you can reload your way through would break both. He also says a few spots on the map are kept as options for later, without naming them.
 
-The casino mechanic manages the player's balance against a game-specific probability system. Blackjack and poker include decision points where correct play improves odds. **The card-counting mechanic may return in updated form.** Slot machines are pure probability with the house edge built in.
+The rating boards line up with it. The ESRB rating carries no Simulated Gambling descriptor, and PEGI's label lists violence, sex, drugs and in-game purchases, nothing for gambling. The [rumor check on the casinos](/faq/gta-6-rumors-true-or-false) has the verdict.
 
-High-value gambling results attract attention. Casino security responds to significant wins with the specific vigilance that real casinos apply to consistently successful players. The response is not the wanted level system but the casino's own management of the player relationship.
+**The nearest thing to a bet is pool.** Seven regulars in bars across Leonida play you for cash: a small stake up front, double back if you win, rarely more than $20 in the pot. More in [games](/gameplay/activities/games) and [making money](/faq/how-to-make-money-in-gta-6).
+
+Source: GTA VI, in-game; Rockstar (Stephen Donkin, VP of design); ESRB; PEGI.
