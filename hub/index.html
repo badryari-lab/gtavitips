@@ -56,7 +56,7 @@
           {
             "@type": "Question",
             "name": "When does GTA 6 release?",
-            "acceptedAnswer": { "@type": "Answer", "text": "GTA 6 released on November 19, 2026 on PlayStation 5 and Xbox Series X|S. No PC version has been announced." }
+            "acceptedAnswer": { "@type": "Answer", "text": "GTA 6 released on November 19, 2026 on PlayStation 5 and Xbox Series X|S." }
           },
           {
             "@type": "Question",
@@ -65,8 +65,13 @@
           },
           {
             "@type": "Question",
-            "name": "What was the latest GTA 6 trailer?",
-            "acceptedAnswer": { "@type": "Answer", "text": "The Launch Trailer, released October 15, 2026." }
+            "name": "Is GTA 6 on PC?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Not yet. GTA 6 is on PS5 and Xbox Series X|S only. Rockstar has not announced a PC version." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does GTA 6 have GTA Online?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Not yet. GTA 6 launched as a single-player game. Rockstar has not announced an online mode or a date for one." }
           }
         ]
       }
@@ -357,6 +362,20 @@
       .nav__dropdown-wrap.open .nav__dropdown { display: block; transform: none; }
       .nav__dropdown li a { color: var(--t3); font-size: 12px; }
     }
+    /* homepage rework Nov 2026: search in hero, first-hours task cards */
+    .hero { min-height: 560px; }
+    .hero__inner { width: 100%; } /* the flex hero shrank .wrap to its content and centred it (live bug) */
+    .hero__h1 { font-size: clamp(28px, 4.6vw, 52px); }
+    .hero__sub { margin-bottom: 20px; }
+    .hero .search-block { max-width: 640px; margin-bottom: 20px; padding: 16px 18px; }
+    .task-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .task-card { display: flex; flex-direction: column; gap: 6px; padding: 18px 20px; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); text-decoration: none; transition: border-color .18s, transform .15s; }
+    .task-card:hover { border-color: var(--kraft-border); transform: translateY(-1px); }
+    .task-card__name { font-family: 'Anton', sans-serif; font-weight: 400; font-size: 18px; text-transform: uppercase; letter-spacing: .01em; color: var(--t1); line-height: 1.1; }
+    .task-card__name span { color: var(--kraft); }
+    .task-card__desc { font-size: 12.5px; color: var(--t2); line-height: 1.55; }
+    @media (max-width: 1024px) { .task-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) { .task-grid { grid-template-columns: 1fr; } .hero { min-height: 0; } }
   </style>
   <script src="https://analytics.ahrefs.com/analytics.js" data-key="pD7Vauft0hzSQar6tj+hBg" async></script>
 </head>
@@ -435,14 +454,42 @@
       <div class="hero__overlay" aria-hidden="true"></div>
       <div class="wrap hero__inner">
         <h1 class="hero__h1">You Picked The Wrong<br>House, <span>Fool!</span></h1>
-        <p class="hero__sub">Gangs holding turf, rides tearing through Vice County, every dollar moving somewhere.</p>
+        <p class="hero__sub">Leonida is open. What to do first, what to carry, and how to keep the cops off your back.</p>
+        <div class="search-block">
+          <div class="search-block__label"><span class="pulse-dot" aria-hidden="true"></span>Quick Lookup</div>
+          <div class="search-block__field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="search" id="home-search-input" class="search-block__input" placeholder="Klose K17, wanted level, Vice City, 100%..." autocomplete="off" aria-label="Search the database">
+            <span class="search-block__kbd"><kbd>Ctrl</kbd>+<kbd>K</kbd> anywhere</span>
+          </div>
+          <div class="search-block__results" id="home-search-results"></div>
+        </div>
         <div class="hero__actions">
-          <a href="/gameplay" class="hero__btn-primary">Browse Database</a>
-          <a href="/faq/what-to-do-first-in-gta-6" class="hero__btn-ghost">Start Here</a>
+          <a href="/faq/what-to-do-first-in-gta-6" class="hero__btn-primary">Start Here</a>
+          <a href="/gameplay" class="hero__btn-ghost">Database</a>
         </div>
       </div>
     </section>
-
+    <!-- ── YOUR FIRST HOURS: player tasks first ── -->
+    <section class="sec" aria-labelledby="start-hd">
+      <div class="wrap">
+        <div class="sec__top">
+          <div>
+            <h2 class="sec__hd reveal" id="start-hd">Your First <span>Hours</span></h2>
+            <p class="sec__sub">Six things worth knowing before Leonida teaches you the hard way.</p>
+          </div>
+          <a href="/faq" class="sec__viewall reveal d1">All Questions</a>
+        </div>
+        <div class="task-grid">
+          <a href="/faq/what-to-do-first-in-gta-6" class="task-card reveal"><span class="task-card__name">What to Do <span>First</span> &rarr;</span><span class="task-card__desc">Bank your cash, scan every car, save in separate slots.</span></a>
+          <a href="/faq/how-to-make-money-in-gta-6" class="task-card reveal"><span class="task-card__name">Make <span>Money</span> &rarr;</span><span class="task-card__desc">Loot illegal operations, sell to the fence that pays best, bank it before you lose it.</span></a>
+          <a href="/faq/how-does-the-wanted-system-work" class="task-card reveal"><span class="task-card__name">The Wanted <span>System</span> &rarr;</span><span class="task-card__desc">The police act on what gets reported, not on what you did. Six stars, and Heat that lingers.</span></a>
+          <a href="/faq/where-to-buy-weapons-in-gta-6" class="task-card reveal"><span class="task-card__name">Buy <span>Weapons</span> &rarr;</span><span class="task-card__desc">Ammu-Nation runs 26 stores: Standard, Expanded and Hunting stock.</span></a>
+          <a href="/faq/how-to-steal-and-sell-cars-in-gta-6" class="task-card reveal"><span class="task-card__name">Steal and Sell <span>Cars</span> &rarr;</span><span class="task-card__desc">Scan with WAiNK, strip the tracker, then fence it or make it yours.</span></a>
+          <a href="/faq/gta-6-save-system" class="task-card reveal"><span class="task-card__name">Save <span>Your Game</span> &rarr;</span><span class="task-card__desc">15 manual slots plus an autosave. Free roam only, never mid-mission.</span></a>
+        </div>
+      </div>
+    </section>
     <!-- ── OPS GRID — the full operation, live and sealed ── -->
     <section class="sec" aria-labelledby="ops-hd">
       <div class="wrap">
@@ -454,37 +501,31 @@
         </div>
         <div class="ops-grid">
           <a href="/gameplay" class="ops-card reveal" style="background-image:url('/assets/images/grassrivers-gta-6-location-03.jpg')">
-            <span class="ops-card__eyebrow">Live Now</span>
             <span class="ops-card__name">Database</span>
             <span class="ops-card__desc">310 verified entries: characters, vehicles, locations, weapons, factions.</span>
             <span class="ops-card__arrow">→</span>
           </a>
           <a href="/news" class="ops-card reveal d1" style="background-image:url('/assets/images/jason-duval-gta-6-character-06.jpg')">
-            <span class="ops-card__eyebrow">Live Now</span>
             <span class="ops-card__name">News &amp; Intel</span>
             <span class="ops-card__desc">Every announcement, trailer breakdown, and confirmed detail.</span>
             <span class="ops-card__arrow">→</span>
           </a>
-          <a href="/faq/what-to-do-first-in-gta-6" class="ops-card reveal d2" style="background-image:url('/assets/images/lucia-caminos-gta-6-character-02.jpg')">
-            <span class="ops-card__eyebrow">Live Now</span>
-            <span class="ops-card__name">Start Here</span>
-            <span class="ops-card__desc">Your first hours: bank the cash, scan every car, save in separate slots.</span>
+          <a href="/faq/gta-6-cheats" class="ops-card reveal d2" style="background-image:url('/assets/images/lucia-caminos-gta-6-character-02.jpg')">
+            <span class="ops-card__name">Cheats</span>
+            <span class="ops-card__desc">How they unlock, and how to punch them in on the phone.</span>
             <span class="ops-card__arrow">→</span>
           </a>
           <a href="/gameplay/weapons" class="ops-card reveal" style="background-image:url('/assets/images/hawk-little-morgan-revolvers-gta-6-weapon-01.jpg')">
-            <span class="ops-card__eyebrow">Live Now</span>
             <span class="ops-card__name">Full Arsenal</span>
             <span class="ops-card__desc">Every gun in the menu, side by side. Accuracy, handling, mag size and where Ammu-Nation sells it.</span>
             <span class="ops-card__arrow">→</span>
           </a>
           <a href="/gameplay/vehicles" class="ops-card reveal d1" style="background-image:url('/assets/images/grotti-cheetah-gta-6-vehicle-01.jpg')">
-            <span class="ops-card__eyebrow">Live Now</span>
             <span class="ops-card__name">Fleet Numbers</span>
             <span class="ops-card__desc">Acceleration, grip, strength and what a fence pays. The rides, by the numbers.</span>
             <span class="ops-card__arrow">→</span>
           </a>
           <a href="/faq/gta-6-100-percent-completion" class="ops-card reveal d2" style="background-image:url('/assets/images/car-meets-gta-6-activity-01.jpg')">
-            <span class="ops-card__eyebrow">Live Now</span>
             <span class="ops-card__name">100% Checklist</span>
             <span class="ops-card__desc">The story is half of it. Every requirement, its target and its weight.</span>
             <span class="ops-card__arrow">→</span>
@@ -494,17 +535,8 @@
     </section>
 
     <!-- ── QUICK LOOKUP + CATEGORIES ── -->
-    <section class="sec" style="padding-top:0" aria-label="Quick lookup and category shortcuts">
+    <section class="sec" style="padding-top:0" aria-label="Database categories">
       <div class="wrap">
-        <div class="search-block" style="margin-bottom:20px;">
-          <div class="search-block__label"><span class="pulse-dot" aria-hidden="true"></span>Quick Lookup</div>
-          <div class="search-block__field">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            <input type="search" id="home-search-input" class="search-block__input" placeholder="Already know what you're looking for? Lucia, Pegassi, Vice City, 7X..." autocomplete="off" aria-label="Search the database">
-            <span class="search-block__kbd"><kbd>Ctrl</kbd>+<kbd>K</kbd> anywhere</span>
-          </div>
-          <div class="search-block__results" id="home-search-results"></div>
-        </div>
         <div class="cat-chips" role="list" aria-label="Database categories">
           <a href="/gameplay/activities" class="cat-chip" role="listitem">Activities</a>
           <a href="/gameplay/animals" class="cat-chip" role="listitem">Animals</a>
@@ -549,22 +581,22 @@
             <a href="/faq/when-does-gta-6-release" class="sitrep__cell">
               <span class="sitrep__cell-key">Launch</span>
               <span class="sitrep__cell-val">Out <b>Now</b></span>
-              <span class="sitrep__cell-sub">Released Nov 19 on PS5 &amp; Xbox Series X|S. No PC version announced.</span>
+              <span class="sitrep__cell-sub">Released Nov 19 on PS5 &amp; Xbox Series X|S.</span>
             </a>
-            <div class="sitrep__cell">
-              <span class="sitrep__cell-key">Status</span>
-              <span class="sitrep__cell-val"><b id="countdown-days">Live</b></span>
-              <span class="sitrep__cell-sub">Unlocked at local midnight, region by region.</span>
-            </div>
+            <a href="/faq/is-gta-6-coming-to-pc" class="sitrep__cell">
+              <span class="sitrep__cell-key">PC Version</span>
+              <span class="sitrep__cell-val">Not <b>Announced</b></span>
+              <span class="sitrep__cell-sub">Console only for now. Rockstar has not named a PC date.</span>
+            </a>
             <a href="/faq/gta-6-download-size" class="sitrep__cell">
               <span class="sitrep__cell-key">Download</span>
               <span class="sitrep__cell-val">Up to <b>212</b> GB</span>
               <span class="sitrep__cell-sub">Clear the space first. Standard $79.99, Ultimate $99.99.</span>
             </a>
-            <a href="/news/gta-6-launch-trailer" class="sitrep__cell">
-              <span class="sitrep__cell-key">Latest Trailer</span>
-              <span class="sitrep__cell-val"><b>Live</b></span>
-              <span class="sitrep__cell-sub">The Launch Trailer dropped October 15. What it showed, and what it left out.</span>
+            <a href="/faq/is-gta-online-in-gta-6" class="sitrep__cell">
+              <span class="sitrep__cell-key">GTA Online</span>
+              <span class="sitrep__cell-val">Not <b>Yet</b></span>
+              <span class="sitrep__cell-sub">Story only at launch. No online mode or date announced.</span>
             </a>
           </div>
         </div>
@@ -685,20 +717,6 @@
       document.documentElement.setAttribute('data-theme',next);
       localStorage.setItem('gtavitips-theme',next);
     });
-  })();
-
-  // ── COUNTDOWN (sitrep) ──
-  (function(){
-    var el=document.getElementById('countdown-days');
-    if(!el)return;
-    var launch=new Date(2026,10,19);
-    var now=new Date();
-    var days=Math.ceil((launch-new Date(now.getFullYear(),now.getMonth(),now.getDate()))/86400000);
-    if(days>0)el.textContent=days;
-    else{
-      var cell=el.closest('.sitrep__cell');
-      if(cell){cell.querySelector('.sitrep__cell-val').innerHTML='<b>Live</b>';cell.querySelector('.sitrep__cell-sub').textContent='Unlocked at local midnight, region by region.';}
-    }
   })();
 
   // ── LIVE UPDATES (single fetch, single render target) ──
