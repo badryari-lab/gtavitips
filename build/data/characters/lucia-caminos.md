@@ -113,6 +113,24 @@
       "name": "Real Dimez",
       "desc": "Bae-Luxe and Roxy's duo on Only Raw. Favors for the Dimez help cover the bills once the pair move up in Vice City.",
       "avatarInitials": "RD"
+    },
+    {
+      "url": "/gameplay/characters/mia-caminos",
+      "name": "Mia Caminos",
+      "desc": "Her mother, now running her own real estate business in Vice City.",
+      "avatarInitials": "MC"
+    },
+    {
+      "url": "/gameplay/characters/joe",
+      "name": "Joe",
+      "desc": "Her probation officer. He checks the monitor and expects her to answer his calls.",
+      "avatarInitials": "J"
+    },
+    {
+      "url": "/gameplay/characters/kat",
+      "name": "Kat",
+      "desc": "Her friend from inside, who walked out onto a yacht.",
+      "avatarInitials": "K"
     }
   ],
   "storyArc": {

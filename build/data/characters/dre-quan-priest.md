@@ -12,7 +12,7 @@
     "ogImage": "https://gtavitips.com/assets/images/dre-quan-priest-gta-6-character-02.jpg",
     "jsonLdName": "Dre'Quan Priest",
     "jsonLdDescription": "Dre'Quan Priest in GTA 6: Jason's old friend in Vice City, Boobie Ike's partner at Only Raw Records, and his story arc behind a click.",
-    "dateModified": "2026-11-20"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "More hustler than gangster. **Jason's old friend, Boobie Ike's partner**, and the man trying to turn [Real Dimez](/gameplay/gangs-and-factions/real-dimez) into a real payday.",
   "heroImage": {
@@ -84,6 +84,18 @@
       "avatarImage": {
         "src": "/assets/images/real-dimez-gta-6-faction-03.jpg"
       }
+    },
+    {
+      "url": "/gameplay/characters/tyrone-russo",
+      "name": "Tyrone",
+      "desc": "Brings Jason to Tyrone's door in La Perle and vouches for him when Ty starts asking questions.",
+      "avatarInitials": "T"
+    },
+    {
+      "url": "/gameplay/characters/kd",
+      "name": "KD",
+      "desc": "A club promoter D invites up to a rooftop shoot to see the Dimez in action.",
+      "avatarInitials": "K"
     }
   ],
   "storyArc": {

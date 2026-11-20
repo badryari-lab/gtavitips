@@ -56,6 +56,12 @@
       "avatarImage": {
         "src": "/assets/images/real-dimez-gta-6-faction-04.jpg"
       }
+    },
+    {
+      "url": "/gameplay/characters/bush",
+      "name": "Bush",
+      "desc": "His personal bodyguard. Bush and the Cash City gang keep the fans at a distance.",
+      "avatarInitials": "B"
     }
   ],
   "storyArc": {

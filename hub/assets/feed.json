@@ -1,10 +1,10 @@
 {
-  "date": "November 20, 2026",
+  "date": "November 21, 2026",
   "items": [
-    { "badge": "upg", "url": "/gameplay/weapons",                    "name": "Full Arsenal",   "text": "Every gun in the menu with its in-game stats. Sort by damage, accuracy, range or mag." },
-    { "badge": "upg", "url": "/gameplay/vehicles",                   "name": "Fleet Numbers",  "text": "WAiNK scans side by side: speed, grip, strength and what a fence pays." },
-    { "badge": "new", "url": "/gameplay/weapons/klose-k17",          "name": "Klose K17",      "text": "The service pistol under its real name. 9mm, semi-auto, in every holster in Leonida." },
-    { "badge": "upg", "url": "/gameplay/vehicles/pfister-astron",    "name": "Pfister Astron", "text": "Not a supercar after all. A luxury SUV, quick off the line." },
-    { "badge": "upg", "url": "/gameplay/activities/gambling",        "name": "Gambling",       "text": "The casinos stay shut. The only money on a game is a pool stake." }
+    { "badge": "new", "url": "/gameplay/characters/donnie",         "name": "Donnie",         "text": "Brian's seaplane pilot in the Keys. Drops the packages, skims a little, deals on the side." },
+    { "badge": "new", "url": "/gameplay/characters/kenton-rees",    "name": "Kenton Rees",    "text": "Treasure hunter on Key Lento. Runs Island Dreams dive charters and buys what you pull up." },
+    { "badge": "new", "url": "/gameplay/characters/mattia",         "name": "Mattia",         "text": "Kat's boyfriend from Vice City. Yacht money, Italian charm, a boss he never names." },
+    { "badge": "new", "url": "/gameplay/characters/tyrone-russo",   "name": "Tyrone",         "text": "La Perle dealer. Buys what Jason flips and wants to know who cooks Kitty Litter." },
+    { "badge": "new", "url": "/gameplay/characters/kordell-grant",  "name": "Kordell Grant",  "text": "KG. Bodybuilder, crew boss, ex-con. Runs his crew out of Ajax Gym and wants the whole city." }
   ]
 }

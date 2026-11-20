@@ -11,7 +11,7 @@
     "ogDescription": "Petra Navarro in GTA 6: MegaMundo's COO and Andres de Leon's wife, the night the network opens in Vice City, and her story arc behind a click.",
     "jsonLdName": "Petra Navarro",
     "jsonLdDescription": "Petra Navarro in GTA 6: MegaMundo's COO and Andres de Leon's wife, the night the network opens in Vice City, and her story arc behind a click.",
-    "dateModified": "2026-11-20"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "COO of [MegaMundo](/gameplay/brands/megamundo). Married to its biggest star. **She keeps the schedule. He keeps breaking it.**",
   "statBlock": [
@@ -72,6 +72,18 @@
       "name": "MegaMundo",
       "desc": "The network she runs day to day, opening its first American headquarters in Vice City.",
       "avatarInitials": "MM"
+    },
+    {
+      "url": "/gameplay/characters/cesar-navarro",
+      "name": "César Navarro",
+      "desc": "Her father, the CEO of MegaMundo. He gives the speech on opening night.",
+      "avatarInitials": "CN"
+    },
+    {
+      "url": "/gameplay/characters/rafa-de-leon-navarro",
+      "name": "Rafa de León Navarro",
+      "desc": "Her young son with Andres, and the grandson of the network.",
+      "avatarInitials": "RD"
     }
   ],
   "storyArc": {

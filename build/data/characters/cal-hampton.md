@@ -87,6 +87,12 @@
       "name": "Leonida Keys",
       "desc": "Home, at the low tide of America, and he is happy there.",
       "avatarInitials": "LK"
+    },
+    {
+      "url": "/gameplay/characters/donnie",
+      "name": "Donnie",
+      "desc": "Cal works the pickup boat when Donnie drops the packages into the water.",
+      "avatarInitials": "D"
     }
   ],
   "storyArc": {

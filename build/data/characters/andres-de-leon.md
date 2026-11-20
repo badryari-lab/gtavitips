@@ -11,7 +11,7 @@
     "ogDescription": "Andres de Leon in GTA 6: MegaMundo's telenovela star, Petra Navarro's husband and Jason and Lucia's toughest client, with his story arc behind a click.",
     "jsonLdName": "Andres de Leon",
     "jsonLdDescription": "Andres de Leon in GTA 6: MegaMundo's telenovela star, Petra Navarro's husband and Jason and Lucia's toughest client, with his story arc behind a click.",
-    "dateModified": "2026-11-20"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "Telenovela star. Married to the network. **He is a hugger, he hates speeches, and he needs two bodyguards just to stay on schedule.**",
   "statBlock": [
@@ -72,6 +72,24 @@
       "name": "MegaMundo",
       "desc": "His father-in-law's network, opening its first American headquarters in Vice City with Andres as its biggest star.",
       "avatarInitials": "MM"
+    },
+    {
+      "url": "/gameplay/characters/abe-gonzalez",
+      "name": "Abe Gonzalez",
+      "desc": "The lawyer who puts Jason and Lucia on his security detail. Abe wants the MegaMundo account.",
+      "avatarInitials": "AG"
+    },
+    {
+      "url": "/gameplay/characters/cesar-navarro",
+      "name": "César Navarro",
+      "desc": "His father-in-law, the CEO of MegaMundo and the man behind the opening night.",
+      "avatarInitials": "CN"
+    },
+    {
+      "url": "/gameplay/characters/rafa-de-leon-navarro",
+      "name": "Rafa de León Navarro",
+      "desc": "His young son with Petra, the youngest of the Navarro family.",
+      "avatarInitials": "RD"
     }
   ],
   "storyArc": {

@@ -65,6 +65,12 @@
       "avatarImage": {
         "src": "/assets/images/correctional-gta-6-faction-01.jpg"
       }
+    },
+    {
+      "url": "/gameplay/characters/joe",
+      "name": "Joe",
+      "desc": "Takes over once Lucia is out on supervised release, as her probation officer.",
+      "avatarInitials": "J"
     }
   ],
   "storyArc": {

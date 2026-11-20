@@ -6,36 +6,67 @@
       "items": [
         { "url": "/gameplay/characters/brian-heder",    "color": "#60a5fa", "name": "Brian Heder",    "desc": "Old-school Keys drug runner. Jason works for him and lives under his roof." },
         { "url": "/gameplay/characters/cal-hampton",    "color": "#60a5fa", "name": "Cal Hampton",    "desc": "Jason's best friend in the Keys. Coast Guard radio, beers and conspiracy theories." },
+        { "url": "/gameplay/characters/donnie", "color": "#60a5fa", "name": "Donnie", "desc": "Brian's seaplane pilot in the Keys. Drops the packages, skims a little, deals on the side." },
         { "url": "/gameplay/characters/jason-duval",    "color": "#ff0055", "name": "Jason Duval",    "desc": "Army past, Keys present. Runs jobs for Brian Heder until Lucia walks out of prison." },
+        { "url": "/gameplay/characters/kat", "color": "#60a5fa", "name": "Kat", "desc": "Lucia's friend from inside. Rich, pregnant, and posting from a yacht two weeks after release." },
+        { "url": "/gameplay/characters/lorena-caminos", "color": "#60a5fa", "name": "Lorena", "desc": "Lucia's tía up in Liberty State. Calls her Lucita, and money is tight in her house." },
         { "url": "/gameplay/characters/lucia-caminos",  "color": "#ff0055", "name": "Lucia Caminos",  "desc": "Liberty City born, raised to fight. Fresh out of Leonida Penitentiary on an ankle monitor." },
         { "url": "/gameplay/characters/lori-heder",     "color": "#60a5fa", "name": "Lori Heder",     "desc": "Brian Heder's third wife. Sangria, a rifle within reach, and the Keys boat yard." },
-        { "url": "/gameplay/characters/raul-bautista",  "color": "#f97316", "name": "Raul Bautista",  "desc": "Vice City bank robber shopping for talent. Pass his tests or stay out." }
+        { "url": "/gameplay/characters/raul-bautista",  "color": "#f97316", "name": "Raul Bautista",  "desc": "Vice City bank robber shopping for talent. Pass his tests or stay out." },
+        { "url": "/gameplay/characters/tomas-caminos", "color": "#60a5fa", "name": "Tomás \"Tommy\" Caminos", "desc": "Tommy, to everyone close to him. First seen in the Prologue; the rest sits behind a click." },
+        { "url": "/gameplay/characters/vicki", "color": "#60a5fa", "name": "Vicki", "desc": "Room ten at the Starlet Motel. Dances at Delights, knows everybody in Port Gellhorn." }
       ]
     },
     {
       "id": "underworld-hd",
       "title": "Underworld",
       "items": [
+        { "url": "/gameplay/characters/andrea", "color": "#f87171", "name": "Andrea", "desc": "On Raul's crew. Runs the inside work, picks the cover names, expects you to keep up." },
         { "url": "/gameplay/characters/boobie-ike",     "color": "#e879f9", "name": "Boobie Ike",      "desc": "Jack of Hearts owner, money behind Only Raw. Jason and Lucia's landlord." },
+        { "url": "/gameplay/characters/bush", "color": "#f87171", "name": "Bush", "desc": "DWNPLY's personal bodyguard. Rolls with Cash City, the gang his boss pays to stay safe." },
+        { "url": "/gameplay/characters/doug", "color": "#f87171", "name": "Doug", "desc": "Kingfishers man at the gang's camp. Brian drives out to settle the feud with him." },
         { "url": "/gameplay/characters/dre-quan-priest","color": "#fbbf24", "name": "Dre'Quan Priest", "desc": "Jason's old friend. Runs Only Raw Records with Boobie Ike, and Real Dimez are his act." },
+        { "url": "/gameplay/characters/dunk", "color": "#f87171", "name": "Dunk", "desc": "Vicki's friend in Port Gellhorn. Jumpy pill dealer who swears it is all pharmacy grade." },
         { "url": "/gameplay/characters/ernesto",        "color": "#f87171", "name": "Ernesto",         "desc": "Raymond's partner. Only ever a voice on the phone." },
+        { "url": "/gameplay/characters/francisco-delgado", "color": "#f87171", "name": "Cisco", "desc": "Kordell's crew. Francisco on paper, Cisco on the gym floor, and somebody owes him money." },
+        { "url": "/gameplay/characters/karim", "color": "#f87171", "name": "Karim", "desc": "Raul's tech man. Alarms, cameras, comms, and a laptop that never closes." },
+        { "url": "/gameplay/characters/kordell-grant", "color": "#f87171", "name": "Kordell Grant", "desc": "KG. Bodybuilder, crew boss, ex-con. Runs his crew out of Ajax Gym and wants the whole city." },
+        { "url": "/gameplay/characters/mattia", "color": "#f87171", "name": "Mattia", "desc": "Kat's boyfriend from Vice City. Yacht money, Italian charm, a boss he never names." },
+        { "url": "/gameplay/characters/moses-watkins", "color": "#f87171", "name": "Moses Watkins", "desc": "Port Gellhorn mechanic. Buys untracked cars, resprays, and registers your ride for a fee." },
+        { "url": "/gameplay/characters/nate-bozer", "color": "#f87171", "name": "Nate", "desc": "Kordell's chattiest bodybuilder. Spots you, names you, and cannot keep a secret." },
+        { "url": "/gameplay/characters/niko-bellic", "color": "#f87171", "name": "Niko Bellic", "desc": "The GTA IV man out of Liberty City, older and greyer, credited only as The Hitman." },
         { "url": "/gameplay/characters/phil-cassidy",   "color": "#34d399", "name": "Phil",    "desc": "Owner of Phil's Ammu-Nation. More guns than the law allows." },
         { "url": "/gameplay/characters/raymond",        "color": "#f87171", "name": "Raymond",         "desc": "San 4 San at the top of Venture Apartments. Holding bricks Boobie wants back." },
-        { "url": "/gameplay/characters/wyman",          "color": "#94a3b8", "name": "Wyman",           "desc": "Mechanic, collector and Mud Club regular. Brings wrecked classics back to life." }
+        { "url": "/gameplay/characters/tyrone-russo", "color": "#f87171", "name": "Tyrone", "desc": "La Perle dealer. Buys what Jason flips and wants to know who cooks Kitty Litter." },
+        { "url": "/gameplay/characters/valentina", "color": "#f87171", "name": "Valentina", "desc": "Raul's money woman. Shell companies, offshore trusts and a lawyer for every problem." },
+        { "url": "/gameplay/characters/wyman",          "color": "#94a3b8", "name": "Wyman",           "desc": "Mechanic, collector and Mud Club regular. Brings wrecked classics back to life." },
+        { "url": "/gameplay/characters/yasmani-cabrera", "color": "#f87171", "name": "Yasmani Cabrera", "desc": "Smoke shop fence in Vice City. Buys hot jewelry and knows which safe holds what." }
       ]
     },
     {
       "id": "public-hd",
       "title": "Public Figures",
       "items": [
+        { "url": "/gameplay/characters/abe-gonzalez", "color": "#c084fc", "name": "Abe Gonzalez", "desc": "Downtown lawyer. Says no deal in Vice City happens without him. Charges in favors first." },
+        { "url": "/gameplay/characters/aldo-mendez", "color": "#c084fc", "name": "Aldo Méndez", "desc": "Task force captain. Walks into a Grassrivers interview with his crew and a lot of concern." },
         { "url": "/gameplay/characters/andres-de-leon","color": "#fbbf24", "name": "Andres de Leon","desc": "MegaMundo's telenovela star, married to its COO. Needs bodyguards to stay on schedule." },
         { "url": "/gameplay/characters/bae-lux",       "color": "#c084fc", "name": "Bae-Luxe",       "desc": "The other half of Real Dimez. Never off camera, still chasing the DWNPLY hit." },
+        { "url": "/gameplay/characters/cesar-navarro", "color": "#c084fc", "name": "César Navarro", "desc": "Runs MegaMundo. Petra's father, Andres's father-in-law, and nobody's pushover." },
         { "url": "/gameplay/characters/dwnply",        "color": "#c084fc", "name": "DWNPLY",        "desc": "Leonida rap star. Cut the early hit that made Real Dimez." },
+        { "url": "/gameplay/characters/elonzo", "color": "#c084fc", "name": "Elonzo", "desc": "Steps off the jet with Andres de Leon. Talks big picture, producers and action roles." },
         { "url": "/gameplay/characters/erin-henshaw",  "color": "#94a3b8", "name": "Erin Henshaw",  "desc": "Running for mayor of Ambrosia, with the sugar refinery behind the campaign." },
+        { "url": "/gameplay/characters/giorgio-gallo", "color": "#c084fc", "name": "Giorgio Gallo", "desc": "Shipping money and rooftop parties. His Bilgeco fleet sits idle in the bay." },
         { "url": "/gameplay/characters/gustavo",       "color": "#60a5fa", "name": "Gustavo Herrera",       "desc": "Head of security for the Navarro family at the MegaMundo opening." },
+        { "url": "/gameplay/characters/jimmy-de-santa", "color": "#c084fc", "name": "Jimmy De Santa", "desc": "Michael's son from GTA V, now an influencer with crypto talk and a famous last name." },
+        { "url": "/gameplay/characters/joe", "color": "#c084fc", "name": "Joe", "desc": "Lucia's P.O. in the Keys. Wants his calls answered the first time, every time." },
+        { "url": "/gameplay/characters/kd", "color": "#c084fc", "name": "KD", "desc": "Vice City club promoter. Dre'Quan wants him on the roof to see the Dimez in action." },
+        { "url": "/gameplay/characters/kenton-rees", "color": "#c084fc", "name": "Kenton Rees", "desc": "Treasure hunter on Key Lento. Runs Island Dreams dive charters and buys what you pull up." },
+        { "url": "/gameplay/characters/mia-caminos", "color": "#c084fc", "name": "Mia Caminos", "desc": "Lucia's mother. New real estate business in Vice City, big plans, bigger optimism." },
         { "url": "/gameplay/characters/petra-navarro", "color": "#fbbf24", "name": "Petra Navarro", "desc": "MegaMundo's COO, married to its biggest star. Keeps opening night on schedule." },
+        { "url": "/gameplay/characters/rafa-de-leon-navarro", "color": "#c084fc", "name": "Rafa de León Navarro", "desc": "Andres and Petra's boy. The youngest Navarro, and the one the family guards hardest." },
         { "url": "/gameplay/characters/roxy",          "color": "#c084fc", "name": "Roxy",          "desc": "One half of Real Dimez with Bae-Luxe. Signed to Only Raw Records, chasing a second hit." },
         { "url": "/gameplay/characters/rudi",          "color": "#94a3b8", "name": "Rudi",          "desc": "The Leonida Man. Climbed out of a moving pickup for the camera. RIP Rudi." },
+        { "url": "/gameplay/characters/sergeant-galecki", "color": "#c084fc", "name": "Sergeant Galecki", "desc": "Police sergeant at the Grassrivers Visitor Center. Asks his own questions, keeps his evidence." },
         { "url": "/gameplay/characters/stefanie",      "color": "#22d3ee", "name": "Stefanie",      "desc": "Lucia's counselor inside. Runs the supervised release that gets her out on a monitor." }
       ]
     }

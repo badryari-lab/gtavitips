@@ -94,6 +94,12 @@
       "name": "Only Raw Records",
       "desc": "The label he bankrolls and Dre'Quan runs, from the studio upstairs.",
       "avatarInitials": "OR"
+    },
+    {
+      "url": "/gameplay/characters/yasmani-cabrera",
+      "name": "Yasmani Cabrera",
+      "desc": "Introduces Jason to Yasmani, the fence who buys anything too hot to move.",
+      "avatarInitials": "YC"
     }
   ],
   "storyArc": {

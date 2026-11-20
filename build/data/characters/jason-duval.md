@@ -129,6 +129,18 @@
       "name": "Andres de Leon",
       "desc": "The MegaMundo telenovela star Jason is paid to keep safe, and in line, on the network's big night.",
       "avatarInitials": "AL"
+    },
+    {
+      "url": "/gameplay/characters/donnie",
+      "name": "Donnie",
+      "desc": "Jason collects his drops and keeps getting him out of side deals gone wrong.",
+      "avatarInitials": "D"
+    },
+    {
+      "url": "/gameplay/characters/kenton-rees",
+      "name": "Kenton Rees",
+      "desc": "Hires Jason to dive the shipwrecks around the Keys and buys whatever he brings up.",
+      "avatarInitials": "KR"
     }
   ],
   "storyArc": {

@@ -12,7 +12,7 @@
     "ogImage": "https://gtavitips.com/assets/images/raul-bautista-gta-6-character-02.jpg",
     "jsonLdName": "Raul Bautista",
     "jsonLdDescription": "Raul Bautista in GTA 6: the Vice City bank robber who tests Jason and Lucia before he lets them in, his crew, and his story arc behind a click.",
-    "dateModified": "2026-11-20"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "Banks, mostly. **He will rob just about anything.** Always hunting for new talent, and he does not hand out second auditions.",
   "heroImage": {
@@ -76,6 +76,18 @@
       "avatarImage": {
         "src": "/assets/images/vice-city-gta-6-location-01.jpg"
       }
+    },
+    {
+      "url": "/gameplay/characters/andrea",
+      "name": "Andrea",
+      "desc": "One of his crew. Andrea handles the inside work on his heist setups.",
+      "avatarInitials": "A"
+    },
+    {
+      "url": "/gameplay/characters/kordell-grant",
+      "name": "Kordell Grant",
+      "desc": "His old student. KG learned the trade from Raul, then left him stranded on a job.",
+      "avatarInitials": "KG"
     }
   ],
   "storyArc": {

@@ -29,6 +29,7 @@ const { renderBlock, renderInline } = require('./_markdown');
 //        starts); each beat is a closed <details class="spoiler"> labelled "Spoiler: Chapter N" (chapter is a
 //        number or a label such as "Prologue"). Same markup and CSS as build/faq/faq-gen.js, so the site has one
 //        spoiler pattern. A page with a storyArc also gets the spoiler notice at the top and the spoiler CSS.
+//   spoilerNote: "..." -> replaces the default top notice (used where the name itself is a heavy spoiler)
 //   faq[i].spoiler: { chapter, html } -> a reveal under that answer; faqSchema stays separate and spoiler-free.
 // Story text never reaches the JSON-LD or the meta/og descriptions: those only read the seo fields.
 
@@ -65,7 +66,7 @@ ${ind}</details>`;
 }
 
 function render(entry) {
-  const { slug, titleParts, seo, heroSubtitle, heroImage, statBlock, gallery, connections, faq, faqSchema, sidebar, statSource, storyArc } = entry;
+  const { slug, titleParts, seo, heroSubtitle, heroImage, statBlock, gallery, connections, faq, faqSchema, sidebar, statSource, storyArc, spoilerNote } = entry;
   const hasSpoilers = !!(storyArc || (faq || []).some((f) => f.spoiler));
   const css = hasSpoilers
     ? entry.css.replace(/\s*$/, (ws) => SPOILER_CSS + ws)
@@ -130,7 +131,7 @@ function render(entry) {
 
   const dossier = `<div class="page">
     <div class="wrap">
-${hasSpoilers ? `      <p class="spoiler-note">${SPOILER_NOTE}</p>\n` : ''}      ${renderStatBlock(statBlock, gallery, 'Character stats')}${statSource ? `\n      <p class="stat-source">Source: ${statSource}</p>` : ''}
+${hasSpoilers ? `      <p class="spoiler-note">${spoilerNote || SPOILER_NOTE}</p>\n` : ''}      ${renderStatBlock(statBlock, gallery, 'Character stats')}${statSource ? `\n      <p class="stat-source">Source: ${statSource}</p>` : ''}
   </div>
 `;
 

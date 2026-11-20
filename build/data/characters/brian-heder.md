@@ -87,6 +87,24 @@
       "name": "Leonida Keys",
       "desc": "His waters. The boat yard, the tenants, the routes he has run for decades.",
       "avatarInitials": "LK"
+    },
+    {
+      "url": "/gameplay/characters/donnie",
+      "name": "Donnie",
+      "desc": "His seaplane pilot. Donnie drops the packages over the water and skims a little on the side.",
+      "avatarInitials": "D"
+    },
+    {
+      "url": "/gameplay/characters/kenton-rees",
+      "name": "Kenton Rees",
+      "desc": "An old friend from the running days, now diving for treasure off Key Lento.",
+      "avatarInitials": "KR"
+    },
+    {
+      "url": "/gameplay/characters/doug",
+      "name": "Doug",
+      "desc": "The Kingfishers man Brian drives out to see when he wants the feud settled.",
+      "avatarInitials": "D"
     }
   ],
   "storyArc": {
