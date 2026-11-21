@@ -70,6 +70,13 @@
       "name": "Fishing",
       "desc": "Same water from the other side. Everything you catch up top goes back down.",
       "avatarInitials": "FI"
+    },
+    {
+      "url": "/gameplay/collectibles/shipwrecks-and-treasure",
+      "role": "Collectibles",
+      "name": "Shipwrecks & Treasure",
+      "desc": "Every named wreck off Key Lento, the Kenton sets and what the doubloons are worth.",
+      "avatarInitials": "ST"
     }
   ],
   "faq": [

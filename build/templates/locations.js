@@ -14,6 +14,7 @@ const { renderBlock, renderInline } = require('./_markdown');
 const CSS_LOCATIONS = require('./_css-locations');
 const { SPOILER_CSS } = require('./_spoiler');
 const { renderMissionsReveal } = require('./missions');
+const { renderCollectiblesHere } = require('./collectibles');
 
 // Locations template. Confirmed 25/25 CSS-uniform (safe for one shared
 // fragment, like vehicles/weapons/factions — unlike characters). Richer
@@ -63,6 +64,16 @@ function render(entry) {
         <h2 class="section__h2" id="missions-hd">Story <span style="color:var(--blue)">Missions</span></h2>
         <div class="section__body"><p>Story missions that bring you here. Their names stay behind the click.</p></div>
         ${missionsReveal}
+      </section>
+`
+    : '';
+
+  // Collectibles found here (spoiler-free): one line of links to the collectible type pages.
+  const collectiblesLine = renderCollectiblesHere(`/gameplay/locations/${slug}`);
+  const collectiblesHtml = collectiblesLine
+    ? `      <section class="section reveal" aria-labelledby="collectibles-hd">
+        <h2 class="section__h2" id="collectibles-hd">Collectibles <span style="color:var(--blue)">Here</span></h2>
+        <div class="section__body"><p>${collectiblesLine}.</p></div>
       </section>
 `
     : '';
@@ -152,7 +163,7 @@ ${renderOperatorNotes(operatorNotes)}      <section class="section reveal" aria-
       <section class="section reveal" aria-labelledby="connected-hd">
         <h2 class="section__h2" id="connected-hd">What's <span style="color:var(--blue)">Connected</span></h2>
         <div class="connected-grid" role="list">          ${renderConnectionsGrid(connections)}</div>
-${missionsHtml}${faqHtml}    </div>
+${missionsHtml}${collectiblesHtml}${faqHtml}    </div>
     ${renderSidebarBlocks(sidebar, sidebarAriaLabel)}
   </div></div></main>
 `;

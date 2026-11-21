@@ -70,6 +70,12 @@
         "avatarInitials": "JH",
         "industry": "Club",
         "name": "Jack of Hearts"
+      },
+      {
+        "url": "/gameplay/collectibles/magazines",
+        "avatarInitials": "MG",
+        "industry": "Collectibles",
+        "name": "Magazines, Books & Comics"
       }
     ]
   },
