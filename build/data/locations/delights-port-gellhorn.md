@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "delights-port-gellhorn-gta-6-location.jpg",
     "jsonLdHeadline": "Delights Port Gellhorn - GTA 6 Location",
     "jsonLdDescription": "Delights Port Gellhorn in GTA 6: the primary social venue serving Port Gellhorn.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "The place to be in Port Gellhorn. **Which is not the most competitive title in Leonida, but the venue holds it without embarrassment.**",
   "statBlock": [
@@ -28,6 +28,10 @@
     {
       "key": "Clientele",
       "value": "Port and Industrial Workforce"
+    },
+    {
+      "key": "County",
+      "value": "[Kelly County](/gameplay/locations/kelly-county)"
     }
   ],
   "operatorNotes": [
@@ -56,16 +60,16 @@
       "desc": "The town Delights serves. Industrial port hub with a specific workforce demographic."
     },
     {
-      "url": "/gameplay/locations/vice-county",
+      "url": "/gameplay/locations/kelly-county",
       "type": "Region",
-      "name": "Vice County",
+      "name": "Kelly County",
       "desc": "The county jurisdiction. Port Gellhorn and its venues sit within this administrative area."
     },
     {
       "url": "/gameplay/locations/starlet-motel",
       "type": "Accommodation",
       "name": "Starlet Motel",
-      "desc": "Roadside lodging on the Vice County corridor. A similar working-town establishment register."
+      "desc": "Roadside lodging on the Kelly County corridor. A similar working-town establishment register."
     }
   ],
   "faq": [
@@ -95,8 +99,8 @@
           "label": "Vice City"
         },
         {
-          "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "url": "/gameplay/locations/kelly-county",
+          "label": "Kelly County"
         },
         {
           "url": "/gameplay/locations/port-gellhorn",
@@ -129,7 +133,7 @@
   "sidebarAriaLabel": "Location navigation"
 }
 ---
-Delights Port Gellhorn serves the Port Gellhorn workforce. Not the [Vice City](/gameplay/locations/vice-city) tourist demographic. Not the [Ocean Beach](/gameplay/locations/ocean-beach) crowd. The people who work the docks and the warehouses and the logistics corridor between Port Gellhorn and the Vice County interior. **This is the venue those people go to when the shift ends.**
+Delights Port Gellhorn serves the Port Gellhorn workforce. Not the [Vice City](/gameplay/locations/vice-city) tourist demographic. Not the [Ocean Beach](/gameplay/locations/ocean-beach) crowd. The people who work the docks and the warehouses and the logistics corridor between Port Gellhorn and the Kelly County interior. **This is the venue those people go to when the shift ends.**
 
 The name suggests a certain kind of establishment. Port towns in real Florida, and in Leonida too, have always had this category of venue: adult entertainment adjacent, cash-operating, and useful as a social environment for people who work irregular hours in physical jobs and have cash in their pockets at the end of a shift.
 

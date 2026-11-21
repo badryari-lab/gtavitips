@@ -40,6 +40,10 @@
     {
       "key": "Law Enforcement",
       "value": "Tourist-Zone Intensity"
+    },
+    {
+      "key": "County",
+      "value": "[Vice-Dale County](/gameplay/locations/vice-county)"
     }
   ],
   "operatorNotes": [
@@ -84,6 +88,18 @@
       "type": "Luxury Brand",
       "name": "Didier Sachs",
       "desc": "Luxury retail on the Ocean Beach corridor. The bag that says what the owner cannot."
+    },
+    {
+      "url": "/gameplay/locations/vice-county",
+      "type": "Region",
+      "name": "Vice-Dale County",
+      "desc": "The county Ocean Beach sits in on Rockstar's map."
+    },
+    {
+      "url": "/gameplay/locations/vice-beach",
+      "type": "Location",
+      "name": "Vice Beach",
+      "desc": "The barrier island city Ocean Beach belongs to. Ocean Beach is its southern tip."
     }
   ],
   "faq": [
@@ -120,7 +136,7 @@
         },
         {
           "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "label": "Vice-Dale County"
         },
         {
           "url": "/gameplay/locations/port-gellhorn",

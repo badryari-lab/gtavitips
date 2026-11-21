@@ -10,7 +10,7 @@
     "ogDescription": "Mount Kalaga National Park in GTA 6: protected wilderness around the mountain, trails, wildlife, restricted vehicle access.",
     "jsonLdHeadline": "Mount Kalaga National Park - GTA 6 Location",
     "jsonLdDescription": "Mount Kalaga National Park in GTA 6: protected wilderness around the mountain, trails, wildlife, restricted vehicle access.",
-    "dateModified": "2026-02-01",
+    "dateModified": "2026-11-21",
     "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-02.jpg"
   },
   "heroSubtitle": "Protected wilderness surrounding Leonida's highest peak. **Trail access, dense forest, and the wildlife that moves through terrain where road vehicles cannot follow.**",
@@ -39,6 +39,10 @@
     {
       "key": "Law Enforcement",
       "value": "Park Ranger Presence"
+    },
+    {
+      "key": "County",
+      "value": "[Lummox County](/gameplay/locations/lummox-county)"
     }
   ],
   "operatorNotes": [
@@ -79,10 +83,16 @@
       "desc": "Its home base is Red Hill Forest, but its territory reaches into the park at lower elevation."
     },
     {
-      "url": "/gameplay/locations/vice-county",
+      "url": "/gameplay/locations/lummox-county",
       "type": "Region",
-      "name": "Vice County",
-      "desc": "The county jurisdiction. The park sits within Vice County's administrative boundary."
+      "name": "Lummox County",
+      "desc": "The county jurisdiction. The park sits within Lummox County's administrative boundary."
+    },
+    {
+      "url": "/gameplay/locations/bonanza",
+      "type": "Location",
+      "name": "Bonanza",
+      "desc": "The town north of the park, at the very top of Leonida."
     }
   ],
   "faq": [
@@ -112,8 +122,8 @@
           "label": "Vice City"
         },
         {
-          "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "url": "/gameplay/locations/lummox-county",
+          "label": "Lummox County"
         },
         {
           "url": "/gameplay/locations/port-gellhorn",
@@ -146,7 +156,7 @@
   "sidebarAriaLabel": "Location navigation"
 }
 ---
-The National Park is the protected zone that surrounds [Mount Kalaga](/gameplay/locations/mount-kalaga) on the approach from the [Vice County](/gameplay/locations/vice-county) side. The park boundary is where the road infrastructure transitions from conventional road to trail-quality access. Inside the boundary, the land is managed wilderness.
+The National Park is the protected zone that surrounds [Mount Kalaga](/gameplay/locations/mount-kalaga) on the approach from the [Lummox County](/gameplay/locations/lummox-county) side. The park boundary is where the road infrastructure transitions from conventional road to trail-quality access. Inside the boundary, the land is managed wilderness.
 
 **The park serves a dual function in Leonida.** For the civilian population, it is outdoor recreation infrastructure: trails, campsite access, the wildlife viewing that comes with managed wilderness. For anyone who needs the wilderness for different reasons, it is terrain where road-based pursuit cannot follow and aerial coverage has canopy limitations on the lower slopes.
 

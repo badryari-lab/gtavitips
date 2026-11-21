@@ -9,7 +9,7 @@
     "ogDescription": "Grassrivers in GTA 6: Leonida's swamp and wetland region, home to alligators, pythons, and waterway access.",
     "jsonLdHeadline": "Grassrivers - GTA 6 Location",
     "jsonLdDescription": "Grassrivers in GTA 6: Leonida's swamp and wetland region, home to alligators, pythons, and waterway access.",
-    "dateModified": "2026-02-01",
+    "dateModified": "2026-11-21",
     "ogImage": "https://gtavitips.com/assets/images/grassrivers-gta-6-location-03.jpg"
   },
   "heroSubtitle": "Leonida's swamp. **Dense vegetation, slow water, alligators, and the kind of geography that does not care what the wanted level says.** The road network ends where the Grassrivers begins.",
@@ -38,6 +38,10 @@
     {
       "key": "Law Enforcement",
       "value": "Minimal"
+    },
+    {
+      "key": "County",
+      "value": "[Mariana County](/gameplay/locations/mariana-county)"
     }
   ],
   "operatorNotes": [
@@ -78,10 +82,16 @@
       "desc": "Working the Grassrivers vegetation margin. An invasive species that's made itself at home in the wetland."
     },
     {
-      "url": "/gameplay/locations/vice-county",
+      "url": "/gameplay/locations/mariana-county",
       "type": "Region",
-      "name": "Vice County",
+      "name": "Mariana County",
       "desc": "The county jurisdiction that includes the Grassrivers on its wetland margin."
+    },
+    {
+      "url": "/gameplay/locations/hamlet",
+      "type": "Location",
+      "name": "Hamlet",
+      "desc": "The town on the wetlands' eastern edge, last stop before the Keys."
     }
   ],
   "faq": [
@@ -112,8 +122,8 @@
           "label": "Vice City"
         },
         {
-          "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "url": "/gameplay/locations/mariana-county",
+          "label": "Mariana County"
         },
         {
           "url": "/gameplay/locations/port-gellhorn",
@@ -154,6 +164,6 @@ The settlements within the Grassrivers region are scattered and small. The peopl
 %%%GROUND%%%
 The Grassrivers is one of the few environments in Leonida where aerial pursuit is compromised by canopy cover. **Dense subtropical vegetation at the vegetation margin creates observation gaps that the open road does not have.** A boat that enters the channel system under tree cover is no longer visible from above.
 
-The waterway network connects to [Port Gellhorn](/gameplay/locations/port-gellhorn) on the coast, to the Keys margin, and to multiple [Vice County](/gameplay/locations/vice-county) access points. Moving through the Grassrivers by water is slower than moving by road but it is movement that the road-based response infrastructure cannot track.
+The waterway network connects to [Port Gellhorn](/gameplay/locations/port-gellhorn) on the coast, to the Keys margin, and to multiple [Mariana County](/gameplay/locations/mariana-county) access points. Moving through the Grassrivers by water is slower than moving by road but it is movement that the road-based response infrastructure cannot track.
 
 The alligator and python presence is a genuine environmental hazard in the vegetation margins and on the waterway banks. Entering the swamp on foot at the wrong time and place produces a different category of problem from law enforcement.

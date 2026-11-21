@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "nine-1-nine-gta-6-location.jpg",
     "jsonLdHeadline": "Nine 1 Nine - GTA 6 Location",
     "jsonLdDescription": "Nine 1 Nine in GTA 6: a Vice City nightlife venue and club in the entertainment district.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "Vice City nightlife at the level where the door policy is the first filter. **The kind of club that decides who gets in before it decides anything else.**",
   "statBlock": [
@@ -28,6 +28,10 @@
     {
       "key": "Operations",
       "value": "Club and Beyond"
+    },
+    {
+      "key": "County",
+      "value": "[Vice-Dale County](/gameplay/locations/vice-county)"
     }
   ],
   "operatorNotes": [
@@ -68,6 +72,12 @@
       "type": "Nightclub Brand",
       "name": "Bahama Mamas",
       "desc": "Another Vice City nightclub, running the same circuit."
+    },
+    {
+      "url": "/gameplay/locations/vice-county",
+      "type": "Region",
+      "name": "Vice-Dale County",
+      "desc": "The county Nine 1 Nine sits in on Rockstar's map."
     }
   ],
   "faq": [
@@ -98,7 +108,7 @@
         },
         {
           "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "label": "Vice-Dale County"
         },
         {
           "url": "/gameplay/locations/port-gellhorn",

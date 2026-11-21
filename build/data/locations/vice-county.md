@@ -77,6 +77,24 @@
       "type": "Agency",
       "name": "Leonida State Police",
       "desc": "Primary law enforcement on the county road network outside the Vice City urban core."
+    },
+    {
+      "url": "/gameplay/locations/little-cuba",
+      "type": "Location",
+      "name": "Little Cuba",
+      "desc": "The Cuban heart of Vice City, just west of Downtown."
+    },
+    {
+      "url": "/gameplay/locations/downtown-vice-city",
+      "type": "Location",
+      "name": "Downtown Vice City",
+      "desc": "The towers of Vice City, on the bay east of Little Cuba."
+    },
+    {
+      "url": "/gameplay/locations/vice-city-international-airport",
+      "type": "Location",
+      "name": "Vice City International Airport",
+      "desc": "VCIA. Vice City's international airport, west of the city core."
     }
   ],
   "faq": [

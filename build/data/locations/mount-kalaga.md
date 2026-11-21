@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "mount-kalaga-gta-6-location.jpg",
     "jsonLdHeadline": "Mount Kalaga - GTA 6 Location",
     "jsonLdDescription": "Mount Kalaga in GTA 6: the highest point in Leonida, wilderness terrain rising above the coastal plain.",
-    "dateModified": "2026-02-01",
+    "dateModified": "2026-11-21",
     "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-01.jpg"
   },
   "heroSubtitle": "The highest point in Leonida. **Wilderness terrain, significant elevation, and a view of the entire state on a clear day.** The mountain is there. People will reach the mountain is there.",
@@ -30,7 +30,7 @@
     {
       "key": "Elevation",
       "value": "Dominant State Landmark",
-      "sub": "Significantly elevated above the coastal plain and the [Vice City](/gameplay/locations/vice-city) metro. Visible from multiple [Vice County](/gameplay/locations/vice-county) positions on clear conditions."
+      "sub": "Significantly elevated above the coastal plain and the [Vice City](/gameplay/locations/vice-city) metro. Visible from multiple [Lummox County](/gameplay/locations/lummox-county) positions on clear conditions."
     },
     {
       "key": "Territory",
@@ -40,6 +40,10 @@
     {
       "key": "Law Enforcement",
       "value": "Minimal Surface Presence"
+    },
+    {
+      "key": "County",
+      "value": "[Lummox County](/gameplay/locations/lummox-county)"
     }
   ],
   "operatorNotes": [
@@ -74,9 +78,9 @@
       "desc": "Woodland terrain at lower elevation. Part of Leonida's interior wilderness geography."
     },
     {
-      "url": "/gameplay/locations/vice-county",
+      "url": "/gameplay/locations/lummox-county",
       "type": "Region",
-      "name": "Vice County",
+      "name": "Lummox County",
       "desc": "The county jurisdiction containing Mount Kalaga within its territory."
     },
     {
@@ -109,8 +113,8 @@
           "label": "Vice City"
         },
         {
-          "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "url": "/gameplay/locations/lummox-county",
+          "label": "Lummox County"
         },
         {
           "url": "/gameplay/locations/port-gellhorn",
@@ -145,7 +149,7 @@
 ---
 Mount Kalaga is the mountain. Leonida is defined by it. The summit is the furthest point from the coast, the highest point in the state, and the position from which the entire map is visible. **Everyone ends up here eventually. There's always a reason to go there. High ground always gets used.**
 
-The mountain sits within the Mount Kalaga National Park jurisdiction, which means the approach terrain is protected wilderness. Trail access rather than road access for the upper slopes. The lower approach has road infrastructure connecting to the [Vice County](/gameplay/locations/vice-county) network.
+The mountain sits within the Mount Kalaga National Park jurisdiction, which means the approach terrain is protected wilderness. Trail access rather than road access for the upper slopes. The lower approach has road infrastructure connecting to the [Lummox County](/gameplay/locations/lummox-county) network.
 
 Real Florida doesn't have mountains like this. Leonida took the liberty anyway, and the elevation change is exactly why it works: you can actually see how big this state is from up here.
 %%%GROUND%%%

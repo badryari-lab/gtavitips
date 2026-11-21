@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "jack-of-hearts-gta-6-location.jpg",
     "jsonLdHeadline": "Jack of Hearts - GTA 6 Location",
     "jsonLdDescription": "Jack of Hearts in GTA 6: a strip club and adult entertainment venue in Vice City's entertainment district.",
-    "dateModified": "2026-02-01",
+    "dateModified": "2026-11-21",
     "ogImage": "https://gtavitips.com/assets/images/boobie-ike-gta-6-character-02.jpg"
   },
   "heroSubtitle": "Vice City adult entertainment. **A strip club right in the entertainment district.** The kind of venue this city has always had.",
@@ -35,6 +35,10 @@
     {
       "key": "Heritage",
       "value": "Vice City Fixture"
+    },
+    {
+      "key": "County",
+      "value": "[Vice-Dale County](/gameplay/locations/vice-county)"
     }
   ],
   "operatorNotes": [
@@ -75,6 +79,12 @@
       "type": "Coastal Area",
       "name": "Ocean Beach",
       "desc": "The tourist strip adjacent to the entertainment district."
+    },
+    {
+      "url": "/gameplay/locations/vice-county",
+      "type": "Region",
+      "name": "Vice-Dale County",
+      "desc": "The county Jack of Hearts sits in on Rockstar's map."
     }
   ],
   "faq": [
@@ -106,7 +116,7 @@
         },
         {
           "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "label": "Vice-Dale County"
         },
         {
           "url": "/gameplay/locations/port-gellhorn",

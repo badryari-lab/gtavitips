@@ -33,6 +33,10 @@
     {
       "key": "Law Enforcement",
       "value": "Standard [VCPD](/gameplay/gangs-and-factions/vcpd)"
+    },
+    {
+      "key": "County",
+      "value": "[Vice-Dale County](/gameplay/locations/vice-county)"
     }
   ],
   "operatorNotes": [
@@ -77,6 +81,18 @@
       "type": "Agency",
       "name": "VCPD",
       "desc": "Vice City Police Department. Standard patrol grid on the residential Washington Beach streets."
+    },
+    {
+      "url": "/gameplay/locations/vice-county",
+      "type": "Region",
+      "name": "Vice-Dale County",
+      "desc": "The county Washington Beach sits in on Rockstar's map."
+    },
+    {
+      "url": "/gameplay/locations/vice-beach",
+      "type": "Location",
+      "name": "Vice Beach",
+      "desc": "The barrier island city Washington Beach belongs to. Ocean Beach holds the other end."
     }
   ],
   "faq": [
@@ -103,7 +119,7 @@
         },
         {
           "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "label": "Vice-Dale County"
         },
         {
           "url": "/gameplay/locations/port-gellhorn",

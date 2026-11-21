@@ -10,7 +10,7 @@
     "ogDescription": "Leonida Keys in GTA 6: the tropical island chain south of Vice City, coral, shallow waterways, and maritime access.",
     "jsonLdHeadline": "Leonida Keys - GTA 6 Location",
     "jsonLdDescription": "Leonida Keys in GTA 6: the tropical island chain south of Vice City, coral, shallow waterways, and maritime access. Confirmed as Jason Duval's home.",
-    "dateModified": "2026-08-28",
+    "dateModified": "2026-11-21",
     "ogImage": "https://gtavitips.com/assets/images/leonida-keys-gta-6-location-04.jpg"
   },
   "heroSubtitle": "Island chain stretching south of [Vice City](/gameplay/locations/vice-city) into the open water. **Coral, shallow waterways, boat culture, and the specific freedom that comes from being somewhere the road network does not reach.**",
@@ -44,12 +44,16 @@
     {
       "key": "Notable Resident",
       "value": "[Jason Duval](/gameplay/characters/jason-duval)"
+    },
+    {
+      "key": "County",
+      "value": "[Mariana County](/gameplay/locations/mariana-county)"
     }
   ],
   "operatorNotes": [
     {
       "key": "Access",
-      "val": "Boat from Vice City or the lower [Vice County](/gameplay/locations/vice-county) coastline. Road access to the inner Keys only. Outer positions are water access exclusively."
+      "val": "Boat from Vice City or the lower [Mariana County](/gameplay/locations/mariana-county) coastline. Road access to the inner Keys only. Outer positions are water access exclusively."
     },
     {
       "key": "Navigation",
@@ -94,6 +98,18 @@
       "type": "Marine Life",
       "name": "Sea Turtle",
       "desc": "Reef systems and shallow coastal areas. The Keys habitat is the primary sea turtle environment in Leonida."
+    },
+    {
+      "url": "/gameplay/locations/mariana-county",
+      "type": "Region",
+      "name": "Mariana County",
+      "desc": "The county Leonida Keys sits in on Rockstar's map."
+    },
+    {
+      "url": "/gameplay/locations/key-lento",
+      "type": "Location",
+      "name": "Key Lento",
+      "desc": "The first big island of the chain, on Route 1A. Leonida's Key Largo."
     }
   ],
   "faq": [
@@ -128,8 +144,8 @@
           "label": "Vice City"
         },
         {
-          "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "url": "/gameplay/locations/mariana-county",
+          "label": "Mariana County"
         },
         {
           "url": "/gameplay/locations/port-gellhorn",

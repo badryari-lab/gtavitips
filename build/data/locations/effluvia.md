@@ -9,7 +9,7 @@
     "ogDescription": "Effluvia in GTA 6: a rooftop club high above Vice City. Meeting point mid-montage, sky-banner overhead, and signage that can't agree on its own spelling.",
     "jsonLdHeadline": "Effluvia - GTA 6 Location",
     "jsonLdDescription": "Effluvia in GTA 6: a rooftop club high above Vice City. Meeting point mid-montage, sky-banner overhead, and signage that can't agree on its own spelling.",
-    "dateModified": "2026-08-28"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "Rooftop club, high above the [Vice City](/gameplay/locations/vice-city) skyline. **A stop mid-montage, a plane trailing a banner overhead, and signage that can't decide how to spell its own name.**",
   "statBlock": [
@@ -31,6 +31,10 @@
     {
       "key": "Overhead",
       "value": "Sky-Banner Flyover"
+    },
+    {
+      "key": "County",
+      "value": "[Vice-Dale County](/gameplay/locations/vice-county)"
     }
   ],
   "operatorNotes": [
@@ -69,6 +73,12 @@
       "type": "Character",
       "name": "Lucia Caminos",
       "desc": "Alongside Jason during the same stretch through the city."
+    },
+    {
+      "url": "/gameplay/locations/vice-county",
+      "type": "Region",
+      "name": "Vice-Dale County",
+      "desc": "The county Effluvia sits in on Rockstar's map."
     }
   ],
   "faq": [

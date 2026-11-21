@@ -6,11 +6,11 @@
   ],
   "seo": {
     "title": "Port Gellhorn | GTA 6 Location Guide: Leonida | GTAVITIPS",
-    "description": "Port Gellhorn in GTA 6: an industrial port town on the Vice County coast, docks, warehouses, and the marshland corridor.",
-    "ogDescription": "Port Gellhorn in GTA 6: an industrial port town on the Vice County coast, docks, warehouses, and the marshland corridor.",
+    "description": "Port Gellhorn in GTA 6: an industrial port town on the Kelly County coast, docks, warehouses, and the marshland corridor.",
+    "ogDescription": "Port Gellhorn in GTA 6: an industrial port town on the Kelly County coast, docks, warehouses, and the marshland corridor.",
     "jsonLdHeadline": "Port Gellhorn - GTA 6 Location",
-    "jsonLdDescription": "Port Gellhorn in GTA 6: an industrial port town on the Vice County coast, docks, warehouses, and the marshland corridor.",
-    "dateModified": "2026-02-01",
+    "jsonLdDescription": "Port Gellhorn in GTA 6: an industrial port town on the Kelly County coast, docks, warehouses, and the marshland corridor.",
+    "dateModified": "2026-11-21",
     "ogImage": "https://gtavitips.com/assets/images/port-gellhorn-gta-6-location-03.jpg"
   },
   "heroSubtitle": "**Leonida's working waterfront.** The port that moves the cargo [Vice City](/gameplay/locations/vice-city) consumes and does not ask where it came from. Docks, warehouses, marshland, and the operational vocabulary that goes with all three.",
@@ -24,7 +24,7 @@
     {
       "key": "Type",
       "value": "Industrial Port Town",
-      "sub": "Commercial port and logistics hub on the [Vice County](/gameplay/locations/vice-county) coast. The point where maritime supply chains connect to the road network."
+      "sub": "Commercial port and logistics hub on the [Kelly County](/gameplay/locations/kelly-county) coast. The point where maritime supply chains connect to the road network."
     },
     {
       "key": "Territory",
@@ -39,6 +39,10 @@
     {
       "key": "Law Enforcement",
       "value": "Moderate"
+    },
+    {
+      "key": "County",
+      "value": "[Kelly County](/gameplay/locations/kelly-county)"
     }
   ],
   "operatorNotes": [
@@ -61,9 +65,9 @@
   ],
   "connections": [
     {
-      "url": "/gameplay/locations/vice-county",
+      "url": "/gameplay/locations/kelly-county",
       "type": "Region",
-      "name": "Vice County",
+      "name": "Kelly County",
       "desc": "The wider county jurisdiction. Port Gellhorn is the county's primary maritime infrastructure."
     },
     {
@@ -77,6 +81,12 @@
       "type": "Venue",
       "name": "Delights Port Gellhorn",
       "desc": "The primary social venue serving the Port Gellhorn workforce and surrounding area."
+    },
+    {
+      "url": "/gameplay/locations/capri",
+      "type": "Location",
+      "name": "Capri",
+      "desc": "South down I-404. The Gulf Coast town on Capri Sound."
     }
   ],
   "faq": [
@@ -111,8 +121,8 @@
           "label": "Vice City"
         },
         {
-          "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "url": "/gameplay/locations/kelly-county",
+          "label": "Kelly County"
         },
         {
           "url": "/gameplay/locations/port-gellhorn",
@@ -155,4 +165,4 @@ The port perimeter is the primary access challenge. Fencing, lighting, and some 
 
 **Warehousing in the inland zone is the most accessible target type.** Large footprint, limited sightlines, and a workforce that operates on shift patterns that are predictable. The vehicle yard adjacent to the main warehouse cluster has multiple access points.
 
-The marshland access route is the exit that works when the road network is compromised. Slow and wet, but it connects to the [Grassrivers](/gameplay/locations/grassrivers) waterway system, which connects to multiple [Vice County](/gameplay/locations/vice-county) exit points that are not on the primary road network.
+The marshland access route is the exit that works when the road network is compromised. Slow and wet, but it connects to the [Grassrivers](/gameplay/locations/grassrivers) waterway system, which connects to multiple [Kelly County](/gameplay/locations/kelly-county) exit points that are not on the primary road network.

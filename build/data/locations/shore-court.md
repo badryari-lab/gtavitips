@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "shore-court-gta-6-location.jpg",
     "jsonLdHeadline": "Shore Court: GTA 6 Location",
     "jsonLdDescription": "Shore Court in GTA 6: a coastal Vice City property included with the Vapid Stanier pre-order bonus, with a weapon locker and stolen goods storage.",
-    "dateModified": "2026-06-24"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "A coastal property on the edge of [Vice City](/gameplay/locations/vice-city). **Pre-equipped. The garage, the locker, and the storage are already there when you arrive.**",
   "statBlock": [
@@ -33,6 +33,10 @@
     {
       "key": "First Seen",
       "value": "Pre-Order Announcement, June 2026"
+    },
+    {
+      "key": "County",
+      "value": "[Vice-Dale County](/gameplay/locations/vice-county)"
     }
   ],
   "operatorNotes": [],
@@ -48,6 +52,12 @@
       "type": "Location",
       "name": "Vice City",
       "desc": "The metropolitan core of Leonida. Shore Court sits on its coastal edge."
+    },
+    {
+      "url": "/gameplay/locations/vice-county",
+      "type": "Region",
+      "name": "Vice-Dale County",
+      "desc": "The county Shore Court sits in on Rockstar's map."
     }
   ],
   "faq": [
@@ -78,7 +88,7 @@
         },
         {
           "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "label": "Vice-Dale County"
         }
       ]
     },

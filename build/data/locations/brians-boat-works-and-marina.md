@@ -28,6 +28,10 @@
     {
       "key": "Location",
       "value": "[Leonida Keys](/gameplay/locations/leonida-keys)"
+    },
+    {
+      "key": "County",
+      "value": "[Mariana County](/gameplay/locations/mariana-county)"
     }
   ],
   "operatorNotes": [
@@ -72,6 +76,18 @@
       "type": "Island Chain",
       "name": "Leonida Keys",
       "desc": "The island chain the yard calls home. One road in, water everywhere else."
+    },
+    {
+      "url": "/gameplay/locations/mariana-county",
+      "type": "Region",
+      "name": "Mariana County",
+      "desc": "The county Brian's Boat Works & Marina sits in on Rockstar's map."
+    },
+    {
+      "url": "/gameplay/locations/key-lento",
+      "type": "Location",
+      "name": "Key Lento",
+      "desc": "The island the boat yard sits on, top of the Keys."
     }
   ],
   "faq": [
@@ -101,8 +117,8 @@
           "label": "Vice City"
         },
         {
-          "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "url": "/gameplay/locations/mariana-county",
+          "label": "Mariana County"
         },
         {
           "url": "/gameplay/locations/leonida-keys",

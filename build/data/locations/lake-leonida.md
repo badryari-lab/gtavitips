@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "lake-leonida-gta-6-location.jpg",
     "jsonLdHeadline": "Lake Leonida - GTA 6 Location",
     "jsonLdDescription": "Lake Leonida in GTA 6: the major inland lake in Leonida's interior, fishing, boating, and significant open water.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "The major inland water body of Leonida. **Open freshwater, fishing camps, and the stillness that comes from being somewhere the city cannot see.**",
   "statBlock": [
@@ -33,6 +33,10 @@
     {
       "key": "Law Enforcement",
       "value": "Limited"
+    },
+    {
+      "key": "County",
+      "value": "[Leonard County](/gameplay/locations/leonard-county)"
     }
   ],
   "operatorNotes": [
@@ -67,9 +71,9 @@
       "desc": "The fish everyone's actually out there for."
     },
     {
-      "url": "/gameplay/locations/vice-county",
+      "url": "/gameplay/locations/leonard-county",
       "type": "Region",
-      "name": "Vice County",
+      "name": "Leonard County",
       "desc": "The county jurisdiction containing Lake Leonida within the interior territory."
     },
     {
@@ -77,6 +81,18 @@
       "type": "Activity",
       "name": "Fishing",
       "desc": "Lake Leonida is one of the go-to spots for it. Largemouth bass, mainly."
+    },
+    {
+      "url": "/gameplay/locations/millport",
+      "type": "Location",
+      "name": "Millport",
+      "desc": "The northeast coast town above the lake, on Millport Basin."
+    },
+    {
+      "url": "/gameplay/locations/waning-sands",
+      "type": "Location",
+      "name": "Waning Sands",
+      "desc": "The coast town east of the lake, on I-97 in Leonard County."
     }
   ],
   "faq": [
@@ -102,8 +118,8 @@
           "label": "Vice City"
         },
         {
-          "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "url": "/gameplay/locations/leonard-county",
+          "label": "Leonard County"
         },
         {
           "url": "/gameplay/locations/port-gellhorn",

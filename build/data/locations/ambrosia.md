@@ -9,7 +9,7 @@
     "ogDescription": "Ambrosia in GTA 6: a rural Leonida settlement named in official material, with thin patrol coverage and farmland roads tied into the county network.",
     "jsonLdHeadline": "Ambrosia - GTA 6 Location",
     "jsonLdDescription": "Ambrosia in GTA 6: a rural Leonida settlement named in official material, with thin patrol coverage and farmland roads tied into the county network.",
-    "dateModified": "2026-02-01",
+    "dateModified": "2026-11-21",
     "ogImage": "https://gtavitips.com/assets/images/ambrosia-gta-6-location-01.jpg"
   },
   "heroSubtitle": "A rural settlement in the Leonida interior. **The name's on the map. What it actually looks like on the ground isn't yet.**",
@@ -33,6 +33,10 @@
     {
       "key": "Priority",
       "value": "Under Review"
+    },
+    {
+      "key": "County",
+      "value": "[Kelly County](/gameplay/locations/kelly-county)"
     }
   ],
   "operatorNotes": [
@@ -51,9 +55,9 @@
   ],
   "connections": [
     {
-      "url": "/gameplay/locations/vice-county",
+      "url": "/gameplay/locations/kelly-county",
       "type": "Region",
-      "name": "Vice County",
+      "name": "Kelly County",
       "desc": "The county jurisdiction. Rural settlements like Ambrosia exist within this administrative area."
     },
     {
@@ -103,8 +107,8 @@
           "label": "Vice City"
         },
         {
-          "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "url": "/gameplay/locations/kelly-county",
+          "label": "Kelly County"
         },
         {
           "url": "/gameplay/locations/port-gellhorn",

@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "malibu-club-gta-6-location.jpg",
     "jsonLdHeadline": "Malibu Club - GTA 6 Location",
     "jsonLdDescription": "Malibu Club in GTA 6: the Vice City nightclub returning from the original game, a Ocean Beach landmark.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "The original [Vice City](/gameplay/locations/vice-city) nightclub is back. **Ocean Beach location, the neon, and the specific category of business arrangement that only works in a venue that has been operating long enough to have established relationships.**",
   "statBlock": [
@@ -33,6 +33,10 @@
     {
       "key": "Operations",
       "value": "Nightlife and Beyond"
+    },
+    {
+      "key": "County",
+      "value": "[Vice-Dale County](/gameplay/locations/vice-county)"
     }
   ],
   "operatorNotes": [
@@ -77,6 +81,12 @@
       "type": "Nightclub Brand",
       "name": "Bahama Mamas",
       "desc": "Fellow returning Vice City nightclub brand. On the same nightlife strip."
+    },
+    {
+      "url": "/gameplay/locations/vice-county",
+      "type": "Region",
+      "name": "Vice-Dale County",
+      "desc": "The county Malibu Club sits in on Rockstar's map."
     }
   ],
   "faq": [
@@ -108,7 +118,7 @@
         },
         {
           "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "label": "Vice-Dale County"
         },
         {
           "url": "/gameplay/locations/port-gellhorn",

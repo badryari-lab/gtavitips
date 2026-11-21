@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "ocean-view-hotel-gta-6-location.jpg",
     "jsonLdHeadline": "Ocean View Hotel - GTA 6 Location",
     "jsonLdDescription": "Ocean View Hotel in GTA 6: a Vice City landmark on Ocean Drive, returning from the original game.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "Ocean Drive, [Vice City](/gameplay/locations/vice-city). **The hotel that gave Tommy Vercetti his starting room is back.** The view is the same. What happens inside has thirty years of additional context.",
   "statBlock": [
@@ -28,6 +28,10 @@
     {
       "key": "Location",
       "value": "Ocean Drive, Ocean Beach"
+    },
+    {
+      "key": "County",
+      "value": "[Vice-Dale County](/gameplay/locations/vice-county)"
     }
   ],
   "operatorNotes": [
@@ -72,6 +76,12 @@
       "type": "Accommodation",
       "name": "Starlet Motel",
       "desc": "The roadside lodging option. A different accommodation register from the Ocean View."
+    },
+    {
+      "url": "/gameplay/locations/vice-county",
+      "type": "Region",
+      "name": "Vice-Dale County",
+      "desc": "The county Ocean View Hotel sits in on Rockstar's map."
     }
   ],
   "faq": [
@@ -103,7 +113,7 @@
         },
         {
           "url": "/gameplay/locations/vice-county",
-          "label": "Vice County"
+          "label": "Vice-Dale County"
         },
         {
           "url": "/gameplay/locations/port-gellhorn",
