@@ -179,9 +179,6 @@
 
     /* ── SECTIONS ── */
     .sec { padding: 60px 0; }
-    .sec__eyebrow { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
-    .eyebrow-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--stamp); flex-shrink: 0; }
-    .sec__eyebrow-text { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--stamp); }
     .sec__hd { font-family: 'Anton', sans-serif; font-weight: 400; font-size: clamp(22px, 3.5vw, 32px); text-transform: uppercase; letter-spacing: .01em; color: var(--t1); line-height: 1.05; }
     .sec__hd span { color: var(--kraft); }
     .sec__sub { font-size: 13.5px; color: var(--t2); max-width: 520px; margin-top: 8px; line-height: 1.6; }
@@ -217,7 +214,6 @@
     .ops-card { position: relative; border-radius: var(--r); overflow: hidden; min-height: 190px; display: flex; flex-direction: column; justify-content: flex-end; padding: 18px 20px; text-decoration: none; background-size: cover; background-position: center; transition: transform .2s, box-shadow .2s; box-shadow: 0 4px 18px rgba(0,0,0,.4); background-color: var(--bg-2); border: 1px solid var(--border); }
     .ops-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(224,120,95,.10) 0%, rgba(19,17,16,0) 32%, rgba(19,17,16,.80) 60%, rgba(19,17,16,.95) 100%); z-index: 0; }
     a.ops-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(0,0,0,.55); }
-    .ops-card__eyebrow { position: relative; z-index: 1; font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .13em; color: var(--kraft); margin-bottom: 6px; }
     .ops-card__name { position: relative; z-index: 1; font-family: 'Anton', sans-serif; font-weight: 400; font-size: 19px; text-transform: uppercase; letter-spacing: .01em; color: #fff; margin-bottom: 5px; }
     .ops-card__desc { position: relative; z-index: 1; font-size: 12px; color: rgba(255,255,255,.72); line-height: 1.5; }
     .ops-card__arrow { position: absolute; top: 14px; right: 16px; z-index: 1; color: rgba(255,255,255,.8); font-size: 16px; transition: transform .18s; }
@@ -225,7 +221,6 @@
 
     .ops-card--sealed { background-image: none !important; cursor: default; }
     .ops-card--sealed::after { display: none; }
-    .ops-card--sealed .ops-card__eyebrow { color: var(--t3); }
     .ops-card--sealed .ops-card__name { color: var(--t1); }
     .ops-card__stamp { position: absolute; top: 14px; right: 14px; z-index: 2; font-family: 'Courier Prime', monospace; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--stamp); border: 1.3px solid var(--stamp); background: var(--stamp-dim); padding: 3px 9px; border-radius: 2px 8px 2px 8px; transform: rotate(-4deg); }
     .redact-lines { display: flex; flex-direction: column; gap: 5px; margin: 8px 0; }

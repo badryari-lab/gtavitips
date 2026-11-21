@@ -21,7 +21,6 @@ const FACTION_HERO_CSS_SHARED = `
     .faction-hero__back { display: inline-flex; align-items: center; gap: 7px; font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t2); margin-bottom: 18px; transition: color .18s; text-decoration: none; }
     .faction-hero__back:hover { color: var(--blue); }
     .faction-hero__back svg { width: 14px; height: 14px; }
-    .faction-hero__eyebrow { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .16em; color: var(--pink); margin-bottom: 14px; }
     .faction-hero__h1 { font-family: 'Anton', sans-serif; font-weight: 400; font-size: clamp(34px, 6vw, 62px); text-transform: uppercase; letter-spacing: 0; color: var(--t1); line-height: .95; margin-bottom: 14px; }
     .faction-hero__h1 span { color: var(--blue); }
     .faction-hero__sub { font-size: 15px; color: var(--t2); max-width: 560px; line-height: 1.65; }

@@ -237,20 +237,15 @@
     .index-hero__overlay{position:absolute;inset:0;background:linear-gradient(to top,var(--bg) 0%,rgba(11,10,8,.86) 55%,rgba(224,120,95,.14) 100%);z-index:1}
     [data-theme="light"] .index-hero__overlay{background:linear-gradient(to top,var(--bg) 0%,rgba(236,228,211,.9) 55%,rgba(168,68,44,.14) 100%)}
     .index-hero__inner{position:relative;z-index:2;max-width:1100px;margin:0 auto;padding:0 24px 34px;width:100%}
-    .index-hero__eyebrow { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .16em; color: var(--pink); margin-bottom: 14px; text-shadow: 0 1px 4px rgba(0,0,0,.5); }
     .index-hero__h1 { font-family: 'Anton', sans-serif; font-weight: 400; font-size: clamp(30px, 5.5vw, 56px); text-transform: uppercase; letter-spacing: 0; line-height: .95; color: var(--t1); margin-bottom: 12px; text-shadow: 0 2px 10px rgba(0,0,0,.4); }
     .index-hero__sub { font-size: 14.5px; color: var(--t2); max-width: 560px; line-height: 1.65; text-shadow: 0 1px 6px rgba(0,0,0,.35); }
     .quick-lookup{background:var(--bg-2);border:1px solid var(--blue-border);border-radius:var(--r);padding:20px 22px;margin:-28px 0 40px;position:relative;z-index:2}
-    .quick-lookup__label{font-family:'Courier Prime',monospace;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.14em;color:var(--pink);margin-bottom:12px;display:flex;align-items:center;gap:8px}
     .index-search { max-width: none; margin: 0; }
     .index-search__field { display: flex; align-items: center; background: var(--bg-3); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
     .index-search__field svg { width: 18px; height: 18px; color: var(--t3); margin-left: 16px; flex-shrink: 0; }
     .index-search__input { flex: 1; padding: 14px 16px; background: none; border: none; outline: none; font-family: 'Archivo', sans-serif; font-size: 15px; color: var(--t1); }
     .index-search__input::placeholder { color: var(--t3); }
     .index-section { margin-bottom: 64px; }
-    .index-section__eyebrow { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
-    .index-section__eyebrow-line { width: 5px; height: 5px; border-radius: 50%; background: var(--pink); flex-shrink: 0; }
-    .index-section__eyebrow-text { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; color: var(--pink); }
     .index-section__h2 { font-size: clamp(18px, 2.5vw, 26px); font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--t1); margin-bottom: 24px; }
     .intel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
     .intel-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); padding: 18px 20px; text-decoration: none; display: flex; flex-direction: column; gap: 6px; transition: border-color .2s, transform .2s, background .2s; }
@@ -369,7 +364,6 @@
     </header>
     <div class="wrap">
       <div class="quick-lookup">
-        <div class="quick-lookup__label"><span class="index-section__eyebrow-line" aria-hidden="true"></span>Quick Lookup</div>
         <div class="index-search">
           <form class="index-search__field" role="search" onsubmit="handleSearch(event)" aria-label="Search activities">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>

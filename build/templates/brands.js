@@ -43,7 +43,6 @@ const BRAND_EXTRA_CSS = `
     .brand-hero__back { display: inline-flex; align-items: center; gap: 7px; font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--t2); margin-bottom: 18px; transition: color .18s; text-decoration: none; }
     .brand-hero__back:hover { color: var(--blue); }
     .brand-hero__back svg { width: 14px; height: 14px; }
-    .brand-hero__eyebrow { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .16em; color: var(--pink); margin-bottom: 14px; }
     .brand-hero__h1 { font-family: 'Anton', sans-serif; font-weight: 400; font-size: clamp(34px, 6vw, 62px); text-transform: uppercase; letter-spacing: 0; color: var(--t1); line-height: .95; margin-bottom: 14px; }
     .brand-hero__slogan { font-family: 'Archivo', sans-serif; font-style: italic; font-size: 15px; color: var(--pink); font-weight: 600; max-width: 560px; line-height: 1.6; }
     .stat-block__pills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
@@ -89,8 +88,7 @@ function render(entry) {
       <a href="/gameplay/brands" class="brand-hero__back">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
         Back to Brands Index
-      </a>
-${heroBadge ? `\n      <div class="brand-hero__badge">${heroBadge}</div>` : ''}
+      </a>${heroBadge ? `\n      <div class="brand-hero__badge">${heroBadge}</div>` : ''}
       <h1 class="brand-hero__h1">${h1}</h1>
       <p class="brand-hero__slogan">${renderInline(heroSlogan)}</p>
     </div>

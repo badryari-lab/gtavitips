@@ -110,9 +110,6 @@ const SHARED_CSS = `
     .content-side { position: sticky; top: calc(var(--nav-h) + 24px); display: flex; flex-direction: column; gap: 14px; }
 
     .section { margin-bottom: 56px; }
-    .section__eyebrow { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
-    .section__eyebrow-line { width: 5px; height: 5px; border-radius: 50%; background: var(--pink); flex-shrink: 0; }
-    .section__eyebrow-text { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--pink); }
     .section__h2 { font-family: 'Anton', sans-serif; font-weight: 400; font-size: clamp(20px, 2.5vw, 28px); text-transform: uppercase; letter-spacing: 0; color: var(--t1); margin-bottom: 20px; line-height: 1.1; }
     .section__body { font-size: 14px; color: var(--t2); line-height: 1.85; }
     .section__body p { margin-bottom: 16px; }
