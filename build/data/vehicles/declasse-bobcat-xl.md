@@ -31,6 +31,11 @@
       "key": "Handling",
       "value": "RWD / 4WD V8",
       "sub": "Rear-wheel drive standard, four-wheel drive available. The F-Series configuration."
+    },
+    {
+      "key": "WAiNK Stats",
+      "value": "Declasse ’84 Bobcat XL · Pickup",
+      "sub": "Speed 4.2, Acceleration 4.7, Asphalt 3.2, Off-Road 4.9, Strength 3.2 out of 10. Fence value $2,145, registration $7,250. Tracker: None. Figures from an in-game WAiNK scan."
     }
   ],
   "gallery": [],

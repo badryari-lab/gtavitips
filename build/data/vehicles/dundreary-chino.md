@@ -29,6 +29,11 @@
       "key": "Handling",
       "value": "RWD Hydraulics Optional",
       "sub": "Rear-wheel drive with hydraulic suspension option on custom builds."
+    },
+    {
+      "key": "WAiNK Stats",
+      "value": "Dundreary ’65 Chino · Muscle",
+      "sub": "Speed 3.9, Acceleration 4.2, Asphalt 3.3, Off-Road 4.0, Strength 3.0 out of 10. Fence value $5,335, registration $17,750. Tracker: Standard. Figures from an in-game WAiNK scan."
     }
   ],
   "gallery": [],

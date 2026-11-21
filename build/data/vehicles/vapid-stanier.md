@@ -11,7 +11,7 @@
     "ogImage": "https://gtavitips.com/assets/images/vapid-stanier-gta-6-vehicle-01.jpg",
     "jsonLdHeadline": "'55 Vapid Stanier - GTA 6 Vehicle",
     "jsonLdDescription": "The '55 Vapid Stanier is a classic American sedan in GTA 6 Leonida. Pre-order bonus vehicle for all editions, based on the 1955 Ford Customline.",
-    "dateModified": "2026-06-24"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "Classic American iron. **Two-tone paint, chrome bumpers, and a trunk big enough to raise questions.** The Stanier has been running Leonida for decades. The '55 is the original.",
   "heroImage": {
@@ -53,6 +53,18 @@
       "alt": "Lucia and Jason inside the '55 Vapid Stanier at night, GTA 6",
       "width": "3840",
       "height": "2160"
+    },
+    {
+      "src": "/assets/images/vapid-stanier-gta-6-vehicle-03.jpg",
+      "alt": "'55 Vapid Stanier two-tone yellow and white side panel with Stanier script, GTA 6",
+      "width": "1920",
+      "height": "1080"
+    },
+    {
+      "src": "/assets/images/vapid-stanier-gta-6-vehicle-04.jpg",
+      "alt": "'55 Vapid Stanier tail fin and round taillight at night under the palms, GTA 6",
+      "width": "1920",
+      "height": "1080"
     }
   ],
   "connections": [

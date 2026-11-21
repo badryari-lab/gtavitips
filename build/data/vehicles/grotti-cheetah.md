@@ -57,6 +57,18 @@
       "alt": "'95 Grotti Cheetah headlight and front fascia detail, GTA 6",
       "width": "3840",
       "height": "2160"
+    },
+    {
+      "src": "/assets/images/grotti-cheetah-gta-6-vehicle-03.jpg",
+      "alt": "'95 Grotti Cheetah rear end, triple taillights and red racing stripes, GTA 6",
+      "width": "1920",
+      "height": "1080"
+    },
+    {
+      "src": "/assets/images/grotti-cheetah-gta-6-vehicle-04.jpg",
+      "alt": "'95 Grotti Cheetah with the door open on its red leather interior, GTA 6",
+      "width": "1920",
+      "height": "1080"
     }
   ],
   "connections": [

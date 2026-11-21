@@ -29,6 +29,11 @@
       "key": "Handling",
       "value": "RWD V8 Petrol",
       "sub": "Rear-wheel drive V8. The older American box truck configuration."
+    },
+    {
+      "key": "WAiNK Stats",
+      "value": "Interstate ’97 Benson · Truck",
+      "sub": "Speed 2.4, Acceleration 1.7, Asphalt 2.6, Off-Road 2.5, Strength 3.0 out of 10. Tracker: None. Figures from an in-game WAiNK scan."
     }
   ],
   "gallery": [],

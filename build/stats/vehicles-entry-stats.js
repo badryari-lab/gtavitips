@@ -1,10 +1,10 @@
 // Adds a "WAiNK Stats" row (IGN Official Guide, Reported) to vehicle entries that map cleanly to one IGN row with the same brand.
-// Entries whose brand disagrees with the game (Bobcat XL, Chino, Benson) are left out on purpose: Badr decides the rename first.
+// Bobcat XL, Chino and Benson added Nov 21 2026 after their rename to the in-game brand.
 // Usage: node build/stats/vehicles-entry-stats.js [--dry]   then node build/build.js vehicles
 const fs = require('fs'), path = require('path');
 const DRY = process.argv.includes('--dry');
 const rows = JSON.parse(fs.readFileSync(path.join(__dirname, 'vehicles-ign.json'), 'utf8'));
-const MAP = { 'albany-buccaneer': '65 Buccaneer', 'annis-hellion': '95 Hellion', 'pfister-astron': 'Astron', 'imponte-ruiner': '82 Ruiner', 'declasse-tulip': '72 Tulip', 'karin-futo': '85 Futo', 'karin-rebel': '84 Rebel', 'maibatsu-penumbra': '97 Penumbra FF', 'grotti-cheetah': '95 Cheetah', 'dinka-blista-compact': '85 Blista', 'jobuilt-phantom': '81 Phantom Custom' };
+const MAP = { 'albany-buccaneer': '65 Buccaneer', 'annis-hellion': '95 Hellion', 'pfister-astron': 'Astron', 'imponte-ruiner': '82 Ruiner', 'declasse-tulip': '72 Tulip', 'karin-futo': '85 Futo', 'karin-rebel': '84 Rebel', 'maibatsu-penumbra': '97 Penumbra FF', 'grotti-cheetah': '95 Cheetah', 'dinka-blista-compact': '85 Blista', 'jobuilt-phantom': '81 Phantom Custom', 'declasse-bobcat-xl': '84 Bobcat XL', 'dundreary-chino': '65 Chino', 'interstate-benson': '97 Benson' };
 const f1 = v => parseFloat(v).toFixed(1);
 const money = v => '$' + Number(String(v).replace(/,/g, '')).toLocaleString('en-US');
 const log = [];
