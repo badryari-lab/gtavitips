@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "shitzu-longfin-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Shitzu Longfin - GTA 6 Vehicle",
     "jsonLdDescription": "The Shitzu Longfin is a fishing boat in GTA 6 Leonida. Center console fishing platform for coastal and Keys waters.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "The center console fishing boat. **Gunwales high enough for rough water, twin outboards for the Keys run, and the live well that keeps the catch between catching it and reaching the dock.**",
   "statBlock": [
@@ -56,6 +56,12 @@
       "type": "Animal",
       "name": "Sharks",
       "desc": "Present in the offshore waters the Longfin fishes."
+    },
+    {
+      "url": "/gameplay/vehicles/shitzu-squalo",
+      "type": "Vehicle",
+      "name": "Shitzu Squalo",
+      "desc": "Shitzu's cabin cruiser. Weekend comfort up front, a weapons crate on board."
     }
   ],
   "sidebarDatabase": [

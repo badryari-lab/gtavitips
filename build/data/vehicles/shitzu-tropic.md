@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "shitzu-tropic-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Shitzu Tropic - GTA 6 Vehicle",
     "jsonLdDescription": "The Shitzu Tropic is a open speedboat in GTA 6 Leonida. Runabout boat for Keys and coastal transport.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "The [Keys](/gameplay/locations/leonida-keys) runabout. **Fast enough for the open channel runs, shallow enough for the Keys backcountry, and the boat that [Vice City](/gameplay/locations/vice-city)'s beach economy uses for the trip that starts at the marina.**",
   "statBlock": [
@@ -56,6 +56,12 @@
       "type": "Activity",
       "name": "Fishing",
       "desc": "Keys water activity in the same territory."
+    },
+    {
+      "url": "/gameplay/vehicles/shitzu-squalo",
+      "type": "Vehicle",
+      "name": "Shitzu Squalo",
+      "desc": "Shitzu again, this time a cabin cruiser docked at Washington Beach and armed for open water."
     }
   ],
   "sidebarDatabase": [

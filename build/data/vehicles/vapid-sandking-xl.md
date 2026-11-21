@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "vapid-sandking-xl-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Vapid Sandking XL - GTA 6 Vehicle",
     "jsonLdDescription": "The Vapid Sandking XL is a off-road truck in GTA 6 Leonida. Based on the Ford F-350 Super Duty.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "The lifted Ford Super Duty of Leonida. **Full-size, off-road configured, and capable of reaching the [Vice County](/gameplay/locations/vice-county) locations that the standard pickups approach cautiously.**",
   "statBlock": [
@@ -58,6 +58,12 @@
       "type": "Activity",
       "name": "Mudding",
       "desc": "The off-road activity context."
+    },
+    {
+      "url": "/gameplay/vehicles/vapid-dominator-buggy",
+      "type": "Vehicle",
+      "name": "'67 Vapid Dominator Buggy",
+      "desc": "Vapid's other way into the mud: a '67 fastback lifted onto lug tires."
     }
   ],
   "sidebarDatabase": [

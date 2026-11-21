@@ -11,7 +11,7 @@
     "ogImage": "https://gtavitips.com/assets/images/grotti-cheetah-gta-6-vehicle-01.jpg",
     "jsonLdHeadline": "'95 Grotti Cheetah - GTA 6 Vehicle",
     "jsonLdDescription": "The '95 Grotti Cheetah is a mid-engine Italian supercar in GTA 6 Leonida. Ultimate Edition exclusive, based on the Ferrari F355.",
-    "dateModified": "2026-11-20"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "The Cheetah does not negotiate. **Mid-engine, rear-wheel drive, and a V8 that sounds like it has opinions.** The '95 spec is the one people actually wanted. Before the lawyers got involved.",
   "heroImage": {
@@ -95,6 +95,12 @@
       "type": "Vehicle",
       "name": "Pegassi Zentorno",
       "desc": "Rival hypercar energy from across town."
+    },
+    {
+      "url": "/gameplay/vehicles/vapid-ganado",
+      "type": "Vehicle",
+      "name": "'70 Vapid Ganado",
+      "desc": "Fellow Ultimate Edition extra. The Ganado gets a Retro Build kit instead of a new car."
     }
   ],
   "sidebarDatabase": [

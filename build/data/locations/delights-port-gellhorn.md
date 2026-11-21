@@ -11,7 +11,8 @@
     "ogImagePlaceholder": "delights-port-gellhorn-gta-6-location.jpg",
     "jsonLdHeadline": "Delights Port Gellhorn - GTA 6 Location",
     "jsonLdDescription": "Delights Port Gellhorn in GTA 6: the primary social venue serving Port Gellhorn.",
-    "dateModified": "2026-11-21"
+    "dateModified": "2026-11-21",
+    "ogImage": "https://gtavitips.com/assets/images/delights-port-gellhorn-gta-6-location-01.jpg"
   },
   "heroSubtitle": "The place to be in Port Gellhorn. **Which is not the most competitive title in Leonida, but the venue holds it without embarrassment.**",
   "statBlock": [
@@ -130,7 +131,13 @@
       ]
     }
   ],
-  "sidebarAriaLabel": "Location navigation"
+  "sidebarAriaLabel": "Location navigation",
+  "heroImage": {
+    "src": "/assets/images/delights-port-gellhorn-gta-6-location-01.jpg",
+    "alt": "Dancer on stage under the Delights Cabaret neon sign in Port Gellhorn, GTA 6",
+    "width": "1920",
+    "height": "1080"
+  }
 }
 ---
 Delights Port Gellhorn serves the Port Gellhorn workforce. Not the [Vice City](/gameplay/locations/vice-city) tourist demographic. Not the [Ocean Beach](/gameplay/locations/ocean-beach) crowd. The people who work the docks and the warehouses and the logistics corridor between Port Gellhorn and the Kelly County interior. **This is the venue those people go to when the shift ends.**

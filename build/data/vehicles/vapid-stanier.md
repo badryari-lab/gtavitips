@@ -91,6 +91,12 @@
       "type": "Property",
       "name": "Shore Court",
       "desc": "The pre-order property the '55 Stanier is delivered to. Straight to the garage."
+    },
+    {
+      "url": "/gameplay/vehicles/vapid-ganado",
+      "type": "Vehicle",
+      "name": "'70 Vapid Ganado",
+      "desc": "Another old Vapid in the bonus lineup. Jason's 1970 coupe pickup."
     }
   ],
   "sidebarDatabase": [

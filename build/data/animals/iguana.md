@@ -9,13 +9,13 @@
     "ogDescription": "The Green Iguana in GTA 6: an invasive, harmless suburban reptile on Vice City fences, canal banks, and gardens.",
     "jsonLdHeadline": "Green Iguana – GTA 6 Animal Profile",
     "jsonLdDescription": "The Green Iguana in GTA 6: an invasive, harmless suburban reptile on Vice City fences, canal banks, and gardens.",
-    "dateModified": "2026-02-01",
-    "ogImage": "https://gtavitips.com/assets/images/leonida-keys-gta-6-location-02.jpg"
+    "dateModified": "2026-11-21",
+    "ogImage": "https://gtavitips.com/assets/images/iguana-gta-6-animal-01.jpg"
   },
   "heroSubtitle": "On every fence, every wall, every warm surface in [Vice City](/gameplay/locations/vice-city)'s southern suburbs. **Not supposed to be here either. Has been here long enough to stop caring about that.**",
   "heroImage": {
-    "src": "/assets/images/leonida-keys-gta-6-location-02.jpg",
-    "alt": "Green Iguana in GTA 6, Vice City suburbs",
+    "src": "/assets/images/iguana-gta-6-animal-01.jpg",
+    "alt": "Green iguana on a rock above the water in the Leonida Keys, GTA 6",
     "width": "1920",
     "height": "1080"
   },

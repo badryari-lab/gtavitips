@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "vapid-liberator-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Vapid Liberator - GTA 6 Vehicle",
     "jsonLdDescription": "The Vapid Liberator is a monster truck in GTA 6 Leonida. F-150 body on a monster truck chassis.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "The monster truck. **The Vapid F-150 body on a monster truck chassis, driven over things that normal vehicles drive around.**",
   "statBlock": [
@@ -56,6 +56,12 @@
       "type": "Activity",
       "name": "Mudding",
       "desc": "The off-road activity context."
+    },
+    {
+      "url": "/gameplay/vehicles/vapid-dominator-buggy",
+      "type": "Vehicle",
+      "name": "'67 Vapid Dominator Buggy",
+      "desc": "Same brand, smaller scale. A sixties muscle car raised for the backwoods."
     }
   ],
   "sidebarDatabase": [

@@ -11,7 +11,8 @@
     "ogImagePlaceholder": "downtown-vice-city-gta-6-location.jpg",
     "jsonLdHeadline": "Downtown Vice City - GTA 6 Location",
     "jsonLdDescription": "Downtown Vice City in GTA 6: the towers on the bay, east of Little Cuba and north of I-397, facing Vice Beach across the water.",
-    "dateModified": "2026-11-21"
+    "dateModified": "2026-11-21",
+    "ogImage": "https://gtavitips.com/assets/images/downtown-vice-city-gta-6-location-01.jpg"
   },
   "heroSubtitle": "The skyline. **Glass, money and the bay right outside the window.** Everything in [Vice City](/gameplay/locations/vice-city) looks up at this part of town.",
   "statBlock": [
@@ -131,7 +132,13 @@
       ]
     }
   ],
-  "sidebarAriaLabel": "Location navigation"
+  "sidebarAriaLabel": "Location navigation",
+  "heroImage": {
+    "src": "/assets/images/downtown-vice-city-gta-6-location-01.jpg",
+    "alt": "Downtown Vice City skyline lit up at night, GTA 6",
+    "width": "1920",
+    "height": "1080"
+  }
 }
 ---
 Downtown is the bit of [Vice City](/gameplay/locations/vice-city) you see from the water. It sits on the bay, with [Little Cuba](/gameplay/locations/little-cuba) on its west side, Crosstown and FLAM to the north and Tequesta to the south.
