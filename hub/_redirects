@@ -139,7 +139,7 @@
 /faq/what-radio-stations-are-confirmed               /news/gta-6-radio-stations                         301
 /gameplay/animals/prolaps                            /gameplay/brands/prolaps                             301
 /jack-of-hearts                                      /gameplay/locations/jack-of-hearts                   301
-/brian-s-boat-works---marina                         /gameplay/locations/brians-boat-workshop             301
+/brian-s-boat-works---marina                         /gameplay/locations/brians-boat-works-and-marina             301
 /feed/rss2                                           /feed.xml                                            301
 
 # --- Post-launch renames (Nov 20 2026): in-game brand and model names ---
@@ -179,6 +179,12 @@
 
 # --- FAQ retirement (Nov 20 2026) ---
 /faq/when-can-you-pre-load-gta-6                  /faq/gta-6-download-size                      301
+
+# --- Rename (Nov 21 2026): in-game business name ---
+/gameplay/locations/brians-boat-workshop          /gameplay/locations/brians-boat-works-and-marina    301
+
+# --- Moved (Nov 21 2026): High Rollerz is a magazine, not a faction ---
+/gameplay/gangs-and-factions/high-rollerz         /gameplay/brands/high-rollerz                       301
 
 # --- Dynamic (splat) rules: keep at the very bottom. Cloudflare counts every rule after the first dynamic one as dynamic (limit 100). ---
 /gameplay/character/*                     /gameplay/characters/:splat               301

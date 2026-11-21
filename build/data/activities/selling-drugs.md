@@ -34,9 +34,9 @@
       "avatarInitials": "BH"
     },
     {
-      "url": "/gameplay/locations/brians-boat-workshop",
+      "url": "/gameplay/locations/brians-boat-works-and-marina",
       "role": "Location",
-      "name": "Brian's Boat Workshop",
+      "name": "Brian's Boat Works &amp; Marina",
       "desc": "Brian's boat yard in the Keys. Product still moves through it.",
       "avatarInitials": "BW"
     },

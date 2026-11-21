@@ -6,7 +6,6 @@
       "title": "Criminal Organizations",
       "items": [
         { "url": "/gameplay/gangs-and-factions/7x",                    "label": "Gang",   "color": "#f472b6", "name": "7X",                    "desc": "Street-level presence across Vice City districts." },
-        { "url": "/gameplay/gangs-and-factions/high-rollerz",          "label": "Racers", "color": "#a3e635", "name": "High Rollerz",          "desc": "Underground racing crew in Vice City circuits." },
         { "url": "/gameplay/gangs-and-factions/leonida-cartel",        "label": "Cartel", "color": "#ef4444", "name": "Leonida Cartel",        "desc": "The dominant cartel. Product runs through the port corridor." },
         { "url": "/gameplay/gangs-and-factions/outlaw-motorcycle-gang","label": "Biker",  "color": "#f97316", "name": "Outlaw Motorcycle Gang","desc": "Biker gang. Rural and highway Leonida." },
         { "url": "/gameplay/gangs-and-factions/ptt-youngins",         "label": "Gang",   "color": "#f472b6", "name": "PTT YOUNGIN$",          "desc": "Leonida street gang. Their compound is a confirmed Ultimate Edition raid target." },

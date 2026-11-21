@@ -153,8 +153,8 @@
           "label": "Cal Hampton"
         },
         {
-          "url": "/gameplay/locations/brians-boat-workshop",
-          "label": "Brian's Boat Workshop"
+          "url": "/gameplay/locations/brians-boat-works-and-marina",
+          "label": "Brian's Boat Works &amp; Marina"
         },
         {
           "url": "/gameplay/locations/leonida-keys",

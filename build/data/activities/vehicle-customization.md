@@ -110,7 +110,7 @@
 ---
 Vehicle customization in Leonida is the most comprehensive modification system the city has had. Performance modifications (engine, suspension, brakes, drivetrain) affect vehicle handling and speed in ways that carry into racing, mudding, mountain drifting, and every driving-intensive activity. Visual modifications (paint, body kits, wheels, interior) affect the vehicle's social register and its recognition profile.
 
-The [Vice City](/gameplay/locations/vice-city) car culture context makes customization more than mechanical preparation. **The High Rollerz circuit has an aesthetic as well as a performance tier.** A street takeover has vehicle requirements that go beyond raw speed. The modification shop is the point where the protagonist's vehicles become tuned to the specific activity they will be used for.
+The [Vice City](/gameplay/locations/vice-city) car culture context makes customization more than mechanical preparation. **The scene has an aesthetic as well as a performance tier.** A street takeover has vehicle requirements that go beyond raw speed. The modification shop is the point where the protagonist's vehicles become tuned to the specific activity they will be used for.
 
 The modification categories span performance and cosmetic options. **Performance modifications directly affect in-game vehicle physics**: turbo increases top speed and acceleration, suspension changes handling characteristics, armoring increases durability. Visual modifications have no performance effect but affect NPC reaction and certain mission dynamics where vehicle recognition matters.
 

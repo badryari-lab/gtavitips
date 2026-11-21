@@ -33,7 +33,7 @@
       "eyebrow": "Businesses & Landmarks",
       "title": "Landmarks",
       "items": [
-        { "url": "/gameplay/locations/brians-boat-workshop",   "label": "Business",   "color": "#60a5fa", "name": "Brian's Boat Workshop",  "desc": "Brian Heder's boat yard in the Leonida Keys." },
+        { "url": "/gameplay/locations/brians-boat-works-and-marina",   "label": "Business",   "color": "#60a5fa", "name": "Brian's Boat Works & Marina",  "desc": "Brian Heder's boat yard in the Leonida Keys." },
         { "url": "/gameplay/locations/delights-port-gellhorn", "label": "Business",   "color": "#60a5fa", "name": "Delights Port Gellhorn", "desc": "Venue in the Port Gellhorn corridor." },
         { "url": "/gameplay/locations/effluvia",               "label": "Rooftop Bar","color": "#fb7185", "name": "Effluvia",               "desc": "Rooftop club high above Vice City. Signage that can't spell its own name." },
         { "url": "/gameplay/locations/jack-of-hearts",         "label": "Strip Club", "color": "#f472b6", "name": "Jack of Hearts",         "desc": "Adult entertainment. Vice City." },

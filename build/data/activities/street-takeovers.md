@@ -61,8 +61,8 @@
   "faq": [
     {
       "q": "Are street takeovers organized or spontaneous?",
-      "a": "**Both.** The High Rollerz network organizes formal events. Spontaneous takeovers happen when the right roads and the right cars appear at the same time. Both are part of the activity.",
-      "aPlain": "Both. The High Rollerz network organizes formal events. Spontaneous takeovers happen when the right roads and the right cars appear at the same time. Both are part of the activity."
+      "a": "**Both.** Some are set up by the crews that bring the cars. Others happen when the right roads and the right cars end up in the same place at the same time.",
+      "aPlain": "Both. Some are set up by the crews that bring the cars. Others happen when the right roads and the right cars end up in the same place at the same time."
     },
     {
       "q": "What is the wanted level risk?",
@@ -70,9 +70,9 @@
       "aPlain": "Significant. Closing a public road in Vice City is not something law enforcement ignores. The wanted level risk scales with duration, location, and visibility of the takeover."
     },
     {
-      "q": "Is this connected to the High Rollerz crew?",
-      "a": "**Yes.** The High Rollerz run both the formal racing circuit and the street takeover scene. They are the organizational layer behind both activities.",
-      "aPlain": "Yes. The High Rollerz run both the formal racing circuit and the street takeover scene. They are the organizational layer behind both activities."
+      "q": "Do the High Rollerz run the takeovers?",
+      "a": "**No.** [High Rollerz](/gameplay/brands/high-rollerz) is a car magazine, not a crew. It covers the scene. The takeovers belong to whoever brings the cars.",
+      "aPlain": "No. High Rollerz is a car magazine, not a crew. It covers the scene. The takeovers belong to whoever brings the cars."
     }
   ],
   "sidebarDatabase": [

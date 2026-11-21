@@ -51,7 +51,7 @@
       "url": "/gameplay/activities/racing",
       "type": "Activity",
       "name": "Racing",
-      "desc": "The High Rollerz circuit. This car competes."
+      "desc": "Street racing across Vice City. This car competes."
     },
     {
       "url": "/gameplay/brands/annis",

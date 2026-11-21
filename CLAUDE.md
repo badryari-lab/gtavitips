@@ -353,7 +353,7 @@ When a better image is found for a ⚠ category, update it on the homepage card 
 - **In-game counts (IGN Official Guide, Reported):** 53 guns + 9 melee + 4 explosives standard issue, ~129 unique weapon variants; 277 base vehicles in 18 classes + 281 standout vehicles; 255 animals; 91 story missions in 5 chapters. Weapon names are brand + model (Girardi ES9, Klose K17, Duke 556), sold at Ammu-Nation (26 stores, Standard/Expanded/Hunting stock).
 - **Database size:** 301 entries across 8 categories, plus 26 FAQ pages and 35 news articles (as of July 2026)
 - **Key confirmed locations:** Vice City, South Beach, Leonida Keys, Port Gellhorn, Grassrivers, Mount Kalaga, Lake Leonida, Red Hill Forest
-- **Key confirmed factions:** 7X (dominant Vice City street gang), High Rollerz (car culture crew), Brute Security, VCPD, VCSO, Leonida State Police, NOOSE
+- **Key confirmed factions:** 7X (dominant Vice City street gang), Brute Security, VCPD, VCSO, Leonida State Police, NOOSE
 - **Interactive map:** In development, targeting November 19, 2026 launch day release
 
 ## Standing workflows (always follow these step orders)

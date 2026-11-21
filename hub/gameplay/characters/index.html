@@ -345,39 +345,6 @@
           document.querySelectorAll('#characters-grid .reveal').forEach(function(el){ro.observe(el)});
         });
     })();
-        // ── CHARACTERS GRID ──
-    (function(){
-      var grid=document.getElementById('characters-grid');
-      if(!grid)return;
-            function splitTitle(t){
-        t=String(t).trim();var w=t.split(/\s+/).filter(Boolean),n=w.length;
-        if(n<=1)return t;
-        var s='<span style="color:var(--blue)">';
-        if(t.indexOf('&')!==-1){var m=t.match(/^(.*?)\s*(&.+)$/);if(m&&m[1])return m[1]+' '+s+m[2]+'</span>';return t;}
-        if(t.indexOf(':')!==-1){var m=t.match(/^(.+?:)\s*(.+)$/);if(m)return m[1]+' '+s+m[2]+'</span>';}
-        var wc=Math.ceil(n/2);return w.slice(0,wc).join(' ')+' '+s+w.slice(wc).join(' ')+'</span>';
-      }
-      fetch('/assets/data/characters.json')
-        .then(function(r){return r.json()})
-        .then(function(data){
-          var html='';
-          (data.sections||[]).forEach(function(sec){
-            html+='<section class="index-section reveal" aria-labelledby="'+sec.id+'">'
-                 +''
-                 +'<h2 class="index-section__h2" id="'+sec.id+'">'+splitTitle(sec.title)+'</h2>'
-                 +'<div class="card-grid" role="list">';
-            (sec.items||[]).forEach(function(item){
-              html+='<a href="'+item.url+'" class="entry-card" role="listitem">'
-                   +'<div class="entry-card__name">'+item.name+'</div>'
-                   +'<div class="entry-card__desc">'+item.desc+'</div>'
-                   +'</a>';
-            });
-            html+='</div></section>';
-          });
-          grid.innerHTML=html;
-          document.querySelectorAll('#characters-grid .reveal').forEach(function(el){ro.observe(el)});
-        });
-    })();
   </script>
 
   <!-- COOKIE CONSENT BANNER -->

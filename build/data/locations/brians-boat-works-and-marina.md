@@ -1,17 +1,17 @@
 {
-  "slug": "brians-boat-workshop",
+  "slug": "brians-boat-works-and-marina",
   "titleParts": [
     "Brian's Boat",
-    "Workshop"
+    "Works &amp; Marina"
   ],
   "seo": {
-    "title": "Brian's Boat Workshop | GTA 6 Leonida | GTAVITIPS",
-    "description": "Brian's Boat Workshop in GTA 6: Brian Heder's boat yard in the Leonida Keys, where the repairs are real and product still moves.",
-    "ogDescription": "Brian's Boat Workshop in GTA 6: Brian Heder's boat yard in the Leonida Keys, where the repairs are real and product still moves.",
-    "ogImagePlaceholder": "brians-boat-workshop-gta-6-location.jpg",
-    "jsonLdHeadline": "Brian's Boat Workshop - GTA 6 Location",
-    "jsonLdDescription": "Brian's Boat Workshop in GTA 6: Brian Heder's boat yard in the Leonida Keys, where the repairs are real and product still moves.",
-    "dateModified": "2026-11-20"
+    "title": "Brian's Boat Works &amp; Marina | GTA 6 Leonida | GTAVITIPS",
+    "description": "Brian's Boat Works &amp; Marina in GTA 6: Brian Heder's boat yard in the Leonida Keys, where the repairs are real and product still moves.",
+    "ogDescription": "Brian's Boat Works &amp; Marina in GTA 6: Brian Heder's boat yard in the Leonida Keys, where the repairs are real and product still moves.",
+    "ogImagePlaceholder": "brians-boat-works-and-marina-gta-6-location.jpg",
+    "jsonLdHeadline": "Brian's Boat Works & Marina - GTA 6 Location",
+    "jsonLdDescription": "Brian's Boat Works & Marina in GTA 6: Brian Heder's boat yard in the Leonida Keys, where the repairs are real and product still moves.",
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "Boat yard in the Leonida Keys. **Brian Heder's operation.** The boats that come in are not all there for the reason written on the work order.",
   "statBlock": [
@@ -76,11 +76,11 @@
   ],
   "faq": [
     {
-      "q": "What is Brian's Boat Workshop?",
+      "q": "What is Brian's Boat Works &amp; Marina?",
       "a": "[Brian Heder](/gameplay/characters/brian-heder)'s boat yard in the [Leonida Keys](/gameplay/locations/leonida-keys). Boats come in, boats go out. What's on them is a separate conversation."
     },
     {
-      "q": "Where is Brian's Boat Workshop?",
+      "q": "Where is Brian's Boat Works &amp; Marina?",
       "a": "In the [Leonida Keys](/gameplay/locations/leonida-keys), right on the water, where Brian has run product since the golden age of smuggling."
     },
     {
@@ -135,7 +135,7 @@
   "sidebarAriaLabel": "Location navigation"
 }
 ---
-Brian's Boat Workshop is [Brian Heder](/gameplay/characters/brian-heder)'s boat yard in the [Leonida Keys](/gameplay/locations/leonida-keys). The business is boat repair. **The boats that come through are a mix of fishing boats, weekend cruisers, and the kind that wants work done away from the main channels with a minimum of questions.**
+Brian's Boat Works &amp; Marina is [Brian Heder](/gameplay/characters/brian-heder)'s boat yard in the [Leonida Keys](/gameplay/locations/leonida-keys). The business is boat repair. **The boats that come through are a mix of fishing boats, weekend cruisers, and the kind that wants work done away from the main channels with a minimum of questions.**
 
 Brian has run product through the Keys since the golden age of smuggling, and the yard is where it still moves. So do the rent money, the favors and whatever his people bring back. He sets it up. Somebody else does the lifting.
 
