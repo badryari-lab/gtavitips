@@ -57,9 +57,9 @@
       "desc": "The county jurisdiction within which Shrewsbury is administratively located."
     },
     {
-      "url": "/gameplay/locations/north-beaches",
+      "url": "/gameplay/locations/washington-beach",
       "type": "Coastal Area",
-      "name": "North Beaches",
+      "name": "Washington Beach",
       "desc": "The northern coastal zone of Vice City. Potentially adjacent to Shrewsbury's urban position."
     },
     {

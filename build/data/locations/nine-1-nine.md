@@ -58,9 +58,9 @@
       "desc": "The metropolitan context for the nightlife district."
     },
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "type": "Coastal Area",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "The tourist strip adjacent to the Vice City entertainment district."
     },
     {
@@ -139,6 +139,6 @@ Vice City clubs work the way they always have here: mission location, money move
 %%%GROUND%%%
 The club environment creates the specific operational conditions that [Vice City](/gameplay/locations/vice-city) nightlife has always provided. High ambient noise, controlled entry, and a clientele that is not inclined to cooperate with law enforcement on anything that happens inside.
 
-**Nine 1 Nine's exact position in the Vice City nightlife district determines which entrance and exit routes apply.** The district grid is consistent with [South Beach](/gameplay/locations/south-beach) and the adjacent entertainment corridor.
+**Nine 1 Nine's exact position in the Vice City nightlife district determines which entrance and exit routes apply.** The district grid is consistent with [Ocean Beach](/gameplay/locations/ocean-beach) and the adjacent entertainment corridor.
 
 More will surface on the layout once it does. For now, that's the read.

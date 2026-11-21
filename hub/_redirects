@@ -196,6 +196,10 @@
 /faq/will-gta-6-support-rp-servers                /faq/is-gta-6-coming-to-pc                          301
 /faq/will-gta-6-support-roleplay-servers          /faq/is-gta-6-coming-to-pc                          301
 
+# --- Renames (Nov 21 2026): names from Rockstar's official map ---
+/gameplay/locations/south-beach                   /gameplay/locations/ocean-beach                     301
+/gameplay/locations/north-beaches                 /gameplay/locations/washington-beach                301
+
 # --- Dynamic (splat) rules: keep at the very bottom. Cloudflare counts every rule after the first dynamic one as dynamic (limit 100). ---
 /gameplay/character/*                     /gameplay/characters/:splat               301
 /gameplay/vehicle/*                       /gameplay/vehicles/:splat                 301

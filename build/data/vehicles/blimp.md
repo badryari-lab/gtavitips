@@ -95,4 +95,4 @@ The blimp is the [Vice City](/gameplay/locations/vice-city) sky fixture. Large e
 
 As a vehicle the blimp is the opposite of everything the Vice City vehicle roster values. Slow, enormous, impossible to land anywhere convenient, and audible from the gondola as the engines work against whatever the wind is doing. **It is also the most spectacular way to cross Vice City at low speed.**
 
-From the gondola, the Vice City grid is visible in its entirety. The [South Beach](/gameplay/locations/south-beach) strip, the downtown towers, the [Vice County](/gameplay/locations/vice-county) suburban fringe, and the Keys in the distance when the conditions are clear. No other vehicle provides this view at this altitude without the noise floor of a helicopter.
+From the gondola, the Vice City grid is visible in its entirety. The [Ocean Beach](/gameplay/locations/ocean-beach) strip, the downtown towers, the [Vice County](/gameplay/locations/vice-county) suburban fringe, and the Keys in the distance when the conditions are clear. No other vehicle provides this view at this altitude without the noise floor of a helicopter.

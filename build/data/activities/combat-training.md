@@ -44,9 +44,9 @@
       }
     },
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "role": "Location",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "The gym district. MMA, boxing, martial arts. The full Vice City combat training range.",
       "avatarImage": {
         "src": "/assets/images/vice-city-gta-6-location-05.jpg"

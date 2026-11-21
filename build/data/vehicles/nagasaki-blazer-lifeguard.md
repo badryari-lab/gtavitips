@@ -46,9 +46,9 @@
       "desc": "The four-wheel drive lifeguard SUV."
     },
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "type": "Location",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "The primary operating environment."
     },
     {
@@ -92,7 +92,7 @@
   ]
 }
 ---
-The Blazer Lifeguard is the beach rescue ATV. The [South Beach](/gameplay/locations/south-beach) tourist corridor generates the demand: a dense concentration of people in a geography where conventional emergency vehicles are slower than they need to be. The ATV reaches beach incidents faster.
+The Blazer Lifeguard is the beach rescue ATV. The [Ocean Beach](/gameplay/locations/ocean-beach) tourist corridor generates the demand: a dense concentration of people in a geography where conventional emergency vehicles are slower than they need to be. The ATV reaches beach incidents faster.
 
 The orange livery marks it at distance. The equipment mount carries the gear that a lifeguard response requires. **The beach surface is the vehicle's optimal terrain.** Sand, light vegetation, and the compacted surface at the waterline.
 

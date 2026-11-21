@@ -33,9 +33,9 @@
   "gallery": [],
   "connections": [
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "type": "Location",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "The beach rental context."
     },
     {

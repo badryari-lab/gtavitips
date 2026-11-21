@@ -881,7 +881,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/locations/vice-county</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -922,14 +922,14 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/locations/north-beaches</loc>
-    <lastmod>2026-10-19</lastmod>
+    <loc>https://gtavitips.com/gameplay/locations/washington-beach</loc>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/locations/south-beach</loc>
-    <lastmod>2026-10-25</lastmod>
+    <loc>https://gtavitips.com/gameplay/locations/ocean-beach</loc>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1642,7 +1642,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/map</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -54,9 +54,9 @@
       "desc": "The domestic luxury alternative."
     },
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "type": "Location",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "Where the Jubilee parks."
     }
   ],

@@ -13,7 +13,7 @@
     "jsonLdDescription": "The Brute Shuttle Bus is a shuttle bus in GTA 6 Leonida. Hotel and airport transfer vehicle in Vice City.",
     "dateModified": "2026-02-01"
   },
-  "heroSubtitle": "The hotel shuttle. **Circulating between [Vice City](/gameplay/locations/vice-city) International and the [South Beach](/gameplay/locations/south-beach) hotels, carrying the tourist economy's human cargo on a route it runs eight times daily.**",
+  "heroSubtitle": "The hotel shuttle. **Circulating between [Vice City](/gameplay/locations/vice-city) International and the [Ocean Beach](/gameplay/locations/ocean-beach) hotels, carrying the tourist economy's human cargo on a route it runs eight times daily.**",
   "statBlock": [
     {
       "key": "Brand",
@@ -92,7 +92,7 @@
   ]
 }
 ---
-The Brute Shuttle Bus is the airport-to-hotel connection. The [Vice City](/gameplay/locations/vice-city) tourism economy requires this infrastructure: guests arrive at Vice City International and need to reach the [South Beach](/gameplay/locations/south-beach) hotels without hiring a vehicle or using the road network independently.
+The Brute Shuttle Bus is the airport-to-hotel connection. The [Vice City](/gameplay/locations/vice-city) tourism economy requires this infrastructure: guests arrive at Vice City International and need to reach the [Ocean Beach](/gameplay/locations/ocean-beach) hotels without hiring a vehicle or using the road network independently.
 
 The shuttle circulates on a fixed schedule. The driver knows the route in the way that a person who has driven it eight times daily for two years knows a route: completely, and with the specific shortcuts and timing windows that the general public does not know.
 

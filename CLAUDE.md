@@ -38,7 +38,7 @@ hub/
 ├── about/index.html
 ├── faq/index.html
 ├── intel-drops/index.html  # Database changelog
-├── map/index.html          # Interactive map (in development, launch day)
+├── map/index.html          # Official Rockstar map image (Nov 21 2026); interactive map in development
 ├── news/                   # News articles (one folder per article)
 ├── gameplay/               # Main database
 │   ├── index.html          # Database hub
@@ -352,9 +352,10 @@ When a better image is found for a ⚠ category, update it on the homepage card 
 - **Release date:** released November 19, 2026 (Newswire "Grand Theft Auto VI Now Available") — PS5 and Xbox Series X/S only. No PC date confirmed.
 - **In-game counts (IGN Official Guide, Reported):** 53 guns + 9 melee + 4 explosives standard issue, ~129 unique weapon variants; 277 base vehicles in 18 classes + 281 standout vehicles; 255 animals; 91 story missions in 5 chapters. Weapon names are brand + model (Girardi ES9, Klose K17, Duke 556), sold at Ammu-Nation (26 stores, Standard/Expanded/Hunting stock).
 - **Database size:** 301 entries across 8 categories, plus 26 FAQ pages and 35 news articles (as of July 2026)
-- **Key confirmed locations:** Vice City, South Beach, Leonida Keys, Port Gellhorn, Grassrivers, Mount Kalaga, Lake Leonida, Red Hill Forest
+- **Key confirmed locations:** Vice City, Ocean Beach, Leonida Keys, Port Gellhorn, Grassrivers, Mount Kalaga, Lake Leonida, Red Hill Forest
+- **Place names follow Rockstar's official map (agreed with Badr Nov 21 2026):** when a pre-launch name differs from the map, rename the page to the map name with a 301 (South Beach became Ocean Beach, North Beaches became Washington Beach). Exception for search: the county page keeps the URL `/gameplay/locations/vice-county` and is titled Vice-Dale County with "Vice County" alongside, so it ranks for both. Shrewsbury and Yorktown (not on the map) stay as they are for now.
 - **Key confirmed factions:** 7X (dominant Vice City street gang), Brute Security, VCPD, VCSO, Leonida State Police, NOOSE
-- **Interactive map:** In development, targeting November 19, 2026 launch day release
+- **Map:** /map shows Rockstar's official "Great State of Leonida" map (released at launch, five counties: Lummox, Kelly, Leonard, Vice-Dale, Mariana) as a static image since Nov 21 2026; the interactive map is in development, no date
 
 ## Standing workflows (always follow these step orders)
 

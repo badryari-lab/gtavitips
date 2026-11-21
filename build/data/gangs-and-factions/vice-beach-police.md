@@ -41,15 +41,15 @@
       "desc": "The municipal force. Vice Beach Police escalate to VCPD backup when incidents exceed beach patrol capacity."
     },
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "type": "Location",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "The primary jurisdiction. The Art Deco tourist strip the Vice Beach Police patrol."
     },
     {
-      "url": "/gameplay/locations/north-beaches",
+      "url": "/gameplay/locations/washington-beach",
       "type": "Location",
-      "name": "North Beaches",
+      "name": "Washington Beach",
       "desc": "Northern coastal jurisdiction. Beach patrol coverage extends up the Vice City waterfront."
     },
     {

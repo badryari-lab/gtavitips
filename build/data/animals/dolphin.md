@@ -91,8 +91,8 @@
           "label": "Vice City Coastal"
         },
         {
-          "url": "/gameplay/locations/south-beach",
-          "label": "South Beach"
+          "url": "/gameplay/locations/ocean-beach",
+          "label": "Ocean Beach"
         }
       ]
     },

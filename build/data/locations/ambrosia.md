@@ -78,7 +78,7 @@
   "faq": [
     {
       "q": "What is Ambrosia?",
-      "a": "A Leonida neighborhood with its own distinct character. Away from the South Beach circuit, less about the show, more about what actually keeps the city running."
+      "a": "A Leonida neighborhood with its own distinct character. Away from the Ocean Beach circuit, less about the show, more about what actually keeps the city running."
     },
     {
       "q": "Where is Ambrosia in Leonida?",

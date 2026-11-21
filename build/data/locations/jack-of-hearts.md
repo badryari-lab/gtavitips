@@ -71,9 +71,9 @@
       "desc": "The metropolitan context for the entertainment district."
     },
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "type": "Coastal Area",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "The tourist strip adjacent to the entertainment district."
     }
   ],

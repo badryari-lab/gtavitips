@@ -96,6 +96,6 @@
 ---
 The Zurrusso carries the Pegassi name onto two wheels, which means the performance is there and the margin for error is the margin that two wheels provides rather than four. The Ducati Panigale profile is unmistakeable: full fairing, aggressive forward riding position, and the engine arrangement that puts the heat of a superbike engine directly against the rider's legs.
 
-**In [Vice City](/gameplay/locations/vice-city), the Zurrusso navigates gaps that no four-wheel vehicle can use.** The lane splitting between gridlocked [South Beach](/gameplay/locations/south-beach) traffic, the access routes through the side streets that require a narrow profile. The bike is faster than almost everything in a straight line and faster than everything in traffic.
+**In [Vice City](/gameplay/locations/vice-city), the Zurrusso navigates gaps that no four-wheel vehicle can use.** The lane splitting between gridlocked [Ocean Beach](/gameplay/locations/ocean-beach) traffic, the access routes through the side streets that require a narrow profile. The bike is faster than almost everything in a straight line and faster than everything in traffic.
 
 The handling demands respect. A superbike at its performance limit is communicating through a smaller contact patch than any car. The Vice City street surface, with its kerbs and intersections and the unpredictability of tourist pedestrian traffic, creates the specific challenge that a Zurrusso rider navigates constantly.

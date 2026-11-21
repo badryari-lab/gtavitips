@@ -94,6 +94,6 @@
 ---
 The Pegassi Speeder brings the brand's performance philosophy to [Vice City](/gameplay/locations/vice-city)'s water network. The Keys provide the territory: open channels, clear water, and the straight runs between the islands where the Speeder's twin engines are relevant. **On open water the Speeder covers distance faster than law enforcement marine patrol can match.**
 
-The Vice City waterfront adds the social dimension. Arriving by Pegassi speedboat at a Keys marina communicates the same set of facts as arriving by Zentorno at a [South Beach](/gameplay/locations/south-beach) valet stand. The brand coherence is intentional.
+The Vice City waterfront adds the social dimension. Arriving by Pegassi speedboat at a Keys marina communicates the same set of facts as arriving by Zentorno at a [Ocean Beach](/gameplay/locations/ocean-beach) valet stand. The brand coherence is intentional.
 
 The hull design handles Vice City's coastal chop and the calmer Keys backcountry water differently. Open water favors the Speeder. The narrow mangrove channels require the handling adjustments that come with a performance hull at low speed.

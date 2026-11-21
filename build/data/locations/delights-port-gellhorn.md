@@ -129,7 +129,7 @@
   "sidebarAriaLabel": "Location navigation"
 }
 ---
-Delights Port Gellhorn serves the Port Gellhorn workforce. Not the [Vice City](/gameplay/locations/vice-city) tourist demographic. Not the [South Beach](/gameplay/locations/south-beach) crowd. The people who work the docks and the warehouses and the logistics corridor between Port Gellhorn and the Vice County interior. **This is the venue those people go to when the shift ends.**
+Delights Port Gellhorn serves the Port Gellhorn workforce. Not the [Vice City](/gameplay/locations/vice-city) tourist demographic. Not the [Ocean Beach](/gameplay/locations/ocean-beach) crowd. The people who work the docks and the warehouses and the logistics corridor between Port Gellhorn and the Vice County interior. **This is the venue those people go to when the shift ends.**
 
 The name suggests a certain kind of establishment. Port towns in real Florida, and in Leonida too, have always had this category of venue: adult entertainment adjacent, cash-operating, and useful as a social environment for people who work irregular hours in physical jobs and have cash in their pockets at the end of a shift.
 

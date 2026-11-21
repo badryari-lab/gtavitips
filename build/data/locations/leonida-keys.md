@@ -78,9 +78,9 @@
       "desc": "The northern anchor of Leonida. The Keys extend south from the metropolitan base."
     },
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "type": "Coastal Area",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "The southern Vice City waterfront. The nearest urban zone to the Keys chain."
     },
     {

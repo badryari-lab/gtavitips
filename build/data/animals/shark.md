@@ -74,8 +74,8 @@
     },
     {
       "q": "Where do sharks appear in GTA 6?",
-      "a": "Open water past the surf break, off the Leonida Keys and the Vice City and South Beach coastlines. Extended time in deep water triggers the encounter.",
-      "aPlain": "Open water past the surf break, off the Leonida Keys and the Vice City and South Beach coastlines. Extended time in deep water triggers the encounter."
+      "a": "Open water past the surf break, off the Leonida Keys and the Vice City and Ocean Beach coastlines. Extended time in deep water triggers the encounter.",
+      "aPlain": "Open water past the surf break, off the Leonida Keys and the Vice City and Ocean Beach coastlines. Extended time in deep water triggers the encounter."
     }
   ],
   "sidebar": [
@@ -91,8 +91,8 @@
           "label": "Vice City Offshore"
         },
         {
-          "url": "/gameplay/locations/south-beach",
-          "label": "South Beach Offshore"
+          "url": "/gameplay/locations/ocean-beach",
+          "label": "Ocean Beach Offshore"
         }
       ]
     },

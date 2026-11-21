@@ -6,19 +6,19 @@
   ],
   "seo": {
     "title": "Malibu Club | GTA 6 Location Guide: Leonida | GTAVITIPS",
-    "description": "Malibu Club in GTA 6: the Vice City nightclub returning from the original game, a South Beach landmark.",
-    "ogDescription": "Malibu Club in GTA 6: the Vice City nightclub returning from the original game, a South Beach landmark.",
+    "description": "Malibu Club in GTA 6: the Vice City nightclub returning from the original game, a Ocean Beach landmark.",
+    "ogDescription": "Malibu Club in GTA 6: the Vice City nightclub returning from the original game, a Ocean Beach landmark.",
     "ogImagePlaceholder": "malibu-club-gta-6-location.jpg",
     "jsonLdHeadline": "Malibu Club - GTA 6 Location",
-    "jsonLdDescription": "Malibu Club in GTA 6: the Vice City nightclub returning from the original game, a South Beach landmark.",
+    "jsonLdDescription": "Malibu Club in GTA 6: the Vice City nightclub returning from the original game, a Ocean Beach landmark.",
     "dateModified": "2026-02-01"
   },
-  "heroSubtitle": "The original [Vice City](/gameplay/locations/vice-city) nightclub is back. **South Beach location, the neon, and the specific category of business arrangement that only works in a venue that has been operating long enough to have established relationships.**",
+  "heroSubtitle": "The original [Vice City](/gameplay/locations/vice-city) nightclub is back. **Ocean Beach location, the neon, and the specific category of business arrangement that only works in a venue that has been operating long enough to have established relationships.**",
   "statBlock": [
     {
       "key": "Type",
       "value": "Nightclub",
-      "sub": "Full nightclub operation on the [South Beach](/gameplay/locations/south-beach) strip. Returning from the original GTA Vice City."
+      "sub": "Full nightclub operation on the [Ocean Beach](/gameplay/locations/ocean-beach) strip. Returning from the original GTA Vice City."
     },
     {
       "key": "Heritage",
@@ -27,7 +27,7 @@
     },
     {
       "key": "Location",
-      "value": "South Beach",
+      "value": "Ocean Beach",
       "sub": "Vice City waterfront zone. Positioned within the Art Deco tourist corridor."
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "key": "Access",
-      "val": "[South Beach](/gameplay/locations/south-beach) approach. Ocean Drive frontage. Side street access from the tourist corridor grid."
+      "val": "[Ocean Beach](/gameplay/locations/ocean-beach) approach. Ocean Drive frontage. Side street access from the tourist corridor grid."
     },
     {
       "key": "Interior",
@@ -50,14 +50,14 @@
     },
     {
       "key": "Response",
-      "val": "South Beach [VCPD](/gameplay/gangs-and-factions/vcpd) intensity applies to the approach and exit. The interior is the club's own environment."
+      "val": "Ocean Beach [VCPD](/gameplay/gangs-and-factions/vcpd) intensity applies to the approach and exit. The interior is the club's own environment."
     }
   ],
   "connections": [
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "type": "Coastal Area",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "The tourist strip the Malibu Club operates within. Art Deco corridor, maximum foot traffic."
     },
     {
@@ -86,8 +86,8 @@
     },
     {
       "q": "Where is the Malibu Club?",
-      "a": "[South Beach](/gameplay/locations/south-beach) entertainment corridor, [Vice City](/gameplay/locations/vice-city). The sign is unmissable.",
-      "aPlain": "In Vice City, positioned within the South Beach entertainment district, adjacent to the nightlife corridor running through the tourist zone."
+      "a": "[Ocean Beach](/gameplay/locations/ocean-beach) entertainment corridor, [Vice City](/gameplay/locations/vice-city). The sign is unmissable.",
+      "aPlain": "In Vice City, positioned within the Ocean Beach entertainment district, adjacent to the nightlife corridor running through the tourist zone."
     },
     {
       "q": "Who runs the Malibu Club?",
@@ -141,14 +141,14 @@
   "sidebarAriaLabel": "Location navigation"
 }
 ---
-The Malibu Club is back. The original GTA Vice City version of this venue was one of the most mission-relevant locations in that game. The [South Beach](/gameplay/locations/south-beach) nightclub that Tommy Vercetti eventually took over, that served as a backdrop for multiple major story sequences, and that burned into the memory of anyone who played that game. **It returns in a [Vice City](/gameplay/locations/vice-city) that has grown around it.**
+The Malibu Club is back. The original GTA Vice City version of this venue was one of the most mission-relevant locations in that game. The [Ocean Beach](/gameplay/locations/ocean-beach) nightclub that Tommy Vercetti eventually took over, that served as a backdrop for multiple major story sequences, and that burned into the memory of anyone who played that game. **It returns in a [Vice City](/gameplay/locations/vice-city) that has grown around it.**
 
 What the Malibu Club means for Leonida is not just a location callback. It is a structural signal. The original Malibu was a venue, a front, and a mission hub simultaneously. The Malibu Club will serve the same function in the new Vice City context: the place where the nightlife economy and the mission economy overlap.
 
-The South Beach position means the club operates in the most visible and most surveilled part of Vice City. What happens inside it has a different character from what happens on the street outside.
+The Ocean Beach position means the club operates in the most visible and most surveilled part of Vice City. What happens inside it has a different character from what happens on the street outside.
 %%%GROUND%%%
-The Malibu Club is a landmark which means it is predictable. The location is known. The entrance is known. The people who use it regularly are known to the people who watch the [South Beach](/gameplay/locations/south-beach) strip. That visibility cuts both ways.
+The Malibu Club is a landmark which means it is predictable. The location is known. The entrance is known. The people who use it regularly are known to the people who watch the [Ocean Beach](/gameplay/locations/ocean-beach) strip. That visibility cuts both ways.
 
 **Inside the club, the ambient noise and the crowd density create a different operational environment from the street.** Conversations that cannot happen outside can happen inside. The management of the venue determines what else can happen inside.
 
-The South Beach location means the approach and exit routes are the South Beach routes: Ocean Drive, the promenade, and the side street grid behind the tourist corridor.
+The Ocean Beach location means the approach and exit routes are the Ocean Beach routes: Ocean Drive, the promenade, and the side street grid behind the tourist corridor.

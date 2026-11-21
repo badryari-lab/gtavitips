@@ -13,7 +13,7 @@
     "jsonLdDescription": "The Buckingham Supervolito is a luxury helicopter in GTA 6 Leonida. Based on the Leonardo AW139.",
     "dateModified": "2026-02-01"
   },
-  "heroSubtitle": "The luxury helicopter tier. **Twin-engine, faster than the Maverick, and the aircraft that arrives at the [South Beach](/gameplay/locations/south-beach) helipad when the person aboard cannot be seen taking a car.**",
+  "heroSubtitle": "The luxury helicopter tier. **Twin-engine, faster than the Maverick, and the aircraft that arrives at the [Ocean Beach](/gameplay/locations/ocean-beach) helipad when the person aboard cannot be seen taking a car.**",
   "statBlock": [
     {
       "key": "Brand",
@@ -46,9 +46,9 @@
       "desc": "The coastal helicopter for Keys operations."
     },
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "type": "Location",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "The helipad district."
     },
     {

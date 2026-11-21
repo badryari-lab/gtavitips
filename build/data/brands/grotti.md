@@ -27,7 +27,7 @@
     },
     {
       "key": "Vice City Role",
-      "value": "[South Beach](/gameplay/locations/south-beach) Status Symbol",
+      "value": "[Ocean Beach](/gameplay/locations/ocean-beach) Status Symbol",
       "sub": "On the waterfront, at the valet stand, in the window of the penthouse car park. The Grotti is where [Vice City](/gameplay/locations/vice-city)'s money parks itself."
     },
     {
@@ -111,6 +111,6 @@
 ---
 Grotti is the Italian exotic manufacturer in Leonida and one of the city's oldest brand presences. In Leonida the brand occupies [Vice City](/gameplay/locations/vice-city)'s luxury vehicle market with the same confidence it has always had: the cars are extraordinary, the price is beyond discussion, and the sound at full acceleration on the Vice City coast road makes nearby conversations impossible.
 
-The [South Beach](/gameplay/locations/south-beach) valet stands in Vice City have an informal Grotti quota. Three or more per evening is considered a good night. The cars are there because the people who can afford them are there, and the people who can afford them chose Vice City for the same reasons they choose Grotti: **the location is the statement and the car is the punctuation.**
+The [Ocean Beach](/gameplay/locations/ocean-beach) valet stands in Vice City have an informal Grotti quota. Three or more per evening is considered a good night. The cars are there because the people who can afford them are there, and the people who can afford them chose Vice City for the same reasons they choose Grotti: **the location is the statement and the car is the punctuation.**
 
 In Leonida, the Grotti appears in pursuit sequences, in high-value vehicle targets, and parked outside establishments where the clientele needs to communicate something to everyone within line of sight of the pavement. The car does this without the driver having to say anything.

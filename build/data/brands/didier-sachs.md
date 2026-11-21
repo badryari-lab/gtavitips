@@ -113,7 +113,7 @@
   ]
 }
 ---
-Didier Sachs occupies the top of the [Vice City](/gameplay/locations/vice-city) fashion market without visible effort, which is itself the point. The store on the [South Beach](/gameplay/locations/south-beach) luxury strip has a door that requires a decision to open. The interior has more staff than visible product. The product is presented as if it arrived from somewhere important and may not stay long.
+Didier Sachs occupies the top of the [Vice City](/gameplay/locations/vice-city) fashion market without visible effort, which is itself the point. The store on the [Ocean Beach](/gameplay/locations/ocean-beach) luxury strip has a door that requires a decision to open. The interior has more staff than visible product. The product is presented as if it arrived from somewhere important and may not stay long.
 
 The handbag is the brand's actual product. The clothing line exists to give the handbag a context. The shoes exist to give the clothing a foundation. **Every item in the store is a supporting argument for the handbag.**
 

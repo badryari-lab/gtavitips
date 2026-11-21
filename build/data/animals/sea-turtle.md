@@ -101,8 +101,8 @@
           "label": "Leonida Keys"
         },
         {
-          "url": "/gameplay/locations/south-beach",
-          "label": "South Beach"
+          "url": "/gameplay/locations/ocean-beach",
+          "label": "Ocean Beach"
         },
         {
           "url": "/gameplay/locations/vice-city",

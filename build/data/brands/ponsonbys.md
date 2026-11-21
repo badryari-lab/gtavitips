@@ -111,6 +111,6 @@
 ---
 Ponsonbys is the suit store in [Vice City](/gameplay/locations/vice-city) for the person who needs a suit and wants the suit to do some work before they start talking. The price is above what most people spend on clothing. The quality justifies the price well enough that the conversation about value ends quickly.
 
-The Vice City flagship is on the [South Beach](/gameplay/locations/south-beach) commercial strip between a jewelry store and a hotel lobby entrance. The window display changes seasonally. The interior is wood and soft lighting. **The purchase feels like a transaction that both parties take seriously.**
+The Vice City flagship is on the [Ocean Beach](/gameplay/locations/ocean-beach) commercial strip between a jewelry store and a hotel lobby entrance. The window display changes seasonally. The interior is wood and soft lighting. **The purchase feels like a transaction that both parties take seriously.**
 
 The protagonist will visit Ponsonbys for specific missions and specific situations. The heist preparation scene. The meeting with someone who judges by appearance before anything else. The occasion where turning up in SubUrban would communicate the wrong thing. Ponsonbys handles all of these without requiring the player to think about it.

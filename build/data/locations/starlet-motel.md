@@ -149,7 +149,7 @@ Leonida's always had this category of accommodation. The motel people use when t
 
 The roadside position means vehicle access is the primary function. You pull in, you park directly outside the room, and the road you came from is still visible from the window. The Starlet Motel is a location defined by proximity to the road rather than by what surrounds it on the other three sides.
 %%%GROUND%%%
-The Starlet Motel operates outside the tourist corridor intensity. Roadside coverage is standard county patrol rather than the tourist-zone density of [South Beach](/gameplay/locations/south-beach). The motel itself is not a notable location to patrol around unless it becomes notable.
+The Starlet Motel operates outside the tourist corridor intensity. Roadside coverage is standard county patrol rather than the tourist-zone density of [Ocean Beach](/gameplay/locations/ocean-beach). The motel itself is not a notable location to patrol around unless it becomes notable.
 
 **Vehicle access and exit is the primary practical feature.** Direct road access, parking directly adjacent to the room, and the ability to leave quickly if the road ahead is clear. The motel does not generate reasons to linger.
 

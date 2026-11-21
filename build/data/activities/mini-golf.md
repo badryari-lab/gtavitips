@@ -41,9 +41,9 @@
       "avatarInitials": "WY"
     },
     {
-      "url": "/gameplay/locations/north-beaches",
+      "url": "/gameplay/locations/washington-beach",
       "role": "Location",
-      "name": "North Beaches",
+      "name": "Washington Beach",
       "desc": "The boardwalk strip. The mini-golf course sits in the coastal leisure zone.",
       "avatarInitials": "NB"
     },
@@ -58,8 +58,8 @@
   "faq": [
     {
       "q": "Is mini-golf at the boardwalk?",
-      "a": "**Consistent with the confirmed location.** The North Beaches boardwalk is the Vice City coastal leisure district. Mini-golf as a boardwalk activity fits the confirmed geography.",
-      "aPlain": "Consistent with the confirmed location. The North Beaches boardwalk is the Vice City coastal leisure district. Mini-golf as a boardwalk activity fits the confirmed geography."
+      "a": "**Consistent with the confirmed location.** The Washington Beach boardwalk is the Vice City coastal leisure district. Mini-golf as a boardwalk activity fits the confirmed geography.",
+      "aPlain": "Consistent with the confirmed location. The Washington Beach boardwalk is the Vice City coastal leisure district. Mini-golf as a boardwalk activity fits the confirmed geography."
     },
     {
       "q": "Is it a competitive minigame?",

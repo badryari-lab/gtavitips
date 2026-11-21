@@ -34,9 +34,9 @@
       "avatarInitials": "DP"
     },
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "role": "Location",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "The beach district runs courts along the promenade. Same sun, same crowd.",
       "avatarImage": {
         "src": "/assets/images/vice-city-gta-6-location-05.jpg"
@@ -58,8 +58,8 @@
     },
     {
       "q": "Where are the courts?",
-      "a": "South Beach runs courts along the promenade and park areas. The Vice City geography supports outdoor courts in multiple districts.",
-      "aPlain": "South Beach runs courts along the promenade and park areas. The Vice City geography supports outdoor courts in multiple districts."
+      "a": "Ocean Beach runs courts along the promenade and park areas. The Vice City geography supports outdoor courts in multiple districts.",
+      "aPlain": "Ocean Beach runs courts along the promenade and park areas. The Vice City geography supports outdoor courts in multiple districts."
     },
     {
       "q": "Can other characters play with you?",

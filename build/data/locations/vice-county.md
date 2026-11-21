@@ -1,17 +1,17 @@
 {
   "slug": "vice-county",
   "titleParts": [
-    "Vice",
+    "Vice-Dale",
     "County"
   ],
   "seo": {
-    "title": "Vice County | GTA 6 Location Guide: Leonida | GTAVITIPS",
-    "description": "Vice County in GTA 6: the county surrounding Vice City, suburbs, industrial zones, wetlands, and rural sprawl.",
-    "ogDescription": "Vice County in GTA 6: the county surrounding Vice City, suburbs, industrial zones, wetlands, and rural sprawl.",
+    "title": "Vice-Dale County (Vice County) | GTA 6 Leonida | GTAVITIPS",
+    "description": "Vice-Dale County, or Vice County, in GTA 6: the county surrounding Vice City, suburbs, industrial zones, wetlands, and rural sprawl.",
+    "ogDescription": "Vice-Dale County, or Vice County, in GTA 6: the county surrounding Vice City, suburbs, industrial zones, wetlands, and rural sprawl.",
     "ogImagePlaceholder": "vice-county-gta-6-location.jpg",
-    "jsonLdHeadline": "Vice County - GTA 6 Location",
-    "jsonLdDescription": "Vice County in GTA 6: the county surrounding Vice City, suburbs, industrial zones, wetlands, and rural sprawl.",
-    "dateModified": "2026-02-01"
+    "jsonLdHeadline": "Vice-Dale County (Vice County) - GTA 6 Location",
+    "jsonLdDescription": "Vice-Dale County, or Vice County, in GTA 6: the county surrounding Vice City, suburbs, industrial zones, wetlands, and rural sprawl.",
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "Everything surrounding [Vice City](/gameplay/locations/vice-city) and keeping it running. **Suburbs, industrial corridors, wetlands, and the rural interior that tourists never reach.** The county is where Leonida breathes when the city lets it.",
   "statBlock": [
@@ -81,7 +81,7 @@
   ],
   "faq": [
     {
-      "q": "What is Vice County?",
+      "q": "What is Vice-Dale County?",
       "a": "The county that Vice City sits in. Everything outside the city limits, coastal towns, highway corridors, and the parts of Leonida that don't make the postcard."
     },
     {
@@ -140,7 +140,7 @@
   "sidebarAriaLabel": "Location navigation"
 }
 ---
-Vice County is the jurisdiction that makes Vice City function. The hotels need staff. The clubs need supply chains. The tourists need airports, roads, and everything that happens before they arrive and after they leave. All of that infrastructure lives in the county rather than the city, and the county is where most of the state's actual population lives and works.
+Vice-Dale County, Vice County for short, is the jurisdiction that makes Vice City function. The hotels need staff. The clubs need supply chains. The tourists need airports, roads, and everything that happens before they arrive and after they leave. All of that infrastructure lives in the county rather than the city, and the county is where most of the state's actual population lives and works.
 
 The territory covers a significant range. The eastern edge of the county runs directly into the urban grid of [Vice City](/gameplay/locations/vice-city). Move west and the density drops through residential suburbs into the commercial and industrial corridors that service the port and the logistics network. Continue further and the land opens into agricultural flat, wetland margins, and the road infrastructure connecting Leonida's population centres.
 

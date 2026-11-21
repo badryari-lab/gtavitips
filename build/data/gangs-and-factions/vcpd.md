@@ -94,6 +94,6 @@
 ---
 The VCPD is the first thing that responds and the agency that sets the tone for every wanted-level interaction in [Vice City](/gameplay/locations/vice-city). They are not the most powerful law enforcement presence in Leonida. They are the most present one. **At any given moment, there is a VCPD unit within a short distance of wherever you are in the city.**
 
-The tourist corridor coverage is the operational reality that shapes Vice City gameplay. The [South Beach](/gameplay/locations/south-beach) strip and the hotel zone are the most densely patrolled areas in the state. The residential districts behind the beachfront have standard urban coverage. The industrial approaches have lighter presence.
+The tourist corridor coverage is the operational reality that shapes Vice City gameplay. The [Ocean Beach](/gameplay/locations/ocean-beach) strip and the hotel zone are the most densely patrolled areas in the state. The residential districts behind the beachfront have standard urban coverage. The industrial approaches have lighter presence.
 
 The VCPD reflects the consistent approach to municipal law enforcement:ts: competent at one-star incidents, progressively less able to contain situations as the wanted level rises, and eventually augmented by SWAT, [State Police](/gameplay/gangs-and-factions/leonida-state-police), and [NOOSE](/gameplay/gangs-and-factions/noose) as the escalation proceeds. The VCPD is the bottom of that escalation chain in Vice City and the agency the protagonist spends the most time managing.

@@ -42,9 +42,9 @@
       "desc": "The coupe version."
     },
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "type": "Location",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "The road this car was designed for."
     },
     {

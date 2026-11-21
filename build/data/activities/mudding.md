@@ -105,7 +105,7 @@
   ]
 }
 ---
-Mudding is confirmed in Trailer 2 with a lifted truck in rural [Vice County](/gameplay/locations/vice-county) terrain. It is the activity that represents the side of Leonida that the South Beach footage does not. **The rural Vice County demographic has a truck culture, and the truck culture has mudding.** The activity is there because the people who do it are there.
+Mudding is confirmed in Trailer 2 with a lifted truck in rural [Vice County](/gameplay/locations/vice-county) terrain. It is the activity that represents the side of Leonida that the Ocean Beach footage does not. **The rural Vice County demographic has a truck culture, and the truck culture has mudding.** The activity is there because the people who do it are there.
 
 The real Florida mudding scene runs from organized events at off-road parks to spontaneous runs on private agricultural land after rain. The mudding activity in Leonida captures this: accessible off-road zones in the rural interior where the terrain is appropriate and the law enforcement response time gives you a margin to work with.
 

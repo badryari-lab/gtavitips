@@ -42,9 +42,9 @@
       "avatarInitials": "RO"
     },
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "role": "Location",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "Every viral Vice City clip gets filmed here or close to it. The content creation district.",
       "avatarImage": {
         "src": "/assets/images/vice-city-gta-6-location-05.jpg"

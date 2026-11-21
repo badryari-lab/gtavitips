@@ -48,9 +48,9 @@
       "desc": "The current hypercar from Grotti."
     },
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "type": "Location",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "Where the Cheetah Classic belongs."
     },
     {

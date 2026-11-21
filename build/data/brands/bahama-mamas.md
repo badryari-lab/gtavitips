@@ -32,11 +32,11 @@
     },
     {
       "key": "Real-World Parody",
-      "value": "South Beach Nightlife",
+      "value": "Ocean Beach Nightlife",
       "pills": [
         {
           "url": "https://en.wikipedia.org/wiki/South_Beach",
-          "label": "South Beach"
+          "label": "Ocean Beach"
         }
       ]
     }

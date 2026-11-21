@@ -23,7 +23,7 @@
     {
       "key": "Vice City Role",
       "value": "Cartel and Influencer Fleet",
-      "sub": "The vehicle of cartel lieutenants, [Vice City](/gameplay/locations/vice-city) influencers, and anyone who needs to be noticed from the opposite side of [South Beach](/gameplay/locations/south-beach)."
+      "sub": "The vehicle of cartel lieutenants, [Vice City](/gameplay/locations/vice-city) influencers, and anyone who needs to be noticed from the opposite side of [Ocean Beach](/gameplay/locations/ocean-beach)."
     },
     {
       "key": "Sound Profile",
@@ -113,4 +113,4 @@ Pegassi is the Italian exotic manufacturer that chose aggression as the design l
 
 The Zentorno is confirmed in [Vice City](/gameplay/locations/vice-city) from Trailer 1. It appears in a pursuit sequence and it is not being driven carefully. **The Zentorno is the Pegassi that most people in Vice City have seen in their rear-view mirror at least once.**
 
-The brand's presence in Vice City extends beyond the vehicle population. Pegassi branding appears at car meets, on the Instagram equivalent wall of the character who drives one, and in the specific kind of conversation that happens at two in the morning at a [South Beach](/gameplay/locations/south-beach) red light. The car starts those conversations. The driver finishes them.
+The brand's presence in Vice City extends beyond the vehicle population. Pegassi branding appears at car meets, on the Instagram equivalent wall of the character who drives one, and in the specific kind of conversation that happens at two in the morning at a [Ocean Beach](/gameplay/locations/ocean-beach) red light. The car starts those conversations. The driver finishes them.

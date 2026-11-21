@@ -13,7 +13,7 @@
     "jsonLdDescription": "The Grotti Furia is a hypercar in GTA 6. Based on the Ferrari LaFerrari. Top of the Grotti lineup in Leonida.",
     "dateModified": "2026-11-20"
   },
-  "heroSubtitle": "The top of the Grotti lineup. **Hybrid hypercar, active aerodynamics, and the weight of being the most expensive car at the [South Beach](/gameplay/locations/south-beach) valet stand.**",
+  "heroSubtitle": "The top of the Grotti lineup. **Hybrid hypercar, active aerodynamics, and the weight of being the most expensive car at the [Ocean Beach](/gameplay/locations/ocean-beach) valet stand.**",
   "statBlock": [
     {
       "key": "Brand",
@@ -98,4 +98,4 @@ The Furia is the answer to what happens when Grotti removes all constraints from
 
 Active aerodynamics mean the car's shape changes with speed. The flaps that deploy at highway velocity are not decorative. They are the car managing its own relationship with the air moving over it. At [Vice City](/gameplay/locations/vice-city) coast road speeds this system is audible in the change of wind noise as the car reconfigures.
 
-Ownership of a Furia in Leonida communicates a specific set of facts. The car is not subtle. It does not want to be subtle. The Vice City social environment understands the hierarchy of the [South Beach](/gameplay/locations/south-beach) valet stand and the Furia is at the top of it.
+Ownership of a Furia in Leonida communicates a specific set of facts. The car is not subtle. It does not want to be subtle. The Vice City social environment understands the hierarchy of the [Ocean Beach](/gameplay/locations/ocean-beach) valet stand and the Furia is at the top of it.

@@ -84,7 +84,7 @@
   ]
 }
 ---
-Fifty-plus signature styles. Sara's covers the full aesthetic range of Leonida, Vice City beach, Grassrivers inland, the clubs on South Beach, the parts of the state where looking a certain way is operational. The salon runs character customization for hair for both [Jason](/gameplay/characters/jason-duval) and [Lucia](/gameplay/characters/lucia-caminos).
+Fifty-plus signature styles. Sara's covers the full aesthetic range of Leonida, Vice City beach, Grassrivers inland, the clubs on Ocean Beach, the parts of the state where looking a certain way is operational. The salon runs character customization for hair for both [Jason](/gameplay/characters/jason-duval) and [Lucia](/gameplay/characters/lucia-caminos).
 
 **Access is locked to Ultimate Edition owners.** Whether Sara's operates as a physical location in Leonida or as a menu accessed through a character customization system hasn't been confirmed. What's confirmed is the style count and who gets access to it.
 

@@ -34,9 +34,9 @@
       "avatarInitials": "EH"
     },
     {
-      "url": "/gameplay/locations/north-beaches",
+      "url": "/gameplay/locations/washington-beach",
       "role": "Location",
-      "name": "North Beaches",
+      "name": "Washington Beach",
       "desc": "The coastal district where the sport and leisure facilities sit.",
       "avatarInitials": "NB"
     },
@@ -56,8 +56,8 @@
     },
     {
       "q": "Where are fencing facilities in Vice City?",
-      "a": "Country club and sporting venues in the North Beaches and surrounding districts. Specific venue names are not yet confirmed.",
-      "aPlain": "Country club and sporting venues in the North Beaches and surrounding districts. Specific venue names are not yet confirmed."
+      "a": "Country club and sporting venues in Washington Beach and surrounding districts. Specific venue names are not yet confirmed.",
+      "aPlain": "Country club and sporting venues in Washington Beach and surrounding districts. Specific venue names are not yet confirmed."
     },
     {
       "q": "Is this the first time fencing has been in a GTA game?",

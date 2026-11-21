@@ -34,9 +34,9 @@
       "avatarInitials": "EH"
     },
     {
-      "url": "/gameplay/locations/south-beach",
+      "url": "/gameplay/locations/ocean-beach",
       "role": "Location",
-      "name": "South Beach",
+      "name": "Ocean Beach",
       "desc": "Beach courts along the promenade. Outdoor tennis with the ocean behind you.",
       "avatarImage": {
         "src": "/assets/images/vice-city-gta-6-location-05.jpg"
@@ -58,8 +58,8 @@
     },
     {
       "q": "Where are the courts?",
-      "a": "South Beach promenade courts and club facilities across Vice City's leisure districts. Outdoor courts with ocean views are consistent with the confirmed environment.",
-      "aPlain": "South Beach promenade courts and club facilities across Vice City's leisure districts. Outdoor courts with ocean views are consistent with the confirmed environment."
+      "a": "Ocean Beach promenade courts and club facilities across Vice City's leisure districts. Outdoor courts with ocean views are consistent with the confirmed environment.",
+      "aPlain": "Ocean Beach promenade courts and club facilities across Vice City's leisure districts. Outdoor courts with ocean views are consistent with the confirmed environment."
     },
     {
       "q": "Can story characters challenge you to tennis?",

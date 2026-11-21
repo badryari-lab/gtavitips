@@ -16,7 +16,7 @@
   "heroSubtitle": "The Cheetah does not negotiate. **Mid-engine, rear-wheel drive, and a V8 that sounds like it has opinions.** The '95 spec is the one people actually wanted. Before the lawyers got involved.",
   "heroImage": {
     "src": "/assets/images/grotti-cheetah-gta-6-vehicle-01.jpg",
-    "alt": "'95 Grotti Cheetah parked outside a South Beach tower in GTA 6",
+    "alt": "'95 Grotti Cheetah parked outside a Ocean Beach tower in GTA 6",
     "width": "3840",
     "height": "2160"
   },

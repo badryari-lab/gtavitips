@@ -35,9 +35,9 @@
       "avatarInitials": "WY"
     },
     {
-      "url": "/gameplay/locations/north-beaches",
+      "url": "/gameplay/locations/washington-beach",
       "role": "Location",
-      "name": "North Beaches",
+      "name": "Washington Beach",
       "desc": "The coastal strip where the boardwalk and fairground infrastructure sit.",
       "avatarInitials": "NB"
     },
@@ -57,8 +57,8 @@
     },
     {
       "q": "Where is the amusement park in Vice City?",
-      "a": "The boardwalk and coastal fairground sit in the North Beaches district. The same strip that runs along the South Beach hotel and ocean infrastructure.",
-      "aPlain": "The boardwalk and coastal fairground sit in the North Beaches district. The same strip that runs along the South Beach hotel and ocean infrastructure."
+      "a": "The boardwalk and coastal fairground sit in Washington Beach district. The same strip that runs along the Ocean Beach hotel and ocean infrastructure.",
+      "aPlain": "The boardwalk and coastal fairground sit in Washington Beach district. The same strip that runs along the Ocean Beach hotel and ocean infrastructure."
     },
     {
       "q": "Is this connected to the social media system?",

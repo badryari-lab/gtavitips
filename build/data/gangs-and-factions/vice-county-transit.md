@@ -93,7 +93,7 @@
   ]
 }
 ---
-Vice County Transit runs the buses. Not the luxury end of the [Vice City](/gameplay/locations/vice-city) transport economy. The working end: the route that the hotel service staff takes to the [South Beach](/gameplay/locations/south-beach) hotels, the line that connects the [Vice County](/gameplay/locations/vice-county) residential fringe to the Vice City commercial district, and the network that makes a city of this density function without everyone driving at the same time.
+Vice County Transit runs the buses. Not the luxury end of the [Vice City](/gameplay/locations/vice-city) transport economy. The working end: the route that the hotel service staff takes to the [Ocean Beach](/gameplay/locations/ocean-beach) hotels, the line that connects the [Vice County](/gameplay/locations/vice-county) residential fringe to the Vice City commercial district, and the network that makes a city of this density function without everyone driving at the same time.
 
 The buses are in Vice City traffic at all hours. They are large, they follow fixed routes, and they stop at designated points regardless of what is happening around them. **In GTA gameplay terms, the transit vehicle is the large slow obstacle in the pursuit sequence and the background traffic that makes the city feel populated.**
 

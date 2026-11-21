@@ -11,7 +11,7 @@
     "jsonLdDescription": "Selling drugs in GTA 6 Leonida: street distribution across Vice City and Vice County, the one trade every faction in Leonida touches.",
     "dateModified": "2026-02-01"
   },
-  "heroSubtitle": "[Vice City](/gameplay/locations/vice-city) moves product. **Street distribution, faction supply chains, and the specific economy that runs through every neighborhood from [South Beach](/gameplay/locations/south-beach) to Port Gellhorn. The most consistent revenue stream in Leonida.**",
+  "heroSubtitle": "[Vice City](/gameplay/locations/vice-city) moves product. **Street distribution, faction supply chains, and the specific economy that runs through every neighborhood from [Ocean Beach](/gameplay/locations/ocean-beach) to Port Gellhorn. The most consistent revenue stream in Leonida.**",
   "statBlock": [
     {
       "key": "Type",
@@ -109,7 +109,7 @@ The activity connects directly to the faction structure of Leonida. San 4 San co
 
 Florida's position as a transit corridor for product moving up the East Coast gives Vice City's drug economy a specific shape. The city is not just a consumer market. It is a distribution hub. GTA 6 builds the activity around that geography.
 
-Distribution runs through a network of contacts, drop locations, and buyer relationships. **Each territory has different demand levels, different law enforcement pressure, and different faction interference.** [South Beach](/gameplay/locations/south-beach) moves volume at high prices and high heat. Port Gellhorn moves volume at lower prices and lower visibility. Knowing which product moves where determines the margin.
+Distribution runs through a network of contacts, drop locations, and buyer relationships. **Each territory has different demand levels, different law enforcement pressure, and different faction interference.** [Ocean Beach](/gameplay/locations/ocean-beach) moves volume at high prices and high heat. Port Gellhorn moves volume at lower prices and lower visibility. Knowing which product moves where determines the margin.
 
 Supply comes from multiple sources. Product cultivated through the weed growing operation feeds into the distribution chain. Imported product sourced through faction contacts covers other categories. The fencing network connects both to buyers who do not ask questions about origin.
 
