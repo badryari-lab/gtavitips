@@ -203,6 +203,9 @@
 # --- Rename (Nov 21 2026): name on Rockstar's official map ---
 /gameplay/locations/military-base                 /gameplay/locations/mile-zero-air-station           301
 
+# --- Story hub (Nov 21 2026): /story/missions has no page of its own ---
+/story/missions                           /story                                    301
+
 # --- Dynamic (splat) rules: keep at the very bottom. Cloudflare counts every rule after the first dynamic one as dynamic (limit 100). ---
 /gameplay/character/*                     /gameplay/characters/:splat               301
 /gameplay/vehicle/*                       /gameplay/vehicles/:splat                 301

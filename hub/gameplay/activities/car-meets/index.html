@@ -198,7 +198,7 @@
     .dossier { margin: 32px 0 56px; display: block; }
     .dossier .stat-block { max-width: 640px; }
     .connections { display: flex; flex-direction: column; gap: 8px; }
-    .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r) 4px var(--r) 4px; padding: 16px 18px; display: flex; align-items: center; gap: 16px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; }
+    .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r) 4px var(--r) 4px; padding: 16px 18px; display: flex; flex-direction: row; align-items: center; gap: 16px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; }
     .conn-card:hover { border-color: var(--border-b); transform: translateX(4px); background: var(--bg-3); }
     .conn-card__avatar { width: 56px; height: 56px; border-radius: 8px; background: var(--bg-3); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-family: 'Anton', sans-serif; font-size: 15px; font-weight: 400; color: var(--blue); text-transform: uppercase; flex-shrink: 0; }
     .conn-card__body { flex: 1; min-width: 0; }
@@ -256,6 +256,7 @@
             <li role="none"><a href="/gameplay/weapons" role="menuitem">Weapons</a></li>
           </ul>
         </li>
+        <li><a href="/story">Story</a></li>
         <li><a href="/faq">FAQ</a></li>
         <li><a href="/intel-drops">Intel Drops</a></li>
         <li><a href="/map">Map</a></li>
@@ -282,6 +283,7 @@
     <a href="/gameplay/characters">Characters</a>
     <a href="/gameplay/vehicles">Vehicles</a>
     <a href="/gameplay/activities">Activities</a>
+    <a href="/story">Story</a>
     <a href="/faq">FAQ</a>
     <a href="/intel-drops">Intel Drops</a>
     <a href="/map">Map</a>
@@ -436,7 +438,7 @@
           <p class="footer__brand-desc">The intel database for GTA 6. You picked the wrong house, fool!</p>
         </div>
         <div><div class="footer__col-head">Database</div><ul class="footer__links"><li><a href="/gameplay/activities">Activities</a></li><li><a href="/gameplay/animals">Animals</a></li><li><a href="/gameplay/brands">Brands</a></li><li><a href="/gameplay/characters">Characters</a></li><li><a href="/gameplay/gangs-and-factions">Factions</a></li><li><a href="/gameplay/locations">Locations</a></li><li><a href="/gameplay/vehicles">Vehicles</a></li><li><a href="/gameplay/weapons">Weapons</a></li></ul></div>
-        <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li><li><a href="/map">Map</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div>
+        <div><div class="footer__col-head">Site</div><ul class="footer__links"><li><a href="/about">About</a></li><li><a href="/news">News</a></li><li><a href="/story">Story</a></li><li><a href="/faq">FAQ</a></li><li><a href="/intel-drops">Intel Drops</a></li><li><a href="/map">Map</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div>
         <div><div class="footer__col-head">Legal</div><ul class="footer__links"><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li></ul></div>
         <div><div class="footer__col-head">Contact</div><ul class="footer__links"><li><span style="font-size:13px;color:var(--t3)">info&#64;gtavitips.com</span></li><li><a href="https://x.com/gtavitips" target="_blank" rel="noopener noreferrer">X / Twitter</a></li><li><a href="https://www.tiktok.com/@gtavi.tips" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/gtavitipsdotcom" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul></div>
       </div>

@@ -12,6 +12,8 @@ const {
 } = require('./_shared');
 const { renderBlock, renderInline } = require('./_markdown');
 const CSS_LOCATIONS = require('./_css-locations');
+const { SPOILER_CSS } = require('./_spoiler');
+const { renderMissionsReveal } = require('./missions');
 
 // Locations template. Confirmed 25/25 CSS-uniform (safe for one shared
 // fragment, like vehicles/weapons/factions — unlike characters). Richer
@@ -54,6 +56,17 @@ function render(entry) {
   const canonical = `https://gtavitips.com/gameplay/locations/${slug}`;
   const h1 = titleParts.length > 1 ? `${titleParts[0]} <span style="color:var(--blue)">${titleParts[1]}</span>` : titleParts[0];
 
+  // Story missions set here: one closed reveal (mission names are light spoilers; location pages stay spoiler-free).
+  const missionsReveal = renderMissionsReveal(`/gameplay/locations/${slug}`, '        ');
+  const missionsHtml = missionsReveal
+    ? `      <section class="section reveal" aria-labelledby="missions-hd">
+        <h2 class="section__h2" id="missions-hd">Story <span style="color:var(--blue)">Missions</span></h2>
+        <div class="section__body"><p>Story missions that bring you here. Their names stay behind the click.</p></div>
+        ${missionsReveal}
+      </section>
+`
+    : '';
+
   const jsonLd = [
     {
       '@context': 'https://schema.org',
@@ -81,7 +94,7 @@ function render(entry) {
     ogImagePlaceholder: seo.ogImagePlaceholder,
     canonical,
     jsonLd,
-    fullCss: CSS_LOCATIONS,
+    fullCss: missionsReveal ? CSS_LOCATIONS + SPOILER_CSS : CSS_LOCATIONS,
   });
 
   const heroBackground = heroImage
@@ -139,7 +152,7 @@ ${renderOperatorNotes(operatorNotes)}      <section class="section reveal" aria-
       <section class="section reveal" aria-labelledby="connected-hd">
         <h2 class="section__h2" id="connected-hd">What's <span style="color:var(--blue)">Connected</span></h2>
         <div class="connected-grid" role="list">          ${renderConnectionsGrid(connections)}</div>
-${faqHtml}    </div>
+${missionsHtml}${faqHtml}    </div>
     ${renderSidebarBlocks(sidebar, sidebarAriaLabel)}
   </div></div></main>
 `;

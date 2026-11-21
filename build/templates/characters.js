@@ -33,41 +33,14 @@ const { renderBlock, renderInline } = require('./_markdown');
 //   faq[i].spoiler: { chapter, html } -> a reveal under that answer; faqSchema stays separate and spoiler-free.
 // Story text never reaches the JSON-LD or the meta/og descriptions: those only read the seo fields.
 
-const SPOILER_NOTE = 'Light story spoilers on this page. The big moments sit behind a click, and nothing opens until you do.';
-const SPOILER_CSS = `
-    .spoiler-note { font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; line-height: 1.5; color: var(--amber); background: var(--amber-dim); border: 1px solid var(--amber-border); border-radius: 8px 2px 8px 2px; padding: 10px 14px; margin-bottom: 16px; }
-    .spoiler { margin-top: 14px; background: var(--bg-3); border: 1px dashed var(--amber-border); border-radius: 8px 2px 8px 2px; }
-    .spoiler > summary { list-style: none; cursor: pointer; min-height: 44px; padding: 10px 14px; display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; line-height: 1.4; color: var(--t2); }
-    .spoiler > summary::-webkit-details-marker { display: none; }
-    .spoiler > summary:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
-    .spoiler__stamp { display: inline-block; padding: 4px 10px; color: var(--amber); background: var(--amber-dim); border: 1px solid var(--amber-border); border-radius: 6px 2px 6px 2px; transform: rotate(-1.2deg); }
-    .spoiler__hint::after { content: ' +'; color: var(--amber); }
-    .spoiler[open] .spoiler__hint::after { content: ' \\2212'; }
-    .spoiler__body { padding: 2px 14px 14px; font-size: 13px; color: var(--t2); line-height: 1.75; }
-    .spoiler__body p { margin-bottom: 0; }
-    .spoiler__body p + p { margin-top: 10px; }
-    .spoiler__body strong { color: var(--t1); font-weight: 600; }
-    .faq-item__a .spoiler { margin-top: 12px; }
-    .story-arc .spoiler + .spoiler { margin-top: 10px; }
-    .story-arc__source, .stat-source { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--t3); margin-top: 14px; }
-    .stat-source { margin-top: 12px; }`;
-const STAT_SOURCE_CSS = `
-    .stat-source { font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--t3); margin-top: 12px; }`;
-
-const spoilerLabel = (c) => (typeof c === 'number' ? `Chapter ${c}` : String(c));
-function renderSpoiler(sp, ind) {
-  if (!sp || sp.chapter === undefined || sp.chapter === '' || !(sp.html || sp.md)) throw new Error('spoiler needs chapter and html or md');
-  // md: Markdown paragraphs (blank-line separated), same converter as the Dossier body; html: raw or inline text.
-  const body = sp.md ? renderBlock(sp.md) : /^\s*<p[ >]/.test(sp.html) ? sp.html : `<p>${renderInline(sp.html)}</p>`;
-  return `<details class="spoiler">
-${ind}  <summary><span class="spoiler__stamp">Spoiler: ${spoilerLabel(sp.chapter)}</span> <span class="spoiler__hint">Tap to reveal</span></summary>
-${ind}  <div class="spoiler__body">${body}</div>
-${ind}</details>`;
-}
+const { SPOILER_NOTE, SPOILER_CSS, STAT_SOURCE_CSS, renderSpoiler } = require('./_spoiler');
+const { renderMissionsReveal } = require('./missions');
 
 function render(entry) {
   const { slug, titleParts, seo, heroSubtitle, heroImage, statBlock, gallery, connections, faq, faqSchema, sidebar, statSource, storyArc, spoilerNote } = entry;
-  const hasSpoilers = !!(storyArc || (faq || []).some((f) => f.spoiler));
+  // Missions that list this character (stat block or cards) -> one closed reveal in Story Arc, or its own section.
+  const missionsReveal = renderMissionsReveal(`/gameplay/characters/${slug}`, '            ');
+  const hasSpoilers = !!(storyArc || missionsReveal || (faq || []).some((f) => f.spoiler));
   const css = hasSpoilers
     ? entry.css.replace(/\s*$/, (ws) => SPOILER_CSS + ws)
     : statSource
@@ -141,7 +114,14 @@ ${hasSpoilers ? `      <p class="spoiler-note">${spoilerNote || SPOILER_NOTE}</p
             <h2 class="section__h2" id="story-arc-hd">Story <span style="color:var(--blue)">Arc</span></h2>
             ${storyArc.intro ? `<div class="section__body">${renderBlock(storyArc.intro)}</div>\n            ` : ''}${storyArc.beats
               .map((b) => renderSpoiler(b, '            '))
-              .join('\n            ')}${storyArc.source ? `\n            <p class="story-arc__source">Source: ${storyArc.source}</p>` : ''}
+              .join('\n            ')}${missionsReveal ? '\n            ' + missionsReveal : ''}${storyArc.source ? `\n            <p class="story-arc__source">Source: ${storyArc.source}</p>` : ''}
+          </section>
+`
+    : missionsReveal
+    ? `
+          <section class="section story-arc reveal" aria-labelledby="story-missions-hd">
+            <h2 class="section__h2" id="story-missions-hd">Story <span style="color:var(--blue)">Missions</span></h2>
+            ${missionsReveal}
           </section>
 `
     : '';

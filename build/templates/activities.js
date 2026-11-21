@@ -24,7 +24,7 @@ const ACTIVITY_EXTRA_CSS = `
     .dossier { margin: 32px 0 56px; display: block; }
     .dossier .stat-block { max-width: 640px; }
     .connections { display: flex; flex-direction: column; gap: 8px; }
-    .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r) 4px var(--r) 4px; padding: 16px 18px; display: flex; align-items: center; gap: 16px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; }
+    .conn-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r) 4px var(--r) 4px; padding: 16px 18px; display: flex; flex-direction: row; align-items: center; gap: 16px; text-decoration: none; transition: border-color .2s, transform .2s, background .2s; }
     .conn-card:hover { border-color: var(--border-b); transform: translateX(4px); background: var(--bg-3); }
     .conn-card__avatar { width: 56px; height: 56px; border-radius: 8px; background: var(--bg-3); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-family: 'Anton', sans-serif; font-size: 15px; font-weight: 400; color: var(--blue); text-transform: uppercase; flex-shrink: 0; }
     .conn-card__body { flex: 1; min-width: 0; }
