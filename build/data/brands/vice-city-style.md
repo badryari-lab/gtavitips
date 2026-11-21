@@ -10,7 +10,8 @@
     "ogDescription": "Vice City Style in GTA 6. Ultimate Edition exclusive apparel line of Vice City outfits.",
     "jsonLdHeadline": "Vice City Style - GTA 6 Brand Profile",
     "jsonLdDescription": "Vice City Style in GTA 6. Ultimate Edition exclusive apparel line of Vice City outfits.",
-    "dateModified": "2026-10-19"
+    "dateModified": "2026-11-21",
+    "ogImage": "https://gtavitips.com/assets/images/vice-city-style-gta-6-ultimate-edition-01.jpg"
   },
   "heroBadge": "Apparel Line",
   "heroSlogan": "Ultimate Edition Exclusive. Vice City's wardrobe, condensed into one collection.",
@@ -63,7 +64,13 @@
         }
       ]
     }
-  ]
+  ],
+  "heroImage": {
+    "src": "/assets/images/vice-city-style-gta-6-ultimate-edition-01.jpg",
+    "alt": "Jason and Lucia in Vice City Style outfits on a Vice City terrace, GTA 6",
+    "width": "1920",
+    "height": "1080"
+  }
 }
 ---
 Vice City Style is outfits, confirmed by name and nothing else yet. Where [Goodtime Gear](/gameplay/brands/goodtime-gear) leans into one mascot's whole look, this one is built around the city itself, the kind of line a Vice City boutique would carry if Vice City boutiques existed off the trailer.

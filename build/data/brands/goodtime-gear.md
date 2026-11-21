@@ -10,7 +10,8 @@
     "ogDescription": "Goodtime Gear in GTA 6. Ultimate Edition exclusive apparel collection built around mascot Macca the Gator.",
     "jsonLdHeadline": "Goodtime Gear - GTA 6 Brand Profile",
     "jsonLdDescription": "Goodtime Gear in GTA 6. Ultimate Edition exclusive apparel collection built around mascot Macca the Gator.",
-    "dateModified": "2026-10-19"
+    "dateModified": "2026-11-21",
+    "ogImage": "https://gtavitips.com/assets/images/goodtime-gear-gta-6-brand-01.jpg"
   },
   "heroBadge": "Apparel Collection",
   "heroSlogan": "Ultimate Edition Exclusive. Macca the Gator, now a full wardrobe.",
@@ -63,7 +64,13 @@
         }
       ]
     }
-  ]
+  ],
+  "heroImage": {
+    "src": "/assets/images/goodtime-gear-gta-6-brand-01.jpg",
+    "alt": "Goodtime Gear Vice City T-shirts and caps in front of a Vice City mural, GTA 6",
+    "width": "1920",
+    "height": "1080"
+  }
 }
 ---
 Macca the Gator is the mascot and the whole design language in one. Goodtime Gear takes that single character and builds a full wardrobe around him, the kind of souvenir-shop branding that already exists in actual Florida tourist towns, just given a storefront in Leonida instead of a strip mall off I-75.

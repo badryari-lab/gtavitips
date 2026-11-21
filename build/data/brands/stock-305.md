@@ -10,7 +10,8 @@
     "ogDescription": "Stock 305 in GTA 6. Ultimate Edition exclusive clothing store, part of the Vice City exclusive-shop lineup.",
     "jsonLdHeadline": "Stock 305 - GTA 6 Brand Profile",
     "jsonLdDescription": "Stock 305 in GTA 6. Ultimate Edition exclusive clothing store, part of the Vice City exclusive-shop lineup.",
-    "dateModified": "2026-10-19"
+    "dateModified": "2026-11-21",
+    "ogImage": "https://gtavitips.com/assets/images/stock-305-gta-6-brand-01.jpg"
   },
   "heroBadge": "Clothing Store",
   "heroSlogan": "Ultimate Edition Exclusive. The 305 is Miami's area code. That's the whole pitch.",
@@ -67,7 +68,13 @@
         }
       ]
     }
-  ]
+  ],
+  "heroImage": {
+    "src": "/assets/images/stock-305-gta-6-brand-01.jpg",
+    "alt": "Stock 305 storefront in GTA 6, graffiti-wrapped truck and the STOCK 305 sign",
+    "width": "1920",
+    "height": "1080"
+  }
 }
 ---
 Stock 305 is a clothing store, confirmed and not elaborated on past that. The name borrows Miami's real area code, the same kind of local-pride branding that shows up on actual South Florida apparel racks.

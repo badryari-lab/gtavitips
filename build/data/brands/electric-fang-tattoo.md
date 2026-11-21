@@ -10,7 +10,8 @@
     "ogDescription": "Electric Fang Tattoo in GTA 6. Ultimate Edition exclusive tattoo parlor with 50+ designs by Brooklyn street art collective FAILE.",
     "jsonLdHeadline": "Electric Fang Tattoo - GTA 6 Brand Profile",
     "jsonLdDescription": "Electric Fang Tattoo in GTA 6. Ultimate Edition exclusive tattoo parlor with 50+ designs by Brooklyn street art collective FAILE.",
-    "dateModified": "2026-10-19"
+    "dateModified": "2026-11-21",
+    "ogImage": "https://gtavitips.com/assets/images/electric-fang-tattoo-gta-6-brand-01.jpg"
   },
   "heroBadge": "Tattoo Parlor",
   "heroSlogan": "Ultimate Edition Exclusive. Fifty-plus designs, zero of them generic.",
@@ -67,7 +68,13 @@
         }
       ]
     }
-  ]
+  ],
+  "heroImage": {
+    "src": "/assets/images/electric-fang-tattoo-gta-6-brand-01.jpg",
+    "alt": "Electric Fang Tattoo neon wolf sign and shopfront at night, GTA 6",
+    "width": "1920",
+    "height": "1080"
+  }
 }
 ---
 Fifty-plus designs on the wall at Electric Fang, built with FAILE, a Brooklyn street art collective whose work hangs in major museum collections. Not generic flash sheets off a wall rack. Every piece carries that same gallery-grade line work, just inked onto [Jason](/gameplay/characters/jason-duval) or [Lucia](/gameplay/characters/lucia-caminos) instead of a canvas.
