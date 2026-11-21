@@ -244,10 +244,10 @@
           "desc": "Vice City legacy venue. Nightlife and criminal operations."
         },
         {
-          "url": "/gameplay/locations/military-base",
+          "url": "/gameplay/locations/mile-zero-air-station",
           "label": "Restricted",
           "color": "#ef4444",
-          "name": "Military Base",
+          "name": "Mile Zero Air Station",
           "desc": "Government installation. Entry not advised."
         },
         {

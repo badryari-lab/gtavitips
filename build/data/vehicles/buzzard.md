@@ -51,9 +51,9 @@
       "desc": "The civilian helicopter in the same airframe class."
     },
     {
-      "url": "/gameplay/locations/military-base",
+      "url": "/gameplay/locations/mile-zero-air-station",
       "type": "Location",
-      "name": "Military Base",
+      "name": "Mile Zero Air Station",
       "desc": "Where the Buzzard is based."
     }
   ],

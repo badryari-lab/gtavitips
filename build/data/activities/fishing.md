@@ -5,71 +5,100 @@
   ],
   "seo": {
     "title": "Fishing | GTA 6 Activity | GTAVITIPS",
-    "description": "Fishing in GTA 6 Leonida: Lake Leonida, the Keys, and coastal spots for largemouth bass and tropical species, patience required.",
-    "ogDescription": "Fishing in GTA 6 Leonida: Lake Leonida, the Keys, and coastal spots for largemouth bass and tropical species, patience required.",
+    "description": "Fishing in GTA 6: open from the start, rod on the weapon wheel, catch and release only. Beat Cal at his challenges for the Baited My Tackle trophy.",
+    "ogDescription": "Fishing in GTA 6: open from the start, rod on the weapon wheel, catch and release only. Beat Cal at his challenges for the Baited My Tackle trophy.",
     "jsonLdHeadline": "Fishing - GTA 6 Activity",
-    "jsonLdDescription": "Fishing in GTA 6 Leonida: Lake Leonida, the Keys, and coastal spots for largemouth bass and tropical species, patience required.",
-    "dateModified": "2026-02-01",
+    "jsonLdDescription": "Fishing in GTA 6: open from the start, rod on the weapon wheel, catch and release only. Beat Cal at his challenges for the Baited My Tackle trophy.",
+    "dateModified": "2026-11-21",
     "ogImage": "https://gtavitips.com/assets/images/jason-duval-gta-6-character-01.jpg"
   },
-  "heroSubtitle": "Rod and reel in Leonida. **Lake Leonida for bass, the [Keys](/gameplay/locations/leonida-keys) for reef species, the coastal zones for everything in between. The patience activity in a state that rewards patience with fish.**",
+  "heroSubtitle": "A rod, a dock in the [Keys](/gameplay/locations/leonida-keys) and nowhere to be. **Every fish goes back in the water. Cal still keeps score.**",
   "heroImage": {
     "src": "/assets/images/jason-duval-gta-6-character-01.jpg",
-    "alt": "Fishing in GTA 6, confirmed activity in Leonida",
+    "alt": "Jason Duval on the water in the Leonida Keys, GTA 6",
     "width": "1920",
     "height": "1080"
   },
   "statBlock": [
     {
       "key": "Type",
-      "value": "Leisure / Skill Activity"
+      "value": "Fishing / Challenges"
+    },
+    {
+      "key": "Setting",
+      "value": "Docks, shores and boats across Leonida"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Florida Keys saltwater and freshwater bass fishing"
     }
   ],
   "connections": [
     {
+      "url": "/gameplay/characters/cal-hampton",
+      "role": "Character",
+      "name": "Cal Hampton",
+      "desc": "Sets the fishing challenges, marks his spot and dares Jason to beat his catch.",
+      "avatarImage": {
+        "src": "/assets/images/cal-hampton-gta-6-character-01.jpg"
+      }
+    },
+    {
       "url": "/gameplay/activities/hunting",
       "role": "Activity",
       "name": "Hunting",
-      "desc": "Both take you outside the city. The same patience, different terrain.",
+      "desc": "The outdoors with a payout. Fish go back in the water, carcasses go to Bret for cash.",
       "avatarInitials": "HU"
     },
     {
-      "url": "/gameplay/characters/brian-heder",
-      "role": "Character",
-      "name": "Brian Heder",
-      "desc": "His Rusty Anchor fish memorial says everything. He runs on Keys water. Fishing is his world.",
-      "avatarInitials": "BH"
+      "url": "/gameplay/locations/key-lento",
+      "role": "Location",
+      "name": "Key Lento",
+      "desc": "Docks and jetties close to home. Cast off the end of one and wait.",
+      "avatarInitials": "KL"
     },
     {
       "url": "/gameplay/locations/lake-leonida",
       "role": "Location",
       "name": "Lake Leonida",
-      "desc": "Freshwater fishing territory. Different catch from the Keys ocean but part of the same system.",
+      "desc": "Freshwater, so swap to the freshwater lure.",
       "avatarInitials": "LL"
     },
     {
-      "url": "/gameplay/vehicles/airboat-fanboat",
+      "url": "/gameplay/animals/largemouth-bass",
+      "role": "Animal",
+      "name": "Largemouth Bass",
+      "desc": "The freshwater fight. Tire it out before you reel.",
+      "avatarInitials": "LB"
+    },
+    {
+      "url": "/gameplay/vehicles/nagasaki-dinghy",
       "role": "Vehicle",
-      "name": "Airboat / Fanboat",
-      "desc": "Gets you to the spot. The standard Keys and Grassrivers watercraft.",
-      "avatarInitials": "AF"
+      "name": "Nagasaki Dinghy",
+      "desc": "Gets you off the dock and onto open water, where a boat counts as a spot too.",
+      "avatarInitials": "ND"
     }
   ],
   "faq": [
     {
-      "q": "What can you catch in the Keys versus inland?",
-      "a": "**Two environments confirmed.** Ocean fishing in the Keys produces saltwater species. Lake Leonida and the Grassrivers waterways produce freshwater catch. The fish memorial in the Rusty Anchor (Trailer 2) is a detail that only exists in a game that takes fishing seriously.",
-      "aPlain": "Two environments confirmed. Ocean fishing in the Keys produces saltwater species. Lake Leonida and the Grassrivers waterways produce freshwater catch. The fish memorial in the Rusty Anchor (Trailer 2) is a detail that only exists in a game that takes fishing seriously."
+      "q": "How do you unlock fishing in GTA 6?",
+      "a": "You do not have to. Fishing is open as soon as Jason can move freely. Stand near water and pick the rod from the Equipment tab of the weapon wheel.",
+      "aPlain": "You do not have to. Fishing is open as soon as Jason can move freely. Stand near water and pick the rod from the Equipment tab of the weapon wheel."
     },
     {
-      "q": "Are sharks a hazard while ocean fishing?",
-      "a": "**Yes.** Trailer 1 shows sharks near the Vice City shoreline. The Rusty Anchor fish memorial, someone nearly dragged off the pier by something large, is consistent with shark encounters during ocean fishing.",
-      "aPlain": "Yes. Trailer 1 shows sharks near the Vice City shoreline. The Rusty Anchor fish memorial, someone nearly dragged off the pier by something large, is consistent with shark encounters during ocean fishing."
+      "q": "Can you sell fish in GTA 6?",
+      "a": "No. **Every fish is caught and released.** Fishing pays out in trophies and completion, not cash. For money, go hunting.",
+      "aPlain": "No. Every fish is caught and released. Fishing pays out in trophies and completion, not cash. For money, go hunting."
     },
     {
-      "q": "Does catch size or type matter?",
-      "a": "Not confirmed in detail pre-launch. The fishing system depth will be apparent at launch. The Grassrivers and Keys geography alone suggest a varied and full system.",
-      "aPlain": "Not confirmed in detail pre-launch. The fishing system depth will be apparent at launch. The Grassrivers and Keys geography alone suggest a varied and full system."
+      "q": "How do you get the Baited My Tackle trophy?",
+      "a": "Beat Cal in one of his fishing challenges. They start after the mission Feng Shui: wait for his text, go to his marker and beat the catch he sets. Fish caught anywhere else do not count.",
+      "aPlain": "Beat Cal in one of his fishing challenges. They start after the mission Feng Shui: wait for his text, go to his marker and beat the catch he sets. Fish caught anywhere else do not count."
+    },
+    {
+      "q": "Is fishing needed for 100%?",
+      "a": "Yes, and it never locks out. You can finish it after the story.",
+      "aPlain": "Yes, and it never locks out. You can finish it after the story."
     }
   ],
   "sidebarDatabase": [
@@ -110,10 +139,12 @@
   ]
 }
 ---
-Fishing covers the full range of Leonida's aquatic geography. Lake Leonida is the freshwater environment. Largemouth bass is the confirmed primary species. The [Keys](/gameplay/locations/leonida-keys) reef system provides the tropical saltwater environment with different species and different technique requirements. The open Atlantic off the outer Keys adds deep-water fishing to the range.
+Fishing is open from the moment Jason can walk to a dock. No mission unlocks it. **Stand near water, open the Equipment tab on the weapon wheel and take out the rod.** Aim, cast and wait. When something takes the bait, set the hook, pull against the fish until it tires, then reel it in. Focus shows where fish are gathering, if you want the help.
 
-**The fishing mechanic returns as a genuine activity in Leonida.** Leonida's Florida setting provides a richer fishing geography than any previous version of this city. GTA entry. The species variety, location range, and the social culture around fishing in Leonida make it one of the more substantial leisure activities on the map.
+Docks, shorelines and boats all work, from the jetties of [Key Lento](/gameplay/locations/key-lento) to the freshwater of [Lake Leonida](/gameplay/locations/lake-leonida). Saltwater and freshwater hold different fish and want different lures, and you start with a small one of each.
 
-The fishing mechanic uses rod selection, bait type, and casting technique to determine what species are catchable at a given location. **Each location has a species profile that reflects the real-world equivalents: largemouth bass in the freshwater lake, snook and tarpon in the Keys backcountry, pelagic species in the open water.**
+**Nothing goes home with you.** Every fish gets a look and goes back in the water. There is no market for them and no money in it. [Hunting](/gameplay/activities/hunting) is how you turn the outdoors into cash. Fishing keeps score instead: the stats page tracks what you land.
 
-Fishing tournaments are available at specific locations. The bass tournament at Lake Leonida and the Keys fishing competition are both confirmed in the activity database. Both have entry fees and prize structures. The competitive fishing economy connects to the gambling infrastructure through side betting on tournament outcomes.
+The competition is [Cal Hampton](/gameplay/characters/cal-hampton). After the main mission Feng Shui he texts Jason with a challenge, marks his spot on the map and sets a catch to beat. Beat it and the Baited My Tackle trophy is yours. Fishing counts toward 100%, and none of it expires after the story.
+
+Source: GTA VI, in-game.

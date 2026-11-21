@@ -5,17 +5,25 @@
   ],
   "seo": {
     "title": "Cardio | GTA 6 Activity | GTAVITIPS",
-    "description": "Cardio training in GTA 6 Leonida: running and cycling that actually move the stats, not just the scenery.",
-    "ogDescription": "Cardio training in GTA 6 Leonida: running and cycling that actually move the stats, not just the scenery.",
+    "description": "Cardio in GTA 6 sets your stamina. Run, cycle, swim, kayak or hit the treadmill and heavy bag, train Jason and Lucia apart, and do not skip a workout.",
+    "ogDescription": "Cardio in GTA 6 sets your stamina. Run, cycle, swim, kayak or hit the treadmill and heavy bag, train Jason and Lucia apart, and do not skip a workout.",
     "jsonLdHeadline": "Cardio - GTA 6 Activity",
-    "jsonLdDescription": "Cardio training in GTA 6 Leonida: running and cycling that actually move the stats, not just the scenery.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Cardio in GTA 6 sets your stamina. Run, cycle, swim, kayak or hit the treadmill and heavy bag, train Jason and Lucia apart, and do not skip a workout.",
+    "dateModified": "2026-11-21"
   },
-  "heroSubtitle": "Running in [Vice City](/gameplay/locations/vice-city). **The physical fitness system returns, the protagonist gets tired if neglected, and the beachfront jog is both recreation and character maintenance.**",
+  "heroSubtitle": "Jason starts out of breath. **Run, ride, swim or hit the bag and the stamina bar grows. Skip the work and it slips back.**",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Physical Training"
+      "value": "Fitness / Stamina Training"
+    },
+    {
+      "key": "Setting",
+      "value": "Gyms, home equipment, streets and water across Leonida"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Miami beach fitness culture"
     }
   ],
   "connections": [
@@ -23,52 +31,59 @@
       "url": "/gameplay/activities/weightlifting",
       "role": "Activity",
       "name": "Weightlifting",
-      "desc": "The other half of the physical system. Both run at the same facilities.",
+      "desc": "Same gyms, other stat. Weights build strength, the treadmill builds cardio.",
       "avatarImage": {
         "src": "/assets/images/weightlifting-gta-6-activity-01.jpg"
+      }
+    },
+    {
+      "url": "/gameplay/activities/kayaking",
+      "role": "Activity",
+      "name": "Kayaking",
+      "desc": "Paddling counts as cardio. A workout with a view.",
+      "avatarImage": {
+        "src": "/assets/images/mount-kalaga-national-park-gta-6-location-06.jpg"
       }
     },
     {
       "url": "/gameplay/characters/jason-duval",
       "role": "Character",
       "name": "Jason Duval",
-      "desc": "Beach training, weights outdoors. Physical fitness culture is his.",
+      "desc": "Starts with poor cardio and a heavy bag waiting in the shed under his house.",
       "avatarImage": {
         "src": "/assets/images/jason-duval-gta-6-character-05.jpg"
       }
     },
     {
-      "url": "/gameplay/locations/ocean-beach",
-      "role": "Location",
-      "name": "Ocean Beach",
-      "desc": "The Ocean Drive promenade. The confirmed morning run route across both trailers.",
+      "url": "/gameplay/characters/lucia-caminos",
+      "role": "Character",
+      "name": "Lucia Caminos",
+      "desc": "Trains on her own track. Jason's miles do nothing for her lungs.",
       "avatarImage": {
-        "src": "/assets/images/vice-city-gta-6-location-05.jpg"
+        "src": "/assets/images/lucia-caminos-gta-6-character-01.jpg"
       }
-    },
-    {
-      "url": "/gameplay/vehicles/annis-hellion",
-      "role": "Vehicle",
-      "name": "Annis Hellion",
-      "desc": "ATV for the Keys cycling routes. Off-road where the road runs out.",
-      "avatarInitials": "AH"
     }
   ],
   "faq": [
     {
-      "q": "Does cardio improve stamina?",
-      "a": "**Confirmed system.** The physical fitness mechanic tracks across activities. A protagonist who maintains cardio performs better in sustained physical situations. Skip it and the difference shows.",
-      "aPlain": "Confirmed system. The physical fitness mechanic tracks across activities. A protagonist who maintains cardio performs better in sustained physical situations. Skip it and the difference shows."
+      "q": "What does cardio do in GTA 6?",
+      "a": "It sets your stamina, so you **sprint and swim longer** before you run out.",
+      "aPlain": "It sets your stamina, so you sprint and swim longer before you run out."
     },
     {
-      "q": "Is the Ocean Drive morning run in the game?",
-      "a": "**Yes.** The beachfront promenade is confirmed across both trailers as a living environment. Running the promenade is consistent with the confirmed fitness culture.",
-      "aPlain": "Yes. The beachfront promenade is confirmed across both trailers as a living environment. Running the promenade is consistent with the confirmed fitness culture."
+      "q": "What is the fastest way to raise cardio?",
+      "a": "Structured workouts. Treadmills, exercise bikes and punching bags at a gym, or the heavy bag at Jason's house, beat running around town.",
+      "aPlain": "Structured workouts. Treadmills, exercise bikes and punching bags at a gym, or the heavy bag at Jason's house, beat running around town."
     },
     {
-      "q": "Is cycling confirmed as a cardio option?",
-      "a": "**Reported.** The Keys causeway and Vice County road margins are confirmed as cycling territory. Specific cycling mechanics are consistent with the confirmed fitness system but not yet broken down in detail.",
-      "aPlain": "Reported. The Keys causeway and Vice County road margins are confirmed as cycling territory. Specific cycling mechanics are consistent with the confirmed fitness system but not yet broken down in detail."
+      "q": "Do Jason and Lucia share cardio?",
+      "a": "No. Each one trains separately.",
+      "aPlain": "No. Each one trains separately."
+    },
+    {
+      "q": "Can you lose cardio progress?",
+      "a": "Yes. Training runs in timed windows, and missing one costs progress.",
+      "aPlain": "Yes. Training runs in timed windows, and missing one costs progress."
     }
   ],
   "sidebarDatabase": [
@@ -109,10 +124,10 @@
   ]
 }
 ---
-Cardio is physical activity as character maintenance. The fitness system returns to Leonida with the [Vice City](/gameplay/locations/vice-city) environment providing the specific backdrop: the promenade run at sunrise, the cycling route along the coastal road, and the gym cardio equipment as an indoor alternative.
+Cardio is the stat behind your stamina bar. **More cardio, more sprint before the gasping starts.** Jason starts with poor cardio, and Jason and Lucia train separately, so what one does on the treadmill does nothing for the other.
 
-**The Leonida climate is the context that makes cardio culture make sense.** Vice City in warm weather generates the beachfront fitness scene naturally. Runners, cyclists, and the specific category of Vice City resident who is in athletic wear at six in the morning on the promenade. The protagonist participates in this culture or does not, and the character system reflects the difference.
+Almost anything that moves you counts. Running, cycling, swimming and [kayaking](/gameplay/activities/kayaking) all raise it out in the world. Gyms are faster: treadmills, exercise bikes and punching bags all feed cardio, and a membership is bought at the front desk on the first visit. Jason can skip the gym once he has his house. There is a heavy bag in the shed below it, ready to hang under the property, and it builds cardio faster than roadwork.
 
-The cardio mechanic tracks the protagonist's fitness level across activities. Running distance, cycling speed, and the physical output metrics that determine the character's stamina in extended situations. **A protagonist who maintains cardio activity performs better in sustained physical scenarios.**
+**Training runs on a timer.** Workouts come in windows, and missing one costs progress. Eat and rest before a session, finish the full workout, then get protein and sleep after. A tired or hungry body gets less out of it. The [weight room](/gameplay/activities/weightlifting) works the other half of the same system.
 
-The [Vice City](/gameplay/locations/vice-city) promenade is the primary cardio environment. Long, flat, with ocean on one side and the hotel facades on the other. The cycling network extends onto the [Vice County](/gameplay/locations/vice-county) road margins and the [Keys](/gameplay/locations/leonida-keys) causeway. Both provide open-road cardio outside the urban core.
+Source: GTA VI, in-game.

@@ -5,78 +5,79 @@
   ],
   "seo": {
     "title": "Golf | GTA 6 Activity | GTAVITIPS",
-    "description": "Golf in GTA 6 Leonida: a full Vice County course, returning from GTA 5 with mechanics that finally feel like golf.",
-    "ogDescription": "Golf in GTA 6 Leonida: a full Vice County course, returning from GTA 5 with mechanics that finally feel like golf.",
+    "description": "Golf in GTA 6: two private courses, Leaf Links on Vice Beach and Mount Hailes Country Club in Waning Sands, guarded and off the 100% checklist.",
+    "ogDescription": "Golf in GTA 6: two private courses, Leaf Links on Vice Beach and Mount Hailes Country Club in Waning Sands, guarded and off the 100% checklist.",
     "jsonLdHeadline": "Golf - GTA 6 Activity",
-    "jsonLdDescription": "Golf in GTA 6 Leonida: a full Vice County course, returning from GTA 5 with mechanics that finally feel like golf.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Golf in GTA 6: two private courses, Leaf Links on Vice Beach and Mount Hailes Country Club in Waning Sands, guarded and off the 100% checklist.",
+    "dateModified": "2026-11-21"
   },
-  "heroSubtitle": "The [Vice County](/gameplay/locations/vice-county) golf course. **Updated physics, the alligator hazard on the water holes, and the specific social environment of a [Vice City](/gameplay/locations/vice-city) golf course at ten in the morning.**",
+  "heroSubtitle": "Leonida plays golf behind a gate. **Two full courses, both private, and the security staff does not care who you are.**",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Sport / Minigame"
+      "value": "Sport / private golf courses"
+    },
+    {
+      "key": "Setting",
+      "value": "Leaf Links on Vice Beach, Mount Hailes in Waning Sands"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "South Florida private country clubs"
     }
   ],
   "connections": [
     {
-      "url": "/gameplay/activities/fencing",
-      "role": "Activity",
-      "name": "Fencing",
-      "desc": "Country club leisure. Same Vice City social tier, different sport.",
-      "avatarInitials": "FE"
-    },
-    {
-      "url": "/gameplay/characters/erin-henshaw",
-      "role": "Character",
-      "name": "Erin Henshaw",
-      "desc": "Running for mayor of Ambrosia. The donors behind a campaign like hers are the country club crowd.",
-      "avatarInitials": "EH"
-    },
-    {
-      "url": "/gameplay/locations/mount-kalaga",
+      "url": "/gameplay/locations/vice-beach",
       "role": "Location",
-      "name": "Mount Kalaga",
-      "desc": "The elevated terrain north of Vice City. Golf course territory.",
-      "avatarInitials": "MK"
+      "name": "Vice Beach",
+      "desc": "Leaf Links sits on the island, a long way from the public beach.",
+      "avatarInitials": "VB"
     },
     {
-      "url": "/gameplay/vehicles/benefactor-schafter-v12",
-      "role": "Vehicle",
-      "name": "Benefactor Schafter V12",
-      "desc": "Country club arrival. The car that pulls into the clubhouse drop-off.",
-      "avatarInitials": "BV"
+      "url": "/gameplay/locations/waning-sands",
+      "role": "Location",
+      "name": "Waning Sands",
+      "desc": "Mount Hailes Country Club is out here, past the malls.",
+      "avatarInitials": "WS"
+    },
+    {
+      "url": "/gameplay/locations/leonard-county",
+      "role": "Location",
+      "name": "Leonard County",
+      "desc": "The county that holds Mount Hailes and a Wild West putting course.",
+      "avatarInitials": "LC"
     },
     {
       "url": "/gameplay/activities/mini-golf",
       "role": "Activity",
       "name": "Mini Golf",
-      "desc": "Same game, different stakes. The beachfront version.",
+      "desc": "The courses that actually count toward 100%.",
       "avatarInitials": "MG"
     },
     {
-      "url": "/gameplay/activities/tennis",
-      "role": "Activity",
-      "name": "Tennis",
-      "desc": "Country club sport. The same Vice City social tier.",
-      "avatarInitials": "TE"
+      "url": "/gameplay/vehicles/benefactor-schafter-v12",
+      "role": "Vehicle",
+      "name": "Benefactor Schafter V12",
+      "desc": "The kind of car that looks at home in a country club lot.",
+      "avatarInitials": "BS"
     }
   ],
   "faq": [
     {
-      "q": "Is there a full golf course in the game?",
-      "a": "**Confirmed as an activity.** GTA games have historically included functional golf. GTA VI's scale and the Mount Kalaga geography both support a full course.",
-      "aPlain": "Confirmed as an activity. GTA games have historically included functional golf. GTA VI's scale and the Mount Kalaga geography both support a full course."
+      "q": "Where can you play golf in GTA 6?",
+      "a": "At **Leaf Links** on Vice Beach and **Mount Hailes Country Club** in Waning Sands. Both are private, and the security guards do not want you there.",
+      "aPlain": "At Leaf Links on Vice Beach and Mount Hailes Country Club in Waning Sands. Both are private, and the security guards do not want you there."
     },
     {
-      "q": "Can you drive a golf cart?",
-      "a": "**Consistent with the series.** Golf cart access is standard in GTA golf. Specific confirmation for GTA VI pre-launch is not documented but is expected.",
-      "aPlain": "Consistent with the series. Golf cart access is standard in GTA golf. Specific confirmation for GTA VI pre-launch is not documented but is expected."
+      "q": "Does golf count toward 100% completion?",
+      "a": "The full courses do not. Two of the three mini golf parks do: King Gator Adventure Golf, Frontier Adventure Golf and Dino Golf Challenge.",
+      "aPlain": "The full courses do not. Two of the three mini golf parks do: King Gator Adventure Golf, Frontier Adventure Golf and Dino Golf Challenge."
     },
     {
-      "q": "Is golf connected to the criminal social world?",
-      "a": "Every Vice City leisure activity has a social layer underneath it. The golf course puts you in contact with a specific demographic, one that has money, connections, and things they would rather keep private.",
-      "aPlain": "Every Vice City leisure activity has a social layer underneath it. The golf course puts you in contact with a specific demographic, one that has money, connections, and things they would rather keep private."
+      "q": "Where do you track golf scores?",
+      "a": "Under Progress, then Activities, then Sports. Every course gets its own line.",
+      "aPlain": "Under Progress, then Activities, then Sports. Every course gets its own line."
     }
   ],
   "sidebarDatabase": [
@@ -117,10 +118,10 @@
   ]
 }
 ---
-Golf returns with the full course experience. [Vice County](/gameplay/locations/vice-county) provides the setting: a manicured course in the suburban fringe, the kind of facility that [Vice City](/gameplay/locations/vice-city)'s money class uses for the specific combination of sport and business conversation that happens on the back nine. **The alligator on the water hazard is not decoration. It is a confirmed Leonida wildlife presence.**
+Leonida plays golf behind a gate. **Two full courses, both private, both guarded.** Leaf Links sits on [Vice Beach](/gameplay/locations/vice-beach). Mount Hailes Country Club is out in [Waning Sands](/gameplay/locations/waning-sands), [Leonard County](/gameplay/locations/leonard-county). Walk in like you own the place and security will walk you back out.
 
-The Vice County golf course is a location with a social register. The people who play here are the people with money and the people who want to meet the people with money. The protagonist playing golf is the protagonist accessing a specific social layer of Vice City that the street does not reach.
+Get past that and the course is yours. Scores land under Progress, then Activities, then Sports, with a line per course.
 
-The swing mechanic uses a timing system managing power and accuracy. Club selection, wind direction, and lie position all factor into shot outcomes. The putting mechanic manages break reading and stroke weight. **The complete golf simulation is present, not a simplified version.**
+**The full courses do not count toward 100%.** The putting courses do: play two of the three adventure golf parks, King Gator Adventure Golf, Frontier Adventure Golf and Dino Golf Challenge. More in [mini golf](/gameplay/activities/mini-golf) and [amusement parks](/gameplay/activities/amusement-parks).
 
-The course environment creates specific gameplay moments beyond the sport itself. The wide open terrain, the cart paths, and the course geography provide a specific landscape that works for the same reasons real criminals sometimes use golf courses: proximity to wealth, controlled access, and terrain that discourages fast movement from outside.
+Source: GTA VI, in-game.

@@ -5,73 +5,79 @@
   ],
   "seo": {
     "title": "Drinking | GTA 6 Activity | GTAVITIPS",
-    "description": "Drinking in GTA 6 Leonida: bar visits that blur the vision and loosen the judgment, exactly as advertised.",
-    "ogDescription": "Drinking in GTA 6 Leonida: bar visits that blur the vision and loosen the judgment, exactly as advertised.",
+    "description": "Drinking in GTA 6: order at the bar, keep going and the screen blurs, the walk staggers and the steering goes loose. Plus the Rusty Anchor in Key Lento.",
+    "ogDescription": "Drinking in GTA 6: order at the bar, keep going and the screen blurs, the walk staggers and the steering goes loose. Plus the Rusty Anchor in Key Lento.",
     "jsonLdHeadline": "Drinking - GTA 6 Activity",
-    "jsonLdDescription": "Drinking in GTA 6 Leonida: bar visits that blur the vision and loosen the judgment, exactly as advertised.",
-    "dateModified": "2026-02-01",
+    "jsonLdDescription": "Drinking in GTA 6: order at the bar, keep going and the screen blurs, the walk staggers and the steering goes loose. Plus the Rusty Anchor in Key Lento.",
+    "dateModified": "2026-11-21",
     "ogImage": "https://gtavitips.com/assets/images/drinking-gta-6-activity-01.jpg"
   },
-  "heroSubtitle": "[Vice City](/gameplay/locations/vice-city) has bars and the bars have alcohol and the alcohol has effects. **The intoxication mechanics are present. The range of Vice City venues that make it possible is confirmed.**",
+  "heroSubtitle": "Order at the counter, pay, drink, repeat. **Somewhere around the third round, Leonida starts to tilt.**",
   "heroImage": {
     "src": "/assets/images/drinking-gta-6-activity-01.jpg",
-    "alt": "Drinking in GTA 6, confirmed activity in Leonida",
+    "alt": "Drinking at a bar in Leonida, GTA 6",
     "width": "1920",
     "height": "1080"
   },
   "statBlock": [
     {
       "key": "Type",
-      "value": "Social / Character State Activity"
+      "value": "Social / bars"
+    },
+    {
+      "key": "Setting",
+      "value": "Bars across Leonida, from Key Lento to Port Gellhorn"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Florida Keys dive bars"
     }
   ],
   "connections": [
     {
+      "url": "/gameplay/locations/key-lento",
+      "role": "Location",
+      "name": "Key Lento",
+      "desc": "Home of the Rusty Anchor, the bar the Keys know best.",
+      "avatarInitials": "KL"
+    },
+    {
+      "url": "/gameplay/locations/delights-port-gellhorn",
+      "role": "Location",
+      "name": "Delights",
+      "desc": "Port Gellhorn's place to be, with a pool regular waiting for your money.",
+      "avatarInitials": "DE"
+    },
+    {
+      "url": "/gameplay/activities/snooker",
+      "role": "Activity",
+      "name": "Pool",
+      "desc": "The table in the back of the bar, and the part of a night out that counts toward 100%.",
+      "avatarInitials": "PO"
+    },
+    {
       "url": "/gameplay/activities/dj-and-music",
       "role": "Activity",
       "name": "DJ and Music",
-      "desc": "The same venue. The bar and the dancefloor run together in Vice City.",
+      "desc": "Where the night goes after the bar closes.",
       "avatarInitials": "DM"
-    },
-    {
-      "url": "/gameplay/characters/jason-duval",
-      "role": "Character",
-      "name": "Jason Duval",
-      "desc": "He buys beer, clinks bottles at the Rusty Anchor with Lucia. It's his pace.",
-      "avatarImage": {
-        "src": "/assets/images/jason-duval-gta-6-character-05.jpg"
-      }
-    },
-    {
-      "url": "/gameplay/locations/malibu-club",
-      "role": "Location",
-      "name": "Malibu Club",
-      "desc": "One of Vice City's primary drinking venues. The full nightlife circuit.",
-      "avatarInitials": "MC"
-    },
-    {
-      "url": "/gameplay/vehicles/albany-buccaneer",
-      "role": "Vehicle",
-      "name": "Albany Buccaneer",
-      "desc": "The car you leave in at 3am. Classic, low, unhurried.",
-      "avatarInitials": "AB"
     }
   ],
   "faq": [
     {
-      "q": "What bars are confirmed in the game?",
-      "a": "**Confirmed:** The Rusty Anchor (Keys neighborhood bar, Trailer 2 Scenes 26-28 and 43), Tequi-la-la, Bahama Mamas. The Vice City bar infrastructure extends across every district.",
-      "aPlain": "Confirmed: The Rusty Anchor (Keys neighborhood bar, Trailer 2 Scenes 26-28 and 43), Tequi-la-la, Bahama Mamas. The Vice City bar infrastructure extends across every district."
+      "q": "Can you get drunk in GTA 6?",
+      "a": "Yes. Buy drinks at a bar counter and keep going. A few in a short stretch blur the screen, slow your feet and loosen your steering.",
+      "aPlain": "Yes. Buy drinks at a bar counter and keep going. A few in a short stretch blur the screen, slow your feet and loosen your steering."
     },
     {
-      "q": "Does driving while drunk trigger a police response?",
-      "a": "**Reported.** The wanted system connects to visibly impaired driving. Visible intoxication behind the wheel draws law enforcement attention in Vice City.",
-      "aPlain": "Reported. The wanted system connects to visibly impaired driving. Visible intoxication behind the wheel draws law enforcement attention in Vice City."
+      "q": "Where are the bars in GTA 6?",
+      "a": "All over Leonida. The **Rusty Anchor** in Key Lento is the one the Keys know best. Many bars keep a pool table in the back, with regulars ready to play for cash.",
+      "aPlain": "All over Leonida. The Rusty Anchor in Key Lento is the one the Keys know best. Many bars keep a pool table in the back, with regulars ready to play for cash."
     },
     {
-      "q": "Are there blackout mechanics for heavy drinking?",
-      "a": "**Consistent with the series.** Heavy consumption triggering blackout sequences, waking up in an unknown location, is a confirmed mechanic type for Vice City. Specific implementation details are not yet documented.",
-      "aPlain": "Consistent with the series. Heavy consumption triggering blackout sequences, waking up in an unknown location, is a confirmed mechanic type for Vice City. Specific implementation details are not yet documented."
+      "q": "Does drinking count toward 100%?",
+      "a": "No. The pool table in the bar does: beat five of the pool regulars.",
+      "aPlain": "No. The pool table in the bar does: beat five of the pool regulars."
     }
   ],
   "sidebarDatabase": [
@@ -112,10 +118,10 @@
   ]
 }
 ---
-Drinking is the activity that the [Vice City](/gameplay/locations/vice-city) nightlife infrastructure is built to support. Every bar in Leonida is a drinking activity location. **The character effect system reflects alcohol consumption through progressive visual and movement changes** that Vice City has always used to communicate intoxication.
+Bars across Leonida pour over the counter. **Order from the bartender, pay, drink.** Do it a few times in a short stretch and the screen blurs, the walk turns into a stagger and the car stops going where you point it.
 
-The range of venues is the range of the activity. Tequi-la-la is a tequila bar. Bahama Mamas is a club with a bar. Hank's Waffles is open all night and has beer. The Vice City beachfront has bars that operate on the sand. Each venue produces the same character state change through a different social environment.
+The Rusty Anchor in [Key Lento](/gameplay/locations/key-lento) is the bar the Keys know best. [Delights](/gameplay/locations/delights-port-gellhorn) holds the title in Port Gellhorn. Many bars keep a pool table in the back, and the regulars around it play for cash. Beat five of them and it counts toward 100%. More in [pool](/gameplay/activities/snooker).
 
-The mechanics work through a purchasing system at bar counters. Each drink increases the intoxication level. Visual effects (screen blur, color shift) and movement effects (reduced coordination) scale with consumption. **Heavy consumption creates blackout sequences where the protagonist recovers in an unknown location.** The activity creates story moments as much as character state.
+Long nights show. Skip sleep and keep going, and Jason and Lucia start to look it in the mirror.
 
-The driving while intoxicated mechanic connects to the wanted level system. [Vice City](/gameplay/locations/vice-city) law enforcement responds to visibly impaired driving. The activity has consequences that extend beyond the character screen.
+Source: GTA VI, in-game.

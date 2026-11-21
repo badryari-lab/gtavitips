@@ -5,64 +5,83 @@
   ],
   "seo": {
     "title": "Watching TV | GTA 6 Activity | GTAVITIPS",
-    "description": "Watching TV in GTA 6 Leonida: Weazel News and original in-game programming, the state's second-least trustworthy source after the streets.",
-    "ogDescription": "Watching TV in GTA 6 Leonida: Weazel News and original in-game programming, the state's second-least trustworthy source after the streets.",
+    "description": "Watching TV in GTA 6: sit on the couch at Jason's house in Key Lento, flick through channels of parody ads and catch Macca & Friends on WEAZEL.",
+    "ogDescription": "Watching TV in GTA 6: sit on the couch at Jason's house in Key Lento, flick through channels of parody ads and catch Macca & Friends on WEAZEL.",
     "jsonLdHeadline": "Watching TV - GTA 6 Activity",
-    "jsonLdDescription": "Watching TV in GTA 6 Leonida: Weazel News and original in-game programming, the state's second-least trustworthy source after the streets.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Watching TV in GTA 6: sit on the couch at Jason's house in Key Lento, flick through channels of parody ads and catch Macca & Friends on WEAZEL.",
+    "dateModified": "2026-11-21"
   },
-  "heroSubtitle": "The television in the safehouse. **Weazel News on one channel, something else on the next, and the in-world programming that delivers Leonida commentary directly into the protagonist's living room.**",
+  "heroSubtitle": "A couch, a remote and a channel full of things nobody should buy. **Macca the gator is on WEAZEL, and he has problems of his own.**",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Leisure / Media Activity"
+      "value": "Leisure / safehouse downtime"
+    },
+    {
+      "key": "Setting",
+      "value": "Safehouses, starting with Jason's house in Key Lento"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Florida local TV and Saturday-morning cartoons"
     }
   ],
   "connections": [
     {
+      "url": "/gameplay/brands/weazel-news",
+      "role": "Brand",
+      "name": "WEAZEL",
+      "desc": "The network that airs Macca & Friends.",
+      "avatarImage": {
+        "src": "/assets/images/weazel-news-gta-6-brand-01.jpg"
+      }
+    },
+    {
+      "url": "/gameplay/locations/key-lento",
+      "role": "Location",
+      "name": "Key Lento",
+      "desc": "Jason's house here has the couch and the TV.",
+      "avatarInitials": "KL"
+    },
+    {
+      "url": "/gameplay/characters/jason-duval",
+      "role": "Character",
+      "name": "Jason Duval",
+      "desc": "The first living room you get to flick channels in is his.",
+      "avatarImage": {
+        "src": "/assets/images/jason-duval-gta-6-character-01.jpg"
+      }
+    },
+    {
+      "url": "/gameplay/activities/games",
+      "role": "Activity",
+      "name": "Games",
+      "desc": "Same couch, but the video games actually count toward 100%.",
+      "avatarInitials": "GA"
+    },
+    {
       "url": "/gameplay/activities/social-media",
       "role": "Activity",
       "name": "Social Media",
-      "desc": "Both are media consumption. What goes viral on social media becomes TV. The cycle is the same.",
+      "desc": "The same parody media machine, on a phone instead of a screen.",
       "avatarInitials": "SM"
-    },
-    {
-      "url": "/gameplay/characters/cal-hampton",
-      "role": "Character",
-      "name": "Cal Hampton",
-      "desc": "Described as lazy. A couch and a screen is his natural habitat.",
-      "avatarInitials": "CH"
-    },
-    {
-      "url": "/gameplay/locations/ocean-view-hotel",
-      "role": "Location",
-      "name": "Ocean View Hotel",
-      "desc": "Hotel room TV. The Vice City establishment with a room, a view, and the full channel lineup.",
-      "avatarInitials": "OH"
-    },
-    {
-      "url": "/gameplay/vehicles/brute-camper",
-      "role": "Vehicle",
-      "name": "Brute Camper",
-      "desc": "Mobile living room. TV on the road, parked somewhere in Leonida.",
-      "avatarInitials": "BC"
     }
   ],
   "faq": [
     {
-      "q": "Is Weasel News watchable on TV?",
-      "a": "**Consistent with the series.** Weasel News is confirmed in both trailers, a news van in the Trailer 1 chase. In-game TV channels have included Weasel News since GTA IV. Its return as a watchable channel is expected.",
-      "aPlain": "Consistent with the series. Weasel News is confirmed in both trailers, a news van in the Trailer 1 chase. In-game TV channels have included Weasel News since GTA IV. Its return as a watchable channel is expected."
+      "q": "Can you watch TV in GTA 6?",
+      "a": "Yes. Sit on the couch at a safehouse, such as Jason's house in Key Lento, and flick through the channels.",
+      "aPlain": "Yes. Sit on the couch at a safehouse, such as Jason's house in Key Lento, and flick through the channels."
     },
     {
-      "q": "Can you watch social media clips on TV?",
-      "a": "Trailer 2 Scene 58 shows a parody PS5 in a domestic interior. The same media ecosystem that produces viral social media content feeds into TV culture in Leonida.",
-      "aPlain": "Trailer 2 Scene 58 shows a parody PS5 in a domestic interior. The same media ecosystem that produces viral social media content feeds into TV culture in Leonida."
+      "q": "What is Macca & Friends?",
+      "a": "An animated show about **Macca the gator** and his wetland friends. It airs on WEAZEL, inside the game only.",
+      "aPlain": "An animated show about Macca the gator and his wetland friends. It airs on WEAZEL, inside the game only."
     },
     {
-      "q": "Is there programming specific to Leonida?",
-      "a": "**Yes.** GTA games have always produced original in-game TV programming. Leonida-specific content, satire, local news, infomercials, is the standard format, now in a Florida context.",
-      "aPlain": "Yes. GTA games have always produced original in-game TV programming. Leonida-specific content, satire, local news, infomercials, is the standard format, now in a Florida context."
+      "q": "Does watching TV count toward 100%?",
+      "a": "No. TV time is just for you. The video games line on the checklist comes from playing games, not watching shows.",
+      "aPlain": "No. TV time is just for you. The video games line on the checklist comes from playing games, not watching shows."
     }
   ],
   "sidebarDatabase": [
@@ -103,10 +122,10 @@
   ]
 }
 ---
-The television in [Vice City](/gameplay/locations/vice-city) is one of the more specifically crafted activities. Original programming runs on the in-world channels: fictional sitcoms, chat shows, infomercials, and the news programming that Weazel News provides. **The television delivers the game's satirical commentary in a format the protagonist consumes passively.**
+The couch at Jason's house in [Key Lento](/gameplay/locations/key-lento) faces a TV. **Sit down, turn it on and flick through the channels.** Parody ads for products nobody should buy run between the shows, and the shows were made for Leonida.
 
-In Leonida, the channel lineup reflects Vice City culture. Weazel News covers the state's events with its established editorial position. CNT covers the same events differently. The fictional programming adds the specific character that makes GTA TV memorable: the infomercials for products that do not exist, the chat shows discussing Vice City social dynamics.
+The headline act is Macca & Friends, a cartoon about Macca the gator and his wetland friends, airing on [WEAZEL](/gameplay/brands/weazel-news). Rockstar put out its trailer days before launch, and it plays nowhere but inside the game.
 
-The mechanic is the simplest activity in the game: sit near a television, interact with it, and watch. **Channel selection determines content type.** News channels update with events that have occurred in the player's game world. Original programming runs on a schedule.
+There is nothing to earn here and no line on the 100% checklist. When you want the couch to count, pick up a controller instead: [games](/gameplay/activities/games).
 
-The activity contributes to the ambient world storytelling. A protagonist who watches Weazel News after a significant event sees the event reported. The reporting version and the protagonist's experienced version of the event are often different. That gap is the comedy.
+Source: GTA VI, in-game; Rockstar Games (Macca & Friends trailer).

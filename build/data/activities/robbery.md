@@ -5,66 +5,84 @@
   ],
   "seo": {
     "title": "Robbery | GTA 6 Activity | GTAVITIPS",
-    "description": "Robbery in GTA 6 Leonida: store holdups, vehicle heists, and property crime, the fastest way to a wanted level in the state.",
-    "ogDescription": "Robbery in GTA 6 Leonida: store holdups, vehicle heists, and property crime, the fastest way to a wanted level in the state.",
+    "description": "Robbery in GTA 6: stick ups, smash n grabs, banks and vaults. What each is worth, when it unlocks and where to fence jewelry and marked bills.",
+    "ogDescription": "Robbery in GTA 6: stick ups, smash n grabs, banks and vaults. What each is worth, when it unlocks and where to fence jewelry and marked bills.",
     "jsonLdHeadline": "Robbery - GTA 6 Activity",
-    "jsonLdDescription": "Robbery in GTA 6 Leonida: store holdups, vehicle heists, and property crime, the fastest way to a wanted level in the state.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Robbery in GTA 6: stick ups, smash n grabs, banks and vaults. What each is worth, when it unlocks and where to fence jewelry and marked bills.",
+    "dateModified": "2026-11-21"
   },
-  "heroSubtitle": "Take what is there. **Store holdups, armored car heists, and the full range of property crime that Leonida's commercial and financial infrastructure provides as targets.**",
+  "heroSubtitle": "Every register in Leonida has a number on it. **The trick is getting out with the money, and then finding someone who will take it.**",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Criminal / Core Activity"
+      "value": "Crime / stick ups, smash 'n' grabs, bank jobs"
+    },
+    {
+      "key": "Setting",
+      "value": "Stores, pawn shops, jewelers and banks across Leonida"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Florida armed robbery and pawn-shop fencing"
     }
   ],
   "connections": [
     {
+      "url": "/gameplay/characters/yasmani-cabrera",
+      "role": "Character",
+      "name": "Yasmani Cabrera",
+      "desc": "His counter in Little Cuba takes jewelry and marked bills.",
+      "avatarInitials": "YC"
+    },
+    {
+      "url": "/gameplay/locations/little-cuba",
+      "role": "Location",
+      "name": "Little Cuba",
+      "desc": "Where the jewelry and marked bills turn into money you can spend.",
+      "avatarInitials": "LC"
+    },
+    {
       "url": "/gameplay/activities/selling-drugs",
       "role": "Activity",
       "name": "Selling Drugs",
-      "desc": "Both are crime. One is opportunistic, the other is operational.",
+      "desc": "Narcotics go through a fence too, rated on the same scale.",
       "avatarInitials": "SD"
     },
     {
-      "url": "/gameplay/characters/jason-duval",
-      "role": "Character",
-      "name": "Jason Duval",
-      "desc": "Him and Lucia, masks on. Store holdups are part of the job.",
-      "avatarImage": {
-        "src": "/assets/images/jason-duval-gta-6-character-05.jpg"
-      }
-    },
-    {
-      "url": "/gameplay/locations/leonida-keys",
-      "role": "Location",
-      "name": "Leonida Keys",
-      "desc": "The Keys corridor where Jason and Lucia operate before the bigger jobs.",
-      "avatarInitials": "LK"
+      "url": "/gameplay/gangs-and-factions/vcpd",
+      "role": "Faction",
+      "name": "VCPD",
+      "desc": "The stars start climbing while you are still inside.",
+      "avatarInitials": "VC"
     },
     {
       "url": "/gameplay/vehicles/bravado-buffalo",
       "role": "Vehicle",
       "name": "Bravado Buffalo",
-      "desc": "The getaway car. Built for exactly this kind of exit.",
+      "desc": "Four doors, plenty of power, nothing about it that says getaway.",
       "avatarInitials": "BB"
     }
   ],
   "faq": [
     {
-      "q": "Is the convenience store robbery a mission or repeatable?",
-      "a": "**Both.** The Trailer 1 corner store robbery is a story moment. But Vice City supports repeatable robbery as an activity, stores, armored trucks, and targets throughout the map.",
-      "aPlain": "Both. The Trailer 1 corner store robbery is a story moment. But Vice City supports repeatable robbery as an activity, stores, armored trucks, and targets throughout the map."
+      "q": "How do you rob a store in GTA 6?",
+      "a": "Walk in armed and aim at the clerk, who empties the register for you. Or knock the clerk out and take the cash yourself. Convenience stores, fast food counters and liquor stores are open from the start.",
+      "aPlain": "Walk in armed and aim at the clerk, who empties the register for you. Or knock the clerk out and take the cash yourself. Convenience stores, fast food counters and liquor stores are open from the start."
     },
     {
-      "q": "Is there a CCTV mechanic?",
-      "a": "**Reported.** Trailer 1 shows a CCTV camera directly above Jason during the convenience store robbery. Community analysis: being caught on camera immediately alerts police. The camera placement in the shot is deliberate.",
-      "aPlain": "Reported. Trailer 1 shows a CCTV camera directly above Jason during the convenience store robbery. Community analysis: being caught on camera immediately alerts police. The camera placement in the shot is deliberate."
+      "q": "When do bank robberies unlock?",
+      "a": "After the mission **Credit Check**. Small banks and Payday Loan stores open then, and both pay in marked bills.",
+      "aPlain": "After the mission Credit Check. Small banks and Payday Loan stores open then, and both pay in marked bills."
     },
     {
-      "q": "Does crime scale affect the wanted level?",
-      "a": "**Yes.** Small store robberies and major heists generate different law enforcement responses. The wanted level system connects to the scale and visibility of the crime.",
-      "aPlain": "Yes. Small store robberies and major heists generate different law enforcement responses. The wanted level system connects to the scale and visibility of the crime."
+      "q": "How do you sell stolen jewelry and marked bills?",
+      "a": "At a fence. Each fence rates each kind of goods from Very Low to Very High. Yasmani in Little Cuba takes jewelry and marked bills.",
+      "aPlain": "At a fence. Each fence rates each kind of goods from Very Low to Very High. Yasmani in Little Cuba takes jewelry and marked bills."
+    },
+    {
+      "q": "How many robberies do you need for 100%?",
+      "a": "50 stick ups, 34 smash 'n' grabs, 22 bank jobs, 7 Payday Loan jobs and 8 vaults, plus fencing targets for each kind of goods.",
+      "aPlain": "50 stick ups, 34 smash 'n' grabs, 22 bank jobs, 7 Payday Loan jobs and 8 vaults, plus fencing targets for each kind of goods."
     }
   ],
   "sidebarDatabase": [
@@ -105,10 +123,16 @@
   ]
 }
 ---
-Robbery is confirmed explicitly in Trailer 1 with Jason and Lucia exiting a [Vice City](/gameplay/locations/vice-city) convenience store during a holdup. The activity spans from the opportunistic small-scale store robbery to the planned heist operation. **Both ends of the spectrum are present in the activity.**
+Every register in Leonida has a number on it. **Robbery climbs in tiers, and the money only gets real once a fence takes it.**
 
-The convenience store robbery is the baseline. Fast, simple, low planning requirement, and low reward per individual hit but high frequency of available targets. The armored car robbery is the mid-tier: Brute Security vehicles on their routes, higher yield, and a response that comes with the vehicle rather than arriving from outside.
+**Stick ups** are open from the start. Convenience stores, fast food counters, liquor stores. Aim at the clerk and the register gets emptied for you, or knock the clerk out and empty it yourself. A couple hundred dollars a time, and the stars climb while you are still inside.
 
-Small robbery mechanics: enter the premises, display a weapon, manage the staff and customer response, collect the cash, and exit before the VCPD arrives. **Speed is the primary variable.** A fast small robbery generates minimal response. A slow one gives the staff time to trigger an alarm.
+**Smash 'n' grabs** come next. Pawn shops open after the mission Coffee Break, jewelry stores later in the story. Threaten the staff, smash the cases, then crack the safe in the back. A job only counts once the back room is done. Jewelers pay better than pawn shops.
 
-Large-scale robbery is the heist framework. Planning, crew management, approach routes, and the layered response that a major [Vice City](/gameplay/locations/vice-city) target generates. The heist framework in Leonida with the Leonida context: Vice City financial infrastructure, Port Gellhorn cargo, and the targets that the criminal economy provides.
+**Banks and Payday Loan stores pay in marked bills.** Both open after the mission Credit Check, which also hands you the Dye Pack Jammer that marked bills need. Small banks pay more than Payday Loan stores. At the top sit the bank vaults, the biggest scores in the state.
+
+None of it spends until it is sold. Jewelry, narcotics and marked bills go to a fence, and each fence rates each kind of goods from Very Low to Very High. [Yasmani](/gameplay/characters/yasmani-cabrera) in [Little Cuba](/gameplay/locations/little-cuba) takes jewelry and marked bills. Cash in your pocket can be lost, so put it in the bank.
+
+For 100%: 50 stick ups, 34 smash 'n' grabs, 22 bank jobs, 7 Payday Loan jobs and 8 vaults, plus fencing targets for each kind of goods.
+
+Source: GTA VI, in-game.

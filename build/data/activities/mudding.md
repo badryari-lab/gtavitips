@@ -5,66 +5,77 @@
   ],
   "seo": {
     "title": "Mudding | GTA 6 Activity | GTAVITIPS",
-    "description": "Mudding in GTA 6 Leonida: off-road truck culture across rural Vice County, for trucks that were never going to stay clean anyway.",
-    "ogDescription": "Mudding in GTA 6 Leonida: off-road truck culture across rural Vice County, for trucks that were never going to stay clean anyway.",
+    "description": "Mudding in GTA 6 runs through the Thrillbilly Mud Club in Kelly County: dirt bike races, six timed trials and cash for riders who finish up front.",
+    "ogDescription": "Mudding in GTA 6 runs through the Thrillbilly Mud Club in Kelly County: dirt bike races, six timed trials and cash for riders who finish up front.",
     "jsonLdHeadline": "Mudding - GTA 6 Activity",
-    "jsonLdDescription": "Mudding in GTA 6 Leonida: off-road truck culture across rural Vice County, for trucks that were never going to stay clean anyway.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Mudding in GTA 6 runs through the Thrillbilly Mud Club in Kelly County: dirt bike races, six timed trials and cash for riders who finish up front.",
+    "dateModified": "2026-11-21"
   },
-  "heroSubtitle": "Trucks in the mud. **Rural [Vice County](/gameplay/locations/vice-county), lifted pickups, and the off-road truck culture that has been a Florida institution for as long as there has been both mud and trucks in the same state.**",
+  "heroSubtitle": "Mud, dirt bikes and a grandstand full of people waiting for somebody to eat it. **The Thrillbilly Mud Club in [Kelly County](/gameplay/locations/kelly-county) is where Leonida gets dirty on purpose.**",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Off-Road / Driving Activity"
+      "value": "Off-Road Racing / Trials"
+    },
+    {
+      "key": "Setting",
+      "value": "Thrillbilly Mud Club, north Kelly County"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Florida mud parks and dirt track racing"
     }
   ],
   "connections": [
     {
-      "url": "/gameplay/activities/street-takeovers",
+      "url": "/gameplay/activities/racing",
       "role": "Activity",
-      "name": "Street Takeovers",
-      "desc": "Same car culture energy in different terrain. The Leonida interior version.",
-      "avatarInitials": "ST"
+      "name": "Racing",
+      "desc": "The Mud Club is one stop on the racing circuit. Dirt track and oval races run here.",
+      "avatarInitials": "RA"
     },
     {
-      "url": "/gameplay/characters/cal-hampton",
-      "role": "Character",
-      "name": "Cal Hampton",
-      "desc": "Rusty Anchor local, Keys boy. The Thrillbilly Mud Club demographic is exactly his world.",
-      "avatarInitials": "CH"
-    },
-    {
-      "url": "/gameplay/locations/grassrivers",
+      "url": "/gameplay/locations/kelly-county",
       "role": "Location",
-      "name": "Grassrivers",
-      "desc": "The swamp and wetland territory confirmed in official footage. The mudding geography.",
-      "avatarImage": {
-        "src": "/assets/images/grassrivers-gta-6-location-02.jpg"
-      }
+      "name": "Kelly County",
+      "desc": "The club sits in the north of the county, a long way from any paved promenade.",
+      "avatarInitials": "KC"
     },
     {
-      "url": "/gameplay/vehicles/bravado-bison",
+      "url": "/gameplay/vehicles/maibatsu-sanchez",
       "role": "Vehicle",
-      "name": "Bravado Bison",
-      "desc": "A truck built for this. The vehicle the Thrillbilly Mud Club crowd drives.",
-      "avatarInitials": "BB"
+      "name": "Maibatsu Sanchez",
+      "desc": "The pricier rental at the gate, and the faster one. Worth the extra.",
+      "avatarInitials": "MS"
+    },
+    {
+      "url": "/gameplay/activities/vehicle-customization",
+      "role": "Activity",
+      "name": "Vehicle Customization",
+      "desc": "Dirt Merchants, also in Kelly County, builds up dirt bikes for riders who want their own.",
+      "avatarInitials": "VC"
     }
   ],
   "faq": [
     {
-      "q": "Is the Thrillbilly Mud Club a real venue in the game?",
-      "a": "**Confirmed in Trailer 1.** Clip H in the social media montage shows a monster truck event in the swamp under the Thrillbilly Mud Club name. Mud and dirt physics at Red Dead Redemption 2 quality are visible. Children may be in the crowd.",
-      "aPlain": "Confirmed in Trailer 1. Clip H in the social media montage shows a monster truck event in the swamp under the Thrillbilly Mud Club name. Mud and dirt physics at Red Dead Redemption 2 quality are visible. Children may be in the crowd."
+      "q": "Where do you go mudding in GTA 6?",
+      "a": "The **Thrillbilly Mud Club** in north Kelly County. Its races and timed trials all start there, and you can rent a dirt bike at the gate.",
+      "aPlain": "The Thrillbilly Mud Club in north Kelly County. Its races and timed trials all start there, and you can rent a dirt bike at the gate."
     },
     {
-      "q": "Where is the mudding territory?",
-      "a": "The Grassrivers swamp and wetland area is the primary mudding geography. The flat, wet terrain is confirmed in official footage and consistent with the real-world Everglades equivalent.",
-      "aPlain": "The Grassrivers swamp and wetland area is the primary mudding geography. The flat, wet terrain is confirmed in official footage and consistent with the real-world Everglades equivalent."
+      "q": "How do you unlock the Thrillbilly Mud Club?",
+      "a": "Finish the main mission Coffee Break. That opens the club and its first race.",
+      "aPlain": "Finish the main mission Coffee Break. That opens the club and its first race."
     },
     {
-      "q": "What vehicles can mud?",
-      "a": "Trucks, ATVs, and monster trucks are confirmed in the mudding context. Standard road vehicles driven into swamp terrain have a very different experience.",
-      "aPlain": "Trucks, ATVs, and monster trucks are confirmed in the mudding context. Standard road vehicles driven into swamp terrain have a very different experience."
+      "q": "What does mud racing pay?",
+      "a": "Billy's first race pays $2,500 for a win and less the further back you finish. Regular races take a buy-in, and a win more than covers it.",
+      "aPlain": "Billy's first race pays $2,500 for a win and less the further back you finish. Regular races take a buy-in, and a win more than covers it."
+    },
+    {
+      "q": "Do you need your own off-road vehicle?",
+      "a": "No. Roostere's Rentals at the club rents a Manchez or a faster Sanchez. Dirt Merchants in Kelly County builds up dirt bikes if you want your own.",
+      "aPlain": "No. Roostere's Rentals at the club rents a Manchez or a faster Sanchez. Dirt Merchants in Kelly County builds up dirt bikes if you want your own."
     }
   ],
   "sidebarDatabase": [
@@ -105,10 +116,12 @@
   ]
 }
 ---
-Mudding is confirmed in Trailer 2 with a lifted truck in rural [Vice County](/gameplay/locations/vice-county) terrain. It is the activity that represents the side of Leonida that the Ocean Beach footage does not. **The rural Vice County demographic has a truck culture, and the truck culture has mudding.** The activity is there because the people who do it are there.
+Mudding in Leonida has an address. **The Thrillbilly Mud Club sits out in the north of [Kelly County](/gameplay/locations/kelly-county)**: an open mud course, a wooden grandstand, a souvenir shop at the gate and a rental stand full of dirt bikes.
 
-The real Florida mudding scene runs from organized events at off-road parks to spontaneous runs on private agricultural land after rain. The mudding activity in Leonida captures this: accessible off-road zones in the rural interior where the terrain is appropriate and the law enforcement response time gives you a margin to work with.
+The way in is a man named Billy. After the main mission Coffee Break the club opens, and Billy's first job is a race. Buy the outfits at the souvenir shop, rent a bike at Roostere's Rentals, and line up against a pack of local riders. The [Sanchez](/gameplay/vehicles/maibatsu-sanchez) costs more than the Manchez and earns it back. Placing matters: first pays $2,500, the spots behind it a fraction of that.
 
-The physics system manages vehicle behavior in deformable mud terrain. Traction, wheel spin, and the momentum dynamics of a heavy truck in soft ground. **Getting stuck is a genuine possibility.** Winch, recovery points, and the assistance of another vehicle or NPCs are the resolution options.
+**After that the club stays open for business.** Dirt track and oval races run here as part of Leonida's [racing](/gameplay/activities/racing) circuit, each with a buy-in and a cash prize. Six timed trials sit alongside them: Airtime Stunt Run, Drag, Hill Climb, Dirt Track, Oval and Swamp Run. Every trial keeps a best time and a medal.
 
-Vehicle choice is significant. A stock Bravado pickup will perform differently than a lifted off-road configured version. The mudding activity connects to vehicle customization: lift kit, mud terrain tires, and snorkel configuration all change the vehicle's capability in the activity.
+The mud is not decoration. Wheels dig in, bikes slide out, and a rider who clips a car goes over the bars. Billy's first race counts toward 100%.
+
+Source: GTA VI, in-game.

@@ -5,66 +5,74 @@
   ],
   "seo": {
     "title": "Basketball | GTA 6 Activity | GTAVITIPS",
-    "description": "Basketball in GTA 6 Leonida: pickup games on street courts across Vice City, bragging rights included.",
-    "ogDescription": "Basketball in GTA 6 Leonida: pickup games on street courts across Vice City, bragging rights included.",
+    "description": "Basketball in GTA 6: pick up the ball at any of 100 hoops across Leonida and shoot. Score at 90 different hoops for 100%. The first one is in Key Lento.",
+    "ogDescription": "Basketball in GTA 6: pick up the ball at any of 100 hoops across Leonida and shoot. Score at 90 different hoops for 100%. The first one is in Key Lento.",
     "jsonLdHeadline": "Basketball - GTA 6 Activity",
-    "jsonLdDescription": "Basketball in GTA 6 Leonida: pickup games on street courts across Vice City, bragging rights included.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Basketball in GTA 6: pick up the ball at any of 100 hoops across Leonida and shoot. Score at 90 different hoops for 100%. The first one is in Key Lento.",
+    "dateModified": "2026-11-21"
   },
-  "heroSubtitle": "Street courts in [Vice City](/gameplay/locations/vice-city). **Updated physics, the residential district culture, and the social environment that outdoor courts generate in a warm-weather city.**",
+  "heroSubtitle": "A hoop, a ball on the ground next to it, nobody watching. **Leonida has a hundred of them, and the first one is at the bottom of Jason's stairs.**",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Sport / Minigame"
+      "value": "Sport / shooting hoops"
+    },
+    {
+      "key": "Setting",
+      "value": "Hoops across Leonida, starting in Key Lento"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Driveway and park basketball in South Florida"
     }
   ],
   "connections": [
     {
-      "url": "/gameplay/activities/cage-fighting",
-      "role": "Activity",
-      "name": "Cage Fighting",
-      "desc": "Physical sport, higher stakes. The same Vice City athletic culture.",
-      "avatarInitials": "CF"
-    },
-    {
-      "url": "/gameplay/characters/dre-quan-priest",
-      "role": "Character",
-      "name": "Dre'Quan Priest",
-      "desc": "Hustler turned label man. The basketball court and the recording studio share the same cultural geography.",
-      "avatarInitials": "DP"
-    },
-    {
-      "url": "/gameplay/locations/ocean-beach",
+      "url": "/gameplay/locations/key-lento",
       "role": "Location",
-      "name": "Ocean Beach",
-      "desc": "The beach district runs courts along the promenade. Same sun, same crowd.",
+      "name": "Key Lento",
+      "desc": "The first hoop of the game hangs here, and the town has plenty more.",
+      "avatarInitials": "KL"
+    },
+    {
+      "url": "/gameplay/characters/jason-duval",
+      "role": "Character",
+      "name": "Jason Duval",
+      "desc": "There is a hoop right by his house, so practice starts at home.",
       "avatarImage": {
-        "src": "/assets/images/vice-city-gta-6-location-05.jpg"
+        "src": "/assets/images/jason-duval-gta-6-character-01.jpg"
       }
     },
     {
-      "url": "/gameplay/vehicles/albany-buccaneer",
-      "role": "Vehicle",
-      "name": "Albany Buccaneer",
-      "desc": "The car in the court parking lot. Classic American, low ride, appropriate.",
-      "avatarInitials": "AB"
+      "url": "/gameplay/activities/cardio",
+      "role": "Activity",
+      "name": "Cardio",
+      "desc": "Another way to fill the hours between jobs and stay in shape.",
+      "avatarInitials": "CA"
+    },
+    {
+      "url": "/gameplay/activities/weightlifting",
+      "role": "Activity",
+      "name": "Weightlifting",
+      "desc": "The gym version of putting in reps.",
+      "avatarInitials": "WL"
     }
   ],
   "faq": [
     {
-      "q": "Is basketball a full minigame or decorative?",
-      "a": "**Confirmed as an activity.** Whether it runs as structured play with scoring or a free-form activity will be confirmed at launch. Basketball infrastructure is visible across Vice City.",
-      "aPlain": "Confirmed as an activity. Whether it runs as structured play with scoring or a free-form activity will be confirmed at launch. Basketball infrastructure is visible across Vice City."
+      "q": "How do you play basketball in GTA 6?",
+      "a": "Walk up to a hoop, pick up the ball lying beside it and line up the shot. Any hoop in Leonida works.",
+      "aPlain": "Walk up to a hoop, pick up the ball lying beside it and line up the shot. Any hoop in Leonida works."
     },
     {
-      "q": "Where are the courts?",
-      "a": "Ocean Beach runs courts along the promenade and park areas. The Vice City geography supports outdoor courts in multiple districts.",
-      "aPlain": "Ocean Beach runs courts along the promenade and park areas. The Vice City geography supports outdoor courts in multiple districts."
+      "q": "Where is the first basketball hoop?",
+      "a": "At Jason's house in Key Lento, right from the start of the story.",
+      "aPlain": "At Jason's house in Key Lento, right from the start of the story."
     },
     {
-      "q": "Can other characters play with you?",
-      "a": "Not confirmed in detail. The activity is confirmed. Whether NPCs or story characters participate in a structured way is not yet documented.",
-      "aPlain": "Not confirmed in detail. The activity is confirmed. Whether NPCs or story characters participate in a structured way is not yet documented."
+      "q": "How many hoops do you need for 100%?",
+      "a": "**90 of the 100 hoops** in Leonida. Each hoop counts once, so a second basket at the same one adds nothing.",
+      "aPlain": "90 of the 100 hoops in Leonida. Each hoop counts once, so a second basket at the same one adds nothing."
     }
   ],
   "sidebarDatabase": [
@@ -105,10 +113,10 @@
   ]
 }
 ---
-Street basketball connects directly to the [Vice City](/gameplay/locations/vice-city) residential district culture. The courts are in the neighborhoods behind the tourist strip, the parks, and the spaces between the commercial blocks where a concrete surface and two hoops is enough. **The game comes back because the culture it represents is central to Vice City's social texture.**
+Leonida plays basketball one shot at a time. **Find a hoop, pick up the ball lying next to it and shoot.** That is the whole game, and the state has a hundred hoops to play it on.
 
-Basketball is back in Leonida with updated physics, Vice City-appropriate court environments, and the social dynamics of a neighborhood activity. The courts attract specific NPC demographics at specific hours. Early morning is one crowd. Evening is another.
+The first one is close to home: by Jason's house on Peach Palm Drive in [Key Lento](/gameplay/locations/key-lento). The rest are spread across the state: over garages, in trailer parks, by a shed in the hills.
 
-The minigame mechanics will reflect the series' approach to sports activities: accessible enough for casual interaction, deep enough for dedicated play. Shot selection, court movement, and the competitive structure of pickup basketball translate to GTA mechanics through a simplified control scheme that captures the rhythm of the sport.
+**Score at 90 different hoops for 100%.** A second basket at a hoop you already did counts for nothing. Progress sits under Progress, then Activities, then Basketball.
 
-**The court environment is also a social location.** Characters who play basketball regularly appear at the courts. Information moves on court benches the same way it moves anywhere people gather. The basketball court is a location and a social node.
+Source: GTA VI, in-game.

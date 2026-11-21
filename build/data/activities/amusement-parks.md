@@ -6,64 +6,81 @@
   ],
   "seo": {
     "title": "Amusement Parks | GTA 6 Activity | GTAVITIPS",
-    "description": "Amusement parks in GTA 6 Leonida: rides, boardwalk games, and the kind of good time that costs more than it looks like it should.",
-    "ogDescription": "Amusement parks in GTA 6 Leonida: rides, boardwalk games, and the kind of good time that costs more than it looks like it should.",
+    "description": "Amusement parks in GTA 6: Leonida has no Disney-style theme park. Its rides are three adventure golf parks, and two of them count toward 100%.",
+    "ogDescription": "Amusement parks in GTA 6: Leonida has no Disney-style theme park. Its rides are three adventure golf parks, and two of them count toward 100%.",
     "jsonLdHeadline": "Amusement Parks - GTA 6 Activity",
-    "jsonLdDescription": "Amusement parks in GTA 6 Leonida: rides, boardwalk games, and the kind of good time that costs more than it looks like it should.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Amusement parks in GTA 6: Leonida has no Disney-style theme park. Its rides are three adventure golf parks, and two of them count toward 100%.",
+    "dateModified": "2026-11-21"
   },
-  "heroSubtitle": "[Vice City](/gameplay/locations/vice-city) has a boardwalk. The boardwalk has rides. The rides have the specific energy that comes from a Florida coastal amusement park where everything is slightly too loud and slightly too bright and the crowds are always there.",
+  "heroSubtitle": "Leonida never built its Magic Kingdom. **What it has is roadside fun: a gator-themed putting course, a Wild West one and a dinosaur one.**",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Leisure / Exploration"
+      "value": "Leisure / adventure golf"
+    },
+    {
+      "key": "Setting",
+      "value": "Buckskin Swamp, Waning Sands, Frogswater"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Florida roadside attractions and mini golf"
     }
   ],
   "connections": [
     {
-      "url": "/gameplay/activities/street-takeovers",
+      "url": "/gameplay/activities/mini-golf",
       "role": "Activity",
-      "name": "Street Takeovers",
-      "desc": "Same coastal Vice City energy. Different crowd, different hour.",
-      "avatarInitials": "ST"
+      "name": "Mini Golf",
+      "desc": "The rounds themselves. Two of the three parks are on the 100% checklist.",
+      "avatarInitials": "MG"
     },
     {
-      "url": "/gameplay/characters/wyman",
-      "role": "Character",
-      "name": "Wyman",
-      "desc": "Mechanic, collector and Mud Club regular. His idea of a ride has an engine and a lot of mud.",
-      "avatarInitials": "WY"
+      "url": "/gameplay/activities/golf",
+      "role": "Activity",
+      "name": "Golf",
+      "desc": "The grown-up version sits behind a gate and counts for nothing on the checklist.",
+      "avatarInitials": "GO"
     },
     {
-      "url": "/gameplay/locations/washington-beach",
+      "url": "/gameplay/locations/waning-sands",
       "role": "Location",
-      "name": "Washington Beach",
-      "desc": "The coastal strip where the boardwalk and fairground infrastructure sit.",
-      "avatarInitials": "NB"
+      "name": "Waning Sands",
+      "desc": "Home of Frontier Adventure Golf and its Wild West look.",
+      "avatarInitials": "WS"
     },
     {
-      "url": "/gameplay/vehicles/blimp",
-      "role": "Vehicle",
-      "name": "Blimp",
-      "desc": "Overhead at the boardwalk. Always there, always watching.",
-      "avatarInitials": "BL"
+      "url": "/gameplay/locations/vice-county",
+      "role": "Location",
+      "name": "Vice-Dale County",
+      "desc": "King Gator Adventure Golf is out in Buckskin Swamp.",
+      "avatarInitials": "VD"
+    },
+    {
+      "url": "/gameplay/characters/jason-duval",
+      "role": "Character",
+      "name": "Jason Duval",
+      "desc": "Rockstar skipped the theme park because the story never needed to send him there.",
+      "avatarImage": {
+        "src": "/assets/images/jason-duval-gta-6-character-01.jpg"
+      }
     }
   ],
   "faq": [
     {
-      "q": "Are the rides actually usable?",
-      "a": "**Confirmed in spirit.** The boardwalk and ride infrastructure are visible in official footage. Whether individual rides function as minigames or atmospheric set-dressing will be clear at launch.",
-      "aPlain": "Confirmed in spirit. The boardwalk and ride infrastructure are visible in official footage. Whether individual rides function as minigames or atmospheric set-dressing will be clear at launch."
+      "q": "Is there a theme park in GTA 6?",
+      "a": "No. Leonida has no Disney-style park. Rob Nelson of Rockstar North told VGC there was no story reason to build a fully working one.",
+      "aPlain": "No. Leonida has no Disney-style park. Rob Nelson of Rockstar North told VGC there was no story reason to build a fully working one."
     },
     {
-      "q": "Where is the amusement park in Vice City?",
-      "a": "The boardwalk and coastal fairground sit in Washington Beach district. The same strip that runs along the Ocean Beach hotel and ocean infrastructure.",
-      "aPlain": "The boardwalk and coastal fairground sit in Washington Beach district. The same strip that runs along the Ocean Beach hotel and ocean infrastructure."
+      "q": "Where are the amusement parks in GTA 6?",
+      "a": "The closest thing is adventure golf: **King Gator Adventure Golf** in Buckskin Swamp, **Frontier Adventure Golf** in Waning Sands and **Dino Golf Challenge** in Frogswater.",
+      "aPlain": "The closest thing is adventure golf: King Gator Adventure Golf in Buckskin Swamp, Frontier Adventure Golf in Waning Sands and Dino Golf Challenge in Frogswater."
     },
     {
-      "q": "Is this connected to the social media system?",
-      "a": "Almost certainly. The boardwalk is exactly the kind of Vice City location where in-game social media content gets filmed. Both systems feed the same world.",
-      "aPlain": "Almost certainly. The boardwalk is exactly the kind of Vice City location where in-game social media content gets filmed. Both systems feed the same world."
+      "q": "Do the golf parks count toward 100%?",
+      "a": "Two of the three do. Play a round at any two and the line is done. The full golf courses do not count.",
+      "aPlain": "Two of the three do. Play a round at any two and the line is done. The full golf courses do not count."
     }
   ],
   "sidebarDatabase": [
@@ -104,10 +121,10 @@
   ]
 }
 ---
-Leonida's amusement parks are the boardwalk version rather than the theme park version. The [Vice City](/gameplay/locations/vice-city) coastline does not have a gated attraction with mascots and a parking structure the size of an airport. It has the beachfront infrastructure that grows organically along a tourist-facing waterfront: a Ferris wheel visible from the road, thrill rides with names that promise something they probably cannot deliver, and the arcade-adjacent [game kiosks](/gameplay/activities/games) that have been there longer than the current lease.
+Nobody in Leonida queues for a castle. **There is no full theme park in the state.** Rob Nelson, co-studio head at Rockstar North, told VGC that a working park only made sense with a story reason to send Jason and Lucia there. The story never had one.
 
-**The boardwalk environment in Leonida is confirmed in official footage.** The rides are operational. The crowds are present. Whether the protagonist can interact with the rides as a gameplay mechanic or whether the boardwalk functions as mission environment and ambient world texture is not yet fully confirmed. Both are possible and The history of this type of setting in Leonida suggests both will apply.
+What Leonida does have is the roadside version: three adventure golf parks, each with its own theme. King Gator Adventure Golf sits in Buckskin Swamp, [Vice-Dale County](/gameplay/locations/vice-county). Frontier Adventure Golf brings the Wild West to [Waning Sands](/gameplay/locations/waning-sands) in [Leonard County](/gameplay/locations/leonard-county). Dino Golf Challenge is out in Frogswater.
 
-The boardwalk setting creates specific gameplay geometry. Crowd density, the ride structures as cover and vertical features, and the specific category of NPC that populates a tourist-facing entertainment zone at peak hours. The arcade and game kiosk infrastructure provides interaction points beyond the rides themselves.
+**Play two of the three and it counts toward 100%.** Rounds are tracked under Progress, then Activities, then Sports. The putting itself is in [mini golf](/gameplay/activities/mini-golf).
 
-**[Vice City](/gameplay/locations/vice-city)'s amusement infrastructure sits at the junction of the tourist economy and the criminal economy** in the way that real Florida boardwalk zones do: cash-heavy, high-traffic, and operating at the margin of multiple regulatory environments simultaneously.
+Source: GTA VI, in-game; Rob Nelson to VGC.

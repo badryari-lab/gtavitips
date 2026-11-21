@@ -5,71 +5,93 @@
   ],
   "seo": {
     "title": "Diving | GTA 6 Activity | GTAVITIPS",
-    "description": "Diving in GTA 6 Leonida: coral reefs and wrecks in the Keys and off Vice City, for whatever ends up on the bottom and stays there.",
-    "ogDescription": "Diving in GTA 6 Leonida: coral reefs and wrecks in the Keys and off Vice City, for whatever ends up on the bottom and stays there.",
+    "description": "Diving in GTA 6: Kenton's scuba gear and boat in Key Lento, a metal detector, old wrecks full of gold doubloons, and sharks on the way back up.",
+    "ogDescription": "Diving in GTA 6: Kenton's scuba gear and boat in Key Lento, a metal detector, old wrecks full of gold doubloons, and sharks on the way back up.",
     "jsonLdHeadline": "Diving - GTA 6 Activity",
-    "jsonLdDescription": "Diving in GTA 6 Leonida: coral reefs and wrecks in the Keys and off Vice City, for whatever ends up on the bottom and stays there.",
-    "dateModified": "2026-02-01",
+    "jsonLdDescription": "Diving in GTA 6: Kenton's scuba gear and boat in Key Lento, a metal detector, old wrecks full of gold doubloons, and sharks on the way back up.",
+    "dateModified": "2026-11-21",
     "ogImage": "https://gtavitips.com/assets/images/leonida-keys-gta-6-location-04.jpg"
   },
-  "heroSubtitle": "Underwater Leonida. **Reef systems, wrecks, marine life, and every submerged location the Leonida coast places under the surface of the Atlantic.**",
+  "heroSubtitle": "The Keys keep their money on the sea floor. **Kenton has the boat, the scuba gear and a buyer for the gold. You bring the lungs.**",
   "heroImage": {
     "src": "/assets/images/leonida-keys-gta-6-location-04.jpg",
-    "alt": "Diving in GTA 6, confirmed activity in Leonida Keys",
+    "alt": "Clear water in the Leonida Keys, GTA 6",
     "width": "1920",
     "height": "1080"
   },
   "statBlock": [
     {
       "key": "Type",
-      "value": "Exploration / Water Activity"
+      "value": "Scuba / Treasure Hunting"
+    },
+    {
+      "key": "Setting",
+      "value": "Shipwrecks around Key Lento, Leonida Keys"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Florida Keys wreck diving and treasure salvage"
     }
   ],
   "connections": [
     {
-      "url": "/gameplay/activities/kayaking",
-      "role": "Activity",
-      "name": "Kayaking",
-      "desc": "Above and below the same water. The Keys geography supports both.",
-      "avatarInitials": "KA"
+      "url": "/gameplay/characters/kenton-rees",
+      "role": "Character",
+      "name": "Kenton Rees",
+      "desc": "Runs the dive business, lends the boat and buys whatever gold you bring up.",
+      "avatarInitials": "KR"
     },
     {
-      "url": "/gameplay/characters/brian-heder",
-      "role": "Character",
-      "name": "Brian Heder",
-      "desc": "His boat works runs on Keys water knowledge. He knows what's under there.",
-      "avatarInitials": "BH"
+      "url": "/gameplay/locations/key-lento",
+      "role": "Location",
+      "name": "Key Lento",
+      "desc": "Home port for the dives. The wrecks lie south and east of it.",
+      "avatarInitials": "KL"
     },
     {
       "url": "/gameplay/locations/leonida-keys",
       "role": "Location",
       "name": "Leonida Keys",
-      "desc": "The chain of islands and waterways between them. The diving territory starts here.",
-      "avatarInitials": "LK"
+      "desc": "Clear, shallow water over a sea floor that still holds old cargo.",
+      "avatarImage": {
+        "src": "/assets/images/leonida-keys-gta-6-location-04.jpg"
+      }
     },
     {
-      "url": "/gameplay/vehicles/airboat-fanboat",
-      "role": "Vehicle",
-      "name": "Airboat / Fanboat",
-      "desc": "Gets you to the dive point. The standard Keys watercraft.",
-      "avatarInitials": "AF"
+      "url": "/gameplay/animals/shark",
+      "role": "Animal",
+      "name": "Shark",
+      "desc": "Waits between you and the surface. Get close with the speargun and aim for the head.",
+      "avatarInitials": "SH"
+    },
+    {
+      "url": "/gameplay/activities/fishing",
+      "role": "Activity",
+      "name": "Fishing",
+      "desc": "Same water from the other side. Everything you catch up top goes back down.",
+      "avatarInitials": "FI"
     }
   ],
   "faq": [
     {
-      "q": "Can you dive in open ocean?",
-      "a": "**Confirmed as an activity.** The Keys water geography, established in detail across both trailers, supports ocean diving. Sharks are confirmed near the Vice City shoreline in Trailer 1.",
-      "aPlain": "Confirmed as an activity. The Keys water geography, established in detail across both trailers, supports ocean diving. Sharks are confirmed near the Vice City shoreline in Trailer 1."
+      "q": "How do you get scuba gear in GTA 6?",
+      "a": "Through **Kenton Rees** in Key Lento. His mission Island Dreams gives Jason the scuba gear, and his boat stays available after that.",
+      "aPlain": "Through Kenton Rees in Key Lento. His mission Island Dreams gives Jason the scuba gear, and his boat stays available after that."
     },
     {
-      "q": "Are there sharks in the water?",
-      "a": "**Yes.** Trailer 1's aerial shot shows two sharks, one near the dolphins, one close to the shoreline. The ocean is not empty.",
-      "aPlain": "Yes. Trailer 1's aerial shot shows two sharks, one near the dolphins, one close to the shoreline. The ocean is not empty."
+      "q": "Why does my scuba gear disappear?",
+      "a": "It only equips in the water, or on a boat out in open water. Stay on land too long and it comes off, along with the metal detector.",
+      "aPlain": "It only equips in the water, or on a boat out in open water. Stay on land too long and it comes off, along with the metal detector."
     },
     {
-      "q": "Are there underwater locations to discover?",
-      "a": "Not confirmed in detail pre-launch. The map scale and the Keys waterway system are both large enough to support substantial underwater content.",
-      "aPlain": "Not confirmed in detail pre-launch. The map scale and the Keys waterway system are both large enough to support substantial underwater content."
+      "q": "What do you do with underwater treasure?",
+      "a": "Sell it to Kenton. He buys the gold doubloons and relics you pull out of the wrecks.",
+      "aPlain": "Sell it to Kenton. He buys the gold doubloons and relics you pull out of the wrecks."
+    },
+    {
+      "q": "Are there sharks underwater?",
+      "a": "Yes. Use the speargun, get close because the shot drops at range, and aim for the head.",
+      "aPlain": "Yes. Use the speargun, get close because the shot drops at range, and aim for the head."
     }
   ],
   "sidebarDatabase": [
@@ -110,10 +132,12 @@
   ]
 }
 ---
-Diving opens the underwater geography of Leonida. The [Keys](/gameplay/locations/leonida-keys) reef system, the offshore wrecks, and the submerged terrain of the coastal zone are all accessible below the surface. **The underwater environment in Leonida is a fully realized space with its own navigation, hazards, and content.** Leonida's Florida coast takes that into tropical reef territory.
+Diving in Leonida starts with [Kenton Rees](/gameplay/characters/kenton-rees). He runs a dive business out of [Key Lento](/gameplay/locations/key-lento), and early in the story he takes Jason out on the mission Island Dreams. That is where the scuba gear comes from. Afterward his boat is yours whenever you want it.
 
-The marine life of Leonida is present in the underwater environment. Sharks in the deeper offshore water, sea turtles on the reef, and the fish population that populates the Keys shallows. Diving encounters the same ecosystem that fishing approaches from above.
+**The gear lives on the boat, not on you.** Scuba equips once you are in the water or out on open water in a boat. Stay on land too long and it comes off again, metal detector included. Hold R1 to dive and L3 to swim faster.
 
-The diving mechanic manages breath capacity and the oxygen system. Scuba equipment extends underwater time significantly. Free diving is limited by breath capacity and depth. The pressure system at depth creates a practical ceiling on unequipped dives.
+What you are after sits on the wrecks. Old ships lie on the sea floor around Key Lento, and each one hides several finds. Pull the metal detector from the weapon wheel and sweep: it flashes green toward the treasure and pings faster as you close in. When the Search prompt shows, press Triangle. **Kenton buys the gold doubloons and relics you bring up**, and any wreck can be revisited for what you missed.
 
-**Submerged locations are a GTA content category.** Wrecks with cargo, underwater collectibles, and the missions that require underwater access to coastal structures or vessels. The spear gun confirmed in the weapons database is the primary underwater tool. The diving activity is the context that makes it relevant.
+Sharks work the same water. The speargun is the answer: get close, because the shot drops at range, and aim for the head.
+
+Source: GTA VI, in-game.

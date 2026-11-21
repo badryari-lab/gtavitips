@@ -6,66 +6,74 @@
   ],
   "seo": {
     "title": "DJ and Music | GTA 6 Activity | GTAVITIPS",
-    "description": "DJ and music in GTA 6 Leonida: club sets and live performance across Vice City's nightlife circuit, where the set list makes or breaks the night.",
-    "ogDescription": "DJ and music in GTA 6 Leonida: club sets and live performance across Vice City's nightlife circuit, where the set list makes or breaks the night.",
+    "description": "DJ and music in GTA 6: there is no DJ gig in Leonida. The music lives on the radio and on club dance floors, and hip-hop runs through Boobie Ike.",
+    "ogDescription": "DJ and music in GTA 6: there is no DJ gig in Leonida. The music lives on the radio and on club dance floors, and hip-hop runs through Boobie Ike.",
     "jsonLdHeadline": "DJ and Music - GTA 6 Activity",
-    "jsonLdDescription": "DJ and music in GTA 6 Leonida: club sets and live performance across Vice City's nightlife circuit, where the set list makes or breaks the night.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "DJ and music in GTA 6: there is no DJ gig in Leonida. The music lives on the radio and on club dance floors, and hip-hop runs through Boobie Ike.",
+    "dateModified": "2026-11-21"
   },
-  "heroSubtitle": "Behind the decks in [Vice City](/gameplay/locations/vice-city). **The music activity that connects the protagonist to the nightlife infrastructure, the Only Raw Records scene, and the Vice City culture that the series has built since the original game.**",
+  "heroSubtitle": "Nobody hands you the decks in [Vice City](/gameplay/locations/vice-city). **The music plays on the radio and in the clubs. Your job is the dance floor.**",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Music / Nightlife Activity"
+      "value": "Nightlife / Music"
+    },
+    {
+      "key": "Setting",
+      "value": "Vice City clubs and the car radio"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Miami club and hip-hop scene"
     }
   ],
   "connections": [
     {
-      "url": "/gameplay/activities/strip-clubs",
-      "role": "Activity",
-      "name": "Strip Clubs",
-      "desc": "Boobie Ike owns both. The studio and the club run through the same empire.",
-      "avatarInitials": "SC"
+      "url": "/gameplay/locations/nine-1-nine",
+      "role": "Location",
+      "name": "NINE1NINE",
+      "desc": "Downtown club with a bar and a dance floor. The closest Leonida gets to a night on the decks.",
+      "avatarInitials": "N1"
     },
     {
       "url": "/gameplay/characters/boobie-ike",
       "role": "Character",
       "name": "Boobie Ike",
-      "desc": "Real estate, strip club, and recording studio. Only Raw Records is his. Music runs through him.",
+      "desc": "Only Raw Records is his label. Hip-hop in Vice City runs through him.",
       "avatarImage": {
         "src": "/assets/images/boobie-ike-gta-6-character-03.jpg"
       }
     },
     {
-      "url": "/gameplay/locations/malibu-club",
-      "role": "Location",
-      "name": "Malibu Club",
-      "desc": "The Vice City nightclub. DJ culture, the crowd, the full circuit.",
-      "avatarInitials": "MC"
+      "url": "/gameplay/characters/dre-quan-priest",
+      "role": "Character",
+      "name": "Dre'Quan Priest",
+      "desc": "Part of Only Raw Records. The music side of Boobie's business.",
+      "avatarInitials": "DP"
     },
     {
-      "url": "/gameplay/vehicles/albany-buccaneer",
-      "role": "Vehicle",
-      "name": "Albany Buccaneer",
-      "desc": "The car that pulls up outside. Music industry, Vice City, the whole aesthetic.",
-      "avatarInitials": "AB"
+      "url": "/gameplay/activities/strip-clubs",
+      "role": "Activity",
+      "name": "Strip Clubs",
+      "desc": "Boobie's Jack of Hearts and his label are the same business, two doors.",
+      "avatarInitials": "SC"
     }
   ],
   "faq": [
     {
-      "q": "Is Boobie Ike's recording studio accessible?",
-      "a": "**His Rockstar bio confirms he owns one.** Trailer 2 Scene 55 shows his entertainment empire. Whether the studio is a full explorable interior will be confirmed at launch.",
-      "aPlain": "His Rockstar bio confirms he owns one. Trailer 2 Scene 55 shows his entertainment empire. Whether the studio is a full explorable interior will be confirmed at launch."
+      "q": "Can you DJ in GTA 6?",
+      "a": "No. There is no DJ activity and no mixing minigame. You can dance in the clubs and pick a station on the radio.",
+      "aPlain": "No. There is no DJ activity and no mixing minigame. You can dance in the clubs and pick a station on the radio."
     },
     {
-      "q": "Are Bae-Luxe and Roxy involved in the music system?",
-      "a": "**Confirmed characters.** The Real Dimez are massive on social media and signed to Only Raw Records. Their music will be part of the Vice City soundtrack. Whether you interact with them through activities is consistent but not yet confirmed in detail.",
-      "aPlain": "Confirmed characters. The Real Dimez are massive on social media and signed to Only Raw Records. Their music will be part of the Vice City soundtrack. Whether you interact with them through activities is consistent but not yet confirmed in detail."
+      "q": "Can you dance in GTA 6 clubs?",
+      "a": "Yes. NINE1NINE in Downtown Vice City has a dance floor, and both Jason and Lucia can use it.",
+      "aPlain": "Yes. NINE1NINE in Downtown Vice City has a dance floor, and both Jason and Lucia can use it."
     },
     {
-      "q": "Can you perform as a DJ?",
-      "a": "Not confirmed in detail. The nightclub DJ scene in Trailer 2 Scene 64 establishes the culture. Whether you perform or spectate is undocumented pre-launch.",
-      "aPlain": "Not confirmed in detail. The nightclub DJ scene in Trailer 2 Scene 64 establishes the culture. Whether you perform or spectate is undocumented pre-launch."
+      "q": "Who runs Only Raw Records?",
+      "a": "Boobie Ike. Dre'Quan Priest is part of the label, and Boobie's Jack of Hearts club is the other half of the same business.",
+      "aPlain": "Boobie Ike. Dre'Quan Priest is part of the label, and Boobie's Jack of Hearts club is the other half of the same business."
     }
   ],
   "sidebarDatabase": [
@@ -106,10 +114,10 @@
   ]
 }
 ---
-[Vice City](/gameplay/locations/vice-city)'s music culture is structural to this city, and in Leonida it becomes interactive. The DJ and music activity puts the protagonist in the club environment not just as a patron but as a participant. **Vice City has always had a radio station culture. Leonida extends that into the club environment with playable music activity.**
+There is no DJ job in Leonida. No booth to take over, no set to play, no mixing minigame. **The music is something you hear, not something you run.**
 
-The Only Raw Records label confirmed in the database is the in-world music infrastructure the activity connects to. The Vice City club circuit, the DJ sets, and the music economy are all part of the same ecosystem that the protagonist can engage with at varying levels of involvement.
+It reaches you two ways. The car radio carries Leonida's stations wherever you drive. And the clubs keep their own sound: walk into [NINE1NINE](/gameplay/locations/nine-1-nine) in [Downtown Vice City](/gameplay/locations/downtown-vice-city) and you can head for the bar or the dance floor.
 
-The DJ mechanic provides an interactive music experience within the club environment. Track selection, crowd response, and the performance elements that make a Vice City club set work. The activity connects the protagonist to the nightlife social network and the characters who move through it.
+Hip-hop in this city runs through [Boobie Ike](/gameplay/characters/boobie-ike). Only Raw Records is his label, [Dre'Quan Priest](/gameplay/characters/dre-quan-priest) is part of it, and his [Jack of Hearts](/gameplay/locations/jack-of-hearts) club is the other half of the business. That is story territory, not a side activity.
 
-**Music activity in [Vice City](/gameplay/locations/vice-city) is not just entertainment.** The club environment creates social access. Characters who are present in nightlife venues become accessible through the social interaction that the music context enables. The DJ booth is a position in the room that the story uses.
+Source: GTA VI, in-game.

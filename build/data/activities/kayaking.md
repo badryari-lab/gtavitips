@@ -5,71 +5,90 @@
   ],
   "seo": {
     "title": "Kayaking | GTA 6 Activity | GTAVITIPS",
-    "description": "Kayaking in GTA 6 Leonida: quiet water through the Keys and Grassrivers, about as far from a wanted level as Leonida gets.",
-    "ogDescription": "Kayaking in GTA 6 Leonida: quiet water through the Keys and Grassrivers, about as far from a wanted level as Leonida gets.",
+    "description": "Kayaking in GTA 6: the Crest Kayak from the Ultimate Edition waits at the ramp by Jason's house in Key Lento. Slow, quiet, and nothing on the checklist.",
+    "ogDescription": "Kayaking in GTA 6: the Crest Kayak from the Ultimate Edition waits at the ramp by Jason's house in Key Lento. Slow, quiet, and nothing on the checklist.",
     "jsonLdHeadline": "Kayaking - GTA 6 Activity",
-    "jsonLdDescription": "Kayaking in GTA 6 Leonida: quiet water through the Keys and Grassrivers, about as far from a wanted level as Leonida gets.",
-    "dateModified": "2026-02-01",
+    "jsonLdDescription": "Kayaking in GTA 6: the Crest Kayak from the Ultimate Edition waits at the ramp by Jason's house in Key Lento. Slow, quiet, and nothing on the checklist.",
+    "dateModified": "2026-11-21",
     "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-06.jpg"
   },
-  "heroSubtitle": "Paddle through the waterways. **The [Keys](/gameplay/locations/leonida-keys) channels, the [Grassrivers](/gameplay/locations/grassrivers) swamp, and the inland waterway network navigable by kayak at a speed that notices things the motorboat misses.**",
+  "heroSubtitle": "One kayak, one ramp into the water by a house in [Key Lento](/gameplay/locations/key-lento). **No medals, no checklist. Just you, a paddle and the Keys.**",
   "heroImage": {
     "src": "/assets/images/mount-kalaga-national-park-gta-6-location-06.jpg",
-    "alt": "Kayaking in GTA 6, confirmed activity in Leonida",
+    "alt": "A kayak on a river in Mount Kalaga National Park, Leonida, GTA 6",
     "width": "1920",
     "height": "1080"
   },
   "statBlock": [
     {
       "key": "Type",
-      "value": "Water / Exploration Activity"
+      "value": "Free-roam paddling"
+    },
+    {
+      "key": "Setting",
+      "value": "Key Lento and the Leonida Keys"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Florida Keys sea kayaking"
     }
   ],
   "connections": [
     {
-      "url": "/gameplay/activities/diving",
-      "role": "Activity",
-      "name": "Diving",
-      "desc": "Above and below the same water. The Keys geography supports both.",
-      "avatarInitials": "DI"
-    },
-    {
-      "url": "/gameplay/characters/brian-heder",
-      "role": "Character",
-      "name": "Brian Heder",
-      "desc": "He runs the Keys waterways. He knows every route by name.",
-      "avatarInitials": "BH"
+      "url": "/gameplay/locations/key-lento",
+      "role": "Location",
+      "name": "Key Lento",
+      "desc": "The kayak sits at the bottom of the ramp here, ready to launch.",
+      "avatarInitials": "KL"
     },
     {
       "url": "/gameplay/locations/leonida-keys",
       "role": "Location",
       "name": "Leonida Keys",
-      "desc": "The chain of islands and channels the activity is built around. The geography is confirmed.",
-      "avatarInitials": "LK"
+      "desc": "Mangrove edges and shallow channels, best seen at paddling speed.",
+      "avatarImage": {
+        "src": "/assets/images/leonida-keys-gta-6-location-04.jpg"
+      }
+    },
+    {
+      "url": "/gameplay/characters/jason-duval",
+      "role": "Character",
+      "name": "Jason Duval",
+      "desc": "His house in Key Lento is where the kayak waits.",
+      "avatarImage": {
+        "src": "/assets/images/jason-duval-gta-6-character-01.jpg"
+      }
+    },
+    {
+      "url": "/gameplay/activities/fishing",
+      "role": "Activity",
+      "name": "Fishing",
+      "desc": "The other reason to be out on quiet water with time to kill.",
+      "avatarInitials": "FI"
     },
     {
       "url": "/gameplay/vehicles/airboat-fanboat",
       "role": "Vehicle",
       "name": "Airboat / Fanboat",
-      "desc": "The Keys alternative when you need more speed than the kayak allows.",
+      "desc": "The loud way through the same shallow water.",
       "avatarInitials": "AF"
     }
   ],
   "faq": [
     {
-      "q": "Can you kayak between islands in the Keys?",
-      "a": "**The geography supports it.** The Leonida Keys are a chain of islands connected by waterways, the exact environment for kayaking as both a transit option and standalone activity. Trailer 2 establishes the Keys water geography in detail.",
-      "aPlain": "The geography supports it. The Leonida Keys are a chain of islands connected by waterways, the exact environment for kayaking as both a transit option and standalone activity. Trailer 2 establishes the Keys water geography in detail."
+      "q": "How do you get a kayak in GTA 6?",
+      "a": "The **Crest Kayak** comes with the Ultimate Edition. It waits at the bottom of the ramp into the water by Jason's house in Key Lento.",
+      "aPlain": "The Crest Kayak comes with the Ultimate Edition. It waits at the bottom of the ramp into the water by Jason's house in Key Lento."
     },
     {
-      "q": "Are there kayaking routes or just freeform paddling?",
-      "a": "Not confirmed in detail. Both a freeform option and structured routes are consistent with the confirmed Keys environment.",
-      "aPlain": "Not confirmed in detail. Both a freeform option and structured routes are consistent with the confirmed Keys environment."
+      "q": "Can you kayak with the Standard Edition?",
+      "a": "Not with the Crest Kayak. It is an Ultimate Edition extra, so the Standard Edition starts without one.",
+      "aPlain": "Not with the Crest Kayak. It is an Ultimate Edition extra, so the Standard Edition starts without one."
     },
     {
-      "q": "Is kayaking available outside the Keys?",
-      "a": "Lake Leonida and the Grassrivers waterways are both confirmed water geography. Kayaking access is consistent with both environments.",
-      "aPlain": "Lake Leonida and the Grassrivers waterways are both confirmed water geography. Kayaking access is consistent with both environments."
+      "q": "Is kayaking needed for 100% completion?",
+      "a": "No. Paddling has no line on the 100% checklist. Take the kayak out because you want to.",
+      "aPlain": "No. Paddling has no line on the 100% checklist. Take the kayak out because you want to."
     }
   ],
   "sidebarDatabase": [
@@ -110,10 +129,10 @@
   ]
 }
 ---
-Kayaking navigates the Leonida waterway systems at human scale. The [Keys](/gameplay/locations/leonida-keys) shallow channels are the primary environment: narrow passages between mangrove margins, reef-adjacent water clear enough to see the bottom, and the wildlife that inhabits both. **The [Grassrivers](/gameplay/locations/grassrivers) swamp system adds the inland alternative**: slower water, denser vegetation, and the specific sensory environment of the Florida interior.
+Leonida does not sell kayak tours. **Paddling has no line on the 100% checklist.** The kayak you can count on is a single boat that comes with the Ultimate Edition.
 
-The activity sits between fishing and diving as water-based exploration. The kayak navigates surfaces that motor boats cannot always access at low tide, and moves quietly through habitat that noise disturbs. It is the activity for experiencing the Leonida waterway environment at close range.
+The Crest Kayak is one of the edition's five extra vehicles, next to the Dinka Enduro. It sits at the bottom of the ramp into the water beside Jason's house in [Key Lento](/gameplay/locations/key-lento). Standard Edition players start without it.
 
-Paddle mechanics manage stroke timing, current management, and the stability of the hull in different water conditions. The kayak is vulnerable to capsize in rough open water but stable in the protected channel systems. **Wildlife encounters in the kayak are closer than any other activity type** because the kayak does not alert animals the way an engine does.
+From that ramp the [Keys](/gameplay/locations/leonida-keys) open up: mangrove edges, shallow channels, flat water in every direction. No engine, no noise, no hurry. If you want a reason to be on the water, [fishing](/gameplay/activities/fishing) and [diving](/gameplay/activities/diving) hand you one.
 
-Kayaking in the [Grassrivers](/gameplay/locations/grassrivers) creates the specific situation of being in alligator habitat at surface level without an engine to deter approach. The activity requires awareness of the waterway margin. The game's animal AI responds to the kayaker differently than to a motorboat.
+Source: GTA VI, in-game; Rockstar Games (Ultimate Edition contents).

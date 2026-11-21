@@ -6,68 +6,86 @@
   ],
   "seo": {
     "title": "Vehicle Customization | GTA 6 Activity | GTAVITIPS",
-    "description": "Vehicle customization in GTA 6 Leonida: full modification at Vice City shops, for turning anything into a statement.",
-    "ogDescription": "Vehicle customization in GTA 6 Leonida: full modification at Vice City shops, for turning anything into a statement.",
+    "description": "Vehicle customization in GTA 6: 14 mod shops across Leonida, each with its own specialty, from Vice Vinyl wraps to Ultimate Edition donks at Rideout.",
+    "ogDescription": "Vehicle customization in GTA 6: 14 mod shops across Leonida, each with its own specialty, from Vice Vinyl wraps to Ultimate Edition donks at Rideout.",
     "jsonLdHeadline": "Vehicle Customization - GTA 6 Activity",
-    "jsonLdDescription": "Vehicle customization in GTA 6 Leonida: full modification at Vice City shops, for turning anything into a statement.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Vehicle customization in GTA 6: 14 mod shops across Leonida, each with its own specialty, from Vice Vinyl wraps to Ultimate Edition donks at Rideout.",
+    "dateModified": "2026-11-21"
   },
-  "heroSubtitle": "The modification shop in [Vice City](/gameplay/locations/vice-city). **Performance, aesthetics, and the full range of changes that turn a stock vehicle into something specific to the person who owns it and the purpose it serves.**",
+  "heroSubtitle": "Fourteen shops, fourteen opinions about what your car should be. **Pick the one that matches the ride, drive in, and start spending.**",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Vehicle / Progression Activity"
+      "value": "Mod Shops / Tuning"
+    },
+    {
+      "key": "Setting",
+      "value": "Mod shops in all five counties of Leonida"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Florida custom car culture: donks, lowriders, wraps"
     }
   ],
   "connections": [
     {
+      "url": "/gameplay/activities/racing",
+      "role": "Activity",
+      "name": "Racing",
+      "desc": "Every race sets a rating band. Performance parts are how a car gets into it.",
+      "avatarInitials": "RA"
+    },
+    {
       "url": "/gameplay/activities/car-meets",
       "role": "Activity",
       "name": "Car Meets",
-      "desc": "You customize for the meet. The meet is where the result gets seen.",
+      "desc": "Where a finished build gets parked in a row and judged by everyone standing around it.",
       "avatarImage": {
         "src": "/assets/images/car-meets-gta-6-activity-01.jpg"
       }
     },
     {
-      "url": "/gameplay/characters/jason-duval",
-      "role": "Character",
-      "name": "Jason Duval",
-      "desc": "Army past, Keys present. He drives what he drives for a reason.",
-      "avatarImage": {
-        "src": "/assets/images/jason-duval-gta-6-character-05.jpg"
-      }
+      "url": "/gameplay/brands/rideout-customs",
+      "role": "Brand",
+      "name": "Rideout Customs",
+      "desc": "Donks, big rims and custom interiors. Ultimate Edition only.",
+      "avatarInitials": "RC"
     },
     {
-      "url": "/gameplay/locations/port-gellhorn",
+      "url": "/gameplay/brands/one-eyes-willies",
+      "role": "Brand",
+      "name": "One-Eyed Willie's",
+      "desc": "Off-road builds with hand-painted liveries in Leonard County. Ultimate Edition only.",
+      "avatarInitials": "OW"
+    },
+    {
+      "url": "/gameplay/locations/kelly-county",
       "role": "Location",
-      "name": "Port Gellhorn",
-      "desc": "The industrial waterfront. Workshop space and the racing circuit both run through here.",
-      "avatarInitials": "PG"
-    },
-    {
-      "url": "/gameplay/vehicles/bravado-banshee",
-      "role": "Vehicle",
-      "name": "Bravado Banshee",
-      "desc": "Prime customization candidate. Confirmed in the Ocean Drive sequence. The body lines that a custom shop works around.",
-      "avatarInitials": "BB"
+      "name": "Kelly County",
+      "desc": "Three specialists in one county: race cars, off-roaders and dirt bikes.",
+      "avatarInitials": "KC"
     }
   ],
   "faq": [
     {
-      "q": "Is Vice Vinyl a customization shop?",
-      "a": "**Confirmed as a brand.** Vice Vinyl appears on cars and as a storefront in both trailers, Trailer 1 Clip F and Shot 22. It is a vehicle customization brand in the Vice City world.",
-      "aPlain": "Confirmed as a brand. Vice Vinyl appears on cars and as a storefront in both trailers, Trailer 1 Clip F and Shot 22. It is a vehicle customization brand in the Vice City world."
+      "q": "How many mod shops are in GTA 6?",
+      "a": "Fourteen, spread over all five counties. **Each one has a specialty**, so match the vehicle to the shop.",
+      "aPlain": "Fourteen, spread over all five counties. Each one has a specialty, so match the vehicle to the shop."
     },
     {
-      "q": "What customization options are confirmed?",
-      "a": "**Visual and performance.** Custom paint, stickers, and body modifications are confirmed from the trailers. Performance upgrades are consistent with the racing and car meet systems but not yet broken down in detail.",
-      "aPlain": "Visual and performance. Custom paint, stickers, and body modifications are confirmed from the trailers. Performance upgrades are consistent with the racing and car meet systems but not yet broken down in detail."
+      "q": "Which mod shops need the Ultimate Edition?",
+      "a": "Rideout Customs and One-Eyed Willie's. The other twelve are open to everyone.",
+      "aPlain": "Rideout Customs and One-Eyed Willie's. The other twelve are open to everyone."
     },
     {
-      "q": "Can you customize the protagonists' main vehicles?",
-      "a": "**Consistent with the series.** Jason's Vapid appears across Trailer 2 in multiple contexts. Whether it starts in its trailer configuration or is buildable from a base spec is not confirmed pre-launch.",
-      "aPlain": "Consistent with the series. Jason's Vapid appears across Trailer 2 in multiple contexts. Whether it starts in its trailer configuration or is buildable from a base spec is not confirmed pre-launch."
+      "q": "How do you find mod shops on the map?",
+      "a": "They show as an orange car icon once the area is uncovered. Open the map, go to Vehicles and pick Mod Shops for a list of the ones you have found.",
+      "aPlain": "They show as an orange car icon once the area is uncovered. Open the map, go to Vehicles and pick Mod Shops for a list of the ones you have found."
+    },
+    {
+      "q": "Is Vice Vinyl a mod shop?",
+      "a": "Yes. It does wraps and liveries. Looks only, no performance work.",
+      "aPlain": "Yes. It does wraps and liveries. Looks only, no performance work."
     }
   ],
   "sidebarDatabase": [
@@ -108,10 +126,12 @@
   ]
 }
 ---
-Vehicle customization in Leonida is the most comprehensive modification system the city has had. Performance modifications (engine, suspension, brakes, drivetrain) affect vehicle handling and speed in ways that carry into racing, mudding, mountain drifting, and every driving-intensive activity. Visual modifications (paint, body kits, wheels, interior) affect the vehicle's social register and its recognition profile.
+Every car in Leonida can be somebody's project. **Fourteen mod shops sit across the state, and each one has a specialty.** Drive in, sit through the short cutscene and the menu opens: performance on one side, looks on the other. Shops show up on the map as an orange car icon once you have uncovered the area, and the map filter under Vehicles keeps a list of the ones you have found.
 
-The [Vice City](/gameplay/locations/vice-city) car culture context makes customization more than mechanical preparation. **The scene has an aesthetic as well as a performance tier.** A street takeover has vehicle requirements that go beyond raw speed. The modification shop is the point where the protagonist's vehicles become tuned to the specific activity they will be used for.
+The specialty is the point, because not every shop takes every vehicle. In [Mariana County](/gameplay/locations/mariana-county), Coastal Auto Care does retro builds and Capri Classic does American muscle. Euroform Automotive handles luxury cars and Two Wheel Fury Motorsport does sports bikes in [Vice-Dale](/gameplay/locations/vice-county). Out in [Kelly County](/gameplay/locations/kelly-county), Whisler Motorsport builds race cars, Wasteland Off-Road does off-roaders and Dirt Merchants does dirt bikes. Ledford Motorcycle Workshop in [Lummox County](/gameplay/locations/lummox-county) builds choppers. Vice Auto Customs for tuners, Lowballers Customs for lowriders, Stockyard Speedshop for hot rods and Vice Vinyl for wraps and liveries round out the list.
 
-The modification categories span performance and cosmetic options. **Performance modifications directly affect in-game vehicle physics**: turbo increases top speed and acceleration, suspension changes handling characteristics, armoring increases durability. Visual modifications have no performance effect but affect NPC reaction and certain mission dynamics where vehicle recognition matters.
+**Two shops sit behind the Ultimate Edition.** [Rideout Customs](/gameplay/brands/rideout-customs) does donks with big rims and custom interiors. [One-Eyed Willie's](/gameplay/brands/one-eyes-willies) in [Leonard County](/gameplay/locations/leonard-county) does off-roaders with hand-painted liveries.
 
-The shop system distributes different specializations across the map. General shops handle basics. Performance specialists provide top-tier engine work. The visual customization shops in [Vice City](/gameplay/locations/vice-city)'s car culture districts carry the bodywork and aesthetic options that the street scene requires.
+Performance parts move the numbers that matter on the track. Every car carries a rating and every [race](/gameplay/activities/racing) sets a rating band, so the shop decides where you are allowed to line up. The story sends you to a mod shop early on, for repairs and a first round of parts.
+
+Source: GTA VI, in-game.

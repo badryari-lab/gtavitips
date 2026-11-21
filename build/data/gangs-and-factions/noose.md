@@ -52,9 +52,9 @@
       "desc": "State-level authority that activates in parallel with NOOSE at high wanted levels."
     },
     {
-      "url": "/gameplay/locations/military-base",
+      "url": "/gameplay/locations/mile-zero-air-station",
       "type": "Restricted Zone",
-      "name": "Military Base",
+      "name": "Mile Zero Air Station",
       "desc": "The location that triggers the maximum response. NOOSE and military units respond to base entry."
     }
   ],
