@@ -5,24 +5,32 @@
   ],
   "seo": {
     "title": "Hunting | GTA 6 Activity | GTAVITIPS",
-    "description": "Hunting in GTA 6 Leonida: deer, boar, and game animals across rural Vice County, for anyone who'd rather earn dinner than buy it.",
-    "ogDescription": "Hunting in GTA 6 Leonida: deer, boar, and game animals across rural Vice County, for anyone who'd rather earn dinner than buy it.",
+    "description": "Hunting in GTA 6: Jason works an old army friend's 15 Target Decks near Mount Kalaga. Track with Focus, shoot head or heart, sell clean carcasses.",
+    "ogDescription": "Hunting in GTA 6: Jason works an old army friend's 15 Target Decks near Mount Kalaga. Track with Focus, shoot head or heart, sell clean carcasses.",
     "jsonLdHeadline": "Hunting - GTA 6 Activity",
-    "jsonLdDescription": "Hunting in GTA 6 Leonida: deer, boar, and game animals across rural Vice County, for anyone who'd rather earn dinner than buy it.",
-    "dateModified": "2026-02-01",
+    "jsonLdDescription": "Hunting in GTA 6: Jason works an old army friend's 15 Target Decks near Mount Kalaga. Track with Focus, shoot head or heart, sell clean carcasses.",
+    "dateModified": "2026-11-21",
     "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-03.jpg"
   },
-  "heroSubtitle": "Rural [Vice County](/gameplay/locations/vice-county), a rifle, and the game animals that the Leonida interior supports. **The hunting activity that connects the wildlife database to the open landscape of the Vice County rural zone.**",
+  "heroSubtitle": "An old army friend, a cabin near [Mount Kalaga](/gameplay/locations/mount-kalaga-national-park), and a list of animals he wants delivered clean. **Head or heart. Anything else is cheaper meat.**",
   "heroImage": {
     "src": "/assets/images/mount-kalaga-national-park-gta-6-location-03.jpg",
-    "alt": "Hunting in GTA 6, confirmed activity in Leonida",
+    "alt": "Two hunters with rifles walking through pine woods in Leonida, GTA 6",
     "width": "1920",
     "height": "1080"
   },
   "statBlock": [
     {
       "key": "Type",
-      "value": "Outdoor / Wildlife Activity"
+      "value": "Hunting / Target Decks"
+    },
+    {
+      "key": "Setting",
+      "value": "Mount Kalaga, forests and swamps across Leonida"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Florida deer and hog hunting"
     }
   ],
   "connections": [
@@ -30,46 +38,67 @@
       "url": "/gameplay/activities/fishing",
       "role": "Activity",
       "name": "Fishing",
-      "desc": "Both take you into the Leonida wilderness. The same patience, different terrain.",
-      "avatarInitials": "FI"
+      "desc": "Cal sets the challenges on the water, Bret sets them in the woods. Same patience, different gun.",
+      "avatarInitials": "F"
     },
     {
-      "url": "/gameplay/characters/brian-heder",
-      "role": "Character",
-      "name": "Brian Heder",
-      "desc": "Classic outdoorsman. Keys lifestyle. The swamp and forest are his territory as much as the water.",
-      "avatarInitials": "BH"
-    },
-    {
-      "url": "/gameplay/locations/red-hill-forest",
+      "url": "/gameplay/locations/mount-kalaga-national-park",
       "role": "Location",
-      "name": "Red Hill Forest",
-      "desc": "The confirmed inland forest territory. This is where the hunting activity runs.",
-      "avatarInitials": "RF"
+      "name": "Mount Kalaga National Park",
+      "desc": "Bret's cabin sits in the woods near the mountain, and the first deer is out here.",
+      "avatarImage": {
+        "src": "/assets/images/mount-kalaga-national-park-gta-6-location-02.jpg"
+      }
     },
     {
-      "url": "/gameplay/vehicles/annis-hellion",
+      "url": "/gameplay/animals/white-tailed-deer",
+      "role": "Animal",
+      "name": "White-Tailed Deer",
+      "desc": "First order on the first Target Deck: one buck, one doe, both clean.",
+      "avatarInitials": "WT"
+    },
+    {
+      "url": "/gameplay/animals/boar",
+      "role": "Animal",
+      "name": "Boar",
+      "desc": "Aggressive, out in the shade even by day. Keep your distance and use a scope.",
+      "avatarInitials": "B"
+    },
+    {
+      "url": "/gameplay/animals/american-alligator",
+      "role": "Animal",
+      "name": "American Alligator",
+      "desc": "Too big to lift. Send Bret a photo and the spot, and he comes to collect.",
+      "avatarInitials": "AA"
+    },
+    {
+      "url": "/gameplay/vehicles/declasse-yosemite-rancher",
       "role": "Vehicle",
-      "name": "Annis Hellion",
-      "desc": "Off-road ATV. Gets you into the forest and back out. Right vehicle for the terrain.",
-      "avatarInitials": "AH"
+      "name": "Declasse Yosemite Rancher",
+      "desc": "A pickup bed is how small game rides back to the cabin.",
+      "avatarInitials": "DY"
     }
   ],
   "faq": [
     {
-      "q": "What animals can be hunted?",
-      "a": "**The Leonida wildlife list is extensive.** White-tailed deer, boar, Florida panther, foxes, and the full range of documented Leonida fauna are in the database. The hunting system connects to the animal ecosystem.",
-      "aPlain": "The Leonida wildlife list is extensive. White-tailed deer, boar, Florida panther, foxes, and the full range of documented Leonida fauna are in the database. The hunting system connects to the animal ecosystem."
+      "q": "How do you unlock hunting in GTA 6?",
+      "a": "Play as Jason. Partway into the story his old army friend Bret Vogel texts him, and the first hunt near Mount Kalaga teaches the basics. Lucia never gets the text.",
+      "aPlain": "Play as Jason. Partway into the story his old army friend Bret Vogel texts him, and the first hunt near Mount Kalaga teaches the basics. Lucia never gets the text."
     },
     {
-      "q": "Is Red Hill Forest the primary hunting zone?",
-      "a": "**Yes.** Red Hill Forest is the confirmed inland woodland territory. The Grassrivers swamp extends the hunting geography into different terrain with different species.",
-      "aPlain": "Yes. Red Hill Forest is the confirmed inland woodland territory. The Grassrivers swamp extends the hunting geography into different terrain with different species."
+      "q": "How do you get a pristine carcass?",
+      "a": "**One shot to the head or heart.** Focus shows the vitals, and the study card names the right weapon. Every extra hit lowers the grade, and Bret only takes Pristine or Good.",
+      "aPlain": "One shot to the head or heart. Focus shows the vitals, and the study card names the right weapon. Every extra hit lowers the grade, and Bret only takes Pristine or Good."
     },
     {
-      "q": "Does hunting connect to any other systems?",
-      "a": "The Leonida animal ecosystem and the outdoor activity circuit both connect. Specific in-game rewards for hunting are not yet confirmed pre-launch.",
-      "aPlain": "The Leonida animal ecosystem and the outdoor activity circuit both connect. Specific in-game rewards for hunting are not yet confirmed pre-launch."
+      "q": "Is hunting needed for 100% completion?",
+      "a": "Bret's fifteen Target Decks are. Studying animals through binoculars counts separately and needs no kill.",
+      "aPlain": "Bret's fifteen Target Decks are. Studying animals through binoculars counts separately and needs no kill."
+    },
+    {
+      "q": "Where do you sell what you hunt?",
+      "a": "To Bret. Bring small game to the processing area at his cabin. For bears and alligators, send him a photo with the location and he picks them up.",
+      "aPlain": "To Bret. Bring small game to the processing area at his cabin. For bears and alligators, send him a photo with the location and he picks them up."
     }
   ],
   "sidebarDatabase": [
@@ -110,10 +139,12 @@
   ]
 }
 ---
-Hunting uses the rural [Vice County](/gameplay/locations/vice-county) and inland wilderness geography. White-tailed deer and boar are the confirmed primary targets. The Red Hill Forest and the Vice County agricultural interior are the primary zones. **The Florida panther is present in the forest but is not a hunting target.** The hunting activity operates within the game's animal database.
+Hunting in Leonida runs through one man. **Bret Vogel, Jason's old army friend, runs a hunting business out of a cabin in the woods near [Mount Kalaga](/gameplay/locations/mount-kalaga-national-park).** Once the story has moved on a little, he texts Jason. Lucia never gets the message.
 
-The hunting culture in rural Vice County reflects the real Florida inland: private land leases, public hunting land, and the social infrastructure of a rural activity that the coastal population largely does not engage with. The protagonist accesses hunting through the rural network rather than the [Vice City](/gameplay/locations/vice-city) tourism economy.
+The first hunt is the lesson. Bret hands over the Killtelligence SM-69, a scoped rifle with his company's name on it, and takes you after a deer. Focus (L3 and R3) shows the scent trail, white at first and yellow as you close in. Study the animal through the scope or binoculars before you shoot: the card names the right weapon and what the carcass is worth. Lose the rifle later and an Ammu-Nation weapon locker has it.
 
-The mechanics manage stalking distance, wind direction, shot placement, and the animal response system. **Game animals detect movement and scent before visual detection.** Approach from downwind. Move slowly at close range. Shot placement determines the outcome: a clean shot produces a full-value carcass, a poor placement produces a tracking requirement.
+**Then come the orders.** Bret posts fifteen Target Decks, each a short list of animals and the areas they live in, marked on the map. The first wants a [whitetail](/gameplay/animals/white-tailed-deer) buck and doe. Later ones ask for [wild boar](/gameplay/animals/boar) and a spotted [skunk](/gameplay/animals/skunk) that only comes out after dark. All fifteen count toward 100%, and they stay open after the story.
 
-Hunting generates resources. Carcasses have sell value at specific buyers. Venison and boar meat enter the game's resource economy. The hunting activity connects to the fencing and goods economy through the buyers who pay for game.
+One shot to the head or heart keeps a carcass pristine. Every extra round knocks the grade down, and Bret takes only Pristine or Good. Small game rides back in your vehicle to his processing area. Bears and [alligators](/gameplay/animals/american-alligator) do not get lifted: send Bret a photo and the location, and he collects. For small game, Ammu-Nation's Hunting stores are the only place that sells the Wortham W-22.
+
+Source: GTA VI, in-game.

@@ -6,17 +6,25 @@
   ],
   "seo": {
     "title": "Cage Fighting | GTA 6 Activity | GTAVITIPS",
-    "description": "Cage fighting in GTA 6 Leonida: underground MMA in Vice City venues. Money changes hands faster than punches do.",
-    "ogDescription": "Cage fighting in GTA 6 Leonida: underground MMA in Vice City venues. Money changes hands faster than punches do.",
+    "description": "Cage fighting in GTA 6: no fight circuit and no betting. The cage shows up once in the story; outside it, fists, blocks, dodges and grapples settle it.",
+    "ogDescription": "Cage fighting in GTA 6: no fight circuit and no betting. The cage shows up once in the story; outside it, fists, blocks, dodges and grapples settle it.",
     "jsonLdHeadline": "Cage Fighting - GTA 6 Activity",
-    "jsonLdDescription": "Cage fighting in GTA 6 Leonida: underground MMA in Vice City venues. Money changes hands faster than punches do.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Cage fighting in GTA 6: no fight circuit and no betting. The cage shows up once in the story; outside it, fists, blocks, dodges and grapples settle it.",
+    "dateModified": "2026-11-21"
   },
-  "heroSubtitle": "Underground MMA in [Vice City](/gameplay/locations/vice-city). **The controlled violence economy: two people, a cage, a crowd with money down, and the specific Leonida business model that runs it.**",
+  "heroSubtitle": "No circuit. No bookie. **The cage exists in Leonida, but it is not a side hustle.** Outside the story, fights start the old way: you taunt the wrong person.",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Combat / Minigame"
+      "value": "Melee Combat / Street Fights"
+    },
+    {
+      "key": "Setting",
+      "value": "Streets and bars across Leonida"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Underground MMA, bar brawls"
     }
   ],
   "connections": [
@@ -24,50 +32,43 @@
       "url": "/gameplay/activities/weightlifting",
       "role": "Activity",
       "name": "Weightlifting",
-      "desc": "The gym is the prep work. Strength built there shows up directly in the cage.",
+      "desc": "Gym work raises Strength, and Strength is more health to take a punch with.",
       "avatarImage": {
         "src": "/assets/images/weightlifting-gta-6-activity-01.jpg"
       }
     },
     {
+      "url": "/gameplay/activities/combat-training",
+      "role": "Activity",
+      "name": "Combat Training",
+      "desc": "The training side. Learn the block and the dodge before a stranger teaches you.",
+      "avatarInitials": "CT"
+    },
+    {
       "url": "/gameplay/characters/lucia-caminos",
       "role": "Character",
       "name": "Lucia Caminos",
-      "desc": "Her father taught her to fight since she could walk. MMA training is in her background.",
+      "desc": "Her father taught her to fight as soon as she could walk. It shows when the fists come out.",
       "avatarImage": {
         "src": "/assets/images/lucia-caminos-gta-6-character-01.jpg"
       }
-    },
-    {
-      "url": "/gameplay/locations/ambrosia",
-      "role": "Location",
-      "name": "Ambrosia",
-      "desc": "The kind of Vice City venue the underground fighting circuit uses. Converted, closed off, cash only.",
-      "avatarInitials": "AM"
-    },
-    {
-      "url": "/gameplay/vehicles/bravado-buffalo-s",
-      "role": "Vehicle",
-      "name": "Bravado Buffalo S",
-      "desc": "The car in the parking lot on fight night. Vice City muscle for the people who show up to watch.",
-      "avatarInitials": "BS"
     }
   ],
   "faq": [
     {
-      "q": "Is Lucia confirmed as a cage fighter?",
-      "a": "**Yes.** Trailer 2 shows her in an MMA training context. Her Rockstar bio states her father taught her to fight since she could walk. It is her primary combat style.",
-      "aPlain": "Yes. Trailer 2 shows her in an MMA training context. Her Rockstar bio states her father taught her to fight since she could walk. It is her primary combat style."
+      "q": "Is there cage fighting in GTA 6?",
+      "a": "**Not as an activity.** The cage shows up once, inside the story. There is no fight circuit to enter, no rematches and no prize money.",
+      "aPlain": "Not as an activity. The cage shows up once, inside the story. There is no fight circuit to enter, no rematches and no prize money."
     },
     {
-      "q": "Does the cage fighting circuit have tiers?",
-      "a": "**Reported.** A tiered circuit, lower venues accessible early, upper tier requiring preparation and returning proportionally more money, is consistent with the confirmed activity structure.",
-      "aPlain": "Reported. A tiered circuit, lower venues accessible early, upper tier requiring preparation and returning proportionally more money, is consistent with the confirmed activity structure."
+      "q": "Can you bet on fights in GTA 6?",
+      "a": "No. There is no fight betting and no casino. The only money on a game in Leonida is a small pool stake in a bar.",
+      "aPlain": "No. There is no fight betting and no casino. The only money on a game in Leonida is a small pool stake in a bar."
     },
     {
-      "q": "Does strength from weightlifting affect cage fighting performance?",
-      "a": "**Confirmed link.** The strength attribute built through weightlifting feeds directly into fighting performance. The gym and the cage are the same system at two different ends.",
-      "aPlain": "Confirmed link. The strength attribute built through weightlifting feeds directly into fighting performance. The gym and the cage are the same system at two different ends."
+      "q": "How do you fight in GTA 6?",
+      "a": "Square or X punches and kicks, hold Cross or A to block, tap it to dodge, hold L2 or LT to lock on, and press R2 or RT to grab and throw. Taunting a stranger is the quickest way to start one.",
+      "aPlain": "Square or X punches and kicks, hold Cross or A to block, tap it to dodge, hold L2 or LT to lock on, and press R2 or RT to grab and throw. Taunting a stranger is the quickest way to start one."
     }
   ],
   "sidebarDatabase": [
@@ -108,10 +109,12 @@
   ]
 }
 ---
-Cage fighting in [Vice City](/gameplay/locations/vice-city) runs the underground circuit that a city of this size sustains. Vice City has the demographics, the venues, and the betting infrastructure. **The fights happen in converted spaces with temporary cage setups, an announcer with too much energy for the room, and a crowd that came specifically to watch this.**
+Leonida has a cage. **It is not an activity.** There is no fight league, no ladder of opponents, no weight classes and no crowd to bet with. The cage bout belongs to the story, the story decides when it comes, and it does not repeat once it is done.
 
-The activity serves multiple functions in the game world. As a minigame, it is controlled combat with a structured opponent and a money outcome. As a story and mission context, the underground fighting circuit in GTA cities has always been a location where characters with criminal connections operate openly under the cover of sport.
+Everything else is street fighting. Walk up to someone and you can greet them or taunt them. Taunt the wrong person and they take it personally.
 
-The fighting mechanics draw on the updated physics system. Cage fighting as an activity will use a dedicated combat control scheme distinct from the open-world fighting mechanics. Opponent AI reads attack patterns, creates openings, and adjusts to the player's approach across rounds.
+**The controls are simple.** Square (X on Xbox) throws punches and kicks. Hold Cross (A) to block, tap it to dodge, and hit back while they are off balance. L2 (LT) locks on so you strafe around them. R2 (RT) grabs, and from a grab you keep hitting or throw them. If a gun is in your hand, pick the fist on the weapon wheel first.
 
-**The prize money structure makes cage fighting a repeatable income source.** The difficulty scales with the circuit tier. The lower circuit is accessible early. The upper tier opponents require preparation and return proportionally more money. The fighting venues themselves are unlockable locations in the [Vice City](/gameplay/locations/vice-city) geography.
+Fists still cost something. Beating on harmless people goes on your [Criminal Profile](/faq/what-is-the-criminal-profile-in-gta-6), and a fight where somebody draws a gun stops being a fistfight fast. [Weightlifting](/gameplay/activities/weightlifting) builds Strength, which means more health to burn.
+
+Source: GTA VI, in-game; Rockstar (character bio).

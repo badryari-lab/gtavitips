@@ -6,73 +6,81 @@
   ],
   "seo": {
     "title": "Community Service | GTA 6 Activity | GTAVITIPS",
-    "description": "Community service in GTA 6: part of Lucia Caminos's supervised release, roadside cleanup in the Leonida Keys under an officer who isn't fooled for a second.",
-    "ogDescription": "Community service in GTA 6: part of Lucia Caminos's supervised release, roadside cleanup in the Leonida Keys under an officer who isn't fooled for a second.",
+    "description": "Community service in GTA 6: the price of Lucia's supervised release. Home detention at Jason's place in the Keys, highway cleanup the one way out.",
+    "ogDescription": "Community service in GTA 6: the price of Lucia's supervised release. Home detention at Jason's place in the Keys, highway cleanup the one way out.",
     "jsonLdHeadline": "Community Service - GTA 6 Activity",
-    "jsonLdDescription": "Community service in GTA 6: part of Lucia Caminos's supervised release, roadside cleanup in the Leonida Keys under an officer who isn't fooled for a second.",
-    "dateModified": "2026-02-01",
+    "jsonLdDescription": "Community service in GTA 6: the price of Lucia's supervised release. Home detention at Jason's place in the Keys, highway cleanup the one way out.",
+    "dateModified": "2026-11-21",
     "ogImage": "https://gtavitips.com/assets/images/activities-index-gta-6.jpg"
   },
-  "heroSubtitle": "The conditions of supervised release in the [Leonida Keys](/gameplay/locations/leonida-keys). **Hi-vis vest. A bucket and a litter picker. An officer watching.** You did the time. Now you do the hours.",
+  "heroSubtitle": "The paperwork that got Lucia out comes with conditions. **Ankle monitor. Home detention. A hi-vis vest on the highway** when the state says so.",
   "heroImage": {
     "src": "/assets/images/activities-index-gta-6.jpg",
-    "alt": "Community service in GTA 6, Lucia Caminos doing roadside cleanup in the Leonida Keys under officer supervision, tail lights sweeping across the group",
+    "alt": "Lucia Caminos on a roadside cleanup crew in the Leonida Keys at dusk, an officer watching, tail lights sweeping across the group, GTA 6",
     "width": "1920",
     "height": "1080"
   },
   "statBlock": [
     {
       "key": "Type",
-      "value": "Release Condition"
+      "value": "Release Condition / Story"
+    },
+    {
+      "key": "Setting",
+      "value": "Leonida Keys roadsides"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Florida supervised release and work crews"
     }
   ],
   "connections": [
     {
-      "url": "/gameplay/activities/robbery",
-      "role": "Activity",
-      "name": "Robbery",
-      "desc": "Community service is what comes after. The other end of the same chain.",
-      "avatarInitials": "RO"
-    },
-    {
       "url": "/gameplay/characters/lucia-caminos",
       "role": "Character",
       "name": "Lucia Caminos",
-      "desc": "Out of Leonida Penitentiary on supervised release, with an ankle monitor and conditions to meet.",
+      "desc": "Out on supervised release, with an ankle monitor and a short leash.",
       "avatarImage": {
         "src": "/assets/images/lucia-caminos-gta-6-character-01.jpg"
       }
     },
     {
+      "url": "/gameplay/characters/stefanie",
+      "role": "Character",
+      "name": "Stefanie",
+      "desc": "Her counselor. The release program runs through her paperwork.",
+      "avatarInitials": "S"
+    },
+    {
+      "url": "/gameplay/characters/joe",
+      "role": "Character",
+      "name": "Joe",
+      "desc": "Her parole officer. He wants to know where that monitor has been.",
+      "avatarInitials": "J"
+    },
+    {
       "url": "/gameplay/locations/leonida-keys",
       "role": "Location",
       "name": "Leonida Keys",
-      "desc": "The Keys stretch where the community service scenes take place. Jason's house is nearby.",
+      "desc": "Home detention means Jason's place in the Keys, and not far past it.",
       "avatarInitials": "LK"
-    },
-    {
-      "url": "/gameplay/vehicles/brute-shuttle-bus",
-      "role": "Vehicle",
-      "name": "Brute Shuttle Bus",
-      "desc": "State transport. Drops you at the roadside. Picks you up when the hours are done.",
-      "avatarInitials": "BB"
     }
   ],
   "faq": [
     {
-      "q": "Is community service forced or optional for Lucia?",
-      "a": "**Forced by the story.** Lucia is out on supervised release with an ankle monitor, and roadside community service comes with it. The Brian's Boat Works hat she wears while doing it is a telling detail.",
-      "aPlain": "Forced by the story. Lucia is out on supervised release with an ankle monitor, and roadside community service comes with it. The Brian's Boat Works hat she wears while doing it is a telling detail."
+      "q": "Is community service a side activity in GTA 6?",
+      "a": "**No.** It is part of the terms of Lucia's supervised release at the start of her story. There is no map icon, no timer and no payout to chase.",
+      "aPlain": "No. It is part of the terms of Lucia's supervised release at the start of her story. There is no map icon, no timer and no payout to chase."
     },
     {
-      "q": "What does community service actually involve?",
-      "a": "Roadside labor, the type shown in Trailer 2. Cleaning, maintenance, whatever the state assigns. It may also function as a slow-burn mission trigger that connects Lucia to the wider story.",
-      "aPlain": "Roadside labor, the type shown in Trailer 2. Cleaning, maintenance, whatever the state assigns. It may also function as a slow-burn mission trigger that connects Lucia to the wider story."
+      "q": "Why does Lucia wear an ankle monitor?",
+      "a": "It is a condition of her supervised release. She lives under home detention at Jason's place in the Keys, and work detail is the exception.",
+      "aPlain": "It is a condition of her supervised release. She lives under home detention at Jason's place in the Keys, and work detail is the exception."
     },
     {
-      "q": "Is the ankle tag a gameplay mechanic?",
-      "a": "**Confirmed in narrative.** Lucia's ankle tag is visible in multiple Trailer 2 scenes. Whether it imposes geographic restrictions during certain story sections or functions purely as a narrative element is not yet confirmed.",
-      "aPlain": "Confirmed in narrative. Lucia's ankle tag is visible in multiple Trailer 2 scenes. Whether it imposes geographic restrictions during certain story sections or functions purely as a narrative element is not yet confirmed."
+      "q": "What does the work detail involve?",
+      "a": "Highway cleanup on a supervised crew: vest on, litter picker in hand, an officer watching.",
+      "aPlain": "Highway cleanup on a supervised crew: vest on, litter picker in hand, an officer watching."
     }
   ],
   "sidebarDatabase": [
@@ -109,12 +117,10 @@
   ]
 }
 ---
-Community service in Leonida is not optional. [Lucia](/gameplay/characters/lucia-caminos) got out of Leonida Penitentiary on supervised release. The ankle tag is one condition. The mandatory hours on the roadside are another. You show up in the hi-vis vest, you pick up the litter, you do not say anything to the officer, and you do not go anywhere until the hours are logged.
+You do not sign up for community service. **It comes with Lucia's supervised release.** Her counselor, [Stefanie](/gameplay/characters/stefanie), puts her into the program, and the deal is home detention: an ankle monitor, an address on file at [Jason](/gameplay/characters/jason-duval)'s place in the [Leonida Keys](/gameplay/locations/leonida-keys), and a short leash around it.
 
-**The scene in Trailer 2 is dusk in the Keys.** A residential street, overgrown lots on both sides. Three people in orange and grey vests working the roadside. An officer watching. A passing car sweeps its tail lights across the group as it goes by, Lucia lit from shadow to full colour as the beam moves over her. Litter and debris on the verge. A red bucket. The routine work that Leonida corrections requires before they consider you rehabilitated.
+The one reason to be anywhere else is work detail. Highway cleanup, a vest, a litter picker and an officer watching the crew. Her parole officer, [Joe](/gameplay/characters/joe), keeps an eye on where the monitor has been.
 
-She is wearing a [Brian Heder](/gameplay/characters/brian-heder)'s Boat Works cap. The release conditions are running. So is everything else.
+**There is nothing to grind here.** Community service is not a side activity with a map icon, a timer or a payout. It lives in the opening of Lucia's story, and the game handles it there. Free roam is a different life.
 
-Community service is tied to Lucia's supervised release. **Failing to complete mandated sessions, or getting arrested while conditions are active, affects her standing with [Stefanie](/gameplay/characters/stefanie)**, her counselor, who runs the supervised release that decides whether she stays out or goes back inside.
-
-It functions as a narrative constraint on what Lucia can do and when. Whether sessions can be skipped or completed ahead of schedule is not established in official material. What is established: they are supervised, they happen on a schedule, and the system that put that ankle tag on her left leg is paying attention.
+Source: GTA VI, in-game.

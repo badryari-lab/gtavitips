@@ -5,64 +5,79 @@
   ],
   "seo": {
     "title": "Games | GTA 6 Activity | GTAVITIPS",
-    "description": "Games in GTA 6 Leonida: arcade cabinets, pool, darts, and bar minigames, the small stakes that kill an afternoon.",
-    "ogDescription": "Games in GTA 6 Leonida: arcade cabinets, pool, darts, and bar minigames, the small stakes that kill an afternoon.",
+    "description": "Games in GTA 6: four playable video games on the JoySystem console and arcade cabinets, plus bar pool against regulars who play you for a small stake.",
+    "ogDescription": "Games in GTA 6: four playable video games on the JoySystem console and arcade cabinets, plus bar pool against regulars who play you for a small stake.",
     "jsonLdHeadline": "Games - GTA 6 Activity",
-    "jsonLdDescription": "Games in GTA 6 Leonida: arcade cabinets, pool, darts, and bar minigames, the small stakes that kill an afternoon.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Games in GTA 6: four playable video games on the JoySystem console and arcade cabinets, plus bar pool against regulars who play you for a small stake.",
+    "dateModified": "2026-11-21"
   },
-  "heroSubtitle": "The games inside the venues. **Pool tables, darts, arcade cabinets, and everything [Vice City](/gameplay/locations/vice-city) puts inside its bars and entertainment spaces because an interior is more interesting when it has something to do.**",
+  "heroSubtitle": "Downtime in Leonida runs on a controller and a cue. **Three games on the JoySystem at home, one on arcade cabinets around the state, and a pool table in the bar** where a regular will take your money.",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Leisure / Minigame Collection"
+      "value": "Video Games / Bar Pool"
+    },
+    {
+      "key": "Setting",
+      "value": "Home console, arcade cabinets, bars across Leonida"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Home consoles, roadside arcades, Florida dive bars"
     }
   ],
   "connections": [
     {
-      "url": "/gameplay/activities/amusement-parks",
+      "url": "/gameplay/activities/snooker",
       "role": "Activity",
-      "name": "Amusement Parks",
-      "desc": "The boardwalk arcade. Same Vice City leisure geography, different format.",
-      "avatarInitials": "AP"
+      "name": "Snooker",
+      "desc": "No snooker cloth anywhere in the state. The cue game in every bar is eight-ball.",
+      "avatarInitials": "S"
     },
     {
-      "url": "/gameplay/characters/cal-hampton",
-      "role": "Character",
-      "name": "Cal Hampton",
-      "desc": "Described as lazy. If there's a couch and a screen, Cal is on it.",
-      "avatarInitials": "CH"
+      "url": "/gameplay/activities/gambling",
+      "role": "Activity",
+      "name": "Gambling",
+      "desc": "The pool stake is the only bet Leonida takes. The casinos stay shut.",
+      "avatarInitials": "G"
     },
     {
-      "url": "/gameplay/locations/north-beaches",
+      "url": "/gameplay/activities/watching-tv",
+      "role": "Activity",
+      "name": "Watching TV",
+      "desc": "Same couch, same screen. The JoySystem plugs into the TV at home.",
+      "avatarInitials": "WT"
+    },
+    {
+      "url": "/gameplay/locations/leonida-keys",
       "role": "Location",
-      "name": "North Beaches",
-      "desc": "The boardwalk strip where arcade and leisure game culture lives.",
-      "avatarInitials": "NB"
+      "name": "Leonida Keys",
+      "desc": "Jason's place in the Keys is where the console sits.",
+      "avatarInitials": "LK"
     },
     {
-      "url": "/gameplay/vehicles/brute-shuttle-bus",
-      "role": "Vehicle",
-      "name": "Brute Shuttle Bus",
-      "desc": "Takes you there. The Keys-to-Vice-City bus that stops near the boardwalk.",
-      "avatarInitials": "BB"
+      "url": "/gameplay/locations/delights-port-gellhorn",
+      "role": "Location",
+      "name": "Delights",
+      "desc": "One of the pool regulars drinks here, on the nights the club is open.",
+      "avatarInitials": "D"
     }
   ],
   "faq": [
     {
-      "q": "Are classic GTA arcade games returning?",
-      "a": "**Consistent with the series.** A parody PS5 console is visible in Trailer 2 Scene 58. Specific playable in-world games are not yet confirmed pre-launch.",
-      "aPlain": "Consistent with the series. A parody PS5 console is visible in Trailer 2 Scene 58. Specific playable in-world games are not yet confirmed pre-launch."
+      "q": "Can you play video games in GTA 6?",
+      "a": "**Yes, four of them.** Tenebrae Lux, Street Trash III and Time Jackers Rewind run on the JoySystem console at home, and Bang For Your Buck runs on arcade cabinets around Leonida.",
+      "aPlain": "Yes, four of them. Tenebrae Lux, Street Trash III and Time Jackers Rewind run on the JoySystem console at home, and Bang For Your Buck runs on arcade cabinets around Leonida."
     },
     {
-      "q": "Can you play video games at home?",
-      "a": "The parody console exists in the world. Whether it is interactive or atmospheric set-dressing is not yet confirmed.",
-      "aPlain": "The parody console exists in the world. Whether it is interactive or atmospheric set-dressing is not yet confirmed."
+      "q": "Do the video games count toward 100% completion?",
+      "a": "Yes. Starting each of the four games once is enough. Finishing every level of one arcade game earns a trophy on top.",
+      "aPlain": "Yes. Starting each of the four games once is enough. Finishing every level of one arcade game earns a trophy on top."
     },
     {
-      "q": "Is there an in-game racing game?",
-      "a": "Not confirmed. The real racing circuit through the High Rollerz is the racing content in GTA VI. An in-world racing game within the games activity is speculative.",
-      "aPlain": "Not confirmed. The real racing circuit through the High Rollerz is the racing content in GTA VI. An in-world racing game within the games activity is speculative."
+      "q": "Is there darts in GTA 6?",
+      "a": "No dartboard game turns up in any bar. The bar game is pool, against seven regulars who play you for a small stake.",
+      "aPlain": "No dartboard game turns up in any bar. The bar game is pool, against seven regulars who play you for a small stake."
     }
   ],
   "sidebarDatabase": [
@@ -103,10 +118,12 @@
   ]
 }
 ---
-Games in [Vice City](/gameplay/locations/vice-city) are the activities available inside the venues. The pool table at the back of the bar. The dart board next to the bathrooms. The arcade cabinet that has been there since before the current owner took over and has not been moved because it would require disconnecting the power. **Vice City populates its interiors with these activities.**
+Not everything in Leonida needs a getaway car. **Four video games run in the state.** Tenebrae Lux, Street Trash III and Time Jackers Rewind load on the JoySystem console at home: walk up to the TV and pick up the controller. Bang For Your Buck lives on arcade cabinets parked outside stores around Leonida.
 
-The game types in Leonida include pool, darts, and arcade cabinets. Each venue has a subset of available games that matches its character.
+Starting each game once counts toward 100%. Clearing every level of any one of them is a trophy of its own, and that takes longer than it sounds.
 
-Pool mechanics use a cue control system managing power, angle, and spin. Darts use a timing and precision system. Arcade games use dedicated control schemes that vary by game type. **All can be played against NPCs or other players in multiplayer.**
+**Pool is the other table game.** Seven regulars sit in bars across the state and play for money: a few dollars up front, double back if you win. Beat five of them for 100%. One of them drinks at [Delights](/gameplay/locations/delights-port-gellhorn) in Port Gellhorn. More on the cue game in [snooker](/gameplay/activities/snooker), and on the money in [gambling](/gameplay/activities/gambling).
 
-The social dimension of bar games matters. A game of pool with a specific character is how conversations happen in venues where standing around talking looks conspicuous. The game provides cover for the interaction. [Vice City](/gameplay/locations/vice-city) has always used this device.
+No dartboard game turns up anywhere. The bars pour drinks and rack balls, and that is the whole menu.
+
+Source: GTA VI, in-game.

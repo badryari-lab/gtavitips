@@ -9,17 +9,17 @@
     "title": "Lori Heder | GTA 6 Character Profile | GTAVITIPS",
     "description": "Lori Heder in GTA 6: Brian's third wife, the sangria and the rifle at the Keys boat yard, and her part in the story behind a click.",
     "ogDescription": "Lori Heder in GTA 6: Brian's third wife, the sangria and the rifle at the Keys boat yard, and her part in the story behind a click.",
-    "ogImage": "https://gtavitips.com/assets/images/lori-gta-6-character-01.webp",
+    "ogImage": "https://gtavitips.com/assets/images/lori-heder-gta-6-character-02.jpg",
     "jsonLdName": "Lori Heder",
     "jsonLdDescription": "Lori Heder in GTA 6: Brian's third wife, the sangria and the rifle at the Keys boat yard, and her part in the story behind a click.",
-    "dateModified": "2026-11-20"
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "Brian's third wife. **She pours the sangria and she keeps a rifle close**, and the boat yard runs on both.",
   "heroImage": {
-    "src": "/assets/images/lori-gta-6-character-01.webp",
-    "alt": "Lori Heder in the Leonida Keys, GTA 6",
-    "width": "1000",
-    "height": "1000"
+    "src": "/assets/images/lori-heder-gta-6-character-02.jpg",
+    "alt": "Lori Heder with Brian Heder and Jason Duval in the Keys, GTA 6",
+    "width": "1920",
+    "height": "1080"
   },
   "statBlock": [
     {
@@ -44,7 +44,14 @@
     }
   ],
   "statSource": "GTA VI, in-game; Rockstar",
-  "gallery": [],
+  "gallery": [
+    {
+      "src": "/assets/images/lori-gta-6-character-01.webp",
+      "alt": "Lori Heder in the Leonida Keys, GTA 6",
+      "width": "1000",
+      "height": "1000"
+    }
+  ],
   "connections": [
     {
       "url": "/gameplay/characters/brian-heder",

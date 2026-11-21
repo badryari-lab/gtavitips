@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "Phil | GTA 6 Character Profile | GTAVITIPS",
-    "description": "Phil in GTA 6: the man behind Phil's Ammu-Nation, the loudest gun store pitch in Leonida, and what ties him to Phil Cassidy.",
-    "ogDescription": "Phil in GTA 6: the man behind Phil's Ammu-Nation, the loudest gun store pitch in Leonida, and what ties him to Phil Cassidy.",
+    "description": "Phil in GTA 6: the man behind Phil's Ammu-Nation and the loudest gun store pitch in Leonida. Is he the old Vice City gunrunner? Two arms say no.",
+    "ogDescription": "Phil in GTA 6: the man behind Phil's Ammu-Nation and the loudest gun store pitch in Leonida. Is he the old Vice City gunrunner? Two arms say no.",
     "ogImage": "https://gtavitips.com/assets/images/phil-cassidy-gta-6-character-01.jpg",
     "jsonLdName": "Phil",
-    "jsonLdDescription": "Phil in GTA 6: the man behind Phil's Ammu-Nation, the loudest gun store pitch in Leonida, and what ties him to Phil Cassidy.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Phil in GTA 6: the man behind Phil's Ammu-Nation and the loudest gun store pitch in Leonida. Is he the old Vice City gunrunner? Two arms say no.",
+    "dateModified": "2026-11-21"
   },
   "heroSubtitle": "**More guns than the law allows.** Phil puts his name over the door of his [Ammu-Nation](/gameplay/brands/ammu-nation) and his face in his own commercials.",
   "heroImage": {
