@@ -186,6 +186,16 @@
 # --- Moved (Nov 21 2026): High Rollerz is a magazine, not a faction ---
 /gameplay/gangs-and-factions/high-rollerz         /gameplay/brands/high-rollerz                       301
 
+# --- GSC 404 cleanup (Nov 21 2026) ---
+/brute-security                                   /gameplay/gangs-and-factions/brute-security         301
+/gameplay/brands/pi%C3%9Fwasser                   /gameplay/brands/pisswasser                         301
+/gameplay/brands/pißwasser                        /gameplay/brands/pisswasser                         301
+/sitemap2.xml                                     /sitemap.xml                                        301
+/faq/will-gta-plus-be-required-for-online         /faq/is-gta-online-in-gta-6                         301
+/faq/will-gta-6-have-modding-support              /faq/is-gta-6-coming-to-pc                          301
+/faq/will-gta-6-support-rp-servers                /faq/is-gta-6-coming-to-pc                          301
+/faq/will-gta-6-support-roleplay-servers          /faq/is-gta-6-coming-to-pc                          301
+
 # --- Dynamic (splat) rules: keep at the very bottom. Cloudflare counts every rule after the first dynamic one as dynamic (limit 100). ---
 /gameplay/character/*                     /gameplay/characters/:splat               301
 /gameplay/vehicle/*                       /gameplay/vehicles/:splat                 301
