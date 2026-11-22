@@ -12,6 +12,7 @@
 const fs = require('fs'), path = require('path');
 const { clean } = require("./sources.js"); // never credit competitor guide sites
 const ROOT = process.cwd(), DRY = process.argv.includes('--dry');
+const TODAY = new Date().toISOString().slice(0, 10); // sitemap lastmod (was hardcoded 2026-11-20)
 const specs = require(path.resolve(process.argv[2]));
 const SHELL = 'hub/faq/when-does-gta-6-release/index.html';
 const rd = p => fs.readFileSync(path.join(ROOT, p), 'utf8').replace(/\r\n/g, '\n');
@@ -41,10 +42,35 @@ const SPOILER_CSS = `
     .spoiler__body p { margin-bottom: 0; }
     .spoiler__body p + p { margin-top: 10px; }
     .spoiler__body strong { color: var(--t1); font-weight: 600; }`;
+// Tables (Nov 22 2026, safe codes page): an answer entry {table:{title, head:[...], rows:[[...]]}} renders an H2 plus a
+// scrollable table; cells are HTML. Tables stay out of the JSON-LD (the plain answer paragraphs carry the summary).
+const TABLE_CSS = `
+    .answer-card__answer .code-h2 { font-family: 'Anton', sans-serif; font-weight: 400; font-size: 20px; text-transform: uppercase; letter-spacing: 0; color: var(--t1); line-height: 1.2; margin: 26px 0 10px; }
+    .code-table-wrap { overflow-x: auto; margin-bottom: 14px; border: 1px solid var(--border); border-radius: 8px 2px 8px 2px; }
+    .code-table { width: 100%; border-collapse: collapse; font-size: 13px; color: var(--t2); line-height: 1.6; }
+    .code-table th { text-align: left; font-family: 'Courier Prime', monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--t3); background: var(--bg-2); padding: 10px 14px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+    .code-table td { padding: 10px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    .code-table tr:last-child td { border-bottom: none; }
+    .code-table td:first-child { color: var(--t1); font-weight: 600; }
+    .code-table code { font-family: 'Courier Prime', monospace; font-size: 15px; font-weight: 700; color: var(--blue); letter-spacing: .08em; white-space: nowrap; }
+    .code-table a { color: var(--blue); }
+    @media (max-width: 480px) { .code-table th, .code-table td { padding: 9px 10px; } }`;
+const renderTable = (t, ind) => `${t.title ? `<h2 class="code-h2">${t.title}</h2>\n${ind}` : ''}<div class="code-table-wrap"><table class="code-table">
+${ind}  <thead><tr>${t.head.map(h => `<th scope="col">${h}</th>`).join('')}</tr></thead>
+${ind}  <tbody>
+${t.rows.map(r => `${ind}    <tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('\n')}
+${ind}  </tbody>
+${ind}</table></div>`;
+// Badge colors follow CLAUDE.md "Status badge colors" (Nov 22 2026; before this every badge rendered amber):
+// Rockstar green, Reported blue, Debunked red, everything else (Speculation, Unverified, Analysis) amber.
+// The shell only carries green/amber/red, so the blue rule is added to a page that uses it.
+const badgeColor = b => ({ rockstar: 'green', reported: 'blue', debunked: 'red' })[String(b).toLowerCase()] || 'amber';
+const BLUE_BADGE_CSS = `
+    .detail-block__badge--blue { background: var(--blue-dim); color: var(--blue); border: 1px solid var(--blue-border); }`;
 const spoilerLabel = c => typeof c === 'number' ? `Chapter ${c}` : String(c);
 const renderSpoiler = (sp, ind) => `<details class="spoiler">
 ${ind}  <summary><span class="spoiler__stamp">Spoiler: ${spoilerLabel(sp.chapter)}</span> <span class="spoiler__hint">Tap to reveal</span></summary>
-${ind}  <div class="spoiler__body">${/^\s*<p[ >]/.test(sp.html) ? sp.html : `<p>${sp.html}</p>`}</div>
+${ind}  <div class="spoiler__body">${sp.table ? renderTable(sp.table, ind + '    ') : /^\s*<p[ >]/.test(sp.html) ? sp.html : `<p>${sp.html}</p>`}</div>
 ${ind}</details>`;
 
 for (const s of specs) {
@@ -52,9 +78,12 @@ for (const s of specs) {
   if (s.desc.length > 160) problems.push(`${s.slug}: description ${s.desc.length} chars`);
   if (title.length > 70) problems.push(`${s.slug}: title ${title.length} chars`);
   const allText = JSON.stringify(s);
-  const spoilers = [...s.answer.filter(p => typeof p !== 'string').map(p => p.spoiler), ...s.related.filter(r => r.spoiler).map(r => r.spoiler)];
-  for (const sp of spoilers) if (!sp || sp.chapter === undefined || sp.chapter === '' || !sp.html) problems.push(`${s.slug}: spoiler needs chapter and html`);
-  const hasSpoiler = spoilers.length > 0, plain = s.answer.filter(p => typeof p === 'string');
+  const ansSpoilers = s.answer.filter(p => p && p.spoiler).map(p => p.spoiler);
+  const spoilers = [...ansSpoilers, ...s.related.filter(r => r.spoiler).map(r => r.spoiler)];
+  for (const sp of spoilers) if (!sp || sp.chapter === undefined || sp.chapter === '' || !(sp.html || sp.table)) problems.push(`${s.slug}: spoiler needs chapter and html or table`);
+  for (const p of s.answer) if (typeof p !== 'string' && !p.spoiler && !p.table) problems.push(`${s.slug}: answer entry must be a string, {spoiler} or {table}`);
+  // A light-spoiler page (mission names, no reveal) passes note:'...' to get the top notice without a reveal block.
+  const hasSpoiler = spoilers.length > 0 || !!s.note, hasTable = s.answer.some(p => p && (p.table || (p.spoiler && p.spoiler.table))), plain = s.answer.filter(p => typeof p === 'string');
   const ldText = (txt, sp) => sp ? [txt, SPOILER_LD].filter(Boolean).join(' ') : txt;
   if (/\u2014/.test(allText)) problems.push(`${s.slug}: em dash`);
   for (const m of s.more) if (!titles[m]) problems.push(`${s.slug}: more-link missing ${m}`);
@@ -62,9 +91,11 @@ for (const s of specs) {
   for (const [href] of s.intel) if (!fs.existsSync(path.join(ROOT, 'hub' + href, 'index.html'))) problems.push(`${s.slug}: intel missing ${href}`);
   for (const m of allText.matchAll(/href=\\"(\/[^"\\#]+)/g)) if (!fs.existsSync(path.join(ROOT, 'hub' + m[1], 'index.html')) && !specs.some(x => '/faq/' + x.slug === m[1])) problems.push(`${s.slug}: dead link ${m[1]}`);
   const ogImg = 'https://gtavitips.com' + (news.find(a => a.url === s.intel[0][0]) || { image: '/assets/images/vice-city-gta-6-location-04.jpg' }).image;
-  const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: s.q, acceptedAnswer: { '@type': 'Answer', text: ldText(strip(plain.join(' ')), plain.length < s.answer.length) } }, ...s.related.map(r => ({ '@type': 'Question', name: r.q, acceptedAnswer: { '@type': 'Answer', text: ldText(strip(r.html || ''), !!r.spoiler) } }))] };
+  const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: s.q, acceptedAnswer: { '@type': 'Answer', text: ldText(strip(plain.join(' ')), ansSpoilers.length > 0) } }, ...s.related.map(r => ({ '@type': 'Question', name: r.q, acceptedAnswer: { '@type': 'Answer', text: ldText(strip(r.html || ''), !!r.spoiler) } }))] };
   if (hasSpoiler && !/\n  <\/style>/.test(head0)) problems.push(`${s.slug}: shell has no head </style> for the spoiler CSS`);
-  const head = (hasSpoiler ? head0.replace(/\n  <\/style>/, () => SPOILER_CSS + '\n  </style>') : head0)
+  const hasBlue = s.related.some(r => r.badge && badgeColor(r.badge) === 'blue');
+  const extraCss = (hasSpoiler ? SPOILER_CSS : '') + (hasTable ? TABLE_CSS : '') + (hasBlue ? BLUE_BADGE_CSS : '');
+  const head = (extraCss ? head0.replace(/\n  <\/style>/, () => extraCss + '\n  </style>') : head0)
     .replace(/<title>[^<]*<\/title>/, () => `<title>${title}</title>`)
     .replace(/<meta name="description" content="[^"]*">/, () => `<meta name="description" content="${escAttr(s.desc)}">`)
     .replace(/<meta property="og:title" content="[^"]*">/, () => `<meta property="og:title" content="${title}">`)
@@ -76,7 +107,7 @@ for (const s of specs) {
     .replace(/<span class="breadcrumb__current">[^<]*<\/span>/, () => `<span class="breadcrumb__current">${s.q}</span>`);
   const rel = s.related.map(r => `          <div class="detail-block reveal">
             <div class="detail-block__head">
-              <span class="detail-block__q">${r.q}</span>${r.badge ? `\n              <span class="detail-block__badge detail-block__badge--amber">${r.badge}</span>` : ''}
+              <span class="detail-block__q">${r.q}</span>${r.badge ? `\n              <span class="detail-block__badge detail-block__badge--${badgeColor(r.badge)}">${r.badge}</span>` : ''}
             </div>
             <div class="detail-block__body">
               ${r.html || ''}${r.spoiler ? '\n              ' + renderSpoiler(r.spoiler, '              ') : ''}
@@ -94,14 +125,14 @@ for (const s of specs) {
     <div class="wrap">
       <div class="layout">
         <div>
-${hasSpoiler ? `\n          <p class="spoiler-note reveal">${SPOILER_NOTE}</p>\n` : ''}
+${hasSpoiler ? `\n          <p class="spoiler-note reveal">${s.note || SPOILER_NOTE}</p>\n` : ''}
           <div class="answer-card reveal">
             <div class="answer-card__head">
               <span class="answer-card__source">Source: ${clean(s.source)}</span>
             </div>
             <div class="answer-card__body">
               <h1 class="answer-card__h1">${s.h1}</h1>
-              <div class="answer-card__answer">${s.answer.map(p => typeof p === 'string' ? `<p>${p}</p>` : renderSpoiler(p.spoiler, '                ')).join('\n                ')}</div>
+              <div class="answer-card__answer">${s.answer.map(p => typeof p === 'string' ? `<p>${p}</p>` : p.table ? renderTable(p.table, '                ') : renderSpoiler(p.spoiler, '                ')).join('\n                ')}</div>
             </div>
           </div>
 
@@ -182,9 +213,9 @@ let sm = rd('hub/sitemap.xml');
 for (const s of specs) {
   const loc = `<loc>https://gtavitips.com/faq/${s.slug}</loc>`;
   const i = sm.indexOf(loc);
-  if (i >= 0) { const j = sm.indexOf('<lastmod>', i); const k = sm.indexOf('</lastmod>', j); sm = sm.slice(0, j) + '<lastmod>2026-11-20' + sm.slice(k); }
-  else sm = sm.replace('</urlset>', () => `  <url>\n    ${loc}\n    <lastmod>2026-11-20</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n  </url>\n</urlset>`);
+  if (i >= 0) { const j = sm.indexOf('<lastmod>', i); const k = sm.indexOf('</lastmod>', j); sm = sm.slice(0, j) + '<lastmod>' + TODAY + sm.slice(k); }
+  else sm = sm.replace('</urlset>', () => `  <url>\n    ${loc}\n    <lastmod>${TODAY}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n  </url>\n</urlset>`);
 }
-{ const loc = '<loc>https://gtavitips.com/faq</loc>'; const i = sm.indexOf(loc); if (i >= 0) { const j = sm.indexOf('<lastmod>', i); const k = sm.indexOf('</lastmod>', j); sm = sm.slice(0, j) + '<lastmod>2026-11-20' + sm.slice(k); } }
+{ const loc = '<loc>https://gtavitips.com/faq</loc>'; const i = sm.indexOf(loc); if (i >= 0) { const j = sm.indexOf('<lastmod>', i); const k = sm.indexOf('</lastmod>', j); sm = sm.slice(0, j) + '<lastmod>' + TODAY + sm.slice(k); } }
 wr('hub/sitemap.xml', sm);
 console.log(DRY ? 'dry ok' : 'written', specs.length, 'faq pages; index items', vis.length);

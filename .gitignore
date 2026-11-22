@@ -10,3 +10,6 @@ build/output/
 
 # Spoiler list of missing characters: never commit (names can be heavy spoilers)
 build/data/characters/_missing-characters-SPOILERS.md
+
+# Research work files: competitor sources named, never commit (Nov 22 2026)
+research_notes/
