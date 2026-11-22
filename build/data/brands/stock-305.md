@@ -5,12 +5,12 @@
     "305"
   ],
   "seo": {
-    "title": "Stock 305 | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "Stock 305 in GTA 6. Ultimate Edition exclusive clothing store, part of the Vice City exclusive-shop lineup.",
-    "ogDescription": "Stock 305 in GTA 6. Ultimate Edition exclusive clothing store, part of the Vice City exclusive-shop lineup.",
+    "title": "Stock 305 Location | GTA 6 Clothing Store | GTAVITIPS",
+    "description": "Where is Stock 305 in GTA 6? The Stockyard streetwear store with exclusive looks for Jason and Lucia, open from Chapter 1.",
+    "ogDescription": "Where is Stock 305 in GTA 6? The Stockyard streetwear store with exclusive looks for Jason and Lucia, open from Chapter 1.",
     "jsonLdHeadline": "Stock 305 - GTA 6 Brand Profile",
-    "jsonLdDescription": "Stock 305 in GTA 6. Ultimate Edition exclusive clothing store, part of the Vice City exclusive-shop lineup.",
-    "dateModified": "2026-11-21",
+    "jsonLdDescription": "Where is Stock 305 in GTA 6? The Stockyard streetwear store with exclusive looks for Jason and Lucia, open from Chapter 1.",
+    "dateModified": "2026-11-22",
     "ogImage": "https://gtavitips.com/assets/images/stock-305-gta-6-brand-01.jpg"
   },
   "heroBadge": "Clothing Store",
@@ -20,12 +20,22 @@
     {
       "key": "Type",
       "value": "Clothing Store",
-      "sub": "Standard apparel retail, confirmed as part of the Ultimate Edition's exclusive-shop lineup."
+      "sub": "Elevated streetwear and accessories."
+    },
+    {
+      "key": "Location",
+      "value": "Stockyard, [Vice City](/gameplay/locations/vice-city)",
+      "sub": "On the map under Style > Casual & Street."
+    },
+    {
+      "key": "Opens",
+      "value": "Chapter 1",
+      "sub": "Exclusive looks for Jason and Lucia."
     },
     {
       "key": "Availability",
-      "value": "Ultimate Edition Exclusive",
-      "sub": "Standard Edition players cannot access Stock 305. No upgrade path confirmed."
+      "value": "Ultimate Edition",
+      "sub": "Only open for business with the Ultimate Edition."
     }
   ],
   "profileSection": {
@@ -77,8 +87,8 @@
   }
 }
 ---
-Stock 305 is a clothing store, confirmed and not elaborated on past that. The name borrows Miami's real area code, the same kind of local-pride branding that shows up on actual South Florida apparel racks.
+Stock 305 is Stockyard's streetwear store, named for the area code. **Exclusive looks for Jason and Lucia that no other rack in Leonida carries.**
 
-**Access is locked to Ultimate Edition owners.** Rockstar hasn't detailed what's on the shelves, whether it's a single label or a storefront carrying several, or where in Leonida it sits.
+It opens in Chapter 1. Find it on the map under Style, then Casual & Street. What you buy goes to the wardrobe at home, and a spare outfit in the car trunk is a quick change when the police know what you are wearing.
 
-It shares the Ultimate Edition's exclusive-shop tier with [Electric Fang Tattoo](/gameplay/brands/electric-fang-tattoo) and [Sara's Unisex Salon](/gameplay/brands/saras-unisex-salon).
+Stock 305 is only open for business with the Ultimate Edition.

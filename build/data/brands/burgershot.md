@@ -4,45 +4,31 @@
     "Burger Shot"
   ],
   "seo": {
-    "title": "Burger Shot | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "Burger Shot in GTA 6. Leonida's most saturated fast food chain. The mascot is everywhere.",
-    "ogDescription": "Burger Shot in GTA 6. Leonida's most saturated fast food chain. The mascot is everywhere.",
+    "title": "Burger Shot Location | GTA 6 Brand | GTAVITIPS",
+    "description": "Where is Burger Shot in GTA 6? One restaurant in Leonida, in Ocean Beach. What the food does and how to find fast food on the map.",
+    "ogDescription": "Where is Burger Shot in GTA 6? One restaurant in Leonida, in Ocean Beach. What the food does and how to find fast food on the map.",
     "jsonLdHeadline": "Burger Shot - GTA 6 Brand Profile",
-    "jsonLdDescription": "Burger Shot in GTA 6. Leonida's most saturated fast food chain. The mascot is everywhere.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Where is Burger Shot in GTA 6? One restaurant in Leonida, in Ocean Beach. What the food does and how to find fast food on the map.",
+    "dateModified": "2026-11-22"
   },
   "heroBadge": "Fast Food Industry",
   "heroSlogan": "Kill Your Hunger!",
   "heroIcon": "<rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path d=\"M4 9h16M9 4v16\"/>",
   "statBlock": [
     {
-      "key": "Mascot Status",
-      "value": "At Large",
-      "sub": "The wide-eyed psychotic clown figure has appeared in three [Vice County](/gameplay/locations/vice-county) police reports this year. None have resulted in charges."
+      "key": "Restaurants",
+      "value": "One",
+      "sub": "[Ocean Beach](/gameplay/locations/ocean-beach), Vice City."
     },
     {
-      "key": "Menu Philosophy",
-      "value": "Volume Over Dignity",
-      "sub": "The Bleeder Burger has been the flagship product since the franchise opened. The recipe has never been formally reviewed."
+      "key": "Menu",
+      "value": "Burgers and fries",
+      "sub": "Food gives a short boost to your stats."
     },
     {
-      "key": "Franchise Density",
-      "value": "Every Other Block",
-      "sub": "The blocks without a Burger Shot are under franchise review. This is not a joke."
-    },
-    {
-      "key": "Real-World Parody",
-      "value": "McDonald's and Burger King",
-      "pills": [
-        {
-          "url": "https://en.wikipedia.org/wiki/McDonald%27s",
-          "label": "McDonald's"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Burger_King",
-          "label": "Burger King"
-        }
-      ]
+      "key": "On the Map",
+      "value": "Food & Drink > Fast Food",
+      "sub": "A blue burger icon once the fog clears."
     }
   ],
   "profileSection": {
@@ -63,7 +49,7 @@
         "url": "/gameplay/brands/tacobomb",
         "avatarInitials": "TB",
         "industry": "Fast Food",
-        "name": "TacoBomb"
+        "name": "Taco Bomb"
       },
       {
         "url": "/gameplay/brands/archez",
@@ -113,8 +99,8 @@
   ]
 }
 ---
-Burger Shot is the default fast food chain in Leonida. Not because it is the best option. Because it is the only option on the block where you currently are, and also the next block, and the block after that. The franchise density in [Vice City](/gameplay/locations/vice-city) is a public health statistic that nobody has formally compiled because nobody wants to compile it.
+Burger Shot is back, and it is rare. **There is exactly one in Leonida, in [Ocean Beach](/gameplay/locations/ocean-beach).** The bigger chains here are Pollo Diablo and [Taco Bomb](/gameplay/brands/tacobomb).
 
-The Bleeder is the product. Two patties, processed cheese, a bun that has been engineered to survive submersion. It looks like it lost a fight. It has been on the menu for decades and sales have never required the recipe to change. **The mascot is decorative and terrifying in equal measure.**
+Food is not just set dressing. A meal gives Jason or Lucia a short boost to their stats, so a stop before a long job is not wasted time.
 
-The parking lot at two in the morning is a Vice City institution. Three demographics converge: people leaving clubs, people who ran out of other options, and people who have reached a specific point in a long evening and need something hot. Burger Shot addresses all three without judgment or comment.
+Fast food places fill in on the map as you clear the fog, marked with a blue burger. Open Food & Drink, then Fast Food, to list the ones you have found.

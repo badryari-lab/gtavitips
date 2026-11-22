@@ -5,12 +5,12 @@
     "Salon"
   ],
   "seo": {
-    "title": "Sara's Unisex Salon | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "Sara's Unisex Salon in GTA 6. Ultimate Edition exclusive hair salon with 50+ signature styles. Character customization across all of Leonida's aesthetics.",
-    "ogDescription": "Sara's Unisex Salon in GTA 6. Ultimate Edition exclusive hair salon with 50+ signature styles. Character customization across all of Leonida's aesthetics.",
+    "title": "Sara's Unisex Salon Location | GTA 6 Brand | GTAVITIPS",
+    "description": "Where is Sara's Unisex Salon in GTA 6? Cicada Avenue in Hamlet, open from Chapter 1, with signature looks for Jason and Lucia from Chapter 2.",
+    "ogDescription": "Where is Sara's Unisex Salon in GTA 6? Cicada Avenue in Hamlet, open from Chapter 1, with signature looks for Jason and Lucia from Chapter 2.",
     "jsonLdHeadline": "Sara's Unisex Salon - GTA 6 Brand Profile",
-    "jsonLdDescription": "Sara's Unisex Salon in GTA 6. Ultimate Edition exclusive hair salon with 50+ signature styles. Character customization across all of Leonida's aesthetics.",
-    "dateModified": "2026-02-01",
+    "jsonLdDescription": "Where is Sara's Unisex Salon in GTA 6? Cicada Avenue in Hamlet, open from Chapter 1, with signature looks for Jason and Lucia from Chapter 2.",
+    "dateModified": "2026-11-22",
     "ogImage": "https://gtavitips.com/assets/images/saras-unisex-salon-gta-6-brand-01.jpg"
   },
   "heroBadge": "Hairstyle / Character Customization",
@@ -24,13 +24,23 @@
   "statBlock": [
     {
       "key": "Type",
-      "value": "Hairstyle / Character Customization",
-      "sub": "Hair styling for Jason and Lucia. Fifty-plus signature options across the full range of Leonida's looks."
+      "value": "Hair and Beauty Salon",
+      "sub": "Facial hair for Jason, makeup and nails for Lucia."
+    },
+    {
+      "key": "Location",
+      "value": "Cicada Avenue, [Hamlet](/gameplay/locations/hamlet)",
+      "sub": "On the map under Style > Hair & Beauty."
+    },
+    {
+      "key": "Opens",
+      "value": "Chapter 1",
+      "sub": "Signature looks unlock in Chapter 2."
     },
     {
       "key": "Availability",
-      "value": "Ultimate Edition Exclusive, 50+ Styles",
-      "sub": "Standard Edition players cannot access Sara's. No upgrade path confirmed."
+      "value": "Ultimate Edition",
+      "sub": "Only open for business with the Ultimate Edition."
     }
   ],
   "profileSection": {
@@ -84,8 +94,8 @@
   ]
 }
 ---
-Fifty-plus signature styles. Sara's covers the full aesthetic range of Leonida, Vice City beach, Grassrivers inland, the clubs on Ocean Beach, the parts of the state where looking a certain way is operational. The salon runs character customization for hair for both [Jason](/gameplay/characters/jason-duval) and [Lucia](/gameplay/characters/lucia-caminos).
+Sara's sits on Cicada Avenue in [Hamlet](/gameplay/locations/hamlet). **Facial hair for Jason, makeup and nails for Lucia, and signature looks for both that no other chair in Leonida offers.**
 
-**Access is locked to Ultimate Edition owners.** Whether Sara's operates as a physical location in Leonida or as a menu accessed through a character customization system hasn't been confirmed. What's confirmed is the style count and who gets access to it.
+The salon opens in Chapter 1, but the signature styles wait for Chapter 2. Find it on the map under Style, then Hair & Beauty.
 
-Leonida has enough different environments that the same haircut doesn't read the same way everywhere. Sara's accounts for that range.
+Sara's is only open for business with the Ultimate Edition. In Chapter 4 the [Vice City Style](/gameplay/brands/vice-city-style) set adds more hair and beard styles here.

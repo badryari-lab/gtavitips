@@ -4,41 +4,31 @@
     "SubUrban"
   ],
   "seo": {
-    "title": "SubUrban | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "SubUrban in GTA 6. The streetwear brand of Leonida. Between the mall and the corner.",
-    "ogDescription": "SubUrban in GTA 6. The streetwear brand of Leonida. Between the mall and the corner.",
+    "title": "SubUrban Location | GTA 6 Clothing Store | GTAVITIPS",
+    "description": "SubUrban in GTA 6: the casual and street clothing store in Vice-Dale County, how clothing stores work and where your outfits go.",
+    "ogDescription": "SubUrban in GTA 6: the casual and street clothing store in Vice-Dale County, how clothing stores work and where your outfits go.",
     "jsonLdHeadline": "SubUrban - GTA 6 Brand Profile",
-    "jsonLdDescription": "SubUrban in GTA 6. The streetwear brand of Leonida. Between the mall and the corner.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "SubUrban in GTA 6: the casual and street clothing store in Vice-Dale County, how clothing stores work and where your outfits go.",
+    "dateModified": "2026-11-22"
   },
   "heroBadge": "Streetwear Industry",
   "heroSlogan": "Between the Mall and the Corner",
   "heroIcon": "<rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path d=\"M4 9h16M9 4v16\"/>",
   "statBlock": [
     {
-      "key": "Aesthetic Position",
-      "value": "Mid-Range Street",
-      "sub": "Not high fashion. Not workwear. The territory between both that the majority of [Vice City](/gameplay/locations/vice-city) under-forty occupies daily."
+      "key": "Type",
+      "value": "Casual & Street store",
+      "sub": "Streetwear. Map: Style > Casual & Street."
     },
     {
-      "key": "Product Range",
-      "value": "Casual and Activewear",
-      "sub": "Hoodies, shorts, trainers, caps. The wardrobe for the person who is not going anywhere formal today or most days."
+      "key": "Location",
+      "value": "Vice-Dale County",
+      "sub": "One store, no chain."
     },
     {
-      "key": "Store Format",
-      "value": "Mall and Strip",
-      "sub": "In the mall, on the strip, and online. The physical stores are the advertising. The inventory sells itself."
-    },
-    {
-      "key": "Real-World Parody",
-      "value": "Urban Outfitters",
-      "pills": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Urban_Outfitters",
-          "label": "Urban Outfitters"
-        }
-      ]
+      "key": "Changing Room",
+      "value": "Most stores have one",
+      "sub": "Buy, try, and save up to 15 outfits."
     }
   ],
   "profileSection": {
@@ -109,8 +99,8 @@
   ]
 }
 ---
-SubUrban occupies the streetwear middle ground in Leonida's clothing market. Not expensive enough to be aspirational luxury. Not cheap enough to be invisible. **It is what the majority of [Vice City](/gameplay/locations/vice-city) wears on the majority of days**, which makes it the highest-volume clothing brand in the state by unit count without anyone particularly trying to make that happen.
+SubUrban is one store, not a chain, and it sells streetwear in Vice-Dale County. **Find it on the map under Style, then Casual & Street.**
 
-The hoodie is the flagship product. The SubUrban hoodie appears in more Vice City CCTV footage than any other single garment and the brand has used this fact in at least one advertising campaign without irony.
+Clothing stores fill in on the map as you clear the fog, and hovering over one shows its type and brand. Stores of the same brand carry the same stock, so one visit per brand is enough.
 
-The store design is consistent: exposed brick, track lighting, music at a volume that suggests a social space rather than a retail transaction. The layout makes browsing feel accidental and purchasing feel spontaneous. This is not accidental. **It is the most deliberate thing about the brand.**
+What you buy goes to the wardrobe at home. You can save 15 favourite outfits, and a spare in the car trunk is a fast way to stop matching the description the police have of you.

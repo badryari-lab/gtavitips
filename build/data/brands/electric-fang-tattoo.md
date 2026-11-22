@@ -5,12 +5,12 @@
     "Tattoo"
   ],
   "seo": {
-    "title": "Electric Fang Tattoo | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "Electric Fang Tattoo in GTA 6. Ultimate Edition exclusive tattoo parlor with 50+ designs by Brooklyn street art collective FAILE.",
-    "ogDescription": "Electric Fang Tattoo in GTA 6. Ultimate Edition exclusive tattoo parlor with 50+ designs by Brooklyn street art collective FAILE.",
+    "title": "Electric Fang Tattoo Location | GTA 6 Brand | GTAVITIPS",
+    "description": "Where is Electric Fang Tattoo in GTA 6? The Stockyard parlor with 50+ FAILE tattoos for Jason and Lucia, open from Chapter 1.",
+    "ogDescription": "Where is Electric Fang Tattoo in GTA 6? The Stockyard parlor with 50+ FAILE tattoos for Jason and Lucia, open from Chapter 1.",
     "jsonLdHeadline": "Electric Fang Tattoo - GTA 6 Brand Profile",
-    "jsonLdDescription": "Electric Fang Tattoo in GTA 6. Ultimate Edition exclusive tattoo parlor with 50+ designs by Brooklyn street art collective FAILE.",
-    "dateModified": "2026-11-21",
+    "jsonLdDescription": "Where is Electric Fang Tattoo in GTA 6? The Stockyard parlor with 50+ FAILE tattoos for Jason and Lucia, open from Chapter 1.",
+    "dateModified": "2026-11-22",
     "ogImage": "https://gtavitips.com/assets/images/electric-fang-tattoo-gta-6-brand-01.jpg"
   },
   "heroBadge": "Tattoo Parlor",
@@ -20,12 +20,22 @@
     {
       "key": "Type",
       "value": "Tattoo Parlor",
-      "sub": "Fifty-plus designs for Jason and Lucia, built in partnership with a real-world street art collective."
+      "sub": "Over 50 signature tattoos by the artist collective FAILE."
+    },
+    {
+      "key": "Location",
+      "value": "Stockyard, [Vice City](/gameplay/locations/vice-city)",
+      "sub": "On the map under Style > Tattoos."
+    },
+    {
+      "key": "Opens",
+      "value": "Chapter 1",
+      "sub": "For Jason and Lucia both."
     },
     {
       "key": "Availability",
-      "value": "Ultimate Edition Exclusive",
-      "sub": "Standard Edition players cannot access Electric Fang Tattoo. No upgrade path confirmed."
+      "value": "Ultimate Edition",
+      "sub": "Only open for business with the Ultimate Edition."
     }
   ],
   "profileSection": {
@@ -77,8 +87,8 @@
   }
 }
 ---
-Fifty-plus designs on the wall at Electric Fang, built with FAILE, a Brooklyn street art collective whose work hangs in major museum collections. Not generic flash sheets off a wall rack. Every piece carries that same gallery-grade line work, just inked onto [Jason](/gameplay/characters/jason-duval) or [Lucia](/gameplay/characters/lucia-caminos) instead of a canvas.
+Electric Fang is Stockyard's ink bar. **Over 50 signature tattoos for Jason and Lucia, all drawn by the artist collective FAILE.**
 
-**Access is locked to Ultimate Edition owners.** Whether the shop is one storefront or several across Leonida hasn't been confirmed. What's confirmed is the design count and the name behind them.
+It is open from Chapter 1. On the map, open Style, then Tattoos, and set the waypoint.
 
-Electric Fang sits in the same Ultimate Edition lineup as [Sara's Unisex Salon](/gameplay/brands/saras-unisex-salon) and [Stock 305](/gameplay/brands/stock-305). All three exist to make character customization matter past the pre-order trailer.
+Electric Fang is only open for business with the Ultimate Edition.

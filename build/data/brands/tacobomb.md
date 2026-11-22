@@ -1,44 +1,34 @@
 {
   "slug": "tacobomb",
   "titleParts": [
-    "TacoBomb"
+    "Taco Bomb"
   ],
   "seo": {
-    "title": "TacoBomb | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "TacoBomb in GTA 6. Value-tier fast food on every Vice City block. The late-night drive-thru of choice.",
-    "ogDescription": "TacoBomb in GTA 6. Value-tier fast food on every Vice City block. The late-night drive-thru of choice.",
-    "jsonLdHeadline": "TacoBomb - GTA 6 Brand Profile",
-    "jsonLdDescription": "TacoBomb in GTA 6. Value-tier fast food on every Vice City block. The late-night drive-thru of choice.",
-    "dateModified": "2026-02-01"
+    "title": "Taco Bomb Locations | GTA 6 Brand | GTAVITIPS",
+    "description": "Taco Bomb locations in GTA 6: four restaurants, in Belville, Waning Sands, Gellhorn and West Kalaga. What the food does for you.",
+    "ogDescription": "Taco Bomb locations in GTA 6: four restaurants, in Belville, Waning Sands, Gellhorn and West Kalaga. What the food does for you.",
+    "jsonLdHeadline": "Taco Bomb - GTA 6 Brand Profile",
+    "jsonLdDescription": "Taco Bomb locations in GTA 6: four restaurants, in Belville, Waning Sands, Gellhorn and West Kalaga. What the food does for you.",
+    "dateModified": "2026-11-22"
   },
   "heroBadge": "Fast Food Industry",
   "heroSlogan": "Make a Run for It.",
   "heroIcon": "<rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path d=\"M4 9h16M9 4v16\"/>",
   "statBlock": [
     {
-      "key": "Menu Concept",
-      "value": "Mexican-Adjacent",
-      "sub": "Not a taqueria. A category that does not exist in the wild but functions commercially at the price point where TacoBomb operates."
+      "key": "Restaurants",
+      "value": "Four",
+      "sub": "Belville, [Waning Sands](/gameplay/locations/waning-sands), Gellhorn and West Kalaga."
     },
     {
-      "key": "Price Architecture",
-      "value": "Value Tier",
-      "sub": "The base item costs less than a different chain's coffee. The upgrade to large costs less than a different chain's small. The math favors TacoBomb decisively."
+      "key": "Menu",
+      "value": "Mexican-inspired",
+      "sub": "Food gives a short boost to your stats."
     },
     {
-      "key": "Peak Hours",
-      "value": "After Midnight",
-      "sub": "The majority of daily revenue is generated after midnight. This is not a coincidence. It is a business model."
-    },
-    {
-      "key": "Real-World Parody",
-      "value": "Taco Bell",
-      "pills": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Taco_Bell",
-          "label": "Taco Bell"
-        }
-      ]
+      "key": "On the Map",
+      "value": "Food & Drink > Fast Food",
+      "sub": "A blue burger icon once the fog clears."
     }
   ],
   "profileSection": {
@@ -109,8 +99,8 @@
   ]
 }
 ---
-TacoBomb is not claiming authenticity. The logo is a cartoon bomb wearing a sombrero. The slogan is "Make a Run for It," which is a call to action and a description of the situation ninety minutes after eating there. **The brand has never addressed the dual reading of the slogan.** This is either oversight or the best marketing decision in Leonida fast food history.
+Taco Bomb runs four kitchens across Leonida, none of them in Vice City. **Belville, [Waning Sands](/gameplay/locations/waning-sands), Gellhorn and West Kalaga: the chain follows the highways out of town.**
 
-The value menu is the product. Everything else on the menu is the same ingredients in a different configuration at a higher price point for customers who want to feel like they made a choice. The base item price has not changed in years. That price is the product's most effective advertising.
+Food gives Jason or Lucia a short boost to their stats. A Taco Bomb on the way to a job up north is the cheap version of preparation.
 
-After midnight, TacoBomb is the only fast food option in [Vice City](/gameplay/locations/vice-city) that has both the lights on and a functional kitchen. The drive-thru queue wraps the building. The staff have the routine memorized. The customers have the order memorized. **The transaction takes ninety seconds. That is also the selling point.**
+Fast food places show as a blue burger once you clear the fog. Food & Drink, then Fast Food, lists the ones you have found.

@@ -5,12 +5,12 @@
     "Customs"
   ],
   "seo": {
-    "title": "Rideout Customs | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "Rideout Customs in GTA 6. Ultimate Edition exclusive vehicle modification shop. Take a car that works and turn it into something that does more than that.",
-    "ogDescription": "Rideout Customs in GTA 6. Ultimate Edition exclusive vehicle modification shop. Take a car that works and turn it into something that does more than that.",
+    "title": "Rideout Customs Location | GTA 6 Mod Shop | GTAVITIPS",
+    "description": "Where is Rideout Customs in GTA 6? The Crosstown mod shop for rims, interiors and donk builds, open from Chapter 1 with the Ultimate Edition.",
+    "ogDescription": "Where is Rideout Customs in GTA 6? The Crosstown mod shop for rims, interiors and donk builds, open from Chapter 1 with the Ultimate Edition.",
     "jsonLdHeadline": "Rideout Customs - GTA 6 Brand Profile",
-    "jsonLdDescription": "Rideout Customs in GTA 6. Ultimate Edition exclusive vehicle modification shop. Take a car that works and turn it into something that does more than that.",
-    "dateModified": "2026-02-01",
+    "jsonLdDescription": "Where is Rideout Customs in GTA 6? The Crosstown mod shop for rims, interiors and donk builds, open from Chapter 1 with the Ultimate Edition.",
+    "dateModified": "2026-11-22",
     "ogImage": "https://gtavitips.com/assets/images/rideout-customs-gta-6-brand-01.jpg"
   },
   "heroBadge": "Vehicle Modification Shop",
@@ -24,13 +24,23 @@
   "statBlock": [
     {
       "key": "Type",
-      "value": "Vehicle Modification Shop",
-      "sub": "Standard tuning operation. Engine, body, paint, performance. The works."
+      "value": "Mod Shop",
+      "sub": "Rims, custom interiors and donk stylings."
+    },
+    {
+      "key": "Location",
+      "value": "Crosstown, [Vice City](/gameplay/locations/vice-city)",
+      "sub": "On the map under Vehicles > Mod Shops."
+    },
+    {
+      "key": "Opens",
+      "value": "Chapter 1",
+      "sub": "Bring any plain car."
     },
     {
       "key": "Availability",
-      "value": "Ultimate Edition Exclusive",
-      "sub": "Standard Edition players cannot access Rideout Customs. No upgrade path confirmed."
+      "value": "Ultimate Edition",
+      "sub": "Only open for business with the Ultimate Edition."
     }
   ],
   "profileSection": {
@@ -59,8 +69,8 @@
           "label": "Grotti Cheetah"
         },
         {
-          "url": "/gameplay/brands/one-eyes-willies",
-          "label": "One-Eyes Willies"
+          "url": "/gameplay/brands/one-eyed-willies",
+          "label": "One-Eyed Willie's"
         }
       ]
     },
@@ -84,8 +94,8 @@
   ]
 }
 ---
-You bring the car. Rideout Customs handles the rest. This is a standard modification shop, the kind of place where a vehicle that runs becomes a vehicle that runs better, looks different, and costs more to replace. Engine work, body panels, paint. The fundamentals of turning something functional into something personal.
+Rideout Customs turns plain cars into rolling statements. **Big rims, detailed interiors, full donk stylings: the work is done here, in Crosstown, [Vice City](/gameplay/locations/vice-city).**
 
-**Access is locked to Ultimate Edition owners.** Standard Edition doesn't get the door. Whether Rideout Customs operates as a standalone location or as an upgrade layer on an existing shop system hasn't been confirmed yet. What's confirmed is who gets in and who doesn't.
+The shop opens in Chapter 1. Find it on the map under Vehicles, then Mod Shops, and set the waypoint.
 
-Leonida has no shortage of vehicles worth modifying. The [Vapid Stanier](/gameplay/vehicles/vapid-stanier) is everywhere. The [Grotti Cheetah](/gameplay/vehicles/grotti-cheetah) is for when you've already decided the money isn't the problem. Rideout handles both ends of that spectrum.
+It is only open for business with the Ultimate Edition.

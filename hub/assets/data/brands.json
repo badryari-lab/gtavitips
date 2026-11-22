@@ -24,7 +24,7 @@
           "label": "Fast Food",
           "color": "#ff6b6b",
           "name": "Burger Shot",
-          "desc": "The franchise that outlives everything. Vice City has twelve of them."
+          "desc": "One restaurant in all of Leonida, in Ocean Beach."
         },
         {
           "url": "/gameplay/brands/chachos-lasso-fries",
@@ -66,7 +66,7 @@
           "label": "Diner",
           "color": "#fb923c",
           "name": "Hank's Waffles",
-          "desc": "Roadside diner. Rural Leonida."
+          "desc": "One diner, out in Kelly County."
         },
         {
           "url": "/gameplay/brands/hornys",
@@ -86,8 +86,8 @@
           "url": "/gameplay/brands/tacobomb",
           "label": "Fast Food",
           "color": "#ff6b6b",
-          "name": "TacoBomb",
-          "desc": "Drive-through Tex-Mex. Open at 3am, no questions asked."
+          "name": "Taco Bomb",
+          "desc": "Four kitchens: Belville, Waning Sands, Gellhorn, West Kalaga."
         }
       ]
     },
@@ -171,7 +171,7 @@
           "label": "Tattoo",
           "color": "#fb7185",
           "name": "Electric Fang Tattoo",
-          "desc": "Ultimate Edition exclusive. 50+ designs by street art collective FAILE."
+          "desc": "Ultimate Edition parlor in Stockyard. 50+ FAILE designs."
         },
         {
           "url": "/gameplay/brands/goodtime-gear",
@@ -199,7 +199,7 @@
           "label": "Salon",
           "color": "#e879f9",
           "name": "Sara's Unisex Salon",
-          "desc": "Ultimate Edition hair salon. 50+ signature styles across Leonida's full aesthetic range."
+          "desc": "Ultimate Edition salon on Cicada Avenue, Hamlet."
         },
         {
           "url": "/gameplay/brands/sessanta-nove",
@@ -213,21 +213,21 @@
           "label": "Retail",
           "color": "#60a5fa",
           "name": "Stock 305",
-          "desc": "Ultimate Edition exclusive. Clothing store in the Vice City shop lineup."
+          "desc": "Ultimate Edition streetwear store in Stockyard."
         },
         {
           "url": "/gameplay/brands/suburban",
           "label": "Streetwear",
           "color": "#a78bfa",
           "name": "SubUrban",
-          "desc": "Street-level clothing."
+          "desc": "Casual and street store in Vice-Dale County."
         },
         {
           "url": "/gameplay/brands/vice-city-style",
           "label": "Apparel",
           "color": "#fcd34d",
           "name": "Vice City Style",
-          "desc": "Ultimate Edition exclusive. Vice City outfits."
+          "desc": "Ultimate Edition looks, unlocked in Chapter 4."
         },
         {
           "url": "/gameplay/brands/victim",
@@ -342,11 +342,11 @@
           "desc": "Porsche equivalent. Precision."
         },
         {
-          "url": "/gameplay/brands/one-eyes-willies",
+          "url": "/gameplay/brands/one-eyed-willies",
           "label": "Mod Shop",
           "color": "#3b82f6",
-          "name": "One-Eyes Willies",
-          "desc": "Ultimate Edition off-road mod shop. Suspension lifts, skid plates, built for when roads run out."
+          "name": "One-Eyed Willie's",
+          "desc": "Ultimate Edition off-road mod shop, north of Lake Leonida."
         },
         {
           "url": "/gameplay/brands/pegassi",
@@ -367,7 +367,7 @@
           "label": "Mod Shop",
           "color": "#3b82f6",
           "name": "Rideout Customs",
-          "desc": "Ultimate Edition vehicle mod shop. Take what works and make it do more."
+          "desc": "Ultimate Edition mod shop in Crosstown. Rims, interiors, donks."
         },
         {
           "url": "/gameplay/brands/schyster",
@@ -570,21 +570,21 @@
           "label": "Retail",
           "color": "#60a5fa",
           "name": "Ammu-Nation",
-          "desc": "Firearms retail. Legal purchases, no waiting period."
+          "desc": "26 stores. Standard, Expanded or Hunting stock."
         },
         {
-          "url": "/gameplay/brands/global-oil",
+          "url": "/gameplay/brands/globe-oil",
           "label": "Energy",
           "color": "#a3e635",
-          "name": "Global Oil",
-          "desc": "Corporate energy. Refineries across Leonida."
+          "name": "Globe Oil",
+          "desc": "Four gas stations. Refuel and repair."
         },
         {
           "url": "/gameplay/brands/ron-oil",
           "label": "Energy",
           "color": "#a3e635",
-          "name": "Ron Oil",
-          "desc": "Petrol stations statewide. Every highway exit."
+          "name": "Ron",
+          "desc": "Seven gas stations, all in Vice-Dale County."
         },
         {
           "url": "/gameplay/brands/zekes-gadgets",

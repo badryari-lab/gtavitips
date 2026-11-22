@@ -93,9 +93,9 @@
       "desc": "Same brand, same idea pushed further. Tires first, questions later."
     },
     {
-      "url": "/gameplay/brands/one-eyes-willies",
+      "url": "/gameplay/brands/one-eyed-willies",
       "type": "Brand",
-      "name": "One-Eyes Willies",
+      "name": "One-Eyed Willie's",
       "desc": "The off-road shop for lifts, skid plates and tire packages when the Buggy wants more."
     }
   ],

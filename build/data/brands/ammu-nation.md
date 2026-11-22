@@ -4,41 +4,36 @@
     "Ammu-Nation"
   ],
   "seo": {
-    "title": "Ammu-Nation | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "Ammu-Nation in GTA 6. Leonida's firearm retailer. On every block that permits it.",
-    "ogDescription": "Ammu-Nation in GTA 6. Leonida's firearm retailer. On every block that permits it.",
+    "title": "Ammu-Nation Locations and Stock | GTA 6 Brand | GTAVITIPS",
+    "description": "Ammu-Nation in GTA 6: 26 stores across Leonida, the three stock tiers, the weapon locker, fishing lures and the stores that sell clothes.",
+    "ogDescription": "Ammu-Nation in GTA 6: 26 stores across Leonida, the three stock tiers, the weapon locker, fishing lures and the stores that sell clothes.",
     "jsonLdHeadline": "Ammu-Nation - GTA 6 Brand Profile",
-    "jsonLdDescription": "Ammu-Nation in GTA 6. Leonida's firearm retailer. On every block that permits it.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Ammu-Nation in GTA 6: 26 stores across Leonida, the three stock tiers, the weapon locker, fishing lures and the stores that sell clothes.",
+    "dateModified": "2026-11-22"
   },
   "heroBadge": "Retail Industry",
   "heroSlogan": "Protecting Your Rights, One Sale at a Time.",
   "heroIcon": "<rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path d=\"M4 9h16M9 4v16\"/>",
   "statBlock": [
     {
-      "key": "Product Range",
-      "value": "Firearms and Accessories",
-      "sub": "Handguns, rifles, shotguns, and the modifications, storage solutions, and cleaning equipment that responsible ownership requires."
+      "key": "Stores",
+      "value": "26 across Leonida",
+      "sub": "Phil Cassidy's name is on the billboard."
     },
     {
-      "key": "Location Strategy",
-      "value": "Statewide Saturation",
-      "sub": "Present across Leonida in commercial retail positions. The franchise operates wherever the local zoning permits and is appealing the rest."
+      "key": "Stock",
+      "value": "Standard, Expanded or Hunting",
+      "sub": "Not every store carries every gun. Hunting stores carry the small-game rifles."
     },
     {
-      "key": "Brand Philosophy",
-      "value": "The Second Amendment, Commercially Applied",
-      "sub": "The constitutional right to bear arms is the foundation of the business model. The business model has been extremely successful."
+      "key": "Weapon Locker",
+      "value": "In the stores",
+      "sub": "Edition bonus weapons and replacements for lost guns wait here."
     },
     {
-      "key": "Real-World Parody",
-      "value": "Firearms Retailer",
-      "pills": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Firearm",
-          "label": "Firearm"
-        }
-      ]
+      "key": "Also Sells",
+      "value": "Clothes and fishing lures",
+      "sub": "Check the store on the map: a T-shirt or a fish under Features."
     }
   ],
   "profileSection": {
@@ -115,8 +110,10 @@
   ]
 }
 ---
-Ammu-Nation is on the corner and the lights are on. In Leonida the franchise operates on the premise that a state with [Vice City](/gameplay/locations/vice-city)'s crime rate is also a state with a very large market for personal protection equipment.
+Ammu-Nation is where Leonida buys its guns. **26 stores across the state, Phil Cassidy's name on the billboard, and no questions at the counter.**
 
-The store layout is consistent across locations: the glass counter with the handguns, the wall rack with the long guns, the accessories wall, and the range in the back for the customer who wants to evaluate the purchase before committing to it. **The staff are knowledgeable and do not ask follow-up questions.**
+The stores are not all the same. Each one carries Standard, Expanded or Hunting stock, and not every gun is on every shelf. Hunting stores are the ones with the small-game rifles, like the Wortham W-22.
 
-The protagonist's relationship with Ammu-Nation is practical. The store is the point of weapon acquisition, upgrade, and resupply. The brand's in-world advertising treats this transaction as a civic participation. The player treats it as inventory management. Both interpretations are served by the same counter.
+The weapon locker is the other reason to stop by. Edition bonus pistols and revolvers turn up there once their chapter comes around, and so does a hunting rifle you lost along the way.
+
+Some branches sell more than ammo. Hover over a store on the map: a T-shirt under Features means a clothing rack, a fish means fishing lures. Chuck's Tackle & Shot in [Key Lento](/gameplay/locations/key-lento), close to Jason's house, is the nearest lure counter at the start. Medium lures run $45 to $56, the large saltwater lure $125.

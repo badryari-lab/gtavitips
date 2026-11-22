@@ -5,12 +5,12 @@
     "Style"
   ],
   "seo": {
-    "title": "Vice City Style | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "Vice City Style in GTA 6. Ultimate Edition exclusive apparel line of Vice City outfits.",
-    "ogDescription": "Vice City Style in GTA 6. Ultimate Edition exclusive apparel line of Vice City outfits.",
+    "title": "Vice City Style: How to Get It | GTA 6 Brand | GTAVITIPS",
+    "description": "How to get Vice City Style in GTA 6: outfits in your wardrobe, tattoos at the parlors and hair at Sara's, all unlocking in Chapter 4.",
+    "ogDescription": "How to get Vice City Style in GTA 6: outfits in your wardrobe, tattoos at the parlors and hair at Sara's, all unlocking in Chapter 4.",
     "jsonLdHeadline": "Vice City Style - GTA 6 Brand Profile",
-    "jsonLdDescription": "Vice City Style in GTA 6. Ultimate Edition exclusive apparel line of Vice City outfits.",
-    "dateModified": "2026-11-21",
+    "jsonLdDescription": "How to get Vice City Style in GTA 6: outfits in your wardrobe, tattoos at the parlors and hair at Sara's, all unlocking in Chapter 4.",
+    "dateModified": "2026-11-22",
     "ogImage": "https://gtavitips.com/assets/images/vice-city-style-gta-6-ultimate-edition-01.jpg"
   },
   "heroBadge": "Apparel Line",
@@ -19,13 +19,23 @@
   "statBlock": [
     {
       "key": "Type",
-      "value": "Apparel Line",
-      "sub": "Outfits confirmed as part of the Ultimate Edition, bundled alongside Goodtime Gear."
+      "value": "Outfits, Tattoos and Hair",
+      "sub": "A full look set for Jason and Lucia."
+    },
+    {
+      "key": "Unlocks",
+      "value": "Chapter 4",
+      "sub": "No shop to visit for the clothes."
+    },
+    {
+      "key": "Where",
+      "value": "Wardrobe, tattoo parlors, Sara's",
+      "sub": "Outfits at home, tattoos at most parlors, hair and beards at Sara's Unisex Salon."
     },
     {
       "key": "Availability",
-      "value": "Ultimate Edition Exclusive",
-      "sub": "Standard Edition players cannot access Vice City Style. No upgrade path confirmed."
+      "value": "Ultimate Edition",
+      "sub": "Part of the Ultimate Edition bonuses."
     }
   ],
   "profileSection": {
@@ -73,8 +83,8 @@
   }
 }
 ---
-Vice City Style is outfits, confirmed by name and nothing else yet. Where [Goodtime Gear](/gameplay/brands/goodtime-gear) leans into one mascot's whole look, this one is built around the city itself, the kind of line a Vice City boutique would carry if Vice City boutiques existed off the trailer.
+Vice City Style is the late-game look. **It unlocks in Chapter 4, and nothing about it needs a shopping trip.**
 
-**Access is locked to Ultimate Edition owners.** Piece count, the actual look, and whether it ties to a specific neighborhood or storefront haven't been confirmed.
+The outfits go straight into the wardrobe at your residence. The tattoos turn up at most tattoo parlors, and the new hair and beard styles at [Sara's Unisex Salon](/gameplay/brands/saras-unisex-salon) in Hamlet.
 
-[Goodtime Gear](/gameplay/brands/goodtime-gear) rounds out the rest of the Ultimate Edition's apparel offering.
+It comes with the Ultimate Edition, like [Stock 305](/gameplay/brands/stock-305) and [Electric Fang](/gameplay/brands/electric-fang-tattoo), but you have to get deep into the story before it opens.

@@ -38,7 +38,7 @@
 # Oude platte structuur (entries op root-niveau)
 /adios-airlines                           /gameplay/brands/adios-airlines           301
 /debonaire-cigarettes                     /gameplay/brands/debonaire-cigarettes     301
-/global-oil                               /gameplay/brands/global-oil               301
+/global-oil                               /gameplay/brands/globe-oil               301
 /ron-oil                                  /gameplay/brands/ron-oil                  301
 /monument-of-leonida                      /gameplay/locations/monument-of-leonida   301
 /vice-beach-police                        /gameplay/gangs-and-factions/vice-beach-police 301
@@ -215,6 +215,10 @@
 # --- Post-launch renames (Nov 22 2026): in-game gang names ---
 /gameplay/gangs-and-factions/outlaw-motorcycle-gang /gameplay/gangs-and-factions/final-chapter          301
 /gameplay/gangs-and-factions/leonida-cartel       /gameplay/gangs-and-factions/la-polilla-negra       301
+
+# --- Post-launch renames (Nov 22 2026): in-game brand names ---
+/gameplay/brands/global-oil                       /gameplay/brands/globe-oil                          301
+/gameplay/brands/one-eyes-willies                 /gameplay/brands/one-eyed-willies                   301
 
 # --- Dynamic (splat) rules: keep at the very bottom. Cloudflare counts every rule after the first dynamic one as dynamic (limit 100). ---
 /gameplay/character/*                     /gameplay/characters/:splat               301

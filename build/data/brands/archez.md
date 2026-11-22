@@ -59,7 +59,7 @@
         "url": "/gameplay/brands/tacobomb",
         "avatarInitials": "TB",
         "industry": "Fast Food",
-        "name": "TacoBomb"
+        "name": "Taco Bomb"
       },
       {
         "url": "/gameplay/brands/cluckin-bell",
