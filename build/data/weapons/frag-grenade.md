@@ -5,13 +5,13 @@
     "Grenade"
   ],
   "seo": {
-    "title": "Frag Grenade | GTA 6 Weapon Profile | GTAVITIPS",
-    "description": "The Frag Grenade in GTA 6: clears rooms and disables vehicles in close-quarters fights and pursuits.",
-    "ogDescription": "The Frag Grenade in GTA 6: clears rooms and disables vehicles in close-quarters fights and pursuits.",
+    "title": "Frag Grenade Price and Where to Buy | GTA 6 Weapon | GTAVITIPS",
+    "description": "Frag Grenade in GTA 6: $140 at Ammu-Nation, how the Explosives Pack refills it, and how to stock up from your car trunk.",
+    "ogDescription": "Frag Grenade in GTA 6: $140 at Ammu-Nation, how the Explosives Pack refills it, and how to stock up from your car trunk.",
     "ogImagePlaceholder": "frag-grenade-gta-6-weapon.jpg",
     "jsonLdHeadline": "Frag Grenade - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Frag Grenade in GTA 6: clears rooms and disables vehicles in close-quarters fights and pursuits.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Frag Grenade in GTA 6: $140 at Ammu-Nation, how the Explosives Pack refills it, and how to stock up from your car trunk.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Throw it. Leave. **The fragmentation radius handles everything inside it.** The grenade does not distinguish between targets.",
   "statBlock": [
@@ -30,6 +30,16 @@
     {
       "key": "Construction",
       "value": "Steel Casing, Explosive Fill"
+    },
+    {
+      "key": "Where to Buy",
+      "value": "Ammu-Nation",
+      "sub": "$140 each."
+    },
+    {
+      "key": "Refill",
+      "value": "Explosives Pack",
+      "sub": "$1,500 at Ammu-Nation. Refills grenades and sticky bombs."
     }
   ],
   "gallery": [],
@@ -60,7 +70,7 @@
     },
     {
       "q": "Where can you get Frag Grenades in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
+      "a": "Ammu-Nation sells it for $140. The $1,500 Explosives Pack refills grenades and sticky bombs at once."
     },
     {
       "q": "Does law enforcement in Leonida carry grenades?",
@@ -74,7 +84,7 @@
     },
     {
       "q": "Where can you get Frag Grenades in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
+      "aPlain": "Ammu-Nation sells it for $140. The $1,500 Explosives Pack refills grenades and sticky bombs at once."
     },
     {
       "q": "Does law enforcement in Leonida carry grenades?",
@@ -116,3 +126,5 @@ The frag grenade clears the problem of multiple targets in a confined space. One
 **Vehicles are not immune.** An exterior detonation is sufficient to disable most unarmoured vehicles. An interior detonation through an open window ends the vehicle and everyone in it.
 
 The four-second fuse is the variable. Too short and the throw range is limited. Too long and the target moves or picks it up. **Placed rather than thrown in situations where accuracy matters more than distance.** On a timer, four seconds is long enough if the placement is correct.
+
+Where to buy: Ammu-Nation, $140 a grenade. The $1,500 Explosives Pack refills grenades and sticky bombs in one go, and an owned car's trunk hands out explosives from its Loadout menu.

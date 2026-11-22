@@ -5,13 +5,13 @@
     "Cocktail"
   ],
   "seo": {
-    "title": "Molotov | GTA 6 Weapon Profile | GTAVITIPS",
-    "description": "The Molotov Cocktail in GTA 6: an incendiary device, fire that spreads and holds, used across Vice County street operations.",
-    "ogDescription": "The Molotov Cocktail in GTA 6: an incendiary device, fire that spreads and holds, used across Vice County street operations.",
+    "title": "Molotov | GTA 6 Weapon | GTAVITIPS",
+    "description": "The Molotov in GTA 6: where to buy it at Ammu-Nation, what fire does in a fight, and how it sits next to the other three throwables.",
+    "ogDescription": "The Molotov in GTA 6: where to buy it at Ammu-Nation, what fire does in a fight, and how it sits next to the other three throwables.",
     "ogImagePlaceholder": "molotov-gta-6-weapon.jpg",
     "jsonLdHeadline": "Molotov Cocktail - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Molotov Cocktail in GTA 6: an incendiary device, fire that spreads and holds, used across Vice County street operations.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "The Molotov in GTA 6: where to buy it at Ammu-Nation, what fire does in a fight, and how it sits next to the other three throwables.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Fire spreads. **It does not stop spreading because the situation has changed.** That is the advantage and the problem simultaneously.",
   "statBlock": [
@@ -30,6 +30,11 @@
     {
       "key": "Construction",
       "value": "Glass, Petrol Fill / Cloth Wick"
+    },
+    {
+      "key": "Where to Buy",
+      "value": "Ammu-Nation",
+      "sub": "One of four throwables, with the frag grenade, sticky bomb and flash grenade."
     }
   ],
   "gallery": [],
@@ -60,7 +65,7 @@
     },
     {
       "q": "Where can you get Molotovs in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
+      "a": "Ammu-Nation sells it, alongside the frag grenade, sticky bomb and flash grenade."
     },
     {
       "q": "Is the Molotov confirmed with specific factions or just operative use?",
@@ -74,7 +79,7 @@
     },
     {
       "q": "Where can you get Molotovs in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
+      "aPlain": "Ammu-Nation sells it, alongside the frag grenade, sticky bomb and flash grenade."
     },
     {
       "q": "Is the Molotov confirmed with specific factions or just operative use?",
@@ -111,8 +116,10 @@
   ]
 }
 ---
-The molotov is cheap, it is available anywhere with a petrol station and a glass bottle, and it produces a result that nothing else in the arsenal at its price point can match. **Fire does not stop because someone fired back at it.**
+The molotov is cheap, and it produces a result that nothing else in the arsenal at its price point can match. **Fire does not stop because someone fired back at it.**
 
 The spread after impact is the variable that makes it difficult to control. A correctly thrown molotov clears a street corner or blocks a doorway with a wall of fire. An incorrectly thrown one creates a hazard that affects everyone in the area, including the operator.
 
 **It is the crowd control and area denial option for operators who cannot access or afford grenades.** [Vice County](/gameplay/locations/vice-county) street gangs run it. Rural Leonida operations run it. Anyone who needs to hold a position without ammunition for a sustained firefight runs it.
+
+Where to buy: Ammu-Nation. It is one of four throwables on the shelf, next to the [frag grenade](/gameplay/weapons/frag-grenade), the [sticky bomb](/gameplay/weapons/sticky-bomb) and the [flash grenade](/gameplay/weapons/flash-grenade).

@@ -5,13 +5,13 @@
     "H-AT"
   ],
   "seo": {
-    "title": "Hauners H-AT (Rocket Launcher) | GTA 6 Weapon | GTAVITIPS",
-    "description": "The Hauners H-AT in GTA 6: destroys armoured vehicles and aircraft at maximum escalation.",
-    "ogDescription": "The Hauners H-AT in GTA 6: destroys armoured vehicles and aircraft at maximum escalation.",
+    "title": "Hauners H-AT (Rocket Launcher) Location | GTA 6 Weapon | GTAVITIPS",
+    "description": "Hauners H-AT in GTA 6: where to buy the rocket launcher, and the six Expanded Ammu-Nation stores that stock it and its rockets.",
+    "ogDescription": "Hauners H-AT in GTA 6: where to buy the rocket launcher, and the six Expanded Ammu-Nation stores that stock it and its rockets.",
     "ogImagePlaceholder": "rocket-launcher-gta-6-weapon.jpg",
     "jsonLdHeadline": "Hauners H-AT - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Hauners H-AT in GTA 6: destroys armoured vehicles and aircraft at maximum escalation.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Hauners H-AT in GTA 6: where to buy the rocket launcher, and the six Expanded Ammu-Nation stores that stock it and its rockets.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "There is a point in every escalation where a different category of response is required. **The rocket launcher is that category.**",
   "statBlock": [
@@ -35,6 +35,11 @@
     {
       "key": "Construction",
       "value": "Steel, Tube / Disposable or Reloadable"
+    },
+    {
+      "key": "Where to Buy",
+      "value": "Expanded Ammu-Nation only",
+      "sub": "Six stores: Woodhatch, Big Shots, Phil's Ammu-Nation, Prestige Firearms, Iron & Oak and Black Eagle. Rockets are sold there too."
     }
   ],
   "gallery": [],
@@ -65,7 +70,7 @@
     },
     {
       "q": "Where can you get the Hauners H-AT in Leonida?",
-      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Hauners H-AT from its Expanded stock only, so the smaller branches do not carry it. There are 26 stores across Leonida."
+      "a": "Only at the six Expanded Ammu-Nation stores: Woodhatch, Big Shots, Phil's Ammu-Nation, Prestige Firearms, Iron & Oak and Black Eagle. They sell the rockets too."
     },
     {
       "q": "Is the Hauners H-AT available through standard channels in Leonida?",
@@ -79,7 +84,7 @@
     },
     {
       "q": "Where can you get the Hauners H-AT in Leonida?",
-      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Hauners H-AT from its Expanded stock only, so the smaller branches do not carry it. There are 26 stores across Leonida."
+      "aPlain": "Only at the six Expanded Ammu-Nation stores: Woodhatch, Big Shots, Phil's Ammu-Nation, Prestige Firearms, Iron & Oak and Black Eagle. They sell the rockets too."
     },
     {
       "q": "Is the Hauners H-AT available through standard channels in Leonida?",
@@ -121,3 +126,5 @@ The rocket launcher appears in Leonida when the situation has moved past what ri
 It is not a subtle weapon. The back-blast is significant. The detonation is visible from a distance that covers most of [Vice City](/gameplay/locations/vice-city). Every nearby witness knows something serious has occurred and knows the general direction from which it occurred.
 
 **The operational window for using it is brief.** The moments between the situation requiring it and law enforcement escalating to a response level that makes the carrier the primary target are measured in seconds. In and out. No lingering.
+
+Where to buy: only the six Expanded Ammu-Nation stores carry launchers and their ammo: Woodhatch, Big Shots, Phil's Ammu-Nation, Prestige Firearms, Iron & Oak and Black Eagle. The rest of the chain will not sell you one.

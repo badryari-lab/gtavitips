@@ -5,13 +5,13 @@
     "Bomb"
   ],
   "seo": {
-    "title": "Sticky Bomb | GTA 6 Weapon Profile | GTAVITIPS",
-    "description": "The Sticky Bomb in GTA 6: a remote detonation explosive, used on vehicles and structures across Vice City and Vice County.",
-    "ogDescription": "The Sticky Bomb in GTA 6: a remote detonation explosive, used on vehicles and structures across Vice City and Vice County.",
+    "title": "Sticky Bomb Price and Uses | GTA 6 Weapon | GTAVITIPS",
+    "description": "Sticky Bomb in GTA 6: $185 at Ammu-Nation, how to blow a safe with one when you have no code, and how the Explosives Pack refills it.",
+    "ogDescription": "Sticky Bomb in GTA 6: $185 at Ammu-Nation, how to blow a safe with one when you have no code, and how the Explosives Pack refills it.",
     "ogImagePlaceholder": "sticky-bomb-gta-6-weapon.jpg",
     "jsonLdHeadline": "Sticky Bomb - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Sticky Bomb in GTA 6: a remote detonation explosive, used on vehicles and structures across Vice City and Vice County.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Sticky Bomb in GTA 6: $185 at Ammu-Nation, how to blow a safe with one when you have no code, and how the Explosives Pack refills it.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Place it. Leave. Detonate when the moment is correct. **The sticky bomb is the difference between reacting and planning.**",
   "statBlock": [
@@ -30,6 +30,21 @@
     {
       "key": "Construction",
       "value": "Plastic Explosive, Adhesive Backing / Remote Detonator"
+    },
+    {
+      "key": "Where to Buy",
+      "value": "Ammu-Nation",
+      "sub": "$185 each."
+    },
+    {
+      "key": "Use",
+      "value": "Safes",
+      "sub": "No code for the safe? Plant one, step back, detonate."
+    },
+    {
+      "key": "Refill",
+      "value": "Explosives Pack",
+      "sub": "$1,500 at Ammu-Nation. Refills grenades and sticky bombs."
     }
   ],
   "gallery": [],
@@ -60,7 +75,7 @@
     },
     {
       "q": "Where can you get Sticky Bombs in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
+      "a": "Ammu-Nation sells it for $185. The $1,500 Explosives Pack refills grenades and sticky bombs at once."
     },
     {
       "q": "Are Sticky Bombs usable on all vehicle types in Leonida?",
@@ -74,7 +89,7 @@
     },
     {
       "q": "Where can you get Sticky Bombs in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
+      "aPlain": "Ammu-Nation sells it for $185. The $1,500 Explosives Pack refills grenades and sticky bombs at once."
     },
     {
       "q": "Are Sticky Bombs usable on all vehicle types in Leonida?",
@@ -116,3 +131,5 @@ The sticky bomb removes the timing variable from explosive deployment. The frag 
 Attach it to a vehicle parked in a location. Attach it to a structure wall. Attach it to any surface and walk away. The device waits. The detonation comes when the target is in position, when the pursuit is in range, when the moment is correct rather than the moment the throw lands.
 
 **VCPD has no procedural response to a device that is already in place before they arrive.** The sticky bomb is the pre-emptive option. Place it before the situation develops. Detonate it when the situation arrives.
+
+Where to buy: Ammu-Nation, $185 a charge. **It is also the key to a safe you do not have the code for:** plant it, get clear, detonate. The $1,500 Explosives Pack refills grenades and sticky bombs in one go, and an owned car's trunk hands out explosives from its Loadout menu.

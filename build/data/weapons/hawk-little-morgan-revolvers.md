@@ -5,12 +5,12 @@
     "Morgan"
   ],
   "seo": {
-    "title": "Hawk &amp; Little Morgan Revolvers | GTA 6 Weapon Profile | GTAVITIPS",
-    "description": "The Hawk &amp; Little Morgan Revolvers in GTA 6. Vice City-styled Ultimate Edition exclusive sidearm for Jason Duval and Lucia Caminos.",
-    "ogDescription": "The Hawk &amp; Little Morgan Revolvers in GTA 6. Vice City-styled Ultimate Edition exclusive sidearm for Jason Duval and Lucia Caminos.",
+    "title": "Hawk &amp; Little Morgan: How to Get | GTA 6 Weapon | GTAVITIPS",
+    "description": "How to get the Hawk &amp; Little Morgan Revolvers in GTA 6: Ultimate Edition, from Chapter 2 at any Ammu-Nation, one for Jason and one for Lucia.",
+    "ogDescription": "How to get the Hawk &amp; Little Morgan Revolvers in GTA 6: Ultimate Edition, from Chapter 2 at any Ammu-Nation, one for Jason and one for Lucia.",
     "jsonLdHeadline": "Hawk & Little Morgan Revolvers - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Hawk & Little Morgan Revolvers in GTA 6. Vice City-styled Ultimate Edition exclusive sidearm for Jason Duval and Lucia Caminos.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "How to get the Hawk &amp; Little Morgan Revolvers in GTA 6: Ultimate Edition, from Chapter 2 at any Ammu-Nation, one for Jason and one for Lucia.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Same revolver, dressed for Vice City. **Ultimate Edition exclusive, one per protagonist.** Jason and Lucia both walk away with a Morgan Revolver that looks like nobody else's.",
   "statBlock": [
@@ -29,13 +29,13 @@
     },
     {
       "key": "Availability",
-      "value": "Ultimate Edition Exclusive",
-      "sub": "Not accessible on Standard Edition. No upgrade path confirmed."
+      "value": "Ultimate Edition, Chapter 2",
+      "sub": "Collect them at any Ammu-Nation. You do not need to own the standard Morgan."
     },
     {
-      "key": "First Seen",
-      "value": "GTA 6 Editions Announcement, June 2026",
-      "sub": "Rockstar Games Newswire. Confirmed as part of the pre-order and editions reveal."
+      "key": "Finish",
+      "value": "Vice City styling",
+      "sub": "Sourced from the Vercetti Estate. One for Jason, one for Lucia."
     }
   ],
   "gallery": [
@@ -79,7 +79,7 @@
     },
     {
       "q": "How do you get the Morgan Revolvers?",
-      "a": "They come with the Ultimate Edition, confirmed as part of the GTA 6 editions and pre-order announcement. Standard Edition does not include them."
+      "a": "Own the Ultimate Edition and reach Chapter 2, then go to any Ammu-Nation. Jason and Lucia each have their own."
     },
     {
       "q": "Are the Morgan Revolvers confirmed?",
@@ -93,7 +93,7 @@
     },
     {
       "q": "How do you get the Morgan Revolvers?",
-      "aPlain": "They come with the Ultimate Edition, confirmed as part of the GTA 6 editions and pre-order announcement. Standard Edition does not include them."
+      "aPlain": "Own the Ultimate Edition and reach Chapter 2, then go to any Ammu-Nation. Jason and Lucia each have their own."
     },
     {
       "q": "Are the Morgan Revolvers confirmed?",
@@ -135,3 +135,5 @@ Underneath the finish, this is the Morgan Revolver everyone else carries. Rockst
 Both protagonists get one. Jason and Lucia each walk away with their own Morgan Revolver, styled the same way, plus a personalized variant of their own sidearm on top of it. **Three weapons across two characters**, all locked to Ultimate Edition from day one.
 
 Whether the styling is purely cosmetic or carries some small stat difference hasn't been detailed. Rockstar's announcement covered what you get, not how it performs differently from the standard version, if it does at all.
+
+How to get them: own the Ultimate Edition and reach Chapter 2, then walk into any Ammu-Nation. Jason and Lucia each get their own, and you do not need to have bought the standard Morgan first. Everyone else finds the standard Hawk & Little Morgan on the shelf at Standard and Hunting stores.

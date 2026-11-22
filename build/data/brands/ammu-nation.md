@@ -5,10 +5,10 @@
   ],
   "seo": {
     "title": "Ammu-Nation Locations and Stock | GTA 6 Brand | GTAVITIPS",
-    "description": "Ammu-Nation in GTA 6: 26 stores across Leonida, the three stock tiers, the weapon locker, fishing lures and the stores that sell clothes.",
-    "ogDescription": "Ammu-Nation in GTA 6: 26 stores across Leonida, the three stock tiers, the weapon locker, fishing lures and the stores that sell clothes.",
+    "description": "Ammu-Nation in GTA 6: the four stock types, which stores sell launchers, the weapon locker, fishing lures and the branches that sell clothes.",
+    "ogDescription": "Ammu-Nation in GTA 6: the four stock types, which stores sell launchers, the weapon locker, fishing lures and the branches that sell clothes.",
     "jsonLdHeadline": "Ammu-Nation - GTA 6 Brand Profile",
-    "jsonLdDescription": "Ammu-Nation in GTA 6: 26 stores across Leonida, the three stock tiers, the weapon locker, fishing lures and the stores that sell clothes.",
+    "jsonLdDescription": "Ammu-Nation in GTA 6: the four stock types, which stores sell launchers, the weapon locker, fishing lures and the branches that sell clothes.",
     "dateModified": "2026-11-22"
   },
   "heroBadge": "Retail Industry",
@@ -17,18 +17,18 @@
   "statBlock": [
     {
       "key": "Stores",
-      "value": "26 across Leonida",
-      "sub": "Phil Cassidy's name is on the billboard."
+      "value": "Across Leonida",
+      "sub": "Each with its own name over the door, like Chuck's Tackle & Shot or Big Shots. Phil Cassidy's name is on the billboard."
     },
     {
       "key": "Stock",
-      "value": "Standard, Expanded or Hunting",
-      "sub": "Not every store carries every gun. Hunting stores carry the small-game rifles."
+      "value": "Limited, Standard, Expanded or Hunting",
+      "sub": "Launchers, sniper rifles and machine guns only at the six Expanded stores."
     },
     {
       "key": "Weapon Locker",
       "value": "In the stores",
-      "sub": "Edition bonus weapons and replacements for lost guns wait here."
+      "sub": "Jason's and Lucia's signature pistols, and replacements for lost guns."
     },
     {
       "key": "Also Sells",
@@ -110,10 +110,10 @@
   ]
 }
 ---
-Ammu-Nation is where Leonida buys its guns. **26 stores across the state, Phil Cassidy's name on the billboard, and no questions at the counter.**
+Ammu-Nation is where Leonida buys its guns. **A store in every corner of the state, Phil Cassidy's name on the billboard, and no questions at the counter.**
 
-The stores are not all the same. Each one carries Standard, Expanded or Hunting stock, and not every gun is on every shelf. Hunting stores are the ones with the small-game rifles, like the Wortham W-22.
+The stores are not all the same. Each one carries Limited, Standard, Expanded or Hunting stock, and not every gun is on every shelf. Launchers, sniper rifles and machine guns, and their ammo, are only sold at the six Expanded stores: Woodhatch, Big Shots, Phil's Ammu-Nation, Prestige Firearms, Iron & Oak and Black Eagle. Hunting stores are the ones with the small-game rifles, like the Wortham W-22.
 
-The weapon locker is the other reason to stop by. Edition bonus pistols and revolvers turn up there once their chapter comes around, and so does a hunting rifle you lost along the way.
+The weapon locker is the other reason to stop by. Jason's and Lucia's Ultimate Edition pistols turn up there once their chapter comes around, and so does a hunting rifle you lost along the way.
 
 Some branches sell more than ammo. Hover over a store on the map: a T-shirt under Features means a clothing rack, a fish means fishing lures. Chuck's Tackle & Shot in [Key Lento](/gameplay/locations/key-lento), close to Jason's house, is the nearest lure counter at the start. Medium lures run $45 to $56, the large saltwater lure $125.
