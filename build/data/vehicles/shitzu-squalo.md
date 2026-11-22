@@ -5,13 +5,13 @@
     "Squalo"
   ],
   "seo": {
-    "title": "Shitzu Squalo | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Shitzu Squalo in GTA 6. Pink and blue cabin cruiser docked at Washington Beach, with an explosives-laden weapons crate. Ultimate Edition bonus boat.",
-    "ogDescription": "Shitzu Squalo in GTA 6. Cabin cruiser in a pink and blue palm-leaf livery, docked at Washington Beach. Weapons crate on board. Ultimate Edition bonus.",
+    "title": "Shitzu Squalo: How to Get | GTA 6 Vehicle | GTAVITIPS",
+    "description": "How to get the Shitzu Squalo in GTA 6: the Ultimate Edition cabin cruiser with a crate of explosives, unlocking in Chapter 4.",
+    "ogDescription": "How to get the Shitzu Squalo in GTA 6: the Ultimate Edition cabin cruiser with a crate of explosives, unlocking in Chapter 4.",
     "ogImage": "https://gtavitips.com/assets/images/shitzu-squalo-gta-6-vehicle-01.jpg",
     "jsonLdHeadline": "Shitzu Squalo - GTA 6 Vehicle",
-    "jsonLdDescription": "The Shitzu Squalo is a cabin cruiser in GTA 6 Leonida. Ultimate Edition bonus, docked at Washington Beach with an explosives-laden weapons crate.",
-    "dateModified": "2026-11-21"
+    "jsonLdDescription": "How to get the Shitzu Squalo in GTA 6: the Ultimate Edition cabin cruiser with a crate of explosives, unlocking in Chapter 4.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "A fishing boat on paper. **Pink and blue palm-leaf paint, a cabin up front, and a crate of explosives on board.** The Squalo goes out for a catch and comes back with whatever it wants.",
   "heroImage": {
@@ -38,6 +38,11 @@
       "key": "Availability",
       "value": "Ultimate Edition Exclusive",
       "sub": "Docked at Washington Beach, weapons crate included. Per Rockstar's Ultimate Edition description."
+    },
+    {
+      "key": "How to Get",
+      "value": "Ultimate Edition, Chapter 4",
+      "sub": "The game tells you when it is ready, with a pop-up or a collection task in the menu."
     }
   ],
   "gallery": [
@@ -125,3 +130,5 @@ It comes docked at [Washington Beach](/gameplay/locations/washington-beach), pai
 Rockstar calls it open-ocean-ready, and the crate is the reason. **Out past the channel markers the Squalo stops being a family cruiser and starts being a floating armory.**
 
 Shitzu builds the working boats on this coast, the [Longfin](/gameplay/vehicles/shitzu-longfin) among them. The Squalo is the one it built for the weekend, then armed anyway.
+
+How to get it: own the Ultimate Edition and reach Chapter 4. The game tells you when it is ready, with a pop-up or a collection task in the menu.

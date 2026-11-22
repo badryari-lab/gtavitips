@@ -5,13 +5,13 @@
     "Cheetah"
   ],
   "seo": {
-    "title": "'95 Grotti Cheetah | GTA 6 Vehicle | GTAVITIPS",
-    "description": "'95 Grotti Cheetah in GTA 6. Mid-engine Italian supercar based on the Ferrari F355. Ultimate Edition exclusive. The one people actually wanted.",
-    "ogDescription": "'95 Grotti Cheetah in GTA 6. Mid-engine V8, rear-wheel drive. Based on the Ferrari F355. Ultimate Edition exclusive.",
+    "title": "'95 Grotti Cheetah: How to Get | GTA 6 Vehicle | GTAVITIPS",
+    "description": "How to get the '95 Grotti Cheetah in GTA 6: an Ultimate Edition car that unlocks in Chapter 5. Value, tracker and what it takes to keep it.",
+    "ogDescription": "How to get the '95 Grotti Cheetah in GTA 6: an Ultimate Edition car that unlocks in Chapter 5. Value, tracker and what it takes to keep it.",
     "ogImage": "https://gtavitips.com/assets/images/grotti-cheetah-gta-6-vehicle-01.jpg",
     "jsonLdHeadline": "'95 Grotti Cheetah - GTA 6 Vehicle",
-    "jsonLdDescription": "The '95 Grotti Cheetah is a mid-engine Italian supercar in GTA 6 Leonida. Ultimate Edition exclusive, based on the Ferrari F355.",
-    "dateModified": "2026-11-21"
+    "jsonLdDescription": "How to get the '95 Grotti Cheetah in GTA 6: an Ultimate Edition car that unlocks in Chapter 5. Value, tracker and what it takes to keep it.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "The Cheetah does not negotiate. **Mid-engine, rear-wheel drive, and a V8 that sounds like it has opinions.** The '95 spec is the one people actually wanted. Before the lawyers got involved.",
   "heroImage": {
@@ -49,6 +49,11 @@
       "key": "WAiNK Stats",
       "value": "Grotti ’95 Cheetah · Super",
       "sub": "Speed 6.6, Acceleration 5.9, Asphalt 6.5, Off-Road 4.4, Strength 3.0 out of 10. Fence value $16,775, registration $32,750. Tracker: Advanced. Figures from an in-game WAiNK scan."
+    },
+    {
+      "key": "How to Get",
+      "value": "Ultimate Edition, Chapter 5",
+      "sub": "The game tells you when it is ready, with a pop-up or a collection task in the menu."
     }
   ],
   "gallery": [
@@ -134,3 +139,5 @@ The Cheetah name has been attached to [Grotti](/gameplay/brands/grotti)'s top-ti
 The Cheetah Classic is already in the database. **This is not that car.** The '95 variant is a different vehicle with different proportions, different power delivery, and the specific character of 1990s Italian engineering at its peak. The Classic is the later interpretation. The '95 is the origin point.
 
 In [Vice City](/gameplay/locations/vice-city), a mid-90s Grotti supercar reads as money that has been around long enough to stop trying to prove itself. The Cheetah sits in that space. **Fast enough to be a problem, rare enough to be noticed, old enough to be taken seriously.**
+
+How to get it: own the Ultimate Edition and reach Chapter 5. It is the last of the edition's bonuses to open, so expect to be deep into the story first. The game tells you when it is ready, with a pop-up or a collection task in the menu.

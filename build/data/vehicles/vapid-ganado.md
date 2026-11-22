@@ -5,13 +5,13 @@
     "Ganado"
   ],
   "seo": {
-    "title": "'70 Vapid Ganado | GTA 6 Vehicle | GTAVITIPS",
-    "description": "'70 Vapid Ganado in GTA 6. Jason's low-riding pickup, based on the 1970 Ford Ranchero. Ultimate Edition Retro Build kit, free at Coastal Auto Care, Key Lento.",
-    "ogDescription": "'70 Vapid Ganado in GTA 6. Jason's well-worn coupe pickup. The Ultimate Edition Retro Build turns it yellow and red, with muscle and classic styling.",
+    "title": "'70 Vapid Ganado Retro Build: How to Get | GTA 6 Vehicle | GTAVITIPS",
+    "description": "'70 Vapid Ganado in GTA 6: Jason's pickup and the Ultimate Edition Retro Build kit, which is only available in Chapter 1. Do not miss it.",
+    "ogDescription": "'70 Vapid Ganado in GTA 6: Jason's pickup and the Ultimate Edition Retro Build kit, which is only available in Chapter 1. Do not miss it.",
     "ogImage": "https://gtavitips.com/assets/images/vapid-ganado-gta-6-vehicle-01.jpg",
     "jsonLdHeadline": "'70 Vapid Ganado - GTA 6 Vehicle",
-    "jsonLdDescription": "The '70 Vapid Ganado is Jason Duval's low-riding pickup in GTA 6 Leonida. The Ultimate Edition adds the Ganado Retro Build, a free full kit at Coastal Auto Care in Key Lento.",
-    "dateModified": "2026-11-21"
+    "jsonLdDescription": "'70 Vapid Ganado in GTA 6: Jason's pickup and the Ultimate Edition Retro Build kit, which is only available in Chapter 1. Do not miss it.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Jason's truck, and it looks like it. **Half muscle car, half pickup, all of it tired.** The Retro Build gives it back the paint, the stripes and the attitude it had in 1970.",
   "heroImage": {
@@ -50,6 +50,11 @@
       "key": "WAiNK Stats",
       "value": "Vapid ’70 Ganado · Muscle",
       "sub": "Speed 4.7, Acceleration 5.3, Asphalt 3.6, Off-Road 4.5, Strength 3.0 out of 10. Fence value $1,980, registration $6,500. Tracker: None. Figures from an in-game WAiNK scan."
+    },
+    {
+      "key": "How to Get",
+      "value": "Retro Build: Chapter 1 only",
+      "sub": "Apply the kit before Chapter 1 ends. Chapter-bound bonuses are gone once you move on."
     }
   ],
   "gallery": [],
@@ -118,3 +123,5 @@ Ultimate Edition owners get the fix. **The Ganado Retro Build is a full kit that
 The kit lives at Coastal Auto Care in [Key Lento](/gameplay/locations/key-lento). Roll in, pick Full Kits, and it costs nothing. The Retro Build fits Jason's Ganado and nothing else, so it is not a look you can put on another car.
 
 On a coast road with the water on one side, it stops looking like a hand-me-down. It looks like the car Jason meant to have.
+
+Timing matters: the Retro Build is a Chapter 1 bonus only. **Fit it to Jason's Ganado before the chapter ends**, because chapter-bound edition items do not come back once you move on.

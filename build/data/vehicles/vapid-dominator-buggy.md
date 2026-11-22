@@ -5,13 +5,13 @@
     "Dominator Buggy"
   ],
   "seo": {
-    "title": "'67 Vapid Dominator Buggy | GTA 6 Vehicle | GTAVITIPS",
-    "description": "'67 Vapid Dominator Buggy in GTA 6. Lifted Mud Club muscle car based on the 1967 Ford Mustang. Ultimate Edition bonus, kept at Paradise Garage, Watson Bay.",
-    "ogDescription": "'67 Vapid Dominator Buggy in GTA 6. A '67 muscle car on tractor tires, built for the Mount Kalaga backwoods. Ultimate Edition bonus with Paradise Garage.",
+    "title": "'67 Vapid Dominator Buggy: How to Get | GTA 6 Vehicle | GTAVITIPS",
+    "description": "How to get the '67 Vapid Dominator Buggy in GTA 6: Ultimate Edition, unlocks in Chapter 2 and opens the Classic Car Collection after it.",
+    "ogDescription": "How to get the '67 Vapid Dominator Buggy in GTA 6: Ultimate Edition, unlocks in Chapter 2 and opens the Classic Car Collection after it.",
     "ogImage": "https://gtavitips.com/assets/images/vapid-dominator-buggy-gta-6-vehicle-01.jpg",
     "jsonLdHeadline": "'67 Vapid Dominator Buggy - GTA 6 Vehicle",
-    "jsonLdDescription": "The '67 Vapid Dominator Buggy is a lifted off-road muscle car in GTA 6 Leonida. Ultimate Edition bonus, stored at the Paradise Garage in Watson Bay.",
-    "dateModified": "2026-11-21"
+    "jsonLdDescription": "How to get the '67 Vapid Dominator Buggy in GTA 6: Ultimate Edition, unlocks in Chapter 2 and opens the Classic Car Collection after it.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Somebody took a '67 Dominator and refused to let it retire. **Tractor tires, a bull bar, four lamps on the roof and a race number on the door.** Mud Club built it. The backwoods pay for it.",
   "heroImage": {
@@ -45,6 +45,11 @@
       "key": "Availability",
       "value": "Ultimate Edition Exclusive",
       "sub": "Comes with the Paradise Garage in Watson Bay: weapon locker and a drop for stolen goods to be fenced. Per Rockstar's Ultimate Edition description."
+    },
+    {
+      "key": "How to Get",
+      "value": "Ultimate Edition, Chapter 2",
+      "sub": "Collecting it opens the Classic Car Collection."
     }
   ],
   "gallery": [
@@ -132,3 +137,5 @@ Rockstar calls it a Mud Club monster, and the paint backs that up: navy with yel
 It does not come alone. The Paradise Garage in Watson Bay is part of the deal, with a weapon locker and a secure spot to drop stolen goods for the fence. A place to park the Buggy, and a place to keep what it hauls back.
 
 Inside, it is still a sixties pony car. Three-spoke wheel, round gauges, mud on the glass.
+
+How to get it: own the Ultimate Edition and reach Chapter 2. Collect the Buggy and the Classic Car Collection opens after it. The game tells you when it is ready, with a pop-up or a collection task in the menu.
