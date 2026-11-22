@@ -354,6 +354,41 @@
           "color": "#94a3b8",
           "name": "Convenience Stores and Fast Food",
           "desc": "Marts, Pollo Diablo and Burger Shot. Snacks, healing and a till to rob."
+        },
+        {
+          "url": "/gameplay/locations/fences-and-pawn-shops",
+          "label": "Crime",
+          "color": "#94a3b8",
+          "name": "Fences and Pawn Shops",
+          "desc": "Seven fences, what each one buys and when they open. Plus the pawn shops worth smashing."
+        },
+        {
+          "url": "/gameplay/locations/barbers-and-salons",
+          "label": "Style",
+          "color": "#94a3b8",
+          "name": "Barbers and Salons",
+          "desc": "Eighteen barbers and salons. Haircuts and beards for Jason, hair, makeup and nails for Lucia."
+        },
+        {
+          "url": "/gameplay/locations/marinas",
+          "label": "Water",
+          "color": "#94a3b8",
+          "name": "Marinas",
+          "desc": "Where the boats are moored. No boat shop, no rental: you take what floats."
+        },
+        {
+          "url": "/gameplay/locations/police-stations",
+          "label": "Law",
+          "color": "#94a3b8",
+          "name": "Police Stations and Impound",
+          "desc": "What getting busted costs, where your car goes, and how to get it back."
+        },
+        {
+          "url": "/gameplay/locations/safehouses",
+          "label": "Home",
+          "color": "#94a3b8",
+          "name": "Safehouses",
+          "desc": "Four places to crash, one per chapter. What you can do at home and how saving works."
         }
       ]
     }

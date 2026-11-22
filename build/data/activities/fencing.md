@@ -5,64 +5,77 @@
   ],
   "seo": {
     "title": "Fencing | GTA 6 Activity | GTAVITIPS",
-    "description": "Fencing in GTA 6 Leonida: selling stolen goods through fence contacts, the part of the job where crime actually turns into money.",
-    "ogDescription": "Fencing in GTA 6 Leonida: selling stolen goods through fence contacts, the part of the job where crime actually turns into money.",
+    "description": "How fencing works in GTA 6: seven fences, what each one buys and pays, selling stolen cars, laundering Marked Bills and the three ways to sell a stash.",
+    "ogDescription": "How fencing works in GTA 6: seven fences, what each one buys and pays, selling stolen cars, laundering Marked Bills and the three ways to sell a stash.",
     "jsonLdHeadline": "Fencing - GTA 6 Activity",
-    "jsonLdDescription": "Fencing in GTA 6 Leonida: selling stolen goods through fence contacts, the part of the job where crime actually turns into money.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "How fencing works in GTA 6: seven fences, what each one buys and pays, selling stolen cars, laundering Marked Bills and the three ways to sell a stash.",
+    "dateModified": "2026-11-22"
   },
-  "heroSubtitle": "Move stolen goods for cash. **The economic layer between the theft and the money. Every criminal economy needs a fence and Leonida has them distributed across the map.**",
+  "heroSubtitle": "A robbery pays in jewelry, narcotics and dirty money. **None of it spends until a fence buys it, and every fence pays a different price.**",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Criminal Economy Activity"
+      "value": "Selling stolen goods and cars"
+    },
+    {
+      "key": "Setting",
+      "value": "Seven fences in Key Lento, Port Gellhorn and Vice City"
+    },
+    {
+      "key": "Real-World Basis",
+      "value": "Pawn-and-fence networks that move stolen property"
     }
   ],
   "connections": [
     {
-      "url": "/gameplay/activities/golf",
-      "role": "Activity",
-      "name": "Golf",
-      "desc": "Country club sport. The same Vice City social tier, different equipment.",
-      "avatarInitials": "GO"
-    },
-    {
-      "url": "/gameplay/characters/erin-henshaw",
-      "role": "Character",
-      "name": "Erin Henshaw",
-      "desc": "Running for mayor of Ambrosia. Campaign money and country-club sports move in the same circles.",
-      "avatarInitials": "EH"
-    },
-    {
-      "url": "/gameplay/locations/washington-beach",
+      "url": "/gameplay/locations/fences-and-pawn-shops",
       "role": "Location",
-      "name": "Washington Beach",
-      "desc": "The coastal district where the sport and leisure facilities sit.",
-      "avatarInitials": "NB"
+      "name": "Fences and Pawn Shops",
+      "desc": "Every fence on one table, with what they buy and when they open.",
+      "avatarInitials": "FP"
     },
     {
-      "url": "/gameplay/vehicles/benefactor-schafter-lwb",
-      "role": "Vehicle",
-      "name": "Benefactor Schafter LWB",
-      "desc": "The vehicle that pulls into a fencing club car park. Understated, expensive, correct.",
-      "avatarInitials": "BL"
+      "url": "/gameplay/characters/yasmani-cabrera",
+      "role": "Character",
+      "name": "Yasmani Cabrera",
+      "desc": "Little Cuba. The best rate for jewelry and Marked Bills.",
+      "avatarInitials": "YC"
+    },
+    {
+      "url": "/gameplay/activities/robbery",
+      "role": "Activity",
+      "name": "Robbery",
+      "desc": "Where the stash comes from in the first place.",
+      "avatarInitials": "RB"
+    },
+    {
+      "url": "/gameplay/characters/moses-watkins",
+      "role": "Character",
+      "name": "Moses Watkins",
+      "desc": "The Port Gellhorn garage that takes stolen cars without a tracker.",
+      "avatarInitials": "MW"
     }
   ],
   "faq": [
     {
-      "q": "Is fencing competitive or casual?",
-      "a": "**Confirmed as an activity.** Whether it runs as structured competition or a casual leisure activity will be confirmed at launch. The Vice City social landscape supports both.",
-      "aPlain": "Confirmed as an activity. Whether it runs as structured competition or a casual leisure activity will be confirmed at launch. The Vice City social landscape supports both."
+      "q": "How does fencing work in GTA 6?",
+      "a": "Take the stash to a fence and sell it. Each fence rates narcotics, jewelry and Marked Bills from Very Low to High, so check the rate on the map first. You can also sell through the partner menu for a bit less, or send the stash from a garage for a fee from Chapter 3.",
+      "aPlain": "Take the stash to a fence and sell it. Each fence rates narcotics, jewelry and Marked Bills from Very Low to High, so check the rate on the map first. You can also sell through the partner menu for a bit less, or send the stash from a garage for a fee from Chapter 3."
     },
     {
-      "q": "Where are fencing facilities in Vice City?",
-      "a": "Country club and sporting venues in Washington Beach and surrounding districts. Specific venue names are not yet confirmed.",
-      "aPlain": "Country club and sporting venues in Washington Beach and surrounding districts. Specific venue names are not yet confirmed."
+      "q": "Who is the best fence in GTA 6?",
+      "a": "Tyrone in La Perle for narcotics, Yasmani in Little Cuba for jewelry and Marked Bills. Both open in Chapter 3. The full list is on [Fences and Pawn Shops](/gameplay/locations/fences-and-pawn-shops).",
+      "aPlain": "Tyrone in La Perle for narcotics, Yasmani in Little Cuba for jewelry and Marked Bills. Both open in Chapter 3. The full list is on Fences and Pawn Shops."
     },
     {
-      "q": "Is this the first time fencing has been in a GTA game?",
-      "a": "**Yes.** GTA VI introduces fencing as a new activity. It fits the Vice City demographic range, the game covers the full social spectrum from underground crime to country club sport.",
-      "aPlain": "Yes. GTA VI introduces fencing as a new activity. It fits the Vice City demographic range, the game covers the full social spectrum from underground crime to country club sport."
+      "q": "Can you sell stolen cars in GTA 6?",
+      "a": "Yes, from Chapter 2. Moses in Port Gellhorn buys cars without a tracker, so scan them with the WAiNK app first. From Chapter 3, Randy in Balsero buys high-end cars with advanced trackers.",
+      "aPlain": "Yes, from Chapter 2. Moses in Port Gellhorn buys cars without a tracker, so scan them with the WAiNK app first. From Chapter 3, Randy in Balsero buys high-end cars with advanced trackers."
+    },
+    {
+      "q": "How do you launder Marked Bills in GTA 6?",
+      "a": "Fence them. No fence takes them until you have the Dye Pack Jammer from Chapter 3. Laundering $250,000 unlocks a trophy.",
+      "aPlain": "Fence them. No fence takes them until you have the Dye Pack Jammer from Chapter 3. Laundering $250,000 unlocks a trophy."
     }
   ],
   "sidebarDatabase": [
@@ -71,42 +84,42 @@
       "label": "All Activities"
     },
     {
-      "url": "/gameplay/activities/racing",
-      "label": "Racing"
-    },
-    {
-      "url": "/gameplay/activities/fishing",
-      "label": "Fishing"
+      "url": "/gameplay/activities/robbery",
+      "label": "Robbery"
     },
     {
       "url": "/gameplay/activities/gambling",
       "label": "Gambling"
+    },
+    {
+      "url": "/gameplay/activities/random-events",
+      "label": "Random Events"
     }
   ],
   "sidebarExplore": [
     {
-      "url": "/gameplay/locations",
-      "label": "Locations"
+      "url": "/gameplay/locations/fences-and-pawn-shops",
+      "label": "Fences and Pawn Shops"
     },
     {
       "url": "/gameplay/characters",
       "label": "Characters"
     },
     {
-      "url": "/gameplay/vehicles",
-      "label": "Vehicles"
+      "url": "/gameplay/locations",
+      "label": "Locations"
     },
     {
-      "url": "/gameplay/gangs-and-factions",
-      "label": "Factions"
+      "url": "/gameplay/vehicles",
+      "label": "Vehicles"
     }
   ]
 }
 ---
-Fencing is the activity that completes the theft economy. A stolen car, a robbed safe, a lifted piece of cargo from the Port Gellhorn docks: the goods have value but the value is only accessible through a fence. **The fence network is distributed, specialized, and takes a cut that reflects the risk the fence accepts.**
+A safe full of jewelry is not money yet. **Narcotics, jewelry and Marked Bills only turn into cash at a fence**, and Leonida has seven of them, each with a rate for each kind of goods, from Very Low to High. The same bag can pay twice as much one county over, so check the rate on the map before you drive.
 
-This economy has always run beneath the surface. In Leonida the context adds specificity: a port town fence handles maritime cargo. A [Vice City](/gameplay/locations/vice-city) contact handles the kind of goods that move through the nightlife economy. The [Keys](/gameplay/locations/leonida-keys) has buyers for boat-related equipment. The fence network maps onto the geography of the criminal economy.
+**Three ways to sell.** Drive the stash to the fence's drop-off yourself. Sell it through the partner menu and take a slightly smaller cut. Or, from Chapter 3, send it straight from a garage for an extra fee. Early on the money comes through the mailbox, later straight into the bank.
 
-The mechanic works through contact interaction at fence locations or through phone contact with established buyers. **The sale price depends on the goods type, the fence's specialization, and the heat level currently attached to the stolen goods.** Hot goods sell for less. Goods moved quickly after the theft sell for more.
+**Who buys what.** Brian and Donnie on Key Lento are where it starts in Chapter 1, and they pay the least. Dunk in Port Gellhorn opens in Chapter 2. In Chapter 3 the real buyers arrive: Tyrone in La Perle pays best for narcotics, Yasmani in Little Cuba for jewelry and Marked Bills. Every fence, with their rates, is on [Fences and Pawn Shops](/gameplay/locations/fences-and-pawn-shops).
 
-Repeat business with the same fence develops the relationship and improves the terms. New fence contacts unlock through mission completion and through the social network that the protagonist builds in [Vice City](/gameplay/locations/vice-city). The fence network is the financial infrastructure of the criminal side of the game.
+**Cars and dirty money.** Two fences only take cars. From Chapter 2, [Moses](/gameplay/characters/moses-watkins) in Port Gellhorn buys anything without a tracker, so scan it with the WAiNK app first. From Chapter 3, Randy in Balsero takes the high-end cars with advanced trackers. Marked Bills from the banks are useless until you own the Dye Pack Jammer, also from Chapter 3. Launder $250,000 of them for a trophy.
