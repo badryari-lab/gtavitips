@@ -5,12 +5,12 @@
     "Gear"
   ],
   "seo": {
-    "title": "Goodtime Gear | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "Goodtime Gear in GTA 6. Ultimate Edition exclusive apparel collection built around mascot Macca the Gator.",
-    "ogDescription": "Goodtime Gear in GTA 6. Ultimate Edition exclusive apparel collection built around mascot Macca the Gator.",
+    "title": "Goodtime Gear Location | GTA 6 Clothing | GTAVITIPS",
+    "description": "Where to buy Goodtime Gear in GTA 6: the Ultimate Edition Macca the Gator clothing hangs on the mannequins at Wonder Whale in Key Lento.",
+    "ogDescription": "Where to buy Goodtime Gear in GTA 6: the Ultimate Edition Macca the Gator clothing hangs on the mannequins at Wonder Whale in Key Lento.",
     "jsonLdHeadline": "Goodtime Gear - GTA 6 Brand Profile",
-    "jsonLdDescription": "Goodtime Gear in GTA 6. Ultimate Edition exclusive apparel collection built around mascot Macca the Gator.",
-    "dateModified": "2026-11-21",
+    "jsonLdDescription": "Where to buy Goodtime Gear in GTA 6: the Ultimate Edition Macca the Gator clothing hangs on the mannequins at Wonder Whale in Key Lento.",
+    "dateModified": "2026-11-22",
     "ogImage": "https://gtavitips.com/assets/images/goodtime-gear-gta-6-brand-01.jpg"
   },
   "heroBadge": "Apparel Collection",
@@ -20,12 +20,22 @@
     {
       "key": "Type",
       "value": "Apparel Collection",
-      "sub": "A clothing line built around mascot Macca the Gator, bundled on top of the Vintage Vice City Pack."
+      "sub": "Clothing and accessories built around Macca the Gator."
+    },
+    {
+      "key": "Location",
+      "value": "Wonder Whale, [Key Lento](/gameplay/locations/key-lento)",
+      "sub": "A souvenir and swimwear shop. The pieces hang on the mannequins left of the entrance."
+    },
+    {
+      "key": "Map",
+      "value": "Style > Souvenir & Swimwear",
+      "sub": "Set a waypoint from the map index."
     },
     {
       "key": "Availability",
-      "value": "Ultimate Edition Exclusive",
-      "sub": "Standard Edition players cannot access Goodtime Gear. No upgrade path confirmed."
+      "value": "Ultimate Edition",
+      "sub": "The shop is open to everyone. The Goodtime Gear rack is not."
     }
   ],
   "profileSection": {
@@ -48,6 +58,10 @@
         {
           "url": "/gameplay/brands/vice-city-style",
           "label": "Vice City Style"
+        },
+        {
+          "url": "/gameplay/locations/key-lento",
+          "label": "Key Lento"
         }
       ]
     },
@@ -73,8 +87,8 @@
   }
 }
 ---
-Macca the Gator is the mascot and the whole design language in one. Goodtime Gear takes that single character and builds a full wardrobe around him, the kind of souvenir-shop branding that already exists in actual Florida tourist towns, just given a storefront in Leonida instead of a strip mall off I-75.
+Macca the Gator is the mascot and the whole design language in one. Goodtime Gear takes that single character and builds a full wardrobe around him, the kind of souvenir-shop branding every Florida tourist town already sells, just with a gator who has his own TV show.
 
-**Access is locked to Ultimate Edition owners.** It arrives on top of the Vintage Vice City Pack every pre-order already includes, not instead of it. Specific pieces in the collection haven't been detailed.
+**It hangs at Wonder Whale, a souvenir and swimwear shop in [Key Lento](/gameplay/locations/key-lento).** Walk in and look left: the Macca pieces are on the mannequins by the entrance, and you buy them straight off the dummy. Find the shop on the map index under Style, then Souvenir & Swimwear.
 
-[Vice City Style](/gameplay/brands/vice-city-style) is the other half of the Ultimate Edition's apparel offering. Same tier, completely different aesthetic.
+**Only Ultimate Edition owners can buy it.** Anyone can browse the swimwear. [Vice City Style](/gameplay/brands/vice-city-style) is the other half of the edition's apparel. Same tier, completely different look.

@@ -59,7 +59,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/activities</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1277,7 +1277,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/vapid-stanier</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1679,6 +1679,12 @@
   <url>
     <loc>https://gtavitips.com/gameplay/activities/golf</loc>
     <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/activities/stunts</loc>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2464,7 +2470,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/brands/goodtime-gear</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
