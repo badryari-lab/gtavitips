@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GTA 6 Interactive Map: Leonida | GTAVITIPS</title>
+<meta name="description" content="Interactive GTA 6 map of Leonida: collectibles, robberies, activities, shops and more, linked to the GTAVITIPS database.">
+<link rel="canonical" href="https://gtavitips.com/map/interactive">
+<meta property="og:type" content="website">
+<meta property="og:title" content="GTA 6 Interactive Map: Leonida | GTAVITIPS">
+<meta property="og:description" content="Interactive GTA 6 map of Leonida: collectibles, robberies, activities, shops and more, linked to the GTAVITIPS database.">
+<meta property="og:url" content="https://gtavitips.com/map/interactive">
+<meta property="og:image" content="https://gtavitips.com/assets/images/leonida-gta-6-map-01.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"GTA 6 Interactive Map: Leonida","url":"https://gtavitips.com/map/interactive","isPartOf":{"@type":"WebSite","name":"GTAVITIPS","url":"https://gtavitips.com"}}</script>
+<base href="/map/interactive/" target="_top">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="vendor/MarkerCluster.css">
+<link rel="stylesheet" href="kaart.css">
+</head>
+<body>
+<div id="app">
+  <aside id="paneel" aria-label="Map layers">
+    <header class="paneel-kop">
+      <a class="merk" href="https://gtavitips.com/">GTAVITIPS</a>
+      <h1>Leonida <span>Interactive map</span></h1>
+    </header>
+
+    <div class="zoek">
+      <input id="zoek" type="search" placeholder="Search the map" autocomplete="off" aria-label="Search the map">
+      <ul id="zoekresultaten" hidden></ul>
+    </div>
+
+    <div class="knoppen">
+      <button type="button" data-actie="alles">Show all</button>
+      <button type="button" data-actie="niets">Hide all</button>
+      <button type="button" data-actie="gevonden" aria-pressed="false">Hide found</button>
+    </div>
+
+    <nav id="lagen"></nav>
+
+    <footer class="paneel-voet">
+      <p>Map tiles: gtadb.org and contributors (CC BY 4.0). Poster: Rockstar Games. Icons: Phosphor Icons (MIT).</p>
+      <p><span class="stip stip-open"></span> Dashed pin: approximate position</p>
+    </footer>
+  </aside>
+
+  <main id="kaartvak">
+    <div id="kaart"></div>
+    <div id="basiskeuze" role="group" aria-label="Base map">
+      <button type="button" data-basis="game" aria-pressed="true">In-game</button>
+      <button type="button" data-basis="poster" aria-pressed="false">Poster</button>
+    </div>
+    <button id="paneelknop" type="button" aria-controls="paneel" aria-expanded="true">Layers</button>
+    <div id="positie" aria-live="polite"></div>
+    <div id="bewerkbalk" hidden>
+      <strong>Edit mode</strong>
+      <span id="bewerkinfo">Click the map to read a position. Drag pins to move them.</span>
+      <button type="button" id="exporteer">Copy changed pins</button>
+    </div>
+  </main>
+</div>
+
+<script src="vendor/leaflet.js"></script>
+<script src="vendor/leaflet.markercluster.js"></script>
+<script src="kaart.js"></script>
+</body>
+</html>

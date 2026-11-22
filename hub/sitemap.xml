@@ -1642,9 +1642,13 @@
   </url>
   <url>
     <loc>https://gtavitips.com/map</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/map/interactive</loc>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/activities/gambling</loc>

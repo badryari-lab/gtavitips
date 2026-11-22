@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GTA 6 Map: The Great State of Leonida | GTAVITIPS</title>
-  <meta name="description" content="The official GTA 6 map of Leonida from Rockstar: all five counties, from Vice City down to the Keys. The interactive version is in development.">
+  <meta name="description" content="The GTA 6 map of Leonida: an interactive map with collectibles, shops, races and robberies, plus the official Rockstar map of all five counties.">
   <meta property="og:type" content="article">
   <meta property="og:title" content="GTA 6 Map: The Great State of Leonida | GTAVITIPS">
-  <meta property="og:description" content="The official GTA 6 map of Leonida from Rockstar: all five counties, from Vice City down to the Keys. The interactive version is in development.">
+  <meta property="og:description" content="The GTA 6 map of Leonida: an interactive map with collectibles, shops, races and robberies, plus the official Rockstar map of all five counties.">
   <meta property="og:url" content="https://gtavitips.com/map">
   <meta property="og:image" content="https://gtavitips.com/assets/images/leonida-gta-6-map-01.jpg">
   <meta name="twitter:card" content="summary_large_image">
@@ -31,9 +31,9 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "GTA 6 Map: The Great State of Leonida",
-    "description": "The official GTA 6 map of Leonida from Rockstar: all five counties, from Vice City down to the Keys. The interactive version is in development.",
+    "description": "The GTA 6 map of Leonida: an interactive map with collectibles, shops, races and robberies, plus the official Rockstar map of all five counties.",
     "url": "https://gtavitips.com/map",
-    "dateModified": "2026-11-21T00:00:00+00:00",
+    "dateModified": "2026-11-22T00:00:00+00:00",
     "image": "https://gtavitips.com/assets/images/leonida-gta-6-map-01.jpg",
     "publisher": { "@type": "Organization", "name": "GTAVITIPS", "url": "https://gtavitips.com" },
     "author": { "@type": "Organization", "name": "GTAVITIPS" }
@@ -48,21 +48,21 @@
       {
         "@type": "Question",
         "name": "Is there an official GTA 6 map?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Rockstar released the official map of Leonida at launch, and it is at the top of this page in full size. Our interactive version is still in development and opens when every location, territory and zone on it is placed and checked." }
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Rockstar released the official map of Leonida at launch. It sits on this page in full size, right below our interactive map." }
       },
       {
         "@type": "Question",
-        "name": "What will the interactive map cover?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Every location in Leonida, placed and linked. Faction territories, activity zones, and restricted areas." }
+        "name": "What does the interactive map cover?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Collectibles, shops, races, robberies, activities and every named place, each pin linked to its page where one exists. Switch layers on and off, search the map and tick off what you have found." }
       },
       {
         "@type": "Question",
         "name": "How many locations are on the map?",
-        "acceptedAnswer": { "@type": "Answer", "text": "39 locations in the database now: from Vice City down to the Leonida Keys, inland to Mount Kalaga and Grassrivers. That number keeps growing." }
+        "acceptedAnswer": { "@type": "Answer", "text": "Over 2,800 pins in 80 layers on the interactive map, and every named place has its own page: from Vice City down to the Leonida Keys, inland to Mount Kalaga and Grassrivers. " }
       },
       {
         "@type": "Question",
-        "name": "Can I browse locations before the map launches?",
+        "name": "Can I browse locations without the map?",
         "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every location has its own page in the database with all available intel." }
       },
       {
@@ -187,6 +187,13 @@
     main { padding: 64px 0 96px; }
 
     /* WHAT THE MAP COVERS */
+    .map-live{margin-bottom:72px}
+    .map-live__frame{height:min(80vh,820px);min-height:520px;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;background:var(--bg-2)}
+    .map-live__frame iframe{display:block;width:100%;height:100%;border:0}
+    .map-live__mobile{display:none;position:relative;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;background:var(--bg-2);height:420px}
+    .map-live__mobile img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 45%}
+    .map-live__btn{position:absolute;left:50%;bottom:24px;transform:translateX(-50%);padding:12px 22px;border-radius:8px 2px 8px 2px;background:var(--blue);color:var(--bg);font-family:'Archivo',sans-serif;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.07em;white-space:nowrap}
+    @media (max-width:768px){.map-live__frame{display:none}.map-live__mobile{display:block}}
     .map-official{margin-bottom:72px}
     .map-official__link{display:block;max-width:880px;margin:0 auto;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;background:var(--bg-2)}
     .map-official__img{display:block;width:100%;height:auto}
@@ -339,16 +346,23 @@
     <div class="page-header__overlay" aria-hidden="true"></div>
     <div class="page-header__inner">
       <h1 class="page-header__h1">The State <span>of Leonida</span></h1>
-      <p class="page-header__sub">The official map, straight from Rockstar. Five counties, Vice City to the Keys. <strong>The interactive version is in development.</strong></p>
+      <p class="page-header__sub">Every collectible, shop, race and robbery, pinned on Leonida. <strong>Rockstar's official map sits right below it.</strong></p>
       <div class="launch-badge">
         <span class="launch-badge__dot" aria-hidden="true"></span>
-        Official Map
+        Interactive Map
       </div>
     </div>
   </header>
 
   <main id="main">
     <div class="wrap">
+
+      <section class="map-live" aria-labelledby="live-hd">
+        <h2 class="section-h2" id="live-hd">The Interactive <span>Map</span></h2>
+        <a href="/map/interactive" class="map-live__mobile"><img src="/assets/images/leonida-gta-6-map-01.jpg" alt="GTA 6 map of Leonida" width="2805" height="3840" loading="lazy" decoding="async"><span class="map-live__btn">Open the map</span></a>
+        <div class="map-live__frame"><iframe src="/map/interactive" title="GTA 6 interactive map of Leonida" loading="lazy" allow="fullscreen"></iframe></div>
+        <p class="map-official__src"><a href="/map/interactive" style="color:var(--blue)">Open the map full screen</a>. Base map: GTA VI Map Tiles by gtadb.org (CC BY 4.0), map &copy; Rockstar Games.</p>
+      </section>
 
       <section class="map-official" aria-labelledby="official-hd">
         <h2 class="section-h2" id="official-hd">The Official <span>Map</span></h2>
@@ -363,15 +377,15 @@
         <div class="covers-grid">
           <div class="covers-card">
             <div class="covers-card__title">Locations</div>
-            <p class="covers-card__desc">Every confirmed location pinned and linked. Vice City, Port Gellhorn, Grassrivers, the Keys, and every point in between.</p>
+            <p class="covers-card__desc">Every named place pinned and linked. Vice City, Port Gellhorn, Grassrivers, the Keys, and every point in between.</p>
           </div>
           <div class="covers-card">
-            <div class="covers-card__title">Faction Territories</div>
-            <p class="covers-card__desc">Gangs, cartels, and law enforcement mapped to their known territory. Know who runs what before you drive through it.</p>
+            <div class="covers-card__title">Collectibles</div>
+            <p class="covers-card__desc">Cards, WAiNK signs, magazines, book swaps and the rest. Tick each one off as you find it; the map remembers.</p>
           </div>
           <div class="covers-card">
-            <div class="covers-card__title">Activity Zones</div>
-            <p class="covers-card__desc">Activities placed where the sightings put them. Street takeovers, cage fights, hunting grounds, and gambling spots.</p>
+            <div class="covers-card__title">Races and Robberies</div>
+            <p class="covers-card__desc">Races, stunt jumps, smash and grabs and random events, pinned where they start.</p>
           </div>
         </div>
       </section>
@@ -436,22 +450,21 @@
 
       <div class="launch-callout" role="complementary" aria-label="Locations in Leonida">
         <div class="launch-callout__left">
-          <div class="launch-callout__label">Until It Opens</div>
           <h2 class="launch-callout__title">Leonida, <span>Street by Street</span></h2>
-          <p class="launch-callout__text">The interactive map is still being drawn. The places on it are not waiting: <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a>, the <a href="/gameplay/locations/leonida-keys" style="color:var(--blue)">Keys</a>, <a href="/gameplay/locations/grassrivers" style="color:var(--blue)">Grassrivers</a>, <a href="/gameplay/locations/mount-kalaga" style="color:var(--blue)">Mount Kalaga</a>. Each one with the crews, the rides and what goes down there.</p>
+          <p class="launch-callout__text">The map shows where. The pages show what goes down there: <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a>, the <a href="/gameplay/locations/leonida-keys" style="color:var(--blue)">Keys</a>, <a href="/gameplay/locations/grassrivers" style="color:var(--blue)">Grassrivers</a>, <a href="/gameplay/locations/mount-kalaga" style="color:var(--blue)">Mount Kalaga</a>. Each one with the crews, the rides and what goes down there.</p>
         </div>
         <a href="/gameplay/locations" class="launch-callout__right" style="text-decoration:none">
-          <div class="launch-callout__date">39</div>
+          <div class="launch-callout__date">53</div>
           <div class="launch-callout__sublabel">Locations &rarr;</div>
         </a>
       </div>
       <section class="map-faq" aria-labelledby="faq-hd">
         <h2 class="section-h2" id="faq-hd">Common <span>Questions</span></h2>
         <div class="faq-list" role="list">
-          <div class="faq-item" role="listitem"><div class="faq-item__q">Is there an official GTA 6 map?</div><div class="faq-item__a">Yes. Rockstar released the official map of Leonida at launch, and it is at the top of this page in full size. Our interactive version is still in development and opens when every location, territory and zone on it is placed and checked.</div></div>
-          <div class="faq-item" role="listitem"><div class="faq-item__q">What will the interactive map cover?</div><div class="faq-item__a">Every location in Leonida, placed and linked. Faction territories, activity zones, and restricted areas.</div></div>
-          <div class="faq-item" role="listitem"><div class="faq-item__q">How many locations are on the map?</div><div class="faq-item__a">39 locations in the database now: from <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> down to the <a href="/gameplay/locations/leonida-keys" style="color:var(--blue)">Leonida Keys</a>, inland to <a href="/gameplay/locations/mount-kalaga" style="color:var(--blue)">Mount Kalaga</a> and <a href="/gameplay/locations/grassrivers" style="color:var(--blue)">Grassrivers</a>. That number keeps growing.</div></div>
-          <div class="faq-item" role="listitem"><div class="faq-item__q">Can I browse locations before the map launches?</div><div class="faq-item__a">Yes. Every location has its own page in the <a href="/gameplay/locations" style="color:var(--blue)">database</a> with all available intel.</div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">Is there an official GTA 6 map?</div><div class="faq-item__a">Yes. Rockstar released the official map of Leonida at launch. It sits on this page in full size, right below our interactive map.</div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">What does the interactive map cover?</div><div class="faq-item__a">Collectibles, shops, races, robberies, activities and every named place, each pin linked to its page where one exists. Switch layers on and off, search the map and tick off what you have found.</div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">How many locations are on the map?</div><div class="faq-item__a">Over 2,800 pins in 80 layers on the interactive map, and every named place has its own page: from <a href="/gameplay/locations/vice-city" style="color:var(--blue)">Vice City</a> down to the <a href="/gameplay/locations/leonida-keys" style="color:var(--blue)">Leonida Keys</a>, inland to <a href="/gameplay/locations/mount-kalaga" style="color:var(--blue)">Mount Kalaga</a> and <a href="/gameplay/locations/grassrivers" style="color:var(--blue)">Grassrivers</a>. </div></div>
+          <div class="faq-item" role="listitem"><div class="faq-item__q">Can I browse locations without the map?</div><div class="faq-item__a">Yes. Every location has its own page in the <a href="/gameplay/locations" style="color:var(--blue)">database</a> with all available intel.</div></div>
           <div class="faq-item" role="listitem"><div class="faq-item__q">Is the map free?</div><div class="faq-item__a">Yes. Everything on GTAVITIPS is free.</div></div>
         </div>
       </section>
