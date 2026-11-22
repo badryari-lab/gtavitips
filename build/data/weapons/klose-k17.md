@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "Klose K17 (Pistol) | GTA 6 Weapon | GTAVITIPS",
-    "description": "The Klose K17 in GTA 6. Semi-automatic, 9mm, 35 meter range. Carried by Jason Duval, Lucia Caminos, VCPD, and cartel operatives across Leonida.",
-    "ogDescription": "The Klose K17 in GTA 6. Semi-automatic, 9mm, 35 meter range. Carried by Jason Duval, Lucia Caminos, VCPD, and cartel operatives across Leonida.",
+    "description": "Klose K17 in GTA 6: where to buy it and where to find the PTT Youngin$ K17 and 1 more unique version.",
+    "ogDescription": "Klose K17 in GTA 6: where to buy it and where to find the PTT Youngin$ K17 and 1 more unique version.",
     "ogImagePlaceholder": "pistol-gta-6-weapon.jpg",
     "jsonLdHeadline": "Klose K17 - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Klose K17 in GTA 6. Semi-automatic, 9mm, 35 meter range. Carried by Jason Duval, Lucia Caminos, VCPD, and cartel operatives across Leonida.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Klose K17 in GTA 6: where to buy it and where to find the PTT Youngin$ K17 and 1 more unique version.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "The weapon everyone starts with and nobody puts down. **Semi-automatic, 9mm, effective to 35 meters.** In Leonida it shows up everywhere: on a cop's hip, in a cartel enforcer's waistband, in Jason Duval's hand walking out of a convenience store.",
   "statBlock": [
@@ -39,6 +39,16 @@
     {
       "key": "Classification",
       "value": "Sidearm / Default Loadout"
+    },
+    {
+      "key": "Where to Buy",
+      "value": "Ammu-Nation",
+      "sub": "Standard and Hunting stock, so most branches carry it. There are 26 stores across Leonida."
+    },
+    {
+      "key": "Unique Versions",
+      "value": "2",
+      "sub": "PTT Youngin$ K17, San4San K17."
     }
   ],
   "gallery": [],
@@ -143,3 +153,5 @@
 
                 Under the new inventory system, sidearms are what you carry on your person at all times. The pistol sits on your hip while the heavier hardware stays locked in the vehicle. That changes the calculus. A fight that kicks off without warning, a confrontation that escalates before you reach the car, that is a pistol situation. **Know the range. Know the target. Know when to run.**
               
+
+Unique versions: two are worth the detour. Find the **PTT Youngin$ K17** at the Kamar Devon Community Center Illegal Operation in Southside; and the **San4San K17** at the Sound4Sound Studio Illegal Operation in Stockyard.

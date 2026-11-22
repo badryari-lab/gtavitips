@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "Scorpio Akulus (Heavy Revolver) | GTA 6 Weapon | GTAVITIPS",
-    "description": "The Magnum Revolver in GTA 6: a six-round cylinder, no suppressor, every shot is a statement.",
-    "ogDescription": "The Magnum Revolver in GTA 6: a six-round cylinder, no suppressor, every shot is a statement.",
+    "description": "Scorpio Akulus in GTA 6: where to buy it and where to find the Kingfishers Akulus and 1 more unique version.",
+    "ogDescription": "Scorpio Akulus in GTA 6: where to buy it and where to find the Kingfishers Akulus and 1 more unique version.",
     "ogImagePlaceholder": "heavy-revolver-gta-6-weapon.jpg",
     "jsonLdHeadline": "Magnum Revolver - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Magnum Revolver in GTA 6: a six-round cylinder, no suppressor, every shot is a statement.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Scorpio Akulus in GTA 6: where to buy it and where to find the Kingfishers Akulus and 1 more unique version.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Six rounds. No suppressor option. **Every shot announces itself to anyone within three blocks.** That is either a problem or it is exactly the point.",
   "statBlock": [
@@ -35,6 +35,16 @@
     {
       "key": "Construction",
       "value": "Steel, Full Frame"
+    },
+    {
+      "key": "Where to Buy",
+      "value": "Ammu-Nation",
+      "sub": "Expanded and Hunting stock. The smaller branches do not carry it. There are 26 stores across Leonida."
+    },
+    {
+      "key": "Unique Versions",
+      "value": "2",
+      "sub": "Kingfishers Akulus, Swamp Bait Akulus."
     }
   ],
   "gallery": [],
@@ -127,3 +137,5 @@ The revolver does not try to hide what it is. It is heavy, it is loud, and each 
 Six rounds in the cylinder. Reload is slower than any semi-automatic. At close range that difference rarely matters because six well-placed large-calibre rounds end most situations before a reload becomes relevant.
 
 **In [Vice County](/gameplay/locations/vice-county) it operates as a status object as much as a weapon.** The operators who carry it are communicating something about how they approach confrontations. Usually that communication is received clearly by whoever is on the other end of the barrel.
+
+Unique versions: two are worth the detour. Find the **Kingfishers Akulus** at the Sunrise RV Park Illegal Operation, north of Cottonmouth Lake; and the **Swamp Bait Akulus** in a waterfront shack in the marsh southwest of [Hamlet](/gameplay/locations/hamlet).

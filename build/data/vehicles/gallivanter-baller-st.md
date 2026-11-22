@@ -5,13 +5,13 @@
     "ST"
   ],
   "seo": {
-    "title": "Gallivanter Baller ST | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Gallivanter Baller ST in GTA 6. Range Rover Sport SVR profile. The performance SUV variant.",
-    "ogDescription": "Gallivanter Baller ST in GTA 6. Range Rover Sport SVR profile. The performance SUV variant.",
+    "title": "Gallivanter Baller ST Location | GTA 6 Vehicle | GTAVITIPS",
+    "description": "Gallivanter Baller ST in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
+    "ogDescription": "Gallivanter Baller ST in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
     "ogImagePlaceholder": "gallivanter-baller-st-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Gallivanter Baller ST - GTA 6 Vehicle",
-    "jsonLdDescription": "The Gallivanter Baller ST is a performance SUV in GTA 6 Leonida. Based on the Range Rover Sport SVR.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Gallivanter Baller ST in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "The Sport variant. **Lower, faster, and the Range Rover for the person who wants the Baller's presence but the Sport's dynamics.**",
   "statBlock": [
@@ -31,6 +31,11 @@
       "key": "Handling",
       "value": "AWD Performance V8",
       "sub": "All-wheel drive with the Sport performance calibration. Supercharged V8 output."
+    },
+    {
+      "key": "How to Get",
+      "value": "Randy's Wish List",
+      "sub": "Opens in Chapter 3. Clone the key, deliver to Randy at Leonida Auto World."
     }
   ],
   "gallery": [],
@@ -96,6 +101,6 @@
 ---
 The Baller ST is the Sport trim. Lower than the standard Baller, wider stance, and with the V8 supercharged calibration that makes the performance SUV formula work. The Range Rover Sport SVR is one of the faster large SUVs on a track, and the Baller ST carries that performance into the Leonida context.
 
-The [Vice City](/gameplay/locations/vice-city) demographic for the ST is slightly different from the standard Baller buyer. Slightly younger, more performance-oriented, and choosing the ST specifically for what it does differently rather than what it does the same. **In Vice City this distinction is visible in where the vehicle ends up parked.**
+It is a target on **Randy's Wish List**, the board of rare cars Randy Kozlov wants delivered to Leonida Auto World in Vice City. The board opens in Chapter 3.
 
-Performance SUV dynamics: heavy for the performance, but the output manages the weight. Capable through the Vice City street grid in a way the standard Baller is not quite designed for.
+Most cars on the board carry a tracker, so keep moving until it is in Randy's garage. He pays for condition: a clean delivery earns a $10,000 bonus, so fix any damage at a gas station on the way in.

@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "Zhang Wu Type 9 (Machine Pistol) | GTA 6 Weapon | GTAVITIPS",
-    "description": "The Zhang Wu Type 9 in GTA 6: a full-auto, drive-by-capable sidearm, carried by the Leonida Cartel and both protagonists.",
-    "ogDescription": "The Zhang Wu Type 9 in GTA 6: a full-auto, drive-by-capable sidearm, carried by the Leonida Cartel and both protagonists.",
+    "description": "Zhang Wu Type 9 in GTA 6: where to buy it and where to find the Neon Sunset Type 9 and 2 more unique versions.",
+    "ogDescription": "Zhang Wu Type 9 in GTA 6: where to buy it and where to find the Neon Sunset Type 9 and 2 more unique versions.",
     "ogImagePlaceholder": "machine-pistol-gta-6-weapon.jpg",
     "jsonLdHeadline": "Zhang Wu Type 9 - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Zhang Wu Type 9 in GTA 6: a full-auto, drive-by-capable sidearm, carried by the Leonida Cartel and both protagonists.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Zhang Wu Type 9 in GTA 6: where to buy it and where to find the Neon Sunset Type 9 and 2 more unique versions.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Full-auto in a package that fits inside a jacket. **The stopping power is in the rate of fire, not the calibre.** At close range, that distinction does not matter.",
   "statBlock": [
@@ -35,6 +35,16 @@
     {
       "key": "Construction",
       "value": "Steel / Polymer Frame"
+    },
+    {
+      "key": "Where to Buy",
+      "value": "Ammu-Nation",
+      "sub": "Standard stock, so most branches carry it. There are 26 stores across Leonida."
+    },
+    {
+      "key": "Unique Versions",
+      "value": "3",
+      "sub": "Neon Sunset Type 9, Marabunta Grande Type 9, Conspiracist Type 9."
     }
   ],
   "gallery": [],
@@ -121,3 +131,5 @@ The machine pistol fills the gap between a standard semi-automatic and a full SM
 **Drive-by capability is confirmed.** The compact profile fits through a car window without the barrel catching the frame. The cyclic rate at close range through a vehicle window clears the immediate threat zone faster than a semi-auto.
 
 Ammunition consumption is the practical limitation. At full cyclic rate the magazine empties in seconds. **Without a follow-up magazine the weapon becomes a liability the moment the first runs dry.** Operators carrying this weapon carry multiple magazines or they carry something else as a primary.
+
+Unique versions: three are worth the detour. Find the **Neon Sunset Type 9** for sale at Vice City Firearms in Salton for $2,310; the **Marabunta Grande Type 9** at the Weed Grow Illegal Operation on Lake Tallaloko, East [Lummox County](/gameplay/locations/lummox-county); and the **Conspiracist Type 9** in an underground armory below a mobile home in Balsero, southwest of Griffin Shooting Range.

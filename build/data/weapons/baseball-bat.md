@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "Baseball Bat | GTA 6 Weapon Profile | GTAVITIPS",
-    "description": "The Baseball Bat in GTA 6: a blunt melee weapon, used in a gas station heist and a Vice County bar fight.",
-    "ogDescription": "The Baseball Bat in GTA 6: a blunt melee weapon, used in a gas station heist and a Vice County bar fight.",
+    "description": "Baseball Bat in GTA 6: how it handles and where to find the unique Brontasaurus Bat.",
+    "ogDescription": "Baseball Bat in GTA 6: how it handles and where to find the unique Brontasaurus Bat.",
     "ogImagePlaceholder": "baseball-bat-gta-6-weapon.jpg",
     "jsonLdHeadline": "Baseball Bat - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Baseball Bat in GTA 6: a blunt melee weapon, used in a gas station heist and a Vice County bar fight.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Baseball Bat in GTA 6: how it handles and where to find the unique Brontasaurus Bat.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Silent. Available in every garage in Leonida. **Plausible deniability built in.** Nobody questions why you have one until they're on the wrong end of it.",
   "statBlock": [
@@ -33,6 +33,11 @@
       "key": "Construction",
       "value": "Wood / Aluminium",
       "sub": "Standard sporting construction. Durable enough to survive multiple impacts without structural failure."
+    },
+    {
+      "key": "Unique Versions",
+      "value": "1",
+      "sub": "Brontasaurus Bat."
     }
   ],
   "gallery": [],
@@ -119,3 +124,5 @@ The Baseball Bat is the Leonida default. Every corner store, every garage, every
 The swing arc is wide enough to catch someone moving to the side. The weight favors downward strikes on anyone who gets in close. **Against a single opponent in a confined space it's more decisive than it looks.** Against a group it becomes a problem quickly.
 
 [Vice County](/gameplay/locations/vice-county) law enforcement classifies it as a sporting item. That classification holds right up until the moment it doesn't.
+
+Unique versions: one is worth the detour. Find the **Brontasaurus Bat** at the batting cages of Dino Golf in Frogswater.

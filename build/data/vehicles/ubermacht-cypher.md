@@ -5,13 +5,13 @@
     "Cypher"
   ],
   "seo": {
-    "title": "Ubermacht Cypher | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Ubermacht Cypher in GTA 6. BMW M4 Competition profile. German performance coupe in Vice City.",
-    "ogDescription": "Ubermacht Cypher in GTA 6. BMW M4 Competition profile. German performance coupe in Vice City.",
+    "title": "Ubermacht Cypher Location | GTA 6 Vehicle | GTAVITIPS",
+    "description": "Ubermacht Cypher in GTA 6: where it parks on Shore Drive in Ocean Beach, how to steal it for Randy's Wish List, and the BMW M4 behind it.",
+    "ogDescription": "Ubermacht Cypher in GTA 6: where it parks on Shore Drive in Ocean Beach, how to steal it for Randy's Wish List, and the BMW M4 behind it.",
     "ogImagePlaceholder": "ubermacht-cypher-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Ubermacht Cypher - GTA 6 Vehicle",
-    "jsonLdDescription": "The Ubermacht Cypher is a performance coupe in GTA 6 Leonida. Based on the BMW M4 Competition.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Ubermacht Cypher in GTA 6: where it parks on Shore Drive in Ocean Beach, how to steal it for Randy's Wish List, and the BMW M4 behind it.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "German performance coupe. **The inline-six, the wide fenders, and the Ubermacht precision that [Vice City](/gameplay/locations/vice-city)'s professional demographic chooses over the louder alternatives.**",
   "statBlock": [
@@ -31,6 +31,11 @@
       "key": "Handling",
       "value": "RWD Performance",
       "sub": "Rear-wheel drive with the M Sport suspension calibration. The handling balance of a purpose-built performance coupe."
+    },
+    {
+      "key": "How to Get",
+      "value": "Randy's Wish List",
+      "sub": "Opens in Chapter 3. Clone the key on Shore Drive, Ocean Beach, deliver to Randy at Leonida Auto World."
     }
   ],
   "gallery": [],
@@ -102,6 +107,8 @@
 ---
 The Cypher is the Ubermacht performance coupe. The M4 Competition profile is one of the most immediately recognizable in contemporary performance cars: the wide fenders, the M-specific front end, and the twin-turbocharged inline-six that BMW has been developing for long enough that it no longer needs to announce itself.
 
-In [Vice City](/gameplay/locations/vice-city), the Cypher is the executive performance choice. Not as theatrical as the Italian exotics, not as understated as the Ocelot. **The Cypher communicates that the driver knows exactly what they have and chose it deliberately over everything louder.** This is a specific Vice City personality type.
+It is a target on **Randy's Wish List**, the board of rare cars Randy Kozlov wants delivered to Leonida Auto World in Vice City. The board opens in Chapter 3.
 
-The rear-wheel drive configuration gives the Cypher the handling character that makes the BMW performance series distinct: a tendency toward rotation at the limit that the stability control manages in standard driving and that becomes available when the driver decides they want it.
+Cyphers park along Shore Drive in Ocean Beach, out front of the restaurants on the strip. Copy the key with the Key Cloner and slip into traffic.
+
+Most cars on the board carry a tracker, so keep moving until it is in Randy's garage. He pays for condition: a clean delivery earns a $10,000 bonus, so fix any damage at a gas station on the way in.

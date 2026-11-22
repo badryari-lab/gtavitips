@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "Vom Feuer VF5C (Compact SMG) | GTA 6 Weapon | GTAVITIPS",
-    "description": "The Vom Feuer VF5C in GTA 6: more range and control than the Micro, still fits in a jacket.",
-    "ogDescription": "The Vom Feuer VF5C in GTA 6: more range and control than the Micro, still fits in a jacket.",
+    "description": "Vom Feuer VF5C in GTA 6: where to buy it and where to find the Scrapper VF5C.",
+    "ogDescription": "Vom Feuer VF5C in GTA 6: where to buy it and where to find the Scrapper VF5C.",
     "ogImagePlaceholder": "compact-smg-gta-6-weapon.jpg",
     "jsonLdHeadline": "Vom Feuer VF5C - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Vom Feuer VF5C in GTA 6: more range and control than the Micro, still fits in a jacket.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Vom Feuer VF5C in GTA 6: where to buy it and where to find the Scrapper VF5C.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "More barrel than the Micro. More accuracy than the machine pistol. **Still fits inside a jacket.** The compact SMG occupies the middle ground and does not apologize for it.",
   "statBlock": [
@@ -35,6 +35,16 @@
     {
       "key": "Construction",
       "value": "Steel / Polymer, Side-Folding Stock"
+    },
+    {
+      "key": "Where to Buy",
+      "value": "Ammu-Nation",
+      "sub": "Expanded stock only. The smaller branches do not carry it. There are 26 stores across Leonida."
+    },
+    {
+      "key": "Unique Versions",
+      "value": "1",
+      "sub": "Scrapper VF5C."
     }
   ],
   "gallery": [],
@@ -121,3 +131,5 @@ The compact SMG is not the most dramatic weapon in the arsenal. It does not have
 **For operators who need something between a pistol and a full carbine**, and who need to move through environments where visible long arms attract immediate attention, this fills the gap. [Vice City](/gameplay/locations/vice-city) is full of those environments.
 
 It is standard across [Vice County](/gameplay/locations/vice-county) for mid-level criminal operations. Not the weapon of choice for a full firefight, but functional enough to start one and hold it until something larger arrives.
+
+Unique versions: one is worth the detour. Find the **Scrapper VF5C** at the La Cascara Motel Illegal Operation in [Port Gellhorn](/gameplay/locations/port-gellhorn).

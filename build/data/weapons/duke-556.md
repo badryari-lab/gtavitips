@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "Duke 556 (Carbine Rifle) | GTA 6 Weapon | GTAVITIPS",
-    "description": "The Duke 556 in GTA 6: the standard assault platform across Leonida, carried by law enforcement, Leonida Cartel, and both protagonists.",
-    "ogDescription": "The Duke 556 in GTA 6: the standard assault platform across Leonida, carried by law enforcement, Leonida Cartel, and both protagonists.",
+    "description": "Duke 556 in GTA 6: where to buy it and where to find the Cold War 556 and 5 more unique versions.",
+    "ogDescription": "Duke 556 in GTA 6: where to buy it and where to find the Cold War 556 and 5 more unique versions.",
     "ogImagePlaceholder": "carbine-rifle-gta-6-weapon.jpg",
     "jsonLdHeadline": "Duke 556 - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Duke 556 in GTA 6: the standard assault platform across Leonida, carried by law enforcement, Leonida Cartel, and both protagonists.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Duke 556 in GTA 6: where to buy it and where to find the Cold War 556 and 5 more unique versions.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "The standard. Not the most powerful rifle in Leonida. **Not the most accurate at extreme range. The most useful across the widest set of situations.** That is why it is the carbine.",
   "statBlock": [
@@ -35,6 +35,16 @@
     {
       "key": "Construction",
       "value": "Steel / Polymer, Modular Rail"
+    },
+    {
+      "key": "Where to Buy",
+      "value": "Ammu-Nation",
+      "sub": "Standard and Hunting stock, so most branches carry it. There are 26 stores across Leonida."
+    },
+    {
+      "key": "Unique Versions",
+      "value": "6",
+      "sub": "Cold War 556, Clunker 556, Cockroach Xtreme 556, GRX 556, Kolt & Associates 556, Star Spangled 556."
     }
   ],
   "gallery": [],
@@ -133,3 +143,5 @@ The carbine is the baseline from which every other rifle decision in Leonida is 
 The modular configuration allows optics, suppressors, and grip accessories. In practice the configuration that shows up most often in [Vice County](/gameplay/locations/vice-county) is the standard iron sight setup because the engagement ranges in an urban environment do not require magnification.
 
 **For the protagonists it is the primary long arm.** When Lucia or Jason needs to hold a position, cover a route, or engage beyond pistol range without committing to a heavier platform, this is what appears in the footage.
+
+Unique versions: six are worth the detour. Find the **Cold War 556** inside an underground bunker at Big Pine, North [Mariana County](/gameplay/locations/mariana-county); the **Clunker 556** at the Brooks Boatworks Illegal Operation in [Port Gellhorn](/gameplay/locations/port-gellhorn); the **Cockroach Xtreme 556** in the garage of the Sunrise Motel in Tequesta; the **GRX 556** at the Leonida Carrier Warehouse Illegal Operation in Balsero; the **Kolt & Associates 556** at the Stash House Illegal Operation in Port Gellhorn; and the **Star Spangled 556** on the shelf at Phil's Ammu-Nation in Southside for $3,050.

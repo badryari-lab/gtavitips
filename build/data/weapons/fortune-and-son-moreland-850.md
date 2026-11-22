@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "Fortune & Son Moreland 850 (Pump Action Shotgun) | GTA 6 Weapon",
-    "description": "The Fortune & Son Moreland 850 in GTA 6: decisive at close range, used in forced entries and corridor engagements across Vice County.",
-    "ogDescription": "The Fortune & Son Moreland 850 in GTA 6: decisive at close range, used in forced entries and corridor engagements across Vice County.",
+    "description": "Fortune & Son Moreland 850 in GTA 6: where to buy it and where to find the Gutterbal Moreland 850 and 1 more unique version.",
+    "ogDescription": "Fortune & Son Moreland 850 in GTA 6: where to buy it and where to find the Gutterbal Moreland 850 and 1 more unique version.",
     "ogImagePlaceholder": "pump-action-shotgun-gta-6-weapon.jpg",
     "jsonLdHeadline": "Fortune & Son Moreland 850 - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Fortune & Son Moreland 850 in GTA 6: decisive at close range, used in forced entries and corridor engagements across Vice County.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Fortune & Son Moreland 850 in GTA 6: where to buy it and where to find the Gutterbal Moreland 850 and 1 more unique version.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "At close range, there is no argument. **The pump action shotgun does not enter into negotiations.** The spread handles the margin of error. The result handles the rest.",
   "statBlock": [
@@ -35,6 +35,16 @@
     {
       "key": "Construction",
       "value": "Steel / Wood or Polymer"
+    },
+    {
+      "key": "Where to Buy",
+      "value": "Ammu-Nation",
+      "sub": "Standard and Hunting stock, so most branches carry it. There are 26 stores across Leonida."
+    },
+    {
+      "key": "Unique Versions",
+      "value": "2",
+      "sub": "Gutterbal Moreland 850, Watcher Pro Moreland 850."
     }
   ],
   "gallery": [],
@@ -121,3 +131,5 @@ The shotgun is the definitive close-range weapon in Leonida. No other platform d
 The pump cycle is the limiting factor. Each shot requires the action to be cycled. In a sustained close engagement the rate of fire is lower than any automatic weapon. The compensating factor is that each shot is typically the last one required.
 
 **[Vice County](/gameplay/locations/vice-county) law enforcement and criminal operations both run it.** When both sides of a confrontation carry the same weapon, the weapon is functional in the environment.
+
+Unique versions: two are worth the detour. Find the **Gutterbal Moreland 850** at the Kingpin Bowling Illegal Operation in [Port Gellhorn](/gameplay/locations/port-gellhorn); and the **Watcher Pro Moreland 850** for sale at Tactical Outlet Guns in Belville for $1,470.

@@ -5,13 +5,13 @@
     "Banshee"
   ],
   "seo": {
-    "title": "Bravado Banshee | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Bravado Banshee in GTA 6. Dodge Viper profile: long hood, V10, rear-wheel drive. The American sports car icon.",
-    "ogDescription": "Bravado Banshee in GTA 6. Dodge Viper profile: long hood, V10, rear-wheel drive. The American sports car icon.",
+    "title": "Bravado Banshee Location | GTA 6 Vehicle | GTAVITIPS",
+    "description": "Bravado Banshee in GTA 6: where to find it in Southside and Capri, how to steal it for Randy's Wish List, and the Dodge Viper behind it.",
+    "ogDescription": "Bravado Banshee in GTA 6: where to find it in Southside and Capri, how to steal it for Randy's Wish List, and the Dodge Viper behind it.",
     "ogImagePlaceholder": "bravado-banshee-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Bravado Banshee - GTA 6 Vehicle",
-    "jsonLdDescription": "The Bravado Banshee is a American sports car in GTA 6 Leonida. Based on the Dodge Viper.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Bravado Banshee in GTA 6: where to find it in Southside and Capri, how to steal it for Randy's Wish List, and the Dodge Viper behind it.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "The Viper in Leonida. **Long hood, V10, rear-wheel drive, and the specific American sports car philosophy that trades refinement for raw output.**",
   "statBlock": [
@@ -31,6 +31,11 @@
       "key": "Handling",
       "value": "RWD V10",
       "sub": "Rear-wheel drive, V10 engine. American sports car configuration taken to its logical conclusion."
+    },
+    {
+      "key": "How to Get",
+      "value": "Randy's Wish List",
+      "sub": "Opens in Chapter 3. Clone the key, deliver to Randy at Leonida Auto World."
     }
   ],
   "gallery": [],
@@ -58,6 +63,12 @@
       "type": "Brand",
       "name": "Bravado",
       "desc": "The manufacturer."
+    },
+    {
+      "url": "/gameplay/locations/capri",
+      "type": "Location",
+      "name": "Capri",
+      "desc": "Where a Banshee parks outside the Sweetbay Inn in the small hours."
     }
   ],
   "sidebarDatabase": [
@@ -94,8 +105,10 @@
   ]
 }
 ---
-The Banshee is the American sports car that decided refinement was not the point. The Viper formula is displacement, rear-wheel drive, and the consequent handling that both produce. **Not comfortable. Not forgiving. Fast.**
+The Banshee is Bravado's Viper. Long hood, V10, rear-wheel drive. **Not comfortable. Not forgiving. Fast.** The exhaust announces it a block before it arrives.
 
-In [Vice City](/gameplay/locations/vice-city) the Banshee is the domestic performance option for the driver who wants V10 output and the handling challenge that comes with it over the managed precision of the European alternatives. The Vice City car culture respects the commitment the Banshee requires.
+It is a target on **Randy's Wish List**, the board of rare cars Randy Kozlov wants delivered to Leonida Auto World in Vice City. The board opens in Chapter 3.
 
-The V10 soundtrack is the Banshee's most immediate communication. It precedes the car on approach and follows it on departure. In Vice City's street environment this is simultaneously the car's greatest social asset and its most significant tactical liability.
+Two places turn one up. A big showroom in the top-right corner of Southside, just west of Peacock Bay: walk in, clone the key with the Key Cloner and leave through the glass. Or work the night shift in [Capri](/gameplay/locations/capri), where one parks outside the Sweetbay Inn on East Buckley Drive around 3AM.
+
+Most cars on the board carry a tracker, so keep moving until it is in Randy's garage. He pays for condition: a clean delivery earns a $10,000 bonus, so fix any damage at a gas station on the way in.

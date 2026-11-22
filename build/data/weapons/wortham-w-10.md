@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "Wortham W-10 (Micro SMG) | GTA 6 Weapon | GTAVITIPS",
-    "description": "The Wortham W-10 in GTA 6: a drive-by-capable compact submachine gun, used in vehicle pursuits and street operations.",
-    "ogDescription": "The Wortham W-10 in GTA 6: a drive-by-capable compact submachine gun, used in vehicle pursuits and street operations.",
+    "description": "Wortham W-10 in GTA 6: where to buy it and where to find the Moneymaker W-10 and 2 more unique versions.",
+    "ogDescription": "Wortham W-10 in GTA 6: where to buy it and where to find the Moneymaker W-10 and 2 more unique versions.",
     "ogImagePlaceholder": "micro-smg-gta-6-weapon.jpg",
     "jsonLdHeadline": "Wortham W-10 - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Wortham W-10 in GTA 6: a drive-by-capable compact submachine gun, used in vehicle pursuits and street operations.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Wortham W-10 in GTA 6: where to buy it and where to find the Moneymaker W-10 and 2 more unique versions.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Fits inside a vehicle. Fires through a window. **The Wortham W-10 does not care about the distance between the barrel and the target** as long as that distance is measured in metres, not blocks.",
   "statBlock": [
@@ -35,6 +35,16 @@
     {
       "key": "Construction",
       "value": "Steel / Polymer, Folding Stock"
+    },
+    {
+      "key": "Where to Buy",
+      "value": "Ammu-Nation",
+      "sub": "Standard stock, so most branches carry it. There are 26 stores across Leonida."
+    },
+    {
+      "key": "Unique Versions",
+      "value": "3",
+      "sub": "Moneymaker W-10, Chromium W-10, Little Friend W-10."
     }
   ],
   "gallery": [],
@@ -121,3 +131,5 @@ The Wortham W-10 is purpose-built for the environment where it performs well. Dr
 The compact profile is the selling point. No other weapon in the sidearm and SMG category fits through a car window with the barrel still functional. That one specific capability has made it standard across [Vice County](/gameplay/locations/vice-county) street operations for years.
 
 **Outside its operational envelope it becomes a liability.** At distances where a carbine is effective, the Wortham W-10 is wasting ammunition and providing little return. The operators who use it know this and plan accordingly.
+
+Unique versions: three are worth the detour. Find the **Moneymaker W-10** for sale at Tequesta Guns & Ammo for $1,557; the **Chromium W-10** at the La Perle Trap House Illegal Operation in La Perle; and the **Little Friend W-10** in the crime-scene room on the second floor of the Sunlite Motel, [Ocean Beach](/gameplay/locations/ocean-beach).

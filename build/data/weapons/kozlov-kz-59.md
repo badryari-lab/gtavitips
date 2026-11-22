@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "Kozlov KZ-59 (Assault Rifle) | GTA 6 Weapon | GTAVITIPS",
-    "description": "The Kozlov KZ-59 in GTA 6: the full-size platform, more accurate than the Carbine at distance.",
-    "ogDescription": "The Kozlov KZ-59 in GTA 6: the full-size platform, more accurate than the Carbine at distance.",
+    "description": "Kozlov KZ-59 in GTA 6: where to buy it and where to find the Drug Mule KZ-59 and 3 more unique versions.",
+    "ogDescription": "Kozlov KZ-59 in GTA 6: where to buy it and where to find the Drug Mule KZ-59 and 3 more unique versions.",
     "ogImagePlaceholder": "standard-assault-rifle-gta-6-weapon.jpg",
     "jsonLdHeadline": "Kozlov KZ-59 - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Kozlov KZ-59 in GTA 6: the full-size platform, more accurate than the Carbine at distance.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Kozlov KZ-59 in GTA 6: where to buy it and where to find the Drug Mule KZ-59 and 3 more unique versions.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Heavier than the carbine. More accurate at distance. **Slower to move with.** The standard assault rifle is the correct answer to a specific set of questions. Know which questions.",
   "statBlock": [
@@ -35,6 +35,16 @@
     {
       "key": "Construction",
       "value": "Steel / Polymer, Fixed Stock"
+    },
+    {
+      "key": "Where to Buy",
+      "value": "Ammu-Nation",
+      "sub": "Standard stock, so most branches carry it. There are 26 stores across Leonida."
+    },
+    {
+      "key": "Unique Versions",
+      "value": "4",
+      "sub": "Drug Mule KZ-59, La Polilla Negra KZ-59, Marabunta Grande KZ-59, San4San KZ-59."
     }
   ],
   "gallery": [],
@@ -121,3 +131,5 @@ The difference between the carbine and the standard assault rifle is meaningful 
 Leonida Cartel heavy units carry this over the carbine in operations where defensive positions need to be held at distance. The longer barrel provides the accuracy advantage that justifies the added weight and reduced maneuverability.
 
 **For the protagonists it is the step up when the carbine is insufficient.** Not a default weapon. The choice made when the carbine has been assessed and found to be the wrong answer for a specific situation.
+
+Unique versions: four are worth the detour. Find the **Drug Mule KZ-59** on the seabed by a sunken boat off the north coast of the Riquezas Keys; the **La Polilla Negra KZ-59** at the Palmer Fishing Warehouse Illegal Operation in Watson Bay; the **Marabunta Grande KZ-59** at the Nova Auto Junkyard Illegal Operation in [Hamlet](/gameplay/locations/hamlet); and the **San4San KZ-59** at the Janjak's Garage Illegal Operation in La Perle.

@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "Combat Knife | GTA 6 Weapon Profile | GTAVITIPS",
-    "description": "The Combat Knife in GTA 6: a silent blade with no sound signature, carried by both protagonists and Leonida Cartel.",
-    "ogDescription": "The Combat Knife in GTA 6: a silent blade with no sound signature, carried by both protagonists and Leonida Cartel.",
+    "description": "Combat Knife in GTA 6: how it handles and where to find the unique Soldier's Combat Knife.",
+    "ogDescription": "Combat Knife in GTA 6: how it handles and where to find the unique Soldier's Combat Knife.",
     "ogImagePlaceholder": "knife-gta-6-weapon.jpg",
     "jsonLdHeadline": "Combat Knife - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Combat Knife in GTA 6: a silent blade with no sound signature, carried by both protagonists and Leonida Cartel.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Combat Knife in GTA 6: how it handles and where to find the unique Soldier's Combat Knife.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "No muzzle flash. No sound signature. **The only weapon that leaves without announcing itself.** When silence is the operational requirement, everything else is the wrong choice.",
   "statBlock": [
@@ -30,6 +30,11 @@
     {
       "key": "Construction",
       "value": "Steel / Polymer Handle"
+    },
+    {
+      "key": "Unique Versions",
+      "value": "1",
+      "sub": "Soldier's Combat Knife."
     }
   ],
   "gallery": [],
@@ -116,3 +121,5 @@ The knife is the choice when the operation requires no sound. No ejected casings
 Leonida Cartel operatives carry blades as a secondary alongside firearms. The operational logic is consistent: for situations where a firearm would create problems the knife does not, the knife is the answer.
 
 **It does not advertise.** Every other weapon in the arsenal announces itself the moment it appears. The knife is already there before the subject of its use understands the situation has changed.
+
+Unique versions: one is worth the detour. Find the **Soldier's Combat Knife** inside a half-sunken tank between Bobcat Bight and Bobcat Key.

@@ -5,13 +5,13 @@
     "Carbonizzare"
   ],
   "seo": {
-    "title": "Grotti Carbonizzare | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Grotti Carbonizzare in GTA 6. Italian mid-engine exotic. The Ferrari 458 of Leonida.",
-    "ogDescription": "Grotti Carbonizzare in GTA 6. Italian mid-engine exotic. The Ferrari 458 of Leonida.",
+    "title": "Grotti Carbonizzare Location | GTA 6 Vehicle | GTAVITIPS",
+    "description": "Grotti Carbonizzare in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
+    "ogDescription": "Grotti Carbonizzare in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
     "ogImagePlaceholder": "grotti-carbonizzare-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Grotti Carbonizzare - GTA 6 Vehicle",
-    "jsonLdDescription": "The Grotti Carbonizzare is a exotic in GTA 6 Leonida. Italian sports car based on the Ferrari 458.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Grotti Carbonizzare in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Mid-engine Italian exotic. **The Carbonizzare is the entry point into Grotti ownership in Leonida and still one of the fastest cars on [Vice City](/gameplay/locations/vice-city)'s coastal roads.**",
   "statBlock": [
@@ -31,6 +31,11 @@
       "key": "Handling",
       "value": "RWD Mid-Engine",
       "sub": "Rear-wheel drive. The handling balance that rewards commitment through corners on [Vice City](/gameplay/locations/vice-city)'s coastal roads."
+    },
+    {
+      "key": "How to Get",
+      "value": "Randy's Wish List",
+      "sub": "Opens in Chapter 3. Clone the key, deliver to Randy at Leonida Auto World."
     }
   ],
   "gallery": [],
@@ -96,6 +101,6 @@
 ---
 The Carbonizzare is the everyday Grotti. Which is a sentence that only makes sense in [Vice City](/gameplay/locations/vice-city), where a mid-engine Italian sports car with a V8 and a body made largely of carbon fibre is the accessible option. It is accessible compared to the Furia. Nothing else in Leonida provides that comparison.
 
-The mid-engine layout puts the weight where the handling theory says it should be. The rear-wheel drive means the power goes to the back wheels and the driver manages the consequences at the limit. **At speed on the Vice City coast road the Carbonizzare does what a car in this position should do: it communicates exactly what it is doing before it does it.**
+It is a target on **Randy's Wish List**, the board of rare cars Randy Kozlov wants delivered to Leonida Auto World in Vice City. The board opens in Chapter 3.
 
-The sound at full throttle is the marketing that Ferrari has never needed to commission separately. The Carbonizzare produces it without modification.
+Most cars on the board carry a tracker, so keep moving until it is in Randy's garage. He pays for condition: a clean delivery earns a $10,000 bonus, so fix any damage at a gas station on the way in.

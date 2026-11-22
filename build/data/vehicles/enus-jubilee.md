@@ -5,13 +5,13 @@
     "Jubilee"
   ],
   "seo": {
-    "title": "Enus Jubilee | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Enus Jubilee in GTA 6. Rolls-Royce Ghost / Silver Shadow profile. The ultra-luxury car of Vice City.",
-    "ogDescription": "Enus Jubilee in GTA 6. Rolls-Royce Ghost / Silver Shadow profile. The ultra-luxury car of Vice City.",
+    "title": "Jubilee Location | GTA 6 Vehicle | GTAVITIPS",
+    "description": "The Jubilee in GTA 6: where it parks at the mansions of Capri, how to steal it for Randy's Wish List, and the Rolls-Royce behind it.",
+    "ogDescription": "The Jubilee in GTA 6: where it parks at the mansions of Capri, how to steal it for Randy's Wish List, and the Rolls-Royce behind it.",
     "ogImagePlaceholder": "enus-jubilee-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Enus Jubilee - GTA 6 Vehicle",
-    "jsonLdDescription": "The Enus Jubilee is a ultra-luxury car in GTA 6 Leonida. Based on the Rolls-Royce Ghost.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "The Jubilee in GTA 6: where it parks at the mansions of Capri, how to steal it for Randy's Wish List, and the Rolls-Royce behind it.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "The Rolls-Royce of Leonida. **The car where the specification includes a chauffeur as a standard equipment item and the price does not appear in the brochure because the brochure is not for you.**",
   "statBlock": [
@@ -31,6 +31,11 @@
       "key": "Handling",
       "value": "RWD Ultra-Luxury",
       "sub": "Rear-wheel drive, air suspension, and the refinement that costs significantly more than performance."
+    },
+    {
+      "key": "How to Get",
+      "value": "Randy's Wish List",
+      "sub": "Opens in Chapter 3. Clone the key in Capri, deliver to Randy at Leonida Auto World."
     }
   ],
   "gallery": [],
@@ -58,6 +63,12 @@
       "type": "Location",
       "name": "Ocean Beach",
       "desc": "Where the Jubilee parks."
+    },
+    {
+      "url": "/gameplay/locations/capri",
+      "type": "Location",
+      "name": "Capri",
+      "desc": "The rich side of Capri, where Jubilees sit in the driveways."
     }
   ],
   "sidebarDatabase": [
@@ -96,6 +107,8 @@
 ---
 The Jubilee is the most expensive car in the [Vice City](/gameplay/locations/vice-city) transport hierarchy. Not the fastest. The most expensive. The distinction is the point. Performance is something the Grotti and Pegassi sell. The Jubilee sells something different: the complete absence of any need to demonstrate anything to anyone.
 
-In Vice City the Jubilee is the car of the cartel senior leadership, the finance sector ownership class, and the specific subset of the tourist economy that arrives by private aviation rather than commercial. **The car communicates that the occupant has moved past the stage of needing the car to communicate anything.**
+It is a target on **Randy's Wish List**, the board of rare cars Randy Kozlov wants delivered to Leonida Auto World in Vice City. The board opens in Chapter 3.
 
-As a mission vehicle the Jubilee marks a specific tier of target or contact. The person who travels in a Jubilee is not a mid-level character. The Jubilee is the vehicle of the people at the top of whatever organization is relevant to the current mission.
+It lives where the money lives: parked at the big houses on the rich side of [Capri](/gameplay/locations/capri). Copy the key with the Key Cloner and drive it out like it is yours.
+
+Most cars on the board carry a tracker, so keep moving until it is in Randy's garage. He pays for condition: a clean delivery earns a $10,000 bonus, so fix any damage at a gas station on the way in.

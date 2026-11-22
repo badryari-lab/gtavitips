@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "AdB FRA (Battle Rifle) | GTA 6 Weapon | GTAVITIPS",
-    "description": "The AdB FRA in GTA 6: punches through cover that stops standard rifle rounds, used in Leonida Cartel operations.",
-    "ogDescription": "The AdB FRA in GTA 6: punches through cover that stops standard rifle rounds, used in Leonida Cartel operations.",
+    "description": "AdB FRA in GTA 6: where to buy it and where to find the Guardia Brothers FRA.",
+    "ogDescription": "AdB FRA in GTA 6: where to buy it and where to find the Guardia Brothers FRA.",
     "ogImagePlaceholder": "heavy-rifle-gta-6-weapon.jpg",
     "jsonLdHeadline": "AdB FRA - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The AdB FRA in GTA 6: punches through cover that stops standard rifle rounds, used in Leonida Cartel operations.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "AdB FRA in GTA 6: where to buy it and where to find the Guardia Brothers FRA.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "The cover other rifles respect, this one punches through. **Vehicle doors, reinforced positions, surface material that stops a carbine round.** The heavy rifle treats these as suggestions.",
   "statBlock": [
@@ -35,6 +35,16 @@
     {
       "key": "Construction",
       "value": "Steel, Heavy Barrel"
+    },
+    {
+      "key": "Where to Buy",
+      "value": "Ammu-Nation",
+      "sub": "Standard stock, so most branches carry it. There are 26 stores across Leonida."
+    },
+    {
+      "key": "Unique Versions",
+      "value": "1",
+      "sub": "Guardia Brothers FRA."
     }
   ],
   "gallery": [],
@@ -121,3 +131,5 @@ The heavy rifle is the answer to the problem of cover. In Leonida, cover is ever
 A round from this platform passing through a car door does not stop at the door. A round passing through a concrete block surface loses energy but retains enough to be decisive. The operational implication is that positions which feel secure against standard rifle fire are not secure against this.
 
 **It is not a spray weapon. It is a precision platform.** Controlled fire. Single shots or short bursts. The operators who carry it are not suppressing. They are eliminating specific threats at specific positions behind specific cover.
+
+Unique versions: one is worth the detour. Find the **Guardia Brothers FRA** at the Casa Guardia Illegal Operation in [Little Cuba](/gameplay/locations/little-cuba).

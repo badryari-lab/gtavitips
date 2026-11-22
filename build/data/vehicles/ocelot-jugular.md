@@ -5,13 +5,13 @@
     "Jugular"
   ],
   "seo": {
-    "title": "Ocelot Jugular | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Ocelot Jugular in GTA 6. British executive sedan. Jaguar XJ profile. The understated alternative to German luxury in Vice City.",
-    "ogDescription": "Ocelot Jugular in GTA 6. British executive sedan. Jaguar XJ profile. The understated alternative to German luxury in Vice City.",
+    "title": "Ocelot Jugular Location | GTA 6 Vehicle | GTAVITIPS",
+    "description": "Ocelot Jugular in GTA 6: where it parks outside Bite on Atlantic Avenue, how to steal it for Randy's Wish List, and the Jaguar behind it.",
+    "ogDescription": "Ocelot Jugular in GTA 6: where it parks outside Bite on Atlantic Avenue, how to steal it for Randy's Wish List, and the Jaguar behind it.",
     "ogImagePlaceholder": "ocelot-jugular-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Ocelot Jugular - GTA 6 Vehicle",
-    "jsonLdDescription": "The Ocelot Jugular is a executive sedan in GTA 6 Leonida. Based on the Jaguar XJ.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Ocelot Jugular in GTA 6: where it parks outside Bite on Atlantic Avenue, how to steal it for Randy's Wish List, and the Jaguar behind it.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "British executive luxury. **The Jugular says the same things as the German alternatives but says them quietly, which in [Vice City](/gameplay/locations/vice-city) is the more expensive option.**",
   "statBlock": [
@@ -31,6 +31,11 @@
       "key": "Handling",
       "value": "RWD Executive",
       "sub": "Rear-wheel drive, long wheelbase. The handling of a large car that drives smaller than its dimensions suggest."
+    },
+    {
+      "key": "How to Get",
+      "value": "Randy's Wish List",
+      "sub": "Opens in Chapter 3. Clone the key outside Bite on Atlantic Avenue, deliver to Randy at Leonida Auto World."
     }
   ],
   "gallery": [],
@@ -96,6 +101,8 @@
 ---
 The Jugular is the Ocelot executive sedan. Large, refined, and rear-wheel drive. The XJ profile communicates wealth the same way all Ocelot vehicles do: by being obviously expensive to people who know what expensive looks like and invisible to everyone else.
 
-In [Vice City](/gameplay/locations/vice-city) the Jugular is the car of the lawyer who has been in Vice City long enough that they no longer need the car to introduce them. The financial sector presence, the person with the corner office that overlooks the water. **The Jugular carries them to and from without generating the attention that a Grotti or Pegassi requires as the price of ownership.**
+It is a target on **Randy's Wish List**, the board of rare cars Randy Kozlov wants delivered to Leonida Auto World in Vice City. The board opens in Chapter 3.
 
-The rear-wheel drive means the Jugular handles differently from the German competition. More rear weight, slightly more rotation available at the limit. For a large executive car this characteristic is rarely relevant. For the specific moments when it is, the Ocelot driver knows it is there.
+Look outside Bite on Atlantic Avenue, the shop near Easy Electronics just north of Ocean Beach. Copy the key with the Key Cloner and drive it straight to Randy.
+
+Most cars on the board carry a tracker, so keep moving until it is in Randy's garage. He pays for condition: a clean delivery earns a $10,000 bonus, so fix any damage at a gas station on the way in.

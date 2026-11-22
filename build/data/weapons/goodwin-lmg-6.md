@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "Goodwin LMG 6 (Light Machine Gun) | GTA 6 Weapon | GTAVITIPS",
-    "description": "The Goodwin LMG 6 in GTA 6: a high-capacity suppression platform, used by N.O.O.S.E. and the Leonida Cartel.",
-    "ogDescription": "The Goodwin LMG 6 in GTA 6: a high-capacity suppression platform, used by N.O.O.S.E. and the Leonida Cartel.",
+    "description": "Goodwin LMG 6 in GTA 6: where to buy it and where to find the Mercenary LMG 6.",
+    "ogDescription": "Goodwin LMG 6 in GTA 6: where to buy it and where to find the Mercenary LMG 6.",
     "ogImagePlaceholder": "light-machine-gun-gta-6-weapon.jpg",
     "jsonLdHeadline": "Goodwin LMG 6 - GTA 6 Weapon Profile",
-    "jsonLdDescription": "The Goodwin LMG 6 in GTA 6: a high-capacity suppression platform, used by N.O.O.S.E. and the Leonida Cartel.",
-    "dateModified": "2026-11-20"
+    "jsonLdDescription": "Goodwin LMG 6 in GTA 6: where to buy it and where to find the Mercenary LMG 6.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Not accurate. Not subtle. **The magazine holds enough ammunition to make both of those facts irrelevant for the duration of the engagement.**",
   "statBlock": [
@@ -35,6 +35,16 @@
     {
       "key": "Construction",
       "value": "Steel, Belt or Box Fed"
+    },
+    {
+      "key": "Where to Buy",
+      "value": "Ammu-Nation",
+      "sub": "Expanded stock only. The smaller branches do not carry it. There are 26 stores across Leonida."
+    },
+    {
+      "key": "Unique Versions",
+      "value": "1",
+      "sub": "Mercenary LMG 6."
     }
   ],
   "gallery": [],
@@ -121,3 +131,5 @@ The light machine gun is a suppression tool. It does not fire precision shots. I
 **The operational use case is holding ground, covering an extraction, or denying a position.** Not taking one. The weight and feed system make aggressive movement difficult. Static deployment is the intended application.
 
 In [Vice County](/gameplay/locations/vice-county) it appears at the heavy end of criminal operations and in N.O.O.S.E. tactical loadouts. When either of those appears in an engagement, the situation has already escalated past the point where a carbine resolves it.
+
+Unique versions: one is worth the detour. Find the **Mercenary LMG 6** in a Scoop shipping container in the Port Vice City cargo yard.
