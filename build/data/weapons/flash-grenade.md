@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "flashbang-gta-6-weapon.jpg",
     "jsonLdHeadline": "Flash Bang - GTA 6 Weapon Profile",
     "jsonLdDescription": "The Flash Grenade in GTA 6: temporary disorientation without fatality, used in entry and extraction operations across Vice County.",
-    "dateModified": "2026-11-20"
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "It does not kill. **It buys seconds.** In Leonida, seconds are currency. The flashbang spends them wisely.",
   "statBlock": [
@@ -33,26 +33,7 @@
     }
   ],
   "gallery": [],
-  "connections": [
-    {
-      "url": "/gameplay/gangs-and-factions/vcpd",
-      "type": "Faction",
-      "name": "VCPD",
-      "desc": "Standard crowd-control and entry tool for the department."
-    },
-    {
-      "url": "/gameplay/gangs-and-factions/vice-county-swat",
-      "type": "Faction",
-      "name": "Vice County SWAT",
-      "desc": "Entry-team staple before a room gets cleared."
-    },
-    {
-      "url": "/gameplay/characters/lucia-caminos",
-      "type": "Character",
-      "name": "Lucia Caminos",
-      "desc": "Keeps one on hand for getting out of a room, not just into one."
-    }
-  ],
+  "connections": [],
   "faq": [
     {
       "q": "How does the Flash Grenade work tactically?",

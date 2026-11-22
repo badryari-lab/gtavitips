@@ -126,13 +126,13 @@ ${renderStatBlock(statBlock, gallery, 'Weapon stats')}
             <h2 class="section__h2" id="assessment-hd">Field <span style="color:var(--blue)">Assessment</span></h2>
             <div class="section__body">${entry.proseHtml}</div>
           </section>
-
+${connections && connections.length ? `
           <section class="section reveal" aria-labelledby="related-hd">
             <h2 class="section__h2" id="related-hd">Also <span style="color:var(--blue)">Carried</span></h2>
             <div class="connected-grid" role="list">
               ${renderConnectionsGrid(connections)}
             </div>
-          </section>
+          </section>` : ''}
 ${faqHtml}
         </div>
 ${renderSidebar('Weapon Database', sidebarDatabase, sidebarExplore, 'Weapon navigation')}
