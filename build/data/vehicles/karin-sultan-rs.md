@@ -65,9 +65,9 @@
       "desc": "Hypercar-tier competition from further up the price range."
     },
     {
-      "url": "/gameplay/vehicles/grotti-furia",
+      "url": "/gameplay/vehicles/piccia-furia",
       "type": "Vehicle",
-      "name": "Grotti Furia",
+      "name": "Piccia Furia",
       "desc": "Another AWD-adjacent performance build, different pedigree entirely."
     }
   ],

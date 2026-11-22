@@ -5,10 +5,10 @@
   ],
   "seo": {
     "title": "Gallivanter | GTA 6 Brand Profile | GTAVITIPS",
-    "description": "Gallivanter in GTA 6: a British luxury SUV manufacturer in Leonida, maker of the Baller and Baller ST. Built for school runs that cost more than the school.",
-    "ogDescription": "Gallivanter in GTA 6: a British luxury SUV manufacturer in Leonida, maker of the Baller and Baller ST. Built for school runs that cost more than the school.",
+    "description": "Gallivanter in GTA 6: a British luxury SUV manufacturer in Leonida, maker of the Baller and Baller ST-D. Built for school runs that cost more than the school.",
+    "ogDescription": "Gallivanter in GTA 6: a British luxury SUV manufacturer in Leonida, maker of the Baller and Baller ST-D. Built for school runs that cost more than the school.",
     "jsonLdHeadline": "Gallivanter - GTA 6 Brand Profile",
-    "jsonLdDescription": "Gallivanter in GTA 6: a British luxury SUV manufacturer in Leonida, maker of the Baller and Baller ST. Built for school runs that cost more than the school.",
+    "jsonLdDescription": "Gallivanter in GTA 6: a British luxury SUV manufacturer in Leonida, maker of the Baller and Baller ST-D. Built for school runs that cost more than the school.",
     "dateModified": "2026-02-01"
   },
   "heroBadge": "Vehicle Manufacturer",
@@ -18,7 +18,7 @@
     {
       "key": "Product Range",
       "value": "Luxury SUVs",
-      "sub": "The Baller and the Baller ST. Both confirmed in Leonida. Neither has seen significant off-road use. The capability is purchased. The mud is not."
+      "sub": "The Baller and the Baller ST-D. Both confirmed in Leonida. Neither has seen significant off-road use. The capability is purchased. The mud is not."
     },
     {
       "key": "Market Position",
@@ -84,8 +84,8 @@
           "label": "Baller"
         },
         {
-          "url": "/gameplay/vehicles/gallivanter-baller-st",
-          "label": "Baller ST"
+          "url": "/gameplay/vehicles/gallivanter-baller-st-d",
+          "label": "Baller ST-D"
         }
       ]
     },
@@ -124,6 +124,6 @@
 ---
 The Gallivanter Baller is [Vice City](/gameplay/locations/vice-city)'s default status vehicle for anyone between their first significant payday and their second. It communicates money without communicating the specific source of that money. In Leonida, that ambiguity has market value.
 
-The Baller ST is the performance variant. Higher specification, faster, and driven by the same clientele who simply have a larger budget for the same statement. **Both models are confirmed across multiple scenes in official footage, appearing in both Vice City and the surrounding county.**
+The Baller ST-D is the performance variant. Higher specification, faster, and driven by the same clientele who simply have a larger budget for the same statement. **Both models are confirmed across multiple scenes in official footage, appearing in both Vice City and the surrounding county.**
 
 The off-road capability is factory standard. No Gallivanter Baller in Leonida has used it for its intended purpose. That is also true in the real world.

@@ -79,9 +79,9 @@
       "desc": "The later interpretation of the same nameplate. Different era, different character."
     },
     {
-      "url": "/gameplay/vehicles/grotti-furia",
+      "url": "/gameplay/vehicles/piccia-furia",
       "type": "Vehicle",
-      "name": "Grotti Furia",
+      "name": "Piccia Furia",
       "desc": "Fellow Grotti flagship, further up the lineup."
     },
     {

@@ -41,9 +41,9 @@
   "gallery": [],
   "connections": [
     {
-      "url": "/gameplay/vehicles/grotti-furia",
+      "url": "/gameplay/vehicles/piccia-furia",
       "type": "Exotic",
-      "name": "Grotti Furia",
+      "name": "Piccia Furia",
       "desc": "The hypercar tier above the Carbonizzare."
     },
     {

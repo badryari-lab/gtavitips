@@ -1,16 +1,16 @@
 {
-  "slug": "gallivanter-baller-st",
+  "slug": "gallivanter-baller-st-d",
   "titleParts": [
-    "Gallivanter Baller",
-    "ST"
+    "Gallivanter",
+    "Baller ST-D"
   ],
   "seo": {
-    "title": "Gallivanter Baller ST Location | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Gallivanter Baller ST in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
-    "ogDescription": "Gallivanter Baller ST in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
+    "title": "Gallivanter Baller ST-D Location | GTA 6 Vehicle | GTAVITIPS",
+    "description": "Gallivanter Baller ST-D in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
+    "ogDescription": "Gallivanter Baller ST-D in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
     "ogImagePlaceholder": "gallivanter-baller-st-gta-6-vehicle.jpg",
-    "jsonLdHeadline": "Gallivanter Baller ST - GTA 6 Vehicle",
-    "jsonLdDescription": "Gallivanter Baller ST in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
+    "jsonLdHeadline": "Gallivanter Baller ST-D - GTA 6 Vehicle",
+    "jsonLdDescription": "Gallivanter Baller ST-D in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
     "dateModified": "2026-11-22"
   },
   "heroSubtitle": "The Sport variant. **Lower, faster, and the Range Rover for the person who wants the Baller's presence but the Sport's dynamics.**",
@@ -99,7 +99,7 @@
   ]
 }
 ---
-The Baller ST is the Sport trim. Lower than the standard Baller, wider stance, and with the V8 supercharged calibration that makes the performance SUV formula work. The Range Rover Sport SVR is one of the faster large SUVs on a track, and the Baller ST carries that performance into the Leonida context.
+The Baller ST-D is the Sport trim. Lower than the standard Baller, wider stance, and with the V8 supercharged calibration that makes the performance SUV formula work. The Range Rover Sport SVR is one of the faster large SUVs on a track, and the Baller ST-D carries that performance into the Leonida context.
 
 It is a target on **Randy's Wish List**, the board of rare cars Randy Kozlov wants delivered to Leonida Auto World in Vice City. The board opens in Chapter 3.
 

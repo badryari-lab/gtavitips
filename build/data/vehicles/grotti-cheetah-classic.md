@@ -42,9 +42,9 @@
       "desc": "The modern Grotti sports car."
     },
     {
-      "url": "/gameplay/vehicles/grotti-furia",
+      "url": "/gameplay/vehicles/piccia-furia",
       "type": "Hypercar",
-      "name": "Grotti Furia",
+      "name": "Piccia Furia",
       "desc": "The current hypercar from Grotti."
     },
     {

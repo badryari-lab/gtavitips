@@ -53,9 +53,9 @@
       "desc": "The German alternative."
     },
     {
-      "url": "/gameplay/vehicles/enus-jubilee",
+      "url": "/gameplay/vehicles/buckingham-jubilee",
       "type": "Luxury Sedan",
-      "name": "Enus Jubilee",
+      "name": "Buckingham Jubilee",
       "desc": "The ultra-luxury option above the Jugular."
     },
     {

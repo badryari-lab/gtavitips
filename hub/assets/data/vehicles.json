@@ -55,10 +55,10 @@
           "desc": "Heritage Italian performance."
         },
         {
-          "url": "/gameplay/vehicles/grotti-furia",
+          "url": "/gameplay/vehicles/piccia-furia",
           "label": "Super",
           "color": "#ff8042",
-          "name": "Grotti Furia",
+          "name": "Piccia Furia",
           "desc": "Grotti's flagship hypercar for Leonida."
         },
         {
@@ -125,11 +125,11 @@
           "desc": "Geometric bodywork. Aggressive AWD. Vice City apex predator on tarmac."
         },
         {
-          "url": "/gameplay/vehicles/pegassi-zurrusso",
+          "url": "/gameplay/vehicles/pegassi-zorrusso",
           "label": "Super",
           "color": "#ff8042",
-          "name": "Pegassi Zurrusso",
-          "desc": "Pegassi's second super entry in Leonida."
+          "name": "Pegassi Zorrusso",
+          "desc": "The supercar behind Randy's first job."
         },
         {
           "url": "/gameplay/vehicles/pfister-comet-2",
@@ -300,10 +300,10 @@
           "desc": "Full-size pickup."
         },
         {
-          "url": "/gameplay/vehicles/enus-jubilee",
+          "url": "/gameplay/vehicles/buckingham-jubilee",
           "label": "SUV",
           "color": "#fcd34d",
-          "name": "Enus Jubilee",
+          "name": "Buckingham Jubilee",
           "desc": "Luxury SUV. Vice City and cartel logistics alike."
         },
         {
@@ -314,10 +314,10 @@
           "desc": "Mid-range luxury SUV."
         },
         {
-          "url": "/gameplay/vehicles/gallivanter-baller-st",
+          "url": "/gameplay/vehicles/gallivanter-baller-st-d",
           "label": "SUV",
           "color": "#fcd34d",
-          "name": "Gallivanter Baller ST",
+          "name": "Gallivanter Baller ST-D",
           "desc": "Sport-tuned Baller."
         },
         {

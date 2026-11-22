@@ -42,9 +42,9 @@
       "desc": "The sport configuration."
     },
     {
-      "url": "/gameplay/vehicles/enus-jubilee",
+      "url": "/gameplay/vehicles/buckingham-jubilee",
       "type": "Luxury Sedan",
-      "name": "Enus Jubilee",
+      "name": "Buckingham Jubilee",
       "desc": "The Rolls-Royce equivalent above it."
     },
     {

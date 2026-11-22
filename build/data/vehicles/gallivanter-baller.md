@@ -36,15 +36,15 @@
   "gallery": [],
   "connections": [
     {
-      "url": "/gameplay/vehicles/gallivanter-baller-st",
+      "url": "/gameplay/vehicles/gallivanter-baller-st-d",
       "type": "Performance SUV",
-      "name": "Gallivanter Baller ST",
+      "name": "Gallivanter Baller ST-D",
       "desc": "The Sport performance variant."
     },
     {
-      "url": "/gameplay/vehicles/enus-jubilee",
+      "url": "/gameplay/vehicles/buckingham-jubilee",
       "type": "Ultra-Luxury",
-      "name": "Enus Jubilee",
+      "name": "Buckingham Jubilee",
       "desc": "The vehicle above the Baller in the hierarchy."
     },
     {

@@ -36,16 +36,16 @@
   "gallery": [],
   "connections": [
     {
-      "url": "/gameplay/vehicles/grotti-furia",
+      "url": "/gameplay/vehicles/piccia-furia",
       "type": "Hypercar",
-      "name": "Grotti Furia",
+      "name": "Piccia Furia",
       "desc": "The Italian competition. Grotti versus Pegassi."
     },
     {
-      "url": "/gameplay/vehicles/pegassi-zurrusso",
-      "type": "Motorcycle",
-      "name": "Pegassi Zurrusso",
-      "desc": "The Pegassi bike."
+      "url": "/gameplay/vehicles/pegassi-zorrusso",
+      "type": "Supercar",
+      "name": "Pegassi Zorrusso",
+      "desc": "The other Pegassi supercar, the one Randy wants first."
     },
     {
       "url": "/gameplay/vehicles/pfister-astron",

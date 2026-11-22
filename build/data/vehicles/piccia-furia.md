@@ -1,15 +1,15 @@
 {
-  "slug": "grotti-furia",
+  "slug": "piccia-furia",
   "titleParts": [
-    "Grotti",
+    "Piccia",
     "Furia"
   ],
   "seo": {
-    "title": "Furia Location | GTA 6 Vehicle | GTAVITIPS",
+    "title": "Piccia Furia Location | GTA 6 Vehicle | GTAVITIPS",
     "description": "The Furia in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
     "ogDescription": "The Furia in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
     "ogImagePlaceholder": "grotti-furia-gta-6-vehicle.jpg",
-    "jsonLdHeadline": "Grotti Furia - GTA 6 Vehicle",
+    "jsonLdHeadline": "Piccia Furia - GTA 6 Vehicle",
     "jsonLdDescription": "The Furia in GTA 6: a target on Randy's Wish List. How to steal it with the Key Cloner and what Randy pays for a clean delivery.",
     "dateModified": "2026-11-22"
   },
@@ -17,8 +17,8 @@
   "statBlock": [
     {
       "key": "Brand",
-      "value": "Grotti",
-      "sub": "Grotti's flagship hypercar. Everything else in the lineup exists to justify why this car costs what it costs."
+      "value": "Piccia",
+      "sub": "The hypercar maker behind the Furia."
     },
     {
       "key": "Real-World Counterpart",
@@ -57,12 +57,6 @@
       "type": "SUV",
       "name": "Pfister Astron",
       "desc": "Pfister's SUV. A different kind of fast."
-    },
-    {
-      "url": "/gameplay/brands/grotti",
-      "type": "Brand",
-      "name": "Grotti",
-      "desc": "The manufacturer."
     }
   ],
   "sidebarDatabase": [
@@ -99,7 +93,7 @@
   ]
 }
 ---
-The Furia is the answer to what happens when Grotti removes all constraints from an engineering brief. The result is a car that costs significantly more than the next most expensive thing in its class and performs commensurately. **The hybrid system adds the electric torque that the combustion engine cannot produce at low revs.** The result is acceleration that removes the concept of a gap between the light going green and the car being somewhere else.
+The Furia is the answer to what happens when Piccia removes all constraints from an engineering brief. The result is a car that costs significantly more than the next most expensive thing in its class and performs commensurately. **The hybrid system adds the electric torque that the combustion engine cannot produce at low revs.** The result is acceleration that removes the concept of a gap between the light going green and the car being somewhere else.
 
 It is a target on **Randy's Wish List**, the board of rare cars Randy Kozlov wants delivered to Leonida Auto World in Vice City. The board opens in Chapter 3.
 

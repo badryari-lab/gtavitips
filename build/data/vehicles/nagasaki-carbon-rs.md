@@ -42,10 +42,10 @@
       "desc": "The Honda/Kawasaki equivalent."
     },
     {
-      "url": "/gameplay/vehicles/pegassi-zurrusso",
-      "type": "Superbike",
-      "name": "Pegassi Zurrusso",
-      "desc": "The Ducati alternative."
+      "url": "/gameplay/vehicles/pegassi-zorrusso",
+      "type": "Supercar",
+      "name": "Pegassi Zorrusso",
+      "desc": "A Pegassi supercar, not a bike. Randy's first job."
     },
     {
       "url": "/gameplay/brands/nagasaki",

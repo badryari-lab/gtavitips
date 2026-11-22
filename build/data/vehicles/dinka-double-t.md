@@ -42,10 +42,10 @@
       "desc": "The Kawasaki alternative."
     },
     {
-      "url": "/gameplay/vehicles/pegassi-zurrusso",
-      "type": "Superbike",
-      "name": "Pegassi Zurrusso",
-      "desc": "The Italian superbike."
+      "url": "/gameplay/vehicles/pegassi-zorrusso",
+      "type": "Supercar",
+      "name": "Pegassi Zorrusso",
+      "desc": "The Pegassi supercar. Two more wheels, same hurry."
     },
     {
       "url": "/gameplay/vehicles/western-nightblade",

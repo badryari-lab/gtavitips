@@ -1,15 +1,15 @@
 {
-  "slug": "enus-jubilee",
+  "slug": "buckingham-jubilee",
   "titleParts": [
-    "Enus",
+    "Buckingham",
     "Jubilee"
   ],
   "seo": {
-    "title": "Jubilee Location | GTA 6 Vehicle | GTAVITIPS",
+    "title": "Buckingham Jubilee Location | GTA 6 Vehicle | GTAVITIPS",
     "description": "The Jubilee in GTA 6: where it parks at the mansions of Capri, how to steal it for Randy's Wish List, and the Rolls-Royce behind it.",
     "ogDescription": "The Jubilee in GTA 6: where it parks at the mansions of Capri, how to steal it for Randy's Wish List, and the Rolls-Royce behind it.",
     "ogImagePlaceholder": "enus-jubilee-gta-6-vehicle.jpg",
-    "jsonLdHeadline": "Enus Jubilee - GTA 6 Vehicle",
+    "jsonLdHeadline": "Buckingham Jubilee - GTA 6 Vehicle",
     "jsonLdDescription": "The Jubilee in GTA 6: where it parks at the mansions of Capri, how to steal it for Randy's Wish List, and the Rolls-Royce behind it.",
     "dateModified": "2026-11-22"
   },
@@ -17,20 +17,20 @@
   "statBlock": [
     {
       "key": "Brand",
-      "value": "Enus",
-      "sub": "GTA's Rolls-Royce equivalent. Enus builds the ultra-luxury vehicles that occupy the top of the [Vice City](/gameplay/locations/vice-city) transport hierarchy."
+      "value": "Buckingham",
+      "sub": "Buckingham builds the Jubilee, its ultra-luxury SUV."
     },
     {
       "key": "Real-World Counterpart",
-      "value": "Rolls-Royce Ghost / Silver Shadow",
-      "sub": "The long-wheelbase ultra-luxury profile. The Spirit of Ecstasy optional on this GTA equivalent.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Ghost",
-      "wikiLabel": "Rolls-Royce Ghost"
+      "value": "Rolls-Royce Cullinan",
+      "sub": "The Rolls-Royce that went off-road, or at least looks like it could.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Cullinan",
+      "wikiLabel": "Rolls-Royce Cullinan"
     },
     {
       "key": "Handling",
-      "value": "RWD Ultra-Luxury",
-      "sub": "Rear-wheel drive, air suspension, and the refinement that costs significantly more than performance."
+      "value": "Ultra-Luxury SUV",
+      "sub": "Big, heavy and quiet. Built to arrive, not to race."
     },
     {
       "key": "How to Get",
