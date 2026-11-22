@@ -60,6 +60,12 @@
       "type": "Faction",
       "name": "N.O.O.S.E.",
       "desc": "Standard overwatch hardware for federal operations."
+    },
+    {
+      "url": "/gameplay/gangs-and-factions/kingfishers",
+      "type": "Faction",
+      "name": "Kingfishers",
+      "desc": "Their Kingfishers Laird 350 sits at the Manatee Motel in Gullet Marsh."
     }
   ],
   "faq": [

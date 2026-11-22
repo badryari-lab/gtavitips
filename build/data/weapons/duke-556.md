@@ -72,6 +72,12 @@
       "type": "Faction",
       "name": "Leonida State Police",
       "desc": "Standard-issue for highway and rural patrol units."
+    },
+    {
+      "url": "/gameplay/gangs-and-factions/kolt-and-associates",
+      "type": "Faction",
+      "name": "Kolt &amp; Associates",
+      "desc": "Their Kolt &amp; Associates 556 sits at the Stash House in Port Gellhorn."
     }
   ],
   "faq": [

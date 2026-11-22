@@ -69,6 +69,12 @@
       "type": "Location",
       "name": "Hamlet",
       "desc": "The junkyard east of Boone Speedway where the Hellfire waits for you."
+    },
+    {
+      "url": "/gameplay/gangs-and-factions/m7",
+      "type": "Faction",
+      "name": "M7",
+      "desc": "It sits at the back of their junkyard in Hamlet."
     }
   ],
   "sidebarDatabase": [

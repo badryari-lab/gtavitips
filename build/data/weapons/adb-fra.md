@@ -60,6 +60,12 @@
       "type": "Character",
       "name": "Raul Bautista",
       "desc": "Bank jobs go loud sometimes. A rifle like this is how his crews answer."
+    },
+    {
+      "url": "/gameplay/gangs-and-factions/guardia-brothers",
+      "type": "Faction",
+      "name": "Guardia Brothers",
+      "desc": "Their Guardia Brothers FRA waits inside Casa Guardia."
     }
   ],
   "faq": [

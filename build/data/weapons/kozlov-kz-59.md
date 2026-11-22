@@ -66,6 +66,12 @@
       "type": "Faction",
       "name": "N.O.O.S.E.",
       "desc": "Standard-issue for operations across Leonida."
+    },
+    {
+      "url": "/gameplay/gangs-and-factions/m7",
+      "type": "Faction",
+      "name": "M7",
+      "desc": "Their sites hold the Marabunta Grande KZ-59, at the Nova Auto Junkyard in Hamlet."
     }
   ],
   "faq": [

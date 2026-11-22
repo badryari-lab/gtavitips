@@ -60,6 +60,12 @@
       "type": "Character",
       "name": "Lucia Caminos",
       "desc": "Carries it for situations that need speed over range."
+    },
+    {
+      "url": "/gameplay/gangs-and-factions/m7",
+      "type": "Faction",
+      "name": "M7",
+      "desc": "The Marabunta Grande Type 9 waits at their Weed Grow on Lake Tallaloko."
     }
   ],
   "faq": [

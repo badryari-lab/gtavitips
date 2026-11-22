@@ -10,7 +10,11 @@
         { "url": "/gameplay/gangs-and-factions/final-chapter","label": "Biker",  "color": "#f97316", "name": "Final Chapter","desc": "Ambrosia's biker club. Charity in public, meth in private." },
         { "url": "/gameplay/gangs-and-factions/ptt-youngins",         "label": "Gang",   "color": "#f472b6", "name": "PTT Youngin$",          "desc": "Southside Vice City. Two hideouts, plus a compound in the Ultimate Edition." },
         { "url": "/gameplay/gangs-and-factions/real-dimez",            "label": "Crew",   "color": "#fbbf24", "name": "Real Dimez",            "desc": "Viral music collective. Bae-Lux and Roxy. Vice City nightlife." },
-        { "url": "/gameplay/gangs-and-factions/san-4-san",             "label": "Gang",   "color": "#f472b6", "name": "San4San",               "desc": "Old Vice City crew out of La Perle. Five hideouts." }
+        { "url": "/gameplay/gangs-and-factions/san-4-san",             "label": "Gang",   "color": "#f472b6", "name": "San4San",               "desc": "Old Vice City crew out of La Perle. Five hideouts." },
+        { "url": "/gameplay/gangs-and-factions/kingfishers", "label": "Gang", "color": "#f472b6", "name": "Kingfishers", "desc": "Swamp smugglers. Grassrivers, Cottonmouth Lake, three hideouts." },
+        { "url": "/gameplay/gangs-and-factions/kolt-and-associates", "label": "Gang", "color": "#f472b6", "name": "Kolt & Associates", "desc": "Port Gellhorn painkiller trade. Five hideouts." },
+        { "url": "/gameplay/gangs-and-factions/m7", "label": "Gang", "color": "#f472b6", "name": "M7", "desc": "Salvadoran gang. Hamlet, plus a weed grow up north." },
+        { "url": "/gameplay/gangs-and-factions/guardia-brothers", "label": "Gang", "color": "#f472b6", "name": "Guardia Brothers", "desc": "Cuban crime family. Little Cuba, Casa Guardia." }
       ]
     },
     {

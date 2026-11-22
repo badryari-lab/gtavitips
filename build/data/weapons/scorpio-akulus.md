@@ -66,6 +66,12 @@
       "type": "Weapon",
       "name": "Hawk &amp; Little Morgan Revolvers",
       "desc": "Another revolver. Ultimate Edition, one per protagonist."
+    },
+    {
+      "url": "/gameplay/gangs-and-factions/kingfishers",
+      "type": "Faction",
+      "name": "Kingfishers",
+      "desc": "Their Kingfishers Akulus waits at the Sunrise RV Park."
     }
   ],
   "faq": [
