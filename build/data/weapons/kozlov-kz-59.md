@@ -50,9 +50,9 @@
   "gallery": [],
   "connections": [
     {
-      "url": "/gameplay/gangs-and-factions/leonida-cartel",
+      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
       "type": "Faction",
-      "name": "Leonida Cartel",
+      "name": "La Polilla Negra",
       "desc": "The mid-tier standard for operations that need range without excess weight."
     },
     {
@@ -128,7 +128,7 @@
 ---
 The difference between the carbine and the standard assault rifle is meaningful at range and nearly invisible at close distance. **At [Vice City](/gameplay/locations/vice-city) block ranges the carbine is faster to handle and just as effective.** At distances that approach sniper territory the full-size platform holds accuracy longer.
 
-Leonida Cartel heavy units carry this over the carbine in operations where defensive positions need to be held at distance. The longer barrel provides the accuracy advantage that justifies the added weight and reduced maneuverability.
+La Polilla Negra heavy units carry this over the carbine in operations where defensive positions need to be held at distance. The longer barrel provides the accuracy advantage that justifies the added weight and reduced maneuverability.
 
 **For the protagonists it is the step up when the carbine is insufficient.** Not a default weapon. The choice made when the carbine has been assessed and found to be the wrong answer for a specific situation.
 

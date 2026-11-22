@@ -43,13 +43,13 @@
     {
       "url": "/gameplay/gangs-and-factions/san-4-san",
       "type": "Faction",
-      "name": "San 4 San",
+      "name": "San4San",
       "desc": "Same improvised-arson playbook, different turf."
     },
     {
-      "url": "/gameplay/gangs-and-factions/outlaw-motorcycle-gang",
+      "url": "/gameplay/gangs-and-factions/final-chapter",
       "type": "Faction",
-      "name": "Outlaw Motorcycle Gang",
+      "name": "Final Chapter",
       "desc": "Fits a crew that burns more bridges than it builds."
     }
   ],

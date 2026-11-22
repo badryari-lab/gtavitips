@@ -4,31 +4,35 @@
     "VCPD"
   ],
   "seo": {
-    "title": "VCPD | Vice City Police Department | GTA 6 | GTAVITIPS",
-    "description": "VCPD in GTA 6: the Vice City Police Department, the primary law enforcement presence across every district.",
-    "ogDescription": "VCPD in GTA 6: the Vice City Police Department, the primary law enforcement presence across every district.",
+    "title": "VCPD and the Wanted System | GTA 6 Faction | GTAVITIPS",
+    "description": "The VCPD in GTA 6: how crimes get reported, what the stars and their colours mean, and how to shake Vice City's police.",
+    "ogDescription": "The VCPD in GTA 6: how crimes get reported, what the stars and their colours mean, and how to shake Vice City's police.",
     "ogImagePlaceholder": "vcpd-gta-6-faction.jpg",
     "jsonLdHeadline": "VCPD - GTA 6 Faction Profile",
-    "jsonLdDescription": "VCPD in GTA 6: the Vice City Police Department, the primary law enforcement presence across every district.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "The VCPD in GTA 6: how crimes get reported, what the stars and their colours mean, and how to shake Vice City's police.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "The [Vice City](/gameplay/locations/vice-city) Police Department. **First response, highest density, and the agency that is always already there before anything starts.**",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Agency"
+      "value": "Agency",
+      "sub": "Vice City Police Department."
     },
     {
       "key": "Jurisdiction",
-      "value": "Vice City Municipal"
+      "value": "[Vice City](/gameplay/locations/vice-city)",
+      "sub": "The city force."
     },
     {
-      "key": "Mission",
-      "value": "Municipal Law Enforcement"
+      "key": "Wanted Level",
+      "value": "Up to six stars",
+      "sub": "One star sends a couple of patrol cars. Every star after that sends more."
     },
     {
-      "key": "Response Profile",
-      "value": "Immediate in Tourist Zones"
+      "key": "Reporting",
+      "value": "Witness or alarm",
+      "sub": "No witness, no alarm, no police."
     }
   ],
   "gallery": [],
@@ -92,8 +96,10 @@
   ]
 }
 ---
-The VCPD is the first thing that responds and the agency that sets the tone for every wanted-level interaction in [Vice City](/gameplay/locations/vice-city). They are not the most powerful law enforcement presence in Leonida. They are the most present one. **At any given moment, there is a VCPD unit within a short distance of wherever you are in the city.**
+The VCPD is the police in [Vice City](/gameplay/locations/vice-city). **They only come for crimes they hear about.** A witness has to report it or an alarm has to go off; do it unseen and nobody comes.
 
-The tourist corridor coverage is the operational reality that shapes Vice City gameplay. The [Ocean Beach](/gameplay/locations/ocean-beach) strip and the hotel zone are the most densely patrolled areas in the state. The residential districts behind the beachfront have standard urban coverage. The industrial approaches have lighter presence.
+Once they hear, stars appear. The count says how hard they are looking, up to six. One star is a couple of patrol cars. Every star after that brings more, and only a long spree gets you to the top.
 
-The VCPD reflects the consistent approach to municipal law enforcement:ts: competent at one-star incidents, progressively less able to contain situations as the wanted level rises, and eventually augmented by SWAT, [State Police](/gameplay/gangs-and-factions/leonida-state-police), and [NOOSE](/gameplay/gangs-and-factions/noose) as the escalation proceeds. The VCPD is the bottom of that escalation chain in Vice City and the agency the protagonist spends the most time managing.
+The look of the stars says what they know. Hollow stars: they know a crime happened, not who did it, so walk away calmly. Solid stars: they know who they are looking for. When they lose sight of you the stars flash. The map marks the search area around the crime; get out of it and stay out.
+
+They remember what they saw. Your clothes, your face, your car. A new outfit clears the clothes, a car they have not seen clears the vehicle. Do it out of sight, or they just update the description.

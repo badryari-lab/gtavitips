@@ -6,17 +6,17 @@
   ],
   "seo": {
     "title": "Raymond | GTA 6 Character Profile | GTAVITIPS",
-    "description": "Raymond in GTA 6: the San 4 San crew boss at Venture Apartments in Rockridge, holding the bricks Boobie Ike wants back, and his story behind a click.",
-    "ogDescription": "Raymond in GTA 6: the San 4 San crew boss at Venture Apartments in Rockridge, holding the bricks Boobie Ike wants back, and his story behind a click.",
+    "description": "Raymond in GTA 6: the San4San crew boss at Venture Apartments in Rockridge, holding the bricks Boobie Ike wants back, and his story behind a click.",
+    "ogDescription": "Raymond in GTA 6: the San4San crew boss at Venture Apartments in Rockridge, holding the bricks Boobie Ike wants back, and his story behind a click.",
     "jsonLdName": "Raymond",
-    "jsonLdDescription": "Raymond in GTA 6: the San 4 San crew boss at Venture Apartments in Rockridge, holding the bricks Boobie Ike wants back, and his story behind a click.",
+    "jsonLdDescription": "Raymond in GTA 6: the San4San crew boss at Venture Apartments in Rockridge, holding the bricks Boobie Ike wants back, and his story behind a click.",
     "dateModified": "2026-11-20"
   },
   "heroSubtitle": "Top floor, Venture Apartments. **Ask for him in the lobby and nobody has heard of him.** His partner has gone quiet, and he does not like visitors.",
   "statBlock": [
     {
       "key": "Crew",
-      "value": "[San 4 San](/gameplay/gangs-and-factions/san-4-san)",
+      "value": "[San4San](/gameplay/gangs-and-factions/san-4-san)",
       "sub": "Ray to his people. The men out front know Boobie by name."
     },
     {
@@ -70,7 +70,7 @@
     },
     {
       "url": "/gameplay/gangs-and-factions/san-4-san",
-      "name": "San 4 San",
+      "name": "San4San",
       "desc": "His crew. They hold the building and the lobby.",
       "avatarInitials": "S4"
     }
@@ -88,7 +88,7 @@
   "faq": [
     {
       "q": "Who is Raymond in GTA 6?",
-      "a": "Ray to his people. He runs a [San 4 San](/gameplay/gangs-and-factions/san-4-san) cook at the top of Venture Apartments in Rockridge, with his partner [Ernesto](/gameplay/characters/ernesto), and he is holding product that [Boobie Ike](/gameplay/characters/boobie-ike) says is his."
+      "a": "Ray to his people. He runs a [San4San](/gameplay/gangs-and-factions/san-4-san) cook at the top of Venture Apartments in Rockridge, with his partner [Ernesto](/gameplay/characters/ernesto), and he is holding product that [Boobie Ike](/gameplay/characters/boobie-ike) says is his."
     },
     {
       "q": "Who voices Raymond?",
@@ -114,7 +114,7 @@
   "faqSchema": [
     {
       "q": "Who is Raymond in GTA 6?",
-      "aPlain": "Ray to his people. He runs a San 4 San cook at the top of Venture Apartments in Rockridge, with his partner Ernesto, and he is holding product that Boobie Ike says is his."
+      "aPlain": "Ray to his people. He runs a San4San cook at the top of Venture Apartments in Rockridge, with his partner Ernesto, and he is holding product that Boobie Ike says is his."
     },
     {
       "q": "Who voices Raymond?",
@@ -147,7 +147,7 @@
         },
         {
           "url": "/gameplay/gangs-and-factions/san-4-san",
-          "label": "San 4 San"
+          "label": "San4San"
         },
         {
           "url": "/gameplay/locations/vice-city",
@@ -178,6 +178,6 @@
 ---
 Raymond runs the top floor of Venture Apartments in Rockridge, and the top floor is busy. People in yellow gloves work the tables. Men hold the lobby. Ask for Raymond downstairs and everyone suddenly has a bad memory.
 
-**He is a [San 4 San](/gameplay/gangs-and-factions/san-4-san) man with a partner problem.** [Ernesto](/gameplay/characters/ernesto), Nesto to him, has gone off the grid, and until Raymond knows where Nesto is and why, nothing leaves the building. That includes the bricks [Boobie Ike](/gameplay/characters/boobie-ike) says are his.
+**He is a [San4San](/gameplay/gangs-and-factions/san-4-san) man with a partner problem.** [Ernesto](/gameplay/characters/ernesto), Nesto to him, has gone off the grid, and until Raymond knows where Nesto is and why, nothing leaves the building. That includes the bricks [Boobie Ike](/gameplay/characters/boobie-ike) says are his.
 
 Raymond is not scared of Boobie's name. He is more annoyed that Boobie sends other people to collect instead of showing his own face. He has a point, and the night is about to prove it.

@@ -83,7 +83,7 @@
     },
     {
       "url": "/gameplay/gangs-and-factions/san-4-san",
-      "name": "San 4 San",
+      "name": "San4San",
       "desc": "The crew holding the pickup.",
       "avatarInitials": "S4"
     },

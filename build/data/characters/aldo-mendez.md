@@ -82,7 +82,7 @@
       },
       {
         "chapter": 3,
-        "md": "In Bricked Up he leads the raid on the [San 4 San](/gameplay/gangs-and-factions/san-4-san) operation at Venture Apartments, right after [Ernesto](/gameplay/characters/ernesto) warns [Raymond](/gameplay/characters/raymond) that the task force is coming. His people shoot their way through the building. Jason and Lucia watch from cover and hope he never got a look at their faces."
+        "md": "In Bricked Up he leads the raid on the [San4San](/gameplay/gangs-and-factions/san-4-san) operation at Venture Apartments, right after [Ernesto](/gameplay/characters/ernesto) warns [Raymond](/gameplay/characters/raymond) that the task force is coming. His people shoot their way through the building. Jason and Lucia watch from cover and hope he never got a look at their faces."
       },
       {
         "chapter": 4,

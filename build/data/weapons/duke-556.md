@@ -74,9 +74,9 @@
       "desc": "Standard-issue for highway and rural patrol units."
     },
     {
-      "url": "/gameplay/gangs-and-factions/leonida-cartel",
+      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
       "type": "Faction",
-      "name": "Leonida Cartel",
+      "name": "La Polilla Negra",
       "desc": "Mid-tier firepower for operations that need range."
     }
   ],
@@ -91,7 +91,7 @@
     },
     {
       "q": "Who are the confirmed Duke 556 carriers in Leonida?",
-      "a": "Jason and Lucia are confirmed, along with VCPD, Leonida State Police, and the Leonida Cartel. It shows up across the widest range of factions in official footage."
+      "a": "Jason and Lucia are confirmed, along with VCPD, Leonida State Police, and La Polilla Negra. It shows up across the widest range of factions in official footage."
     }
   ],
   "faqSchema": [
@@ -105,7 +105,7 @@
     },
     {
       "q": "Who are the confirmed Duke 556 carriers in Leonida?",
-      "aPlain": "Jason and Lucia are confirmed, along with VCPD, Leonida State Police, and the Leonida Cartel. It shows up across the widest range of factions in official footage."
+      "aPlain": "Jason and Lucia are confirmed, along with VCPD, Leonida State Police, and La Polilla Negra. It shows up across the widest range of factions in official footage."
     }
   ],
   "sidebarDatabase": [
@@ -138,7 +138,7 @@
   ]
 }
 ---
-The carbine is the baseline from which every other rifle decision in Leonida is made. VCPD carries it. The Leonida State Police carries it. The Leonida Cartel carries it. **When every faction in a territory is running the same platform, the platform is reliable.**
+The carbine is the baseline from which every other rifle decision in Leonida is made. VCPD carries it. The Leonida State Police carries it. La Polilla Negra carries it. **When every faction in a territory is running the same platform, the platform is reliable.**
 
 The modular configuration allows optics, suppressors, and grip accessories. In practice the configuration that shows up most often in [Vice County](/gameplay/locations/vice-county) is the standard iron sight setup because the engagement ranges in an urban environment do not require magnification.
 

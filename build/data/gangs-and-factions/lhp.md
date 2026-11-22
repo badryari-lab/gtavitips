@@ -47,9 +47,9 @@
       "desc": "The urban agency. LHP takes over from VCPD when the pursuit exits the city."
     },
     {
-      "url": "/gameplay/gangs-and-factions/outlaw-motorcycle-gang",
+      "url": "/gameplay/gangs-and-factions/final-chapter",
       "type": "Gang",
-      "name": "Outlaw Motorcycle Gang",
+      "name": "Final Chapter",
       "desc": "The OMG uses the highway network the LHP patrols. The conflict is structural."
     },
     {

@@ -2,29 +2,37 @@
   "slug": "ptt-youngins",
   "titleParts": [
     "PTT",
-    "YOUNGIN$"
+    "Youngin$"
   ],
   "seo": {
-    "title": "PTT YOUNGIN$ | GTA 6 Gang | GTAVITIPS",
-    "description": "PTT YOUNGIN$ in GTA 6: a Leonida street gang whose compound is a raid target for Ultimate Edition players, revealed in Rockstar's June 2026 announcement.",
-    "ogDescription": "PTT YOUNGIN$ in GTA 6: a Leonida street gang whose compound is a raid target for Ultimate Edition players, revealed in Rockstar's June 2026 announcement.",
-    "jsonLdHeadline": "PTT YOUNGIN$ - GTA 6 Faction Profile",
-    "jsonLdDescription": "PTT YOUNGIN$ in GTA 6: a Leonida street gang whose compound is a raid target for Ultimate Edition players, revealed in Rockstar's June 2026 announcement.",
-    "dateModified": "2026-02-01"
+    "title": "PTT Youngin$ Territory and Hideouts | GTA 6 Gang | GTAVITIPS",
+    "description": "PTT Youngin$ in GTA 6: the Southside Vice City gang, its two Illegal Operations, the Ultimate Edition compound, and the PTT Youngin$ K17.",
+    "ogDescription": "PTT Youngin$ in GTA 6: the Southside Vice City gang, its two Illegal Operations, the Ultimate Edition compound, and the PTT Youngin$ K17.",
+    "jsonLdHeadline": "PTT Youngin$ - GTA 6 Gang",
+    "jsonLdDescription": "PTT Youngin$ in GTA 6: the Southside Vice City gang, its two Illegal Operations, the Ultimate Edition compound, and the PTT Youngin$ K17.",
+    "dateModified": "2026-11-22"
   },
-  "heroSubtitle": "A Leonida street gang with a compound. **That compound is a confirmed raid target. Everything else waits until November 19.**",
+  "heroSubtitle": "Young, reckless and always filming. **Southside is theirs until somebody posts otherwise.**",
   "statBlock": [
     {
       "key": "Type",
-      "value": "Street Gang"
+      "value": "Street Gang",
+      "sub": "Young, loud, built for the camera."
     },
     {
       "key": "Territory",
-      "value": "Vice City / Leonida"
+      "value": "Southside, [Vice City](/gameplay/locations/vice-city)",
+      "sub": "Their two sites sit in the neighbourhood."
     },
     {
-      "key": "First Seen",
-      "value": "Pre-Order Announcement, June 2026"
+      "key": "Illegal Operations",
+      "value": "Two, plus one",
+      "sub": "Two in every copy. A third, their compound, comes with the Ultimate Edition."
+    },
+    {
+      "key": "Unique Weapon",
+      "value": "PTT Youngin$ K17",
+      "sub": "At the Kamar Devon Community Center."
     }
   ],
   "gallery": [],
@@ -36,16 +44,16 @@
       "desc": "The metropolitan core of Leonida. PTT YOUNGIN$ operate inside this ecosystem."
     },
     {
-      "url": "/gameplay/characters/jason-duval",
-      "type": "Character",
-      "name": "Jason Duval",
-      "desc": "Leonida protagonist. The compound raid runs through his side of the story."
+      "url": "/gameplay/weapons/klose-k17",
+      "type": "Weapon",
+      "name": "Klose K17",
+      "desc": "Their own version waits at the Kamar Devon Community Center."
     },
     {
-      "url": "/gameplay/characters/lucia-caminos",
-      "type": "Character",
-      "name": "Lucia Caminos",
-      "desc": "The other half of the operation. Vice City and Leonida run through both protagonists."
+      "url": "/gameplay/gangs-and-factions/san-4-san",
+      "type": "Faction",
+      "name": "San4San",
+      "desc": "The older Vice City crew, out of La Perle."
     }
   ],
   "sidebarDatabase": [
@@ -82,8 +90,8 @@
   ]
 }
 ---
-PTT YOUNGIN$ runs a compound in Leonida. That much is confirmed. **The compound is a designated raid target for Ultimate Edition players**, a piece of the game world tied directly to a criminal organization, not a standalone mission icon.
+PTT Youngin$ are the Southside gang of [Vice City](/gameplay/locations/vice-city): young, reckless and famous for the videos. **Half the crime is for the clip.**
 
-The name is locked in. The hierarchy is not. Who runs the operation, how many are inside, how the compound connects to the wider criminal network of [Vice City](/gameplay/locations/vice-city) and Leonida, those details do not exist yet. What gets confirmed before launch gets added here.
+They run two Illegal Operations in Southside. Illegal Operations are gang hideouts you can rob for cash and product. Clean one out and it restocks after a while. The Ultimate Edition adds a third: the gang's compound, a raid of its own.
 
-What the compound raid tells you: PTT YOUNGIN$ holds physical territory. **Real enough to fortify. Real enough to defend. Real enough that taking it is the opening move for Ultimate Edition owners.**
+The Kamar Devon Community Center is the one to remember. It holds the PTT Youngin$ K17, a unique version of the [Klose K17](/gameplay/weapons/klose-k17).

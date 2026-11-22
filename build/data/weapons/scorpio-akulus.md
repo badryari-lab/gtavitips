@@ -56,9 +56,9 @@
       "desc": "Matches the kind of operation he runs: one shot, no second chances needed."
     },
     {
-      "url": "/gameplay/gangs-and-factions/leonida-cartel",
+      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
       "type": "Faction",
-      "name": "Leonida Cartel",
+      "name": "La Polilla Negra",
       "desc": "Reserved for enforcers who want one shot to end things."
     },
     {

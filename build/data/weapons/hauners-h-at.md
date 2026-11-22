@@ -46,9 +46,9 @@
       "desc": "Breaks out the heavy hardware when the situation has stopped being subtle."
     },
     {
-      "url": "/gameplay/gangs-and-factions/leonida-cartel",
+      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
       "type": "Faction",
-      "name": "Leonida Cartel",
+      "name": "La Polilla Negra",
       "desc": "Reserved for whatever requires overwhelming force."
     },
     {

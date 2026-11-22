@@ -212,6 +212,10 @@
 /gameplay/vehicles/gallivanter-baller-st          /gameplay/vehicles/gallivanter-baller-st-d          301
 /gameplay/vehicles/pegassi-zurrusso               /gameplay/vehicles/pegassi-zorrusso                 301
 
+# --- Post-launch renames (Nov 22 2026): in-game gang names ---
+/gameplay/gangs-and-factions/outlaw-motorcycle-gang /gameplay/gangs-and-factions/final-chapter          301
+/gameplay/gangs-and-factions/leonida-cartel       /gameplay/gangs-and-factions/la-polilla-negra       301
+
 # --- Dynamic (splat) rules: keep at the very bottom. Cloudflare counts every rule after the first dynamic one as dynamic (limit 100). ---
 /gameplay/character/*                     /gameplay/characters/:splat               301
 /gameplay/vehicle/*                       /gameplay/vehicles/:splat                 301

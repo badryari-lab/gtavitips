@@ -105,7 +105,7 @@
 ---
 Selling drugs in GTA 6 operates across the full geography of Leonida. [Vice City](/gameplay/locations/vice-city) handles volume. Port Gellhorn handles transit. The rural interior of [Vice County](/gameplay/locations/vice-county) handles the supply chain connections that keep both running. **Every district has a rate, a network, and a set of people who do not want outside competition.**
 
-The activity connects directly to the faction structure of Leonida. San 4 San controls distribution in specific Vice City territories. The Leonida Cartel handles the import end. Street-level operations answer to both or to neither, depending on how the territory lines are drawn and how well they hold.
+The activity connects directly to the faction structure of Leonida. San4San controls distribution in specific Vice City territories. La Polilla Negra handles the import end. Street-level operations answer to both or to neither, depending on how the territory lines are drawn and how well they hold.
 
 Florida's position as a transit corridor for product moving up the East Coast gives Vice City's drug economy a specific shape. The city is not just a consumer market. It is a distribution hub. GTA 6 builds the activity around that geography.
 

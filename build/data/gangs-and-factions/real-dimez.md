@@ -42,7 +42,7 @@
     {
       "url": "/gameplay/gangs-and-factions/san-4-san",
       "type": "Gang",
-      "name": "San 4 San",
+      "name": "San4San",
       "desc": "Fellow Vice City street gang. Territorial overlap and periodic conflict."
     },
     {

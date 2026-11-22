@@ -51,7 +51,7 @@
         "url": "/gameplay/gangs-and-factions/san-4-san",
         "avatarInitials": "S4",
         "industry": "Gang",
-        "name": "San 4 San"
+        "name": "San4San"
       },
       {
         "url": "/gameplay/activities/car-meets",
@@ -117,4 +117,4 @@ High Rollerz doesn't race. It prints. The masthead reads **High Rollerz Lifestyl
 
 Issues turn up around the city for anyone who looks. One sits upstairs in the [Jack of Hearts](/gameplay/locations/jack-of-hearts) in Crosstown, on a table at the end of the recording-studio corridor, right next to a keyboard. Pick it up and read it. Others are spread across other neighborhoods, part of the reading material Leonida leaves lying around.
 
-**The name gets mistaken for a crew. It isn't one.** The meets belong to the people who bring the cars, crews like [San 4 San](/gameplay/gangs-and-factions/san-4-san). High Rollerz shows up to put them on the cover.
+**The name gets mistaken for a crew. It isn't one.** The meets belong to the people who bring the cars, crews like [San4San](/gameplay/gangs-and-factions/san-4-san). High Rollerz shows up to put them on the cover.

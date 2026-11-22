@@ -58,7 +58,7 @@
     {
       "url": "/gameplay/gangs-and-factions/san-4-san",
       "type": "Faction",
-      "name": "San 4 San",
+      "name": "San4San",
       "desc": "Same close-quarters calculation, same compact frame."
     },
     {

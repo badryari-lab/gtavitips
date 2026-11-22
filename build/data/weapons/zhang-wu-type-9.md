@@ -50,9 +50,9 @@
   "gallery": [],
   "connections": [
     {
-      "url": "/gameplay/gangs-and-factions/leonida-cartel",
+      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
       "type": "Faction",
-      "name": "Leonida Cartel",
+      "name": "La Polilla Negra",
       "desc": "Compact enough to conceal, fast enough to matter in a close exchange."
     },
     {

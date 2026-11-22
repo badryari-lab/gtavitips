@@ -56,9 +56,9 @@
       "desc": "Sustained firepower for operations that expect to take fire back."
     },
     {
-      "url": "/gameplay/gangs-and-factions/leonida-cartel",
+      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
       "type": "Faction",
-      "name": "Leonida Cartel",
+      "name": "La Polilla Negra",
       "desc": "Reserved for enforcers who need to hold a position, not just hit one target."
     },
     {

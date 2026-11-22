@@ -56,9 +56,9 @@
       "desc": "The answer when the job needs distance, not proximity."
     },
     {
-      "url": "/gameplay/gangs-and-factions/leonida-cartel",
+      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
       "type": "Faction",
-      "name": "Leonida Cartel",
+      "name": "La Polilla Negra",
       "desc": "Long-range enforcement for operations that stay out of sight."
     },
     {

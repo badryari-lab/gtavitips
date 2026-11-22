@@ -62,9 +62,9 @@
       "desc": "Standard-issue for officers expecting close-quarters trouble."
     },
     {
-      "url": "/gameplay/gangs-and-factions/leonida-cartel",
+      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
       "type": "Faction",
-      "name": "Leonida Cartel",
+      "name": "La Polilla Negra",
       "desc": "The weapon of choice when subtlety has already failed."
     }
   ],

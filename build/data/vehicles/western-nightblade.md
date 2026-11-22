@@ -36,9 +36,9 @@
   "gallery": [],
   "connections": [
     {
-      "url": "/gameplay/gangs-and-factions/outlaw-motorcycle-gang",
+      "url": "/gameplay/gangs-and-factions/final-chapter",
       "type": "Faction",
-      "name": "Outlaw Motorcycle Gang",
+      "name": "Final Chapter",
       "desc": "The crew that this motorcycle belongs to."
     },
     {
@@ -96,6 +96,6 @@
 ---
 The Nightblade is the cruiser. The Harley-Davidson Softail formula: V-twin, low and long, with the torque-focused power delivery that American cruisers have always used. Not the fastest motorcycle in Leonida. The motorcycle with the most authentic relationship with the road on the run from [Vice City](/gameplay/locations/vice-city) to the Keys.
 
-The Outlaw Motorcycle Gang connection is direct. The OMG's highway network culture is built around this class of vehicle. The Nightblade is the specific motorcycle that the [Vice County](/gameplay/locations/vice-county) highway represents in vehicle terms. **The Keys causeway and the Vice County state roads are the Nightblade's natural environment.**
+The Final Chapter connection is direct. The OMG's highway network culture is built around this class of vehicle. The Nightblade is the specific motorcycle that the [Vice County](/gameplay/locations/vice-county) highway represents in vehicle terms. **The Keys causeway and the Vice County state roads are the Nightblade's natural environment.**
 
 The handling reflects the cruiser formula. Stable at highway speed, wider turning radius than a sport bike, and the low centre of gravity that the seated position creates. The Nightblade is not the tool for the Vice City grid. It is the tool for the road that runs away from the city.

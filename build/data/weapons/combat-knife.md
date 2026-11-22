@@ -52,9 +52,9 @@
       "desc": "Same reasoning, same blade, same close-range logic."
     },
     {
-      "url": "/gameplay/gangs-and-factions/leonida-cartel",
+      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
       "type": "Faction",
-      "name": "Leonida Cartel",
+      "name": "La Polilla Negra",
       "desc": "A secondary alongside firearms, for the jobs a gunshot would ruin."
     }
   ],
@@ -69,7 +69,7 @@
     },
     {
       "q": "Does any specific faction in Leonida rely on blades?",
-      "a": "The Leonida Cartel carries them as a secondary alongside firearms. Used in close-contact enforcement operations."
+      "a": "La Polilla Negra carries them as a secondary alongside firearms. Used in close-contact enforcement operations."
     }
   ],
   "faqSchema": [
@@ -83,7 +83,7 @@
     },
     {
       "q": "Does any specific faction in Leonida rely on blades?",
-      "aPlain": "The Leonida Cartel carries them as a secondary alongside firearms. Used in close-contact enforcement operations."
+      "aPlain": "La Polilla Negra carries them as a secondary alongside firearms. Used in close-contact enforcement operations."
     }
   ],
   "sidebarDatabase": [
@@ -118,7 +118,7 @@
 ---
 The knife is the choice when the operation requires no sound. No ejected casings, no muzzle report, nothing that puts a witness on the phone to VCPD. **It requires getting close, which is the entire risk calculation.** If the approach goes wrong there is no range advantage to fall back on.
 
-Leonida Cartel operatives carry blades as a secondary alongside firearms. The operational logic is consistent: for situations where a firearm would create problems the knife does not, the knife is the answer.
+La Polilla Negra operatives carry blades as a secondary alongside firearms. The operational logic is consistent: for situations where a firearm would create problems the knife does not, the knife is the answer.
 
 **It does not advertise.** Every other weapon in the arsenal announces itself the moment it appears. The knife is already there before the subject of its use understands the situation has changed.
 
