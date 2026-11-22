@@ -218,6 +218,10 @@
     .ops-card__desc { position: relative; z-index: 1; font-size: 12px; color: rgba(255,255,255,.72); line-height: 1.5; }
     .ops-card__arrow { position: absolute; top: 14px; right: 16px; z-index: 1; color: rgba(255,255,255,.8); font-size: 16px; transition: transform .18s; }
     a.ops-card:hover .ops-card__arrow { transform: translateX(3px); }
+    .ops-card--wide { margin-top: 12px; min-height: 260px; padding: 26px 28px; background-size: 110% auto; background-position: 50% 58%; }
+    .ops-card--wide .ops-card__name { font-size: clamp(24px, 3.4vw, 34px); }
+    .ops-card--wide .ops-card__desc { font-size: 13.5px; max-width: 520px; }
+    @media (max-width: 560px) { .ops-card--wide { min-height: 210px; padding: 18px 20px; } }
 
     .ops-card--sealed { background-image: none !important; cursor: default; }
     .ops-card--sealed::after { display: none; }
@@ -529,6 +533,11 @@
             <span class="ops-card__arrow">→</span>
           </a>
         </div>
+        <a href="/map" class="ops-card ops-card--wide reveal" style="background-image:url('/assets/images/leonida-gta-6-map-01.jpg')">
+          <span class="ops-card__name">The Map</span>
+          <span class="ops-card__desc">Every shop, race, robbery and collectible in Leonida, on one map. Find it, then go get it.</span>
+          <span class="ops-card__arrow">→</span>
+        </a>
       </div>
     </section>
 
