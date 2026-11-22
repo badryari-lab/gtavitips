@@ -326,6 +326,34 @@
           "color": "#94a3b8",
           "name": "Clothing Stores",
           "desc": "Every rack in Leonida, from Ocean Beach boutiques to Key Lento gift shops."
+        },
+        {
+          "url": "/gameplay/locations/tattoo-parlors",
+          "label": "Style",
+          "color": "#94a3b8",
+          "name": "Tattoo Parlors",
+          "desc": "Eleven studios, each with its own style. Where to get inked as Jason or Lucia."
+        },
+        {
+          "url": "/gameplay/locations/garages",
+          "label": "Property",
+          "color": "#94a3b8",
+          "name": "Garages",
+          "desc": "Eight for sale, four from the story. Prices, spaces and the Little Boxes trophy."
+        },
+        {
+          "url": "/gameplay/locations/public-transport",
+          "label": "Transit",
+          "color": "#94a3b8",
+          "name": "Buses, Ferries and Airports",
+          "desc": "Ride the bus, take the $50 ferry, or walk onto an airfield and pick a plane."
+        },
+        {
+          "url": "/gameplay/locations/convenience-stores-and-fast-food",
+          "label": "Food",
+          "color": "#94a3b8",
+          "name": "Convenience Stores and Fast Food",
+          "desc": "Marts, Pollo Diablo and Burger Shot. Snacks, healing and a till to rob."
         }
       ]
     }

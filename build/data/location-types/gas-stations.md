@@ -4,8 +4,8 @@
   "order": 1,
   "cardDesc": "Fifty forecourts from the Keys to Lummox. Refuel, patch up, or rob the till.",
   "seo": {
-    "title": "GTA 6 Gas Stations: All Locations, Refuel and Repair | GTAVITIPS",
-    "description": "Every GTA 6 gas station by county, with brand and area. How refueling works, what a pump repair fixes, and what happens when you rob the shop.",
+    "title": "GTA 6 Gas Stations: Locations, Refuel and EV Charging | GTAVITIPS",
+    "description": "Every GTA 6 gas station by county, with brand and area. Refueling, pump repairs, charging electric cars, and robbing the shop.",
     "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Every car in Leonida drinks. Xero, Ron, Globe Oil and a string of country pumps keep it moving, from the Keys up to Lummox.",
@@ -13,7 +13,7 @@
     { "key": "Services", "value": "Refuel, Repair", "sub": "Repair covers light damage only" },
     { "key": "Payment", "value": "Cash on you" },
     { "key": "Brands", "value": "Xero, Ron, Globe Oil, LTD, Arrow, Alpha, 247", "sub": "Plus independent and country stores" },
-    { "key": "Electric Cars", "value": "EV chargers, not pumps" },
+    { "key": "Electric Cars", "value": "ReVolt chargers, not pumps", "sub": "At the stations, same steps as refueling" },
     { "key": "Robbery", "value": "Shop counter and safe", "sub": "One or two stars" },
     { "key": "On the Map", "value": "Pump icon", "sub": "Map > Vehicles > Gas Stations" }
   ],
@@ -76,7 +76,7 @@
     "The gauge sits above the minimap and turns yellow when you run low. The nearest stations get marked then, so you rarely have to go looking.",
     "Refueling takes the money you carry, not your bank. Broke means walking.",
     "A pump repair is a patch, not a rebuild. Wrecked cars still need a Pay 'N' Spray.",
-    "Driving electric? Skip the pumps. EV chargers have their own list on the map."
+    "Driving electric? Look for the ReVolt chargers between the pumps. A full battery covers about twenty minutes of highway."
   ],
   "connections": [
     { "url": "/gameplay/brands/globe-oil", "name": "Globe Oil", "desc": "Four stations in the whole state: Hamlet, Crosstown, Watson Bay and Grayson.", "avatarInitials": "GO" },
@@ -89,12 +89,15 @@
     { "q": "Do cars run out of gas in GTA 6?", "a": "Yes. Every vehicle burns fuel and stops dead when the tank is empty, chases included. The gauge sits above the minimap and turns yellow when you are low." },
     { "q": "Can you rob gas stations in GTA 6?", "a": "Yes. Hold up the clerk for the register, crack the safe if you have the code, and expect one or two stars. The shop stays shut for a while after." },
     { "q": "Can you repair your car at a gas station in GTA 6?", "a": "Light damage, yes. The same Services menu that refuels the car fixes it up for a fee. Heavy damage still needs a Pay 'N' Spray." },
+    { "q": "How do you charge an electric car in GTA 6?", "a": "At a ReVolt America charger. They stand at gas stations between the pumps, and you use one the same way you refuel. A full charge lasts about twenty minutes of highway driving." },
     { "q": "Which gas station brands are in GTA 6?", "a": "Xero runs the most pumps. Ron stays inside Vice-Dale County, Globe Oil has four stations, and LTD, Arrow, Alpha and 247 fill the gaps, with independents and country stores out in the sticks." }
   ]
 }
 ---
 Every engine in Leonida burns fuel, and an empty tank leaves you on foot in the middle of a chase. The gauge sits above the minimap. When it turns yellow, the nearest stations light up on the map.
 
-Pull up beside a pump and open **Services**. **Refuel** fills the tank in about ten seconds and takes it out of the cash in your pocket. **Repair** knocks out the dents for a fee, but a wreck still needs a Pay 'N' Spray. Electric cars don't use the pumps at all. They charge at EV chargers.
+Pull up beside a pump and open **Services**. **Refuel** fills the tank in about ten seconds and takes it out of the cash in your pocket. **Repair** knocks out the dents for a fee, but a wreck still needs a Pay 'N' Spray.
 
 The shop behind the pumps is fair game. Lean on the clerk, empty the register, open the safe if you have the code, and leave before the second star lands. The place closes up for a while after. Stations show as a pump icon once the fog clears, and **Map > Vehicles > Gas Stations** lists every one you have found.
+
+**Electric cars skip the pumps.** They charge at the ReVolt America chargers parked between the pumps. Pull up and use one the way you would a pump. A full battery is good for about twenty minutes of highway driving, so plan the long runs around the stations.
