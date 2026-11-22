@@ -4,15 +4,15 @@
     "Green Iguana"
   ],
   "seo": {
-    "title": "Green Iguana | GTA 6 Animal Profile | GTAVITIPS",
-    "description": "The Green Iguana in GTA 6: an invasive, harmless suburban reptile on Vice City fences, canal banks, and gardens.",
-    "ogDescription": "The Green Iguana in GTA 6: an invasive, harmless suburban reptile on Vice City fences, canal banks, and gardens.",
+    "title": "Green Iguana Location | GTA 6 Animal | GTAVITIPS",
+    "description": "Where to find green iguanas in GTA 6: the coast and the Leonida Keys, basking in plain sight, and how to log one for the animal list.",
+    "ogDescription": "Where to find green iguanas in GTA 6: the coast and the Leonida Keys, basking in plain sight, and how to log one for the animal list.",
     "jsonLdHeadline": "Green Iguana – GTA 6 Animal Profile",
-    "jsonLdDescription": "The Green Iguana in GTA 6: an invasive, harmless suburban reptile on Vice City fences, canal banks, and gardens.",
-    "dateModified": "2026-11-21",
+    "jsonLdDescription": "Where to find green iguanas in GTA 6: the coast and the Leonida Keys, basking in plain sight, and how to log one for the animal list.",
+    "dateModified": "2026-11-22",
     "ogImage": "https://gtavitips.com/assets/images/iguana-gta-6-animal-01.jpg"
   },
-  "heroSubtitle": "On every fence, every wall, every warm surface in [Vice City](/gameplay/locations/vice-city)'s southern suburbs. **Not supposed to be here either. Has been here long enough to stop caring about that.**",
+  "heroSubtitle": "On the rocks, the roadsides and the palms along the coast. **Not supposed to be here either. Has been here long enough to stop caring about that.**",
   "heroImage": {
     "src": "/assets/images/iguana-gta-6-animal-01.jpg",
     "alt": "Green iguana on a rock above the water in the Leonida Keys, GTA 6",
@@ -23,22 +23,17 @@
     {
       "key": "Threat Level",
       "value": "None, Invasive",
-      "sub": "Harmless. Flees when you get close. Notable for being everywhere, not for being dangerous."
+      "sub": "In no hurry. Neither are you."
     },
     {
       "key": "Habitat",
-      "value": "[Vice City](/gameplay/locations/vice-city) suburban areas and gardens",
-      "sub": "Fences, walls, bougainvillea, canal banks, and any warm elevated surface with accessible vegetation."
+      "value": "The coast and the [Leonida Keys](/gameplay/locations/leonida-keys)",
+      "sub": "Rocks, roadsides and palms near the water."
     },
     {
-      "key": "Rarity",
-      "value": "Common in urban south Leonida",
-      "sub": "High density in Vice City and southern suburban zones. Absent from northern Leonida."
-    },
-    {
-      "key": "Resource Value",
-      "value": "None",
-      "sub": "Ambient suburban fauna. No resource value."
+      "key": "Animal Log",
+      "value": "Adult Green Iguana",
+      "sub": "Reptiles & Amphibians tab. Progress > Animals."
     }
   ],
   "gallery": [
@@ -77,19 +72,14 @@
   ],
   "faq": [
     {
-      "q": "Are iguanas in GTA 6?",
-      "a": "Yes. Visible on a [Vice City](/gameplay/locations/vice-city) canal bank in Trailer 1 and foraging in a suburban garden in Trailer 2.",
-      "aPlain": "Yes. Visible on a Vice City canal bank in Trailer 1 and foraging in a suburban garden in Trailer 2."
+      "q": "Where do you find iguanas in GTA 6?",
+      "a": "Along the coast and across the [Leonida Keys](/gameplay/locations/leonida-keys): rocks, roadsides and palms near the water.",
+      "aPlain": "Along the coast and across the Leonida Keys: rocks, roadsides and palms near the water."
     },
     {
-      "q": "Where do iguanas live in GTA 6?",
-      "a": "[Vice City](/gameplay/locations/vice-city)'s southern suburbs mostly. Fences, walls, canal banks, and gardens with warm surfaces and vegetation.",
-      "aPlain": "Vice City's southern suburbs mostly. Fences, walls, canal banks, and gardens with warm surfaces and vegetation."
-    },
-    {
-      "q": "Are iguanas dangerous in GTA 6?",
-      "a": "No. They're ambient suburban wildlife that flees when you get close. No resource value, no threat.",
-      "aPlain": "No. They're ambient suburban wildlife that flees when you get close. No resource value, no threat."
+      "q": "How do you study animals in GTA 6?",
+      "a": "Binoculars or a rifle scope. Zoom in until Study shows, then hold R1 (RB) until the circle fills. The entry lands under Progress > Animals. No kill needed.",
+      "aPlain": "Binoculars or a rifle scope. Zoom in until Study shows, then hold R1 (RB) until the circle fills. The entry lands under Progress > Animals. No kill needed."
     }
   ],
   "sidebar": [
@@ -130,8 +120,6 @@
   ]
 }
 ---
-Green iguanas are not native to Florida. Like the Burmese python, they are the product of the exotic pet trade and a subtropical climate that allows escaped individuals to survive and breed. There are now millions of them in south Florida.
+Green iguanas came from somewhere else and stayed. **They bask on rocks, cross roads and sit in palms along the coast and across the [Leonida Keys](/gameplay/locations/leonida-keys), in no hurry at all.**
 
-In Leonida they are on the fences, the canal banks, the walls of [Vice City](/gameplay/locations/vice-city)'s residential districts. **They look prehistoric against the background of pastel stucco housing.** That contrast is exactly what makes them a detail worth including.
-
-They fall from trees in cold snaps. In real Florida this has become a local news staple: temperatures drop below ten degrees, iguanas enter a cold-induced torpor and fall from whatever tree they were in. Residents are advised not to pick them up as they revive quickly. **Leonida presumably has the same problem.**
+That makes them one of the easiest early entries in the animal log. Raise the binoculars or a rifle scope, zoom in until Study shows, then hold R1 (RB). Before you are close, the label just says Lizard; zoom in and it turns into Adult Green Iguana, filed under Reptiles & Amphibians.

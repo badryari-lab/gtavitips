@@ -4,35 +4,34 @@
     "Wild Boar"
   ],
   "seo": {
-    "title": "Wild Boar | GTA 6 Animal Profile | GTAVITIPS",
-    "description": "The Wild Boar in GTA 6: an aggressive rural pest, found in woodland and crossing roads at night.",
-    "ogDescription": "The Wild Boar in GTA 6: an aggressive rural pest, found in woodland and crossing roads at night.",
+    "title": "Wild Boar Location | GTA 6 Animal | GTAVITIPS",
+    "description": "Where to find wild boar in GTA 6: shady forest in Mount Kalaga, Adler Creek and Bonanza, mostly at night, and how to bring one in for Bret.",
+    "ogDescription": "Where to find wild boar in GTA 6: shady forest in Mount Kalaga, Adler Creek and Bonanza, mostly at night, and how to bring one in for Bret.",
     "jsonLdHeadline": "Wild Boar – GTA 6 Animal Profile",
-    "jsonLdDescription": "The Wild Boar in GTA 6: an aggressive rural pest, found in woodland and crossing roads at night.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Where to find wild boar in GTA 6: shady forest in Mount Kalaga, Adler Creek and Bonanza, mostly at night, and how to bring one in for Bret.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Introduced to Leonida and now everywhere it should not be. **The wild boar does not bluff charges.** It commits.",
   "statBlock": [
     {
       "key": "Threat Level",
-      "value": "Aggressive",
-      "sub": "Charges are direct and committed, not bluffs. A real hazard on rural roads at night."
+      "value": "Charges",
+      "sub": "A boar that spots you closes fast. Keep range."
     },
     {
       "key": "Habitat",
-      "value": "Rural Leonida, scrubland and forest edges",
-      "sub": "Woodland margins, agricultural land, and anywhere humans have not fully occupied."
+      "value": "[Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park), Adler Creek, [Bonanza](/gameplay/locations/bonanza)",
+      "sub": "Mainly out at night. By day, look in shady forest."
     },
     {
-      "key": "Rarity",
-      "value": "Common in rural zones",
-      "sub": "High density across inland Leonida. Regular encounters on rural roads at night."
+      "key": "Hunting",
+      "value": "Shrewsbury SM-69",
+      "sub": "Scoped, from range. Bret collects boar himself."
     },
     {
-      "key": "Resource Value",
-      "value": "Venison and Hide",
-      "sub": "Meat and hide recoverable post-hunt. Common enough that the market value is moderate.",
-      "speculation": "Speculation"
+      "key": "Bret's Orders",
+      "value": "Target Deck 2",
+      "sub": "With a white-feathered wild turkey and an Eastern Spotted Skunk."
     }
   ],
   "gallery": [],
@@ -64,19 +63,19 @@
   ],
   "faq": [
     {
-      "q": "Are wild boar in GTA 6?",
-      "a": "Yes. A group is active in a rural woodland sequence in Trailer 1, and a herd crosses a rural road at night in Trailer 2.",
-      "aPlain": "Yes. A group is active in a rural woodland sequence in Trailer 1, and a herd crosses a rural road at night in Trailer 2."
+      "q": "Where do you find wild boar in GTA 6?",
+      "a": "Shady forest in [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park), Adler Creek and [Bonanza](/gameplay/locations/bonanza).",
+      "aPlain": "Shady forest in Mount Kalaga National Park, Adler Creek and Bonanza."
     },
     {
-      "q": "Where do wild boar live in GTA 6?",
-      "a": "Rural Leonida, scrubland, and forest edges. Regular encounters on rural roads at night.",
-      "aPlain": "Rural Leonida, scrubland, and forest edges. Regular encounters on rural roads at night."
+      "q": "When do boar come out in GTA 6?",
+      "a": "Mostly at night. During the day they rest in shaded forest, where you can still find them.",
+      "aPlain": "Mostly at night. During the day they rest in shaded forest, where you can still find them."
     },
     {
-      "q": "Are wild boar dangerous in GTA 6?",
-      "a": "Yes. Their charges are direct and committed, and they're a real hazard on rural roads, not just in combat.",
-      "aPlain": "Yes. Their charges are direct and committed, and they're a real hazard on rural roads, not just in combat."
+      "q": "What gun should you use on a boar in GTA 6?",
+      "a": "A scoped Shrewsbury SM-69 from range. Boar charge, and one shot to the head or heart keeps the carcass pristine.",
+      "aPlain": "A scoped Shrewsbury SM-69 from range. Boar charge, and one shot to the head or heart keeps the carcass pristine."
     }
   ],
   "sidebar": [
@@ -117,8 +116,10 @@
   ]
 }
 ---
-The Burmese python gets the press as the invasive species problem in Florida-analogue Leonida, but the wild boar was doing damage before the python arrived. **They breed fast, they eat everything, and they are not afraid of most of what shares the terrain with them.**
+Wild boar are night animals. **After dark they work the forest floor. By day they lie up in shade, and that is where you find them.** The ground Bret Vogel marks for them: [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park), Adler Creek and [Bonanza](/gameplay/locations/bonanza).
 
-A charging boar is heavier than it looks and faster than the mass suggests. At close range the tusks cause significant damage. The charge is direct and committed. Once committed, it does not stop because someone raised a weapon.
+They charge. A boar that spots you closes the gap fast, so take it with a scoped Shrewsbury SM-69 from range, the rifle the game recommends for big game.
 
-**On the road at night, boar are a vehicle hazard before they are a combat encounter.** They do not get out of the way. They stand in the road and the vehicle either stops or the vehicle and the boar both have a bad outcome.
+Boar are on Bret's second Target Deck, next to a white-feathered wild turkey and an Eastern Spotted [Skunk](/gameplay/animals/skunk). He takes them in Pristine or Good condition only: one shot to the head or heart. Big animals like boar he collects himself. How the trade opens is under [Hunting](/gameplay/activities/hunting).
+
+Not hunting? Raise the binoculars or a rifle scope, zoom in until Study shows, then hold R1 (RB). The boar goes into the animal log under Progress > Animals.

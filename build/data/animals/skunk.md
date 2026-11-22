@@ -4,34 +4,34 @@
     "Skunk"
   ],
   "seo": {
-    "title": "Skunk | GTA 6 Animal Profile | GTAVITIPS",
-    "description": "The Skunk in GTA 6: a woodland hazard with a spray defense, foraging through Red Hill Forest at dusk.",
-    "ogDescription": "The Skunk in GTA 6: a woodland hazard with a spray defense, foraging through Red Hill Forest at dusk.",
+    "title": "Skunk Location | GTA 6 Animal | GTAVITIPS",
+    "description": "Where to find the Eastern Spotted Skunk in GTA 6: only out after 8pm, in the ground Bret marks for his second Target Deck. Rifle and tips.",
+    "ogDescription": "Where to find the Eastern Spotted Skunk in GTA 6: only out after 8pm, in the ground Bret marks for his second Target Deck. Rifle and tips.",
     "jsonLdHeadline": "Skunk – GTA 6 Animal Profile",
-    "jsonLdDescription": "The Skunk in GTA 6: a woodland hazard with a spray defense, foraging through Red Hill Forest at dusk.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Where to find the Eastern Spotted Skunk in GTA 6: only out after 8pm, in the ground Bret marks for his second Target Deck. Rifle and tips.",
+    "dateModified": "2026-11-22"
   },
-  "heroSubtitle": "It does not attack. It does not need to. **The skunk has a delivery system that changes your plans for the next several minutes.**",
+  "heroSubtitle": "Black and white, small, and only out after dark. **The one that keeps night hours, and the one Bret wants anyway.**",
   "statBlock": [
     {
       "key": "Threat Level",
       "value": "Low, Hazard",
-      "sub": "No physical attack. Spray range approximately three metres, with about a second of warning posture."
+      "sub": "Small. Not small enough to ignore."
     },
     {
       "key": "Habitat",
-      "value": "Woodland and rural Leonida",
-      "sub": "Forest margins, scrubland, and rural residential edges. Avoids dense urban areas."
+      "value": "[Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park), Adler Creek, [Bonanza](/gameplay/locations/bonanza)",
+      "sub": "Grassy ground in the woods."
     },
     {
-      "key": "Rarity",
-      "value": "Uncommon",
-      "sub": "Present in woodland zones across Leonida. Most active at dawn and dusk."
+      "key": "Active",
+      "value": "Night only",
+      "sub": "Comes out from around 8pm."
     },
     {
-      "key": "Resource Value",
-      "value": "None",
-      "sub": "No resource value. The spray actively disadvantages the player."
+      "key": "Hunting",
+      "value": "Wortham W-22",
+      "sub": "On Bret's second Target Deck. Small game: bring it in yourself."
     }
   ],
   "gallery": [],
@@ -63,19 +63,19 @@
   ],
   "faq": [
     {
-      "q": "Is the skunk in GTA 6?",
-      "a": "Yes. One forages on the woodland floor in a Red Hill Forest sequence at dusk in Trailer 2, with the threat posture visible when the protagonist approaches.",
-      "aPlain": "Yes. One forages on the woodland floor in a Red Hill Forest sequence at dusk in Trailer 2, with the threat posture visible when the protagonist approaches."
+      "q": "Where do you find skunks in GTA 6?",
+      "a": "In [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park), Adler Creek and Bonanza, after dark.",
+      "aPlain": "In Mount Kalaga National Park, Adler Creek and Bonanza, after dark."
     },
     {
-      "q": "How does the skunk defend itself in GTA 6?",
-      "a": "It sprays. The tail goes up, the feet stamp, and there's about a second of warning before the spray lands within roughly three metres. The smell lingers and NPCs react to it.",
-      "aPlain": "It sprays. The tail goes up, the feet stamp, and there's about a second of warning before the spray lands within roughly three metres. The smell lingers and NPCs react to it."
+      "q": "When do skunks come out in GTA 6?",
+      "a": "At night, from around 8pm.",
+      "aPlain": "At night, from around 8pm."
     },
     {
-      "q": "Where do skunks live in GTA 6?",
-      "a": "Woodland and rural Leonida. Forest margins, scrubland, and rural residential edges, most active at dawn and dusk.",
-      "aPlain": "Woodland and rural Leonida. Forest margins, scrubland, and rural residential edges, most active at dawn and dusk."
+      "q": "What gun should you use on a skunk in GTA 6?",
+      "a": "The Wortham W-22, a small-game rifle that keeps the carcass intact.",
+      "aPlain": "The Wortham W-22, a small-game rifle that keeps the carcass intact."
     }
   ],
   "sidebar": [
@@ -116,8 +116,8 @@
   ]
 }
 ---
-The skunk is one of two animals in Leonida that punishes proximity without requiring an attack. The other is the iguana, which does nothing except exist near things that have value. The skunk is more proactive about the consequence.
+Leonida's skunk is the Eastern Spotted Skunk, and it keeps night hours. **Before about 8pm you will not see one.** After that, check the grassy ground of [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park), Adler Creek and [Bonanza](/gameplay/locations/bonanza).
 
-**The spray range is approximately three metres.** Within that range, without warning, if the skunk has been startled or approached too directly, the result is a status effect that lingers. NPCs react. Vehicles that pass close enough carry the smell into subsequent sequences.
+It is on Bret Vogel's second Target Deck, next to a [wild boar](/gameplay/animals/boar) and a white-feathered wild turkey. Use the Wortham W-22: a small-game rifle that keeps the carcass worth taking. Bret only accepts Pristine or Good, and small game you drive in yourself. See [Hunting](/gameplay/activities/hunting).
 
-The threat-posture is visible before the spray. The tail goes up. The feet stamp. **This is approximately one second of warning.** That is either enough or it is not, depending on what the player was doing at the time.
+For the log only, raise the binoculars or a rifle scope, zoom in until Study shows, then hold R1 (RB).

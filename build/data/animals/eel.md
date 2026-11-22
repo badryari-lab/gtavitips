@@ -4,35 +4,34 @@
     "American Eel"
   ],
   "seo": {
-    "title": "American Eel | GTA 6 Animal Profile | GTAVITIPS",
-    "description": "The American Eel in GTA 6: a waterway fish and bait species in Grassrivers' canals, expected throughout Leonida's freshwater system.",
-    "ogDescription": "The American Eel in GTA 6: a waterway fish and bait species in Grassrivers' canals, expected throughout Leonida's freshwater system.",
+    "title": "American Eel Location | GTA 6 Animal | GTAVITIPS",
+    "description": "Eels in GTA 6: the three catchable eels, the moray reefs of the Leonida Keys, and which lure and store you need to land them.",
+    "ogDescription": "Eels in GTA 6: the three catchable eels, the moray reefs of the Leonida Keys, and which lure and store you need to land them.",
     "jsonLdHeadline": "American Eel – GTA 6 Animal Profile",
-    "jsonLdDescription": "The American Eel in GTA 6: a waterway fish and bait species in Grassrivers' canals, expected throughout Leonida's freshwater system.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Eels in GTA 6: the three catchable eels, the moray reefs of the Leonida Keys, and which lure and store you need to land them.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Bottom of the river, under the rock, in the gap in the dock. **The American Eel is the detail of Leonida's waterways that most players notice without knowing what it is.**",
   "statBlock": [
     {
-      "key": "Threat Level",
-      "value": "None, Bait Fish",
-      "sub": "Not a direct-interaction species. Environmental, caught incidentally, no threat."
+      "key": "Species",
+      "value": "Three eels",
+      "sub": "American Eel, Green Moray Eel and Spotted Moray Eel."
     },
     {
       "key": "Habitat",
-      "value": "Waterways and coastal margins",
-      "sub": "Rivers, canals, estuaries, and shallow coastal zones. Catadromous: spawns at sea, lives in freshwater."
+      "value": "[Leonida Keys](/gameplay/locations/leonida-keys) reefs and inland water",
+      "sub": "Morays hide in the Keys reefs. The American Eel is a freshwater fish."
     },
     {
-      "key": "Rarity",
-      "value": "Present in freshwater and estuaries",
-      "sub": "Found throughout Leonida waterways. More visible at night."
+      "key": "Animal Log",
+      "value": "Fishing tab",
+      "sub": "Eels count as fish: the entry fills only once you catch one."
     },
     {
-      "key": "Resource Value",
-      "value": "Bait",
-      "sub": "Usable as fishing bait for larger predator species.",
-      "speculation": "Speculation"
+      "key": "Lure",
+      "value": "Spotted Moray: Medium Saltwater",
+      "sub": "$56 at Ammu-Nation stores that carry fishing gear."
     }
   ],
   "gallery": [],
@@ -64,19 +63,19 @@
   ],
   "faq": [
     {
-      "q": "Are American eels in GTA 6?",
-      "a": "Yes. Visible moving along the bottom of a [Grassrivers](/gameplay/locations/grassrivers) canal in Trailer 2, and reported throughout Leonida's connected river and estuary zones.",
-      "aPlain": "Yes. Visible moving along the bottom of a Grassrivers canal in Trailer 2, and reported throughout Leonida's connected river and estuary zones."
+      "q": "What eels are in GTA 6?",
+      "a": "Three: the American Eel, the Green Moray Eel and the Spotted Moray Eel. All three are fish on the Fishing tab.",
+      "aPlain": "Three: the American Eel, the Green Moray Eel and the Spotted Moray Eel. All three are fish on the Fishing tab."
     },
     {
-      "q": "Where do you find American eels in GTA 6?",
-      "a": "Rivers, canals, estuaries, and shallow coastal zones across Leonida. More visible at night.",
-      "aPlain": "Rivers, canals, estuaries, and shallow coastal zones across Leonida. More visible at night."
+      "q": "What lure catches a Spotted Moray Eel in GTA 6?",
+      "a": "The Medium Saltwater Lure, $56 at Ammu-Nation stores that carry fishing gear.",
+      "aPlain": "The Medium Saltwater Lure, $56 at Ammu-Nation stores that carry fishing gear."
     },
     {
-      "q": "What are American eels used for in GTA 6?",
-      "a": "Bait for larger predator fish. Not a direct fishing target, more often caught incidentally or collected from shallow margins.",
-      "aPlain": "Bait for larger predator fish. Not a direct fishing target, more often caught incidentally or collected from shallow margins."
+      "q": "Can you study eels with binoculars in GTA 6?",
+      "a": "No. Fish only fill their log entry once you catch them.",
+      "aPlain": "No. Fish only fill their log entry once you catch them."
     }
   ],
   "sidebar": [
@@ -117,8 +116,8 @@
   ]
 }
 ---
-The American eel is catadromous, meaning it lives in freshwater and migrates to the Sargasso Sea to spawn. It is the reverse of the salmon. Leonida's river systems connect to the Atlantic in multiple places, which means the eel's full life cycle is possible within the game world.
+Three eels live in Leonida's water: the American Eel, the Green Moray Eel and the Spotted Moray Eel. **The morays hide in the reefs of the [Leonida Keys](/gameplay/locations/leonida-keys), half in a hole, waiting.**
 
-As a species in the game it is primarily environmental. It is in the water, moving along the bottom or through submerged structure, identifiable as an eel to anyone who looks at the water carefully. **As a bait species it has functional value in fishing mechanics.**
+For the animal log they are fish, not sightings. Each sits on the Fishing tab under Progress > Animals and reads "Catch this fish for more details" until you land one.
 
-It is not a direct interaction species in the way the bass is. You do not target it with a rod. You catch it incidentally or collect it from shallow margins for use in targeting larger fish.
+Lures decide what bites. The Spotted Moray takes a Medium Saltwater Lure, $56 at Ammu-Nation stores that sell fishing gear (look for the fish icon on the map). Freshwater lures go in lakes and rivers, saltwater lures off docks, the coast and at sea. Rod, casting and the rest are under [Fishing](/gameplay/activities/fishing).

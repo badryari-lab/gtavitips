@@ -4,34 +4,29 @@
     "Seagull"
   ],
   "seo": {
-    "title": "Seagull | GTA 6 Animal Profile | GTAVITIPS",
-    "description": "The Seagull in GTA 6: Vice City's coastal scavenger, working the shoreline, marina, and beachfront food stalls.",
-    "ogDescription": "The Seagull in GTA 6: Vice City's coastal scavenger, working the shoreline, marina, and beachfront food stalls.",
+    "title": "Seagull Location | GTA 6 Animal | GTAVITIPS",
+    "description": "Where to find seagulls in GTA 6: beaches, docks and rooftops along the Vice City coast, and why they make the easiest first log entry.",
+    "ogDescription": "Where to find seagulls in GTA 6: beaches, docks and rooftops along the Vice City coast, and why they make the easiest first log entry.",
     "jsonLdHeadline": "Seagull – GTA 6 Animal Profile",
-    "jsonLdDescription": "The Seagull in GTA 6: Vice City's coastal scavenger, working the shoreline, marina, and beachfront food stalls.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Where to find seagulls in GTA 6: beaches, docks and rooftops along the Vice City coast, and why they make the easiest first log entry.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "On every surface adjacent to food. On every railing near food. In the air above food. **The seagull has a broader definition of food than most.**",
   "statBlock": [
     {
       "key": "Threat Level",
       "value": "None, Scavenger",
-      "sub": "Not dangerous. Congregates around food sources with organised persistence."
+      "sub": "Your fries, not your health."
     },
     {
       "key": "Habitat",
-      "value": "[Vice City](/gameplay/locations/vice-city) coastline and marina",
-      "sub": "Beaches, marina docks, seafront restaurants, and any outdoor surface near edible refuse."
+      "value": "Beaches and docks",
+      "sub": "Posts, railings and rooftops along the coast."
     },
     {
-      "key": "Rarity",
-      "value": "Common in coastal zones",
-      "sub": "Extremely high density along the Vice City beachfront. Present wherever food is available outdoors."
-    },
-    {
-      "key": "Resource Value",
-      "value": "None",
-      "sub": "Ambient coastal fauna. No resource value. Negative ambience contribution if you are trying to eat outside."
+      "key": "Animal Log",
+      "value": "Birds tab",
+      "sub": "Study through binoculars. Progress > Animals."
     }
   ],
   "gallery": [],
@@ -63,19 +58,14 @@
   ],
   "faq": [
     {
-      "q": "Is the seagull in GTA 6?",
-      "a": "Yes. Flocks fly over the Vice City shoreline and marina in Trailer 1, and scavenging behaviour is visible near the marina food stalls in Trailer 2.",
-      "aPlain": "Yes. Flocks fly over the Vice City shoreline and marina in Trailer 1, and scavenging behaviour is visible near the marina food stalls in Trailer 2."
+      "q": "Where do you find seagulls in GTA 6?",
+      "a": "On beaches and docks along the coast, perched on posts, railings and rooftops.",
+      "aPlain": "On beaches and docks along the coast, perched on posts, railings and rooftops."
     },
     {
-      "q": "Do seagulls cause problems in GTA 6?",
-      "a": "They congregate around every outdoor food source on the Vice City beachfront. Scavenging behaviour is confirmed near the marina food stalls.",
-      "aPlain": "They congregate around every outdoor food source on the Vice City beachfront. Scavenging behaviour is confirmed near the marina food stalls."
-    },
-    {
-      "q": "Where do seagulls live in GTA 6?",
-      "a": "Vice City's coastline and marina. Beaches, docks, seafront restaurants, and any outdoor surface near edible refuse.",
-      "aPlain": "Vice City's coastline and marina. Beaches, docks, seafront restaurants, and any outdoor surface near edible refuse."
+      "q": "How do you study animals in GTA 6?",
+      "a": "Binoculars or a rifle scope. Zoom in until Study shows, then hold R1 (RB) until the circle fills. The entry lands under Progress > Animals. No kill needed.",
+      "aPlain": "Binoculars or a rifle scope. Zoom in until Study shows, then hold R1 (RB) until the circle fills. The entry lands under Progress > Animals. No kill needed."
     }
   ],
   "sidebar": [
@@ -116,8 +106,6 @@
   ]
 }
 ---
-Seagulls in [Vice City](/gameplay/locations/vice-city) are the ambient sound before they are the visual. The call is the sound of every beach in the world. **In Leonida it is the sound that tells you the coast is nearby before you can see it.**
+Gulls own every beach in Leonida. **They stand on posts and railings and wait for somebody to drop something.**
 
-They congregate around food sources with the specific organisation of birds that have mapped every outdoor dining location on the Vice City beachfront. The chip theft, the sandwich interception, the bin invasion. All of this is ambient AI behaviour.
-
-They are not dangerous. They are not useful. They are an extremely functional piece of environmental detail that makes Vice City's coastal zones feel lived-in in a way that requires them to be present.
+That makes them the easiest first entry in the animal log. A gull on a beach post does not move while you work: binoculars up, zoom in until Study shows, hold R1 (RB). It lands on the Birds tab under Progress > Animals, the second-biggest tab after the hunting animals.

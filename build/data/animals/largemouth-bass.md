@@ -4,35 +4,34 @@
     "Largemouth Bass"
   ],
   "seo": {
-    "title": "Largemouth Bass | GTA 6 Animal Profile | GTAVITIPS",
-    "description": "The Largemouth Bass in GTA 6: the primary freshwater game fish, caught in Lake Leonida and Vice County canals.",
-    "ogDescription": "The Largemouth Bass in GTA 6: the primary freshwater game fish, caught in Lake Leonida and Vice County canals.",
+    "title": "How to Catch Largemouth Bass | GTA 6 Animal | GTAVITIPS",
+    "description": "How to catch a largemouth bass in GTA 6: freshwater lures, where to buy them, finding fish with Focus, and logging the catch for 100%.",
+    "ogDescription": "How to catch a largemouth bass in GTA 6: freshwater lures, where to buy them, finding fish with Focus, and logging the catch for 100%.",
     "jsonLdHeadline": "Largemouth Bass – GTA 6 Animal Profile",
-    "jsonLdDescription": "The Largemouth Bass in GTA 6: the primary freshwater game fish, caught in Lake Leonida and Vice County canals.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "How to catch a largemouth bass in GTA 6: freshwater lures, where to buy them, finding fish with Focus, and logging the catch for 100%.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "The reason the rod is in the vehicle. **Freshwater lakes and rivers across Leonida, and it knows exactly where the cover is.**",
   "statBlock": [
     {
       "key": "Threat Level",
       "value": "None, Game Fish",
-      "sub": "No threat to the player. Reacts to lure and structure, not to proximity."
+      "sub": "It fights the line. That is all."
     },
     {
       "key": "Habitat",
-      "value": "Lakes and rivers across Leonida",
-      "sub": "Freshwater with structure: submerged vegetation, dock pilings, fallen timber, and canal margins."
+      "value": "Freshwater lakes and rivers",
+      "sub": "Inland water, not the sea."
     },
     {
-      "key": "Rarity",
-      "value": "Common in freshwater",
-      "sub": "Present in every significant freshwater body in Leonida. Lake Leonida is the primary trophy zone."
+      "key": "Lure",
+      "value": "Freshwater lures",
+      "sub": "Small Freshwater is yours from the start. Medium Freshwater is $45 at Ammu-Nation stores with fishing gear."
     },
     {
-      "key": "Resource Value",
-      "value": "Trophy and Meat",
-      "sub": "Catch-and-release or keep. Trophy specimens carry record board value. Meat is recoverable on harvest.",
-      "speculation": "Speculation"
+      "key": "Animal Log",
+      "value": "Fishing tab",
+      "sub": "Fills only once you catch one."
     }
   ],
   "gallery": [],
@@ -64,19 +63,19 @@
   ],
   "faq": [
     {
-      "q": "Is the largemouth bass in GTA 6?",
-      "a": "Yes. A trophy-class largemouth is caught in a Lake Leonida fishing sequence in Trailer 2, and another is landed near a dock piling on a Vice County canal.",
-      "aPlain": "Yes. A trophy-class largemouth is caught in a Lake Leonida fishing sequence in Trailer 2, and another is landed near a dock piling on a Vice County canal."
+      "q": "What lure catches largemouth bass in GTA 6?",
+      "a": "A freshwater lure. You start with the Small Freshwater Lure; the Medium Freshwater Lure is $45 at Ammu-Nation stores that sell fishing gear.",
+      "aPlain": "A freshwater lure. You start with the Small Freshwater Lure; the Medium Freshwater Lure is $45 at Ammu-Nation stores that sell fishing gear."
     },
     {
-      "q": "Where do you catch largemouth bass in GTA 6?",
-      "a": "Any freshwater lake, river, or canal with structure. Submerged vegetation, dock pilings, and fallen timber hold fish. Lake Leonida is the primary trophy zone.",
-      "aPlain": "Any freshwater lake, river, or canal with structure. Submerged vegetation, dock pilings, and fallen timber hold fish. Lake Leonida is the primary trophy zone."
+      "q": "How do you find fish in GTA 6?",
+      "a": "Use Focus (L3 + R3) at the water's edge. Water holding fish shows up lighter.",
+      "aPlain": "Use Focus (L3 + R3) at the water's edge. Water holding fish shows up lighter."
     },
     {
-      "q": "Can you keep or release largemouth bass in GTA 6?",
-      "a": "Yes to both. Catch-and-release keeps the fish in the water, or you can keep it for its resource value: meat on harvest, and trophy specimens carry record board value.",
-      "aPlain": "Yes to both. Catch-and-release keeps the fish in the water, or you can keep it for its resource value: meat on harvest, and trophy specimens carry record board value."
+      "q": "Does the largemouth bass count for 100% in GTA 6?",
+      "a": "It is an entry on the Fishing tab of the animal log, which counts toward the 100 animals you need. Fish only count once caught.",
+      "aPlain": "It is an entry on the Fishing tab of the animal log, which counts toward the 100 animals you need. Fish only count once caught."
     }
   ],
   "sidebar": [
@@ -117,8 +116,10 @@
   ]
 }
 ---
-Largemouth bass are the defining freshwater game fish of the American South. Florida specifically is one of the most productive bass fisheries in the world, and Leonida has the equivalent in Lake Leonida and the network of rivers and canals that cross the state.
+The largemouth bass is a lake fish. **Freshwater lures, inland water, patience.** Saltwater lures are for docks, the coast and the sea, and they will not do you any good here.
 
-The largemouth bass is the primary freshwater target in Leonida. **The fishing mechanic is confirmed**, and the bass population holds in the structure-rich zones of the freshwater lakes and canal margins.
+You start with a Small Freshwater Lure. The Medium Freshwater Lure costs $45 at Ammu-Nation stores that sell fishing gear; on the map they carry a fish icon in their feature list.
 
-They are structure-oriented. They hold near submerged vegetation, dock pilings, and fallen timber. The cast needs to land near the structure, not in open water. Cast placement matters, retrieve speed matters, and the size class of the catch varies by location and method.
+Stand at the water's edge and use Focus (L3 + R3): water holding fish shows up lighter. Cast into it. Every species has its own water, so one spot will not fill the list.
+
+The bass is one of the fish on the Fishing tab under Progress > Animals. Fish cannot be studied through binoculars; the entry fills when one is on the line and landed. Casting and reeling are under [Fishing](/gameplay/activities/fishing).

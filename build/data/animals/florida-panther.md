@@ -4,15 +4,15 @@
     "Florida Panther"
   ],
   "seo": {
-    "title": "Florida Panther | GTA 6 Animal Profile | GTAVITIPS",
-    "description": "The Florida Panther in GTA 6: an extremely rare, lethal apex predator in Red Hill Forest and Leonida's inland wilderness. Attacks on sight.",
-    "ogDescription": "The Florida Panther in GTA 6: an extremely rare, lethal apex predator in Red Hill Forest and Leonida's inland wilderness. Attacks on sight.",
+    "title": "Florida Panther Location | GTA 6 Animal | GTAVITIPS",
+    "description": "Where to find the Florida panther in GTA 6: the forests of Mount Kalaga National Park, where it stalks the deer herds. How to spot it safely.",
+    "ogDescription": "Where to find the Florida panther in GTA 6: the forests of Mount Kalaga National Park, where it stalks the deer herds. How to spot it safely.",
     "jsonLdHeadline": "Florida Panther – GTA 6 Animal Profile",
-    "jsonLdDescription": "The Florida Panther in GTA 6: an extremely rare, lethal apex predator in Red Hill Forest and Leonida's inland wilderness. Attacks on sight.",
-    "dateModified": "2026-02-01",
+    "jsonLdDescription": "Where to find the Florida panther in GTA 6: the forests of Mount Kalaga National Park, where it stalks the deer herds. How to spot it safely.",
+    "dateModified": "2026-11-22",
     "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-05.jpg"
   },
-  "heroSubtitle": "Leonida has one apex land predator. **You do not see the Florida Panther coming. It sees you first, from cover, and then it has already decided.**",
+  "heroSubtitle": "The big cat of Mount Kalaga. **You do not see the Florida Panther coming. It sees you first, from cover, and then it has already decided.**",
   "heroImage": {
     "src": "/assets/images/mount-kalaga-national-park-gta-6-location-05.jpg",
     "alt": "Florida Panther in GTA 6, Leonida inland wilderness",
@@ -23,23 +23,17 @@
     {
       "key": "Threat Level",
       "value": "Lethal",
-      "sub": "Strikes fast from cover and repositions for a follow-up attack. Standing still or backing away does not work the way it does against other animals."
+      "sub": "A big cat on its own ground. Study it from distance."
     },
     {
       "key": "Habitat",
-      "value": "[Red Hill Forest](/gameplay/locations/red-hill-forest) and inland Leonida",
-      "sub": "Dense woodland and scrubland away from urban areas. Avoids coastal zones."
+      "value": "[Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park)",
+      "sub": "The high forest of Lummox County, the same ground the deer use."
     },
     {
-      "key": "Rarity",
-      "value": "Extremely Rare",
-      "sub": "One of the most elusive animals in the state. Rarely encountered. Solitary."
-    },
-    {
-      "key": "Resource Value",
-      "value": "Pelt",
-      "sub": "High-value hide if obtainable. Extremely difficult to reach due to attack behaviour.",
-      "speculation": "Speculation"
+      "key": "Animal Log",
+      "value": "Study from range",
+      "sub": "Binoculars or a rifle scope. Progress > Animals."
     }
   ],
   "gallery": [
@@ -78,19 +72,14 @@
   ],
   "faq": [
     {
-      "q": "Is the Florida Panther in GTA 6?",
-      "a": "Yes. Glimpsed briefly in a dense forest sequence in Trailer 1, with [Red Hill Forest](/gameplay/locations/red-hill-forest) reported as its primary habitat.",
-      "aPlain": "Yes. Glimpsed briefly in a dense forest sequence in Trailer 1, with Red Hill Forest reported as its primary habitat."
+      "q": "Where do you find panthers in GTA 6?",
+      "a": "In [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park), Lummox County. They follow the deer herds through the forest.",
+      "aPlain": "In Mount Kalaga National Park, Lummox County. They follow the deer herds through the forest."
     },
     {
-      "q": "Where does the Florida Panther live in GTA 6?",
-      "a": "[Red Hill Forest](/gameplay/locations/red-hill-forest) mainly, plus the wider inland woodland and scrubland of Leonida. It avoids the coast entirely.",
-      "aPlain": "Red Hill Forest mainly, plus the wider inland woodland and scrubland of Leonida. It avoids the coast entirely."
-    },
-    {
-      "q": "Is the Florida Panther dangerous in GTA 6?",
-      "a": "Extremely. It strikes fast from cover and repositions for a follow-up attack instead of holding on like an alligator does. Standing still doesn't help.",
-      "aPlain": "Extremely. It strikes fast from cover and repositions for a follow-up attack instead of holding on like an alligator does. Standing still doesn't help."
+      "q": "How do you study animals in GTA 6?",
+      "a": "Binoculars or a rifle scope. Zoom in until Study shows, then hold R1 (RB) until the circle fills. The entry lands under Progress > Animals. No kill needed.",
+      "aPlain": "Binoculars or a rifle scope. Zoom in until Study shows, then hold R1 (RB) until the circle fills. The entry lands under Progress > Animals. No kill needed."
     }
   ],
   "sidebar": [
@@ -98,8 +87,8 @@
       "title": "Primary Habitat",
       "items": [
         {
-          "url": "/gameplay/locations/red-hill-forest",
-          "label": "Red Hill Forest"
+          "url": "/gameplay/locations/mount-kalaga-national-park",
+          "label": "Mount Kalaga National Park"
         },
         {
           "url": "/gameplay/locations/grassrivers",
@@ -131,8 +120,8 @@
   ]
 }
 ---
-The Florida Panther is Leonida's answer to a simple question: what is the most dangerous land animal in the state? The answer is not the alligator, which you can see and avoid. It is not the wild boar, which charges from a direction you can read. **The panther is behind you before the situation has registered.**
+Panthers hunt the high ground of [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park). **It is deer country, and the cat follows the herds.** Find the [white-tailed deer](/gameplay/animals/white-tailed-deer) at a creek or forest pool and the panther is rarely far off.
 
-Real Florida panthers are critically endangered. Fewer than two hundred individuals remain in the wild. The game reflects this honestly: encounters are rare, and repeat encounters in the same area are rarer still. It is not ambient fauna. It is an event.
+It does not announce itself. Study it from range: raise the binoculars or a rifle scope, zoom in until Study shows, then hold R1 (RB). Getting close to make sure is how you stop being the hunter.
 
-**The attack is fast and the recovery window is short.** Unlike the alligator, which grabs and holds, the panther strikes and repositions. Multiple attacks in rapid succession. The standard response of standing still or backing away does not apply.
+The park is also Bret Vogel's ground. His cabin, Killtelligence Provisions, sits in the same forest, and hunting there runs through him: see [Hunting](/gameplay/activities/hunting).

@@ -4,34 +4,29 @@
     "Shark"
   ],
   "seo": {
-    "title": "Shark | GTA 6 Animal Profile | GTAVITIPS",
-    "description": "The Shark in GTA 6: a lethal open-water predator past the surf break, spotted off the Leonida Keys and in a Vice City attack.",
-    "ogDescription": "The Shark in GTA 6: a lethal open-water predator past the surf break, spotted off the Leonida Keys and in a Vice City attack.",
+    "title": "Shark Location | GTA 6 Animal | GTAVITIPS",
+    "description": "Where to find sharks in GTA 6: open water off Leonida and the shipwreck dives of the Keys. What to expect when one comes close.",
+    "ogDescription": "Where to find sharks in GTA 6: open water off Leonida and the shipwreck dives of the Keys. What to expect when one comes close.",
     "jsonLdHeadline": "Shark – GTA 6 Animal Profile",
-    "jsonLdDescription": "The Shark in GTA 6: a lethal open-water predator past the surf break, spotted off the Leonida Keys and in a Vice City attack.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Where to find sharks in GTA 6: open water off Leonida and the shipwreck dives of the Keys. What to expect when one comes close.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "Past the surf break, the rules change. **Everything the ocean contains in Leonida is larger than what is visible from the beach.**",
   "statBlock": [
     {
       "key": "Threat Level",
       "value": "High, Lethal",
-      "sub": "The attack is fast and damage is significant. The real threat is the swim back to shore."
+      "sub": "They come for divers. Hammerheads grow bigger than a small boat."
     },
     {
       "key": "Habitat",
-      "value": "Open water past the surf break",
-      "sub": "Open Atlantic off the Leonida coast. Present in deep water. Rarely in shallow coastal zones."
+      "value": "Open water and wreck dives",
+      "sub": "Deep water offshore and the wrecks around the [Leonida Keys](/gameplay/locations/leonida-keys)."
     },
     {
-      "key": "Rarity",
-      "value": "Present in open ocean",
-      "sub": "Not visible from the shoreline. Triggered by extended time in deep water."
-    },
-    {
-      "key": "Resource Value",
-      "value": "None",
-      "sub": "Marine predator. No resource value. The encounter is the cost."
+      "key": "Animal Log",
+      "value": "Study from the boat",
+      "sub": "Binoculars on the fin. Progress > Animals."
     }
   ],
   "gallery": [],
@@ -63,19 +58,14 @@
   ],
   "faq": [
     {
-      "q": "Is the shark in GTA 6?",
-      "a": "Yes. A large individual is visible in an open-water sequence off the Leonida Keys in Trailer 1, and an attack sequence plays out in open Atlantic water off Vice City in Trailer 2.",
-      "aPlain": "Yes. A large individual is visible in an open-water sequence off the Leonida Keys in Trailer 1, and an attack sequence plays out in open Atlantic water off Vice City in Trailer 2."
+      "q": "Where do you find sharks in GTA 6?",
+      "a": "In open water offshore and around the shipwreck dives of the [Leonida Keys](/gameplay/locations/leonida-keys).",
+      "aPlain": "In open water offshore and around the shipwreck dives of the Leonida Keys."
     },
     {
-      "q": "How dangerous are sharks in GTA 6?",
-      "a": "Genuinely dangerous. The attack is fast, the damage is significant, and getting back to shore afterward is the real problem.",
-      "aPlain": "Genuinely dangerous. The attack is fast, the damage is significant, and getting back to shore afterward is the real problem."
-    },
-    {
-      "q": "Where do sharks appear in GTA 6?",
-      "a": "Open water past the surf break, off the Leonida Keys and the Vice City and Ocean Beach coastlines. Extended time in deep water triggers the encounter.",
-      "aPlain": "Open water past the surf break, off the Leonida Keys and the Vice City and Ocean Beach coastlines. Extended time in deep water triggers the encounter."
+      "q": "Are there hammerhead sharks in GTA 6?",
+      "a": "Yes. Some are bigger than a small boat.",
+      "aPlain": "Yes. Some are bigger than a small boat."
     }
   ],
   "sidebar": [
@@ -116,8 +106,8 @@
   ]
 }
 ---
-Sharks in Leonida occupy the offshore water past a certain depth. The ocean is not a safe extension of the land. Leonida is a state with two coasts and an open Atlantic east face.
+Sharks own the deep water. **Several species patrol Leonida's sea, and the hammerheads out there are bigger than the boat you came in.**
 
-The shark encounter is the game's way of marking the deep water boundary. Swim past the surf break, stay in deep water long enough, and the encounter begins. **The attack is fast, the damage is significant, and the distance to the shore is the problem.**
+Divers meet them on the wrecks. Dive one of the shipwrecks around the [Leonida Keys](/gameplay/locations/leonida-keys) and a shark can swim straight up to you. See [Diving](/gameplay/activities/diving) for gear and spots.
 
-Shark species in Florida waters include bull sharks, tiger sharks, and hammerheads. Bull sharks are the most relevant to the Leonida threat profile: they are the species that enters shallow water and the species most associated with beach-adjacent attacks. **In Leonida, a bull shark does not respect the distance you thought was safe.**
+For the animal log, stay dry. Take a boat out past the coast and put the binoculars on the fin; the study goes under Progress > Animals.

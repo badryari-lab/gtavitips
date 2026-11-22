@@ -4,34 +4,29 @@
     "Cat"
   ],
   "seo": {
-    "title": "Cat | GTA 6 Animal Profile | GTAVITIPS",
-    "description": "The Cat in GTA 6: ambient urban wildlife roaming Vice City alleyways and marina dockyards, indifferent to everything.",
-    "ogDescription": "The Cat in GTA 6: ambient urban wildlife roaming Vice City alleyways and marina dockyards, indifferent to everything.",
+    "title": "Cat Breeds and Locations | GTA 6 Animal | GTAVITIPS",
+    "description": "Cats in GTA 6: where to find them in Leonida, and how to study every breed for the Cats & Dogs tab of the animal log toward 100%.",
+    "ogDescription": "Cats in GTA 6: where to find them in Leonida, and how to study every breed for the Cats & Dogs tab of the animal log toward 100%.",
     "jsonLdHeadline": "Cat – GTA 6 Animal Profile",
-    "jsonLdDescription": "The Cat in GTA 6: ambient urban wildlife roaming Vice City alleyways and marina dockyards, indifferent to everything.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Cats in GTA 6: where to find them in Leonida, and how to study every breed for the Cats & Dogs tab of the animal log toward 100%.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "On the car. On the fence. On the warm pavement outside the diner. **Aware of you. Not interested in you.** The cat is [Vice City](/gameplay/locations/vice-city)'s most indifferent resident.",
   "statBlock": [
     {
       "key": "Threat Level",
       "value": "None, Domestic",
-      "sub": "Ambient urban wildlife. Watches, then leaves at its own pace. Entirely outside the game's conflict systems."
+      "sub": "Pets and strays. They keep their distance."
     },
     {
       "key": "Habitat",
-      "value": "Urban and suburban environments",
-      "sub": "Residential gardens, alleyways, marina dockyards, and anywhere humans live that is not actively hostile to animals."
+      "value": "Neighbourhoods and homes",
+      "sub": "House cats stay near their owners. Feral cats work the city streets."
     },
     {
-      "key": "Rarity",
-      "value": "Common in urban and suburban zones",
-      "sub": "Present across [Vice City](/gameplay/locations/vice-city) and suburban Leonida. Mostly independent of human oversight."
-    },
-    {
-      "key": "Resource Value",
-      "value": "None",
-      "sub": "Ambient domestic fauna. No resource value."
+      "key": "Animal Log",
+      "value": "Cats & Dogs tab",
+      "sub": "Every breed is a separate entry. Progress > Animals."
     }
   ],
   "gallery": [],
@@ -63,19 +58,19 @@
   ],
   "faq": [
     {
-      "q": "Are cats in GTA 6?",
-      "a": "Yes. Visible in a [Vice City](/gameplay/locations/vice-city) alleyway in Trailer 1, and on marina dock equipment in Trailer 2.",
-      "aPlain": "Yes. Visible in a Vice City alleyway in Trailer 1, and on marina dock equipment in Trailer 2."
+      "q": "Where do you find cats in GTA 6?",
+      "a": "Around homes and in neighbourhoods. Feral cats turn up in the city.",
+      "aPlain": "Around homes and in neighbourhoods. Feral cats turn up in the city."
     },
     {
-      "q": "Where do cats live in GTA 6?",
-      "a": "Urban and suburban [Vice City](/gameplay/locations/vice-city). Alleyways, gardens, marinas, anywhere people live that isn't actively hostile to animals.",
-      "aPlain": "Urban and suburban Vice City. Alleyways, gardens, marinas, anywhere people live that isn't actively hostile to animals."
+      "q": "Does every cat breed count in GTA 6?",
+      "a": "Yes. Each breed is its own entry on the Cats & Dogs tab under Progress > Animals.",
+      "aPlain": "Yes. Each breed is its own entry on the Cats & Dogs tab under Progress > Animals."
     },
     {
-      "q": "Are cats dangerous in GTA 6?",
-      "a": "No. They watch, then leave at their own pace. Completely outside the game's conflict systems.",
-      "aPlain": "No. They watch, then leave at their own pace. Completely outside the game's conflict systems."
+      "q": "How do you study animals in GTA 6?",
+      "a": "Binoculars or a rifle scope. Zoom in until Study shows, then hold R1 (RB) until the circle fills. The entry lands under Progress > Animals. No kill needed.",
+      "aPlain": "Binoculars or a rifle scope. Zoom in until Study shows, then hold R1 (RB) until the circle fills. The entry lands under Progress > Animals. No kill needed."
     }
   ],
   "sidebar": [
@@ -116,8 +111,8 @@
   ]
 }
 ---
-Every city in the world has cats that belong to no one in particular. They live on the margin between domestic and feral, fed by restaurant staff, sleeping in spaces behind buildings, operating on a schedule that has nothing to do with human activity.
+Cats live where people live. Yards, porches, living rooms. **The feral ones work the city streets on their own schedule.**
 
-In [Vice City](/gameplay/locations/vice-city) they are on the car bonnets in the car park behind the nightclub, on the wall outside the restaurant service entrance, on the marina dock in the early morning. **They are ambient in the fullest sense: present, real, and completely outside the game's conflict systems.**
+They count for the animal log. Cats and dogs share one tab under Progress > Animals, and every breed is a separate entry, so two different cats can mean two studies. Raise the binoculars or a rifle scope, zoom in until Study shows, then hold R1 (RB).
 
-They do not react to the player with any urgency until physical proximity forces a response. They watch. Then they leave, at their own pace, in their own direction. The Dobermann is a tactical complication. The cat is proof that the world has things in it that are not tactical complications.
+Walk a busy neighbourhood with the binoculars out and the tab fills itself. It all counts toward 100%: the animal line asks for 100 studies from the whole log.

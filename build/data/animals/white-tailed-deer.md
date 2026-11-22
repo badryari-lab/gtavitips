@@ -4,12 +4,12 @@
     "White-Tailed Deer"
   ],
   "seo": {
-    "title": "White-Tailed Deer | GTA 6 Animal Profile | GTAVITIPS",
-    "description": "The White-Tailed Deer in GTA 6: a common inland prey animal grazing at dawn and across open grassland, the primary hunting target.",
-    "ogDescription": "The White-Tailed Deer in GTA 6: a common inland prey animal grazing at dawn and across open grassland, the primary hunting target.",
+    "title": "White-Tailed Deer Location | GTA 6 Animal | GTAVITIPS",
+    "description": "Where to find white-tailed deer in GTA 6: Mount Kalaga, the Abandoned Concrete Plant and Kalaga River. Buck, doe and the rifle to use.",
+    "ogDescription": "Where to find white-tailed deer in GTA 6: Mount Kalaga, the Abandoned Concrete Plant and Kalaga River. Buck, doe and the rifle to use.",
     "jsonLdHeadline": "White-Tailed Deer – GTA 6 Animal Profile",
-    "jsonLdDescription": "The White-Tailed Deer in GTA 6: a common inland prey animal grazing at dawn and across open grassland, the primary hunting target.",
-    "dateModified": "2026-02-01",
+    "jsonLdDescription": "Where to find white-tailed deer in GTA 6: Mount Kalaga, the Abandoned Concrete Plant and Kalaga River. Buck, doe and the rifle to use.",
+    "dateModified": "2026-11-22",
     "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-05.jpg"
   },
   "heroSubtitle": "The standard prey animal of inland Leonida. **Spotted, still, then gone.** The distance between those three states is very small.",
@@ -23,23 +23,22 @@
     {
       "key": "Threat Level",
       "value": "None, Herbivore",
-      "sub": "Passive prey animal. Flees at the first sign of a threat rather than standing its ground."
+      "sub": "It runs. Shoot from distance."
     },
     {
       "key": "Habitat",
-      "value": "Forest and grassland zones",
-      "sub": "Inland Leonida, woodland margins, and open grassland. Avoids dense urban areas."
+      "value": "[Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park), Abandoned Concrete Plant, Kalaga River",
+      "sub": "Woodland and stream edges in Lummox County."
     },
     {
-      "key": "Rarity",
-      "value": "Common",
-      "sub": "High density across woodland and grassland Leonida. Most active at dawn and dusk."
+      "key": "Hunting",
+      "value": "Shrewsbury SM-69",
+      "sub": "One shot to the head or heart keeps it pristine."
     },
     {
-      "key": "Resource Value",
-      "value": "Venison and Hide",
-      "sub": "Primary hunting target. Meat and hide value for hunting activity rewards.",
-      "speculation": "Speculation"
+      "key": "Bret's Orders",
+      "value": "Target Deck 1",
+      "sub": "A Whitetail Buck and a Whitetail Doe."
     }
   ],
   "gallery": [
@@ -78,19 +77,19 @@
   ],
   "faq": [
     {
-      "q": "Are white-tailed deer in GTA 6?",
-      "a": "Yes. Grazing in a woodland clearing at dawn in Trailer 1, and active as a group in open grassland in Trailer 2.",
-      "aPlain": "Yes. Grazing in a woodland clearing at dawn in Trailer 1, and active as a group in open grassland in Trailer 2."
+      "q": "Where do you find deer in GTA 6?",
+      "a": "In [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park), around the Abandoned Concrete Plant and along the Kalaga River in Lummox County.",
+      "aPlain": "In Mount Kalaga National Park, around the Abandoned Concrete Plant and along the Kalaga River in Lummox County."
     },
     {
-      "q": "Where do white-tailed deer live in GTA 6?",
-      "a": "Forest and grassland zones across inland Leonida. Most active at dawn and dusk.",
-      "aPlain": "Forest and grassland zones across inland Leonida. Most active at dawn and dusk."
+      "q": "What gun should you use on deer in GTA 6?",
+      "a": "A scoped Shrewsbury SM-69. One shot to the head or heart keeps the carcass pristine.",
+      "aPlain": "A scoped Shrewsbury SM-69. One shot to the head or heart keeps the carcass pristine."
     },
     {
-      "q": "Can you hunt white-tailed deer in GTA 6?",
-      "a": "Presumably. Venison and hide are the expected yield, though hunting itself hasn't been shown directly in trailer footage yet.",
-      "aPlain": "Presumably. Venison and hide are the expected yield, though hunting itself hasn't been shown directly in trailer footage yet."
+      "q": "What is Bret's first Target Deck in GTA 6?",
+      "a": "A Whitetail Buck and a Whitetail Doe, hunted in the Mount Kalaga area.",
+      "aPlain": "A Whitetail Buck and a Whitetail Doe, hunted in the Mount Kalaga area."
     }
   ],
   "sidebar": [
@@ -131,8 +130,8 @@
   ]
 }
 ---
-White-tailed deer are the benchmark against which other Leonida wildlife is measured. They are everywhere in the right terrain, they are passive unless cornered, and they are the species that makes hunting in Leonida make sense as an activity.
+The whitetail is the first animal most players hunt. **Bret Vogel takes Jason after one on his first job in Chapter 2, and pays $500 for it.**
 
-The detection range is significant. They do not wait until you are close before running. A scent or a sound from a meaningful distance triggers the flight response. **Approaching requires wind direction awareness and slow movement.** Rushing the approach empties the area.
+The herds keep to [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park), the Abandoned Concrete Plant and the Kalaga River in Lummox County. Look at woodland and stream edges. Focus lights up their tracks, and the trail changes colour as you close in.
 
-At night on roads they behave the way real deer behave: they stand in headlights and freeze. **The vehicle problem and the hunt target are the same animal in different contexts.**
+They spook if you get close, so shoot from range with a scoped Shrewsbury SM-69, the rifle the game recommends. One shot to the head or heart keeps the carcass pristine. Bret's first Target Deck asks for a Whitetail Buck and a Whitetail Doe. More under [Hunting](/gameplay/activities/hunting).

@@ -4,12 +4,12 @@
     "American Alligator"
   ],
   "seo": {
-    "title": "American Alligator | GTA 6 Animal Profile | GTAVITIPS",
-    "description": "The American Alligator in GTA 6: a lethal wetland apex predator found in Grassrivers' wetlands and golf courses.",
-    "ogDescription": "The American Alligator in GTA 6: a lethal wetland apex predator found in Grassrivers' wetlands and golf courses.",
+    "title": "American Alligator Location | GTA 6 Animal | GTAVITIPS",
+    "description": "Where to find alligators in GTA 6: the Grassrivers wetlands, the albino gator near Hamlet, and how to study or hunt one without losing an arm.",
+    "ogDescription": "Where to find alligators in GTA 6: the Grassrivers wetlands, the albino gator near Hamlet, and how to study or hunt one without losing an arm.",
     "jsonLdHeadline": "American Alligator – GTA 6 Animal Profile",
-    "jsonLdDescription": "The American Alligator in GTA 6: a lethal wetland apex predator found in Grassrivers' wetlands and golf courses.",
-    "dateModified": "2026-02-01",
+    "jsonLdDescription": "Where to find alligators in GTA 6: the Grassrivers wetlands, the albino gator near Hamlet, and how to study or hunt one without losing an arm.",
+    "dateModified": "2026-11-22",
     "ogImage": "https://gtavitips.com/assets/images/grassrivers-gta-6-location-01.jpg"
   },
   "heroSubtitle": "At rest it looks like a log. Moving it is faster than the distance suggests. **In the water the gap closes before most players recognise it as a gap.**",
@@ -22,24 +22,23 @@
   "statBlock": [
     {
       "key": "Threat Level",
-      "value": "Lethal in Water",
-      "sub": "Fast, sustained damage on a successful grab. Manageable on land, dangerous the moment you're both in the water."
+      "value": "Attacks on Sight",
+      "sub": "Wild gators go after people, you included. One bite takes a big piece of your health."
     },
     {
       "key": "Habitat",
-      "value": "[Grassrivers](/gameplay/locations/grassrivers), golf courses, and any standing water",
-      "sub": "Freshwater wetlands, slow rivers, canals, retention ponds, and any accessible body of standing water in Leonida."
+      "value": "[Grassrivers](/gameplay/locations/grassrivers) wetlands",
+      "sub": "And anywhere the water reaches: pools, canals, the odd convenience store."
     },
     {
-      "key": "Rarity",
-      "value": "Common in wetland zones",
-      "sub": "High density in the Grassrivers. Present wherever standing water exists in southern Leonida."
+      "key": "Hunting",
+      "value": "Shrewsbury SM-69",
+      "sub": "The recommended rifle. One shot to the head or heart keeps the carcass pristine."
     },
     {
-      "key": "Resource Value",
-      "value": "Hide and Meat",
-      "sub": "Recoverable on successful hunt. Significant value. The risk-to-reward calculation is part of the point.",
-      "speculation": "Speculation"
+      "key": "Rare Variant",
+      "value": "Albino American Alligator",
+      "sub": "Wetlands near [Hamlet](/gameplay/locations/hamlet). Hunt it for Bret and the Fair Game trophy pops."
     }
   ],
   "gallery": [
@@ -78,19 +77,24 @@
   ],
   "faq": [
     {
-      "q": "Is the American Alligator in GTA 6?",
-      "a": "Yes. Alligators appear in Trailer 1, in a [Grassrivers](/gameplay/locations/grassrivers) wetland sequence and again on a [Vice County](/gameplay/locations/vice-county) golf course water hazard.",
-      "aPlain": "Yes. Alligators appear in Trailer 1, in a Grassrivers wetland sequence and again on a Vice County golf course water hazard."
+      "q": "Where do you find alligators in GTA 6?",
+      "a": "In the [Grassrivers](/gameplay/locations/grassrivers) wetlands of Mariana County. They also wander into pools, canals and stores.",
+      "aPlain": "In the Grassrivers wetlands of Mariana County. They also wander into pools, canals and stores."
     },
     {
-      "q": "Where do alligators live in GTA 6?",
-      "a": "The [Grassrivers](/gameplay/locations/grassrivers) mainly. Also golf course water hazards and any standing water across southern Leonida.",
-      "aPlain": "The Grassrivers mainly. Also golf course water hazards and any standing water across southern Leonida."
+      "q": "Where is the albino alligator in GTA 6?",
+      "a": "In the wetlands near [Hamlet](/gameplay/locations/hamlet). It counts as a unique animal: hunt it for Bret for the Fair Game trophy.",
+      "aPlain": "In the wetlands near Hamlet. It counts as a unique animal: hunt it for Bret for the Fair Game trophy."
     },
     {
       "q": "Are alligators dangerous in GTA 6?",
-      "a": "In the water, yes. They close distance fast and hit hard. On land they're still dangerous but slower to turn, which changes the fight.",
-      "aPlain": "In the water, yes. They close distance fast and hit hard. On land they're still dangerous but slower to turn, which changes the fight."
+      "a": "Yes. Wild gators attack people, including you, and one bite takes a big chunk of health. Study or shoot from distance.",
+      "aPlain": "Yes. Wild gators attack people, including you, and one bite takes a big chunk of health. Study or shoot from distance."
+    },
+    {
+      "q": "Are there crocodiles in GTA 6?",
+      "a": "Yes. The American crocodile is a separate animal. It prefers salt water and lives along the coast.",
+      "aPlain": "Yes. The American crocodile is a separate animal. It prefers salt water and lives along the coast."
     }
   ],
   "sidebar": [
@@ -131,8 +135,12 @@
   ]
 }
 ---
-American alligators are the ecological anchor of Florida wetland systems. In Leonida they fill the same role: **they are why you do not swim in still water in the [Grassrivers](/gameplay/locations/grassrivers), and they are why the golf courses have warning signs that nobody reads.**
+Gators own the [Grassrivers](/gameplay/locations/grassrivers). They lie still in the shallows of Mariana County and do not stay there: pools, canals and shop floors get visitors too. **Wild alligators attack people, and that includes you.** One that reaches you takes a big chunk of health in a single bite, so work from distance.
 
-The attack behaviour is two-phase. At distance they watch and wait. Within the attack threshold they close fast and grab. The grab applies a sustained damage sequence that requires immediate response. In water the mobility advantage is entirely theirs.
+The alligator sits on the Hunting tab of the animal log under Progress > Animals. Raise the binoculars or a rifle scope, zoom in until Study shows, then hold R1 (RB). No kill needed for the entry.
 
-Outside the water they are still dangerous but slower. The attack is direct, the bite force is significant, but they cannot change direction fast. **The tactical difference between an alligator encounter on land and in water is the difference between a manageable problem and a serious problem.**
+Hunting one is Jason's work. Once his old army friend Bret Vogel brings him into the trade in Chapter 2, carcasses sell at Killtelligence Provisions, Bret's cabin in [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park). The recommended rifle is the Shrewsbury SM-69. One shot to the head or heart keeps the carcass pristine, and pristine pays most. The rest of the trade is under [Hunting](/gameplay/activities/hunting).
+
+**The rare one is white.** An Albino American Alligator turns up in the wetlands near [Hamlet](/gameplay/locations/hamlet). Bag a unique animal like it for Bret and the Fair Game trophy is yours.
+
+The American crocodile is a different animal with its own log entry. It prefers salt water and keeps to the coast.

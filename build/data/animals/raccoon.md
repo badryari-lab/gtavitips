@@ -4,34 +4,34 @@
     "Raccoon"
   ],
   "seo": {
-    "title": "Raccoon | GTA 6 Animal Profile | GTAVITIPS",
-    "description": "The Raccoon in GTA 6: an urban-adapted scavenger holding Vice City's night shift, alleyways and marina roofs included.",
-    "ogDescription": "The Raccoon in GTA 6: an urban-adapted scavenger holding Vice City's night shift, alleyways and marina roofs included.",
+    "title": "Raccoon Location | GTA 6 Animal | GTAVITIPS",
+    "description": "Raccoons in GTA 6: where they turn up in Vice City, how to log one, and which rifle keeps the carcass intact if you hunt them.",
+    "ogDescription": "Raccoons in GTA 6: where they turn up in Vice City, how to log one, and which rifle keeps the carcass intact if you hunt them.",
     "jsonLdHeadline": "Raccoon – GTA 6 Animal Profile",
-    "jsonLdDescription": "The Raccoon in GTA 6: an urban-adapted scavenger holding Vice City's night shift, alleyways and marina roofs included.",
-    "dateModified": "2026-02-01"
+    "jsonLdDescription": "Raccoons in GTA 6: where they turn up in Vice City, how to log one, and which rifle keeps the carcass intact if you hunt them.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "[Vice City](/gameplay/locations/vice-city) at night has raccoons in it. **They are in the bins, on the fire escapes, and absolutely certain they belong there.**",
   "statBlock": [
     {
       "key": "Threat Level",
       "value": "None, Scavenger",
-      "sub": "Investigates rather than flees at close range. Not aggressive toward the player."
+      "sub": "Into your trash, not into you."
     },
     {
       "key": "Habitat",
       "value": "Urban and suburban [Vice City](/gameplay/locations/vice-city)",
-      "sub": "Any environment with accessible food waste. Rooftops, alleyways, marinas, residential gardens."
+      "sub": "Bins, alleys and back yards."
     },
     {
-      "key": "Rarity",
-      "value": "Common in urban zones",
-      "sub": "High density in Vice City and suburban areas. Primarily nocturnal. Adapted to human presence."
+      "key": "Animal Log",
+      "value": "Northern Raccoon",
+      "sub": "Hunting tab. Progress > Animals."
     },
     {
-      "key": "Resource Value",
-      "value": "None",
-      "sub": "No significant resource value. Ambient fauna."
+      "key": "Hunting",
+      "value": "Wortham W-22",
+      "sub": "Low power, so the carcass stays intact."
     }
   ],
   "gallery": [],
@@ -63,19 +63,19 @@
   ],
   "faq": [
     {
-      "q": "Is the raccoon in GTA 6?",
-      "a": "Yes. One investigates waste containers in a Vice City alleyway at night in Trailer 1, and another forages on a marina roof in Trailer 2.",
-      "aPlain": "Yes. One investigates waste containers in a Vice City alleyway at night in Trailer 1, and another forages on a marina roof in Trailer 2."
+      "q": "Where do you find raccoons in GTA 6?",
+      "a": "In urban and suburban Vice City, around bins, alleys and yards.",
+      "aPlain": "In urban and suburban Vice City, around bins, alleys and yards."
     },
     {
-      "q": "Are raccoons aggressive in GTA 6?",
-      "a": "No. They investigate rather than flee at close range, but that's curiosity, not aggression. They pose no threat to the player.",
-      "aPlain": "No. They investigate rather than flee at close range, but that's curiosity, not aggression. They pose no threat to the player."
+      "q": "What gun should you use on raccoons in GTA 6?",
+      "a": "The Wortham W-22. It is a low-power small-game rifle that keeps the carcass intact.",
+      "aPlain": "The Wortham W-22. It is a low-power small-game rifle that keeps the carcass intact."
     },
     {
-      "q": "Where do raccoons live in GTA 6?",
-      "a": "Any urban or suburban environment with accessible food waste. Rooftops, alleyways, marinas, and residential gardens across Vice City.",
-      "aPlain": "Any urban or suburban environment with accessible food waste. Rooftops, alleyways, marinas, and residential gardens across Vice City."
+      "q": "How do you study animals in GTA 6?",
+      "a": "Binoculars or a rifle scope. Zoom in until Study shows, then hold R1 (RB) until the circle fills. The entry lands under Progress > Animals. No kill needed.",
+      "aPlain": "Binoculars or a rifle scope. Zoom in until Study shows, then hold R1 (RB) until the circle fills. The entry lands under Progress > Animals. No kill needed."
     }
   ],
   "sidebar": [
@@ -116,8 +116,8 @@
   ]
 }
 ---
-The raccoon is the most urban-adapted mammal in Leonida. It is in the bins behind the restaurants, on the roof of the marina building, in the alley behind the club at three in the morning. **It is not afraid of people. It is not afraid of anything that does not actively chase it.**
+Raccoons work the bins of [Vice City](/gameplay/locations/vice-city) and the suburbs around it. **Every alley is a buffet.**
 
-As ambient wildlife it adds exactly the right texture to [Vice City](/gameplay/locations/vice-city)'s nighttime environment. Miami has raccoons. Every city with accessible food waste has raccoons. Leonida is no different.
+In the animal log it is the Northern Raccoon, filed on the Hunting tab under Progress > Animals. Raise the binoculars or a rifle scope, zoom in until Study shows, then hold R1 (RB).
 
-**In proximity to the player it investigates rather than flees.** The standard wildlife flight response applies at a much closer distance than it does for rural species. The raccoon has had enough exposure to humans to recalibrate its threat assessment. Incorrectly, but consistently.
+Hunting one for Bret Vogel? The game recommends the Wortham W-22, a low-power small-game rifle that does not wreck the carcass. Anything bigger and there is nothing left to sell. See [Hunting](/gameplay/activities/hunting).
