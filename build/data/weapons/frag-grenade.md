@@ -55,12 +55,6 @@
       "type": "Character",
       "name": "Lucia Caminos",
       "desc": "Same math: area denial beats precision when there's more than one target."
-    },
-    {
-      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
-      "type": "Faction",
-      "name": "La Polilla Negra",
-      "desc": "Reserved for operations that need a room cleared, not negotiated."
     }
   ],
   "faq": [

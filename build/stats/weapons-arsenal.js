@@ -91,7 +91,7 @@ const HTML = `<!--arsenal:start-->
   <section class="ars" aria-labelledby="arsenal-hd">
     <div class="wrap">
       <h2 class="index-section__h2" id="arsenal-hd">Full <span style="color:var(--blue)">Arsenal</span></h2>
-      <p class="ars__intro"><strong>53 guns, 9 melee weapons, 4 explosives.</strong> That is the standard-issue count. Ammu-Nation sells 52 of the guns across its 26 stores. The rotary grenade launcher has to be earned. Every number is the weapon menu's own, scored out of 10. Hardest hitter: the ${esc(hitter[0])} at ${num(hitter[4]).toFixed(1)} damage. Tap a column to sort, tap a class to filter.</p>
+      <p class="ars__intro"><strong>53 guns, 9 melee weapons, 4 explosives.</strong> That is the standard-issue count. Ammu-Nation sells 52 of the guns, but no single store carries them all. The rotary grenade launcher has to be earned. Every number is the weapon menu's own, scored out of 10. Hardest hitter: the ${esc(hitter[0])} at ${num(hitter[4]).toFixed(1)} damage. Tap a column to sort, tap a class to filter.</p>
       
       <div class="ars__chips" role="group" aria-label="Filter by class">${chips.map(([k, l], i) => `<button type="button" class="ars__chip" data-f="${k}" aria-pressed="${i === 0}">${l}</button>`).join('')}</div>
       <div class="ars__scroll"><table class="ars__table" id="ars-std"><caption>GTA 6 standard-issue guns with in-game menu stats</caption>${head(true)}<tbody>

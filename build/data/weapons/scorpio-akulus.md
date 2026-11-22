@@ -39,7 +39,7 @@
     {
       "key": "Where to Buy",
       "value": "Ammu-Nation",
-      "sub": "Expanded and Hunting stock. The smaller branches do not carry it. There are 26 stores across Leonida."
+      "sub": "Expanded and Hunting stock. The smaller branches do not carry it."
     },
     {
       "key": "Unique Versions",
@@ -54,12 +54,6 @@
       "type": "Character",
       "name": "Raul Bautista",
       "desc": "Matches the kind of operation he runs: one shot, no second chances needed."
-    },
-    {
-      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
-      "type": "Faction",
-      "name": "La Polilla Negra",
-      "desc": "Reserved for enforcers who want one shot to end things."
     },
     {
       "url": "/gameplay/gangs-and-factions/vcpd",
@@ -81,7 +75,7 @@
     },
     {
       "q": "Where can you get the Scorpio Akulus in Leonida?",
-      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Scorpio Akulus from its Expanded and Hunting stock, so the smaller branches do not carry it. There are 26 stores across Leonida."
+      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Scorpio Akulus from its Expanded and Hunting stock, so the smaller branches do not carry it."
     },
     {
       "q": "Is the Scorpio Akulus used by law enforcement or just criminals in Leonida?",
@@ -95,7 +89,7 @@
     },
     {
       "q": "Where can you get the Scorpio Akulus in Leonida?",
-      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Scorpio Akulus from its Expanded and Hunting stock, so the smaller branches do not carry it. There are 26 stores across Leonida."
+      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Scorpio Akulus from its Expanded and Hunting stock, so the smaller branches do not carry it."
     },
     {
       "q": "Is the Scorpio Akulus used by law enforcement or just criminals in Leonida?",

@@ -11,7 +11,7 @@
     "ogImagePlaceholder": "western-nightblade-gta-6-vehicle.jpg",
     "jsonLdHeadline": "Western Nightblade - GTA 6 Vehicle",
     "jsonLdDescription": "The Western Nightblade is a cruiser motorcycle in GTA 6 Leonida. Based on the Harley-Davidson Softail.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "The Harley-Davidson of Leonida. **Low seat, fat rear tyre, V-twin, and the riding position that says the destination matters less than the road between here and there.**",
   "statBlock": [
@@ -96,6 +96,6 @@
 ---
 The Nightblade is the cruiser. The Harley-Davidson Softail formula: V-twin, low and long, with the torque-focused power delivery that American cruisers have always used. Not the fastest motorcycle in Leonida. The motorcycle with the most authentic relationship with the road on the run from [Vice City](/gameplay/locations/vice-city) to the Keys.
 
-The Final Chapter connection is direct. The OMG's highway network culture is built around this class of vehicle. The Nightblade is the specific motorcycle that the [Vice County](/gameplay/locations/vice-county) highway represents in vehicle terms. **The Keys causeway and the Vice County state roads are the Nightblade's natural environment.**
+The Final Chapter connection is direct. The club's highway network culture is built around this class of vehicle. The Nightblade is the specific motorcycle that the [Vice County](/gameplay/locations/vice-county) highway represents in vehicle terms. **The Keys causeway and the Vice County state roads are the Nightblade's natural environment.**
 
 The handling reflects the cruiser formula. Stable at highway speed, wider turning radius than a sport bike, and the low centre of gravity that the seated position creates. The Nightblade is not the tool for the Vice City grid. It is the tool for the road that runs away from the city.

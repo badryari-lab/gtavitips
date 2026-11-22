@@ -51,12 +51,6 @@
       "desc": "Breaks out the heavy hardware when the situation has stopped being subtle."
     },
     {
-      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
-      "type": "Faction",
-      "name": "La Polilla Negra",
-      "desc": "Reserved for whatever requires overwhelming force."
-    },
-    {
       "url": "/gameplay/gangs-and-factions/noose",
       "type": "Faction",
       "name": "N.O.O.S.E.",

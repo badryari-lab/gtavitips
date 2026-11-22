@@ -39,7 +39,7 @@
     {
       "key": "Where to Buy",
       "value": "Ammu-Nation",
-      "sub": "Standard stock, so most branches carry it. There are 26 stores across Leonida."
+      "sub": "Standard stock, so most branches carry it."
     },
     {
       "key": "Unique Versions",
@@ -75,7 +75,7 @@
     },
     {
       "q": "Where can you get the Wortham W-10 in Leonida?",
-      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Wortham W-10 from its Standard stock, so most branches have it. There are 26 stores across Leonida."
+      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Wortham W-10 from its Standard stock, so most branches have it."
     },
     {
       "q": "Who are the confirmed Wortham W-10 carriers in Leonida?",
@@ -89,7 +89,7 @@
     },
     {
       "q": "Where can you get the Wortham W-10 in Leonida?",
-      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Wortham W-10 from its Standard stock, so most branches have it. There are 26 stores across Leonida."
+      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Wortham W-10 from its Standard stock, so most branches have it."
     },
     {
       "q": "Who are the confirmed Wortham W-10 carriers in Leonida?",

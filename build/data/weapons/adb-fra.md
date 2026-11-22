@@ -39,7 +39,7 @@
     {
       "key": "Where to Buy",
       "value": "Ammu-Nation",
-      "sub": "Standard stock, so most branches carry it. There are 26 stores across Leonida."
+      "sub": "Standard stock, so most branches carry it."
     },
     {
       "key": "Unique Versions",
@@ -49,12 +49,6 @@
   ],
   "gallery": [],
   "connections": [
-    {
-      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
-      "type": "Faction",
-      "name": "La Polilla Negra",
-      "desc": "Enforcers carry it when the job calls for more than a pistol can handle."
-    },
     {
       "url": "/gameplay/gangs-and-factions/noose",
       "type": "Faction",
@@ -75,7 +69,7 @@
     },
     {
       "q": "Where can you get the AdB FRA in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Every store carries Limited, Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Who are the confirmed AdB FRA carriers in Leonida?",
@@ -89,7 +83,7 @@
     },
     {
       "q": "Where can you get the AdB FRA in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Every store carries Limited, Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Who are the confirmed AdB FRA carriers in Leonida?",

@@ -39,7 +39,7 @@
     {
       "key": "Where to Buy",
       "value": "Ammu-Nation",
-      "sub": "Standard stock, so most branches carry it. There are 26 stores across Leonida."
+      "sub": "Standard stock, so most branches carry it."
     },
     {
       "key": "Unique Versions",
@@ -49,12 +49,6 @@
   ],
   "gallery": [],
   "connections": [
-    {
-      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
-      "type": "Faction",
-      "name": "La Polilla Negra",
-      "desc": "Compact enough to conceal, fast enough to matter in a close exchange."
-    },
     {
       "url": "/gameplay/gangs-and-factions/7x",
       "type": "Faction",
@@ -75,7 +69,7 @@
     },
     {
       "q": "Where can you get the Zhang Wu Type 9 in Leonida?",
-      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Zhang Wu Type 9 from its Standard stock, so most branches have it. There are 26 stores across Leonida."
+      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Zhang Wu Type 9 from its Standard stock, so most branches have it."
     },
     {
       "q": "Is it mostly criminal or is law enforcement confirmed with it too?",
@@ -89,7 +83,7 @@
     },
     {
       "q": "Where can you get the Zhang Wu Type 9 in Leonida?",
-      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Zhang Wu Type 9 from its Standard stock, so most branches have it. There are 26 stores across Leonida."
+      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Zhang Wu Type 9 from its Standard stock, so most branches have it."
     },
     {
       "q": "Is it mostly criminal or is law enforcement confirmed with it too?",

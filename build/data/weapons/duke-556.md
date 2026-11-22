@@ -39,7 +39,7 @@
     {
       "key": "Where to Buy",
       "value": "Ammu-Nation",
-      "sub": "Standard and Hunting stock, so most branches carry it. There are 26 stores across Leonida."
+      "sub": "Standard and Hunting stock, so most branches carry it."
     },
     {
       "key": "Unique Versions",
@@ -72,12 +72,6 @@
       "type": "Faction",
       "name": "Leonida State Police",
       "desc": "Standard-issue for highway and rural patrol units."
-    },
-    {
-      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
-      "type": "Faction",
-      "name": "La Polilla Negra",
-      "desc": "Mid-tier firepower for operations that need range."
     }
   ],
   "faq": [
@@ -87,11 +81,11 @@
     },
     {
       "q": "Where can you get the Duke 556 in Leonida?",
-      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Duke 556 from its Standard and Hunting stock, so most branches have it. There are 26 stores across Leonida."
+      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Duke 556 from its Standard and Hunting stock, so most branches have it."
     },
     {
-      "q": "Who are the confirmed Duke 556 carriers in Leonida?",
-      "a": "Jason and Lucia are confirmed, along with VCPD, Leonida State Police, and La Polilla Negra. It shows up across the widest range of factions in official footage."
+      "q": "Who can get the Duke 556 in Leonida?",
+      "a": "Anyone with the cash: Ammu-Nation sells it from Standard and Hunting stock, so most branches have it. The one-off Kolt &amp; Associates 556 sits at the Stash House Illegal Operation in Port Gellhorn."
     }
   ],
   "faqSchema": [
@@ -101,11 +95,11 @@
     },
     {
       "q": "Where can you get the Duke 556 in Leonida?",
-      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Duke 556 from its Standard and Hunting stock, so most branches have it. There are 26 stores across Leonida."
+      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Duke 556 from its Standard and Hunting stock, so most branches have it."
     },
     {
-      "q": "Who are the confirmed Duke 556 carriers in Leonida?",
-      "aPlain": "Jason and Lucia are confirmed, along with VCPD, Leonida State Police, and La Polilla Negra. It shows up across the widest range of factions in official footage."
+      "q": "Who can get the Duke 556 in Leonida?",
+      "aPlain": "Anyone with the cash: Ammu-Nation sells it from Standard and Hunting stock, so most branches have it. The one-off Kolt & Associates 556 sits at the Stash House Illegal Operation in Port Gellhorn."
     }
   ],
   "sidebarDatabase": [
@@ -138,7 +132,7 @@
   ]
 }
 ---
-The carbine is the baseline from which every other rifle decision in Leonida is made. VCPD carries it. The Leonida State Police carries it. La Polilla Negra carries it. **When every faction in a territory is running the same platform, the platform is reliable.**
+The carbine is the baseline from which every other rifle decision in Leonida is made. **It is the rifle anyone can buy, and that is the point.**
 
 The modular configuration allows optics, suppressors, and grip accessories. In practice the configuration that shows up most often in [Vice County](/gameplay/locations/vice-county) is the standard iron sight setup because the engagement ranges in an urban environment do not require magnification.
 

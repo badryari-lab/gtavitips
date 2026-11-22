@@ -39,7 +39,7 @@
     {
       "key": "Where to Buy",
       "value": "Ammu-Nation",
-      "sub": "Standard and Hunting stock, so most branches carry it. There are 26 stores across Leonida."
+      "sub": "Standard and Hunting stock, so most branches carry it."
     },
     {
       "key": "Unique Versions",
@@ -56,12 +56,6 @@
       "desc": "The answer when the job needs distance, not proximity."
     },
     {
-      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
-      "type": "Faction",
-      "name": "La Polilla Negra",
-      "desc": "Long-range enforcement for operations that stay out of sight."
-    },
-    {
       "url": "/gameplay/gangs-and-factions/noose",
       "type": "Faction",
       "name": "N.O.O.S.E.",
@@ -75,7 +69,7 @@
     },
     {
       "q": "Where can you get the Fortune & Son Laird 350 in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Every store carries Limited, Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Who are the confirmed Fortune & Son Laird 350 operators in Leonida?",
@@ -89,7 +83,7 @@
     },
     {
       "q": "Where can you get the Fortune & Son Laird 350 in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Every store carries Limited, Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Who are the confirmed Fortune & Son Laird 350 operators in Leonida?",

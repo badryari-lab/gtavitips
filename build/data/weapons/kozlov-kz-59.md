@@ -39,7 +39,7 @@
     {
       "key": "Where to Buy",
       "value": "Ammu-Nation",
-      "sub": "Standard stock, so most branches carry it. There are 26 stores across Leonida."
+      "sub": "Standard stock, so most branches carry it."
     },
     {
       "key": "Unique Versions",
@@ -53,7 +53,7 @@
       "url": "/gameplay/gangs-and-factions/la-polilla-negra",
       "type": "Faction",
       "name": "La Polilla Negra",
-      "desc": "The mid-tier standard for operations that need range without excess weight."
+      "desc": "Their own version, the La Polilla Negra KZ-59, waits at the Palmer Fishing Warehouse in Watson Bay."
     },
     {
       "url": "/gameplay/characters/jason-duval",
@@ -75,7 +75,7 @@
     },
     {
       "q": "Where can you get the Kozlov KZ-59 in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Every store carries Limited, Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Who are the confirmed Kozlov KZ-59 carriers in Leonida?",
@@ -89,7 +89,7 @@
     },
     {
       "q": "Where can you get the Kozlov KZ-59 in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Every store carries Limited, Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Who are the confirmed Kozlov KZ-59 carriers in Leonida?",
@@ -128,7 +128,7 @@
 ---
 The difference between the carbine and the standard assault rifle is meaningful at range and nearly invisible at close distance. **At [Vice City](/gameplay/locations/vice-city) block ranges the carbine is faster to handle and just as effective.** At distances that approach sniper territory the full-size platform holds accuracy longer.
 
-La Polilla Negra heavy units carry this over the carbine in operations where defensive positions need to be held at distance. The longer barrel provides the accuracy advantage that justifies the added weight and reduced maneuverability.
+It earns its place over the carbine where a position has to be held at distance. The longer barrel provides the accuracy advantage that justifies the added weight and reduced maneuverability.
 
 **For the protagonists it is the step up when the carbine is insufficient.** Not a default weapon. The choice made when the carbine has been assessed and found to be the wrong answer for a specific situation.
 

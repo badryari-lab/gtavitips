@@ -39,7 +39,7 @@
     {
       "key": "Where to Buy",
       "value": "Ammu-Nation",
-      "sub": "Expanded stock only. The smaller branches do not carry it. There are 26 stores across Leonida."
+      "sub": "Expanded stock only. The smaller branches do not carry it."
     },
     {
       "key": "Unique Versions",
@@ -56,12 +56,6 @@
       "desc": "Sustained firepower for operations that expect to take fire back."
     },
     {
-      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
-      "type": "Faction",
-      "name": "La Polilla Negra",
-      "desc": "Reserved for enforcers who need to hold a position, not just hit one target."
-    },
-    {
       "url": "/gameplay/gangs-and-factions/vice-county-swat",
       "type": "Faction",
       "name": "Vice County SWAT",
@@ -75,7 +69,7 @@
     },
     {
       "q": "Where can you get the Goodwin LMG 6 in Leonida?",
-      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
+      "a": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Every store carries Limited, Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Is the LMG confirmed in law enforcement or criminal loadouts?",
@@ -89,7 +83,7 @@
     },
     {
       "q": "Where can you get the Goodwin LMG 6 in Leonida?",
-      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. It runs 26 stores across the state, each with Standard, Expanded or Hunting stock, and not every store carries every gun."
+      "aPlain": "Ammu-Nation is the weapon retailer in Leonida, Phil Cassidy's name is on the billboard. Every store carries Limited, Standard, Expanded or Hunting stock, and not every store carries every gun."
     },
     {
       "q": "Is the LMG confirmed in law enforcement or criminal loadouts?",

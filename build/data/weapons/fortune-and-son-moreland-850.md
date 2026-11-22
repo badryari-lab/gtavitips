@@ -39,7 +39,7 @@
     {
       "key": "Where to Buy",
       "value": "Ammu-Nation",
-      "sub": "Standard and Hunting stock, so most branches carry it. There are 26 stores across Leonida."
+      "sub": "Standard and Hunting stock, so most branches carry it."
     },
     {
       "key": "Unique Versions",
@@ -60,12 +60,6 @@
       "type": "Faction",
       "name": "VCPD",
       "desc": "Standard-issue for officers expecting close-quarters trouble."
-    },
-    {
-      "url": "/gameplay/gangs-and-factions/la-polilla-negra",
-      "type": "Faction",
-      "name": "La Polilla Negra",
-      "desc": "The weapon of choice when subtlety has already failed."
     }
   ],
   "faq": [
@@ -75,7 +69,7 @@
     },
     {
       "q": "Where can you get the Pump-Action Shotgun in Leonida?",
-      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Fortune & Son Moreland 850 from its Standard and Hunting stock, so most branches have it. There are 26 stores across Leonida."
+      "a": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Fortune & Son Moreland 850 from its Standard and Hunting stock, so most branches have it."
     },
     {
       "q": "Is the Pump-Action Shotgun confirmed with specific factions in Leonida?",
@@ -89,7 +83,7 @@
     },
     {
       "q": "Where can you get the Pump-Action Shotgun in Leonida?",
-      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Fortune & Son Moreland 850 from its Standard and Hunting stock, so most branches have it. There are 26 stores across Leonida."
+      "aPlain": "Ammu-Nation, the chain with Phil Cassidy's name on the billboard, sells the Fortune & Son Moreland 850 from its Standard and Hunting stock, so most branches have it."
     },
     {
       "q": "Is the Pump-Action Shotgun confirmed with specific factions in Leonida?",

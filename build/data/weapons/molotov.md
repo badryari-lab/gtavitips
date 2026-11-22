@@ -50,12 +50,6 @@
       "type": "Faction",
       "name": "San4San",
       "desc": "Same improvised-arson playbook, different turf."
-    },
-    {
-      "url": "/gameplay/gangs-and-factions/final-chapter",
-      "type": "Faction",
-      "name": "Final Chapter",
-      "desc": "Fits a crew that burns more bridges than it builds."
     }
   ],
   "faq": [

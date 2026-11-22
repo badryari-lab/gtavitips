@@ -141,9 +141,9 @@ module.exports = [
 },
 {
   slug: 'where-to-buy-weapons-in-gta-6', q: 'Where do you buy weapons in GTA 6?', h1: 'Where to Buy Weapons in GTA 6',
-  desc: 'Ammu-Nation sells 52 guns in GTA 6 across 26 stores, split into Standard, Expanded and Hunting stock. Some weapons only come from challenges.',
+  desc: 'Ammu-Nation sells 52 guns in GTA 6, spread over Limited, Standard, Expanded and Hunting stores. Some weapons only come from challenges.',
   source: IGN,
-  answer: ['<strong>Ammu-Nation.</strong> Phil Cassidy\'s chain runs 26 stores across Leonida and sells 52 guns between them, along with mods, ammo, equipment, clothing and fishing lures.',
+  answer: ['<strong>Ammu-Nation.</strong> Phil Cassidy\'s chain has stores all over Leonida and sells 52 guns between them, along with mods, ammo, equipment, clothing and fishing lures.',
     'Not every store carries everything. Stock comes in three tiers: Standard, Expanded and Hunting. Expanded stores have the heavier and rarer guns, Hunting stores mix both and are the only place to buy the Wortham W-22. Bigger branches also have a Weapons Locker: check the store\'s features on the map.'],
   related: [
     { q: 'Which weapons can you not buy?', html: `The rotary grenade launcher and the unique variants. Variants come from the story, illegal operations and exploration, and a few sit in Ammu-Nation display cases at a steep price. The full list is in the ${L('/gameplay/weapons', 'Full Arsenal')}.`, source: IGN },
@@ -154,7 +154,7 @@ module.exports = [
   more: ['best-weapon-in-gta-6', 'how-to-make-money-in-gta-6', 'gta-6-cheats'],
   card: { label: 'Ammu-Nation', big: '26 Stores', sub: '52 guns for sale' },
   intel: [OUT, ['/gameplay/weapons', 'Weapons: All 53 Guns and Stats']],
-  index: { section: 'gameplay', short: 'Ammu-Nation: 26 stores, 52 guns, split into Standard, Expanded and Hunting stock. Unique variants and a few challenge rewards are not for sale.', source: IGN },
+  index: { section: 'gameplay', short: 'Ammu-Nation: 52 guns, spread over Limited, Standard, Expanded and Hunting stores. Unique variants and a few challenge rewards are not for sale.', source: IGN },
 },
 {
   slug: 'fastest-car-in-gta-6', q: 'What is the fastest car in GTA 6?', h1: 'What Is the Fastest Car in GTA 6?',
