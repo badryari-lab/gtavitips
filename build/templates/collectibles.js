@@ -25,27 +25,29 @@ const { STAT_SOURCE_CSS } = require('./_spoiler');
 //   statBlock [{ key, value, sub? }]   statSource ("GTA VI, in-game")
 //   items [{ area, county, locationUrl?, hint }]   -> Locations table, grouped by county in data order, numbered 1..N
 //   itemsNote? (one line above the table, e.g. how the game numbers them)
+//   itemsTitle? (HTML heading of the table section; default "All N Locations", set it when the table is partial)
 //   tips [md], missables [md]   walkthrough? { youtubeId, title, creator, channelUrl, start? }
 //   connections [{ url, name, desc, avatarInitials | avatarImage }]   faq [{ q, a }] (plain, spoiler-free; also FAQPage JSON-LD)
 // Markdown body = "How It Works".
 
-const DATA_DIR = path.join(__dirname, '..', 'data', 'collectibles');
-let _all = null;
-function allCollectibles() {
-  if (_all) return _all;
-  if (!fs.existsSync(DATA_DIR)) return (_all = []);
-  _all = fs
-    .readdirSync(DATA_DIR)
+// Parametrised (Nov 22 2026) so the same code builds the map type pages under /gameplay/locations/<type>
+// (template location-types.js). createTypeTemplate(cfg) returns { render, renderProse, allTypes, typeUrl, renderHere };
+// the collectibles instance below keeps its old export names. cfg fields: dataDir, baseUrl, hubUrl, hubLabel,
+// backLabel, sidebarTitle, sidebarAria, statAria, exploreLinks [{label,url}], heroIconPath (svg path d), hintHeader.
+const DEFAULT_ICON = 'M12 2l2.9 6.1 6.6.8-4.9 4.6 1.3 6.5L12 16.8 6.1 20l1.3-6.5L2.5 8.9l6.6-.8z';
+
+function readTypes(dataDir) {
+  if (!fs.existsSync(dataDir)) return [];
+  return fs
+    .readdirSync(dataDir)
     .filter((f) => f.endsWith('.md') && !f.startsWith('_'))
     .map((f) => {
-      const raw = fs.readFileSync(path.join(DATA_DIR, f), 'utf8');
+      const raw = fs.readFileSync(path.join(dataDir, f), 'utf8');
       const d = JSON.parse(raw.slice(0, raw.indexOf('\n---\n')).trim());
       return { slug: d.slug || f.replace(/\.md$/, ''), name: d.name, count: d.count, cardDesc: d.cardDesc, order: d.order || 99, seoDescription: d.seo.description, items: d.items || [] };
     })
     .sort((a, b) => a.order - b.order || a.name.localeCompare(b.name));
-  return _all;
 }
-const typeUrl = (slug) => `/gameplay/collectibles/${slug}`;
 
 const COLLECTIBLE_CSS = `
     .loc-county { font-family: 'Courier Prime', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--pink); margin: 26px 0 10px; }
@@ -76,7 +78,7 @@ function listSection(id, title, items) {
 `;
 }
 
-function renderLocations(items, note) {
+function renderLocations(items, note, hintHeader, title) {
   const counties = [...new Set(items.map((i) => i.county || 'Leonida'))];
   let n = 0;
   const blocks = counties.map((c) => {
@@ -87,7 +89,7 @@ function renderLocations(items, note) {
     }).join('\n');
     return `            <div class="loc-county">${c}</div>
             <table class="loc-table">
-              <thead><tr><th scope="col">#</th><th scope="col">Area</th><th scope="col">Where to look</th></tr></thead>
+              <thead><tr><th scope="col">#</th><th scope="col">Area</th><th scope="col">${hintHeader}</th></tr></thead>
               <tbody>
 ${rows}
               </tbody>
@@ -95,11 +97,16 @@ ${rows}
   }).join('\n');
   return `
           <section class="section reveal" aria-labelledby="locations-hd">
-            <h2 class="section__h2" id="locations-hd">All ${items.length} <span style="color:var(--blue)">Locations</span></h2>${note ? `\n            <p class="loc-note">${renderInline(note)}</p>` : ''}
+            <h2 class="section__h2" id="locations-hd">${title || `All ${items.length} <span style="color:var(--blue)">Locations</span>`}</h2>${note ? `\n            <p class="loc-note">${renderInline(note)}</p>` : ''}
 ${blocks}
           </section>
 `;
 }
+
+function createTypeTemplate(cfg) {
+  let _all = null;
+  const allTypes = () => _all || (_all = readTypes(cfg.dataDir));
+  const typeUrl = (slug) => `${cfg.baseUrl}/${slug}`;
 
 function render(entry) {
   const { slug, titleParts, seo, heroSubtitle, heroImage, statBlock, statSource, items, itemsNote, tips, missables, walkthrough, connections, faq } = entry;
@@ -125,7 +132,7 @@ function render(entry) {
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Database', item: 'https://gtavitips.com/gameplay' },
-        { '@type': 'ListItem', position: 2, name: 'Collectibles', item: 'https://gtavitips.com/gameplay/collectibles' },
+        { '@type': 'ListItem', position: 2, name: cfg.hubLabel, item: `https://gtavitips.com${cfg.hubUrl}` },
         { '@type': 'ListItem', position: 3, name: entry.name, item: canonical },
       ],
     },
@@ -139,16 +146,16 @@ function render(entry) {
   const heroBackground = heroImage
     ? `<img src="${heroImage.src}" alt="${esc(heroImage.alt)}" width="${heroImage.width}" height="${heroImage.height}" loading="eager" class="mission-hero__bg-img">`
     : `<div class="mission-hero__bg-graphic" aria-hidden="true">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.6"><path d="M12 2l2.9 6.1 6.6.8-4.9 4.6 1.3 6.5L12 16.8 6.1 20l1.3-6.5L2.5 8.9l6.6-.8z"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.6"><path d="${cfg.heroIconPath || DEFAULT_ICON}"/></svg>
     </div>`;
 
   const hero = `  <header class="mission-hero">
     ${heroBackground}
     <div class="mission-hero__overlay" aria-hidden="true"></div>
     <div class="mission-hero__inner">
-      <a href="/gameplay/collectibles" class="mission-hero__back">
+      <a href="${cfg.hubUrl}" class="mission-hero__back">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
-        Back to Collectibles
+        ${cfg.backLabel}
       </a>
       <h1 class="mission-hero__h1">${h1}</h1>
       <p class="mission-hero__sub">${renderInline(heroSubtitle)}</p>
@@ -166,7 +173,7 @@ function render(entry) {
   const dossier = `  <div class="page">
     <div class="wrap">
       <div class="dossier">
-        <div class="stat-block" role="list" aria-label="Collectible stats">
+        <div class="stat-block" role="list" aria-label="${cfg.statAria}">
 ${statItemsHtml}
         </div>${statSource ? `\n        <p class="stat-source">Source: ${statSource}</p>` : ''}
       </div>
@@ -211,15 +218,10 @@ ${renderConnectionsGridAvatar(connections)}
 
   const sidebar = renderSidebarBlocks(
     [
-      { title: 'Collectibles', items: allCollectibles().map((c) => ({ label: c.slug === slug ? `<strong>${c.name}</strong>` : c.name, url: typeUrl(c.slug) })) },
-      { title: 'Explore Database', items: [
-        { label: 'All Collectibles', url: '/gameplay/collectibles' },
-        { label: '100% Completion', url: '/faq/gta-6-100-percent-completion' },
-        { label: 'Locations', url: '/gameplay/locations' },
-        { label: 'Leonida Map', url: '/map' },
-      ] },
+      { title: cfg.sidebarTitle, items: allTypes().map((c) => ({ label: c.slug === slug ? `<strong>${c.name}</strong>` : c.name, url: typeUrl(c.slug) })) },
+      { title: 'Explore Database', items: cfg.exploreLinks },
     ],
-    'Collectible navigation'
+    cfg.sidebarAria
   );
 
   const main = `  <main id="main">
@@ -231,7 +233,7 @@ ${renderConnectionsGridAvatar(connections)}
             <h2 class="section__h2" id="how-hd">How It Works</h2>
             <div class="section__body">${entry.proseHtml}</div>
           </section>
-${items && items.length ? renderLocations(items, itemsNote) : ''}${listSection('tips-hd', 'Tips', tips)}${listSection('missables-hd', 'Missables', missables)}${videoHtml}${connHtml}${faqHtml}
+${items && items.length ? renderLocations(items, itemsNote, cfg.hintHeader || 'Where to look', entry.itemsTitle) : ''}${listSection('tips-hd', 'Tips', tips)}${listSection('missables-hd', 'Missables', missables)}${videoHtml}${connHtml}${faqHtml}
         </div>
 ${sidebar}
       </div>
@@ -239,16 +241,44 @@ ${sidebar}
   </main>
 `;
 
-  return [head, renderNavAndSearch({ label: 'Collectibles', url: '/gameplay/collectibles' }), hero, dossier, main, FOOTER_HTML, SHARED_SCRIPT, COOKIE_BANNER_BLOCK].join('\n');
+  return [head, renderNavAndSearch({ label: cfg.hubLabel, url: cfg.hubUrl }), hero, dossier, main, FOOTER_HTML, SHARED_SCRIPT, COOKIE_BANNER_BLOCK].join('\n');
 }
 
-// Reverse links for location pages: spoiler-free line listing collectible counts found there.
-function renderCollectiblesHere(url) {
-  const hits = allCollectibles()
+// Reverse links for location pages: spoiler-free line listing type counts found there.
+function renderHere(url) {
+  const hits = allTypes()
     .map((c) => ({ c, n: c.items.filter((i) => i.locationUrl === url).length }))
     .filter((x) => x.n);
   if (!hits.length) return '';
   return hits.map((x) => `<a href="${typeUrl(x.c.slug)}#locations-hd" style="color:var(--blue)">${x.n} ${x.n === 1 ? x.c.name.replace(/s$/, '') : x.c.name}</a>`).join(', ');
 }
 
-module.exports = { render, renderProse: renderBlock, allCollectibles, typeUrl, renderCollectiblesHere, COLLECTIBLE_CSS };
+  return { render, renderProse: renderBlock, allTypes, typeUrl, renderHere };
+}
+
+const collectibles = createTypeTemplate({
+  dataDir: path.join(__dirname, '..', 'data', 'collectibles'),
+  baseUrl: '/gameplay/collectibles',
+  hubUrl: '/gameplay/collectibles',
+  hubLabel: 'Collectibles',
+  backLabel: 'Back to Collectibles',
+  sidebarTitle: 'Collectibles',
+  sidebarAria: 'Collectible navigation',
+  statAria: 'Collectible stats',
+  exploreLinks: [
+    { label: 'All Collectibles', url: '/gameplay/collectibles' },
+    { label: '100% Completion', url: '/faq/gta-6-100-percent-completion' },
+    { label: 'Locations', url: '/gameplay/locations' },
+    { label: 'Leonida Map', url: '/map' },
+  ],
+});
+
+module.exports = {
+  render: collectibles.render,
+  renderProse: collectibles.renderProse,
+  allCollectibles: collectibles.allTypes,
+  typeUrl: collectibles.typeUrl,
+  renderCollectiblesHere: collectibles.renderHere,
+  createTypeTemplate,
+  COLLECTIBLE_CSS,
+};

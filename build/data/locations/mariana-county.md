@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "Mariana County | GTA 6 Location Guide: Swamp and Keys | GTAVITIPS",
-    "description": "Mariana County in GTA 6: the southwest swamp and island county, with Grassrivers, Watson Bay, Key Lento, Southwind and the Leonida Keys. Roads, towns, map.",
-    "ogDescription": "Mariana County in GTA 6: the southwest swamp and island county, with Grassrivers, Watson Bay, Key Lento, Southwind and the Leonida Keys. Roads, towns, map.",
+    "description": "Mariana County in GTA 6: the southwest swamp and island county, with Capri, Grassrivers, Watson Bay, Key Lento and the Leonida Keys. Roads, towns, map.",
+    "ogDescription": "Mariana County in GTA 6: the southwest swamp and island county, with Capri, Grassrivers, Watson Bay, Key Lento and the Leonida Keys. Roads, towns, map.",
     "ogImagePlaceholder": "mariana-county-gta-6-location.jpg",
     "jsonLdHeadline": "Mariana County - GTA 6 Location",
-    "jsonLdDescription": "Mariana County in GTA 6: the southwest swamp and island county, with Grassrivers, Watson Bay, Key Lento, Southwind and the Leonida Keys. Roads, towns, map.",
-    "dateModified": "2026-11-21"
+    "jsonLdDescription": "Mariana County in GTA 6: the southwest swamp and island county, with Capri, Grassrivers, Watson Bay, Key Lento and the Leonida Keys. Roads, towns, map.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "The swamp and the islands. **[Grassrivers](/gameplay/locations/grassrivers) on the mainland, the [Keys](/gameplay/locations/leonida-keys) trailing off to the southwest, and a lot of water in between.**",
   "statBlock": [
@@ -22,8 +22,8 @@
     },
     {
       "key": "Towns",
-      "value": "Watson Bay, [Key Lento](/gameplay/locations/key-lento), Southwind",
-      "sub": "Watson Bay on the mainland, Key Lento and Southwind out in the Keys."
+      "value": "[Capri](/gameplay/locations/capri), Watson Bay, [Key Lento](/gameplay/locations/key-lento), Southwind",
+      "sub": "Capri and Watson Bay on the mainland, Key Lento and Southwind out in the Keys."
     },
     {
       "key": "Terrain",
@@ -55,6 +55,12 @@
     }
   ],
   "connections": [
+    {
+      "url": "/gameplay/locations/capri",
+      "type": "Town",
+      "name": "Capri",
+      "desc": "The Gulf town at the top of the county, on Capri Sound."
+    },
     {
       "url": "/gameplay/locations/grassrivers",
       "type": "Region",
@@ -105,8 +111,8 @@
     },
     {
       "q": "Which towns are in Mariana County?",
-      "a": "Watson Bay on the mainland, plus [Key Lento](/gameplay/locations/key-lento) and Southwind in the Keys. Big Pine and Pelican Valley are smaller spots on the mainland.",
-      "aPlain": "Watson Bay on the mainland, plus Key Lento and Southwind in the Keys. Big Pine and Pelican Valley are smaller spots on the mainland."
+      "a": "[Capri](/gameplay/locations/capri) and Watson Bay on the mainland, plus [Key Lento](/gameplay/locations/key-lento) and Southwind in the Keys. Big Pine and Pelican Valley are smaller spots on the mainland.",
+      "aPlain": "Capri and Watson Bay on the mainland, plus Key Lento and Southwind in the Keys. Big Pine and Pelican Valley are smaller spots on the mainland."
     },
     {
       "q": "How do you get to Mariana County?",
@@ -169,6 +175,8 @@ South of the airport and west of [Hamlet](/gameplay/locations/hamlet), the roads
 
 The roads are simple because there are hardly any. US 82 is the main line across the mainland, running southeast from the Nehrling River country toward Hamlet. Route 1A is the only road through the Keys. **Everything else is a boat.**
 %%%GROUND%%%
+**Capri.** [Capri](/gameplay/locations/capri) is the Gulf town at the north end of the county, on Capri Sound and Tortoise Lake, where US 183 meets I-404. Belpoint lies across the water to the southwest.
+
 **The Gulf coast.** Big Pine and Bobcat Key sit on the west coast below the Nehrling River, with Bobcat Bight opening up beside them. The Henry J Edwards Airport is just inland, a small strip in the middle of nowhere.
 
 **Grassrivers.** [Grassrivers](/gameplay/locations/grassrivers) is the heart of the county. The Paradise RV Park sits on its edge, and Watson Bay is the town past it on the water. Pelican Valley and Cottonmouth Lake lie to the east, running down toward Leonida Bay. Out here a [kayak](/gameplay/activities/kayaking) goes places a car never will.

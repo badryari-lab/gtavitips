@@ -17,7 +17,9 @@ if (!category) {
   process.exit(1);
 }
 
-const LIVE_ROOT = path.join(__dirname, '..', 'hub', 'gameplay', category);
+// location-types pages are served from /gameplay/locations/<type> (see templates/location-types.js).
+const LIVE_DIR = { 'location-types': 'locations' };
+const LIVE_ROOT = path.join(__dirname, '..', 'hub', 'gameplay', LIVE_DIR[category] || category);
 const OUT_ROOT = path.join(__dirname, 'output', category);
 
 function normalize(html) {

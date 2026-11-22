@@ -2734,7 +2734,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/locations/capri</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2770,7 +2770,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/locations/kelly-county</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2782,7 +2782,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/locations/mariana-county</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3382,7 +3382,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/collectibles/collectible-cards</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3550,6 +3550,30 @@
   </url>
   <url>
     <loc>https://gtavitips.com/faq/gta-6-patch-notes</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/locations/gas-stations</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/locations/train-stations</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/locations/street-food-and-cafes</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/locations/clothing-stores</loc>
     <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

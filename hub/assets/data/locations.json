@@ -293,6 +293,41 @@
           "desc": "VCIA. Two runways west of the city, jets on the apron, cops at the fence."
         }
       ]
+    },
+    {
+      "id": "around-hd",
+      "eyebrow": "Around Leonida",
+      "title": "Around Leonida",
+      "items": [
+        {
+          "url": "/gameplay/locations/gas-stations",
+          "label": "Services",
+          "color": "#94a3b8",
+          "name": "Gas Stations",
+          "desc": "Fifty forecourts from the Keys to Lummox. Refuel, patch up, or rob the till."
+        },
+        {
+          "url": "/gameplay/locations/train-stations",
+          "label": "Transit",
+          "color": "#94a3b8",
+          "name": "Train Stations",
+          "desc": "Rail stops from Downtown Vice City out to Grayson. Board, pick a stop, ride."
+        },
+        {
+          "url": "/gameplay/locations/street-food-and-cafes",
+          "label": "Food",
+          "color": "#94a3b8",
+          "name": "Street Food and Cafes",
+          "desc": "Hot dog carts, Cuban counters, juice huts and espresso bars. What heals and where."
+        },
+        {
+          "url": "/gameplay/locations/clothing-stores",
+          "label": "Style",
+          "color": "#94a3b8",
+          "name": "Clothing Stores",
+          "desc": "Every rack in Leonida, from Ocean Beach boutiques to Key Lento gift shops."
+        }
+      ]
     }
   ]
 }

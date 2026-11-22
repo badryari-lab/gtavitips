@@ -5,19 +5,19 @@
   ],
   "seo": {
     "title": "Capri | GTA 6 Location Guide: Leonida | GTAVITIPS",
-    "description": "Capri in GTA 6: the Gulf Coast town on Capri Sound in Kelly County, on US 183. Leonida's answer to Naples, Florida.",
-    "ogDescription": "Capri in GTA 6: the Gulf Coast town on Capri Sound in Kelly County, on US 183. Leonida's answer to Naples, Florida.",
+    "description": "Capri in GTA 6: the Gulf Coast town on Capri Sound in Mariana County, on US 183. Leonida's answer to Naples, Florida.",
+    "ogDescription": "Capri in GTA 6: the Gulf Coast town on Capri Sound in Mariana County, on US 183. Leonida's answer to Naples, Florida.",
     "ogImagePlaceholder": "capri-gta-6-location.jpg",
     "jsonLdHeadline": "Capri - GTA 6 Location",
-    "jsonLdDescription": "Capri in GTA 6: the Gulf Coast town on Capri Sound in Kelly County, on US 183. Leonida's answer to Naples, Florida.",
-    "dateModified": "2026-11-21"
+    "jsonLdDescription": "Capri in GTA 6: the Gulf Coast town on Capri Sound in Mariana County, on US 183. Leonida's answer to Naples, Florida.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "The Gulf side of Leonida. **Capri faces the sunset, not the Atlantic, and that is exactly how it likes it.**",
   "statBlock": [
     {
       "key": "Type",
       "value": "Coastal Town",
-      "sub": "[Kelly County](/gameplay/locations/kelly-county), on the west coast of Leonida."
+      "sub": "[Mariana County](/gameplay/locations/mariana-county), on the west coast of Leonida."
     },
     {
       "key": "Water",
@@ -35,7 +35,7 @@
     },
     {
       "key": "County",
-      "value": "[Kelly County](/gameplay/locations/kelly-county)"
+      "value": "[Mariana County](/gameplay/locations/mariana-county)"
     },
     {
       "key": "Source",
@@ -56,16 +56,16 @@
       "desc": "The wetlands southeast of Capri, in the same county."
     },
     {
-      "url": "/gameplay/locations/kelly-county",
+      "url": "/gameplay/locations/mariana-county",
       "type": "Region",
-      "name": "Kelly County",
-      "desc": "The county Capri sits in on Rockstar's map."
+      "name": "Mariana County",
+      "desc": "The county Capri sits in, with Grassrivers and the Keys."
     }
   ],
   "faq": [
     {
       "q": "Where is Capri in GTA 6?",
-      "a": "On the west coast of Leonida in Kelly County, on Capri Sound. US 183 runs through town."
+      "a": "On the west coast of Leonida in Mariana County, on Capri Sound. US 183 runs through town."
     },
     {
       "q": "What is Capri based on?",
@@ -90,8 +90,8 @@
           "label": "Vice City"
         },
         {
-          "url": "/gameplay/locations/kelly-county",
-          "label": "Kelly County"
+          "url": "/gameplay/locations/mariana-county",
+          "label": "Mariana County"
         },
         {
           "url": "/map",

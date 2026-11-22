@@ -6,12 +6,12 @@
   ],
   "seo": {
     "title": "Kelly County | GTA 6 Location Guide: West Leonida | GTAVITIPS",
-    "description": "Kelly County in GTA 6: the Gulf side of Leonida, with Port Gellhorn, Ambrosia, Capri, farmland, raceways and the state prison. Roads, towns, map.",
-    "ogDescription": "Kelly County in GTA 6: the Gulf side of Leonida, with Port Gellhorn, Ambrosia, Capri, farmland, raceways and the state prison. Roads, towns, map.",
+    "description": "Kelly County in GTA 6: the Gulf side of Leonida, with Port Gellhorn, Ambrosia, farmland, raceways and the state prison. Roads, towns, map.",
+    "ogDescription": "Kelly County in GTA 6: the Gulf side of Leonida, with Port Gellhorn, Ambrosia, farmland, raceways and the state prison. Roads, towns, map.",
     "ogImagePlaceholder": "kelly-county-gta-6-location.jpg",
     "jsonLdHeadline": "Kelly County - GTA 6 Location",
-    "jsonLdDescription": "Kelly County in GTA 6: the Gulf side of Leonida, with Port Gellhorn, Ambrosia, Capri, farmland, raceways and the state prison. Roads, towns, map.",
-    "dateModified": "2026-11-21"
+    "jsonLdDescription": "Kelly County in GTA 6: the Gulf side of Leonida, with Port Gellhorn, Ambrosia, farmland, raceways and the state prison. Roads, towns, map.",
+    "dateModified": "2026-11-22"
   },
   "heroSubtitle": "The Gulf side of Leonida. **Port towns, farm roads, two raceways, a mud club and a state prison out in the fields.**",
   "statBlock": [
@@ -27,7 +27,7 @@
     },
     {
       "key": "Towns",
-      "value": "[Ambrosia](/gameplay/locations/ambrosia), [Capri](/gameplay/locations/capri), Emerald Springs",
+      "value": "[Ambrosia](/gameplay/locations/ambrosia), Emerald Springs",
       "sub": "Gellhorn and Frogswater are smaller spots in between."
     },
     {
@@ -69,12 +69,6 @@
       "desc": "The east edge of the county on US 35, with the raceway, the rodeo and Allied Crystal next door."
     },
     {
-      "url": "/gameplay/locations/capri",
-      "type": "Town",
-      "name": "Capri",
-      "desc": "The Gulf town at the south end of the county, on Capri Sound."
-    },
-    {
       "url": "/gameplay/locations/delights-port-gellhorn",
       "type": "Venue",
       "name": "Delights Port Gellhorn",
@@ -101,8 +95,8 @@
     },
     {
       "q": "Which towns are in Kelly County?",
-      "a": "[Port Gellhorn](/gameplay/locations/port-gellhorn) is the city. [Ambrosia](/gameplay/locations/ambrosia), [Capri](/gameplay/locations/capri) and Emerald Springs are the towns, with Gellhorn and Frogswater in between.",
-      "aPlain": "Port Gellhorn is the city. Ambrosia, Capri and Emerald Springs are the towns, with Gellhorn and Frogswater in between."
+      "a": "[Port Gellhorn](/gameplay/locations/port-gellhorn) is the city. [Ambrosia](/gameplay/locations/ambrosia) and Emerald Springs are the towns, with Gellhorn and Frogswater in between.",
+      "aPlain": "Port Gellhorn is the city. Ambrosia and Emerald Springs are the towns, with Gellhorn and Frogswater in between."
     },
     {
       "q": "What is in Kelly County?",
@@ -166,7 +160,7 @@ West of [Vice City](/gameplay/locations/vice-city) the money thins out and the l
 
 This is working Leonida. Docks and industry on the coast, agriculture inland, two raceways, a mud club and a state prison sitting out in the fields. The hills of [Lummox County](/gameplay/locations/lummox-county) start along the north edge at Manifest Canyon, and the swamp creeps in from the south at Buckskin Swamp.
 
-**I-404 is the spine.** It comes down the west side through Port Gellhorn, runs south past Gellhorn toward [Capri](/gameplay/locations/capri), then turns east across the bottom of the county and heads for Vice City. US 183 cuts diagonally from Capri northeast past the Leonida State Prison. CR 62 crosses the county east to west and carries on into [Leonard County](/gameplay/locations/leonard-county) at Belville. US 35 runs north and south through Ambrosia on the east edge, and I-297 clips the top of the county on its way across the state.
+**I-404 is the spine.** It comes down the west side through Port Gellhorn, runs south past Gellhorn to the Mariana County line above [Capri](/gameplay/locations/capri), then turns east across the bottom of the county and heads for Vice City. US 183 comes up from Capri and cuts diagonally northeast past the Leonida State Prison. CR 62 crosses the county east to west and carries on into [Leonard County](/gameplay/locations/leonard-county) at Belville. US 35 runs north and south through Ambrosia on the east edge, and I-297 clips the top of the county on its way across the state.
 %%%GROUND%%%
 **The coast.** [Port Gellhorn](/gameplay/locations/port-gellhorn) is the county's city, on Draper Bay. [Delights Port Gellhorn](/gameplay/locations/delights-port-gellhorn) is where the town goes out at night, and the [Starlet Motel](/gameplay/locations/starlet-motel) is where it sleeps when it has to. Draper Island sits just offshore to the northwest, connected by road. South of town, Wild Hog Point and the Wild Hog Airfield look out over Borrachero Sound, with the Sandbars and the Crude Islands further out in the Gulf.
 
@@ -175,7 +169,5 @@ This is working Leonida. Docks and industry on the coast, agriculture inland, tw
 **Ambrosia.** [Ambrosia](/gameplay/locations/ambrosia) is on the east edge of the county, on US 35. The Ambrosia Raceway Park and the Ambrosia Rodeo Association are just north of town, and Allied Crystal just south. Lake Leonida is right next door.
 
 **The middle.** Howe Dairy and Tucker's Citrus Farms sit off CR 62 in the heart of the farmland. Emerald Springs is south of them. Gellhorn and the Gellhorn Raceway are on the west side near I-404, and the Leonida State Prison stands alone in the fields beside US 183. South Kelly County is the low ground below that, where Buckskin Swamp spreads out toward the interstate.
-
-**Capri.** [Capri](/gameplay/locations/capri) is the Gulf town at the south end of the county, on Capri Sound and Tortoise Lake, where US 183 meets I-404. Belpoint lies across the water to the southwest.
 
 Kelly doesn't care how Vice City sees it. **It grows the food, moves the cargo, races when it gets the chance and keeps the state prison full.**
