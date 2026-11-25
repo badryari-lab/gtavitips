@@ -9,7 +9,7 @@
     "ogDescription": "Hunting in GTA 6: Jason works an old army friend's 15 Target Decks near Mount Kalaga. Track with Focus, shoot head or heart, sell clean carcasses.",
     "jsonLdHeadline": "Hunting - GTA 6 Activity",
     "jsonLdDescription": "Hunting in GTA 6: Jason works an old army friend's 15 Target Decks near Mount Kalaga. Track with Focus, shoot head or heart, sell clean carcasses.",
-    "dateModified": "2026-11-21",
+    "dateModified": "2026-11-25",
     "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-03.jpg"
   },
   "heroSubtitle": "An old army friend, a cabin near [Mount Kalaga](/gameplay/locations/mount-kalaga-national-park), and a list of animals he wants delivered clean. **Head or heart. Anything else is cheaper meat.**",
@@ -72,6 +72,13 @@
       "avatarInitials": "AA"
     },
     {
+      "url": "/gameplay/animals/american-black-bear",
+      "role": "Animal",
+      "name": "American Black Bear",
+      "desc": "Same rule as the gator: no lifting. One of them has dodged the wildlife department for years.",
+      "avatarInitials": "AB"
+    },
+    {
       "url": "/gameplay/vehicles/declasse-yosemite-rancher",
       "role": "Vehicle",
       "name": "Declasse Yosemite Rancher",
@@ -89,6 +96,11 @@
       "q": "How do you get a pristine carcass?",
       "a": "**One shot to the head or heart.** Focus shows the vitals, and the study card names the right weapon. Every extra hit lowers the grade, and Bret only takes Pristine or Good.",
       "aPlain": "One shot to the head or heart. Focus shows the vitals, and the study card names the right weapon. Every extra hit lowers the grade, and Bret only takes Pristine or Good."
+    },
+    {
+      "q": "What animals are in Bret's Target Decks?",
+      "a": "Deck one: a Whitetail Buck and Doe around Mount Kalaga. Deck two: a white Leonida Wild White Tom, an Eastern Spotted Skunk (after about 8 PM) and a wild boar, around Adler Creek, Bonanza and Mount Kalaga. Each finished deck makes Bret text the next.",
+      "aPlain": "Deck one: a Whitetail Buck and Doe around Mount Kalaga. Deck two: a white Leonida Wild White Tom, an Eastern Spotted Skunk (after about 8 PM) and a wild boar, around Adler Creek, Bonanza and Mount Kalaga. Each finished deck makes Bret text the next."
     },
     {
       "q": "Is hunting needed for 100% completion?",
@@ -143,8 +155,10 @@ Hunting in Leonida runs through one man. **Bret Vogel, Jason's old army friend, 
 
 The first hunt is the lesson. Bret hands over the Killtelligence SM-69, a scoped rifle with his company's name on it, and takes you after a deer. Focus (L3 and R3) shows the scent trail, white at first and yellow as you close in. Study the animal through the scope or binoculars before you shoot: the card names the right weapon and what the carcass is worth. Lose the rifle later and an Ammu-Nation weapon locker has it.
 
-**Then come the orders.** Bret posts fifteen Target Decks, each a short list of animals and the areas they live in, marked on the map. The first wants a [whitetail](/gameplay/animals/white-tailed-deer) buck and doe. Later ones ask for [wild boar](/gameplay/animals/boar) and a spotted [skunk](/gameplay/animals/skunk) that only comes out after dark. All fifteen count toward 100%, and they stay open after the story.
+**Then come the orders.** Bret posts fifteen Target Decks, one at a time: finish a deck and he texts the next. Each names two or three animals and marks their ground on the map, under Map > Activities > Target Deck. All fifteen count toward 100%, and they stay open after the story.
 
-One shot to the head or heart keeps a carcass pristine. Every extra round knocks the grade down, and Bret takes only Pristine or Good. Small game rides back in your vehicle to his processing area. Bears and [alligators](/gameplay/animals/american-alligator) do not get lifted: send Bret a photo and the location, and he collects. For small game, Ammu-Nation's Hunting stores are the only place that sells the Wortham W-22.
+The first deck wants a [whitetail](/gameplay/animals/white-tailed-deer) buck and doe, out in [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park) and around the Abandoned Concrete Plant. The second gets pickier: a Leonida Wild White Tom (white feathers only, a brown turkey does not count), an Eastern Spotted [Skunk](/gameplay/animals/skunk) that shows up after about 8 PM, and a [wild boar](/gameplay/animals/boar). That deck's ground is Adler Creek, [Bonanza](/gameplay/locations/bonanza) and Mount Kalaga.
+
+One shot to the head or heart keeps a carcass pristine. Every extra round knocks the grade down, and Bret takes only Pristine or Good. Small game rides back in your vehicle to his processing area. [Bears](/gameplay/animals/american-black-bear) and [alligators](/gameplay/animals/american-alligator) do not get lifted: send Bret a photo and the location, and he collects. For small game, Ammu-Nation's Hunting stores are the only place that sells the Wortham W-22.
 
 Source: GTA VI, in-game.

@@ -1670,7 +1670,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/activities/hunting</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1934,7 +1934,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/animals/white-tailed-deer</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3641,5 +3641,11 @@
     <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gtavitips.com/gameplay/animals/american-black-bear</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

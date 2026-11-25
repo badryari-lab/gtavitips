@@ -15,7 +15,8 @@
         { "url": "/gameplay/animals/skunk-ape",      "label": "Cryptid",    "color": "#ff0055", "name": "Skunk Ape",         "desc": "Leonida's Bigfoot. Cottonmouth Lake, south of Hamlet." },
         { "url": "/gameplay/animals/squirrel",       "label": "Small Game", "color": "#fb923c", "name": "Squirrel",          "desc": "Urban rodent. Parks and city green space." },
         { "url": "/gameplay/animals/white-tailed-deer","label": "Herbivore",  "color": "#4ade80", "name": "White-Tailed Deer", "desc": "Primary game animal. Forest and grassland zones." },
-        { "url": "/gameplay/animals/boar",           "label": "Aggressive", "color": "#ef4444", "name": "Wild Boar",         "desc": "Invasive and territorial. Rural Leonida." }
+        { "url": "/gameplay/animals/boar",           "label": "Aggressive", "color": "#ef4444", "name": "Wild Boar",         "desc": "Invasive and territorial. Rural Leonida." },
+        { "url": "/gameplay/animals/american-black-bear",           "label": "Big Game", "color": "#ef4444", "name": "American Black Bear",         "desc": "Too heavy to carry. The unique one roams south of Hamlet." }
       ]
     },
     {

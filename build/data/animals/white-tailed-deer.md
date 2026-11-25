@@ -5,11 +5,11 @@
   ],
   "seo": {
     "title": "White-Tailed Deer Location | GTA 6 Animal | GTAVITIPS",
-    "description": "Where to find white-tailed deer in GTA 6: Mount Kalaga, the Abandoned Concrete Plant and Kalaga River. Buck, doe and the rifle to use.",
-    "ogDescription": "Where to find white-tailed deer in GTA 6: Mount Kalaga, the Abandoned Concrete Plant and Kalaga River. Buck, doe and the rifle to use.",
+    "description": "Where to find white-tailed deer in GTA 6: Mount Kalaga National Park and the Abandoned Concrete Plant. Buck, doe and the rifle to use.",
+    "ogDescription": "Where to find white-tailed deer in GTA 6: Mount Kalaga National Park and the Abandoned Concrete Plant. Buck, doe and the rifle to use.",
     "jsonLdHeadline": "White-Tailed Deer – GTA 6 Animal Profile",
-    "jsonLdDescription": "Where to find white-tailed deer in GTA 6: Mount Kalaga, the Abandoned Concrete Plant and Kalaga River. Buck, doe and the rifle to use.",
-    "dateModified": "2026-11-22",
+    "jsonLdDescription": "Where to find white-tailed deer in GTA 6: Mount Kalaga National Park and the Abandoned Concrete Plant. Buck, doe and the rifle to use.",
+    "dateModified": "2026-11-25",
     "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-05.jpg"
   },
   "heroSubtitle": "The standard prey animal of inland Leonida. **Spotted, still, then gone.** The distance between those three states is very small.",
@@ -27,8 +27,8 @@
     },
     {
       "key": "Habitat",
-      "value": "[Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park), Abandoned Concrete Plant, Kalaga River",
-      "sub": "Woodland and stream edges in Lummox County."
+      "value": "[Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park), Abandoned Concrete Plant",
+      "sub": "Woodland and stream edges."
     },
     {
       "key": "Hunting",
@@ -78,8 +78,8 @@
   "faq": [
     {
       "q": "Where do you find deer in GTA 6?",
-      "a": "In [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park), around the Abandoned Concrete Plant and along the Kalaga River in Lummox County.",
-      "aPlain": "In Mount Kalaga National Park, around the Abandoned Concrete Plant and along the Kalaga River in Lummox County."
+      "a": "In [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park) and around the Abandoned Concrete Plant.",
+      "aPlain": "In Mount Kalaga National Park and around the Abandoned Concrete Plant."
     },
     {
       "q": "What gun should you use on deer in GTA 6?",
@@ -132,6 +132,6 @@
 ---
 The whitetail is the first animal most players hunt. **Bret Vogel takes Jason after one on his first job in Chapter 2, and pays $500 for it.**
 
-The herds keep to [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park), the Abandoned Concrete Plant and the Kalaga River in Lummox County. Look at woodland and stream edges. Focus lights up their tracks, and the trail changes colour as you close in.
+The herds keep to [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park) and the Abandoned Concrete Plant. Look at woodland and stream edges. Focus lights up their tracks, and the trail changes colour as you close in.
 
 They spook if you get close, so shoot from range with a scoped Shrewsbury SM-69, the rifle the game recommends. One shot to the head or heart keeps the carcass pristine. Bret's first Target Deck asks for a Whitetail Buck and a Whitetail Doe. More under [Hunting](/gameplay/activities/hunting).
