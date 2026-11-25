@@ -9,7 +9,7 @@
     "ogDescription": "Where to find wild boar in GTA 6: shady forest in Mount Kalaga, Adler Creek and Bonanza, mostly at night, and how to bring one in for Bret.",
     "jsonLdHeadline": "Wild Boar – GTA 6 Animal Profile",
     "jsonLdDescription": "Where to find wild boar in GTA 6: shady forest in Mount Kalaga, Adler Creek and Bonanza, mostly at night, and how to bring one in for Bret.",
-    "dateModified": "2026-11-22"
+    "dateModified": "2026-11-25"
   },
   "heroSubtitle": "Introduced to Leonida and now everywhere it should not be. **The wild boar does not bluff charges.** It commits.",
   "statBlock": [
@@ -123,3 +123,5 @@ They charge. A boar that spots you closes the gap fast, so take it with a scoped
 Boar are on Bret's second Target Deck, next to a white-feathered wild turkey and an Eastern Spotted [Skunk](/gameplay/animals/skunk). He takes them in Pristine or Good condition only: one shot to the head or heart. Big animals like boar he collects himself. How the trade opens is under [Hunting](/gameplay/activities/hunting).
 
 Not hunting? Raise the binoculars or a rifle scope, zoom in until Study shows, then hold R1 (RB). The boar goes into the animal log under Progress > Animals.
+
+**The Unique Wild Boar keeps to the old radar station at Wild Hog Point.** It counts toward the Legendary Hunter challenge.

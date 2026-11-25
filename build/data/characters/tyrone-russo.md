@@ -11,7 +11,7 @@
     "ogDescription": "Tyrone Russo in GTA 6: the La Perle dealer Dre'Quan brings Jason to, his Kitty Litter lab jobs, what they pay, and his story behind a click.",
     "jsonLdName": "Tyrone Russo",
     "jsonLdDescription": "Tyrone Russo in GTA 6: the La Perle dealer Dre'Quan brings Jason to, his Kitty Litter lab jobs, what they pay, and his story behind a click.",
-    "dateModified": "2026-11-20"
+    "dateModified": "2026-11-25"
   },
   "heroSubtitle": "Ty to anyone who knows him. **He deals out of a La Perle apartment complex and does not trust new faces**, not until somebody he knows vouches for them.",
   "statBlock": [
@@ -174,4 +174,4 @@ Tyrone, Ty to the people who matter, deals out of an apartment complex in La Per
 
 **He does not like new faces.** The first time [Dre'Quan](/gameplay/characters/dre-quan-priest) brings [Jason](/gameplay/characters/jason-duval) up, Ty wants to know if the guy is a fed. D vouches, the product comes out, and business goes ahead.
 
-After that Ty keeps it simple. Anything Jason wants to flip, Ty finds him a price. His man Dook handles the texts. What keeps Ty awake is a synthetic called Kitty Litter, all over Vice City and traceable to nobody.
+After that Ty keeps it simple. Anything Jason wants to flip, Ty finds him a price. His man Dook handles the texts. What keeps Ty awake is a synthetic called Kitty Litter, all over Vice City and traceable to nobody. [Where the labs are](/faq/gta-6-tyrone-drug-labs).

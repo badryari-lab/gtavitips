@@ -137,3 +137,5 @@ The herds keep to [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-
 They spook if you get close, so shoot from range with a scoped Shrewsbury SM-69, the rifle the game recommends. One shot to the head or heart keeps the carcass pristine. Bret's first Target Deck asks for a Whitetail Buck and a Whitetail Doe. More under [Hunting](/gameplay/activities/hunting).
 
 The rare one comes later. Bret's eleventh Target Deck asks for a Piebald Whitetail Buck.
+
+One buck has a name. **The Unique Buck works the coast northeast of Grayson**, and it counts toward the Legendary Hunter challenge.

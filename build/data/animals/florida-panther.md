@@ -127,3 +127,5 @@ It does not announce itself. Study it from range: raise the binoculars or a rifl
 The park is also Bret Vogel's ground. His cabin, Killtelligence Provisions, sits in the same forest, and hunting there runs through him: see [Hunting](/gameplay/activities/hunting).
 
 Bret's fifth Target Deck wants black fur: a Leonida Black Panther, next to a Black [Fox](/gameplay/animals/fox) and a Northern Black Coyote.
+
+**The Unique Panther hides on Belpoint Island, west of [Capri](/gameplay/locations/capri).** Bret sends a Snapmatic when it is spotted, and it counts toward the Legendary Hunter challenge.

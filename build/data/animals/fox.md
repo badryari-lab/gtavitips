@@ -124,3 +124,5 @@ It does not attack. It does not hold ground. Any approach within a reasonable di
 **The AI behaviour in dense suburban areas** adds to the environmental quality of Leonida's outer Vice City zones. A fox moving through a garden at night is exactly the kind of detail that makes the world feel inhabited.
 
 Bret wants the rare colours. **His fourth Target Deck asks for a Golden Fox, the fifth for a Black Fox.** A plain red fox counts for neither. The full order list is under [Hunting](/gameplay/activities/hunting).
+
+**The Unique White Fox hangs around Howe Dairy in north Emerald Springs.** It counts toward the Legendary Hunter challenge.

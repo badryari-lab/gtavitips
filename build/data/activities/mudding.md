@@ -9,7 +9,7 @@
     "ogDescription": "Mudding in GTA 6 runs through the Thrillbilly Mud Club in Kelly County: dirt bike races, six timed trials and cash for riders who finish up front.",
     "jsonLdHeadline": "Mudding - GTA 6 Activity",
     "jsonLdDescription": "Mudding in GTA 6 runs through the Thrillbilly Mud Club in Kelly County: dirt bike races, six timed trials and cash for riders who finish up front.",
-    "dateModified": "2026-11-21"
+    "dateModified": "2026-11-25"
   },
   "heroSubtitle": "Mud, dirt bikes and a grandstand full of people waiting for somebody to eat it. **The Thrillbilly Mud Club in [Kelly County](/gameplay/locations/kelly-county) is where Leonida gets dirty on purpose.**",
   "statBlock": [
@@ -122,6 +122,6 @@ The way in is a man named Billy. After the main mission Coffee Break the club op
 
 **After that the club stays open for business.** Dirt track and oval races run here as part of Leonida's [racing](/gameplay/activities/racing) circuit, each with a buy-in and a cash prize. Six timed trials sit alongside them: Airtime Stunt Run, Drag, Hill Climb, Dirt Track, Oval and Swamp Run. Every trial keeps a best time and a medal.
 
-The mud is not decoration. Wheels dig in, bikes slide out, and a rider who clips a car goes over the bars. Billy's first race counts toward 100%.
+The mud is not decoration. Wheels dig in, bikes slide out, and a rider who clips a car goes over the bars. Billy's first race counts toward 100%, and he has [five jobs](/faq/gta-6-billy-missions) waiting at the club.
 
 Source: GTA VI, in-game.

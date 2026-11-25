@@ -144,3 +144,5 @@ Hunting one is Jason's work. Once his old army friend Bret Vogel brings him into
 **The rare one is white.** An Albino American Alligator turns up in the wetlands near [Hamlet](/gameplay/locations/hamlet). Bret wants it on his tenth Target Deck.
 
 The American crocodile is a different animal with its own log entry. It prefers salt water and keeps to the coast.
+
+**The Unique Swamp Alligator lives deep in Buckskin Swamp**, and its cousin the Unique Crocodile lies between Wetman Bay and Cottonmouth Lake. Both count toward the Legendary Hunter challenge.

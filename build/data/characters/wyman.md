@@ -11,7 +11,7 @@
     "ogImage": "https://gtavitips.com/assets/images/wyman-gta-6-character-02.jpg",
     "jsonLdName": "Wyman",
     "jsonLdDescription": "Wyman in GTA 6: mechanic, collector and Mud Club regular, his Ultimate Edition classic car commission, and where you meet him behind a click.",
-    "dateModified": "2026-11-20"
+    "dateModified": "2026-11-25"
   },
   "heroSubtitle": "Mechanic. Collector. Mud Club regular. **Show him a wreck in a carport and he sees a car.**",
   "heroImage": {
@@ -162,4 +162,4 @@ Wyman fixes cars, and not the easy ones. He runs Wyman's World Auto Salvage Co.,
 
 **The mud is the other half of his life.** He rides with Billy's dirt-bike crew at the Thrillbilly Mud Club, where the air smells of sweat, beer and octane and he calls that paradise. He knows everybody there, and they know him.
 
-On the Ultimate Edition he has a standing commission. Find the wrecks he is after, scan them, pay his labor, and he hands back a working car: a '64 Mamba GT, a '70 Riata, and more after those. He is eccentric about it. He is also very good at it.
+On the Ultimate Edition he has a standing commission. Find the wrecks he is after, scan them, pay his labor, and he hands back a working car: a '64 Mamba GT, a '70 Riata, and more after those. He is eccentric about it. He is also very good at it. [Where every part is](/faq/gta-6-wyman-classic-cars).
