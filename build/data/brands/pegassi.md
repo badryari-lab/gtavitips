@@ -77,6 +77,23 @@
   },
   "sidebar": [
     {
+      "title": "Pegassi Vehicles",
+      "items": [
+        {
+          "url": "/gameplay/vehicles/pegassi-speeder",
+          "label": "Speeder"
+        },
+        {
+          "url": "/gameplay/vehicles/pegassi-zentorno",
+          "label": "Zentorno"
+        },
+        {
+          "url": "/gameplay/vehicles/pegassi-zorrusso",
+          "label": "Zorrusso"
+        }
+      ]
+    },
+    {
       "title": "Brands Index",
       "items": [
         {

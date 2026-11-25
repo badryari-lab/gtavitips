@@ -77,6 +77,23 @@
   },
   "sidebar": [
     {
+      "title": "Grotti Vehicles",
+      "items": [
+        {
+          "url": "/gameplay/vehicles/grotti-carbonizzare",
+          "label": "Carbonizzare"
+        },
+        {
+          "url": "/gameplay/vehicles/grotti-cheetah",
+          "label": "'95 Cheetah"
+        },
+        {
+          "url": "/gameplay/vehicles/grotti-cheetah-classic",
+          "label": "Cheetah Classic"
+        }
+      ]
+    },
+    {
       "title": "Brands Index",
       "items": [
         {

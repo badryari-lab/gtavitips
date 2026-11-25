@@ -81,6 +81,19 @@
   },
   "sidebar": [
     {
+      "title": "Übermacht Vehicles",
+      "items": [
+        {
+          "url": "/gameplay/vehicles/ubermacht-cypher",
+          "label": "Cypher"
+        },
+        {
+          "url": "/gameplay/vehicles/ubermacht-sentinel-classic-convertible",
+          "label": "Sentinel Classic Convertible"
+        }
+      ]
+    },
+    {
       "title": "Brands Index",
       "items": [
         {

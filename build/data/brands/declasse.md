@@ -81,6 +81,31 @@
   },
   "sidebar": [
     {
+      "title": "Declasse Vehicles",
+      "items": [
+        {
+          "url": "/gameplay/vehicles/declasse-bobcat-xl",
+          "label": "Bobcat XL"
+        },
+        {
+          "url": "/gameplay/vehicles/declasse-sheriff-suv",
+          "label": "Sheriff SUV"
+        },
+        {
+          "url": "/gameplay/vehicles/declasse-tornado",
+          "label": "Tornado"
+        },
+        {
+          "url": "/gameplay/vehicles/declasse-tulip",
+          "label": "Tulip"
+        },
+        {
+          "url": "/gameplay/vehicles/declasse-yosemite-rancher",
+          "label": "Yosemite Rancher"
+        }
+      ]
+    },
+    {
       "title": "Brands Index",
       "items": [
         {

@@ -77,6 +77,15 @@
   },
   "sidebar": [
     {
+      "title": "Invetero Vehicles",
+      "items": [
+        {
+          "url": "/gameplay/vehicles/invetero-coquette-d10",
+          "label": "Coquette D10"
+        }
+      ]
+    },
+    {
       "title": "Brands Index",
       "items": [
         {

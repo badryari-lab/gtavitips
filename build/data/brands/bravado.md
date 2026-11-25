@@ -81,6 +81,47 @@
   },
   "sidebar": [
     {
+      "title": "Bravado Vehicles",
+      "items": [
+        {
+          "url": "/gameplay/vehicles/bravado-banshee",
+          "label": "Banshee"
+        },
+        {
+          "url": "/gameplay/vehicles/bravado-bison",
+          "label": "Bison"
+        },
+        {
+          "url": "/gameplay/vehicles/bravado-buffalo",
+          "label": "Buffalo"
+        },
+        {
+          "url": "/gameplay/vehicles/bravado-buffalo-s",
+          "label": "Buffalo S"
+        },
+        {
+          "url": "/gameplay/vehicles/bravado-gauntlet-hellfire",
+          "label": "Gauntlet Hellfire"
+        },
+        {
+          "url": "/gameplay/vehicles/bravado-police-cruiser-buffalo",
+          "label": "Police Buffalo"
+        },
+        {
+          "url": "/gameplay/vehicles/bravado-police-cruiser-buffalo-stx",
+          "label": "Police Buffalo STX"
+        },
+        {
+          "url": "/gameplay/vehicles/bravado-police-gauntlet-interceptor",
+          "label": "Police Gauntlet Interceptor"
+        },
+        {
+          "url": "/gameplay/vehicles/bravado-rumpo-custom",
+          "label": "Rumpo Custom"
+        }
+      ]
+    },
+    {
       "title": "Brands Index",
       "items": [
         {

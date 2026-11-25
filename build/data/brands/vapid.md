@@ -77,6 +77,47 @@
   },
   "sidebar": [
     {
+      "title": "Vapid Vehicles",
+      "items": [
+        {
+          "url": "/gameplay/vehicles/vapid-caracara-4x4-lifeguard",
+          "label": "Caracara Lifeguard"
+        },
+        {
+          "url": "/gameplay/vehicles/vapid-dominator-buggy",
+          "label": "'67 Dominator Buggy"
+        },
+        {
+          "url": "/gameplay/vehicles/vapid-ganado",
+          "label": "'70 Ganado Retro Build"
+        },
+        {
+          "url": "/gameplay/vehicles/vapid-liberator",
+          "label": "Liberator"
+        },
+        {
+          "url": "/gameplay/vehicles/vapid-police-cruiser-stanier-le",
+          "label": "Police Stanier"
+        },
+        {
+          "url": "/gameplay/vehicles/vapid-sandking-xl",
+          "label": "Sandking XL"
+        },
+        {
+          "url": "/gameplay/vehicles/vapid-scout-police",
+          "label": "Scout Police"
+        },
+        {
+          "url": "/gameplay/vehicles/vapid-stanier",
+          "label": "'55 Stanier"
+        },
+        {
+          "url": "/gameplay/vehicles/vapid-towtruck",
+          "label": "Towtruck"
+        }
+      ]
+    },
+    {
       "title": "Brands Index",
       "items": [
         {

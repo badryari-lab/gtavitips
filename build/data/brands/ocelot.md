@@ -77,6 +77,19 @@
   },
   "sidebar": [
     {
+      "title": "Ocelot Vehicles",
+      "items": [
+        {
+          "url": "/gameplay/vehicles/ocelot-jugular",
+          "label": "Jugular"
+        },
+        {
+          "url": "/gameplay/vehicles/ocelot-locust",
+          "label": "Locust"
+        }
+      ]
+    },
+    {
       "title": "Brands Index",
       "items": [
         {

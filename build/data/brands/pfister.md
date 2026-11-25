@@ -81,6 +81,31 @@
   },
   "sidebar": [
     {
+      "title": "Pfister Vehicles",
+      "items": [
+        {
+          "url": "/gameplay/vehicles/pfister-astron",
+          "label": "Astron"
+        },
+        {
+          "url": "/gameplay/vehicles/pfister-comet-2",
+          "label": "Comet 2"
+        },
+        {
+          "url": "/gameplay/vehicles/pfister-comet-retro-custom",
+          "label": "Comet Retro Custom"
+        },
+        {
+          "url": "/gameplay/vehicles/pfister-comet-s2",
+          "label": "Comet S2"
+        },
+        {
+          "url": "/gameplay/vehicles/pfister-comet-s2-cabrio",
+          "label": "Comet S2 Cabrio"
+        }
+      ]
+    },
+    {
       "title": "Brands Index",
       "items": [
         {
