@@ -5,18 +5,118 @@
       "eyebrow": "Terrestrial Mammals",
       "title": "Land Animals",
       "items": [
-        { "url": "/gameplay/animals/cat",            "label": "Domestic",   "color": "#34d399", "name": "Cat",               "desc": "Domestic feline. Urban and suburban environments." },
-        { "url": "/gameplay/animals/dobermann",      "label": "Domestic",   "color": "#34d399", "name": "Dobermann",         "desc": "Guard dog. Properties and secured locations." },
-        { "url": "/gameplay/animals/florida-panther","label": "Lethal",     "color": "#b91c1c", "name": "Florida Panther",   "desc": "Big cat of the deer country. Mount Kalaga National Park." },
-        { "url": "/gameplay/animals/fox",            "label": "Elusive",    "color": "#c084fc", "name": "Fox",               "desc": "Wild canid. Rural and suburban edges." },
-        { "url": "/gameplay/animals/opossum",        "label": "Scavenger",  "color": "#f472b6", "name": "Opossum",           "desc": "Nocturnal. Roadside and suburban Leonida." },
-        { "url": "/gameplay/animals/raccoon",        "label": "Scavenger",  "color": "#f472b6", "name": "Raccoon",           "desc": "Urban scavenger. Active at night across Vice City." },
-        { "url": "/gameplay/animals/skunk",          "label": "Hazard",     "color": "#f97316", "name": "Skunk",             "desc": "Night only, from 8pm. Mount Kalaga woods." },
-        { "url": "/gameplay/animals/skunk-ape",      "label": "Cryptid",    "color": "#ff0055", "name": "Skunk Ape",         "desc": "Leonida's Bigfoot. Cottonmouth Lake, south of Hamlet." },
-        { "url": "/gameplay/animals/squirrel",       "label": "Small Game", "color": "#fb923c", "name": "Squirrel",          "desc": "Urban rodent. Parks and city green space." },
-        { "url": "/gameplay/animals/white-tailed-deer","label": "Herbivore",  "color": "#4ade80", "name": "White-Tailed Deer", "desc": "Primary game animal. Forest and grassland zones." },
-        { "url": "/gameplay/animals/boar",           "label": "Aggressive", "color": "#ef4444", "name": "Wild Boar",         "desc": "Invasive and territorial. Rural Leonida." },
-        { "url": "/gameplay/animals/american-black-bear",           "label": "Big Game", "color": "#ef4444", "name": "American Black Bear",         "desc": "Too heavy to carry. The unique one roams south of Hamlet." }
+        {
+          "url": "/gameplay/animals/cat",
+          "label": "Domestic",
+          "color": "#34d399",
+          "name": "Cat",
+          "desc": "Domestic feline. Urban and suburban environments."
+        },
+        {
+          "url": "/gameplay/animals/dobermann",
+          "label": "Domestic",
+          "color": "#34d399",
+          "name": "Dobermann",
+          "desc": "Guard dog. Properties and secured locations."
+        },
+        {
+          "url": "/gameplay/animals/florida-panther",
+          "label": "Lethal",
+          "color": "#b91c1c",
+          "name": "Florida Panther",
+          "desc": "Big cat of the deer country. Mount Kalaga National Park."
+        },
+        {
+          "url": "/gameplay/animals/fox",
+          "label": "Elusive",
+          "color": "#c084fc",
+          "name": "Fox",
+          "desc": "Wild canid. Rural and suburban edges."
+        },
+        {
+          "url": "/gameplay/animals/opossum",
+          "label": "Scavenger",
+          "color": "#f472b6",
+          "name": "Opossum",
+          "desc": "Nocturnal. Roadside and suburban Leonida."
+        },
+        {
+          "url": "/gameplay/animals/raccoon",
+          "label": "Scavenger",
+          "color": "#f472b6",
+          "name": "Raccoon",
+          "desc": "Urban scavenger. Active at night across Vice City."
+        },
+        {
+          "url": "/gameplay/animals/skunk",
+          "label": "Hazard",
+          "color": "#f97316",
+          "name": "Skunk",
+          "desc": "Night only, from 8pm. Mount Kalaga woods."
+        },
+        {
+          "url": "/gameplay/animals/skunk-ape",
+          "label": "Cryptid",
+          "color": "#ff0055",
+          "name": "Skunk Ape",
+          "desc": "Leonida's Bigfoot. Cottonmouth Lake, south of Hamlet."
+        },
+        {
+          "url": "/gameplay/animals/squirrel",
+          "label": "Small Game",
+          "color": "#fb923c",
+          "name": "Squirrel",
+          "desc": "Urban rodent. Parks and city green space."
+        },
+        {
+          "url": "/gameplay/animals/white-tailed-deer",
+          "label": "Herbivore",
+          "color": "#4ade80",
+          "name": "White-Tailed Deer",
+          "desc": "Primary game animal. Forest and grassland zones."
+        },
+        {
+          "url": "/gameplay/animals/boar",
+          "label": "Aggressive",
+          "color": "#ef4444",
+          "name": "Wild Boar",
+          "desc": "Invasive and territorial. Rural Leonida."
+        },
+        {
+          "url": "/gameplay/animals/american-black-bear",
+          "label": "Big Game",
+          "color": "#ef4444",
+          "name": "American Black Bear",
+          "desc": "Too heavy to carry. The unique one roams south of Hamlet."
+        },
+        {
+          "url": "/gameplay/animals/coyote",
+          "label": "Elusive",
+          "color": "#c084fc",
+          "name": "Coyote",
+          "desc": "Black and silver coats on Bret's decks. Unique one north of Belville."
+        },
+        {
+          "url": "/gameplay/animals/bobcat",
+          "label": "Elusive",
+          "color": "#c084fc",
+          "name": "Bobcat",
+          "desc": "Forest and wetland. The black one is on Bret's ninth deck."
+        },
+        {
+          "url": "/gameplay/animals/nine-banded-armadillo",
+          "label": "Small Game",
+          "color": "#fb923c",
+          "name": "Nine-Banded Armadillo",
+          "desc": "Kelly River. Bret's fourth deck wants its shell."
+        },
+        {
+          "url": "/gameplay/animals/nutria",
+          "label": "Small Game",
+          "color": "#fb923c",
+          "name": "Nutria",
+          "desc": "Buckskin Swamp. On Bret's third deck."
+        }
       ]
     },
     {
@@ -24,13 +124,62 @@
       "eyebrow": "Avian Species",
       "title": "Birds",
       "items": [
-        { "url": "/gameplay/animals/flamingo",           "label": "Iconic",    "color": "#ff0055", "name": "American Flamingo", "desc": "Massive wetland colonies. Grassrivers and coastal flats." },
-        { "url": "/gameplay/animals/duck",               "label": "Game Bird", "color": "#a3e635", "name": "Duck",              "desc": "Freshwater fowl. Lakes, ponds, and river margins." },
-        { "url": "/gameplay/animals/heron",              "label": "Wading",    "color": "#2dd4bf", "name": "Heron",             "desc": "Coastal and freshwater hunter. Waterways statewide." },
-        { "url": "/gameplay/animals/pelican",            "label": "Coastal",   "color": "#06b6d4", "name": "Pelican",           "desc": "Coastal aviator. Keys and Vice City shoreline." },
-        { "url": "/gameplay/animals/rock-pigeon",             "label": "Pest",      "color": "#78716c", "name": "Rock Pigeon",       "desc": "Urban dweller. Vice City rooftops and street level." },
-        { "url": "/gameplay/animals/roseate-spoonbill",  "label": "Exotic",    "color": "#e879f9", "name": "Roseate Spoonbill", "desc": "Swamp wader. Grassrivers wetland interior." },
-        { "url": "/gameplay/animals/seagull",            "label": "Scavenger", "color": "#f472b6", "name": "Seagull",           "desc": "Beach scavenger. Vice City coastline and marina." }
+        {
+          "url": "/gameplay/animals/flamingo",
+          "label": "Iconic",
+          "color": "#ff0055",
+          "name": "American Flamingo",
+          "desc": "Massive wetland colonies. Grassrivers and coastal flats."
+        },
+        {
+          "url": "/gameplay/animals/duck",
+          "label": "Game Bird",
+          "color": "#a3e635",
+          "name": "Duck",
+          "desc": "Freshwater fowl. Lakes, ponds, and river margins."
+        },
+        {
+          "url": "/gameplay/animals/heron",
+          "label": "Wading",
+          "color": "#2dd4bf",
+          "name": "Heron",
+          "desc": "Coastal and freshwater hunter. Waterways statewide."
+        },
+        {
+          "url": "/gameplay/animals/pelican",
+          "label": "Coastal",
+          "color": "#06b6d4",
+          "name": "Pelican",
+          "desc": "Coastal aviator. Keys and Vice City shoreline."
+        },
+        {
+          "url": "/gameplay/animals/rock-pigeon",
+          "label": "Pest",
+          "color": "#78716c",
+          "name": "Rock Pigeon",
+          "desc": "Urban dweller. Vice City rooftops and street level."
+        },
+        {
+          "url": "/gameplay/animals/roseate-spoonbill",
+          "label": "Exotic",
+          "color": "#e879f9",
+          "name": "Roseate Spoonbill",
+          "desc": "Swamp wader. Grassrivers wetland interior."
+        },
+        {
+          "url": "/gameplay/animals/seagull",
+          "label": "Scavenger",
+          "color": "#f472b6",
+          "name": "Seagull",
+          "desc": "Beach scavenger. Vice City coastline and marina."
+        },
+        {
+          "url": "/gameplay/animals/wild-turkey",
+          "label": "Game Bird",
+          "color": "#a3e635",
+          "name": "Wild Turkey",
+          "desc": "Adler Creek, Bonanza, Mount Kalaga. Bret wants the white one."
+        }
       ]
     },
     {
@@ -38,12 +187,76 @@
       "eyebrow": "Reptiles &amp; Amphibians",
       "title": "Reptiles",
       "items": [
-        { "url": "/gameplay/animals/american-alligator", "label": "Lethal",   "color": "#b91c1c", "name": "American Alligator",   "desc": "Apex predator. Grassrivers, golf courses, and swimming pools." },
-        { "url": "/gameplay/animals/pythons",             "label": "Invasive", "color": "#ff8042", "name": "Burmese Python",        "desc": "Ambush constrictor. Grassrivers interior." },
-        { "url": "/gameplay/animals/iguana",             "label": "Invasive", "color": "#ff8042", "name": "Green Iguana",          "desc": "Invasive. Rocks and palms along the coast and the Keys." },
-        { "url": "/gameplay/animals/lizard",             "label": "Ambient",  "color": "#94a3b8", "name": "Lizard",                "desc": "Small anole. Walls, fences, and warm surfaces statewide." },
-        { "url": "/gameplay/animals/snake",              "label": "Venomous", "color": "#84cc16", "name": "Snake",                 "desc": "General serpent. Woodland and wetland zones." },
-        { "url": "/gameplay/animals/southern-leopard-frog",               "label": "Ambient",  "color": "#94a3b8", "name": "Southern Leopard Frog", "desc": "Swamp chorus. Wetland and water margins." }
+        {
+          "url": "/gameplay/animals/american-alligator",
+          "label": "Lethal",
+          "color": "#b91c1c",
+          "name": "American Alligator",
+          "desc": "Apex predator. Grassrivers, golf courses, and swimming pools."
+        },
+        {
+          "url": "/gameplay/animals/pythons",
+          "label": "Invasive",
+          "color": "#ff8042",
+          "name": "Burmese Python",
+          "desc": "Ambush constrictor. Grassrivers interior."
+        },
+        {
+          "url": "/gameplay/animals/iguana",
+          "label": "Invasive",
+          "color": "#ff8042",
+          "name": "Green Iguana",
+          "desc": "Invasive. Rocks and palms along the coast and the Keys."
+        },
+        {
+          "url": "/gameplay/animals/lizard",
+          "label": "Ambient",
+          "color": "#94a3b8",
+          "name": "Lizard",
+          "desc": "Small anole. Walls, fences, and warm surfaces statewide."
+        },
+        {
+          "url": "/gameplay/animals/snake",
+          "label": "Venomous",
+          "color": "#84cc16",
+          "name": "Snake",
+          "desc": "General serpent. Woodland and wetland zones."
+        },
+        {
+          "url": "/gameplay/animals/southern-leopard-frog",
+          "label": "Ambient",
+          "color": "#94a3b8",
+          "name": "Southern Leopard Frog",
+          "desc": "Swamp chorus. Wetland and water margins."
+        },
+        {
+          "url": "/gameplay/animals/american-crocodile",
+          "label": "Lethal",
+          "color": "#b91c1c",
+          "name": "American Crocodile",
+          "desc": "Coast and islands of the Grassrivers. Unique one near Cottonmouth Lake."
+        },
+        {
+          "url": "/gameplay/animals/cane-toad",
+          "label": "Invasive",
+          "color": "#ff8042",
+          "name": "Cane Toad",
+          "desc": "Buckskin Swamp. Bret's third deck is named after it."
+        },
+        {
+          "url": "/gameplay/animals/nile-monitor",
+          "label": "Invasive",
+          "color": "#ff8042",
+          "name": "Nile Monitor",
+          "desc": "Buckskin Swamp. On Bret's third deck."
+        },
+        {
+          "url": "/gameplay/animals/spectacled-caiman",
+          "label": "Invasive",
+          "color": "#ff8042",
+          "name": "Spectacled Caiman",
+          "desc": "Wetland. Bret wants the albino on his twelfth deck."
+        }
       ]
     },
     {
@@ -51,14 +264,62 @@
       "eyebrow": "Aquatic &amp; Marine",
       "title": "Marine Life",
       "items": [
-        { "url": "/gameplay/animals/eel",        "label": "River",     "color": "#38bdf8", "name": "American Eel",    "desc": "River scavenger. Waterways and coastal margins." },
-        { "url": "/gameplay/animals/crayfish",   "label": "Bait",      "color": "#fbbf24", "name": "Crayfish",        "desc": "Crustacean detail. Freshwater beds and swamp shallows." },
-        { "url": "/gameplay/animals/dolphin",    "label": "Marine",    "color": "#0284c7", "name": "Dolphin",         "desc": "Coastal waters and boat wakes." },
-        { "url": "/gameplay/animals/largemouth-bass",       "label": "Game Fish", "color": "#22d3ee", "name": "Largemouth Bass", "desc": "Freshwater trophy. Lakes and rivers across Leonida." },
-        { "url": "/gameplay/animals/manatee",    "label": "Protected", "color": "#fcd34d", "name": "Manatee",         "desc": "Gentle sea cow. Coastal shallows and river mouths." },
-        { "url": "/gameplay/animals/sea-turtle", "label": "Protected", "color": "#fcd34d", "name": "Sea Turtle",      "desc": "Coral reef resident. Keys and southern coastline." },
-        { "url": "/gameplay/animals/shark",      "label": "Lethal",    "color": "#b91c1c", "name": "Shark",           "desc": "Marine predator. Open water past the surf break." },
-        { "url": "/gameplay/animals/whale",      "label": "Marine",    "color": "#0284c7", "name": "Whale",           "desc": "Deep sea. Open Atlantic off the Leonida coast." }
+        {
+          "url": "/gameplay/animals/eel",
+          "label": "River",
+          "color": "#38bdf8",
+          "name": "American Eel",
+          "desc": "River scavenger. Waterways and coastal margins."
+        },
+        {
+          "url": "/gameplay/animals/crayfish",
+          "label": "Bait",
+          "color": "#fbbf24",
+          "name": "Crayfish",
+          "desc": "Crustacean detail. Freshwater beds and swamp shallows."
+        },
+        {
+          "url": "/gameplay/animals/dolphin",
+          "label": "Marine",
+          "color": "#0284c7",
+          "name": "Dolphin",
+          "desc": "Coastal waters and boat wakes."
+        },
+        {
+          "url": "/gameplay/animals/largemouth-bass",
+          "label": "Game Fish",
+          "color": "#22d3ee",
+          "name": "Largemouth Bass",
+          "desc": "Freshwater trophy. Lakes and rivers across Leonida."
+        },
+        {
+          "url": "/gameplay/animals/manatee",
+          "label": "Protected",
+          "color": "#fcd34d",
+          "name": "Manatee",
+          "desc": "Gentle sea cow. Coastal shallows and river mouths."
+        },
+        {
+          "url": "/gameplay/animals/sea-turtle",
+          "label": "Protected",
+          "color": "#fcd34d",
+          "name": "Sea Turtle",
+          "desc": "Coral reef resident. Keys and southern coastline."
+        },
+        {
+          "url": "/gameplay/animals/shark",
+          "label": "Lethal",
+          "color": "#b91c1c",
+          "name": "Shark",
+          "desc": "Marine predator. Open water past the surf break."
+        },
+        {
+          "url": "/gameplay/animals/whale",
+          "label": "Marine",
+          "color": "#0284c7",
+          "name": "Whale",
+          "desc": "Deep sea. Open Atlantic off the Leonida coast."
+        }
       ]
     }
   ]

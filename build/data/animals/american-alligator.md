@@ -5,10 +5,10 @@
   ],
   "seo": {
     "title": "American Alligator Location | GTA 6 Animal | GTAVITIPS",
-    "description": "Where to find alligators in GTA 6: the Grassrivers wetlands, the albino gator near Hamlet, and how to study or hunt one without losing an arm.",
-    "ogDescription": "Where to find alligators in GTA 6: the Grassrivers wetlands, the albino gator near Hamlet, and how to study or hunt one without losing an arm.",
+    "description": "Where to find alligators in GTA 6: the Grassrivers wetlands, the unique gator in Buckskin Swamp, and how to study or hunt one without losing an arm.",
+    "ogDescription": "Where to find alligators in GTA 6: the Grassrivers wetlands, the unique gator in Buckskin Swamp, and how to study or hunt one without losing an arm.",
     "jsonLdHeadline": "American Alligator – GTA 6 Animal Profile",
-    "jsonLdDescription": "Where to find alligators in GTA 6: the Grassrivers wetlands, the albino gator near Hamlet, and how to study or hunt one without losing an arm.",
+    "jsonLdDescription": "Where to find alligators in GTA 6: the Grassrivers wetlands, the unique gator in Buckskin Swamp, and how to study or hunt one without losing an arm.",
     "dateModified": "2026-11-25",
     "ogImage": "https://gtavitips.com/assets/images/grassrivers-gta-6-location-01.jpg"
   },
@@ -38,7 +38,7 @@
     {
       "key": "Rare Variant",
       "value": "Albino American Alligator",
-      "sub": "Wetlands near [Hamlet](/gameplay/locations/hamlet). On Bret's tenth Target Deck."
+      "sub": "On Bret's tenth Target Deck."
     }
   ],
   "gallery": [
@@ -82,9 +82,9 @@
       "aPlain": "In the Grassrivers wetlands of Mariana County. They also wander into pools, canals and stores."
     },
     {
-      "q": "Where is the albino alligator in GTA 6?",
-      "a": "In the wetlands near [Hamlet](/gameplay/locations/hamlet). Bret wants one on his tenth Target Deck.",
-      "aPlain": "In the wetlands near Hamlet. Bret wants one on his tenth Target Deck."
+      "q": "What is the rare alligator in GTA 6?",
+      "a": "The Albino American Alligator. Bret wants one on his tenth Target Deck.",
+      "aPlain": "The Albino American Alligator. Bret wants one on his tenth Target Deck."
     },
     {
       "q": "Are alligators dangerous in GTA 6?",
@@ -141,7 +141,7 @@ The alligator sits on the Hunting tab of the animal log under Progress > Animals
 
 Hunting one is Jason's work. Once his old army friend Bret Vogel brings him into the trade in Chapter 2, carcasses sell at Killtelligence Provisions, Bret's cabin in [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park). The recommended rifle is the Shrewsbury SM-69. One shot to the head or heart keeps the carcass pristine, and pristine pays most. The rest of the trade is under [Hunting](/gameplay/activities/hunting).
 
-**The rare one is white.** An Albino American Alligator turns up in the wetlands near [Hamlet](/gameplay/locations/hamlet). Bret wants it on his tenth Target Deck.
+**The rare one is white.** Bret wants an Albino American Alligator on his tenth Target Deck.
 
 The American crocodile is a different animal with its own log entry. It prefers salt water and keeps to the coast.
 

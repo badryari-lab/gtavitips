@@ -25,7 +25,7 @@ module.exports = [
       ['Baited My Tackle', 'Bronze', `Beat ${L('/gameplay/characters/cal-hampton', 'Cal')} at ${L('/gameplay/activities/fishing', 'fishing')}. Some time after you meet him in Chapter 1, he texts you a spot. Go and win.`],
       ['Stick Fiddler', 'Bronze', `Finish one ${L('/gameplay/activities/games', 'arcade game')}: Tenebrae Lux, Street Trash III or Time Jackers Rewind on the TV at home, or Bang For Your Buck on a cabinet.`],
       ['Personal Best', 'Bronze', `Max out Strength for Jason and Lucia. Take your partner to the gym: training one trains the other. ${L('/faq/does-gta-6-have-a-gym-and-fitness-system', 'The fitness system')}.`],
-      ['Fair Game', 'Bronze', `Hunt a unique animal for Bret. Jason only, from Chapter 2. Which animal does it is still unclear, but working through all 15 Target Decks covers it. ${L('/gameplay/activities/hunting', 'Hunting')}.`],
+      ['Fair Game', 'Bronze', `Hunt one of the unique animals Bret texts you about. Jason only, from Chapter 2. ${L('/gameplay/activities/hunting', 'Hunting')}.`],
       ['Positive Mental Attitude', 'Bronze', `Get the meditation counter to 18. A spot done by both Jason and Lucia counts twice. ${L('/gameplay/collectibles/meditation-spots', 'Every meditation spot')}.`],
       ['This Was No Boat Accident', 'Bronze', `Finish ${L('/gameplay/characters/kenton-rees', 'Kenton')}'s last job. His diving work starts in Chapter 1: seven ${L('/gameplay/collectibles/shipwrecks-and-treasure', 'shipwrecks')} and a metal detector. He leaves for a while, then comes back.`],
       ['Road to Rehabilitation', 'Bronze', `Finish all five jobs for ${L('/faq/gta-6-andy-missions', 'Andy')}. Lucia only, from a call in Chapter 3.`],
