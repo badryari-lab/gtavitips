@@ -9,7 +9,7 @@
     "ogDescription": "Venomous snakes in GTA 6: diamondback, cottonmouth, and coral snake, native to Leonida's woodland and wetland zones.",
     "jsonLdHeadline": "Snake – GTA 6 Animal Profile",
     "jsonLdDescription": "Venomous snakes in GTA 6: diamondback, cottonmouth, and coral snake, native to Leonida's woodland and wetland zones.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-25"
   },
   "heroSubtitle": "The noise before the bite is the only warning. **Sometimes there is no noise.**",
   "statBlock": [
@@ -121,3 +121,5 @@ Florida has more venomous snake species than most continental states. Leonida re
 The rattlesnake gives a warning. The cottonmouth is the one people call the water moccasin; it is aggressive, it does not back down the way most snakes do, and it lives near water, which in Leonida means it is everywhere near the [Grassrivers](/gameplay/locations/grassrivers) margins.
 
 **The coral snake is the reverse of the other two: small, brightly coloured, slow to bite, but carrying venom that acts on the nervous system rather than the tissue.** The player who dismisses it as a colourful small snake makes an expensive error.
+
+Bret's fourth Target Deck asks for an Eastern Diamondback Rattlesnake, and a later deck for a Leonida Cottonmouth. See [Hunting](/gameplay/activities/hunting).

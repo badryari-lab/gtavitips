@@ -135,3 +135,5 @@ The whitetail is the first animal most players hunt. **Bret Vogel takes Jason af
 The herds keep to [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park) and the Abandoned Concrete Plant. Look at woodland and stream edges. Focus lights up their tracks, and the trail changes colour as you close in.
 
 They spook if you get close, so shoot from range with a scoped Shrewsbury SM-69, the rifle the game recommends. One shot to the head or heart keeps the carcass pristine. Bret's first Target Deck asks for a Whitetail Buck and a Whitetail Doe. More under [Hunting](/gameplay/activities/hunting).
+
+The rare one comes later. A later Target Deck asks for a Piebald Whitetail Buck.

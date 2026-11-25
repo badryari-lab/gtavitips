@@ -9,7 +9,7 @@
     "ogDescription": "Where to find the Florida panther in GTA 6: the forests of Mount Kalaga National Park, where it stalks the deer herds. How to spot it safely.",
     "jsonLdHeadline": "Florida Panther – GTA 6 Animal Profile",
     "jsonLdDescription": "Where to find the Florida panther in GTA 6: the forests of Mount Kalaga National Park, where it stalks the deer herds. How to spot it safely.",
-    "dateModified": "2026-11-22",
+    "dateModified": "2026-11-25",
     "ogImage": "https://gtavitips.com/assets/images/mount-kalaga-national-park-gta-6-location-05.jpg"
   },
   "heroSubtitle": "The big cat of Mount Kalaga. **You do not see the Florida Panther coming. It sees you first, from cover, and then it has already decided.**",
@@ -125,3 +125,5 @@ Panthers hunt the high ground of [Mount Kalaga National Park](/gameplay/location
 It does not announce itself. Study it from range: raise the binoculars or a rifle scope, zoom in until Study shows, then hold R1 (RB). Getting close to make sure is how you stop being the hunter.
 
 The park is also Bret Vogel's ground. His cabin, Killtelligence Provisions, sits in the same forest, and hunting there runs through him: see [Hunting](/gameplay/activities/hunting).
+
+Bret's fifth Target Deck wants black fur: a Leonida Black Panther, next to a Black [Fox](/gameplay/animals/fox) and a Northern Black Coyote.

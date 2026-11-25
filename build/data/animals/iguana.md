@@ -9,7 +9,7 @@
     "ogDescription": "Where to find green iguanas in GTA 6: the coast and the Leonida Keys, basking in plain sight, and how to log one for the animal list.",
     "jsonLdHeadline": "Green Iguana – GTA 6 Animal Profile",
     "jsonLdDescription": "Where to find green iguanas in GTA 6: the coast and the Leonida Keys, basking in plain sight, and how to log one for the animal list.",
-    "dateModified": "2026-11-22",
+    "dateModified": "2026-11-25",
     "ogImage": "https://gtavitips.com/assets/images/iguana-gta-6-animal-01.jpg"
   },
   "heroSubtitle": "On the rocks, the roadsides and the palms along the coast. **Not supposed to be here either. Has been here long enough to stop caring about that.**",
@@ -123,3 +123,5 @@
 Green iguanas came from somewhere else and stayed. **They bask on rocks, cross roads and sit in palms along the coast and across the [Leonida Keys](/gameplay/locations/leonida-keys), in no hurry at all.**
 
 That makes them one of the easiest early entries in the animal log. Raise the binoculars or a rifle scope, zoom in until Study shows, then hold R1 (RB). Before you are close, the label just says Lizard; zoom in and it turns into Adult Green Iguana, filed under Reptiles & Amphibians.
+
+Two colour forms are on Bret's later Target Decks: the Blue Axanthic Iguana and the Super Red Iguana. More under [Hunting](/gameplay/activities/hunting).

@@ -99,8 +99,8 @@
     },
     {
       "q": "What animals are in Bret's Target Decks?",
-      "a": "Deck one: a Whitetail Buck and Doe around Mount Kalaga. Deck two: a white Leonida Wild White Tom, an Eastern Spotted Skunk (after about 8 PM) and a wild boar, around Adler Creek, Bonanza and Mount Kalaga. Each finished deck makes Bret text the next.",
-      "aPlain": "Deck one: a Whitetail Buck and Doe around Mount Kalaga. Deck two: a white Leonida Wild White Tom, an Eastern Spotted Skunk (after about 8 PM) and a wild boar, around Adler Creek, Bonanza and Mount Kalaga. Each finished deck makes Bret text the next."
+      "a": "Deck one: a Whitetail Buck and Doe around Mount Kalaga. Deck two: a white Leonida Wild White Tom, an Eastern Spotted Skunk (after about 8 PM) and a wild boar, around Adler Creek, Bonanza and Mount Kalaga. Deck three: a Cane Toad, Nutria and Nile Monitor in West Buckskin Swamp. Deck four: a Golden Fox, Eastern Diamondback Rattlesnake and Nine-Banded Armadillo along the Kelly River. Each finished deck makes Bret text the next.",
+      "aPlain": "Deck one: a Whitetail Buck and Doe around Mount Kalaga. Deck two: a white Leonida Wild White Tom, an Eastern Spotted Skunk (after about 8 PM) and a wild boar, around Adler Creek, Bonanza and Mount Kalaga. Deck three: a Cane Toad, Nutria and Nile Monitor in West Buckskin Swamp. Deck four: a Golden Fox, Eastern Diamondback Rattlesnake and Nine-Banded Armadillo along the Kelly River. Each finished deck makes Bret text the next."
     },
     {
       "q": "Is hunting needed for 100% completion?",
@@ -158,6 +158,10 @@ The first hunt is the lesson. Bret hands over the Killtelligence SM-69, a scoped
 **Then come the orders.** Bret posts fifteen Target Decks, one at a time: finish a deck and he texts the next. Each names two or three animals and marks their ground on the map, under Map > Activities > Target Deck. All fifteen count toward 100%, and they stay open after the story.
 
 The first deck wants a [whitetail](/gameplay/animals/white-tailed-deer) buck and doe, out in [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park) and around the Abandoned Concrete Plant. The second gets pickier: a Leonida Wild White Tom (white feathers only, a brown turkey does not count), an Eastern Spotted [Skunk](/gameplay/animals/skunk) that shows up after about 8 PM, and a [wild boar](/gameplay/animals/boar). That deck's ground is Adler Creek, [Bonanza](/gameplay/locations/bonanza) and Mount Kalaga.
+
+Deck three moves into the swamp: a Cane Toad, a Nutria and a Nile Monitor, with West Buckskin Swamp on the map. Deck four, Rattlesnake Venom and an Armadillo Shell, sends you to the Kelly River for a Golden Fox, an Eastern Diamondback Rattlesnake and a Nine-Banded Armadillo. **The fox has to be the golden one.** A plain red [fox](/gameplay/animals/fox) is just a fox.
+
+Deck five wants black fur: a Leonida Black [Panther](/gameplay/animals/florida-panther), a Black Fox and a Northern Black Coyote. **After that the orders only get rarer.** Later decks ask for a Leonida Cottonmouth, an American Crocodile, a Marsh Rabbit, a Canada Goose, a White River Otter, an albino [raccoon](/gameplay/animals/raccoon), an albino [alligator](/gameplay/animals/american-alligator), a Blue Axanthic and a Super Red [Iguana](/gameplay/animals/iguana), a Piebald Whitetail Buck, a Gulf Coast Box Turtle, a Softshell Turtle, a Leonida Black Bobcat, a Mosaic Mottled [Duck](/gameplay/animals/duck), a Northern Silver Coyote and a Soot-Spotted Cottontail Rabbit.
 
 One shot to the head or heart keeps a carcass pristine. Every extra round knocks the grade down, and Bret takes only Pristine or Good. Small game rides back in your vehicle to his processing area. [Bears](/gameplay/animals/american-black-bear) and [alligators](/gameplay/animals/american-alligator) do not get lifted: send Bret a photo and the location, and he collects. For small game, Ammu-Nation's Hunting stores are the only place that sells the Wortham W-22.
 

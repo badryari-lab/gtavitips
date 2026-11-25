@@ -9,7 +9,7 @@
     "ogDescription": "The Fox in GTA 6: elusive rural and suburban wildlife found at Vice City's suburban edges and rural roadsides.",
     "jsonLdHeadline": "Fox – GTA 6 Animal Profile",
     "jsonLdDescription": "The Fox in GTA 6: elusive rural and suburban wildlife found at Vice City's suburban edges and rural roadsides.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-25"
   },
   "heroSubtitle": "Rural Leonida after dark. You see the eyes first, then the shape, then nothing. **The fox does not wait to find out what you are.**",
   "statBlock": [
@@ -122,3 +122,5 @@ The fox is the least threatening animal that will still make you aware it is the
 It does not attack. It does not hold ground. Any approach within a reasonable distance triggers immediate retreat into cover. The challenge of the fox as a hunt target is not danger, it is patience. You cannot rush the approach.
 
 **The AI behaviour in dense suburban areas** adds to the environmental quality of Leonida's outer Vice City zones. A fox moving through a garden at night is exactly the kind of detail that makes the world feel inhabited.
+
+Bret wants the rare colours. **His fourth Target Deck asks for a Golden Fox, the fifth for a Black Fox.** A plain red fox counts for neither. The full order list is under [Hunting](/gameplay/activities/hunting).

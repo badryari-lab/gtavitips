@@ -9,7 +9,7 @@
     "ogDescription": "Raccoons in GTA 6: where they turn up in Vice City, how to log one, and which rifle keeps the carcass intact if you hunt them.",
     "jsonLdHeadline": "Raccoon – GTA 6 Animal Profile",
     "jsonLdDescription": "Raccoons in GTA 6: where they turn up in Vice City, how to log one, and which rifle keeps the carcass intact if you hunt them.",
-    "dateModified": "2026-11-22"
+    "dateModified": "2026-11-25"
   },
   "heroSubtitle": "[Vice City](/gameplay/locations/vice-city) at night has raccoons in it. **They are in the bins, on the fire escapes, and absolutely certain they belong there.**",
   "statBlock": [
@@ -121,3 +121,5 @@ Raccoons work the bins of [Vice City](/gameplay/locations/vice-city) and the sub
 In the animal log it is the Northern Raccoon, filed on the Hunting tab under Progress > Animals. Raise the binoculars or a rifle scope, zoom in until Study shows, then hold R1 (RB).
 
 Hunting one for Bret Vogel? The game recommends the Wortham W-22, a low-power small-game rifle that does not wreck the carcass. Anything bigger and there is nothing left to sell. See [Hunting](/gameplay/activities/hunting).
+
+Keep an eye out for a white one. A later Target Deck asks for the Northern Albino Raccoon.

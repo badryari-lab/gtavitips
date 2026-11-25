@@ -9,7 +9,7 @@
     "ogDescription": "The Duck in GTA 6: a common freshwater game bird found on Vice City park ponds and Vice County canals.",
     "jsonLdHeadline": "Duck – GTA 6 Animal Profile",
     "jsonLdDescription": "The Duck in GTA 6: a common freshwater game bird found on Vice City park ponds and Vice County canals.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-25"
   },
   "heroSubtitle": "On every pond, lake, and slow river in Leonida. **The duck is the most normal wildlife encounter in the state.**",
   "statBlock": [
@@ -122,3 +122,5 @@ Mallards and related species are everywhere near standing or slow-moving freshwa
 As game birds they are the accessible entry point for hunting mechanics. Not elusive, not dangerous, present in high density near water. **They flush on approach and relocate across the water rather than onto land.**
 
 In urban contexts they have the usual urban-duck relationship with humans: they expect food, they approach on foot if someone is standing near the water, and they are almost completely unafraid of human proximity. That behaviour translates directly into [Vice City](/gameplay/locations/vice-city)'s park pond populations.
+
+One of Bret's later Target Decks asks for a Mosaic Mottled Duck. See [Hunting](/gameplay/activities/hunting).

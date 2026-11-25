@@ -9,7 +9,7 @@
     "ogDescription": "Where to find alligators in GTA 6: the Grassrivers wetlands, the albino gator near Hamlet, and how to study or hunt one without losing an arm.",
     "jsonLdHeadline": "American Alligator – GTA 6 Animal Profile",
     "jsonLdDescription": "Where to find alligators in GTA 6: the Grassrivers wetlands, the albino gator near Hamlet, and how to study or hunt one without losing an arm.",
-    "dateModified": "2026-11-22",
+    "dateModified": "2026-11-25",
     "ogImage": "https://gtavitips.com/assets/images/grassrivers-gta-6-location-01.jpg"
   },
   "heroSubtitle": "At rest it looks like a log. Moving it is faster than the distance suggests. **In the water the gap closes before most players recognise it as a gap.**",
@@ -38,7 +38,7 @@
     {
       "key": "Rare Variant",
       "value": "Albino American Alligator",
-      "sub": "Wetlands near [Hamlet](/gameplay/locations/hamlet). Hunt it for Bret and the Fair Game trophy pops."
+      "sub": "Wetlands near [Hamlet](/gameplay/locations/hamlet). On one of Bret's later Target Decks."
     }
   ],
   "gallery": [
@@ -83,8 +83,8 @@
     },
     {
       "q": "Where is the albino alligator in GTA 6?",
-      "a": "In the wetlands near [Hamlet](/gameplay/locations/hamlet). It counts as a unique animal: hunt it for Bret for the Fair Game trophy.",
-      "aPlain": "In the wetlands near Hamlet. It counts as a unique animal: hunt it for Bret for the Fair Game trophy."
+      "a": "In the wetlands near [Hamlet](/gameplay/locations/hamlet). Bret wants one on a later Target Deck.",
+      "aPlain": "In the wetlands near Hamlet. Bret wants one on a later Target Deck."
     },
     {
       "q": "Are alligators dangerous in GTA 6?",
@@ -141,6 +141,6 @@ The alligator sits on the Hunting tab of the animal log under Progress > Animals
 
 Hunting one is Jason's work. Once his old army friend Bret Vogel brings him into the trade in Chapter 2, carcasses sell at Killtelligence Provisions, Bret's cabin in [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park). The recommended rifle is the Shrewsbury SM-69. One shot to the head or heart keeps the carcass pristine, and pristine pays most. The rest of the trade is under [Hunting](/gameplay/activities/hunting).
 
-**The rare one is white.** An Albino American Alligator turns up in the wetlands near [Hamlet](/gameplay/locations/hamlet). Bag a unique animal like it for Bret and the Fair Game trophy is yours.
+**The rare one is white.** An Albino American Alligator turns up in the wetlands near [Hamlet](/gameplay/locations/hamlet). It is on one of Bret's later Target Decks.
 
 The American crocodile is a different animal with its own log entry. It prefers salt water and keeps to the coast.
