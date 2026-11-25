@@ -9,7 +9,7 @@
     "ogDescription": "The Opossum in GTA 6: a nocturnal scavenger and rural road hazard, foraging roadside and in Vice City suburban gardens.",
     "jsonLdHeadline": "Opossum – GTA 6 Animal Profile",
     "jsonLdDescription": "The Opossum in GTA 6: a nocturnal scavenger and rural road hazard, foraging roadside and in Vice City suburban gardens.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-25"
   },
   "heroSubtitle": "Nocturnal, slow, and completely unbothered. **The opossum has one defence mechanism and it works surprisingly often.**",
   "statBlock": [
@@ -121,3 +121,5 @@ The opossum is North America's only marsupial and one of its most effectively ad
 The "playing dead" behaviour, thanatosis, is involuntary. The opossum does not decide to play dead. It enters an involuntary catatonic state when overwhelmed by threat. It drools, it releases a foul odour, it goes completely limp. Most predators lose interest.
 
 **On Leonida's rural roads it is a persistent night hazard.** Slow movement, poor road awareness, and high nocturnal activity mean rural route driving at speed will encounter opossums regularly. They do not move.
+
+Bret's eighth Target Deck asks for a Gloriana Opossum, next to a [black bear](/gameplay/animals/american-black-bear) and a Spotted Wild Boar. See [Hunting](/gameplay/activities/hunting).

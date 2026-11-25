@@ -124,4 +124,4 @@ Green iguanas came from somewhere else and stayed. **They bask on rocks, cross r
 
 That makes them one of the easiest early entries in the animal log. Raise the binoculars or a rifle scope, zoom in until Study shows, then hold R1 (RB). Before you are close, the label just says Lizard; zoom in and it turns into Adult Green Iguana, filed under Reptiles & Amphibians.
 
-Two colour forms are on Bret's later Target Decks: the Blue Axanthic Iguana and the Super Red Iguana. More under [Hunting](/gameplay/activities/hunting).
+Two colour forms are on Bret's Target Decks: the Blue Axanthic Iguana on deck nine and the Super Red Iguana on deck eleven. More under [Hunting](/gameplay/activities/hunting).

@@ -38,7 +38,7 @@
     {
       "key": "Rare Variant",
       "value": "Albino American Alligator",
-      "sub": "Wetlands near [Hamlet](/gameplay/locations/hamlet). On one of Bret's later Target Decks."
+      "sub": "Wetlands near [Hamlet](/gameplay/locations/hamlet). On Bret's tenth Target Deck."
     }
   ],
   "gallery": [
@@ -83,8 +83,8 @@
     },
     {
       "q": "Where is the albino alligator in GTA 6?",
-      "a": "In the wetlands near [Hamlet](/gameplay/locations/hamlet). Bret wants one on a later Target Deck.",
-      "aPlain": "In the wetlands near Hamlet. Bret wants one on a later Target Deck."
+      "a": "In the wetlands near [Hamlet](/gameplay/locations/hamlet). Bret wants one on his tenth Target Deck.",
+      "aPlain": "In the wetlands near Hamlet. Bret wants one on his tenth Target Deck."
     },
     {
       "q": "Are alligators dangerous in GTA 6?",
@@ -141,6 +141,6 @@ The alligator sits on the Hunting tab of the animal log under Progress > Animals
 
 Hunting one is Jason's work. Once his old army friend Bret Vogel brings him into the trade in Chapter 2, carcasses sell at Killtelligence Provisions, Bret's cabin in [Mount Kalaga National Park](/gameplay/locations/mount-kalaga-national-park). The recommended rifle is the Shrewsbury SM-69. One shot to the head or heart keeps the carcass pristine, and pristine pays most. The rest of the trade is under [Hunting](/gameplay/activities/hunting).
 
-**The rare one is white.** An Albino American Alligator turns up in the wetlands near [Hamlet](/gameplay/locations/hamlet). It is on one of Bret's later Target Decks.
+**The rare one is white.** An Albino American Alligator turns up in the wetlands near [Hamlet](/gameplay/locations/hamlet). Bret wants it on his tenth Target Deck.
 
 The American crocodile is a different animal with its own log entry. It prefers salt water and keeps to the coast.

@@ -122,4 +122,4 @@ The rattlesnake gives a warning. The cottonmouth is the one people call the wate
 
 **The coral snake is the reverse of the other two: small, brightly coloured, slow to bite, but carrying venom that acts on the nervous system rather than the tissue.** The player who dismisses it as a colourful small snake makes an expensive error.
 
-Bret's fourth Target Deck asks for an Eastern Diamondback Rattlesnake, and a later deck for a Leonida Cottonmouth. See [Hunting](/gameplay/activities/hunting).
+Bret's fourth Target Deck asks for an Eastern Diamondback Rattlesnake, and the sixth for a Leonida Cottonmouth. See [Hunting](/gameplay/activities/hunting).

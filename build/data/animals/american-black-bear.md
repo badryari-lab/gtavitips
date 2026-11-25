@@ -120,3 +120,5 @@ Take it with a scoped Shrewsbury SM-69, the rifle the game recommends. One shot 
 One bear is worth the trip on its own. **The Unique Black Bear has dodged the Wildlife Conservation Department for years**, and Bret's sighting puts it south of [Hamlet](/gameplay/locations/hamlet). It counts toward the Legendary Hunter challenge, which wants every unique animal down (Progress > Challenges > Survival).
 
 Not hunting? Raise the binoculars or a rifle scope, zoom in until Study shows, then hold R1 (RB). The bear goes into the animal log under Progress > Animals.
+
+Bret's eighth Target Deck asks for one, next to a Gloriana [Opossum](/gameplay/animals/opossum) and a Spotted Wild Boar.

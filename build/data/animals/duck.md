@@ -123,4 +123,4 @@ As game birds they are the accessible entry point for hunting mechanics. Not elu
 
 In urban contexts they have the usual urban-duck relationship with humans: they expect food, they approach on foot if someone is standing near the water, and they are almost completely unafraid of human proximity. That behaviour translates directly into [Vice City](/gameplay/locations/vice-city)'s park pond populations.
 
-One of Bret's later Target Decks asks for a Mosaic Mottled Duck. See [Hunting](/gameplay/activities/hunting).
+Bret's tenth Target Deck asks for a Mosaic Mottled Duck. See [Hunting](/gameplay/activities/hunting).

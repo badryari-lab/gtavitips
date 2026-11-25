@@ -122,4 +122,4 @@ In the animal log it is the Northern Raccoon, filed on the Hunting tab under Pro
 
 Hunting one for Bret Vogel? The game recommends the Wortham W-22, a low-power small-game rifle that does not wreck the carcass. Anything bigger and there is nothing left to sell. See [Hunting](/gameplay/activities/hunting).
 
-Keep an eye out for a white one. A later Target Deck asks for the Northern Albino Raccoon.
+Keep an eye out for a white one. Bret's seventh Target Deck asks for the Northern Albino Raccoon.
