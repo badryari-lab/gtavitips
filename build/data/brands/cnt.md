@@ -9,7 +9,8 @@
     "ogDescription": "CNT in GTA 6. The cable news rival to Weazel News, running the other version of events across Leonida's airwaves.",
     "jsonLdHeadline": "CNT - GTA 6 Brand Profile",
     "jsonLdDescription": "CNT in GTA 6. The cable news rival to Weazel News. Leonida's second opinion.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Television Network",
   "heroSlogan": "The Other Version of Events.",

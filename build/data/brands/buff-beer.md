@@ -9,7 +9,8 @@
     "ogDescription": "Buff Beer in GTA 6. The gym-to-beach lager of Vice City. Sponsorships at every marina and sports venue.",
     "jsonLdHeadline": "Buff Beer - GTA 6 Brand Profile",
     "jsonLdDescription": "Buff Beer in GTA 6. The gym-to-beach lager of Vice City. Sponsorships at every marina and sports venue.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Beer Industry",
   "heroSlogan": "Built Different. Brewed Different.",

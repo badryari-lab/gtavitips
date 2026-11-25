@@ -9,7 +9,8 @@
     "ogDescription": "AirEmu in GTA 6. The mid-tier airline of Leonida. The emu is on the tail. The service is what it is.",
     "jsonLdHeadline": "AirEmu - GTA 6 Brand Profile",
     "jsonLdDescription": "AirEmu in GTA 6. The mid-tier airline of Leonida. The emu is on the tail. The service is what it is.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Airline Industry",
   "heroSlogan": "We Fly. You Sit.",

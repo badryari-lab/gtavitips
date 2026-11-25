@@ -9,7 +9,8 @@
     "ogDescription": "Chacho's Lasso Fries in GTA 6. Fried-food chain advertised on late-night Leonida TV, cross-promoted with Brownstein's Root Beer.",
     "jsonLdHeadline": "Chacho's Lasso Fries - GTA 6 Brand Profile",
     "jsonLdDescription": "Chacho's Lasso Fries in GTA 6. Fried-food chain advertised on late-night Leonida TV, cross-promoted with Brownstein's Root Beer.",
-    "dateModified": "2026-08-28"
+    "dateModified": "2026-08-28",
+    "noindex": true
   },
   "heroBadge": "Fast Food",
   "heroSlogan": "Round Up the Flavor.",

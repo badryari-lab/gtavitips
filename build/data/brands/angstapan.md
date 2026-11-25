@@ -9,7 +9,8 @@
     "ogDescription": "Angstapan in GTA 6. Fictional antidepressant, advertised on Leonida TV between the shows nobody admits to watching.",
     "jsonLdHeadline": "Angstapan - GTA 6 Brand Profile",
     "jsonLdDescription": "Angstapan in GTA 6. Fictional antidepressant, advertised on Leonida TV between the shows nobody admits to watching.",
-    "dateModified": "2026-08-28"
+    "dateModified": "2026-08-28",
+    "noindex": true
   },
   "heroBadge": "Pharma",
   "heroSlogan": "Feel Like Yourself Again. Sort Of.",

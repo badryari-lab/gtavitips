@@ -9,7 +9,8 @@
     "ogDescription": "Horny's in GTA 6. The Vice City beachfront restaurant chain. The wings are good and the name is intentional.",
     "jsonLdHeadline": "Horny's - GTA 6 Brand Profile",
     "jsonLdDescription": "Horny's in GTA 6. The Vice City beachfront restaurant. The wings are good.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Restaurant Industry",
   "heroSlogan": "Come for the Wings.",

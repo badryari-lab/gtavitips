@@ -63,6 +63,7 @@ function render(entry) {
     description: seo.description,
     ogDescription: seo.ogDescription,
     ogImage: seo.ogImage,
+    noindex: seo.noindex,
     canonical,
     jsonLd: {
       '@context': 'https://schema.org',

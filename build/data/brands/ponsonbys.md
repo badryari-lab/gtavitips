@@ -9,7 +9,8 @@
     "ogDescription": "Ponsonbys in GTA 6. The premium menswear label of Leonida. Where the suit comes from.",
     "jsonLdHeadline": "Ponsonbys - GTA 6 Brand Profile",
     "jsonLdDescription": "Ponsonbys in GTA 6. The premium menswear label of Leonida. Where the suit comes from.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Luxury Fashion Industry",
   "heroSlogan": "Dressed for Whatever This Is.",

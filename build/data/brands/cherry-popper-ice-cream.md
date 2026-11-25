@@ -9,7 +9,8 @@
     "ogDescription": "Cherry Popper Ice Cream in GTA 6. The pink trucks are back. A Vice City institution with a secondary business model.",
     "jsonLdHeadline": "Cherry Popper Ice Cream - GTA 6 Brand Profile",
     "jsonLdDescription": "Cherry Popper Ice Cream in GTA 6. The pink trucks are back. A Vice City institution with a secondary business model.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Food Industry",
   "heroSlogan": "The Sweetest Business in Leonida",

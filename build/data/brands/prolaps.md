@@ -9,7 +9,8 @@
     "ogDescription": "ProLaps in GTA 6. The sports apparel brand of Leonida. The name is a concern. The market share is not.",
     "jsonLdHeadline": "ProLaps - GTA 6 Brand Profile",
     "jsonLdDescription": "ProLaps in GTA 6. The sports apparel brand of Leonida. The name is a concern. The market share is not.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Sports Apparel Industry",
   "heroSlogan": "Performance Wear for Peak Leonida.",

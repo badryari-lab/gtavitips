@@ -9,7 +9,8 @@
     "ogDescription": "OnlyBangs in GTA 6. The adult content platform of Leonida. The Vice City creator economy at its most direct.",
     "jsonLdHeadline": "OnlyBangs - GTA 6 Brand Profile",
     "jsonLdDescription": "OnlyBangs in GTA 6. The adult content platform of Leonida. The Vice City creator economy at its most direct.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Adult Industry",
   "heroSlogan": "Support Your Local Creator.",

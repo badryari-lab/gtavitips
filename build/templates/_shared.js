@@ -176,7 +176,7 @@ const SHARED_CSS = `
     [data-theme="dark"] .nav { background: rgba(11,10,8,.95); }
 `;
 
-function renderHead({ title, description, ogDescription, ogImage, ogImagePlaceholder, canonical, jsonLd, extraCss, fullCss }) {
+function renderHead({ title, description, ogDescription, ogImage, ogImagePlaceholder, canonical, jsonLd, extraCss, fullCss, noindex }) {
   const ogImageLine = ogImage
     ? `\n  <meta property="og:image" content="${ogImage}">`
     : ogImagePlaceholder
@@ -192,7 +192,8 @@ function renderHead({ title, description, ogDescription, ogImage, ogImagePlaceho
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${title}</title>
-  <meta name="description" content="${description}">
+  <meta name="description" content="${description}">${noindex ? `
+  <meta name="robots" content="noindex, follow">` : ''}
   <meta property="og:type" content="article"><meta property="og:title" content="${title}">
   <meta property="og:description" content="${ogDescription}">
   <meta property="og:url" content="${canonical}">${ogImageLine}

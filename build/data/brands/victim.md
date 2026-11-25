@@ -9,7 +9,8 @@
     "ogDescription": "Victim in GTA 6. The dark streetwear label of Vice City. The brand name is the joke and also the target market.",
     "jsonLdHeadline": "Victim - GTA 6 Brand Profile",
     "jsonLdDescription": "Victim in GTA 6. The dark streetwear label of Vice City. The brand name is the joke and also the target market.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Streetwear Industry",
   "heroSlogan": "You Already Know.",

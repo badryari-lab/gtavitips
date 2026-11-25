@@ -9,7 +9,8 @@
     "ogDescription": "Archez in GTA 6. The roast-meat fast food chain on every Leonida strip mall. Parody of real-world Arby's.",
     "jsonLdHeadline": "Archez - GTA 6 Brand Profile",
     "jsonLdDescription": "Archez in GTA 6. The roast-meat fast food chain on every Leonida strip mall. Parody of real-world Arby's.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Fast Food Industry",
   "heroSlogan": "We've Got the Meats, Probably.",

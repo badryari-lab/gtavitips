@@ -9,7 +9,8 @@
     "ogDescription": "Cool Beans in GTA 6. Vice City coffee chain. On every corner. The menu requires prior study.",
     "jsonLdHeadline": "Cool Beans - GTA 6 Brand Profile",
     "jsonLdDescription": "Cool Beans in GTA 6. Vice City coffee chain. On every corner. The menu requires prior study.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Coffee Industry",
   "heroSlogan": "Better Than Whatever You Were Doing Before",

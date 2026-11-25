@@ -9,7 +9,8 @@
     "ogDescription": "Casino Rojo in GTA 6. A fixture on the Vice City skyline, seen in the background of a street scene.",
     "jsonLdHeadline": "Casino Rojo - GTA 6 Brand Profile",
     "jsonLdDescription": "Casino Rojo in GTA 6. A fixture on the Vice City skyline, seen in the background of a street scene.",
-    "dateModified": "2026-08-28"
+    "dateModified": "2026-08-28",
+    "noindex": true
   },
   "heroBadge": "Casino",
   "heroSlogan": "The House Always Wins Rojo.",

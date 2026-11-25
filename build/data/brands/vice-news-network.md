@@ -9,7 +9,8 @@
     "ogDescription": "Vice News Network in GTA 6. The local Vice City news channel. Closer to the story than anyone should be.",
     "jsonLdHeadline": "Vice News Network - GTA 6 Brand Profile",
     "jsonLdDescription": "Vice News Network in GTA 6. The local Vice City news channel. Closer to the story than anyone should be.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "News Industry",
   "heroSlogan": "On the Ground. In the Way.",

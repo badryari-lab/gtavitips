@@ -9,7 +9,8 @@
     "ogDescription": "Debonaire Cigarettes in GTA 6. The premium tobacco brand of Leonida. Vintage advertising.",
     "jsonLdHeadline": "Debonaire Cigarettes - GTA 6 Brand Profile",
     "jsonLdDescription": "Debonaire Cigarettes in GTA 6. The premium tobacco brand of Leonida. Vintage advertising.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Cigarette Industry",
   "heroSlogan": "Smooth. Sophisticated. Still Killing You.",

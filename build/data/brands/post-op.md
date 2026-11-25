@@ -9,7 +9,8 @@
     "ogDescription": "Post OP in GTA 6. The courier and logistics rival to GoPostal. Different vans, same roads.",
     "jsonLdHeadline": "Post OP - GTA 6 Brand Profile",
     "jsonLdDescription": "Post OP in GTA 6. The courier and logistics rival to GoPostal. Different vans, same roads.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Logistics Industry",
   "heroSlogan": "Your Package Is Our Priority. Currently.",

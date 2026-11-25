@@ -9,7 +9,8 @@
     "ogDescription": "Binco in GTA 6. The value clothing chain of Leonida. Where the budget goes first.",
     "jsonLdHeadline": "Binco - GTA 6 Brand Profile",
     "jsonLdDescription": "Binco in GTA 6. The value clothing chain of Leonida. Where the budget goes first.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Retail Clothing Industry",
   "heroSlogan": "Look Like You Tried. Mostly.",

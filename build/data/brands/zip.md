@@ -9,7 +9,8 @@
     "ogDescription": "ZIP in GTA 6. The mid-market clothing retailer of Leonida. Between Binco and the luxury brands.",
     "jsonLdHeadline": "ZIP - GTA 6 Brand Profile",
     "jsonLdDescription": "ZIP in GTA 6. The mid-market clothing retailer of Leonida. Between Binco and the luxury brands.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Retail Clothing Industry",
   "heroSlogan": "Wear It Everywhere.",

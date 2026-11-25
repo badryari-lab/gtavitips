@@ -9,7 +9,8 @@
     "ogDescription": "Tequi-la-la in GTA 6. The Vice City bar institution. The name is the joke, the drinks are real.",
     "jsonLdHeadline": "Tequi-la-la - GTA 6 Brand Profile",
     "jsonLdDescription": "Tequi-la-la in GTA 6. The Vice City bar institution. The name is the joke, the drinks are real.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-02-01",
+    "noindex": true
   },
   "heroBadge": "Bar Industry",
   "heroSlogan": "The Name Said It. The Bar Delivered.",
