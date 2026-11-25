@@ -9,8 +9,7 @@
     "ogDescription": "Adios Airlines in GTA 6. The budget carrier of Leonida. The name says goodbye. The experience proves it.",
     "jsonLdHeadline": "Adios Airlines - GTA 6 Brand Profile",
     "jsonLdDescription": "Adios Airlines in GTA 6. The budget carrier of Leonida. The name says goodbye. The experience proves it.",
-    "dateModified": "2026-02-01",
-    "noindex": true
+    "dateModified": "2026-02-01"
   },
   "heroBadge": "Airline Industry",
   "heroSlogan": "We'll Get You There. Probably.",
