@@ -84,7 +84,7 @@
           "label": "Mule"
         },
         {
-          "url": "/gameplay/vehicles/maibatsu-penumbra",
+          "url": "/gameplay/vehicles/maibatsu-97-penumbra-ff",
           "label": "Penumbra"
         },
         {

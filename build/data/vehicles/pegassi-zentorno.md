@@ -42,10 +42,10 @@
       "desc": "The Italian competition. Grotti versus Pegassi."
     },
     {
-      "url": "/gameplay/vehicles/pegassi-zorrusso",
+      "url": "/gameplay/vehicles/granforma-zorrusso",
       "type": "Supercar",
-      "name": "Pegassi Zorrusso",
-      "desc": "The other Pegassi supercar, the one Randy wants first."
+      "name": "Granforma Zorrusso",
+      "desc": "The supercar Randy wants first, under a Granforma badge."
     },
     {
       "url": "/gameplay/vehicles/pfister-astron",

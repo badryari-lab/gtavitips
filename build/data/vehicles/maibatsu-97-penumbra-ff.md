@@ -1,24 +1,24 @@
 {
-  "slug": "maibatsu-penumbra",
+  "slug": "maibatsu-97-penumbra-ff",
   "titleParts": [
     "Maibatsu",
-    "Penumbra"
+    "'97 Penumbra FF"
   ],
   "seo": {
-    "title": "Maibatsu Penumbra | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Maibatsu Penumbra in GTA 6. Mitsubishi Eclipse profile. The Japanese sports coupe in Vice City.",
-    "ogDescription": "Maibatsu Penumbra in GTA 6. Mitsubishi Eclipse profile. The Japanese sports coupe in Vice City.",
-    "ogImagePlaceholder": "maibatsu-penumbra-gta-6-vehicle.jpg",
-    "jsonLdHeadline": "Maibatsu Penumbra - GTA 6 Vehicle",
-    "jsonLdDescription": "The Maibatsu Penumbra is a sports coupe in GTA 6 Leonida. Based on the Mitsubishi Eclipse.",
-    "dateModified": "2026-11-20"
+    "title": "Maibatsu '97 Penumbra FF | GTA 6 Vehicle | GTAVITIPS",
+    "description": "Maibatsu '97 Penumbra FF in GTA 6, also listed as the Maibatsu Penumbra. Mitsubishi Eclipse profile. The Japanese sports coupe in Vice City.",
+    "ogDescription": "Maibatsu '97 Penumbra FF in GTA 6, also listed as the Maibatsu Penumbra. Mitsubishi Eclipse profile. The Japanese sports coupe in Vice City.",
+    "ogImagePlaceholder": "maibatsu-97-penumbra-ff-gta-6-vehicle.jpg",
+    "jsonLdHeadline": "Maibatsu '97 Penumbra FF - GTA 6 Vehicle",
+    "jsonLdDescription": "Maibatsu '97 Penumbra FF in GTA 6, also listed as the Maibatsu Penumbra. Mitsubishi Eclipse profile. The Japanese sports coupe in Vice City.",
+    "dateModified": "2026-11-27"
   },
   "heroSubtitle": "The Mitsubishi Eclipse of Leonida. **Front-wheel drive sports coupe aesthetic with the turbo option that makes the [Vice City](/gameplay/locations/vice-city) sport compact culture take it seriously.**",
   "statBlock": [
     {
       "key": "Brand",
       "value": "Maibatsu",
-      "sub": "GTA's Mitsubishi equivalent. The Penumbra is the sports coupe in the Maibatsu range."
+      "sub": "GTA's Mitsubishi equivalent. The '97 Penumbra FF is the sports coupe in the Maibatsu range."
     },
     {
       "key": "Real-World Counterpart",
@@ -104,3 +104,5 @@ The Penumbra is the sports coupe that the Vice City tuner scene runs its mytholo
 The turbo version of the Penumbra is the relevant specification for Vice City's import car culture. The front-wheel drive of the base model is the starting point. The aftermarket adds the turbo, the suspension work, and the body modifications that the car's profile supports.
 
 In Vice City's street car scene the Penumbra occupies the entry tier of the Japanese performance culture: accessible enough for the Vice City driver who cannot yet afford the Sultan RS, meaningful enough to be a genuine starting point.
+
+[Lucia](/gameplay/characters/lucia-caminos) keeps one of her own, and it is hers in name too: Lucia's '97 Penumbra FF.

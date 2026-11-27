@@ -206,11 +206,14 @@
 # --- Story hub (Nov 21 2026): /story/missions has no page of its own ---
 /story/missions                           /story                                    301
 
+# --- Mission renames (Nov 27 2026): in-game mission names, read from the pause menu ---
+/story/missions/steal-the-zorrusso-for-randy /story/missions/clonin-keys-makin-gs        301
+
 # --- Post-launch renames (Nov 22 2026): in-game vehicle names ---
 /gameplay/vehicles/grotti-furia                   /gameplay/vehicles/piccia-furia                     301
 /gameplay/vehicles/enus-jubilee                   /gameplay/vehicles/buckingham-jubilee               301
 /gameplay/vehicles/gallivanter-baller-st          /gameplay/vehicles/gallivanter-baller-st-d          301
-/gameplay/vehicles/pegassi-zurrusso               /gameplay/vehicles/pegassi-zorrusso                 301
+/gameplay/vehicles/pegassi-zurrusso               /gameplay/vehicles/granforma-zorrusso               301
 
 # --- Post-launch renames (Nov 22 2026): in-game gang names ---
 /gameplay/gangs-and-factions/outlaw-motorcycle-gang /gameplay/gangs-and-factions/final-chapter          301
@@ -219,6 +222,11 @@
 # --- Post-launch renames (Nov 22 2026): in-game brand names ---
 /gameplay/brands/global-oil                       /gameplay/brands/globe-oil                          301
 /gameplay/brands/one-eyes-willies                 /gameplay/brands/one-eyed-willies                   301
+
+# --- Post-launch renames (Nov 27 2026): in-game vehicle names ---
+/gameplay/vehicles/pegassi-zorrusso               /gameplay/vehicles/granforma-zorrusso               301
+/gameplay/vehicles/maibatsu-penumbra              /gameplay/vehicles/maibatsu-97-penumbra-ff          301
+/gameplay/vehicles/speedophile-seashark           /gameplay/vehicles/seashark-hydroblast              301
 
 # --- Dynamic (splat) rules: keep at the very bottom. Cloudflare counts every rule after the first dynamic one as dynamic (limit 100). ---
 /gameplay/character/*                     /gameplay/characters/:splat               301

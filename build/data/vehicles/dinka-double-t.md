@@ -42,10 +42,10 @@
       "desc": "The Kawasaki alternative."
     },
     {
-      "url": "/gameplay/vehicles/pegassi-zorrusso",
+      "url": "/gameplay/vehicles/granforma-zorrusso",
       "type": "Supercar",
-      "name": "Pegassi Zorrusso",
-      "desc": "The Pegassi supercar. Two more wheels, same hurry."
+      "name": "Granforma Zorrusso",
+      "desc": "A Granforma supercar. Two more wheels, same hurry."
     },
     {
       "url": "/gameplay/vehicles/western-nightblade",

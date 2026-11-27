@@ -47,7 +47,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -77,7 +77,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/brands</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -239,7 +239,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/news/vehicle-roster-vice-city</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -563,13 +563,13 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/characters/jason-duval</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/characters/lucia-caminos</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -929,7 +929,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/locations/ocean-beach</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1103,13 +1103,13 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/pegassi-zentorno</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/vehicles/pegassi-zorrusso</loc>
-    <lastmod>2026-11-22</lastmod>
+    <loc>https://gtavitips.com/gameplay/vehicles/granforma-zorrusso</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1349,7 +1349,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/dinka-double-t</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1360,8 +1360,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/vehicles/maibatsu-penumbra</loc>
-    <lastmod>2026-11-21</lastmod>
+    <loc>https://gtavitips.com/gameplay/vehicles/maibatsu-97-penumbra-ff</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1391,7 +1391,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/vehicles/nagasaki-carbon-rs</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1492,8 +1492,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/gameplay/vehicles/speedophile-seashark</loc>
-    <lastmod>2026-11-21</lastmod>
+    <loc>https://gtavitips.com/gameplay/vehicles/seashark-hydroblast</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2227,6 +2227,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://gtavitips.com/gameplay/brands/granforma</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://gtavitips.com/gameplay/brands/grotti</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -2252,7 +2258,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/brands/maibatsu</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -2282,7 +2288,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/gameplay/brands/pegassi</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -2564,7 +2570,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/story</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2780,163 +2786,163 @@
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/welcome-to-vice-city</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/dealers-choice</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/meet-the-heders</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/dubious-provenance</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/mami-knows-best</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/south-leonida-real-estate</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/tyrone</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/here-kitty-kitty</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/kitty-litter-labs</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/car-service</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/top-billing</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/boobie-time</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/first-impressions</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/caught-slipping</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/crosstown-traffic</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/credit-check</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gtavitips.com/story/missions/steal-the-zorrusso-for-randy</loc>
-    <lastmod>2026-11-21</lastmod>
+    <loc>https://gtavitips.com/story/missions/clonin-keys-makin-gs</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/sinfrontera-national-bank</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/security-expert</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/ride-or-die</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/company-property</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/the-missing-link</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/safe-word</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/cooties</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/bricked-up</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/hidden-charges</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gtavitips.com/story/missions/the-cartel-heist</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3284,7 +3290,7 @@
   </url>
   <url>
     <loc>https://gtavitips.com/faq/how-to-get-the-key-cloner-in-gta-6</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

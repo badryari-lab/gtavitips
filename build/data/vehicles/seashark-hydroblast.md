@@ -1,23 +1,23 @@
 {
-  "slug": "speedophile-seashark",
+  "slug": "seashark-hydroblast",
   "titleParts": [
-    "Speedophile",
-    "Seashark"
+    "Seashark",
+    "Hydroblast"
   ],
   "seo": {
-    "title": "Speedophile Seashark | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Speedophile Seashark in GTA 6. Personal watercraft / jet ski. The Vice City beach and Keys water toy.",
-    "ogDescription": "Speedophile Seashark in GTA 6. Personal watercraft / jet ski. The Vice City beach and Keys water toy.",
-    "jsonLdHeadline": "Speedophile Seashark - GTA 6 Vehicle",
-    "jsonLdDescription": "The Speedophile Seashark is a personal watercraft in GTA 6 Leonida. Jet ski for Vice City beach and Keys.",
-    "dateModified": "2026-02-01"
+    "title": "Seashark Hydroblast | GTA 6 Vehicle | GTAVITIPS",
+    "description": "Seashark Hydroblast in GTA 6, also listed as the Seashark. Personal watercraft / jet ski. The Vice City beach and Keys water toy.",
+    "ogDescription": "Seashark Hydroblast in GTA 6, also listed as the Seashark. Personal watercraft / jet ski. The Vice City beach and Keys water toy.",
+    "jsonLdHeadline": "Seashark Hydroblast - GTA 6 Vehicle",
+    "jsonLdDescription": "The Seashark Hydroblast is a personal watercraft in GTA 6 Leonida. Jet ski for Vice City beach and Keys.",
+    "dateModified": "2026-11-27"
   },
   "heroSubtitle": "The jet ski. **The [Vice City](/gameplay/locations/vice-city) beachfront rental, the [Keys](/gameplay/locations/leonida-keys) tourist activity, and the watercraft that needs no dock, no slip, and no experience to operate at speed.**",
   "statBlock": [
     {
       "key": "Brand",
-      "value": "Speedophile",
-      "sub": "GTA's Kawasaki/Yamaha PWC equivalent. The Seashark is the personal watercraft in the Speedophile range."
+      "value": "Seashark",
+      "sub": "Seashark builds it. The shark on the badge says the rest."
     },
     {
       "key": "Real-World Counterpart",

@@ -1,24 +1,24 @@
 {
-  "slug": "pegassi-zorrusso",
+  "slug": "granforma-zorrusso",
   "titleParts": [
-    "Pegassi",
+    "Granforma",
     "Zorrusso"
   ],
   "seo": {
-    "title": "Pegassi Zorrusso Location | GTA 6 Vehicle | GTAVITIPS",
-    "description": "Pegassi Zorrusso in GTA 6: the supercar behind Randy's first job, where it is parked in Ocean Beach and how to beat its tracker.",
-    "ogDescription": "Pegassi Zorrusso in GTA 6: the supercar behind Randy's first job, where it is parked in Ocean Beach and how to beat its tracker.",
-    "ogImagePlaceholder": "pegassi-zorrusso-gta-6-vehicle.jpg",
-    "jsonLdHeadline": "Pegassi Zorrusso - GTA 6 Vehicle",
-    "jsonLdDescription": "Pegassi Zorrusso in GTA 6: the supercar behind Randy's first job, where it is parked in Ocean Beach and how to beat its tracker.",
-    "dateModified": "2026-11-22"
+    "title": "Granforma Zorrusso Location | GTA 6 Vehicle | GTAVITIPS",
+    "description": "Granforma Zorrusso in GTA 6: the supercar behind Randy's first job, where it is parked in Ocean Beach and how to beat its tracker.",
+    "ogDescription": "Granforma Zorrusso in GTA 6: the supercar behind Randy's first job, where it is parked in Ocean Beach and how to beat its tracker.",
+    "ogImagePlaceholder": "granforma-zorrusso-gta-6-vehicle.jpg",
+    "jsonLdHeadline": "Granforma Zorrusso - GTA 6 Vehicle",
+    "jsonLdDescription": "Granforma Zorrusso in GTA 6: the supercar behind Randy's first job, where it is parked in Ocean Beach and how to beat its tracker.",
+    "dateModified": "2026-11-27"
   },
-  "heroSubtitle": "Italian supercar, low and wide. **The first car Randy Kozlov sends you to steal, and the one that teaches you how his business works.**",
+  "heroSubtitle": "Supercar, low and wide. **The first car Randy Kozlov sends you to steal, and the one that teaches you how his business works.**",
   "statBlock": [
     {
       "key": "Brand",
-      "value": "Pegassi",
-      "sub": "GTA's Lamborghini. The Zorrusso is one of its supercars."
+      "value": "Granforma",
+      "sub": "The badge on the nose. Nobody in Leonida mistakes it for anything else."
     },
     {
       "key": "Real-World Counterpart",
@@ -44,7 +44,7 @@
       "url": "/gameplay/vehicles/pegassi-zentorno",
       "type": "Hypercar",
       "name": "Pegassi Zentorno",
-      "desc": "The other Pegassi with a wedge for a nose."
+      "desc": "Another wedge-nosed supercar, under a Pegassi badge."
     },
     {
       "url": "/gameplay/vehicles/bravado-banshee",
@@ -59,10 +59,10 @@
       "desc": "Where the Zorrusso waits in an apartment garage."
     },
     {
-      "url": "/gameplay/brands/pegassi",
+      "url": "/gameplay/brands/granforma",
       "type": "Brand",
-      "name": "Pegassi",
-      "desc": "The manufacturer."
+      "name": "Granforma",
+      "desc": "The maker behind the badge."
     }
   ],
   "sidebarDatabase": [
@@ -99,7 +99,7 @@
   ]
 }
 ---
-The Zorrusso is a Pegassi supercar on the Italdesign Zerouno formula: a wedge nose, a long tail and the engine right behind your head. **It looks fast parked, which is the point.**
+The Zorrusso is a Granforma supercar on the Italdesign Zerouno formula: a wedge nose, a long tail and the engine right behind your head. **It looks fast parked, which is the point.**
 
 It is also the car that opens Randy Kozlov's business. In Chapter 3 Randy has a buyer for a Zorrusso and a new toy to get it with: the Key Cloner, a phone app that copies a car's key.
 

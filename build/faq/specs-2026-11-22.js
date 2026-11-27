@@ -144,7 +144,7 @@ module.exports = [
   slug: 'how-to-get-the-key-cloner-in-gta-6', q: 'How Do You Get the Key Cloner in GTA 6?', h1: 'How to Get the Key Cloner in GTA 6',
   desc: 'Randy puts the Key Cloner on your phone halfway through Chapter 3. You cannot get it earlier. How cloning works and why keyless cars carry trackers.',
   source: G,
-  answer: [`<strong>Randy gives it to you in Chapter 3.</strong> Roughly halfway through the chapter, Randy, a dealer who moves high-end cars, sends you after a ${L('/gameplay/vehicles/pegassi-zorrusso', 'Pegassi Zorrusso')} and has you install the Key Cloner on your phone. It is a story unlock. No side route gets it to you any earlier.`,
+  answer: [`<strong>Randy gives it to you in Chapter 3.</strong> Roughly halfway through the chapter, Randy, a dealer who moves high-end cars, sends you after a ${L('/gameplay/vehicles/granforma-zorrusso', 'Granforma Zorrusso')} and has you install the Key Cloner on your phone. It is a story unlock. No side route gets it to you any earlier.`,
     `Once it is installed, walk up to the driver's door of a keyless car and press Triangle/Y. Turn the right stick until you find the sweet spot (the bar goes pink and the controller rumbles), then hold it there until the key is cloned. No alarm, no smashed glass, and it works for both Jason and Lucia.`],
   related: [
     { q: 'How do you know if a car needs the Key Cloner?', html: 'Scan it with WAiNK first. Hold D-pad Up and point the phone at the car: it shows whether it needs a cloned key and what tracker it carries. Keyless cars cannot be hotwired.', source: 'in-game WAiNK scans' },
@@ -153,7 +153,7 @@ module.exports = [
   ],
   more: ['how-to-steal-and-sell-cars-in-gta-6', 'fastest-car-in-gta-6', 'how-to-summon-your-car-in-gta-6'],
   card: { label: 'Key Cloner', big: 'Chapter 3', sub: 'From Randy, a story unlock' },
-  intel: [OUT, ['/gameplay/vehicles/pegassi-zorrusso', 'Pegassi Zorrusso']],
+  intel: [OUT, ['/gameplay/vehicles/granforma-zorrusso', 'Granforma Zorrusso']],
   index: { section: 'gameplay', q: 'How do you get the Key Cloner in GTA 6?', short: 'Randy installs it on your phone roughly halfway through Chapter 3, as a story unlock. Press Triangle/Y at the driver\'s door of a keyless car and turn the right stick to the sweet spot to clone the key.' },
 },
 {

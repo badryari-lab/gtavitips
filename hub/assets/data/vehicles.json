@@ -90,10 +90,10 @@
           "desc": "AWD rally-spec. Wide-body, roll cage, anti-lag exhaust."
         },
         {
-          "url": "/gameplay/vehicles/maibatsu-penumbra",
+          "url": "/gameplay/vehicles/maibatsu-97-penumbra-ff",
           "label": "Sports",
           "color": "#c084fc",
-          "name": "Maibatsu Penumbra",
+          "name": "Maibatsu '97 Penumbra FF",
           "desc": "Japanese sports coupe. Tuner-friendly."
         },
         {
@@ -125,10 +125,10 @@
           "desc": "Geometric bodywork. Aggressive AWD. Vice City apex predator on tarmac."
         },
         {
-          "url": "/gameplay/vehicles/pegassi-zorrusso",
+          "url": "/gameplay/vehicles/granforma-zorrusso",
           "label": "Super",
           "color": "#ff8042",
-          "name": "Pegassi Zorrusso",
+          "name": "Granforma Zorrusso",
           "desc": "The supercar behind Randy's first job."
         },
         {
@@ -622,10 +622,10 @@
           "desc": "Amphibious helicopter."
         },
         {
-          "url": "/gameplay/vehicles/speedophile-seashark",
+          "url": "/gameplay/vehicles/seashark-hydroblast",
           "label": "Boat",
           "color": "#0284c7",
-          "name": "Seashark",
+          "name": "Seashark Hydroblast",
           "desc": "Jet ski. Keys and coastline."
         },
         {

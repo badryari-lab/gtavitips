@@ -42,10 +42,10 @@
       "desc": "The Honda/Kawasaki equivalent."
     },
     {
-      "url": "/gameplay/vehicles/pegassi-zorrusso",
+      "url": "/gameplay/vehicles/granforma-zorrusso",
       "type": "Supercar",
-      "name": "Pegassi Zorrusso",
-      "desc": "A Pegassi supercar, not a bike. Randy's first job."
+      "name": "Granforma Zorrusso",
+      "desc": "A Granforma supercar, not a bike. Randy's first job."
     },
     {
       "url": "/gameplay/brands/nagasaki",

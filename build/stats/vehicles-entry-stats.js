@@ -4,7 +4,7 @@
 const fs = require('fs'), path = require('path');
 const DRY = process.argv.includes('--dry');
 const rows = JSON.parse(fs.readFileSync(path.join(__dirname, 'vehicles-ign.json'), 'utf8'));
-const MAP = { 'albany-buccaneer': '65 Buccaneer', 'annis-hellion': '95 Hellion', 'pfister-astron': 'Astron', 'imponte-ruiner': '82 Ruiner', 'declasse-tulip': '72 Tulip', 'karin-futo': '85 Futo', 'karin-rebel': '84 Rebel', 'maibatsu-penumbra': '97 Penumbra FF', 'grotti-cheetah': '95 Cheetah', 'dinka-blista-compact': '85 Blista', 'jobuilt-phantom': '81 Phantom Custom', 'declasse-bobcat-xl': '84 Bobcat XL', 'dundreary-chino': '65 Chino', 'interstate-benson': '97 Benson' };
+const MAP = { 'albany-buccaneer': '65 Buccaneer', 'annis-hellion': '95 Hellion', 'pfister-astron': 'Astron', 'imponte-ruiner': '82 Ruiner', 'declasse-tulip': '72 Tulip', 'karin-futo': '85 Futo', 'karin-rebel': '84 Rebel', 'maibatsu-97-penumbra-ff': '97 Penumbra FF', 'grotti-cheetah': '95 Cheetah', 'dinka-blista-compact': '85 Blista', 'jobuilt-phantom': '81 Phantom Custom', 'declasse-bobcat-xl': '84 Bobcat XL', 'dundreary-chino': '65 Chino', 'interstate-benson': '97 Benson' };
 const f1 = v => parseFloat(v).toFixed(1);
 const money = v => '$' + Number(String(v).replace(/,/g, '')).toLocaleString('en-US');
 const log = [];

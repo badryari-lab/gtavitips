@@ -81,10 +81,10 @@
       "avatarInitials": "YC"
     },
     {
-      "url": "/gameplay/vehicles/speedophile-seashark",
-      "name": "Speedophile Seashark",
+      "url": "/gameplay/vehicles/seashark-hydroblast",
+      "name": "Seashark Hydroblast",
       "desc": "What you chase the thieves on.",
-      "avatarInitials": "SS"
+      "avatarInitials": "SH"
     },
     {
       "url": "/gameplay/locations/jack-of-hearts",

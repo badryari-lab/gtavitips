@@ -9,7 +9,7 @@
     "ogDescription": "Pegassi in GTA 6: the Italian exotic manufacturer behind the Zentorno, the loudest thing on the Vice City waterfront.",
     "jsonLdHeadline": "Pegassi - GTA 6 Brand Profile",
     "jsonLdDescription": "Pegassi in GTA 6: the Italian exotic manufacturer behind the Zentorno, the loudest thing on the Vice City waterfront.",
-    "dateModified": "2026-02-01"
+    "dateModified": "2026-11-27"
   },
   "heroBadge": "Vehicle Manufacturer",
   "heroSlogan": "Chaos on Wheels.",
@@ -86,10 +86,6 @@
         {
           "url": "/gameplay/vehicles/pegassi-zentorno",
           "label": "Zentorno"
-        },
-        {
-          "url": "/gameplay/vehicles/pegassi-zorrusso",
-          "label": "Zorrusso"
         }
       ]
     },

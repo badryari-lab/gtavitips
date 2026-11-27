@@ -293,6 +293,13 @@
           "desc": "Land Rover equivalent. Luxury SUVs. Off-road capability, zero off-road use."
         },
         {
+          "url": "/gameplay/brands/granforma",
+          "label": "Manufacturer",
+          "color": "#ff8042",
+          "name": "Granforma",
+          "desc": "The badge on the Zorrusso supercar."
+        },
+        {
           "url": "/gameplay/brands/grotti",
           "label": "Manufacturer",
           "color": "#ff8042",

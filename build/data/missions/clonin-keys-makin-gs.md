@@ -1,9 +1,9 @@
 {
-  "slug": "steal-the-zorrusso-for-randy",
-  "name": "Steal the Zorrusso for Randy",
+  "slug": "clonin-keys-makin-gs",
+  "name": "Clonin' Keys, Makin' Gs",
   "titleParts": [
-    "Steal the Zorrusso ",
-    "for Randy"
+    "Clonin' Keys, ",
+    "Makin' Gs"
   ],
   "chapter": 3,
   "order": 52,
@@ -11,9 +11,9 @@
   "location": "Ocean Beach",
   "cardDesc": "Clone the key on a supercar in Ocean Beach and drive it to Randy fast.",
   "seo": {
-    "title": "Steal the Zorrusso for Randy | GTA 6 Mission Walkthrough | GTAVITIPS",
-    "description": "Steal the Zorrusso for Randy in GTA 6: install the Key Cloner, lift a supercar in Ocean Beach and beat its tracker. Reward, clean car bonus and video.",
-    "dateModified": "2026-11-21"
+    "title": "Clonin' Keys, Makin' Gs | GTA 6 Mission Walkthrough | GTAVITIPS",
+    "description": "Clonin' Keys, Makin' Gs in GTA 6: install the Key Cloner, steal the Zorrusso for Randy in Ocean Beach and beat its tracker. Reward, bonus and video.",
+    "dateModified": "2026-11-27"
   },
   "heroSubtitle": "Chapter 3. Jason or Lucia, in a parking garage in [Ocean Beach](/gameplay/locations/ocean-beach).",
   "statBlock": [
@@ -68,7 +68,7 @@
   ],
   "walkthrough": {
     "youtubeId": "to6jnUzXggY",
-    "title": "Steal the Zorrusso for Randy walkthrough",
+    "title": "Clonin' Keys, Makin' Gs walkthrough",
     "creator": "Open GAMING - The OGs",
     "channelUrl": "https://www.youtube.com/@opengamingtheogs"
   },
@@ -92,10 +92,10 @@
       "avatarInitials": "OB"
     },
     {
-      "url": "/gameplay/brands/pegassi",
-      "name": "Pegassi",
-      "desc": "The kind of high-end metal the Key Cloner opens.",
-      "avatarInitials": "PE"
+      "url": "/gameplay/vehicles/granforma-zorrusso",
+      "name": "Granforma Zorrusso",
+      "desc": "The car Randy has a buyer for.",
+      "avatarInitials": "GZ"
     }
   ]
 }
